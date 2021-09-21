@@ -4,9 +4,12 @@
 name: Gradle Package
 
 on:
-  release:
-    types: [created]
-
+  push:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Demarrage a 23h30 chaque jour
+    - cron:  '30 23 * * *'
+    
 jobs:
   build:
 
