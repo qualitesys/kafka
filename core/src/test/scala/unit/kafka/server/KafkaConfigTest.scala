@@ -768,6 +768,20 @@ class KafkaConfigTest {
         case KafkaConfig.SaslLoginRefreshWindowJitterProp =>
         case KafkaConfig.SaslLoginRefreshMinPeriodSecondsProp =>
         case KafkaConfig.SaslLoginRefreshBufferSecondsProp =>
+        case KafkaConfig.SaslLoginConnectTimeoutMsProp =>
+        case KafkaConfig.SaslLoginReadTimeoutMsProp =>
+        case KafkaConfig.SaslLoginRetryBackoffMaxMsProp =>
+        case KafkaConfig.SaslLoginRetryBackoffMsProp =>
+        case KafkaConfig.SaslOAuthBearerScopeClaimNameProp =>
+        case KafkaConfig.SaslOAuthBearerSubClaimNameProp =>
+        case KafkaConfig.SaslOAuthBearerTokenEndpointUrlProp =>
+        case KafkaConfig.SaslOAuthBearerJwksEndpointUrlProp =>
+        case KafkaConfig.SaslOAuthBearerJwksEndpointRefreshMsProp =>
+        case KafkaConfig.SaslOAuthBearerJwksEndpointRetryBackoffMaxMsProp =>
+        case KafkaConfig.SaslOAuthBearerJwksEndpointRetryBackoffMsProp =>
+        case KafkaConfig.SaslOAuthBearerClockSkewSecondsProp =>
+        case KafkaConfig.SaslOAuthBearerExpectedAudienceProp =>
+        case KafkaConfig.SaslOAuthBearerExpectedIssuerProp =>
 
         // Security config
         case KafkaConfig.securityProviderClassProp =>
@@ -1306,5 +1320,14 @@ class KafkaConfigTest {
     val originals = config.originals()
     assertEquals("3", originals.get(KafkaConfig.BrokerIdProp))
     assertEquals("3", originals.get(KafkaConfig.NodeIdProp))
+  }
+
+  @Test
+  def testSaslJwksEndpointRetryDefaults(): Unit = {
+    val props = new Properties()
+    props.put(KafkaConfig.ZkConnectProp, "localhost:2181")
+    val config = KafkaConfig.fromProps(props)
+    assertNotNull(config.getLong(KafkaConfig.SaslOAuthBearerJwksEndpointRetryBackoffMsProp))
+    assertNotNull(config.getLong(KafkaConfig.SaslOAuthBearerJwksEndpointRetryBackoffMaxMsProp))
   }
 }
