@@ -40,7 +40,7 @@ import org.apache.kafka.connect.errors.RetriableException;
 import org.apache.kafka.connect.header.ConnectHeaders;
 import org.apache.kafka.connect.header.Headers;
 import org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup;
-import org.apache.kafka.connect.runtime.distributed.ClusterConfigState;
+import org.apache.kafka.connect.storage.ClusterConfigState;
 import org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator;
 import org.apache.kafka.connect.runtime.errors.Stage;
 import org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter;
@@ -82,11 +82,11 @@ class WorkerSinkTask extends WorkerTask {
     private final TransformationChain<SinkRecord> transformationChain;
     private final SinkTaskMetricsGroup sinkTaskMetricsGroup;
     private final boolean isTopicTrackingEnabled;
-    private KafkaConsumer<byte[], byte[]> consumer;
+    private final KafkaConsumer<byte[], byte[]> consumer;
     private WorkerSinkTaskContext context;
     private final List<SinkRecord> messageBatch;
-    private Map<TopicPartition, OffsetAndMetadata> lastCommittedOffsets;
-    private Map<TopicPartition, OffsetAndMetadata> currentOffsets;
+    private final Map<TopicPartition, OffsetAndMetadata> lastCommittedOffsets;
+    private final Map<TopicPartition, OffsetAndMetadata> currentOffsets;
     private final Map<TopicPartition, OffsetAndMetadata> origOffsets;
     private RuntimeException rebalanceException;
     private long nextCommit;
@@ -274,8 +274,9 @@ class WorkerSinkTask extends WorkerTask {
                 log.debug("{} Finished offset commit successfully in {} ms for sequence number {}: {}",
                         this, durationMillis, seqno, committedOffsets);
                 if (committedOffsets != null) {
-                    log.debug("{} Setting last committed offsets to {}", this, committedOffsets);
-                    lastCommittedOffsets = committedOffsets;
+                    log.trace("{} Adding to last committed offsets: {}", this, committedOffsets);
+                    lastCommittedOffsets.putAll(committedOffsets);
+                    log.debug("{} Last committed offsets are now {}", this, committedOffsets);
                     sinkTaskMetricsGroup.recordCommittedOffsets(committedOffsets);
                 }
                 commitFailures = 0;
@@ -651,9 +652,10 @@ class WorkerSinkTask extends WorkerTask {
                 workerErrantRecordReporter.cancelFutures(topicPartitions);
                 log.trace("Cancelled all reported errors for {}", topicPartitions);
             }
-            topicPartitions.forEach(currentOffsets::remove);
+            currentOffsets.keySet().removeAll(topicPartitions);
         }
         updatePartitionCount();
+        lastCommittedOffsets.keySet().removeAll(topicPartitions);
     }
 
     private void updatePartitionCount() {
@@ -892,10 +894,8 @@ class WorkerSinkTask extends WorkerTask {
         }
 
         void clearOffsets(Collection<TopicPartition> topicPartitions) {
-            topicPartitions.forEach(tp -> {
-                consumedOffsets.remove(tp);
-                committedOffsets.remove(tp);
-            });
+            consumedOffsets.keySet().removeAll(topicPartitions);
+            committedOffsets.keySet().removeAll(topicPartitions);
             computeSinkRecordLag();
         }
 
