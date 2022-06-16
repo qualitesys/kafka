@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java 7 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java 12 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,67 +40,109 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#14"
+   "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#20"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00020] For method filterStates arguments Collection&lt;TransactionState &gt;  states"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00026] For method filterProducerIds arguments Collection&lt;Long &gt;  producerIdFilters"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class LogDirDescription contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  'ListTransactionsOptions(' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  'filteredStates=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  ', filteredProducerIds=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  ', timeoutMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#51"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00051] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#53"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN166121 the MagicNumber/String  'LogDirDescription(' should be converted to const"
+ , "c3" : "QC-JAV000021[00053] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#54"
+   "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN166121 the MagicNumber/String  'replicaInfos=' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN167991 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#55"
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN166121 the MagicNumber/String  ', error=' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN167991 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#56"
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN166121 the MagicNumber/String  ', totalBytes=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN166121 the MagicNumber/String  ', usableBytes=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN166121 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN167991 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

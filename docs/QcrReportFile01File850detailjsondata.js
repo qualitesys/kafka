@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java 27 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -46,26 +46,215 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "22"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00004"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html#4"
+   "c1" : "00013"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00004] The class ByteArrayDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00013] The class TokenInformation contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00007"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html#7"
+   "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00007] For method deserialize arguments String  topic|byte[]  data"
+ , "c3" : "QC-JAV000006[00060] For method setExpiryTimestamp arguments long  expiryTimestamp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00072] For method ownerOrRenewer arguments KafkaPrincipal  principal"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  'TokenInformation{' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  'owner=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  ', renewers=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  ', issueTimestamp=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  ', maxTimestamp=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  ', expiryTimestamp=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  ', tokenId='' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.security.token.delegation.TokenInformation.toString@POLYN168432 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#89"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00089] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00093] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.security.token.delegation.TokenInformation.equals@POLYN168858 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.token.delegation.TokenInformation.equals@POLYN168858 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.security.token.delegation.TokenInformation.equals@POLYN168858 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.token.delegation.TokenInformation.hashCode@POLYN169703 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

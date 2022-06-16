@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java 5 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,18 +40,60 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00002"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#2"
+   "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#10"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00010] The class ClusterResourceListeners contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00019"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#19"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00019] For method maybeAdd arguments Object  candidate"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00026] For method maybeAddAll arguments List&lt;? &gt;  candidateList"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#33"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00033] For method onUpdate arguments ClusterResource  cluster"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#26"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . internals ; "
+ , "c3" : "QC-JAV000003[00026] Public method maybeAddAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

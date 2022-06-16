@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,26 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#19"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.consumer.NoOffsetForPartitionException.NoOffsetForPartitionException@POLYN156899 the MagicNumber/String  'Undefined offset with no reset policy for partition: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.clients.consumer.NoOffsetForPartitionException.NoOffsetForPartitionException@POLYN157147 the MagicNumber/String  'Undefined offset with no reset policy for partitions: ' should be converted to const"
+   "c1" : "00002"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#2"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . clients . consumer ; "
 }} 
 ]
 };

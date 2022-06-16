@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,33 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#22"
+   "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00037] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#43"
+   "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00047] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method parse arguments ByteBuffer  buffer|short  version"
+   "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.AddOffsetsToTxnResponse.shouldClientThrottle@POLYN161448 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

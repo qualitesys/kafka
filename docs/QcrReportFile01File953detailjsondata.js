@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java 0 rule violation " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java 0 rule violation " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.xml" 
  , "fic3"  : "" 
 }
 , 

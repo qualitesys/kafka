@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java 28 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java 21 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,15 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
 }}
 ,
@@ -56,7 +49,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "6"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -70,212 +63,163 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "8"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "11"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#16"
+   "c1" : "00019"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00016] The class ExtractField contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00019] The class TopicCreationGroup contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00034"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#34"
+   "c1" : "00027"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#27"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00027] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00029"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#29"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.util.TopicCreationGroup.TopicCreationGroup@POLYN175022 the MagicNumber/String  '|' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00030"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.util.TopicCreationGroup.TopicCreationGroup@POLYN175022 the MagicNumber/String  '|' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00037] For method configuredGroups arguments SourceConnectorConfig  config"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#40"
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#37"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00037] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00059"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00059] For method matches arguments String  topic"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00042"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  'Unknown field: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.ExtractField.apply@POLYN170472 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00066"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#66"
+   "c1" : "00065"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method operatingSchema arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00068"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#68"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method operatingValue arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
+ , "c3" : "QC-JAV000006[00065] For method newTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#74"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method operatingSchema arguments R  record"
+ , "c3" : "QC-JAV000006[00074] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#74"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00076"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.util.TopicCreationGroup.equals@POLYN178273 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#79"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method operatingValue arguments R  record"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.util.TopicCreationGroup.equals@POLYN178273 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#79"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00079] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00099"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  'TopicCreationGroup{' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00084"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
+   "c1" : "00100"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00084"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#84"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00084] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#91"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method operatingSchema arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#91"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00091] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method operatingValue arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#96"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00096] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00100"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  ', inclusionPattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00101"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#101"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00101] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  ', exclusionPattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#58"
+   "c1" : "00103"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  ', numPartitions=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00104"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  ', replicationFactor=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00105"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  ', otherConfigs=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00106"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN179525 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00058] Void method close is empty or contains only a return."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#58"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00058] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000003[00037] Public method configuredGroups is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

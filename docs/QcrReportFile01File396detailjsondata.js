@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ReassignmentInProgressException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/ReassignmentInProgressException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ReassignmentInProgressException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/PreferredLeaderNotAvailableException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/PreferredLeaderNotAvailableException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/PreferredLeaderNotAvailableException.java.xml" 
  , "fic3"  : "" 
 }
 , 

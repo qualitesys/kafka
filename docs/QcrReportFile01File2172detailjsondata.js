@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerReceiving.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerReceiving.java 1 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerReceiving.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java 1 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00021"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerReceiving.java.html#21"
+   "c1" : "00018"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.rest.WorkerReceiving.status@POLYN156168 the MagicNumber/String  'receiving' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.trogdor.rest.TasksResponse.TasksResponse@POLYN155655 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

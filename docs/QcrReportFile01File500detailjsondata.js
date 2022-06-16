@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java 31 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/ListenerName.java 19 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,10 +39,17 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -56,233 +63,149 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "28"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00009"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#9"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00009] The class ListenerName contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
    "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class NetworkReceive contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#14"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00014] For method forSecurityProtocol arguments SecurityProtocol  securityProtocol"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN172451 the MagicNumber/String  null should be converted to const"
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#14"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00014] The argument securityProtocol is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN172866 the MagicNumber/String  4 should be converted to const"
+   "c1" : "00019"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#19"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00019] For method normalised arguments String  value"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN172866 the MagicNumber/String  null should be converted to const"
+   "c1" : "00019"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#19"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00019] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#47"
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN173297 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.ListenerName.ListenerName@POLYN160026 the MagicNumber/String  'value should not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN173297 the MagicNumber/String  null should be converted to const"
+   "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#35"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00035] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#55"
+   "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN173753 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.network.ListenerName.equals@POLYN160356 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN160835 the MagicNumber/String  'ListenerName(' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN160835 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN160969 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN160969 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN173753 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.network.NetworkReceive.complete@POLYN174446 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#75"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method readFrom arguments ScatteringByteChannel  channel"
+ , "c3" : "QC-JAV000006[00056] For method saslMechanismConfigPrefix arguments String  saslMechanism"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#75"
+   "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00060] For method saslMechanismPrefix arguments String  saslMechanism"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00075] The argument channel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument saslMechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#76"
+   "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.network.ListenerName.saslMechanismPrefix@POLYN161350 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  0 should be converted to const"
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#14"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00014] Public method forSecurityProtocol is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  0 should be converted to const"
+   "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00056] Public method saslMechanismConfigPrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  'Invalid receive (size = ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  'Invalid receive (size = ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  ' larger than ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  'Broker low on memory - could not allocate buffer of size {} for source {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN174658 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.network.NetworkReceive.requiredMemoryAmountKnown@POLYN176746 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.network.NetworkReceive.memoryAllocated@POLYN176879 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.network.NetworkReceive.close@POLYN176995 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.network.NetworkReceive.close@POLYN176995 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00134"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.network.NetworkReceive.bytesRead@POLYN177399 the MagicNumber/String  null should be converted to const"
+   "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00060] Public method saslMechanismPrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

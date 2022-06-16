@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateSequenceException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/DuplicateSequenceException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateSequenceException.java.xml" 
  , "fic3"  : "" 
 }
 , 

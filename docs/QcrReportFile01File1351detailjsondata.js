@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java 8 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java 5 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,72 +49,51 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00013"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#13"
+   "c1" : "00008"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class FinalizedControllerFeatures contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class BrokerRegistrationReply contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00022"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#22"
+   "c1" : "00025"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#25"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method get arguments String  name"
+ , "c3" : "QC-JAV000006[00025] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00041"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#41"
+   "c1" : "00026"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.metadata.FinalizedControllerFeatures.equals@POLYN160258 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.metadata.BrokerRegistrationReply.equals@POLYN155157 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#49"
+   "c1" : "00033"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN155499 the MagicNumber/String  'BrokerRegistrationReply(epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#50"
+   "c1" : "00033"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  'featureMap=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  ', epoch=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN155499 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

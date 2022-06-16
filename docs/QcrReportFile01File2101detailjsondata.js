@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java 65 rule violations " 
- , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.xml" 
+   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html" 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java 44 rule violations " 
+ , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,499 +42,345 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
- , "c4" : "2"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "42"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "13"
+ , "c4" : "12"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00034"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#34"
+   "c1" : "00015"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00034] The class MockProcessorContext contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class TestInputTopic contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#58"
+   "c1" : "00030"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#30"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00030] The argument autoAdvance is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00031"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00058] The class CapturedPunctuator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN198597 the MagicNumber/String  'TopologyTestDriver cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN198597 the MagicNumber/String  'topicName cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#33"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN198597 the MagicNumber/String  'keySerializer cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00034"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#34"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN198597 the MagicNumber/String  'valueSerializer cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00035"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#35"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN198597 the MagicNumber/String  'startTimestamp cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00036"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#36"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN198597 the MagicNumber/String  'autoAdvance cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00043"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN198597 the MagicNumber/String  'autoAdvance must be positive' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#49"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00049] For method advanceTime arguments Duration  advance"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#49"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00049] The argument advance is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.TestInputTopic.advanceTime@POLYN200303 the MagicNumber/String  'advance must be positive' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00063"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method pipeInput arguments TestRecord&lt;K ,V &gt;  record"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00063"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#63"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00063] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00065"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.TestInputTopic.pipeInput@POLYN200974 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#70"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00070] For method pipeInput arguments V  value"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00075"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method pipeInput arguments K  key|V  value"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method pipeInput arguments V  value|Instant  timestamp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00083"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.TestInputTopic.pipeInput@POLYN202280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedPunctuator.cancel@POLYN243867 the MagicNumber/String  true should be converted to const"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#87"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00087] For method pipeInput arguments K  key|V  value|long  timestampMs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#91"
+   "c1" : "00090"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.TestInputTopic.pipeInput@POLYN202722 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#94"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00094] For method pipeInput arguments K  key|V  value|Instant  timestamp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00101"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#101"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00101] For method pipeRecordList arguments List&lt;?  extends TestRecord&lt;K ,V &gt; &gt;  records"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00108"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#108"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00108] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  keyValues"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00115"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00115] For method pipeValueList arguments List&lt;V &gt;  values"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00122"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#122"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00122] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  keyValues|Instant  startTimestamp|Duration  advance"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00133"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#133"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00133] For method pipeValueList arguments List&lt;V &gt;  values|Instant  startTimestamp|Duration  advance"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00145"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN206683 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00145"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN206683 the MagicNumber/String  '[' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00145"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN206683 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00146"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN206683 the MagicNumber/String  'topic='' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00146"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN206683 the MagicNumber/String  ''' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00147"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN206683 the MagicNumber/String  'keySerializer=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00148"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN206683 the MagicNumber/String  'valueSerializer=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00091] Public method cancelled is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00070] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00086"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#86"
+   "c1" : "00075"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00086] Public method cancel is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00075] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00097"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00097] The class CapturedForward contains no field, constructor, finalize. Must contain only static methods, check it"
+   "c1" : "00081"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00081] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00103"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#103"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00087"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#87"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00087] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00104"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.CapturedForward@POLYN244352 the MagicNumber/String  null should be converted to const"
+   "c1" : "00094"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00094] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00134"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN245700 the MagicNumber/String  'CapturedForward{' should be converted to const"
+   "c1" : "00101"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00101] Public method pipeRecordList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00135"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN245700 the MagicNumber/String  'childName='' should be converted to const"
+   "c1" : "00108"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00108] Public method pipeKeyValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00135"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN245700 the MagicNumber/String  '\'' should be converted to const"
+   "c1" : "00115"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00115] Public method pipeValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00136"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN245700 the MagicNumber/String  ', timestamp=' should be converted to const"
+   "c1" : "00122"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00122] Public method pipeKeyValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00137"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN245700 the MagicNumber/String  ', keyValue=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00138"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN245700 the MagicNumber/String  '}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00155"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN246398 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00156"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#156"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN246398 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00159"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN246398 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00159"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN246398 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00160"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN246398 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN247212 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN247212 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN247212 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#171"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00171] The argument taskId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00174"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN247826 the MagicNumber/String  'dummy-bootstrap-host:0' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00175"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN247826 the MagicNumber/String  'dummy-mock-app-id' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00211"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#211"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method appConfigsWithPrefix arguments String  prefix"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00217"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#217"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.MockProcessorContext.currentSystemTimeMs@POLYN250179 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00218"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.MockProcessorContext.currentSystemTimeMs@POLYN250179 the MagicNumber/String  'System time must be set before use via setCurrentSystemTimeMs().' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00225"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#225"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.processor.MockProcessorContext.currentStreamTimeMs@POLYN250428 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00226"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.processor.MockProcessorContext.currentStreamTimeMs@POLYN250428 the MagicNumber/String  'Stream time must be set before use via setCurrentStreamTimeMs().' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00255"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#255"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00255] For method setRecordMetadata arguments String  topic|int  partition|long  offset|Headers  headers|long  timestamp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00269"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#269"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00269] For method setTopic arguments String  topic"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00275"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#275"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00275] For method setPartition arguments int  partition"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00281"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#281"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00281] For method setOffset arguments long  offset"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00287"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#287"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00287] For method setHeaders arguments Headers  headers"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00294"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#294"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00294] For method setTimestamp arguments long  timestamp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00300"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#300"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00300] For method setRecordTimestamp arguments long  recordTimestamp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00304"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#304"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00304] For method setCurrentSystemTimeMs arguments long  currentSystemTimeMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00308"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#308"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00308] For method setCurrentStreamTimeMs arguments long  currentStreamTimeMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00314"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#314"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.processor.MockProcessorContext.topic@POLYN254723 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00315"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#315"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.processor.MockProcessorContext.topic@POLYN254723 the MagicNumber/String  'Topic must be set before use via setRecordMetadata() or setTopic().' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00322"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#322"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.streams.processor.MockProcessorContext.partition@POLYN254972 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00323"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#323"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.streams.processor.MockProcessorContext.partition@POLYN254972 the MagicNumber/String  'Partition must be set before use via setRecordMetadata() or setPartition().' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00330"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#330"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.MockProcessorContext.offset@POLYN255221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00331"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#331"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.processor.MockProcessorContext.offset@POLYN255221 the MagicNumber/String  'Offset must be set before use via setRecordMetadata() or setOffset().' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00344"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#344"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.processor.MockProcessorContext.timestamp@POLYN256031 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00345"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#345"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.MockProcessorContext.timestamp@POLYN256031 the MagicNumber/String  'Timestamp must be set before use via setRecordMetadata() or setTimestamp().' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00353"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#353"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00353] For method register arguments StateStore  store|StateRestoreCallback  stateRestoreCallbackIsIgnoredInMock"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00353"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#353"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00353] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00366"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#366"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00366] For method schedule arguments Duration  interval|PunctuationType  type|Punctuator  callback"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00369"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#369"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.MockProcessorContext.schedule@POLYN256803 the MagicNumber/String  'interval' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00370"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#370"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.streams.processor.MockProcessorContext.schedule@POLYN256803 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00371"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#371"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.MockProcessorContext.schedule@POLYN256803 the MagicNumber/String  'The minimum supported scheduling interval is 1 millisecond.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00392"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#392"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00392] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00396"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#396"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.MockProcessorContext the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00396"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#396"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.MockProcessorContext the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00396"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#396"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.MockProcessorContext the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00409"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#409"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00409] For method forwarded arguments String  childName"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00412"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#412"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00412] The same method call capture.childName() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {
-   "c1" : "00412"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#412"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.streams.processor.MockProcessorContext.forwarded@POLYN259499 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00427"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#427"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.streams.processor.MockProcessorContext.commit@POLYN260270 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00439"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#439"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.streams.processor.MockProcessorContext.resetCommit@POLYN260836 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00448"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#448"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.MockProcessorContext.recordCollector@POLYN260955 the MagicNumber/String  'MockProcessorContext does not provide record collection. ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00449"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#449"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.streams.processor.MockProcessorContext.recordCollector@POLYN260955 the MagicNumber/String  'For processor unit tests, use an in-memory state store with change-logging disabled. ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00450"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#450"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.processor.MockProcessorContext.recordCollector@POLYN260955 the MagicNumber/String  'Alternatively, use the TopologyTestDriver for testing processor/store/topology integration.' should be converted to const"
+   "c1" : "00133"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00133] Public method pipeValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

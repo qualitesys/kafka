@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java 8 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java 4 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,89 +39,47 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00009"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#9"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class ProducerIdsDelta contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
    "c1" : "00012"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#12"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00012] The argument image is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#12"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00012] The class LocalReplicaChanges contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#16"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method setNextProducerId arguments long  highestSeenProducerId"
+   "c1" : "00042"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.image.LocalReplicaChanges.toString@POLYN159933 the MagicNumber/String  'LocalReplicaChanges(deletes = %s, leaders = %s, followers = %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method handleMetadataVersionChange arguments MetadataVersion  newVersion"
+   "c1" : "00049"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00049] The class PartitionInfo contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method replay arguments ProducerIdsRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#32"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#24"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00024] Public method finishSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#28"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00028] Public method handleMetadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"
+   "c1" : "00060"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.image.LocalReplicaChanges.PartitionInfo.toString@POLYN160485 the MagicNumber/String  'PartitionInfo(topicId = %s, partition = %s)' should be converted to const"
 }} 
 ]
 };

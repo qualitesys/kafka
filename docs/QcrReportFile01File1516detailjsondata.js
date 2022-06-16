@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html" 
- , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java 11 rule violations " 
- , "fic2"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.xml" 
+   "fic1"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html" 
+ , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java 5 rule violations " 
+ , "fic2"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,6 +39,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -49,7 +56,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "9"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -62,80 +69,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#14"
+   "c1" : "00009"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class PipeDemo contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00009] The class JsonTimestampExtractor contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#16"
+   "c1" : "00012"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html#12"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00012] For method extract arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  partitionTime"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00018"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  'streams-pipe' should be converted to const"
+   "c1" : "00012"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html#12"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00012] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00019"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#19"
+   "c1" : "00022"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  'localhost:9092' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor.extract@POLYN157155 the MagicNumber/String  'timestamp' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#24"
+   "c1" : "00025"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  'earliest' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  'streams-plaintext-input' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  'streams-pipe-output' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00031"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00034"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  'streams-pipe-shutdown-hook' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00048"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN164162 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor.extract@POLYN157155 the MagicNumber/String  'JsonTimestampExtractor cannot recognize the record value ' should be converted to const"
 }} 
 ]
 };

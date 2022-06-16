@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 454 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 334 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,3225 +39,2399 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE572"
+ , "c3" : "Call to Thread run() instead of start()"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "20"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "46"
+ , "c4" : "51"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "73"
+ , "c2" : "QC-JAVCWE392"
+ , "c3" : "Failure to report error in status code"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "275"
+ , "c4" : "188"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000021"
  , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "52"
+ , "c4" : "62"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#123"
+   "c1" : "00111"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00123] The class ReplicationControlManager contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00111] The class QuorumController contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00126"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#126"
+   "c1" : "00113"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00126] The class Builder contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00113] The class Builder contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00138"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#138"
+   "c1" : "00146"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00138] For method setSnapshotRegistry arguments SnapshotRegistry  snapshotRegistry"
+ , "c3" : "QC-JAV000006[00146] For method setTime arguments Time  time"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00143"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#143"
+   "c1" : "00151"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method setLogContext arguments LogContext  logContext"
+ , "c3" : "QC-JAV000006[00151] For method setThreadNamePrefix arguments String  threadNamePrefix"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#148"
+   "c1" : "00156"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method setDefaultReplicationFactor arguments short  defaultReplicationFactor"
+ , "c3" : "QC-JAV000006[00156] For method setLogContext arguments LogContext  logContext"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00153"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#153"
+   "c1" : "00161"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method setDefaultNumPartitions arguments int  defaultNumPartitions"
+ , "c3" : "QC-JAV000006[00161] For method setConfigSchema arguments KafkaConfigSchema  configSchema"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00158"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#158"
+   "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00158] For method setMaxElectionsPerImbalance arguments int  maxElectionsPerImbalance"
+ , "c3" : "QC-JAV000006[00166] For method setRaftClient arguments RaftClient&lt;ApiMessageAndVersion &gt;  logManager"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00163"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#163"
+   "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method setConfigurationControl arguments ConfigurationControlManager  configurationControl"
+ , "c3" : "QC-JAV000006[00171] For method setQuorumFeatures arguments QuorumFeatures  quorumFeatures"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00168"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#168"
+   "c1" : "00176"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method setClusterControl arguments ClusterControlManager  clusterControl"
+ , "c3" : "QC-JAV000006[00176] For method setDefaultReplicationFactor arguments short  defaultReplicationFactor"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#173"
+   "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method setControllerMetrics arguments ControllerMetrics  controllerMetrics"
+ , "c3" : "QC-JAV000006[00181] For method setDefaultNumPartitions arguments int  defaultNumPartitions"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00178"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#178"
+   "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method setCreateTopicPolicy arguments Optional&lt;CreateTopicPolicy &gt;  createTopicPolicy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00183"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#183"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method setFeatureControl arguments FeatureControlManager  featureControl"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00189"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00190"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#190"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  'Configuration control must be set before building' should be converted to const"
+ , "c3" : "QC-JAV000006[00186] For method setReplicaPlacer arguments ReplicaPlacer  replicaPlacer"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00192"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#192"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  'Cluster controller must be set before building' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00193"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00194"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#194"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  'Metrics must be set before building' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#191"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00191] For method setSnapshotMaxNewRecordBytes arguments long  value"
 }} 
 ,
 { "ligne" : {
    "c1" : "00196"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#196"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00196] For method setLeaderImbalanceCheckIntervalNs arguments OptionalLong  value"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00197"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+   "c1" : "00201"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#201"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00201] For method setMaxIdleIntervalNs arguments OptionalLong  value"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00198"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+   "c1" : "00206"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#206"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00206] For method setSessionTimeoutNs arguments long  sessionTimeoutNs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00202"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  0 should be converted to const"
+   "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00211] For method setMetrics arguments ControllerMetrics  controllerMetrics"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00204"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  0 should be converted to const"
+   "c1" : "00216"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#216"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00216] For method setBootstrapMetadata arguments BootstrapMetadata  bootstrapMetadata"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#221"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00221] The class KRaftClusterDescriber contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#221"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00221] For method setCreateTopicPolicy arguments Optional&lt;CreateTopicPolicy &gt;  createTopicPolicy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00228"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#228"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00228] The class TopicControlInfo contains no field, constructor, finalize. Must contain only static methods, check it"
+   "c1" : "00226"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#226"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00226] For method setAlterConfigPolicy arguments Optional&lt;AlterConfigPolicy &gt;  alterConfigPolicy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00231"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#231"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00231] For method setConfigurationValidator arguments ConfigurationValidator  configurationValidator"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#236"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#236"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00236] For method setAuthorizer arguments ClusterMetadataAuthorizer  authorizer"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00241"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#241"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00241] For method setStaticConfig arguments Map&lt;String ,Object &gt;  staticConfig"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00248"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.controller.ReplicationControlManager.TopicControlInfo.TopicControlInfo@POLYN506843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00249"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#249"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  'You must set a raft client.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00250"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00251"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  'You must specify an initial metadata.version using the kafka-storage tool.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00252"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#252"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00253"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  'You must specify the quorum features' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00256"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00257"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#257"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  'Node%d_' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00259"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#259"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00260"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#260"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  '[Controller %d] ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00262"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00264"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  'org.apache.kafka.controller.MockControllerMetrics' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00267"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00269"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  'QuorumController' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00295"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434484 the MagicNumber/String  'event queue' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00146"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00146] Public method setTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00151"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00151] Public method setThreadNamePrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00156"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#156"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00156] Public method setLogContext is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00161"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00161] Public method setConfigSchema is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00166] Public method setRaftClient is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00171] Public method setQuorumFeatures is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00176"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00176] Public method setDefaultReplicationFactor is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00181] Public method setDefaultNumPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00186] Public method setReplicaPlacer is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00191"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00191] Public method setSnapshotMaxNewRecordBytes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00196"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00196] Public method setLeaderImbalanceCheckIntervalNs is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00201"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#201"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00201] Public method setMaxIdleIntervalNs is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00206"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00206] Public method setSessionTimeoutNs is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00211] Public method setMetrics is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00216"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00216] Public method setBootstrapMetadata is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00221] Public method setCreateTopicPolicy is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00226"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00226] Public method setAlterConfigPolicy is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00231"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00231] Public method setConfigurationValidator is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00236"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00236] Public method setAuthorizer is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00241"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#241"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00241] Public method setStaticConfig is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00302"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00302] The class ConfigResourceExistenceChecker contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00304"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method translateCreationConfigs arguments CreateableTopicConfigCollection  collection"
+ , "c3" : "QC-JAV000006[00304] For method accept arguments ConfigResource  configResource"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00249"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#249"
+   "c1" : "00304"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#304"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00249] The argument collection is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00304] The argument configResource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00308"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#308"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00308] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00329"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#329"
+   "c1" : "00317"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN436759 the MagicNumber/String  'Invalid broker name ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00330"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#330"
+   "c1" : "00321"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN436759 the MagicNumber/String  'No broker with id ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00331"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#331"
+   "c1" : "00322"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN436759 the MagicNumber/String  ' found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00333"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#333"
+   "c1" : "00326"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN436759 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00334"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#334"
+   "c1" : "00327"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN436759 the MagicNumber/String  'The topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00337"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#337"
+   "c1" : "00328"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#328"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN436759 the MagicNumber/String  '' does not exist.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00348"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#348"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.controller.QuorumController.newNotControllerException@POLYN438156 the MagicNumber/String  'No controller appears to be active.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00352"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#352"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00337] For method replay arguments TopicRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00337"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#337"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00337] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00342"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#342"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN512332 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00343"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#343"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN512332 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00351"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#351"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN512332 the MagicNumber/String  'Created topic {} with topic ID {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00354"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#354"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00354] For method replay arguments PartitionRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00354"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#354"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00354] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00356"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#356"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00352] For method exceptionToApparentController arguments NotControllerException  e"
 }} 
 ,
 { "ligne" : {
    "c1" : "00357"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#357"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  'Tried to create partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.controller.QuorumController.exceptionToApparentController@POLYN438586 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00358"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#358"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  ':' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00358"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#358"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  ', but no topic with that ID was found.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00362"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#362"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00363"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#363"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  ' with topic ID ' should be converted to const"
+   "c1" : "00361"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#361"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00361] For method handleEventEnd arguments String  name|long  startProcessingTimeNs"
 }} 
 ,
 { "ligne" : {
    "c1" : "00364"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#364"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN438978 the MagicNumber/String  'Processed {} in {} us' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00365"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#365"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  'Created partition {} and {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00367"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#367"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00372"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#372"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00392"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#392"
+   "c1" : "00369"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#369"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00392] For method updateReassigningTopicsIfNeeded arguments Uuid  topicId|int  partitionId|boolean  wasReassigning|boolean  isReassigning"
+ , "c3" : "QC-JAV000006[00369] For method handleEventException arguments String  name|OptionalLong  startProcessingTimeNs|Throwable  exception"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00402"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#402"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.controller.ReplicationControlManager.updateReassigningTopicsIfNeeded@POLYN516902 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00410"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#410"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00410] For method replay arguments PartitionChangeRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00410"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#410"
+   "c1" : "00370"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#370"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00410] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00370] The argument startProcessingTimeNs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00412"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#412"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
+   "c1" : "00371"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#371"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00371] The argument exception is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00413"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#413"
+   "c1" : "00373"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Tried to create partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439514 the MagicNumber/String  '{}: unable to start processing because of {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00414"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#414"
+   "c1" : "00385"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439514 the MagicNumber/String  '{}: failed with {} in {} us' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00414"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#414"
+   "c1" : "00389"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#389"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ', but no topic with that ID was found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439514 the MagicNumber/String  '{}: failed with unknown server exception {} at epoch {} in {} us.  ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00417"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#417"
+   "c1" : "00390"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#390"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439514 the MagicNumber/String  'Reverting to last committed offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00418"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#418"
+   "c1" : "00399"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#399"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Tried to create partition ' should be converted to const"
+ , "c3" : "QC-JAV000008[00399] The class ControlEvent contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00419"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#419"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ':' should be converted to const"
+   "c1" : "00416"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE572[00416] The program calls a thread's run() method instead of calling start()"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00419"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#419"
+   "c1" : "00415"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ', but no partition with that id was found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN441683 the MagicNumber/String  'Executing {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00428"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#428"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  '-' should be converted to const"
+   "c1" : "00421"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#421"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00421] For method handleException arguments Throwable  exception"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00428"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#428"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ' with topic ID ' should be converted to const"
+   "c1" : "00431"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#431"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00431] For method appendControlEvent arguments String  name|Runnable  handler"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00441"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#441"
+   "c1" : "00440"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#440"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00440] The class SnapshotGeneratorManager contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00441"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#441"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00442"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#442"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Replayed partition assignment change {} for topic {}' should be converted to const"
+   "c1" : "00443"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#443"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00443] For method createSnapshotGenerator arguments long  committedOffset|int  committedEpoch|long  committedTimestamp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00444"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#444"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Replayed partition change {} for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00448"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#448"
+   "c1" : "00445"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#445"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'Snapshot generator already exists.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00450"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#450"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'Cannot generate a snapshot at committed offset %d because it does not exists in the snapshot registry.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00466"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#466"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'features' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00467"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#467"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'cluster' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00468"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#468"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'replication' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00469"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#469"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'configuration' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00470"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#470"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'clientQuotas' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00471"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#471"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'producerIds' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'acls' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00475"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#475"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00478"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#478"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443125 the MagicNumber/String  'Skipping generation of snapshot for committed offset {} and epoch {} since it already exists' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00486"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#486"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445125 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00487"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#487"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445125 the MagicNumber/String  'Cancelling snapshot {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00489"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#489"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445125 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00498"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#498"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00448] For method replay arguments RemoveTopicRecord  record"
+ , "c3" : "QC-JAV000006[00498] For method reschedule arguments long  delayNs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00448"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#448"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00448] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00473"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#473"
+   "c1" : "00517"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00473] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAVCWE392[00517] Failure to report error in status code (see http://cwe.mitre.org/data/definitions/392.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00451"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#451"
+   "c1" : "00506"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#506"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446011 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00452"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#452"
+   "c1" : "00507"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  'Can't find topic with ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446011 the MagicNumber/String  'No snapshot is in progress.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00453"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#453"
+   "c1" : "00514"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  ' to remove.' should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446011 the MagicNumber/String  'Error while generating snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00459"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#459"
+   "c1" : "00516"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446011 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00476"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#476"
+   "c1" : "00520"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#520"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446011 the MagicNumber/String  'Finished generating snapshot {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00490"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#490"
+   "c1" : "00522"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#522"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  'Removed topic {} with ID {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446011 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00493"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#493"
+   "c1" : "00533"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#533"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.snapshotLastOffsetFromLog@POLYN447160 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00541"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00541] The class ControllerReadEvent contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00569"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#569"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00493] For method createTopics arguments CreateTopicsRequestData  request|Set&lt;String &gt;  describable"
+ , "c3" : "QC-JAV000006[00569] For method handleException arguments Throwable  exception"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00494"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#494"
+   "c1" : "00576"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#576"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.controller.QuorumController.ControllerReadEvent.toString@POLYN449241 the MagicNumber/String  '(' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00576"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#576"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.controller.QuorumController.ControllerReadEvent.toString@POLYN449241 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00592"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#592"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00494] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00592] The argument deadlineNs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00494"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#494"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00494] The argument describable is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00523"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#523"
+   "c1" : "00614"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#614"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00523] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000008[00614] The class ControllerWriteEvent contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00526"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#526"
+   "c1" : "00626"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#626"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00526] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00626] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.ControllerWriteEvent@POLYN451686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00539"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#539"
+   "c1" : "00638"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#638"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00539] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00550"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#550"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00550] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00504"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#504"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'Topic '' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00504"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#504"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  '' already exists.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00511"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#511"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00537"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#537"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00540"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#540"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00545"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#545"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ': ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00546"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#546"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ' (' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00546"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#546"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00547"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#547"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00552"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#552"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ': ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00553"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#553"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'SUCCESS' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00554"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#554"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00557"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#557"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'Validate-only CreateTopics result(s): {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00560"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#560"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'CreateTopics result(s): {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00565"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#565"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00565] For method createTopic arguments CreatableTopic  topic|List&lt;ApiMessageAndVersion &gt;  records|Map&lt;String ,CreatableTopicResult &gt;  successes|boolean  authorizedToReturnConfigs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00565"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#565"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00565] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00566"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#566"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00566] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00567"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#567"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00567] The argument successes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00591"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#591"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00591] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00610"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#610"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00610] The same method call topic.replicationFactor() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {
-   "c1" : "00613"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#613"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00613] The same method call topic.numPartitions() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {
-   "c1" : "00628"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#628"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00628] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00629"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#629"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00629] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00671"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#671"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00671] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00691"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#691"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00691] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00572"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#572"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00574"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#574"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'A manual partition assignment was specified, but replication ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00575"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#575"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'factor was not set to -1.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00577"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#577"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00579"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#579"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'A manual partition assignment was specified, but numPartitions ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00580"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#580"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'was not set to -1.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00586"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#586"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Found multiple manual partition assignments for partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00595"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#595"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'All brokers specified in the manual partition assignment for ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00596"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#596"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00596"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#596"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  ' are fenced or in controlled shutdown.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00600"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#600"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00600"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#600"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00600"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#600"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00607"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#607"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00607"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#607"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00610"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#610"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00610"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#610"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00612"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#612"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Replication factor must be larger than 0, or -1 to use the default value.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00613"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#613"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00613"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#613"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00615"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#615"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Number of partitions was set to an invalid non-positive value.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00617"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#617"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00619"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#619"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00623"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#623"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00627"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#627"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00636"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#636"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00637"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#637"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  ' time(s): All brokers are currently fenced or in controlled shutdown.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00645"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#645"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00645] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00647"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#647"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00647] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00648"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#648"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00638] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00652"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#652"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#652"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00652] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00652] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00653"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#653"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#653"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  ' time(s): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  'Completing read-only operation {} immediately because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00656"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#656"
+   "c1" : "00654"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#654"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  'the purgatory is empty.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00664"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#664"
+   "c1" : "00655"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#655"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00674"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#674"
+   "c1" : "00660"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  'Read-only operation {} will be completed when the log ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00680"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#680"
+   "c1" : "00661"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#661"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00680] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  'reaches offset {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00682"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#682"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  'Read-write operation {} will be completed when the log ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00683"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#683"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00683] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452207 the MagicNumber/String  'reaches offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00697"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#697"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#697"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00697] For method maybeCheckCreateTopicPolicy arguments Supplier&lt;CreateTopicPolicy.RequestMetadata &gt;  supplier"
+ , "c3" : "QC-JAV000006[00697] For method handleException arguments Throwable  exception"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00697"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#697"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00697] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00708"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#708"
+   "c1" : "00702"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#702"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00708] For method validateNewTopicNames arguments Map&lt;String ,ApiError &gt;  topicErrors|CreatableTopicCollection  topics|Map&lt;String ,?  extends Set&lt;String &gt; &gt;  topicsWithCollisionChars"
+ , "c3" : "QC-JAV000006[00702] For method complete arguments Throwable  exception"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00708"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#708"
+   "c1" : "00703"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#703"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN455308 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00714"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#714"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.toString@POLYN455848 the MagicNumber/String  '(' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00714"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#714"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.toString@POLYN455848 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00719"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#719"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00708] The argument topicErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00719] The argument deadlineNs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00710"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#710"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00710] The argument topicsWithCollisionChars is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00715"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#715"
+   "c1" : "00730"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#730"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00715] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00720"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#720"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00720] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00721"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#721"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00721] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00722"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#722"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN538242 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00724"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#724"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN538242 the MagicNumber/String  'Topic '' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00724"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#724"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN538242 the MagicNumber/String  '' collides with existing topic: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00731"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#731"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00731] For method computeConfigChanges arguments Map&lt;String ,ApiError &gt;  topicErrors|CreatableTopicCollection  topics"
+ , "c3" : "QC-JAV000008[00730] The class QuorumMetaLogListener contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
    "c1" : "00732"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#732"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00732] The argument topicErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00737"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#737"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00737] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00738"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#738"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00738] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00739"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#739"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00739] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00740"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#740"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00740] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN539846 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00748"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#748"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN539846 the MagicNumber/String  'Null value not supported for topic configs: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00748"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#748"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN539846 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00756"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#756"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#732"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00756] For method findTopicIds arguments long  offset|Collection&lt;String &gt;  names"
+ , "c3" : "QC-JAV000006[00732] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion &gt;  reader"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00756"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#756"
+   "c1" : "00732"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#732"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00756] The argument names is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00732] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00733"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#733"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  'handleCommit[baseOffset=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00733"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#733"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00736"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#736"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00736] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00746"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#746"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00746] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  'Completing purgatory items up to offset {} and epoch {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00761"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#761"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00761] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  'Replaying commits from the active node up to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00762"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#762"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#762"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00762] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00762] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  'offset {} and epoch {}: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00759"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#759"
+   "c1" : "00764"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#764"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00759] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00760"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#760"
+   "c1" : "00766"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#766"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00760] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00766] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  'Replaying commits from the active node up to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00760"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#760"
+   "c1" : "00767"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#767"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00760] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  'Invalid null topic name.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00763"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#763"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00774"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#774"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00774] For method findAllTopicIds arguments long  offset"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00782"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#782"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00782] For method findTopicNames arguments long  offset|Collection&lt;Uuid &gt;  ids"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00782"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#782"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00782] The argument ids is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00789"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#789"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00789] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00785"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#785"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN543688 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00767] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN456776 the MagicNumber/String  'offset {} and epoch {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00787"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#787"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00787] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN543688 the MagicNumber/String  'Attempt to find topic with invalid topicId ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00790"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#790"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN543688 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00800"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#800"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#787"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00800] For method deleteTopics arguments Collection&lt;Uuid &gt;  ids"
+ , "c3" : "QC-JAV000006[00787] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion &gt;  reader"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00800"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#800"
+   "c1" : "00787"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#787"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00800] The argument ids is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00787] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00807"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#807"
+   "c1" : "00788"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#788"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00807] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459147 the MagicNumber/String  'handleSnapshot[snapshotId=%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00809"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#809"
+   "c1" : "00793"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#793"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00809] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459147 the MagicNumber/String  'Asked to load snapshot (%s) when it is the active controller (%d)' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00810"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#810"
+   "c1" : "00799"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#799"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00810] In method org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN545081 the MagicNumber/String  'Unexpected deleteTopics error for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459147 the MagicNumber/String  'Starting to replay snapshot ({}), from last commit offset ({}) and epoch ({})' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00817"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#817"
+   "c1" : "00812"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#812"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459147 the MagicNumber/String  'Replaying snapshot ({}) batch with last offset of {}: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00818"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#818"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00818] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459147 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00822"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#822"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00822] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459147 the MagicNumber/String  'Replaying snapshot ({}) batch with last offset of {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00847"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#847"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00817] For method deleteTopic arguments Uuid  id|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[00847] For method handleLeaderChange arguments LeaderAndEpoch  newLeader"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00817"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#817"
+   "c1" : "00847"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#847"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00817] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00847] The argument newLeader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00819"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#819"
+   "c1" : "00850"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00819] In method org.apache.kafka.controller.ReplicationControlManager.deleteTopic@POLYN546317 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'handleLeaderChange[' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00827"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#827"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00827] For method getPartition arguments Uuid  topicId|int  partitionId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00829"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#829"
+   "c1" : "00850"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00829] In method org.apache.kafka.controller.ReplicationControlManager.getPartition@POLYN546899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00830"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#830"
+   "c1" : "00852"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#852"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.controller.ReplicationControlManager.getPartition@POLYN546899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00852] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00836"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#836"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00836] For method getTopic arguments Uuid  topicId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00840"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#840"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00840] For method getTopicId arguments String  name"
+   "c1" : "00853"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#853"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00853] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Tried to claim controller epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00854"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#854"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00854] For method alterPartition arguments ControllerRequestContext  context|AlterPartitionRequestData  request"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00855"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#855"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00855] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00856"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#856"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00856] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00863"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#863"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#854"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00863] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00854] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  ', but we never renounced controller epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00869"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#869"
+   "c1" : "00860"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#860"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00869] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00860] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00871"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#871"
+   "c1" : "00874"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#874"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00871] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00874] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Cannot become leader without a KRaft supported version. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00872"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#872"
+   "c1" : "00875"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#875"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00872] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Got ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00878"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#878"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00878] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'bootstrapMetadata' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00880"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#880"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00880] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Initializing metadata.version to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00882"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#882"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#882"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00882] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00883"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#883"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00883] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00882] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Upgrading KRaft cluster and initializing metadata.version to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00885"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#885"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#885"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00885] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00885] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00887"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#887"
+   "c1" : "00889"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#889"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00887] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00889] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00906"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#906"
+   "c1" : "00890"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#890"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00906] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00890] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Failed to bootstrap metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00918"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#918"
+   "c1" : "00891"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#891"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00918] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00891] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'bootstrapMetadata[' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00921"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
+   "c1" : "00891"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#891"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00921] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00891] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00921"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
+   "c1" : "00892"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#892"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00921] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00892] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Renouncing the leadership at oldEpoch {} since we could not bootstrap ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00936"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#936"
+   "c1" : "00893"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#893"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00936] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00893] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'metadata. Reverting to last committed offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00885"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#885"
+   "c1" : "00905"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#905"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00885] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00905] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Becoming the active controller at epoch {}, committed offset {}, committed epoch {}, and metadata.version {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00887"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#887"
+   "c1" : "00922"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#922"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00887] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00922] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'handleRenounce[' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00906"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#906"
+   "c1" : "00922"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#922"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00906] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00922] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00918"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#918"
+   "c1" : "00923"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#923"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00918] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00921"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00921] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00921"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00921] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00936"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#936"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00936] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00927"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#927"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00927] The same method call request.brokerId()change.leader() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {
-   "c1" : "00869"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#869"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00869] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00870"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#870"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00870] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00871"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#871"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00871] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00877"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#877"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'Rejecting AlterPartition request for unknown topic ID {} or name {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00923] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'Renouncing the leadership at oldEpoch {} due to a metadata ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00924"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#924"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'Node {} has altered ISR for {}-{} to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN461550 the MagicNumber/String  'log event. Reverting to last committed offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00941"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#941"
+   "c1" : "00933"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#933"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00933] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN465227 the MagicNumber/String  'MetaLogManager.Listener' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00942"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#942"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'AlterPartition request from node {} for {}-{} completed ' should be converted to const"
+   "c1" : "00936"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#936"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00936] For method appendRaftEvent arguments String  name|Runnable  runnable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00943"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#943"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00943] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'the ongoing partition reassignment and triggered a ' should be converted to const"
+   "c1" : "00936"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#936"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00936] The argument runnable is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00944"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#944"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00944] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'leadership change. Returning {}.' should be converted to const"
+   "c1" : "00937"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#937"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE572[00937] The program calls a thread's run() method instead of calling start()"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00950"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#950"
+   "c1" : "00939"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#939"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00950] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00939] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.appendRaftEvent@POLYN465341 the MagicNumber/String  'Ignoring {} raft event from an old registration' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00951"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#951"
+   "c1" : "00955"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#955"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00951] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00955] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN465845 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00952"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#952"
+   "c1" : "00956"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#956"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00952] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'AlterPartition request from node {} for {}-{} completed ' should be converted to const"
+ , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN465845 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: completing authorizer ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00953"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#953"
+   "c1" : "00957"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#957"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00953] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'the ongoing partition reassignment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00957] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN465845 the MagicNumber/String  'initial load at last committed offset {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00959"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#959"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00959] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN465845 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00961"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#961"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00961] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN465845 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: can't proceed because ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00962"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#962"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN465845 the MagicNumber/String  'lastCommittedOffset  = {}, but highWatermark = {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00966"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#966"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN465845 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: highWatermark not set.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00971"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#971"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00971] In method org.apache.kafka.controller.QuorumController.isActiveController@POLYN466735 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00974"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#974"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#974"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00974] For method validateAlterPartitionData arguments int  brokerId|TopicControlInfo  topic|int  partitionId|PartitionRegistration  partition|Function&lt;Integer ,Boolean &gt;  isEligibleReplica|short  requestApiVersion|AlterPartitionRequestData.PartitionData  partitionData"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00976"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#976"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00976] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00979"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#979"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00979] The argument isEligibleReplica is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00981"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#981"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00981] The argument partitionData is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00983"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#983"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00984"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#984"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00984] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request for unknown partition {}-{}.' should be converted to const"
+ , "c3" : "QC-JAV000006[00974] For method updateWriteOffset arguments long  offset"
 }} 
 ,
 { "ligne" : {
    "c1" : "00990"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#990"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00990] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#990"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00990] For method updateLastCommittedState arguments long  offset|int  epoch|long  timestamp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00991"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#991"
+   "c1" : "01003"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1003"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00991] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the current leader epoch is {}, not {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00997"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#997"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00998"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#998"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the current leader is {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.controller.QuorumController.renounce@POLYN467911 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01004"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1004"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1004"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.controller.QuorumController.renounce@POLYN467911 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01005"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1005"
+   "c1" : "01008"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1008"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the current partition epoch is {}, not {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.controller.QuorumController.renounce@POLYN467911 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01013"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1013"
+   "c1" : "01018"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1018"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01013] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01014"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1014"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01014] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'it specified an invalid ISR {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01021"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1021"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01021] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01022"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1022"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'it specified an invalid ISR {} that doesn't include itself.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1028"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01029"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1029"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01029] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01018] In method org.apache.kafka.controller.QuorumController.renounce@POLYN467911 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01030"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1030"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1030"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01030] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the ISR {} had more than one replica while the leader was still ' should be converted to const"
+ , "c3" : "QC-JAV000010[01030] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01031"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1031"
+   "c1" : "01032"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'recovering from an unclean leader election {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  'Cancelling deferred write event {} because the event queue ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01039"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1039"
+   "c1" : "01033"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1033"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01039] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  'is now closed.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01034"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1034"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01036"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1036"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01036] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  'Cancelling deferred write event {} because this controller ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1037"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01037] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  'is no longer active.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01038"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1038"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1040"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1040"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01040] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the leader recovery state cannot change from RECOVERED to RECOVERING.' should be converted to const"
+ , "c3" : "QC-JAV000010[01040] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  'Unexpected exception while executing deferred write event {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1050"
+   "c1" : "01041"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1041"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01050] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  'Rescheduling for a minute from now.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01051"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1051"
+   "c1" : "01043"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1043"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01051] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'it specified ineligible replicas {} in the new ISR {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01043] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1054"
+   "c1" : "01044"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1044"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01054] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01044] In method org.apache.kafka.controller.QuorumController the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01065"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1065"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01065] For method handleBrokerFenced arguments int  brokerId|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01065"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1065"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01065] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01067"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1067"
+   "c1" : "01077"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1077"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01077] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN471383 the MagicNumber/String  'Scheduling write event for {} because scheduled ({}), checkIntervalNs ({}) and isImbalanced ({})' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01068"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1068"
+   "c1" : "01109"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  'Can't find broker registration for broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN471383 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01070"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1070"
+   "c1" : "01131"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  'handleBrokerFenced' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1076"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01076] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01080"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1080"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01080] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01085"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1085"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01085] For method handleBrokerUnregistered arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01086"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1086"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01086] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1087"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01087] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnregistered@POLYN560262 the MagicNumber/String  'handleBrokerUnregistered' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01091"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1091"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnregistered@POLYN560262 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1095"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01095] For method handleBrokerUnfenced arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1095"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01095] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01100"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01100] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN561104 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01103"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01103] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN561104 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01105"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01105] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN561104 the MagicNumber/String  'handleBrokerUnfenced' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01110"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01110] For method handleBrokerInControlledShutdown arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01110"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1110"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01110] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01116"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01116] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN562351 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01118"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN562351 the MagicNumber/String  'enterControlledShutdown[' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01118"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN562351 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01122"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01122] For method electLeaders arguments ElectLeadersRequestData  request"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01122"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1122"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01122] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01133"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01133] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01134"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01134] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01137"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01137] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01140"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01140] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01140"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01140] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01155"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01155] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01159"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01159] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01159"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01159] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01126"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01126] In method org.apache.kafka.controller.ReplicationControlManager.electLeaders@POLYN563225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN473113 the MagicNumber/String  'Scheduling write event for {} because maxIdleIntervalNs ({}) and metadataVersion ({})' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01138"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1138"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.controller.ReplicationControlManager.electLeaders@POLYN563225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN473113 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01170"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01170] For method electionType arguments byte  electionType"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01174"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1174"
+   "c1" : "01142"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.controller.ReplicationControlManager.electionType@POLYN565925 the MagicNumber/String  'Unknown election type ' should be converted to const"
+ , "c3" : "QC-JAV000010[01142] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN473113 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01178"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1178"
+   "c1" : "01143"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01143] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN473113 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01149"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01149] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN473113 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01154"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01154] In method org.apache.kafka.controller.QuorumController.cancelNextWriteNoOpRecord@POLYN474315 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01178] For method electLeader arguments String  topic|int  partitionId|ElectionType  electionType|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01171] For method replay arguments ApiMessage  message|Optional&lt;OffsetAndEpoch &gt;  snapshotId|long  offset"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01179"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1179"
+   "c1" : "01171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1171"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01179] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01171] The argument message is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01181"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01183"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  'No such topic as ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01186"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01186] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01188"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01188] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  'No such topic id as ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01191] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01193"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  'No such partition as ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01193"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01222"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1222"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01222] For method processBrokerHeartbeat arguments BrokerHeartbeatRequestData  request|long  lastCommittedOffset"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01223"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1223"
+   "c1" : "01171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1171"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01223] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01171] The argument snapshotId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01258"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1258"
+   "c1" : "01225"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01225] In method org.apache.kafka.controller.QuorumController.replay@POLYN474832 the MagicNumber/String  'Unhandled record type ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01229"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01229] In method org.apache.kafka.controller.QuorumController.replay@POLYN474832 the MagicNumber/String  'Error replaying record {} from snapshot {} at last offset {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01232"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01232] In method org.apache.kafka.controller.QuorumController.replay@POLYN474832 the MagicNumber/String  'Error replaying record {} at last offset {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01238"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1238"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01258] For method unregisterBroker arguments int  brokerId"
+ , "c3" : "QC-JAV000006[01238] For method maybeGenerateSnapshot arguments long  batchSizeInBytes"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01260"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1260"
+   "c1" : "01241"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01260] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01241] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN477976 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01261"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1261"
+   "c1" : "01250"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01261] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  'Broker ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[01250] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN477976 the MagicNumber/String  'Generating a snapshot that includes (epoch={}, offset={}) after {} committed bytes since the last snapshot.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01262"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1262"
+   "c1" : "01254"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01262] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  ' is not currently registered' should be converted to const"
+ , "c3" : "QC-JAV000010[01254] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN477976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01266"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1266"
+   "c1" : "01263"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01266] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.controller.QuorumController.resetState@POLYN478725 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01276"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1276"
+   "c1" : "01264"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01276] In method org.apache.kafka.controller.ReplicationControlManager.maybeFenceOneStaleBroker@POLYN571690 the MagicNumber/String  'Fencing broker {} because its session has timed out.' should be converted to const"
+ , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.controller.QuorumController.resetState@POLYN478725 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01280"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1280"
+   "c1" : "01264"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01280] In method org.apache.kafka.controller.ReplicationControlManager.maybeFenceOneStaleBroker@POLYN571690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.controller.QuorumController.resetState@POLYN478725 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01298"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1298"
+   "c1" : "01264"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01298] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01304"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1304"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01304] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01311"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1311"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01311] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01291"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1291"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01291] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01294"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1294"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01294] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01299"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1299"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01299] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01300"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1300"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01300] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  'Skipping unknown imbalanced topic {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01305"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1305"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01306"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1306"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01306] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  'Skipping unknown imbalanced partition {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01325"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1325"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01325] For method createPartitions arguments List&lt;CreatePartitionsTopic &gt;  topics"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01330"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1330"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01330] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01333"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1333"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01333] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01335"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1335"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01335] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01336"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1336"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01336] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN574428 the MagicNumber/String  'Unexpected createPartitions error for {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01347"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1347"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01347] For method createPartitions arguments CreatePartitionsTopic  topic|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01347"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1347"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01347] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01348"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1348"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01348] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01393"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1393"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01393] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01397"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1397"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01397] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01416"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1416"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01416] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01417"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1417"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01417] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01350"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1350"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01350] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01354"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1354"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01354] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01358"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1358"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01358] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Topic already has ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01359"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1359"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01359] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' partition(s).' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01361"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1361"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01361] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'The topic ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01361"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1361"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01361] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' currently ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01362"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1362"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01362] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'has ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01362"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1362"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01362] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' partition(s); ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01363"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1363"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01363] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' would not be an increase.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01366"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1366"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01366] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01368"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1368"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01368] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Attempted to add ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01369"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1369"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01369] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' additional partition(s), but only ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01370"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1370"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01370] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' assignment(s) were specified.' should be converted to const"
+ , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.controller.QuorumController.resetState@POLYN478725 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01375"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1375"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01375] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Invalid state: topic ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01376"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1376"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' appears to have no partitions.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01380"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1380"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01380] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Invalid replication factor ' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1375"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01375] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01381"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1381"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01381] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ': expected a number equal to less than ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01389"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1389"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01389] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01392"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1392"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01392] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01401"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1401"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01401] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'All brokers specified in the manual partition assignment for ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01402"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1402"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01402] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01402"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1402"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01402] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' are fenced or in controlled shutdown.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01415"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1415"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01415] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01424"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1424"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01424] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01425"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1425"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01425] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' time(s): All brokers are currently fenced or in controlled shutdown.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01435"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1435"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01435] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01436"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1436"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01436] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01437"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1437"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01437] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01442"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1442"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01442] For method validateManualPartitionAssignment arguments List&lt;Integer &gt;  assignment|OptionalInt  replicationFactor"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01442"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1442"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1381"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01442] The argument assignment is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01381] The argument raftClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01443"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1443"
+   "c1" : "01394"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1394"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01443] The argument replicationFactor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01445"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1445"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01445] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01446"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1446"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01446] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes an empty replica list.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01450"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1450"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01450] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01453"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1453"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01453] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01454"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1454"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes broker ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01454"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1454"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ', but no such broker is ' should be converted to const"
+ , "c3" : "QC-JAVCWE476[01394] The argument authorizer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01455"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1455"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01455] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'registered.' should be converted to const"
+ , "c3" : "QC-JAV000010[01455] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN483345 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01458"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1458"
+   "c1" : "01457"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01458] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01457] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN483345 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01459"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1459"
+   "c1" : "01461"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01459] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes the broker ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01459"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1459"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01459] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ' more than ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01460"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1460"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01460] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'once.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01466"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1466"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01466] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01461] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN483345 the MagicNumber/String  'Creating new QuorumController with clusterId {}, authorizer {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01467"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1467"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01467] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes a partition with ' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1467"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01467] For method alterPartition arguments ControllerRequestContext  context|AlterPartitionRequestData  request"
 }} 
 ,
 { "ligne" : {
    "c1" : "01468"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1468"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01468] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ' replica(s), but this is not consistent with previous ' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1468"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01468] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01469"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1469"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'partitions, which have ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01469"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1469"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ' replica(s).' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1469"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01469] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01474"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1474"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01474] In method org.apache.kafka.controller.QuorumController.alterPartition@POLYN487861 the MagicNumber/String  'alterPartition' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01479"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1479"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01474] For method generateLeaderAndIsrUpdates arguments String  context|int  brokerToRemove|int  brokerToAdd|List&lt;ApiMessageAndVersion &gt;  records|Iterator&lt;TopicIdPartition &gt;  iterator"
+ , "c3" : "QC-JAV000006[01479] For method createTopics arguments ControllerRequestContext  context|CreateTopicsRequestData  request|Set&lt;String &gt;  describable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01477"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1477"
+   "c1" : "01480"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1480"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01477] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01480] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01478"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1478"
+   "c1" : "01481"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1481"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01478] The argument iterator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01481] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01497"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1497"
+   "c1" : "01486"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1486"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01497] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[01486] In method org.apache.kafka.controller.QuorumController.createTopics@POLYN488389 the MagicNumber/String  'createTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01498"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1498"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01498] Avoid declaring class instance within loop, performance impact"
+   "c1" : "01491"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1491"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01491] For method unregisterBroker arguments ControllerRequestContext  context|int  brokerId"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01503"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1503"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01503] Avoid declaring class instance within loop, performance impact"
+   "c1" : "01492"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1492"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01492] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01508"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1508"
+   "c1" : "01495"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01508] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01530"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1530"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01530] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01531"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1531"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01531] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01531"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1531"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01531] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01499"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1499"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01499] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01495] In method org.apache.kafka.controller.QuorumController.unregisterBroker@POLYN488963 the MagicNumber/String  'unregisterBroker' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01500"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1500"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01500] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  'Topic ID ' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1500"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01500] For method findTopicIds arguments ControllerRequestContext  context|Collection&lt;String &gt;  names"
 }} 
 ,
 { "ligne" : {
    "c1" : "01501"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1501"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  ' existed in isrMembers, but not in the topics map.' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1501"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01501] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01504"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1504"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01504] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01505"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1505"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01505] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  'Partition ' should be converted to const"
+   "c1" : "01502"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1502"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01502] The argument names is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01506"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1506"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1506"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01506] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  ' existed in isrMembers, but not in the partitions map.' should be converted to const"
+ , "c3" : "QC-JAV000010[01506] In method org.apache.kafka.controller.QuorumController.findTopicIds@POLYN489344 the MagicNumber/String  'findTopicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01527"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1527"
+   "c1" : "01511"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1511"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01511] For method findAllTopicIds arguments ControllerRequestContext  context"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01512"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1512"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01512] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01514"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01527] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[01514] In method org.apache.kafka.controller.QuorumController.findAllTopicIds@POLYN489893 the MagicNumber/String  'findAllTopicIds' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01519"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1519"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01519] For method findTopicNames arguments ControllerRequestContext  context|Collection&lt;Uuid &gt;  ids"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01520"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1520"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01520] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01521"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1521"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01521] The argument ids is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01525"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1525"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01525] In method org.apache.kafka.controller.QuorumController.findTopicNames@POLYN490249 the MagicNumber/String  'findTopicNames' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01530"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1530"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01530] For method deleteTopics arguments ControllerRequestContext  context|Collection&lt;Uuid &gt;  ids"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01531"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1531"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01531] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01532"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1532"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01532] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01534"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1534"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01534] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  ', ' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1532"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01532] The argument ids is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01536"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1536"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1536"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01536] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '{}: changing partition(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01536] In method org.apache.kafka.controller.QuorumController.deleteTopics@POLYN490798 the MagicNumber/String  'deleteTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01538"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1538"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01538] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '{}: changing {} partition(s)' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01543"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1543"
+   "c1" : "01541"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1541"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01543] For method alterPartitionReassignments arguments AlterPartitionReassignmentsRequestData  request"
+ , "c3" : "QC-JAV000006[01541] For method describeConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource ,Collection&lt;String &gt; &gt;  resources"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01544"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1544"
+   "c1" : "01542"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1542"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01544] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01542] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01545"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1545"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01545] In method org.apache.kafka.controller.QuorumController.describeConfigs@POLYN491383 the MagicNumber/String  'describeConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01550"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1550"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01550] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1550"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01550] For method electLeaders arguments ControllerRequestContext  context|ElectLeadersRequestData  request"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01551"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1551"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01551] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01552"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1552"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01552] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01553"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1553"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01553] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01557"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1557"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01557] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01553"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1553"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01553] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01557"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1557"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01557] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01547"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1547"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01547] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01548"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1548"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01548"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1548"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01558"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1558"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01558] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  'Unable to alter partition reassignment for ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01559"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1559"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01559] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  ':' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01559"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1559"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01559] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  ' because ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01560"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1560"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  'of an ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01560"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1560"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  ' error: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01571"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1571"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  'Successfully altered {} out of {} partition reassignment(s).' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01576"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1576"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01576] For method alterPartitionReassignment arguments String  topicName|ReassignablePartition  target|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01577"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1577"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1552"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01577] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01552] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01556"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1556"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[01556] The same method call request.topicPartitions() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "01556"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1556"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01556] In method org.apache.kafka.controller.QuorumController.electLeaders@POLYN491786 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01559"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1559"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01559] In method org.apache.kafka.controller.QuorumController.electLeaders@POLYN491786 the MagicNumber/String  'electLeaders' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01564"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1564"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01564] For method finalizedFeatures arguments ControllerRequestContext  context"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01565"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1565"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01565] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01567"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01567] In method org.apache.kafka.controller.QuorumController.finalizedFeatures@POLYN492358 the MagicNumber/String  'getFinalizedFeatures' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01572"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1572"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01572] For method incrementalAlterConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource ,Map&lt;String ,Entry&lt;OpType ,String &gt; &gt; &gt;  configChanges|boolean  validateOnly"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01573"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1573"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01573] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01574"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1574"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01574] The argument configChanges is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01580"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1580"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01580] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01581"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1581"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01581] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'Unable to find a topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01580] In method org.apache.kafka.controller.QuorumController.incrementalAlterConfigs@POLYN492693 the MagicNumber/String  'incrementalAlterConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01582"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1582"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1582"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01582] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'named ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01582"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1582"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01582] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01585"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1585"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01585] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01586"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1586"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01586] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'Unable to find a topic ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01587"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1587"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01587] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'with ID ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01587"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1587"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01587] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01591"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1591"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01591] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01582] In method org.apache.kafka.controller.QuorumController.incrementalAlterConfigs@POLYN492693 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01592"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1592"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01592] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'Unable to find partition ' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1592"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01592] For method alterPartitionReassignments arguments ControllerRequestContext  context|AlterPartitionReassignmentsRequestData  request"
 }} 
 ,
 { "ligne" : {
    "c1" : "01593"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1593"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01593] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  ':' should be converted to const"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1593"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01593] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01593"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1593"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01593] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  '.' should be converted to const"
+   "c1" : "01594"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1594"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01594] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01596"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1596"
+   "c1" : "01599"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1599"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01596] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01599] In method org.apache.kafka.controller.QuorumController.alterPartitionReassignments@POLYN493601 the MagicNumber/String  'alterPartitionReassignments' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01604"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1604"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1604"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01604] For method cancelPartitionReassignment arguments String  topicName|TopicIdPartition  tp|PartitionRegistration  part"
+ , "c3" : "QC-JAV000006[01604] For method listPartitionReassignments arguments ControllerRequestContext  context|ListPartitionReassignmentsRequestData  request"
 }} 
 ,
 { "ligne" : {
    "c1" : "01605"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1605"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1605"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01605] The argument tp is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01605] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01606"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1606"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1606"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01606] The argument part is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01606] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01613"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1613"
+   "c1" : "01608"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1608"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01613] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  'Unable to revert partition ' should be converted to const"
+ , "c3" : "QC-JAV000021[01608] The same method call request.topics() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "01614"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1614"
+   "c1" : "01608"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1608"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  'assignment for ' should be converted to const"
+ , "c3" : "QC-JAV000010[01608] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN494107 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01614"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1614"
+   "c1" : "01610"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[01610] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN494107 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01614"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1614"
+   "c1" : "01612"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  ' because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01612] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN494107 the MagicNumber/String  'listPartitionReassignments' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01615"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1615"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01615] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  'it would require an unclean leader election.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01634"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1634"
+   "c1" : "01617"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1617"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01634] For method changePartitionReassignment arguments TopicIdPartition  tp|PartitionRegistration  part|ReassignablePartition  target"
+ , "c3" : "QC-JAV000006[01617] For method legacyAlterConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource ,Map&lt;String ,String &gt; &gt;  newConfigs|boolean  validateOnly"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01634"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1634"
+   "c1" : "01618"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1618"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01634] The argument tp is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01618] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01635"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1635"
+   "c1" : "01619"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1619"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01635] The argument part is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01619] The argument newConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01624"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1624"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01624] In method org.apache.kafka.controller.QuorumController.legacyAlterConfigs@POLYN494777 the MagicNumber/String  'legacyAlterConfigs' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01626"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1626"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01626] In method org.apache.kafka.controller.QuorumController.legacyAlterConfigs@POLYN494777 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01636"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1636"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01636] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01660"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1660"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1636"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01660] For method listPartitionReassignments arguments List&lt;ListPartitionReassignmentsTopics &gt;  topicList"
+ , "c3" : "QC-JAV000006[01636] For method processBrokerHeartbeat arguments ControllerRequestContext  context|BrokerHeartbeatRequestData  request"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01672"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1672"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01672] Avoid declaring class instance within loop, performance impact"
+   "c1" : "01637"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1637"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01637] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01663"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1663"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01663] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN594872 the MagicNumber/String  null should be converted to const"
+   "c1" : "01638"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1638"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01638] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01664"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1664"
+   "c1" : "01640"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1640"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01664] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN594872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01640] In method org.apache.kafka.controller.QuorumController.processBrokerHeartbeat@POLYN495648 the MagicNumber/String  'processBrokerHeartbeat' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01673"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1673"
+   "c1" : "01643"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1643"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01673] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN594872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01643] In method org.apache.kafka.controller.QuorumController.processBrokerHeartbeat@POLYN495648 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01665"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1665"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01665] For method registerBroker arguments ControllerRequestContext  context|BrokerRegistrationRequestData  request"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01666"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1666"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01666] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01669"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1669"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01669] In method org.apache.kafka.controller.QuorumController.registerBroker@POLYN496758 the MagicNumber/String  'registerBroker' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01671"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1671"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01671] In method org.apache.kafka.controller.QuorumController.registerBroker@POLYN496758 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01679"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1679"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01679] For method alterClientQuotas arguments ControllerRequestContext  context|Collection&lt;ClientQuotaAlteration &gt;  quotaAlterations|boolean  validateOnly"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01680"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1680"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01680] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01681"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1681"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01681] For method listReassigningTopic arguments ListPartitionReassignmentsResponseData  response|Uuid  topicId|List&lt;Integer &gt;  partitionIds"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01681"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1681"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1681"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01681] The argument response is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01681] The argument quotaAlterations is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01689"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1689"
+   "c1" : "01687"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1687"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[01689] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.controller.QuorumController.alterClientQuotas@POLYN497377 the MagicNumber/String  'alterClientQuotas' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01685"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1685"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01685] In method org.apache.kafka.controller.ReplicationControlManager.listReassigningTopic@POLYN595923 the MagicNumber/String  null should be converted to const"
+   "c1" : "01699"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1699"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01699] For method allocateProducerIds arguments ControllerRequestContext  context|AllocateProducerIdsRequestData  request"
 }} 
 ,
 { "ligne" : {
    "c1" : "01700"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1700"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01700] For method getOngoingPartitionReassignment arguments TopicControlInfo  topicInfo|int  partitionId"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1700"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01700] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01701"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1701"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1701"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[01701] The argument topicInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01701] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01703"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1703"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.controller.ReplicationControlManager.getOngoingPartitionReassignment@POLYN596954 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.controller.QuorumController.allocateProducerIds@POLYN498171 the MagicNumber/String  'allocateProducerIds' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01711"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1711"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01711] For method updateFeatures arguments ControllerRequestContext  context|UpdateFeaturesRequestData  request"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01712"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1712"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01712] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "01713"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1713"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01713] The class ReplicationControlIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1713"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01713] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01742"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1742"
+   "c1" : "01715"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1715"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01715] In method org.apache.kafka.controller.QuorumController.updateFeatures@POLYN498748 the MagicNumber/String  'updateFeatures' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01738"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1738"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01742] For method iterator arguments long  epoch"
+ , "c3" : "QC-JAV000006[01738] For method createPartitions arguments ControllerRequestContext  context|List&lt;CreatePartitionsTopic &gt;  topics|boolean  validateOnly"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01739"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1739"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01739] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01740"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1740"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01740] The argument topics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01747"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1747"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01747] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN500574 the MagicNumber/String  'createPartitions' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01750"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1750"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN500574 the MagicNumber/String  'Validate-only CreatePartitions result(s): {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01753"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1753"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01753] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN500574 the MagicNumber/String  'CreatePartitions result(s): {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01762"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1762"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01762] In method org.apache.kafka.controller.QuorumController.beginWritingSnapshot@POLYN501587 the MagicNumber/String  'beginWritingSnapshot' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01763"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01763] In method org.apache.kafka.controller.QuorumController.beginWritingSnapshot@POLYN501587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01776"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1776"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01776] For method createAcls arguments ControllerRequestContext  context|List&lt;AclBinding &gt;  aclBindings"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01777"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1777"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01777] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01780"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01780] In method org.apache.kafka.controller.QuorumController.createAcls@POLYN502229 the MagicNumber/String  'createAcls' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01785"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1785"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01785] For method deleteAcls arguments ControllerRequestContext  context|List&lt;AclBindingFilter &gt;  filters"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01786"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1786"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[01786] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01789"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1789"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01789] In method org.apache.kafka.controller.QuorumController.deleteAcls@POLYN502594 the MagicNumber/String  'deleteAcls' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01794"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1794"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01794] For method waitForReadyBrokers arguments int  minBrokers"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01796"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1796"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01796] In method org.apache.kafka.controller.QuorumController.waitForReadyBrokers@POLYN502938 the MagicNumber/String  'waitForReadyBrokers' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01804"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1804"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01804] In method org.apache.kafka.controller.QuorumController.beginShutdown@POLYN503352 the MagicNumber/String  'QuorumController#beginShutdown' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01833"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01833] In method org.apache.kafka.controller.QuorumController.pause@POLYN504013 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01834"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1834"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01834] In method org.apache.kafka.controller.QuorumController.pause@POLYN504013 the MagicNumber/String  'pause' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01838"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1838"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01838] In method org.apache.kafka.controller.QuorumController.pause@POLYN504013 the MagicNumber/String  'Interrupted while waiting for unpause.' should be converted to const"
 }} 
 ]
 };

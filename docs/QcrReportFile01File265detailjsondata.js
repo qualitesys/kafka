@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/PartitionInfo.java 12 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/MetricName.java 15 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,7 +49,14 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -62,87 +69,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00005"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#5"
+   "c1" : "00008"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00005] The class PartitionInfo contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class MetricName contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#14"
+   "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.PartitionInfo.PartitionInfo@POLYN164698 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.MetricName.hashCode@POLYN177140 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#63"
+   "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.PartitionInfo.toString@POLYN166602 the MagicNumber/String  'Partition(topic = %s, partition = %d, leader = %s, replicas = %s, isr = %s, offlineReplicas = %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.MetricName.hashCode@POLYN177140 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#66"
+   "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN166602 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.MetricName.hashCode@POLYN177140 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN166602 the MagicNumber/String  'none' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#73"
+   "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method formatNodeIds arguments Node[]  nodes"
+ , "c3" : "QC-JAV000006[00054] For method equals arguments Object  obj"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#74"
+   "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN167083 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000021[00059] The same method call obj.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#75"
+   "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN167083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.MetricName.equals@POLYN177868 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#76"
+   "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN167083 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.MetricName.equals@POLYN177868 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#78"
+   "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN167083 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.MetricName.equals@POLYN177868 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#79"
+   "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN167083 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.MetricName.equals@POLYN177868 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#82"
+   "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN167083 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricName.toString@POLYN178554 the MagicNumber/String  'MetricName [name=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricName.toString@POLYN178554 the MagicNumber/String  ', group=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricName.toString@POLYN178554 the MagicNumber/String  ', description=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.MetricName.toString@POLYN178554 the MagicNumber/String  ', tags=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.MetricName.toString@POLYN178554 the MagicNumber/String  ']' should be converted to const"
 }} 
 ]
 };

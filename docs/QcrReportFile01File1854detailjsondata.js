@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java 9 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java 11 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,86 +49,86 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "10"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00006"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#6"
+   "c1" : "00008"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class Stamped contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class SerdeGetter contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#17"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method compareTo arguments Object  other"
+   "c1" : "00015"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#15"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.processor.internals.SerdeGetter.SerdeGetter@POLYN158188 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#16"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.processor.internals.SerdeGetter.SerdeGetter@POLYN158188 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00019"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#19"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.processor.internals.SerdeGetter.SerdeGetter@POLYN158457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#21"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.processor.internals.Stamped.compareTo@POLYN156810 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.processor.internals.SerdeGetter.SerdeGetter@POLYN158457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#23"
+   "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.processor.internals.Stamped.compareTo@POLYN156810 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.SerdeGetter.SerdeGetter@POLYN158734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#25"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.Stamped.compareTo@POLYN156810 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.SerdeGetter.SerdeGetter@POLYN158734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method equals arguments Object  other"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#29"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.processor.internals.SerdeGetter.keySerde@POLYN158974 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#30"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00030] The same method call other.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.SerdeGetter.keySerde@POLYN158974 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#30"
+   "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.Stamped.equals@POLYN157289 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.internals.SerdeGetter.valueSerde@POLYN159256 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#31"
+   "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.processor.internals.Stamped.equals@POLYN157289 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.SerdeGetter.valueSerde@POLYN159256 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java 49 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.xml" 
+   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html" 
+ , "texte" : "File tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java 35 rule violations " 
+ , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,16 +39,9 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c2" : "QC-JAVCWE392"
+ , "c3" : "Failure to report error in status code"
  , "c4" : "1"
 }}
 ,
@@ -56,373 +49,268 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "29"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "7"
-}}
-,
-{ "ligne" : {
-   "c1" : "INFO"
- , "c2" : "QC-JAV000019"
- , "c3" : "Lock statement"
- , "c4" : "4"
+ , "c4" : "10"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00039"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#39"
+   "c1" : "00102"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00039] The class PushHttpMetricsReporter contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00102] The class OAuthCompatibilityTool contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#88"
+   "c1" : "00104"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00104] For method main arguments String[]  args"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#93"
+   "c1" : "00112"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN199523 the MagicNumber/String  'Malformed metrics.url' should be converted to const"
+ , "c3" : "QC-JAVCWE392[00112] Failure to report error in status code (see http://cwe.mitre.org/data/definitions/392.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00099"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#99"
+   "c1" : "00111"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN199523 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00103"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#103"
+   "c1" : "00128"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN199523 the MagicNumber/String  'Failed to get canonical hostname' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00109"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN199523 the MagicNumber/String  'Configured PushHttpMetricsReporter for {} to report every {} seconds' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00113"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#113"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method init arguments List&lt;KafkaMetric &gt;  initMetrics"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00114"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#114"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00114] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00116"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.tools.PushHttpMetricsReporter.init@POLYN200976 the MagicNumber/String  'Adding metric {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method metricChange arguments KafkaMetric  metric"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#123"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00123] The argument metric is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00124"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#124"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00124] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.PushHttpMetricsReporter.metricChange@POLYN201427 the MagicNumber/String  'Updating metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  'PASSED 1/5: client configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method metricRemoval arguments KafkaMetric  metric"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00131"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#131"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00131] The argument metric is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#132"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00132] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00133"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#133"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.tools.PushHttpMetricsReporter.metricRemoval@POLYN201780 the MagicNumber/String  'Removing metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  'PASSED 2/5: client JWT retrieval' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00142"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#142"
+   "c1" : "00134"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.tools.PushHttpMetricsReporter.close@POLYN202111 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  'PASSED 3/5: client JWT validation' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00144"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#144"
+   "c1" : "00143"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.tools.PushHttpMetricsReporter.close@POLYN202111 the MagicNumber/String  'Interrupted when shutting down PushHttpMetricsReporter' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  'PASSED 4/5: broker configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#148"
+   "c1" : "00146"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00148] The class HttpReporter contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  'PASSED 5/5: broker JWT validation' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00150"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  'SUCCESS' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00151"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#153"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00153] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00156"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#156"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00156] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  'FAILED:' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00163"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#163"
+   "c1" : "00157"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'Reporting {} metrics to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00164"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#164"
+   "c1" : "00161"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN229824 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00167"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#167"
+   "c1" : "00166"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000008[00166] The class ArgsHandler contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00170"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#170"
+   "c1" : "00178"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.ArgsHandler@POLYN232764 the MagicNumber/String  'oauth-compatibility-tool' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#171"
+   "c1" : "00179"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'Content-Type' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.ArgsHandler@POLYN232764 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'application/json' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00173"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#173"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'Content-Length' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00174"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'Accept' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00174"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  '*/*' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00175"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00177"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#177"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00185"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  400 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00188"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'Error reporting metrics, {}: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00189"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  300 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00190"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#190"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'PushHttpMetricsReporter does not currently support redirects, saw {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00192"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#192"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'Finished reporting metrics with response code {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00195"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  'Error reporting metrics' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00197"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN202530 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00205"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#205"
+   "c1" : "00183"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00205] For method newHttpConnection arguments URL  url"
+ , "c3" : "QC-JAV000006[00183] For method parseArgs arguments String[]  args"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00205"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#205"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00205] The argument url is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00210"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#210"
+   "c1" : "00237"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#237"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00210] For method readResponse arguments InputStream  is"
+ , "c3" : "QC-JAV000006[00237] For method addArgument arguments String  option|String  help"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00211"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.tools.PushHttpMetricsReporter.readResponse@POLYN205907 the MagicNumber/String  '\\A' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00212"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.tools.PushHttpMetricsReporter.readResponse@POLYN205907 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00216"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00216] The class MetricsReport contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00236"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#236"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00236] The class MetricClientInfo contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00263"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#263"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00263] The class MetricValue contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00305"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#305"
+   "c1" : "00241"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#241"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00305] For method getInteger arguments String  key"
+ , "c3" : "QC-JAV000006[00241] For method addArgument arguments String  option|String  help|Class&lt;? &gt;  clazz"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00243"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.addArgument@POLYN237046 the MagicNumber/String  '--' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00254"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#254"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00254] The class ConfigHandler contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00322"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#322"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00322] For method maybeAddInt arguments Map&lt;String ,Object &gt;  m|String  option"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00325"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddInt@POLYN241587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00329"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#329"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00329] For method maybeAddLong arguments Map&lt;String ,Object &gt;  m|String  option"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00332"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#332"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddLong@POLYN241957 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00336"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#336"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00336] For method maybeAddString arguments Map&lt;String ,Object &gt;  m|String  option"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00339"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddString@POLYN242327 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00343"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#343"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00343] For method maybeAddPassword arguments Map&lt;String ,Object &gt;  m|String  option"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00346"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddPassword@POLYN242697 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00350"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#350"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00350] For method maybeAddClass arguments Map&lt;String ,Object &gt;  m|String  option"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00353"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddClass@POLYN243105 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00357"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddClass@POLYN243105 the MagicNumber/String  'Could not find class for ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00362"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#362"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00362] For method maybeAddStringList arguments Map&lt;String ,Object &gt;  m|String  option"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00365"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#365"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddStringList@POLYN243717 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

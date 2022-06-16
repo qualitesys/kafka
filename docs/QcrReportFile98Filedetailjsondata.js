@@ -578,6 +578,20 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumOptions.java" 
+  , "Fic1"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumOptions.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumOptions.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java" 
+  , "Fic1"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java" 
   , "Fic1"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -869,6 +883,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java" 
+  , "Fic1"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {

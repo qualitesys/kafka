@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java 8 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,13 +39,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
-}}
-,
-{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
@@ -55,59 +48,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#33"
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00026] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.ApiVersionsRequest.ApiVersionsRequest@POLYN166457 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.ApiVersionsRequest.hasUnsupportedRequestVersion@POLYN166985 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.ApiVersionsRequest.isValid@POLYN167095 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.ApiVersionsRequest.isValid@POLYN167095 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#84"
+   "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00043] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.ApiVersionsRequest.getErrorResponse@POLYN167617 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#103"
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00053] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/metadata/FeatureLevelListener.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/metadata/FeatureLevelListener.java 0 rule violation " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/metadata/FeatureLevelListener.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java 0 rule violation " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.xml" 
  , "fic3"  : "" 
 }
 , 

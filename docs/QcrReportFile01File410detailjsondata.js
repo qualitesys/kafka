@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/SnapshotNotFoundException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/SnapshotNotFoundException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/SnapshotNotFoundException.java.xml" 
  , "fic3"  : "" 
 }
 , 

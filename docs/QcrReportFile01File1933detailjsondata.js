@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java 11 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java 6 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,88 +40,60 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "11"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#24"
+   "c1" : "00012"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.query.internals.FailedQueryResult.isSuccess@POLYN164290 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.query.internals.FailedQueryResult.isFailure@POLYN164503 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000008[00012] The class WindowKeyQuery contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#46"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.query.internals.FailedQueryResult.getResult@POLYN165270 the MagicNumber/String  'Cannot get result for failed query. Failure is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN159405 the MagicNumber/String  'WindowKeyQuery{' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#46"
+   "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.query.internals.FailedQueryResult.getResult@POLYN165270 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN159405 the MagicNumber/String  'key=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#52"
+   "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.query.internals.FailedQueryResult.toString@POLYN165498 the MagicNumber/String  'FailedQueryResult{' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN159405 the MagicNumber/String  ', timeFrom=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#53"
+   "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.query.internals.FailedQueryResult.toString@POLYN165498 the MagicNumber/String  'failureReason=' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN159405 the MagicNumber/String  ', timeTo=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#54"
+   "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.query.internals.FailedQueryResult.toString@POLYN165498 the MagicNumber/String  ', failure='' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.query.internals.FailedQueryResult.toString@POLYN165498 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.query.internals.FailedQueryResult.toString@POLYN165498 the MagicNumber/String  ', executionInfo=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.query.internals.FailedQueryResult.toString@POLYN165498 the MagicNumber/String  ', position=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.query.internals.FailedQueryResult.toString@POLYN165498 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN159405 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

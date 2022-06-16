@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java 43 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java 26 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -56,317 +56,198 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "33"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "8"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#12"
+   "c1" : "00014"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class StreamJoined contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class SessionWindowedSerializer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#24"
+   "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#27"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00027] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#27"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00024] The argument streamJoined is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00027] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#60"
+   "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#61"
+   "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#62"
+   "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  'Serde class ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#65"
+   "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  ' could not be found.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#39"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#39"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#41"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  'Inner class serializer set using constructor ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  '(' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  ' is different from the one set in windowed.inner.class.serde config ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  '(' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  ').' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  'Inner class serializer should be set either via constructor ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  'or via the windowed.inner.class.serde config' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN165012 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#54"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00054] For method serialize arguments String  topic|Windowed&lt;T &gt;  data"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.serialize@POLYN166816 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.serialize@POLYN166816 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#66"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.close@POLYN167267 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.StreamJoined the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#108"
+   "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method withName arguments String  name"
+ , "c3" : "QC-JAV000006[00072] For method serializeBaseKey arguments String  topic|Windowed&lt;T &gt;  data"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method withStoreName arguments String  storeName"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00138"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#138"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00138] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method withValueSerde arguments Serde&lt;V1 &gt;  valueSerde"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#168"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method withOtherValueSerde arguments Serde&lt;V2 &gt;  otherValueSerde"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#183"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method withThisStoreSupplier arguments WindowBytesStoreSupplier  thisStoreSupplier"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#198"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method withOtherStoreSupplier arguments WindowBytesStoreSupplier  otherStoreSupplier"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#213"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00213] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00223"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#223"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.kstream.StreamJoined.withLoggingEnabled@POLYN216162 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00238"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#238"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.kstream.StreamJoined.withLoggingDisabled@POLYN216678 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00245"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#245"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  'StreamJoin{' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  'keySerde=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00247"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#247"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', valueSerde=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#248"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', otherValueSerde=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#249"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', thisStoreSupplier=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00250"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#250"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', otherStoreSupplier=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00251"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', name='' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00251"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#252"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', storeName='' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#252"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', loggingEnabled=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#254"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  ', topicConfig=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00255"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#255"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.streams.kstream.StreamJoined.toString@POLYN217033 the MagicNumber/String  '}' should be converted to const"
+   "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#72"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00072] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java 14 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java 13 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -56,107 +56,100 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#14"
+   "c1" : "00009"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class PredicatedTransformation contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00009] The class HerderConnectorContext contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00029"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#29"
+   "c1" : "00020"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#20"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.runtime.HerderConnectorContext.HerderConnectorContext@POLYN157558 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#26"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN157854 the MagicNumber/String  'The request for task reconfiguration has been rejected ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN157854 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN157854 the MagicNumber/String  '' has already ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#28"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN157854 the MagicNumber/String  'been shut down.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00037] For method raiseError arguments Exception  e"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#30"
+   "c1" : "00039"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.runtime.PredicatedTransformation.configure@POLYN162393 the MagicNumber/String  '.configure() ' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN158199 the MagicNumber/String  'Connector {} attempted to raise error after shutdown:' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00031"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#31"
+   "c1" : "00040"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.runtime.PredicatedTransformation.configure@POLYN162393 the MagicNumber/String  'should never be called directly.' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN158199 the MagicNumber/String  'The request to fail the connector has been rejected ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method apply arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#44"
+   "c1" : "00041"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.PredicatedTransformation.config@POLYN162965 the MagicNumber/String  '.config() ' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN158199 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00045"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#45"
+   "c1" : "00041"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.runtime.PredicatedTransformation.config@POLYN162965 the MagicNumber/String  'should never be called directly.' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN158199 the MagicNumber/String  '' has already ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN158199 the MagicNumber/String  'been shut down.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#50"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.PredicatedTransformation.close@POLYN163173 the MagicNumber/String  'predicated' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.runtime.PredicatedTransformation.close@POLYN163173 the MagicNumber/String  'predicate' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.PredicatedTransformation.toString@POLYN163426 the MagicNumber/String  'PredicatedTransformation{' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.PredicatedTransformation.toString@POLYN163426 the MagicNumber/String  'predicate=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.PredicatedTransformation.toString@POLYN163426 the MagicNumber/String  ', delegate=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.PredicatedTransformation.toString@POLYN163426 the MagicNumber/String  ', negate=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.runtime.PredicatedTransformation.toString@POLYN163426 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.HerderConnectorContext.close@POLYN158705 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

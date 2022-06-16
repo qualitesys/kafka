@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java 6 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java 9 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,15 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
 }}
 ,
@@ -67,54 +60,82 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00018"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#18"
+   "c1" : "00017"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00018] The class DropHeaders contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00017] The class TopicCreation contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00034"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34"
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00037] For method newTopicCreation arguments WorkerConfig  workerConfig|Map&lt;String ,TopicCreationGroup &gt;  topicGroups"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00034"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34"
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#37"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00037] The argument workerConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#55"
+   "c1" : "00039"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#39"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.util.TopicCreation.newTopicCreation@POLYN175777 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.util.TopicCreation.newTopicCreation@POLYN175777 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00058"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00058] For method isTopicCreationRequired arguments String  topic"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#51"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00051] Void method close is empty or contains only a return."
+   "c1" : "00073"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#73"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00073] For method addTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#51"
+   "c1" : "00080"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method findFirstGroup arguments String  topic"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00051] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000003[00048] Public method empty is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

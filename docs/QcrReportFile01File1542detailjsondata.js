@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.xml" 
  , "fic3"  : "" 
 }
 , 

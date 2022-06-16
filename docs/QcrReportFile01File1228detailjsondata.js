@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java 23 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.xml" 
+   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html" 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java 12 rule violations " 
+ , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,6 +39,27 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -49,177 +70,107 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "15"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "7"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00012"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class Requirements contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#14"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method requireSchema arguments Schema  schema|String  purpose"
-}} 
-,
-{ "ligne" : {
    "c1" : "00015"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#15"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00015] The class TopicNameMatches contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  'Schema required for [' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00021"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#21"
+   "c1" : "00034"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method requireMap arguments Object  value|String  purpose"
+ , "c3" : "QC-JAV000006[00034] For method test arguments R  record"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00023"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN161759 the MagicNumber/String  'Only Map objects supported in absence of schema for [' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00023"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN161759 the MagicNumber/String  '], found: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method requireMapOrNull arguments Object  value|String  purpose"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00029"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN162261 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN162261 the MagicNumber/String  null should be converted to const"
+   "c1" : "00034"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#34"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00034] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method requireStruct arguments Object  value|String  purpose"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00037"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN162563 the MagicNumber/String  'Only Struct objects supported for [' should be converted to const"
+ , "c3" : "QC-JAV000021[00035] The same method call pattern.matcher(record.topic()) is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00037"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
+   "c1" : "00035"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN162563 the MagicNumber/String  '], found: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00042"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method requireStructOrNull arguments Object  value|String  purpose"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00043"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN162991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.test@POLYN162701 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN162991 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#49"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method requireSinkRecord arguments ConnectRecord&lt;? &gt;  record|String  purpose"
+ , "c3" : "QC-JAV000006[00044] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN163293 the MagicNumber/String  'Only SinkRecord supported for [' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.configure@POLYN163015 the MagicNumber/String  'entry must be a Java-compatible regular expression: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
+   "c1" : "00058"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN163293 the MagicNumber/String  '], found: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN163765 the MagicNumber/String  'TopicNameMatches{' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method nullSafeClassName arguments Object  x"
+   "c1" : "00059"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN163765 the MagicNumber/String  'pattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#57"
+   "c1" : "00060"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN163736 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN163765 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN163736 the MagicNumber/String  'null' should be converted to const"
+   "c1" : "00039"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#39"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00039] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00039"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#39"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00039] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 };

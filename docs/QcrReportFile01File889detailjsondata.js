@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java 10 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Checksums.java 20 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -47,95 +47,165 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "4"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "11"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#15"
+   "c1" : "00008"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class CollectionUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class Checksums contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument minuend is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00013"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#13"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00013] For method update arguments Checksum  checksum|ByteBuffer  buffer|int  length"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#20"
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#14"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.Checksums.update@POLYN162963 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#17"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00017] For method update arguments Checksum  checksum|ByteBuffer  buffer|int  offset|int  length"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#17"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument subtrahend is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00017] The argument checksum is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#17"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00017] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#27"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#27"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00027] For method updateInt arguments Checksum  checksum|int  input"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#27"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00027] The argument checksum is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#28"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN164038 the MagicNumber/String  24 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#29"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN164038 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#30"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN164038 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#32"
+   "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#34"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00034] For method updateLong arguments Checksum  checksum|long  input"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#34"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00034] The argument checksum is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00032] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN164629 the MagicNumber/String  56 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#36"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN164629 the MagicNumber/String  48 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN164629 the MagicNumber/String  40 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#38"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN164629 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method groupPartitionsByTopic arguments Collection&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#51"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument addToGroup is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#55"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00055] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN164629 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#56"
+   "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00056] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN164629 the MagicNumber/String  16 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#41"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN164629 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
 };

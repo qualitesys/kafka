@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java 15 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java 10 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "12"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -69,108 +69,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#12"
+   "c1" : "00007"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#7"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class TransactionDescription contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00007] The class SupportedVersionRange contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#68"
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#14"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN159518 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#14"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN159518 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#17"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN159518 the MagicNumber/String  'Expected 1 &amp;lt;= minVersion &amp;lt;= maxVersion but received minVersion:%d, maxVersion:%d.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00034] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#70"
+   "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00070] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00039] The same method call other.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#69"
+   "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.admin.TransactionDescription.equals@POLYN164065 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN160256 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#70"
+   "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.admin.TransactionDescription.equals@POLYN164065 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN160256 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#70"
+   "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.admin.TransactionDescription.equals@POLYN164065 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN160256 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#88"
+   "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  'TransactionDescription(' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  'coordinatorId=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  ', state=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  ', producerId=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  ', producerEpoch=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  ', transactionTimeoutMs=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  ', transactionStartTimeMs=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  ', topicPartitions=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.admin.TransactionDescription.toString@POLYN165210 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.SupportedVersionRange.toString@POLYN161014 the MagicNumber/String  'SupportedVersionRange[min_version:%d, max_version:%d]' should be converted to const"
 }} 
 ]
 };

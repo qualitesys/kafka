@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java 7 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java 4 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,27 +39,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -70,7 +49,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -83,52 +62,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#14"
+   "c1" : "00008"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class ClientQuotaDelta contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class TopicIdPartition contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35"
+   "c1" : "00026"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method replay arguments ClientQuotaRecord  record"
+ , "c3" : "QC-JAV000006[00026] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00035] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#46"
+   "c1" : "00027"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.controller.TopicIdPartition.equals@POLYN156394 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00047"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#47"
+   "c1" : "00039"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.image.ClientQuotaDelta.apply@POLYN163388 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00022"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#22"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00022] Public method changes is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00035] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.TopicIdPartition.toString@POLYN156966 the MagicNumber/String  ':' should be converted to const"
 }} 
 ]
 };

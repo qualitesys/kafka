@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java 7 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,10 +39,17 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -62,31 +69,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00005"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#5"
+   "c1" : "00009"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00005] The class RequestFutureAdapter contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00009] The class NoOpConsumerRebalanceListener contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00007"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#7"
+   "c1" : "00012"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#12"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00007] For method onSuccess arguments F  value|RequestFuture&lt;T &gt;  future"
+ , "c3" : "QC-JAV000006[00012] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#9"
+   "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#15"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00009] For method onFailure arguments RuntimeException  e|RequestFuture&lt;T &gt;  future"
+ , "c3" : "QC-JAV000006[00015] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#9"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00009] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00012"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#12"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00012] Void method onPartitionsAssigned is empty or contains only a return."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00012"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#12"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00012] Void method onPartitionsAssigned is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#15"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00015] Void method onPartitionsRevoked is empty or contains only a return."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#15"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00015] Void method onPartitionsRevoked is empty or contains only a return. Interface segregation"
 }} 
 ]
 };

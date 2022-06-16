@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigException.java 6 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,18 +40,53 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java.html#9"
+   "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class ConfigTransformerResult contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155245 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  'Invalid value ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  ' for configuration ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ]
 };

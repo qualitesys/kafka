@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java 25 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java 18 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,187 +39,159 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "13"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "25"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method init arguments ProcessorContext  context|StateStore  root"
+   "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#11"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00011] The class Record contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method init arguments StateStoreContext  context|StateStore  root"
+   "c1" : "00021"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#21"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.processor.api.Record.Record@POLYN185901 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#53"
+   "c1" : "00023"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.processor.api.Record.Record@POLYN185901 the MagicNumber/String  'Malformed Record' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.api.Record.Record@POLYN185901 the MagicNumber/String  'Timestamp may not be negative. Got: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#33"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.api.Record.Record@POLYN186901 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method getReadOnlyStore arguments StateStore  global"
+ , "c3" : "QC-JAV000006[00067] For method withTimestamp arguments long  timestamp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00072] For method withHeaders arguments Headers  headers"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method get arguments K  key"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.api.Record.toString@POLYN189913 the MagicNumber/String  'Record{' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.processor.api.Record.toString@POLYN189913 the MagicNumber/String  'key=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.api.Record.toString@POLYN189913 the MagicNumber/String  ', value=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.api.Record.toString@POLYN189913 the MagicNumber/String  ', timestamp=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.api.Record.toString@POLYN189913 the MagicNumber/String  ', headers=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#83"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.api.Record.toString@POLYN189913 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method range arguments K  from|K  to"
+ , "c3" : "QC-JAV000006[00087] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method reverseRange arguments K  from|K  to"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00089] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method put arguments K  key|V  value"
+   "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.api.Record.equals@POLYN190223 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method putIfAbsent arguments K  key|V  value"
+   "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.api.Record.equals@POLYN190223 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method putAll arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  entries"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#133"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method delete arguments K  key"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#156"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method put arguments K  key|V  value|long  windowStartTimestamp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method fetch arguments K  key|long  time"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method fetch arguments K  key|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#177"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method backwardFetch arguments K  key|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#185"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method fetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#193"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00193] For method backwardFetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#212"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method fetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00242"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#242"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00242] For method findSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#249"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method findSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00257"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#257"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00257] For method remove arguments Windowed&lt;K &gt;  sessionKey"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#262"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00262] For method put arguments Windowed&lt;K &gt;  sessionKey|AGG  aggregate"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#268"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00268] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#273"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method fetch arguments K  key"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00278"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#278"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00278] For method fetch arguments K  keyFrom|K  keyTo"
+   "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.api.Record.equals@POLYN190223 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

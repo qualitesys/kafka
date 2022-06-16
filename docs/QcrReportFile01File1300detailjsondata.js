@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java 94 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 69 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,695 +42,520 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "14"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "26"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "30"
+ , "c4" : "56"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "21"
+ , "c4" : "9"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00039"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#39"
+   "c1" : "00023"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00039] The class ConfigurationControlManager contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00023] The class BrokersToIsrs contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#52"
+   "c1" : "00028"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00052] The class Builder contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00028] The class PartitionsOnReplicaIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method setLogContext arguments LogContext  logContext"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00067"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method setSnapshotRegistry arguments SnapshotRegistry  snapshotRegistry"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method setKafkaConfigSchema arguments KafkaConfigSchema  configSchema"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method setExistenceChecker arguments Consumer&lt;ConfigResource &gt;  existenceChecker"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method setAlterConfigPolicy arguments Optional&lt;AlterConfigPolicy &gt;  alterConfigPolicy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method setValidator arguments ConfigurationValidator  validator"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#92"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method setStaticConfig arguments Map&lt;String ,Object &gt;  staticConfig"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method setNodeId arguments int  nodeId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00103"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.ConfigurationControlManager.Builder.build@POLYN238151 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00104"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.controller.ConfigurationControlManager.Builder.build@POLYN238151 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00117"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#117"
+   "c1" : "00036"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#36"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00036] The argument topicMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00131"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#131"
+   "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.controller.ConfigurationControlManager.ConfigurationControlManager@POLYN238702 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00141"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#141"
+   "c1" : "00043"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201777 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00043"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201777 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201777 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201777 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201777 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00053"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201777 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201777 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00066"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.next@POLYN202926 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.BrokersToIsrs.BrokersToIsrs@POLYN203566 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method incrementalAlterConfigs arguments Map&lt;ConfigResource ,Map&lt;String ,Entry&lt;OpType ,String &gt; &gt; &gt;  configChanges|boolean  newlyCreatedResource"
+ , "c3" : "QC-JAV000006[00085] For method update arguments Uuid  topicId|int  partitionId|int[]  prevIsr|int[]  nextIsr|int  prevLeader|int  nextLeader"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00142"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#142"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00142] The argument configChanges is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00088"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204267 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00157"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#157"
+   "c1" : "00102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204267 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204267 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204267 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00116"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204267 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00150"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method incrementalAlterConfigResource arguments ConfigResource  configResource|Map&lt;String ,Entry&lt;OpType ,String &gt; &gt;  keysToOps|boolean  newlyCreatedResource|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ConfigResource ,ApiError &gt;  outputResults"
+ , "c3" : "QC-JAV000006[00150] For method removeTopicEntryForBroker arguments Uuid  topicId|int  brokerId"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00157"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#157"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00157] The argument configResource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00158"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#158"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00158] The argument keysToOps is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00152"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.controller.BrokersToIsrs.removeTopicEntryForBroker@POLYN207958 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#160"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00160] The argument outputRecords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00161"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#161"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00161] The argument outputResults is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00164"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00164] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#160"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00160] For method add arguments int  brokerId|Uuid  topicId|int  newPartition|boolean  leader"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#165"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00165] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00170"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00171] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00172"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#172"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00172] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#173"
+   "c1" : "00174"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00173] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00175"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00175"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00177"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208568 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#181"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00181] For method change arguments int  brokerId|Uuid  topicId|int  partition|boolean  wasLeader|boolean  isLeader"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00184"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00185"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  'Broker ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00185"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  'entry, so we can't change ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#189"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00189] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00190"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  'Broker ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00190"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  ' has no ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#191"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00191] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00197"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#197"
+   "c1" : "00195"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00197] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN210089 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00165"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  null should be converted to const"
+   "c1" : "00206"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#206"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00206] For method remove arguments int  brokerId|Uuid  topicId|int  removedPartition|boolean  leader"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00167"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#167"
+   "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00179"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#179"
+   "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00185"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#185"
+   "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  'Can't ' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00185"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#185"
+   "c1" : "00213"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  ' to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  'entry, so we can't remove ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00186"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#186"
+   "c1" : "00213"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  'key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00186"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#186"
+   "c1" : "00216"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  ' because its type is not LIST.' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#191"
+   "c1" : "00217"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00197"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#197"
+   "c1" : "00217"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  ' has no ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00201"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#201"
+   "c1" : "00218"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN241345 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00220"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00222"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  'Broker ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00222"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  ' has no ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  'entry in isrMembers for ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00230"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00231"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#231"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00232"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211917 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00242"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00221] For method validateAlterConfig arguments ConfigResource  configResource|List&lt;ApiMessageAndVersion &gt;  newRecords|boolean  newlyCreatedResource"
+ , "c3" : "QC-JAV000006[00242] For method iterator arguments int  brokerId|boolean  leadersOnly"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00228"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#228"
+   "c1" : "00244"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00228] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.controller.BrokersToIsrs.iterator@POLYN214281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00228"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#228"
+   "c1" : "00251"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00228] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithNoLeader@POLYN214756 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00226"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.ConfigurationControlManager.validateAlterConfig@POLYN245266 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00229"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#229"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.controller.ConfigurationControlManager.validateAlterConfig@POLYN245266 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00252"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#252"
+   "c1" : "00254"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method legacyAlterConfigs arguments Map&lt;ConfigResource ,Map&lt;String ,String &gt; &gt;  newConfigs|boolean  newlyCreatedResource"
+ , "c3" : "QC-JAV000006[00254] For method partitionsLedByBroker arguments int  brokerId"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00253"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#253"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00253] The argument newConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00255"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.controller.BrokersToIsrs.partitionsLedByBroker@POLYN214892 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00269"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#269"
+   "c1" : "00258"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00269] For method legacyAlterConfigResource arguments ConfigResource  configResource|Map&lt;String ,String &gt;  newConfigs|boolean  newlyCreatedResource|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ConfigResource ,ApiError &gt;  outputResults"
+ , "c3" : "QC-JAV000006[00258] For method partitionsWithBrokerInIsr arguments int  brokerId"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00269"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#269"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00269] The argument configResource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00270"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#270"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00270] The argument newConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00272"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#272"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00272] The argument outputRecords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00273"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#273"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00273] The argument outputResults is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00280"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#280"
+   "c1" : "00259"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00280] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithBrokerInIsr@POLYN215050 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00281"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#281"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00281] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00282"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00282] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00276"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#276"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.controller.ConfigurationControlManager.legacyAlterConfigResource@POLYN248246 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00297"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#297"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.ConfigurationControlManager.legacyAlterConfigResource@POLYN248246 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00309"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#309"
+   "c1" : "00262"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00309] For method getParts arguments String  value|String  key|ConfigResource  configResource"
+ , "c3" : "QC-JAV000006[00262] For method hasLeaderships arguments int  brokerId"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00309"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#309"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00309] The argument configResource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00310"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#310"
+   "c1" : "00263"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN250871 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00314"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#314"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN250871 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00317"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#317"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN250871 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00327"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#327"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00327] For method replay arguments ConfigRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00327"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#327"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00327] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00331"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#331"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN251860 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00332"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#332"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN251860 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00335"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#335"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN251860 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00343"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#343"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN251860 the MagicNumber/String  '{}: set configuration {} to {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00347"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#347"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00347] For method getConfigs arguments ConfigResource  configResource"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00349"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#349"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.controller.ConfigurationControlManager.getConfigs@POLYN253299 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00356"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#356"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00356] For method describeConfigs arguments long  lastCommittedOffset|Map&lt;ConfigResource ,Collection&lt;String &gt; &gt;  resources"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00357"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#357"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00357] The argument resources is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00360"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#360"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00360] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00363"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#363"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00363] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00367"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#367"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00367] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00368"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#368"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00368] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00371"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#371"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00371] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00373"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#373"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00373] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00376"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#376"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00376] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00380"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#380"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00380] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00381"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#381"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00381] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00376"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#376"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00376] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00381"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#381"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00381] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00370"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#370"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.controller.ConfigurationControlManager.describeConfigs@POLYN253868 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00382"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#382"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.controller.ConfigurationControlManager.describeConfigs@POLYN253868 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00393"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#393"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00393] For method deleteTopicConfigs arguments String  name"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00397"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#397"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00397] For method uncleanLeaderElectionEnabledForTopic arguments String  name"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00398"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#398"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.controller.ConfigurationControlManager.uncleanLeaderElectionEnabledForTopic@POLYN256522 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00401"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#401"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00401] For method computeEffectiveTopicConfigs arguments Map&lt;String ,String &gt;  creationConfigs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00408"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#408"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.controller.ConfigurationControlManager.clusterConfig@POLYN256970 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00413"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#413"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.ConfigurationControlManager.currentControllerConfig@POLYN257329 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00416"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#416"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00416] The class ConfigurationControlIterator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00447"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#447"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00447] For method iterator arguments long  epoch"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.controller.BrokersToIsrs.hasLeaderships@POLYN215208 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

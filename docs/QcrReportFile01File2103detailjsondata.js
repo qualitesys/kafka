@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java 172 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.xml" 
+   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html" 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 179 rule violations " 
+ , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,23 +39,16 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE572"
- , "c3" : "Call to Thread run() instead of start()"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "7"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE392"
- , "c3" : "Failure to report error in status code"
+ , "c2" : "QC-JAVCWE390"
+ , "c3" : "Detection of error condition without action"
  , "c4" : "1"
 }}
 ,
@@ -70,1227 +63,1276 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "143"
+ , "c4" : "118"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "11"
+ , "c4" : "39"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00059] The class ClientCompatibilityTest contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class TestConfig contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#74"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument res is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00076"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'topic' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'offsetsForTimesSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'clusterIdSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'expectRecordTooLargeException' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00080"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'numClusterNodes' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00081"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'createTopicsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'describeAclsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00083"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'describeConfigsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00084"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN239677 the MagicNumber/String  'idempotentProducerSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#88"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00088] The argument args is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00181"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#181"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00181] The program calls a thread's run() method instead of calling start()"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'client-compatibility-test' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00092"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'This tool is used to verify client compatibility guarantees.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--topic' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00097"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'topic' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00098"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'TOPIC' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00099"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'the compatibility test will produce messages to this topic' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00100"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--bootstrap-server' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00104"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'BOOTSTRAP_SERVER' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00106"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'The server(s) to use for bootstrapping' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--offsets-for-times-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {
    "c1" : "00109"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#109"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00111"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'offsetsForTimesSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00112"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'OFFSETS_FOR_TIMES_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00113"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'True if KafkaConsumer#offsetsForTimes is supported by the current broker version' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00114"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--cluster-id-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00116"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00118"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'clusterIdSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00119"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'CLUSTER_ID_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00120"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'True if cluster IDs are supported.  False if cluster ID always appears as null.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00121"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--expect-record-too-large-exception' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'expectRecordTooLargeException' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00126"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'EXPECT_RECORD_TOO_LARGE_EXCEPTION' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00127"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'True if we should expect a RecordTooLargeException when trying to read from a topic ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00128"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'that contains a message that is bigger than ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00129"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '.  This is pre-KIP-74 behavior.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00130"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--num-cluster-nodes' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00134"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'numClusterNodes' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00135"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'NUM_CLUSTER_NODES' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00136"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'The number of cluster nodes we should expect to see from the AdminClient.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00137"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--create-topics-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00139"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00141"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'createTopicsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00142"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'CREATE_TOPICS_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00143"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'Whether we should be able to create topics via the AdminClient.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00144"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--describe-acls-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00146"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'describeAclsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00149"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'DESCRIBE_ACLS_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00150"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'Whether describeAcls is supported in the AdminClient.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00151"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--describe-configs-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00153"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00155"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'describeConfigsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00156"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#156"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'DESCRIBE_CONFIGS_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00157"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'Whether describeConfigs is supported in the AdminClient.' should be converted to const"
+ , "c3" : "QC-JAV000008[00109] The class TopologyTestDriver contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
    "c1" : "00158"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#158"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  '--idempotent-producer-supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN412367 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00160"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  true should be converted to const"
+   "c1" : "00168"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#168"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00168] The argument topology is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00162"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#162"
+   "c1" : "00174"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'idempotentProducerSupported' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413046 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00163"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#163"
+   "c1" : "00184"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'IDEMPOTENT_PRODUCER_SUPPORTED' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  'dummy-bootstrap-host:0' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00164"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#164"
+   "c1" : "00186"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'Whether the producer supports idempotency.' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  'dummy-topology-test-driver-app-id-' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#166"
+   "c1" : "00190"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00170"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00172"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#172"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00175"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00183"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'FAILED: Caught exception %s%n%n' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00185"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00187"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  'SUCCESS.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00188"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN240798 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00191"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#191"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00191] For method toHexString arguments byte[]  buf"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00194"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#194"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.tools.ClientCompatibilityTest.toHexString@POLYN245816 the MagicNumber/String  '%02x' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  'topology-test-driver ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00199"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#199"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00205"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00208"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00208"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00208"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN413625 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00242"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method compareArrays arguments byte[]  a|byte[]  b"
+ , "c3" : "QC-JAV000006[00242] For method logIfTaskIdleEnabled arguments StreamsConfig  streamsConfig"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00201"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.tools.ClientCompatibilityTest.compareArrays@POLYN246232 the MagicNumber/String  'Arrays did not match: expected ' should be converted to const"
+   "c1" : "00242"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#242"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00242] The argument streamsConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00201"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#201"
+   "c1" : "00244"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.tools.ClientCompatibilityTest.compareArrays@POLYN246232 the MagicNumber/String  ', got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN417140 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00215"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#215"
+   "c1" : "00245"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN246796 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN417140 the MagicNumber/String  'Detected {} config in use with TopologyTestDriver (set to {}ms).' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00219"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#219"
+   "c1" : "00246"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN246796 the MagicNumber/String  4096 should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN417140 the MagicNumber/String  ' This means you might need to use TopologyTestDriver#advanceWallClockTime()' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00220"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#220"
+   "c1" : "00247"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN246796 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN417140 the MagicNumber/String  ' or enqueue records on all partitions to allow Steams to make progress.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00220"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#220"
+   "c1" : "00248"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN246796 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN417140 the MagicNumber/String  ' TopologyTestDriver will log a message each time it cannot process enqueued' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00237"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#237"
+   "c1" : "00249"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.tools.ClientCompatibilityTest.testProduce@POLYN248015 the MagicNumber/String  'false' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN417140 the MagicNumber/String  ' records due to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00256"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00256] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#256"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00256] For method setupMetrics arguments StreamsConfig  streamsConfig"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00283"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#283"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00283] Avoid declaring class instance within loop, performance impact"
+   "c1" : "00256"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#256"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00256] The argument streamsConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00255"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#255"
+   "c1" : "00267"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.TopologyTestDriver.setupMetrics@POLYN417648 the MagicNumber/String  'test-client' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00260"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#260"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'Expected to see ' should be converted to const"
+   "c1" : "00276"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00276] For method setupTopology arguments InternalTopologyBuilder  builder|StreamsConfig  streamsConfig"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00261"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#261"
+   "c1" : "00285"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  ' nodes, but saw ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00263"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#263"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00264"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'Saw only {} cluster nodes.  Waiting to see {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00270"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#270"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'createTopics' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00274"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'newtopic' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00274"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00274"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00279"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#279"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'newtopic' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00282"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00287"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#287"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'newtopic' should be converted to const"
+ , "c3" : "QC-JAV000001[00285] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
    "c1" : "00290"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#290"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.TopologyTestDriver.setupTopology@POLYN418727 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00291"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#291"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'Did not see newtopic.  Retrying listTopics...' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00294"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#294"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN249490 the MagicNumber/String  'describeAclsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00307"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#307"
+   "c1" : "00293"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#293"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00307] For method testDescribeConfigsMethod arguments Admin  client"
+ , "c3" : "QC-JAV000006[00293] For method setupGlobalTask arguments Time  mockWallClockTime|StreamsConfig  streamsConfig|StreamsMetricsImpl  streamsMetrics|ThreadCache  cache"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00307"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#307"
+   "c1" : "00300"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#300"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00300] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00297"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#297"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00300"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#300"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00304"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00304"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00304"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00304"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00305"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#305"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00306"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00331"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#331"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00333"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#333"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00334"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#334"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN419699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00339"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#339"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00339] For method setupTask arguments StreamsConfig  streamsConfig|StreamsMetricsImpl  streamsMetrics|ThreadCache  cache|TaskConfig  taskConfig"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00339"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#339"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00307] The argument client is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00339] The argument streamsConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00308"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#308"
+   "c1" : "00347"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.tools.ClientCompatibilityTest.testDescribeConfigsMethod@POLYN252297 the MagicNumber/String  'describeConfigsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00322"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#322"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.tools.ClientCompatibilityTest.testDescribeConfigsMethod@POLYN252297 the MagicNumber/String  'Expected to see config entries, but got zero entries' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00330"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#330"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00330] For method createTopicsResultTest arguments Admin  client|Collection&lt;String &gt;  topics"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00330"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#330"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00330] The argument client is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00336"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#336"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00336] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00337"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#337"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00337] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00332"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#332"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.tools.ClientCompatibilityTest.createTopicsResultTest@POLYN253369 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00344"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#344"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00344] For method topicExists arguments Collection&lt;TopicListing &gt;  listings|String  topicName"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00345"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#345"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.tools.ClientCompatibilityTest.topicExists@POLYN253872 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00349"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#349"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.tools.ClientCompatibilityTest.topicExists@POLYN253872 the MagicNumber/String  'Did not expect %s to be an internal topic.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00350"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#350"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.tools.ClientCompatibilityTest.topicExists@POLYN253872 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00356"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#356"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00356] The class OffsetsForTime contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00365"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#365"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00365] The class ClientCompatibilityTestDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00373"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#373"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00373] For method deserialize arguments String  topic|byte[]  data"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00378"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#378"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00378] For method onUpdate arguments ClusterResource  clusterResource"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00378"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#378"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00378] The argument clusterResource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00380"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#380"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN255166 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00381"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#381"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN255166 the MagicNumber/String  'Expected cluster id to be supported, but it was null.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00384"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN255166 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00385"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#385"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN255166 the MagicNumber/String  'Expected cluster id to be null, but it was supported.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00391"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#391"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00391] For method testConsume arguments long  prodTimeMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00404"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#404"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00404] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN422032 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00394"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#394"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  512 should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN422032 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00399"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#399"
+   "c1" : "00397"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN422032 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00400"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#400"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Expected at least one partition for topic ' should be converted to const"
+   "c1" : "00406"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#406"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00406] For method pipeRecord arguments String  topicName|long  timestamp|byte[]  key|byte[]  value|Headers  headers"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00409"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#409"
+   "c1" : "00414"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'offsetsForTimes' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN424634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00411"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#411"
+   "c1" : "00414"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'offsetsForTime = {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN424634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00420"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#420"
+   "c1" : "00415"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  10000 should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN424634 the MagicNumber/String  'Unknown topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00421"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#421"
+   "c1" : "00418"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN424634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00422"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#422"
+   "c1" : "00423"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00425"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#425"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN424634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00428"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#428"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Timed out after ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00428"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#428"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  ' ms.' should be converted to const"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#428"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00428] For method enqueueTaskRecord arguments String  inputTopic|TopicPartition  topicOrPatternPartition|long  timestamp|byte[]  key|byte[]  value|Headers  headers"
 }} 
 ,
 { "ligne" : {
    "c1" : "00429"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#429"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  null should be converted to const"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#429"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00429] The argument topicOrPatternPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00430"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#430"
+   "c1" : "00434"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  100 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00435"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#435"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN425751 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#441"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN425751 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00442"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#442"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN425751 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00444"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#444"
+   "c1" : "00460"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00452"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#452"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Found first message...' should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN426728 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00466"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#466"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#466"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'The first message in this topic was not ours. Please use a new topic when ' should be converted to const"
+ , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN426728 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00467"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#467"
+   "c1" : "00470"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#470"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'running this program.' should be converted to const"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN426728 the MagicNumber/String  'Due to the {} configuration, there are currently some records' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00471"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#471"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN426728 the MagicNumber/String  ' that cannot be processed. Advancing wall-clock time or' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00472"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#472"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Expected to get a RecordTooLargeException when reading a record ' should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN426728 the MagicNumber/String  ' enqueuing records on the empty topics will allow' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00473"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#473"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'bigger than ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00478"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#478"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'The second message in this topic was not ours. Please use a new ' should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN426728 the MagicNumber/String  ' Streams to process more.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00479"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#479"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'topic when running this program.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00480"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#480"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00483"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#483"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Got RecordTooLargeException' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00485"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#485"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Got an unexpected RecordTooLargeException when reading a record ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00486"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#486"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'bigger than ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00488"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#488"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Closing consumer.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00490"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#490"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN255641 the MagicNumber/String  'Closed consumer.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00501"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#501"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#479"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00501] For method tryFeature arguments String  featureName|boolean  supported|Invoker  invoker"
+ , "c3" : "QC-JAV000006[00479] For method commit arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00505"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505"
+   "c1" : "00481"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#481"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.streams.TopologyTestDriver.commit@POLYN427632 the MagicNumber/String  'dummy-app-id' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00487"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#487"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00505] For method tryFeature arguments String  featureName|boolean  supported|Invoker  invoker|ResultTester  resultTester"
+ , "c3" : "QC-JAV000006[00487] For method processGlobalRecord arguments TopicPartition  globalInputTopicPartition|long  timestamp|byte[]  key|byte[]  value|Headers  headers"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00505"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505"
+   "c1" : "00487"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#487"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00505] The argument invoker is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00487] The argument globalInputTopicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00505"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00505] The argument resultTester is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00515"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#515"
+   "c1" : "00495"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE392[00515] Failure to report error in status code (see http://cwe.mitre.org/data/definitions/392.html)"
+ , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN428076 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00509"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#509"
+   "c1" : "00498"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN261958 the MagicNumber/String  'Successfully used feature {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN428076 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00499"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#499"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN428076 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00508"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#508"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00508] For method validateSourceTopicNameRegexPattern arguments String  inputRecordTopic"
 }} 
 ,
 { "ligne" : {
    "c1" : "00511"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#511"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN261958 the MagicNumber/String  'Got UnsupportedVersionException when attempting to use feature {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN428976 the MagicNumber/String  'Topology add source of type String for topic: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00512"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#512"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN428976 the MagicNumber/String  ' cannot contain regex pattern for input record topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00513"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#513"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN261958 the MagicNumber/String  'Expected ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00513"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#513"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN261958 the MagicNumber/String  ' to be supported, but it wasn't.' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN428976 the MagicNumber/String  ' and hence cannot process the message.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00518"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#518"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN261958 the MagicNumber/String  'Did not expect ' should be converted to const"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#518"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00518] For method getInputTopicOrPatternPartition arguments String  topicName"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00518"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#518"
+   "c1" : "00524"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN261958 the MagicNumber/String  ' to be supported, but it was.' should be converted to const"
+ , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.streams.TopologyTestDriver.getInputTopicOrPatternPartition@POLYN429535 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00543"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#543"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00543] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00545"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#545"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00545] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00546"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#546"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00546] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00548"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#548"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN430345 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00559"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#559"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN430345 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00572"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#572"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00572] For method advanceWallClockTime arguments Duration  advance"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00572"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#572"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00572] The argument advance is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00573"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#573"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN432017 the MagicNumber/String  'advance cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00575"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#575"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN432017 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00578"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#578"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN432017 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00583"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#583"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00583] For method getRecordsQueue arguments String  topicName"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00585"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#585"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00585] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN432675 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00586"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#586"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN432675 the MagicNumber/String  'Unrecognized topic: {}, this can occur if dynamic routing is used and no output has been ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00587"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#587"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN432675 the MagicNumber/String  'sent to this topic yet. If not using a TopicNameExtractor, check that the output topic ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00588"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#588"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN432675 the MagicNumber/String  'is correct.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00621"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#621"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00621] For method readRecord arguments String  topic"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00623"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#623"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.streams.TopologyTestDriver.readRecord@POLYN436098 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00624"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#624"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.streams.TopologyTestDriver.readRecord@POLYN436098 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00630"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#630"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00630] The argument keyDeserializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00631"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#631"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00631] The argument valueDeserializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00633"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#633"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00633] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00634"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#634"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00634] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  'Uninitialized topic: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00637"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#637"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00638"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#638"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00638] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  'Empty topic: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00646"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#646"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00646] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00647"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#647"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00647] The argument keySerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00648"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#648"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00648] The argument valueSerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00653"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#653"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00655"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#655"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00658"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#658"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  'Provided `TestRecord` does not have a timestamp and no timestamp overwrite was provided via `time` parameter.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00664"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#664"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00664] For method getQueueSize arguments String  topic"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00666"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#666"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN439246 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00668"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#668"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN439246 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00673"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#673"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00673] For method isEmpty arguments String  topic"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00674"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#674"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.streams.TopologyTestDriver.isEmpty@POLYN439649 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00681"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#681"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.TopologyTestDriver.getAllStateStores@POLYN440580 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00687"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#687"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00687] For method getStateStore arguments String  name"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00688"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#688"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN441771 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00691"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#691"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00691] For method getStateStore arguments String  name|boolean  throwForBuiltInStores"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00693"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#693"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN441949 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00695"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#695"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN441949 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00703"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#703"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN441949 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00705"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#705"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN441949 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00714"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#714"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN441949 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00717"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#717"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00717] For method throwIfBuiltInStore arguments StateStore  stateStore"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00717"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#717"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00717] The argument stateStore is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00719"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#719"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  'Store ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00720"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#720"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  ' is a timestamped key-value store and should be accessed via `getTimestampedKeyValueStore()`' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00723"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#723"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00723] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  'Store ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00724"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#724"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  ' is a key-value store and should be accessed via `getKeyValueStore()`' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00727"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#727"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  'Store ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00728"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#728"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  ' is a timestamped window store and should be accessed via `getTimestampedWindowStore()`' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00731"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#731"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00731] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  'Store ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00732"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#732"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  ' is a window store and should be accessed via `getWindowStore()`' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00735"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#735"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  'Store ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00736"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#736"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00736] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN442961 the MagicNumber/String  ' is a session store and should be accessed via `getSessionStore()`' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00743"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#743"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00745"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#745"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  'Method #getTimestampedKeyValueStore() should be used to access a TimestampedKeyValueStore.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00748"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#748"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00754"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#754"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00755"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#755"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00761"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#761"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00761] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00763"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  'Method #getTimestampedWindowStore() should be used to access a TimestampedWindowStore.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00766"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#766"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00766] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00772"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#772"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00772] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00773"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#773"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00773] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00779"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00779] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00780"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00780] In method org.apache.kafka.streams.TopologyTestDriver the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00794"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#794"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE390[00794] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00785"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#785"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN450053 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00788"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#788"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN450053 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00791"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#791"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN450053 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00793"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#793"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN450053 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00799"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#799"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN450053 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00800"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#800"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00800] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN450053 the MagicNumber/String  'Found some records that cannot be processed due to the' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00801"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#801"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN450053 the MagicNumber/String  ' {} configuration during TopologyTestDriver#close().' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00810"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#810"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00810] The class MockChangelogRegister contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00814"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#814"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00814] For method register arguments TopicPartition  partition|ProcessorStateManager  stateManager"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00819"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#819"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00819] For method unregister arguments Collection&lt;TopicPartition &gt;  partitions"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00824"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#824"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00824] The class MockTime contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00830"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#830"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.MockTime@POLYN451735 the MagicNumber/String  1000L should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00830"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#830"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.MockTime@POLYN451735 the MagicNumber/String  1000L should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00849"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#849"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00849] For method sleep arguments long  ms"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00850"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#850"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.sleep@POLYN452466 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00851"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#851"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00851] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.sleep@POLYN452466 the MagicNumber/String  'Sleep ms cannot be negative.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00858"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#858"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00858] For method waitObject arguments Object  obj|Supplier&lt;Boolean &gt;  condition|long  timeoutMs"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00871"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#871"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00871] For method init arguments ProcessorContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00877"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#877"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00877] For method init arguments StateStoreContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00882"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#882"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00882] For method put arguments K  key|V  value"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00888"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#888"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00888] For method putIfAbsent arguments K  key|V  value"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00894"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#894"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00894] For method putAll arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  entries"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00901"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#901"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00901] For method delete arguments K  key"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00944"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#944"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00944] For method init arguments ProcessorContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00950"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#950"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00950] For method init arguments StateStoreContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00955"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#955"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00955] For method put arguments K  key|V  value|long  windowStartTimestamp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00962"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#962"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00962] For method fetch arguments K  key|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00969"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#969"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00969] For method backwardFetch arguments K  key|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00976"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#976"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00976] For method fetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00985"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#985"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00985] For method backwardFetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#993"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00993] For method fetchAll arguments long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00999"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#999"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00999] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01041"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1041"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN459800 the MagicNumber/String  'TopologyTestDriver-StreamThread-1' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01041"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1041"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN459800 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01041"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1041"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN459800 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01045"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1045"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[01045] For method commitTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  consumerGroupMetadata"
 }} 
 ]
 };

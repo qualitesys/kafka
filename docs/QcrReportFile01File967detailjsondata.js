@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java 16 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java 17 rule violations " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,6 +40,13 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "14"
@@ -62,115 +69,122 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#24"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method equals arguments Object  o"
+   "c1" : "00010"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#10"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00010] The class ConnectorHealth contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00027"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#27"
+   "c1" : "00023"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00027] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.health.ConnectorHealth.ConnectorHealth@POLYN163894 the MagicNumber/String  'Connector name is required' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00025"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.connect.health.ConnectorHealth.ConnectorHealth@POLYN163894 the MagicNumber/String  'connectorState can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#26"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.health.TaskState.equals@POLYN161209 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.health.ConnectorHealth.ConnectorHealth@POLYN163894 the MagicNumber/String  'tasks can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#27"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.health.TaskState.equals@POLYN161209 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.health.ConnectorHealth.ConnectorHealth@POLYN163894 the MagicNumber/String  'type can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.health.TaskState.equals@POLYN161209 the MagicNumber/String  false should be converted to const"
+   "c1" : "00055"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00055] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#30"
+   "c1" : "00058"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.health.TaskState.equals@POLYN161209 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000021[00058] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00042"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#42"
+   "c1" : "00057"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  'TaskState{' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.health.ConnectorHealth.equals@POLYN165545 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00043"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#43"
+   "c1" : "00058"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  'taskId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.health.ConnectorHealth.equals@POLYN165545 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00043"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#43"
+   "c1" : "00059"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.health.ConnectorHealth.equals@POLYN165545 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#44"
+   "c1" : "00074"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  'state='' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.health.ConnectorHealth.toString@POLYN166441 the MagicNumber/String  'ConnectorHealth{' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#44"
+   "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.health.ConnectorHealth.toString@POLYN166441 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00045"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#45"
+   "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  ', traceMessage='' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.health.ConnectorHealth.toString@POLYN166441 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00045"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#45"
+   "c1" : "00076"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.health.ConnectorHealth.toString@POLYN166441 the MagicNumber/String  ', connectorState=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#46"
+   "c1" : "00077"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  ', workerId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.health.ConnectorHealth.toString@POLYN166441 the MagicNumber/String  ', tasks=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#46"
+   "c1" : "00078"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.health.ConnectorHealth.toString@POLYN166441 the MagicNumber/String  ', type=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00047"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#47"
+   "c1" : "00079"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.health.TaskState.toString@POLYN161987 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.health.ConnectorHealth.toString@POLYN166441 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

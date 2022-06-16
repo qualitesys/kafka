@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java 12 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java 10 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,10 +39,24 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -56,100 +70,86 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00019"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#19"
+   "c1" : "00014"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00019] The class ConfigurationsImage contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class ConfigurationDelta contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#37"
+   "c1" : "00030"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method configProperties arguments ConfigResource  configResource"
+ , "c3" : "QC-JAV000006[00030] For method replay arguments ConfigRecord  record"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00039"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#39"
+   "c1" : "00030"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#30"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00030] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.image.ConfigurationsImage.configProperties@POLYN163172 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00048"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#48"
+   "c1" : "00045"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.image.ConfigurationDelta.apply@POLYN164524 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#49"
+   "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00049] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN166062 the MagicNumber/String  'ConfigurationDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#56"
+   "c1" : "00066"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.image.ConfigurationsImage.equals@POLYN164037 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN166062 the MagicNumber/String  'changedKeys=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00068"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#68"
+   "c1" : "00067"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.image.ConfigurationsImage.toString@POLYN164535 the MagicNumber/String  'ConfigurationsImage(data=' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN166062 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.image.ConfigurationsImage.toString@POLYN164535 the MagicNumber/String  ':' should be converted to const"
+   "c1" : "00062"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#62"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00062] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.image.ConfigurationsImage.toString@POLYN164535 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.image.ConfigurationsImage.toString@POLYN164535 the MagicNumber/String  ')' should be converted to const"
+   "c1" : "00030"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00030] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

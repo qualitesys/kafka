@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java 10 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java 6 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,14 +49,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -69,73 +62,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#14"
+   "c1" : "00012"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class DefaultPartitionView contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00012] The class UnalignedMemoryRecords contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#30"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00030] For method writeTo arguments TransferableChannel  channel|long  position|int  length"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN157911 the MagicNumber/String  'position should not be greater than Integer.MAX_VALUE: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00036] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN157911 the MagicNumber/String  'position+length should not be greater than buffer.limit(), position: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#35"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN159123 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN157911 the MagicNumber/String  ', length: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
+   "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN159123 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN159123 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  'DefaultPartitionView{' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  'replicas=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  ', leader=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN157911 the MagicNumber/String  ', buffer.limit(): ' should be converted to const"
 }} 
 ]
 };

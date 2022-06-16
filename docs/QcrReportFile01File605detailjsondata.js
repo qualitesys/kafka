@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,33 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#33"
+   "c1" : "00023"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html#23"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00023] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#53"
+   "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00034] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method parse arguments ByteBuffer  buffer|short  version"
+   "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html#35"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse.shouldClientThrottle@POLYN159457 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsResponse.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,33 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#24"
+   "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsResponse.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00043] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#42"
+   "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsResponse.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00048] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#58"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method parse arguments ByteBuffer  buffer|short  version"
+   "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsResponse.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.CreateTopicsResponse.shouldClientThrottle@POLYN161550 the MagicNumber/String  3 should be converted to const"
 }} 
 ]
 };

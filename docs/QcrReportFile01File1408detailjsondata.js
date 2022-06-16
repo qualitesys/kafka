@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftClient.java 0 rule violation " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.xml" 
  , "fic3"  : "" 
 }
 , 

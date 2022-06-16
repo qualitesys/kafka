@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreType.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreType.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreType.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueBytesStoreSupplier.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/KeyValueBytesStoreSupplier.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueBytesStoreSupplier.java.xml" 
  , "fic3"  : "" 
 }
 , 

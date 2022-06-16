@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,47 +39,33 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html#40"
+   "c1" : "00023"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#23"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00023] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html#49"
+   "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method prepareResponse arguments Errors  error|Set&lt;TopicPartition &gt;  tps"
+ , "c3" : "QC-JAV000006[00046] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html#49"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html#49"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument tps is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#53"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00053] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
 };

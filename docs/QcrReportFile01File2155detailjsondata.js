@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java 1 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -37,22 +37,5 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {
-   "c1" : "00003"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#3"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00003] syntax analysis failed on file /home/runner/work/kafka/kafka/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . trogdor . rest ; "
-}} 
-]
 };
 console.log('leListeStr 99 main end');

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#14"
+   "c1" : "00011"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class ListTopicsResult contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00011] The class ListPartitionReassignmentsResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
 };

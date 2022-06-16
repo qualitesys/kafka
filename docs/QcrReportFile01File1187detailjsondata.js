@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java 4 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java 4 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -63,30 +63,30 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {
    "c1" : "00024"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#24"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#34"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#34"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00034] For method taskConfigs arguments int  maxTasks"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#37"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#37"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00037] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#36"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.VerifiableSinkConnector.taskConfigs@POLYN159887 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.SchemaSourceConnector.taskConfigs@POLYN159636 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 36 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftUtil.java 112 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,292 +39,824 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "4"
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "24"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
+ , "c4" : "55"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "14"
+ , "c4" : "12"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00013"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#13"
+   "c1" : "00024"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class RequestManager contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00024] The class RaftUtil contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00032] Avoid declaring class instance within loop, performance impact"
+   "c1" : "00026"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00026] For method errorResponse arguments ApiKeys  apiKey|Errors  error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#26"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00026] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method getOrCreate arguments int  id"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.raft.RaftUtil.errorResponse@POLYN187567 the MagicNumber/String  'Received response for unexpected request type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#41"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method findReadyVoter arguments long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00041] For method singletonFetchRequest arguments TopicPartition  topicPartition|Uuid  topicId|Consumer&lt;FetchRequestData.FetchPartition &gt;  partitionConsumer"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00047"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
+   "c1" : "00042"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#42"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00042] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN178028 the MagicNumber/String  0 should be converted to const"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#44"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00044] The argument partitionConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60"
+   "c1" : "00061"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method backoffBeforeAvailableVoter arguments long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00061] For method singletonFetchResponse arguments TopicPartition  topicPartition|Uuid  topicId|Errors  topLevelError|Consumer&lt;FetchResponseData.PartitionData &gt;  partitionConsumer"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00063"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+   "c1" : "00062"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#62"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00062] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00064"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#64"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00064] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN179242 the MagicNumber/String  0L should be converted to const"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#65"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00065] The argument partitionConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method hasValidTopicPartition arguments FetchRequestData  data|TopicPartition  topicPartition|Uuid  topicId"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00085] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00085] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#86"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00086] The class ConnectionState contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000021[00086] The same method call data.topics()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00097"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#97"
+   "c1" : "00087"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00087] The same method call data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00088"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00088] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00086"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190056 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00087"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190056 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00088"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190056 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00088"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190056 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00089"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190056 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00089"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190056 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method isBackoffComplete arguments long  timeMs"
+ , "c3" : "QC-JAV000006[00092] For method hasValidTopicPartition arguments FetchResponseData  data|TopicPartition  topicPartition|Uuid  topicId"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#92"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00092] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#92"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00092] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00093] The same method call data.responses()data.responses()data.responses()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00094] The same method call data.responses()data.responses()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00095] The same method call data.responses()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190773 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190773 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190773 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190773 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00096"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#96"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190773 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00096"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#96"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN190773 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00099] For method hasValidTopicPartition arguments VoteResponseData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#99"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00099] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#99"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00099] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00100"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00100] The same method call data.topics()topicPartition.topic()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00102"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00102] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00100"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN191490 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#101"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN191490 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00102"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN191490 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00102"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN191490 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00103"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN191490 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00103"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN191490 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00106"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method hasRequestTimedOut arguments long  timeMs"
+ , "c3" : "QC-JAV000006[00106] For method hasValidTopicPartition arguments VoteRequestData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00106"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#106"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00106] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00106"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#106"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00106] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00107] The same method call data.topics()topicPartition.topic()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#109"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00109] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192202 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00108"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192202 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192202 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192202 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00110"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192202 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00110"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192202 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method isReady arguments long  timeMs"
+ , "c3" : "QC-JAV000006[00113] For method hasValidTopicPartition arguments BeginQuorumEpochRequestData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#113"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00113] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#113"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00113] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00114"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00114] The same method call data.topics()topicPartition.topic()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method isBackingOff arguments long  timeMs"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00116] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00118"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#118"
+   "c1" : "00114"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.raft.RequestManager.ConnectionState.isBackingOff@POLYN181671 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192914 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00115"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192914 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00116"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192914 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00116"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192914 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192914 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN192914 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00120] For method hasValidTopicPartition arguments BeginQuorumEpochResponseData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#120"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00120] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#120"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00120] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00121"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00121] The same method call data.topics()topicPartition.topic()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00123] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00121"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193626 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00122"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193626 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193626 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193626 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method hasInflightRequest arguments long  timeMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00126"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#126"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.raft.RequestManager.ConnectionState.hasInflightRequest@POLYN181950 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193626 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#132"
+   "c1" : "00124"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193626 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00127"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method remainingRequestTimeMs arguments long  timeMs"
+ , "c3" : "QC-JAV000006[00127] For method hasValidTopicPartition arguments EndQuorumEpochRequestData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00127"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#127"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00127] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00127"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#127"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00127] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00128"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00128] The same method call data.topics()topicPartition.topic()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00130"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00130] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00128"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194338 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00129"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194338 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00130"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194338 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00130"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194338 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00131"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194338 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00131"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194338 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00134"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00134] For method hasValidTopicPartition arguments EndQuorumEpochResponseData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00134"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#134"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00134] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00134"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#134"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00134] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00135"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00135] The same method call data.topics()topicPartition.topic()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00137"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00137] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00135"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195050 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#136"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingRequestTimeMs@POLYN182229 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195050 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00140"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#140"
+   "c1" : "00137"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195050 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00137"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195050 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00138"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195050 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00138"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195050 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00141"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method remainingBackoffMs arguments long  timeMs"
+ , "c3" : "QC-JAV000006[00141] For method hasValidTopicPartition arguments DescribeQuorumRequestData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00141"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#141"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00141] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00141"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#141"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00141] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00142"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00142] The same method call data.topics()topicPartition.topic()data.topics()data.topics()topicPartition.partition() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#144"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingBackoffMs@POLYN182513 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000021[00144] The same method call data.topics()topicPartition.partition() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method isResponseExpected arguments long  correlationId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00152"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method onResponseError arguments long  correlationId|long  timeMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00162"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method onResponseReceived arguments long  correlationId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#171"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method onRequestSent arguments long  correlationId|long  timeMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00185"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#185"
+   "c1" : "00142"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184384 the MagicNumber/String  'ConnectionState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195762 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00186"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#186"
+   "c1" : "00143"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184384 the MagicNumber/String  'id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195762 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00187"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#187"
+   "c1" : "00144"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184384 the MagicNumber/String  ', state=' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195762 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00188"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#188"
+   "c1" : "00144"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184384 the MagicNumber/String  ', lastSendTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195762 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00189"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#189"
+   "c1" : "00145"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184384 the MagicNumber/String  ', lastFailTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195762 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00190"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#190"
+   "c1" : "00145"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184384 the MagicNumber/String  ', inFlightCorrelationId=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00191"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184384 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00037"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00037] Public method getOrCreate is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00060] Public method backoffBeforeAvailableVoter is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00075] Public method resetAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195762 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

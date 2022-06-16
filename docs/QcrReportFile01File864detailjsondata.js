@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java 27 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java 9 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,13 +39,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -56,205 +49,79 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "20"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#22"
+   "c1" : "00006"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#6"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00022] The class ListSerializer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00006] The class IntegerDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.serialization.ListSerializer.ListSerializer@POLYN174716 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.serialization.ListSerializer.ListSerializer@POLYN174716 the MagicNumber/String  'ListSerializer requires \'serializer\' parameter to be provided during initialization' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#53"
+   "c1" : "00007"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#7"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00007] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#53"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00053] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#54"
+   "c1" : "00008"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.IntegerDeserializer.deserialize@POLYN154288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#55"
+   "c1" : "00009"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  'Could not configure ListSerializer as the parameter has already been set -- inner: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.IntegerDeserializer.deserialize@POLYN154288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#56"
+   "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  'List serializer was already initialized using a non-default constructor' should be converted to const"
+ , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.serialization.IntegerDeserializer.deserialize@POLYN154288 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#60"
+   "c1" : "00011"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.common.serialization.IntegerDeserializer.deserialize@POLYN154288 the MagicNumber/String  'Size of data received by IntegerDeserializer is not 4' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#61"
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  'Not able to determine the serializer class because it was neither passed via the constructor nor set in the config.' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.IntegerDeserializer.deserialize@POLYN154288 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#69"
+   "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  'Could not create a serializer class instance using \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.IntegerDeserializer.deserialize@POLYN154288 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#69"
+   "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerDeserializer.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  '\' property.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  'Serializer class ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.serialization.ListSerializer.configure@POLYN175362 the MagicNumber/String  ' could not be found.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method serializeNullIndexList arguments DataOutputStream  out|List&lt;Inner &gt;  data"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#78"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00078] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#78"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00078] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN177241 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN177241 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#93"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method serialize arguments String  topic|List&lt;Inner &gt;  data"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN178162 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN178162 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN178162 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN178162 the MagicNumber/String  'Failed to serialize list due to' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN178162 the MagicNumber/String  'List that could not be serialized: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN178162 the MagicNumber/String  'Failed to serialize List' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00129"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.serialization.ListSerializer.close@POLYN180087 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.IntegerDeserializer.deserialize@POLYN154288 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ]
 };

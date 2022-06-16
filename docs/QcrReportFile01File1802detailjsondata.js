@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessorContext.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessorContext.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessorContext.java.xml" 
  , "fic3"  : "" 
 }
 , 

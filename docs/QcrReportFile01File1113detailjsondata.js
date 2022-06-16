@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java 33 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java 119 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,268 +42,877 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "6"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "1"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "18"
+ , "c4" : "83"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "7"
+ , "c4" : "21"
+}}
+,
+{ "ligne" : {
+   "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00032] The class DeadLetterQueueReporter contains no field, constructor, finalize. Must contain only static methods, check it"
+   "c1" : "00052"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#52"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00052] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#57"
+   "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#53"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00053] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinator@POLYN239618 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00075"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinator@POLYN239618 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method createAndSetup arguments Map&lt;String ,Object &gt;  adminProps|ConnectorTaskId  id|SinkConnectorConfig  sinkConfig|Map&lt;String ,Object &gt;  producerProps|ErrorHandlingMetrics  errorHandlingMetrics"
+ , "c3" : "QC-JAV000006[00085] For method requestRejoin arguments String  reason"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#59"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00059] The argument sinkConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#65"
+   "c1" : "00086"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.createAndSetup@POLYN193573 the MagicNumber/String  'Topic {} doesn't exist. Will attempt to create topic.' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.requestRejoin@POLYN241173 the MagicNumber/String  'Request joining group due to: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#70"
+   "c1" : "00087"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.createAndSetup@POLYN193573 the MagicNumber/String  'Could not initialize dead letter queue with topic=' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.requestRejoin@POLYN241173 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00073"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#73"
+   "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.createAndSetup@POLYN193573 the MagicNumber/String  'Could not initialize dead letter queue with topic=' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.protocolType@POLYN241412 the MagicNumber/String  'connect' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00083"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#83"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00083] The argument connConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#97"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00097] Lock statement on synchronized method ensureCoordinatorReady"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00098"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#98"
+   "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method report arguments ProcessingContext  context"
+ , "c3" : "QC-JAV000006[00097] For method ensureCoordinatorReady arguments Timer  timer"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00098"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#98"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00098] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00100"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.report@POLYN196435 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.report@POLYN196435 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.report@POLYN196435 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00112"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.report@POLYN196435 the MagicNumber/String  null should be converted to const"
+   "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#101"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00101] For method poll arguments long  timeout"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#115"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.report@POLYN196435 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00115] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00124"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#124"
+   "c1" : "00109"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.report@POLYN196435 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  'Broker coordinator is marked unknown. Attempting discovery with a timeout of {}ms' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#125"
+   "c1" : "00112"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.report@POLYN196435 the MagicNumber/String  'Could not produce message to dead letter queue. topic=' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  'Broker coordinator is ready' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method populateContextHeaders arguments ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|ProcessingContext  context"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#132"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00132] The argument producerRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#132"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00132] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#148"
+   "c1" : "00114"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[00148] Assigning instead of comparing on trace=stacktrace(context.error()) (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  'Can not connect to broker coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00134"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#134"
+   "c1" : "00116"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.populateContextHeaders@POLYN198295 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  'Broker coordinator was unreachable for {}ms. Revoking previous assignment {} to ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  'avoid running tasks while not being a member the group' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00138"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#144"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.populateContextHeaders@POLYN198295 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.poll@POLYN241659 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#148"
+   "c1" : "00156"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.populateContextHeaders@POLYN198295 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN244013 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#154"
+   "c1" : "00158"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN244013 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00160"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN244013 the MagicNumber/String  'Unknown Connect protocol compatibility mode ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00165"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method stacktrace arguments Throwable  error"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#154"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00154] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00157"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.stacktrace@POLYN200507 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00162"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.stacktrace@POLYN200507 the MagicNumber/String  'Could not serialize stacktrace.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00164"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.stacktrace@POLYN200507 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00165] For method onJoinComplete arguments int  generation|String  memberId|String  protocol|ByteBuffer  memberAssignment"
 }} 
 ,
 { "ligne" : {
    "c1" : "00167"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#167"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method toBytes arguments int  value"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#171"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method toBytes arguments long  value"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00175"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#175"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method toBytes arguments String  value"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00176"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#176"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.toBytes@POLYN201571 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN244887 the MagicNumber/String  'Deserialized new assignment: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00179"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#179"
+   "c1" : "00173"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.toBytes@POLYN201571 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN244887 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00180"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN244887 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00183"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN244887 the MagicNumber/String  'After revocations snapshot of assignment: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00187"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN244887 the MagicNumber/String  'Augmented new assignment: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00195"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#195"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00195] For method onLeaderElected arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseMember &gt;  allMemberMetadata|boolean  skipAssignment"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00200"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onLeaderElected@POLYN246814 the MagicNumber/String  'Can't skip assignment because Connect does not support static membership.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00208"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#208"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00208] For method onJoinPrepare arguments int  generation|String  memberId"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00209"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinPrepare@POLYN247450 the MagicNumber/String  'Rebalance started' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00210"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinPrepare@POLYN247450 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00213"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinPrepare@POLYN247450 the MagicNumber/String  'Revoking previous assignment {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00214"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinPrepare@POLYN247450 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00217"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinPrepare@POLYN247450 the MagicNumber/String  'Cooperative rebalance triggered. Keeping assignment {} until it's ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00218"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinPrepare@POLYN247450 the MagicNumber/String  'explicitly revoked.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00220"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinPrepare@POLYN247450 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00226"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#226"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.rejoinNeededOrPending@POLYN248388 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00232"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.memberId@POLYN248698 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00247"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#247"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00247] For method revokeAssignment arguments ExtendedAssignment  assignment"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00247"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#247"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00247] The argument assignment is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00253"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.isLeader@POLYN249738 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00256"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#256"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00256] For method ownerUrl arguments String  connector"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00258"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#258"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ownerUrl@POLYN250001 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00262"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#262"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00262] For method ownerUrl arguments ConnectorTaskId  task"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00264"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ownerUrl@POLYN250284 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00279"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#279"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00279] For method configSnapshot arguments ClusterConfigState  update"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00289"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#289"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00289] For method leaderState arguments LeaderState  update"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00298"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00298] The class WorkerCoordinatorMetrics contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00301"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#301"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00301] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00302"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  '-coordinator-metrics' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00306"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00307"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#307"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  0.0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00314"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00315"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  0.0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00320"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  'assigned-connectors' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00322"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#322"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  'The number of connector instances currently assigned to this consumer' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00323"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#323"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  'assigned-tasks' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00325"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerCoordinatorMetrics.WorkerCoordinatorMetrics@POLYN251806 the MagicNumber/String  'The number of tasks currently assigned to this consumer' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00329"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#329"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00329] The argument assignment is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00332"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#332"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00332] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00333"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#333"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00333] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00339"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00339] The class LeaderState contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00352"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#352"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00352] For method ownerUrl arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00354"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#354"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.ownerUrl@POLYN254581 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00355"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#355"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.ownerUrl@POLYN254581 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00359"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#359"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00359] For method ownerUrl arguments String  connector"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00361"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#361"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.ownerUrl@POLYN254935 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00362"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#362"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.ownerUrl@POLYN254935 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00367"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#367"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00367] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00368"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.equals@POLYN255303 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00369"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#369"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.equals@POLYN255303 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00383"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#383"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.toString@POLYN256138 the MagicNumber/String  'LeaderState{' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00384"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.toString@POLYN256138 the MagicNumber/String  'allMembers=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00385"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#385"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.toString@POLYN256138 the MagicNumber/String  ', connectorOwners=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00386"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.toString@POLYN256138 the MagicNumber/String  ', taskOwners=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00387"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.LeaderState.toString@POLYN256138 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00391"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#391"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00391] The class ConnectorsAndTasks contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00403"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00403] The class Builder contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00410"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#410"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00410] For method withCopies arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00417"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#417"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00417] For method with arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00426"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#426"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks.Builder.build@POLYN257958 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00427"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks.Builder.build@POLYN257958 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00449"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#449"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks.toString@POLYN258825 the MagicNumber/String  '{ connectorIds=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00449"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#449"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks.toString@POLYN258825 the MagicNumber/String  ', taskIds=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00449"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#449"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks.toString@POLYN258825 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00453"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#453"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00453] The class WorkerLoad contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00468"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#468"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00468] The class Builder contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.Builder.Builder@POLYN259759 the MagicNumber/String  'worker cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00477"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#477"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00477] For method withCopies arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00480"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#480"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.Builder.withCopies@POLYN259965 the MagicNumber/String  'connectors may be empty but not null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00482"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#482"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.Builder.withCopies@POLYN259965 the MagicNumber/String  'tasks may be empty but not null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00486"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#486"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00486] For method with arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00489"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#489"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.Builder.with@POLYN260476 the MagicNumber/String  'connectors may be empty but not null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00490"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#490"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.Builder.with@POLYN260476 the MagicNumber/String  'tasks may be empty but not null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00497"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#497"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.Builder.build@POLYN260883 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00498"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#498"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.Builder.build@POLYN260883 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00522"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#522"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00522] For method assign arguments String  connector"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00526"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#526"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00526] For method assign arguments ConnectorTaskId  task"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00541"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.connectorComparator@POLYN262350 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00541"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.connectorComparator@POLYN262350 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00542"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#542"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.connectorComparator@POLYN262350 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00542"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#542"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.connectorComparator@POLYN262350 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00542"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#542"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.connectorComparator@POLYN262350 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00550"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#550"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.taskComparator@POLYN262939 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00550"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#550"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.taskComparator@POLYN262939 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00551"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.taskComparator@POLYN262939 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00551"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.taskComparator@POLYN262939 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00551"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.taskComparator@POLYN262939 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00558"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#558"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.toString@POLYN263516 the MagicNumber/String  '{ worker=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00558"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#558"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.toString@POLYN263516 the MagicNumber/String  ', connectorIds=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00558"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#558"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.toString@POLYN263516 the MagicNumber/String  ', taskIds=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00558"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#558"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.toString@POLYN263516 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00562"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#562"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00562] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00564"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#564"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.equals@POLYN263756 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00567"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad.equals@POLYN263756 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

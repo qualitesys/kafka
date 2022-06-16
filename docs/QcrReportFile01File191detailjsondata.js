@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,23 +42,16 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#11"
+   "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.clients.consumer.RetriableCommitFailedException.RetriableCommitFailedException@POLYN153984 the MagicNumber/String  'Offset commit failed with a retriable exception. You should retry committing ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.clients.consumer.RetriableCommitFailedException.RetriableCommitFailedException@POLYN153984 the MagicNumber/String  'the latest consumed offsets.' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.consumer.OffsetOutOfRangeException.OffsetOutOfRangeException@POLYN157175 the MagicNumber/String  'Offsets out of range with no configured reset policy for partitions: ' should be converted to const"
 }} 
 ]
 };

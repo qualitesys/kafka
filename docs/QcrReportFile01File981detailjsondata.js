@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java 9 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java 3 rule violations " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,23 +39,9 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
@@ -63,72 +49,30 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00013"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#13"
+   "c1" : "00017"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#17"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00017] For method exactlyOnceSupport arguments Map&lt;String ,String &gt;  connectorConfig"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00018"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class SourceTask contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.connect.source.SourceConnector.exactlyOnceSupport@POLYN166041 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00045"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#45"
+   "c1" : "00022"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method initialize arguments SourceTaskContext  context"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method start arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00067"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method commitRecord arguments SourceRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method commitRecord arguments SourceRecord  record|RecordMetadata  metadata"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00057] Void method commit is empty or contains only a return."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00057] Void method commit is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00067"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#67"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00067] Void method commitRecord is empty or contains only a return."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00067"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#67"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00067] Void method commitRecord is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000006[00022] For method canDefineTransactionBoundaries arguments Map&lt;String ,String &gt;  connectorConfig"
 }} 
 ]
 };

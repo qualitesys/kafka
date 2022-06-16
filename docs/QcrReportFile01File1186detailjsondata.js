@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java 18 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java 20 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,10 +39,17 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -69,129 +76,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00026"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#26"
+   "c1" : "00014"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00026] The class TransformationDoc contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class PredicateDoc contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#28"
+   "c1" : "00016"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00028] The class DocInfo contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00016] The class DocInfo contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method printTransformationHtml arguments PrintStream  out|DocInfo  docInfo"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#59"
+   "c1" : "00021"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#21"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00059] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00021] The argument predicateClass is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#59"
+   "c1" : "00045"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#45"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00045] For method printPredicateHtml arguments PrintStream  out|DocInfo  docInfo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00045"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#45"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00059] The argument docInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00045] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#60"
+   "c1" : "00045"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#45"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00045] The argument docInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00046"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '&amp;lt;div id=\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '&amp;lt;div id=\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#60"
+   "c1" : "00046"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#62"
+   "c1" : "00048"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '&amp;lt;h5&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '&amp;lt;h5&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00063"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#63"
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '&amp;lt;a href=\'#' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '&amp;lt;a href=\'#' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00063"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#63"
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00063"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#63"
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '&amp;lt;/a&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '&amp;lt;/a&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#64"
+   "c1" : "00050"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '&amp;lt;/h5&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '&amp;lt;/h5&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00068"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#68"
+   "c1" : "00054"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '&amp;lt;p/&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '&amp;lt;p/&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#70"
+   "c1" : "00056"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#70"
+   "c1" : "00056"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#72"
+   "c1" : "00058"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN175110 the MagicNumber/String  '&amp;lt;/div&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN165450 the MagicNumber/String  '&amp;lt;/div&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#75"
+   "c1" : "00061"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method printHtml arguments PrintStream  out"
+ , "c3" : "QC-JAV000006[00061] For method printHtml arguments PrintStream  out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00081"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#81"
+   "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method main arguments String  ...args"
+ , "c3" : "QC-JAV000006[00067] For method main arguments String  ...args"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#67"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00067] Public method main is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

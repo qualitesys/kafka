@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java 16 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,23 +39,16 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -69,115 +62,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#10"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00010] The class UnalignedFileRecords contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
    "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00028] The class DefaultClientMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#70"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00028] For method writeTo arguments TransferableChannel  destChannel|long  previouslyWritten|int  remaining"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00072] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {
-   "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN164890 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN164890 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN164890 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  'DefaultClientMetadata{' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  'rackId='' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', clientId='' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', clientAddress=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', principal=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', listenerName='' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '}' should be converted to const"
+   "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#28"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00028] The argument destChannel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 };

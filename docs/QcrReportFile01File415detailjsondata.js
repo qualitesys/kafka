@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TransactionAbortedException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/TransactionAbortedException.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TransactionAbortedException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TransactionAbortedException.java.html#18"
+   "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.errors.TransactionAbortedException.TransactionAbortedException@POLYN154867 the MagicNumber/String  'Failing batch since transaction was aborted' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.errors.TopicAuthorizationException.TopicAuthorizationException@POLYN156086 the MagicNumber/String  'Not authorized to access topics: ' should be converted to const"
 }} 
 ]
 };

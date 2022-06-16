@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/EndTxnResponse.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,33 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#21"
+   "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnResponse.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00042] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#32"
+   "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnResponse.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00052] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method build arguments short  version"
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnResponse.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.EndTxnResponse.shouldClientThrottle@POLYN161609 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

@@ -275,7 +275,7 @@
 <a name="275">275&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;punctuate()&nbsp;{</a><br/>
 <a name="276">276&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;punctuated&nbsp;=&nbsp;0;</a><br/>
 <a name="277">277&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="278">278&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(final&nbsp;Task&nbsp;task&nbsp;:&nbsp;tasks.activeTasks())&nbsp;{</a><br/>
+<a name="278">278&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(final&nbsp;Task&nbsp;task&nbsp;:&nbsp;tasks.notPausedActiveTasks())&nbsp;{</a><br/>
 <a name="279">279&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{</a><br/>
 <a name="280">280&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(task.maybePunctuateStreamTime())&nbsp;{</a><br/>
 <a name="281">281&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;punctuated++;</a><br/>

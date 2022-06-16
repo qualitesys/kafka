@@ -166,6 +166,7 @@
 <occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java</file><nberror>2</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java</file><nberror>1</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java</file><nberror>7</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000021</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java</file><nberror>1</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java</file><nberror>2</nberror></occ>
@@ -261,6 +262,10 @@
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java</file><nberror>11</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000021</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java</file><nberror>1</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java</file><nberror>1</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java</file><nberror>2</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java</file><nberror>19</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000021</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java</file><nberror>2</nberror></occ>
+<occ><category>MINOR</category><rule>QC-JAV000006</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java</file><nberror>5</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000021</rule><file>clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java</file><nberror>1</nberror></occ>
@@ -4896,12 +4901,12 @@
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java</file><nberror>5</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000021</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java</file><nberror>1</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java</file><nberror>2</nberror></occ>
-<occ><category>CRITICAL</category><rule>QC-JAVCWE476</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>15</nberror></occ>
+<occ><category>CRITICAL</category><rule>QC-JAVCWE476</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>18</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAVCWE390</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>1</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-JAV000001</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>21</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000001</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>22</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>2</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>126</nberror></occ>
-<occ><category>MINOR</category><rule>QC-JAV000006</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>25</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>132</nberror></occ>
+<occ><category>MINOR</category><rule>QC-JAV000006</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java</file><nberror>29</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java</file><nberror>12</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java</file><nberror>4</nberror></occ>
@@ -5079,7 +5084,7 @@
 <occ><category>CRITICAL</category><rule>QC-JAVCWE476</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java</file><nberror>5</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000001</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java</file><nberror>9</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java</file><nberror>46</nberror></occ>
-<occ><category>MINOR</category><rule>QC-JAV000006</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java</file><nberror>15</nberror></occ>
+<occ><category>MINOR</category><rule>QC-JAV000006</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java</file><nberror>18</nberror></occ>
 <occ><category>INFO</category><rule>QC-JAV000019</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java</file><nberror>2</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java</file><nberror>1</nberror></occ>
 <occ><category>INFO</category><rule>QC-JAV000019</rule><file>streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java</file><nberror>1</nberror></occ>

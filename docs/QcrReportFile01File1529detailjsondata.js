@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java 13 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java 8 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,107 +49,72 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00009"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#9"
+   "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class StoreQueryParameters contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00011] The class KeyQueryMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.StoreQueryParameters the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.StoreQueryParameters the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#29"
+   "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method withPartition arguments Integer  partition"
+ , "c3" : "QC-JAV000006[00062] For method equals arguments Object  obj"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#35"
+   "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.StoreQueryParameters.enableStaleStores@POLYN169966 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method equals arguments Object  obj"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.StoreQueryParameters.equals@POLYN171020 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN171700 the MagicNumber/String  'StoreQueryParameters {' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN171700 the MagicNumber/String  'partition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.KeyQueryMetadata.equals@POLYN171328 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#74"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN171700 the MagicNumber/String  ', staleStores=' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  'KeyQueryMetadata {' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#75"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN171700 the MagicNumber/String  ', storeName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  'activeHost=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#76"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN171700 the MagicNumber/String  ', queryableStoreType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  ', standbyHosts=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#77"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN171700 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  ', partition=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

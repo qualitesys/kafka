@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Timer.java 13 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java 8 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,10 +39,10 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "1"
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -56,107 +56,79 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#6"
+   "c1" : "00009"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class Timer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00009] The class SystemTime contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#30"
+   "c1" : "00022"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method updateAndReset arguments long  timeoutMs"
+ , "c3" : "QC-JAV000006[00022] For method sleep arguments long  ms"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#36"
+   "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method reset arguments long  timeoutMs"
+ , "c3" : "QC-JAV000006[00027] For method waitObject arguments Object  obj|Supplier&lt;Boolean &gt;  condition|long  deadlineMs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#37"
+   "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#27"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00027] The argument obj is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#27"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00027] The argument condition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#28"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00028] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.utils.Timer.reset@POLYN190566 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.SystemTime.waitObject@POLYN157217 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#38"
+   "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.Timer.reset@POLYN190566 the MagicNumber/String  'Invalid negative timeout ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method resetDeadline arguments long  deadlineMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.utils.Timer.resetDeadline@POLYN191242 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.utils.Timer.resetDeadline@POLYN191242 the MagicNumber/String  'Invalid negative deadline ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.Timer.resetDeadline@POLYN191242 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method update arguments long  currentTimeMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.utils.Timer.remainingMs@POLYN192733 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method sleep arguments long  durationMs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#25"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00025] Public method notExpired is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.utils.SystemTime.waitObject@POLYN157217 the MagicNumber/String  'Condition not satisfied before deadline' should be converted to const"
 }} 
 ]
 };

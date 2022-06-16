@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java 1 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/LongConverter.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/converters/LongConverter.java 1 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/LongConverter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,9 +49,9 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {
    "c1" : "00014"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java.html#14"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/LongConverter.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.ShortConverter.ShortConverter@POLYN156805 the MagicNumber/String  'short' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.LongConverter.LongConverter@POLYN156805 the MagicNumber/String  'long' should be converted to const"
 }} 
 ]
 };

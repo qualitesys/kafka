@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/VotedState.java 20 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ResignedState.java 22 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "11"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
@@ -84,142 +84,156 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {
    "c1" : "00014"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#14"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class VotedState contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class ResignedState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#24"
+   "c1" : "00025"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#25"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00024] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00025] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#30"
+   "c1" : "00031"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#31"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00030] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00031] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00060"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#60"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00060] For method acknowledgeResignation arguments int  voterId"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#62"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.raft.VotedState.name@POLYN166834 the MagicNumber/String  'Voted' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.raft.ResignedState.acknowledgeResignation@POLYN174048 the MagicNumber/String  'Attempt to acknowledge delivery of `EndQuorumEpoch` ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method remainingElectionTimeMs arguments long  currentTimeMs"
+   "c1" : "00063"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.raft.ResignedState.acknowledgeResignation@POLYN174048 the MagicNumber/String  'by a non-voter ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#70"
+   "c1" : "00069"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method hasElectionTimeoutExpired arguments long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00069] For method hasElectionTimeoutExpired arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#75"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method overrideElectionTimeout arguments long  currentTimeMs|long  timeoutMs"
+ , "c3" : "QC-JAV000006[00075] For method remainingElectionTimeMs arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00081"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#81"
+   "c1" : "00085"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method canGrantVote arguments int  candidateId|boolean  isLogUpToDate"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00083"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN167564 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000006[00085] For method canGrantVote arguments int  candidateId|boolean  isLogUpToDate"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#86"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN167564 the MagicNumber/String  'Rejecting vote request from candidate {} since we already have voted for ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00087"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN167564 the MagicNumber/String  'another candidate {} in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ResignedState.canGrantVote@POLYN175169 the MagicNumber/String  'Rejecting vote request from candidate {} since we have resigned as candidate/leader in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#88"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN167564 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.ResignedState.canGrantVote@POLYN175169 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.ResignedState.name@POLYN175435 the MagicNumber/String  'Resigned' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#98"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.raft.VotedState.toString@POLYN168130 the MagicNumber/String  'Voted(' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  'ResignedState(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#99"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.VotedState.toString@POLYN168130 the MagicNumber/String  'epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  'localId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#100"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.VotedState.toString@POLYN168130 the MagicNumber/String  ', votedId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#101"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.VotedState.toString@POLYN168130 the MagicNumber/String  ', voters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', voters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#102"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.VotedState.toString@POLYN168130 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#103"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.VotedState.toString@POLYN168130 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', unackedVoters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00107] Void method close is empty or contains only a return."
+   "c1" : "00104"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', preferredSuccessors=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#107"
+   "c1" : "00105"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00107] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00109] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00109] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 };

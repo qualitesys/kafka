@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ApiMessage.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/ApiMessage.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ApiMessage.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.xml" 
  , "fic3"  : "" 
 }
 , 

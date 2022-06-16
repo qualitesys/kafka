@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java 75 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.xml" 
+   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html" 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java 70 rule violations " 
+ , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,8 +40,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
  , "c4" : "1"
 }}
 ,
@@ -49,555 +56,527 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "9"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "48"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "15"
+ , "c4" : "18"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00026"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#26"
+   "c1" : "00025"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00026] The class InsertField contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00025] The class Flatten contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class InsertionSpec contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00071"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#71"
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method parse arguments String  spec"
+ , "c3" : "QC-JAV000006[00049] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#72"
+   "c1" : "00052"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.transforms.Flatten.configure@POLYN202186 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  null should be converted to const"
+   "c1" : "00056"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#56"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00056] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00073"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#73"
+   "c1" : "00057"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  '?' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.Flatten.apply@POLYN202667 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#74"
+   "c1" : "00059"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.transforms.Flatten.apply@POLYN202667 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00076"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  '!' should be converted to const"
+   "c1" : "00075"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  false should be converted to const"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#77"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00077] For method operatingValue arguments R  record"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  true should be converted to const"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00079] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00071"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#71"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00071] Public method parse is dealing with none of the public properties of the class. Risk of useless strong coupling"
+   "c1" : "00081"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method applySchemaless arguments R  record"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00084"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN203551 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN203551 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00088"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00088] For method applySchemaless arguments Map&lt;String ,Object &gt;  originalRecord|String  fieldNamePrefix|Map&lt;String ,Object &gt;  newRecord"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00088"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#88"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00088] The argument originalRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00088"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#88"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00088] The argument newRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00091] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00097"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00097] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00116"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00116] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#93"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  'Flatten transformation was passed a value of type ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00100"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  ' which is not supported by Connect's data API' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00121"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  ' for record without schemas (for field ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00121"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN204144 the MagicNumber/String  ').' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00126"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00126] For method applyWithSchema arguments R  record"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
+   "c1" : "00131"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN206425 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
+   "c1" : "00134"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00103"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  'No field insertion configured' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00106"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00106"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  'No value specified for static field: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00110"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  16 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00114"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#114"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method apply arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00115"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.transforms.InsertField.apply@POLYN204994 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00117"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.transforms.InsertField.apply@POLYN204994 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00124"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method applySchemaless arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00124"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#124"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00124] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00129"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00135"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN206425 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#138"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN206425 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00138"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#138"
+   "c1" : "00139"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN206425 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00141"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#141"
+   "c1" : "00142"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00141"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00145"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN206425 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#148"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method applyWithSchema arguments R  record"
+ , "c3" : "QC-JAV000006[00148] For method buildUpdatedSchema arguments Schema  schema|String  fieldNamePrefix|SchemaBuilder  newSchema|boolean  optional|Struct  defaultFromParent"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#148"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#148"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00148] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00148] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00148"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#148"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00148] The argument newSchema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00150"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00150] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#152"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00163"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00169"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00152] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
    "c1" : "00172"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#172"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00172] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00172"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#172"
+   "c1" : "00152"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN208451 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00153"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#153"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN208451 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00155"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN208451 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#175"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN208451 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00175"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#175"
+   "c1" : "00176"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN208451 the MagicNumber/String  ' for record with schemas (for field ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00176"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN208451 the MagicNumber/String  ').' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00182"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#182"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method makeUpdatedSchema arguments Schema  schema"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00182"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#182"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00182] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00182] For method convertFieldSchema arguments Schema  orig|boolean  optional|Object  defaultFromParent"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#189"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.transforms.Flatten.convertFieldSchema@POLYN210829 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00192"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#192"
+   "c1" : "00194"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#194"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00194] For method buildWithSchema arguments Struct  record|String  fieldNamePrefix|Struct  newRecord"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00194"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#194"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00194] The argument newRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00199"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00199] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
    "c1" : "00195"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#195"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN211313 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00198"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#198"
+   "c1" : "00217"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00201"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00210"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#210"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.connect.transforms.InsertField.close@POLYN211225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN211313 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00218"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method operatingSchema arguments R  record"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN211313 the MagicNumber/String  ' for record with schemas (for field ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00220"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#220"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00220] For method operatingValue arguments R  record"
+   "c1" : "00218"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN211313 the MagicNumber/String  ').' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00222"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#222"
+   "c1" : "00223"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#223"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00222] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
+ , "c3" : "QC-JAV000006[00223] For method fieldName arguments String  prefix|String  fieldName"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00227"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#227"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00227] For method operatingSchema arguments R  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00227"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#227"
+   "c1" : "00223"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#223"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00227] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00223] The argument prefix is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00232"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#232"
+   "c1" : "00229"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00232] For method operatingValue arguments R  record"
+ , "c3" : "QC-JAV000006[00229] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00232"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#232"
+   "c1" : "00229"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#229"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00232] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00229] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00237"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#237"
+   "c1" : "00234"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#234"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00237] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
+ , "c3" : "QC-JAV000006[00234] For method operatingValue arguments R  record"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00237"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#237"
+   "c1" : "00234"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#234"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00237] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00234] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00239"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#239"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00239] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00239"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#239"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00239] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#246"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#246"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00246] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#246"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#246"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00246] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00251"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#251"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#251"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00251] For method operatingValue arguments R  record"
 }} 
 ,
 { "ligne" : {
    "c1" : "00251"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#251"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#251"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00251] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00256"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#256"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#256"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00256] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue"
 }} 
 ,
 { "ligne" : {
    "c1" : "00256"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#256"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#256"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00256] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#67"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00067] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#67"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00067] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 };

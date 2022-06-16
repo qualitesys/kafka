@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java 8 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.xml" 
+   "fic1"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html" 
+ , "texte" : "File streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java 1 rule violations " 
+ , "fic2"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,82 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00011"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#11"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class KeyQueryMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method equals arguments Object  obj"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.KeyQueryMetadata.equals@POLYN171328 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  'KeyQueryMetadata {' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  'activeHost=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  ', standbyHosts=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  ', partition=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.KeyQueryMetadata.toString@POLYN171917 the MagicNumber/String  '}' should be converted to const"
+   "c1" : "00002"
+ , "c1link" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html#2"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html" 
- , "texte" : "File core/src/main/java/kafka/server/builders/KafkaApisBuilder.java 46 rule violations " 
- , "fic2"  : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.xml" 
+   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html" 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java 23 rule violations " 
+ , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,338 +49,177 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "26"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "19"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00012"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#12"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00012] The class Requirements contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00014"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#14"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00014] For method requireSchema arguments Schema  schema|String  purpose"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00015"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#15"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00016"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#16"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  'Schema required for [' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00016"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#16"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00021"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#21"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00021] For method requireMap arguments Object  value|String  purpose"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00023"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN161759 the MagicNumber/String  'Only Map objects supported in absence of schema for [' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00023"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN161759 the MagicNumber/String  '], found: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#28"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00028] For method requireMapOrNull arguments Object  value|String  purpose"
+}} 
+,
+{ "ligne" : {
    "c1" : "00029"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#29"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00029] The class KafkaApisBuilder contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN162261 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#50"
+   "c1" : "00030"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN162261 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00035"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method setRequestChannel arguments RequestChannel  requestChannel"
+ , "c3" : "QC-JAV000006[00035] For method requireStruct arguments Object  value|String  purpose"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#55"
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN162563 the MagicNumber/String  'Only Struct objects supported for [' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN162563 the MagicNumber/String  '], found: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method setMetadataSupport arguments MetadataSupport  metadataSupport"
+ , "c3" : "QC-JAV000006[00042] For method requireStructOrNull arguments Object  value|String  purpose"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#60"
+   "c1" : "00043"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN162991 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN162991 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method setReplicaManager arguments ReplicaManager  replicaManager"
+ , "c3" : "QC-JAV000006[00049] For method requireSinkRecord arguments ConnectRecord&lt;? &gt;  record|String  purpose"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#65"
+   "c1" : "00051"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN163293 the MagicNumber/String  'Only SinkRecord supported for [' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN163293 the MagicNumber/String  '], found: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00056"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method setGroupCoordinator arguments GroupCoordinator  groupCoordinator"
+ , "c3" : "QC-JAV000006[00056] For method nullSafeClassName arguments Object  x"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method setTxnCoordinator arguments TransactionCoordinator  txnCoordinator"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method setAutoTopicCreationManager arguments AutoTopicCreationManager  autoTopicCreationManager"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00080"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method setBrokerId arguments int  brokerId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method setConfig arguments KafkaConfig  config"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method setConfigRepository arguments ConfigRepository  configRepository"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#95"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method setMetadataCache arguments MetadataCache  metadataCache"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00100"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#100"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method setMetrics arguments Metrics  metrics"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method setAuthorizer arguments Optional&lt;Authorizer &gt;  authorizer"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00110"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method setQuotas arguments QuotaManagers  quotas"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00115"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#115"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method setFetchManager arguments FetchManager  fetchManager"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00120"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method setBrokerTopicStats arguments BrokerTopicStats  brokerTopicStats"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method setClusterId arguments String  clusterId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00130"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#130"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method setTime arguments Time  time"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00135"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#135"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method setTokenManager arguments DelegationTokenManager  tokenManager"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00140"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#140"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method setApiVersionManager arguments ApiVersionManager  apiVersionManager"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00146"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#146"
+   "c1" : "00057"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN163736 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00146"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#146"
+   "c1" : "00057"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'you must set requestChannel' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00147"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00147"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'you must set metadataSupport' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00148"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set replicaManager' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00149"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00149"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set groupCoordinator' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00150"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00150"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set txnCoordinator' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00151"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00152"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set autoTopicCreationManager' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00153"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00154"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00154"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set configRepository' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00155"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00155"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set metadataCache' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00156"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#156"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00156"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#156"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set metrics' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00157"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00157"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set quotas' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00158"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#158"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00158"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#158"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set fetchManager' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00159"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00160"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00160"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method kafka.server.builders.KafkaApisBuilder.build@POLYN179425 the MagicNumber/String  'You must set apiVersionManager' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN163736 the MagicNumber/String  'null' should be converted to const"
 }} 
 ]
 };

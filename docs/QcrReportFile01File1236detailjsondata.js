@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html" 
- , "texte" : "File examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java 47 rule violations " 
- , "fic2"  : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.xml" 
+   "fic1"  : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html" 
+ , "texte" : "File core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java 28 rule violations " 
+ , "fic2"  : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,362 +39,222 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "8"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "32"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "17"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00047"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#47"
+   "c1" : "00029"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  'Processor-' should be converted to const"
+ , "c3" : "QC-JAV000008[00029] The class ReplicaManagerBuilder contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  10000 should be converted to const"
+   "c1" : "00048"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method setConfig arguments KafkaConfig  config"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  true should be converted to const"
+   "c1" : "00053"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#53"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00053] For method setMetrics arguments Metrics  metrics"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  true should be converted to const"
+   "c1" : "00058"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#58"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00058] For method setTime arguments Time  time"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  1 should be converted to const"
+   "c1" : "00063"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method setScheduler arguments Scheduler  scheduler"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  null should be converted to const"
+   "c1" : "00068"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#68"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00068] For method setLogManager arguments LogManager  logManager"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  'Txn-consumer-' should be converted to const"
+   "c1" : "00073"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#73"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00073] For method setQuotaManagers arguments QuotaManagers  quotaManagers"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  'Eos-consumer' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN180569 the MagicNumber/String  null should be converted to const"
+   "c1" : "00078"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#78"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00078] For method setMetadataCache arguments MetadataCache  metadataCache"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#83"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00083] For method setLogDirFailureChannel arguments LogDirFailureChannel  logDirFailureChannel"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00087"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00087] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
+   "c1" : "00088"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00088] For method setAlterPartitionManager arguments AlterPartitionManager  alterPartitionManager"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00093] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#93"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00093] For method setBrokerTopicStats arguments BrokerTopicStats  brokerTopicStats"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00098] For method setIsShuttingDown arguments AtomicBoolean  isShuttingDown"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00103] For method setZkClient arguments KafkaZkClient  zkClient"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00105] Avoid declaring class instance within loop, performance impact"
+   "c1" : "00108"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#108"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00108] For method setDelayedProducePurgatory arguments DelayedOperationPurgatory&lt;DelayedProduce &gt;  delayedProducePurgatory"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  'Revoked partition assignment to kick-off rebalancing: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  'Received partition assignment after rebalancing: ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00080"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00081"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00083"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  200 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00084"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00104"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  'The transactional.id %s has been claimed by another process' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00106"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  'The group.instance.id %s has been claimed by another process' should be converted to const"
+   "c1" : "00113"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#113"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00113] For method setDelayedFetchPurgatory arguments DelayedOperationPurgatory&lt;DelayedFetch &gt;  delayedFetchPurgatory"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  'Message remaining: ' should be converted to const"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#118"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00118] For method setDelayedDeleteRecordsPurgatory arguments DelayedOperationPurgatory&lt;DelayedDeleteRecords &gt;  delayedDeleteRecordsPurgatory"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00121"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  'Finished processing ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00121"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN181700 the MagicNumber/String  ' records' should be converted to const"
+   "c1" : "00123"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#123"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00123] For method setDelayedElectLeaderPurgatoryParam arguments DelayedOperationPurgatory&lt;DelayedElectLeader &gt;  delayedElectLeaderPurgatory"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method kafka.examples.ExactlyOnceMessageProcessor.consumerOffsets@POLYN184590 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00133"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#133"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method printWithTxnId arguments String  message"
+ , "c3" : "QC-JAV000006[00128] For method setThreadNamePrefix arguments String  threadNamePrefix"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#134"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method kafka.examples.ExactlyOnceMessageProcessor.printWithTxnId@POLYN185080 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00135"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00136"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00136"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  'You must set logManager' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#137"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method transform arguments ConsumerRecord&lt;Integer ,String &gt;  record"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#137"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00137] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  'You must set metadataCache' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#138"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN185316 the MagicNumber/String  'Transformed record (' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#138"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN185316 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00138"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN185316 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  'You must set logDirFailureChannel' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#139"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN185316 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#139"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN185316 the MagicNumber/String  'Transformed_' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00142"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#142"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method messagesRemaining arguments KafkaConsumer&lt;Integer ,String &gt;  consumer"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00142"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#142"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00142] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00151"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN185841 the MagicNumber/String  'Processing partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00151"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN185841 the MagicNumber/String  ' with full offsets ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00155"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN185841 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00159"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#159"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method resetToLastCommittedPositions arguments KafkaConsumer&lt;Integer ,String &gt;  consumer"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00159"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#159"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00159] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00163"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method kafka.examples.ExactlyOnceMessageProcessor.resetToLastCommittedPositions@POLYN186856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN178318 the MagicNumber/String  'You must set alterIsrManager' should be converted to const"
 }} 
 ]
 };

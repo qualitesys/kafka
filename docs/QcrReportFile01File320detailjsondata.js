@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ConcurrentTransactionsException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/ConcurrentTransactionsException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ConcurrentTransactionsException.java.xml" 
  , "fic3"  : "" 
 }
 , 
