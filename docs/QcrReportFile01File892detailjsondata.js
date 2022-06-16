@@ -1,0 +1,114 @@
+console.log('leListeStr main01 start json de data maDataBlocs');
+var maDataBlocs = {
+"data00" : {
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java 7 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.xml" 
+ , "fic3"  : "" 
+}
+, 
+"data01" : [
+]
+, 
+"data02" : [
+]
+, 
+"data03" : [
+] 
+, 
+"data04" : [
+]
+, 
+"data05" : [
+]
+, 
+"data06" : [
+]
+, 
+"data07" : [
+]
+, 
+"data08" : [
+]
+, 
+"data11" : [
+]
+, 
+"data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "00012"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#12"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00012] The class Crc32C contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00026] For method compute arguments byte[]  bytes|int  offset|int  size"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00033] For method compute arguments ByteBuffer  buffer|int  offset|int  size"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00047] The class Java9ChecksumFactory contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00071] The class PureJavaChecksumFactory contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00026] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00033] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+]
+};
+console.log('leListeStr 99 main end');

@@ -1,0 +1,135 @@
+console.log('leListeStr main01 start json de data maDataBlocs');
+var maDataBlocs = {
+"data00" : {
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java 9 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.xml" 
+ , "fic3"  : "" 
+}
+, 
+"data01" : [
+]
+, 
+"data02" : [
+]
+, 
+"data03" : [
+] 
+, 
+"data04" : [
+]
+, 
+"data05" : [
+]
+, 
+"data06" : [
+]
+, 
+"data07" : [
+]
+, 
+"data08" : [
+]
+, 
+"data11" : [
+]
+, 
+"data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "00010"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#10"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00010] The class StaticTopicNameExtractor contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00018"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#18"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00018] For method extract arguments K  key|V  value|RecordContext  recordContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN157804 the MagicNumber/String  'StaticTopicNameExtractor(' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN157804 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#28"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00028] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00032] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {
+   "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN157952 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN157952 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#33"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN157952 the MagicNumber/String  false should be converted to const"
+}} 
+]
+};
+console.log('leListeStr 99 main end');
