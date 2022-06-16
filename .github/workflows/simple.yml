@@ -57,13 +57,16 @@ jobs:
     #- name: rm  qrcdocs/site
     #  run: |
     #      rm -rf qrcdocs/site
-    #- name: rm qrcdocs
-    #  run: |
-    #      rm -rf qrcdocs
-    - name: mv target/site vers qrcdocs
+    - name: rm qcrdocs
       run: |
-          mkdir qrcdocs
-          mv target/site/* qrcdocs/
+          rm -rf qcrdocs
+    - name: rm docs
+      run: |
+          rm -rf docs
+    - name: mv target/site vers docs
+      run: |
+          mkdir docs
+          mv target/site/* docs/
     - name: Setup git config
       run: |
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
@@ -72,7 +75,7 @@ jobs:
     - name: commit
       run: |
           # Stage the file, commit and push
-          git add qrcdocs/*
+          git add docs/*
           git commit -m "Commit of maven site"
           # A virer ?? git push origin/master master --force
           git push origin trunk --force
