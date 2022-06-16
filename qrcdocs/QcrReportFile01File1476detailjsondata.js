@@ -1,0 +1,135 @@
+console.log('leListeStr main01 start json de data maDataBlocs');
+var maDataBlocs = {
+"data00" : {
+   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html" 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java 8 rule violations " 
+ , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.xml" 
+ , "fic3"  : "" 
+}
+, 
+"data01" : [
+]
+, 
+"data02" : [
+]
+, 
+"data03" : [
+] 
+, 
+"data04" : [
+]
+, 
+"data05" : [
+]
+, 
+"data06" : [
+]
+, 
+"data07" : [
+]
+, 
+"data08" : [
+]
+, 
+"data11" : [
+]
+, 
+"data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "00009"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#9"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00009] The class NoOpCommandHandler contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00011"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#11"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00011] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00018"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#18"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.shell.NoOpCommandHandler.hashCode@POLYN154462 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00022"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#22"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00022] For method equals arguments Object  other"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00023"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.NoOpCommandHandler.equals@POLYN154564 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00024"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.NoOpCommandHandler.equals@POLYN154564 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00011"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#11"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00011] Void method run is empty or contains only a return."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00011"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#11"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00011] Void method run is empty or contains only a return. Interface segregation"
+}} 
+]
+};
+console.log('leListeStr 99 main end');
