@@ -31,7 +31,7 @@
     </pluginRepository> 
   </pluginRepositories>  
   <build> 
-    <sourceDirectory>.</sourceDirectory>
+    <sourceDirectory>streams</sourceDirectory>
     <plugins> 
       <plugin> 
         <groupId>org.apache.maven.plugins</groupId>  
