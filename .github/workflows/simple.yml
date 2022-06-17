@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install Dependencies graphviz pour plantuml
-      run: |
-          sudo apt-get install graphviz
+    #- name: Install Dependencies graphviz pour plantuml
+    #  run: |
+    #      sudo apt-get install graphviz
     - uses: actions/checkout@v2
       with:
         ref: trunk     
@@ -37,7 +37,7 @@ jobs:
     - name: maven describe mojo
       run: mvn help:describe -Dplugin=com.qualitesys.maven.plugins:qcr-maven-plugin -Ddetail=true
     - name: Run maven site
-      run: mvn site -Dsonar.reporting01nodocgeneration=yes
+      run: mvn site
     - name: ls -l
       run: ls -l
     - name: Suppr des fichier .c.xml
