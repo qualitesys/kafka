@@ -12,6 +12,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
     <compileSource>1.6</compileSource>   
     <sonar.language>java</sonar.language>  
+    <sonar.global>yes</sonar.global>
     <sonar.dynamicAnalysis>false</sonar.dynamicAnalysis>  
     <sonar.debugmode></sonar.debugmode>  
     <sonar.debugcounters>yes</sonar.debugcounters>  
