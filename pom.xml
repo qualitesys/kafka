@@ -13,14 +13,9 @@
     <compileSource>1.6</compileSource>   
     <sonar.language>java</sonar.language>  
     <sonar.global>yes</sonar.global>
-    <sonar.dynamicAnalysis>false</sonar.dynamicAnalysis>  
     <sonar.debugmode></sonar.debugmode>  
     <sonar.debugcounters>yes</sonar.debugcounters>  
     <sonar.licence>jchirac@ratp.fr</sonar.licence>  
-    <!-- Modif D.C. 2012 12 06 pour generateautotest -->  
-	<!--
-    <sonar.generateautotestignoreabstract>yes</sonar.generateautotestignoreabstract>  
-	-->
     <sonar.generateautotestignorememory>yes</sonar.generateautotestignorememory> 
   </properties>  
   <pluginRepositories> 
