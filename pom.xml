@@ -22,8 +22,6 @@
     <sonar.generateautotestignoreabstract>yes</sonar.generateautotestignoreabstract>  
 	-->
     <sonar.generateautotestignorememory>yes</sonar.generateautotestignorememory> 
-    <!-- Modif D.C. 2021 01 30 remis -->
-    <sonar.debugskipxsl>true</sonar.debugskipxsl>
   </properties>  
   <pluginRepositories> 
     <pluginRepository> 
