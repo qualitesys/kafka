@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Processor<KIn,VIn,KOut,VOut>"
+ , "c2" : "org.apache.kafka.streams.processor.api.ContextualProcessor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.ContextualProcessor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ContextualProcessor"
+ , "c2" : "ContextualProcessor()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(ProcessorContext<KOut,VOut>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProcessorContext<KOut,VOut>"
+ , "c2" : "context()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.svg" }
+
 ] 
 , 
 "data04" : [

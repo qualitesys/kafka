@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.Versions
+class org.apache.kafka.message.Versions {
++  parse(String;Versions)
++  Versions()
++  Versions(short;short)
++  lowest()
++  highest()
++  empty()
++  toString()
++  intersect(Versions)
++  subtract(Versions)
++  contains(short)
++  contains(Versions)
++  hashCode()
++  equals(Object)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.clients.consumer.internals.ConsumerInterceptors
+class org.apache.kafka.clients.consumer.internals.ConsumerInterceptors {
++  ConsumerInterceptors(List<ConsumerInterceptor<K,V>>)
++  onConsume(ConsumerRecords<K,V>)
++  onCommit(Map<TopicPartition,OffsetAndMetadata>)
++  close()
+} 
+@enduml

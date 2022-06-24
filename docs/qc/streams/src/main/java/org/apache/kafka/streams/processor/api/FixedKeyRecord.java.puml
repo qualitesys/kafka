@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.api.FixedKeyRecord
+class org.apache.kafka.streams.processor.api.FixedKeyRecord {
++  FixedKeyRecord(K;V;long;Headers)
++  key()
++  value()
++  timestamp()
++  headers()
++  withTimestamp(long)
++  withHeaders(Headers)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

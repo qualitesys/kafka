@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.OffsetFetchRequest
+class org.apache.kafka.common.requests.OffsetFetchRequest {
++  partitions()
++  groupId()
++  requireStable()
++  groupIdsToPartitions()
++  groupIdsToTopics()
++  groupIds()
++  OffsetFetchRequest(OffsetFetchRequestData;short)
++  getErrorResponse(Errors)
++  getErrorResponse(int;Errors)
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  isAllPartitions()
++  isAllPartitionsForGroup(String)
++  data()
+} 
+@enduml

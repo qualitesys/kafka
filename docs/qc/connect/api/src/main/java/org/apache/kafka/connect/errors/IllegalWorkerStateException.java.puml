@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.errors.IllegalWorkerStateException
+class org.apache.kafka.connect.errors.IllegalWorkerStateException {
++  IllegalWorkerStateException(String)
++  IllegalWorkerStateException(String;Throwable)
++  IllegalWorkerStateException(Throwable)
+} 
+@enduml

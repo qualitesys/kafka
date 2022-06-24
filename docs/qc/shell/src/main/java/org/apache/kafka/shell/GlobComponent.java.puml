@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.shell.GlobComponent
+class org.apache.kafka.shell.GlobComponent {
++  isRegularExpressionSpecialCharacter(char)
++  isGlobSpecialCharacter(char)
++  toRegularExpression(String)
++  GlobComponent(String)
++  component()
++  literal()
++  matches(String)
+} 
+@enduml

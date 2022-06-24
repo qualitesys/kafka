@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+ContextualProcessor<KIn,VIn,Windowed<KIn>,Change<VAgg>> <|-- org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor
+class org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor {
++  AbstractKStreamTimeWindowAggregateProcessor(String;EmitStrategy;boolean)
++  init(ProcessorContext<Windowed<KIn>,Change<VAgg>>)
++  maybeForwardUpdate(Record<KIn,VIn>;Window;VAgg;VAgg;long)
++  maybeForwardFinalResult(Record<KIn,VIn>;long)
++  logSkippedRecordForExpiredWindow(Logger;long;long;String)
++  updateObservedStreamTime(long)
++  shouldEmitFinal(long)
++  fetchAndEmit(Record<KIn,VIn>;long;long;long)
++  emitRangeLowerBound(long)
++  emitRangeUpperBound(long)
++  shouldRangeFetch(long;long)
+} 
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+AbstractConfig <|-- org.apache.kafka.clients.consumer.ConsumerConfig
+class org.apache.kafka.clients.consumer.ConsumerConfig {
++  postProcessParsedConfig(Map<String,Object>)
++  maybeOverrideClientId(Map<String,Object>)
++  appendDeserializerToConfig(Map<String,Object>;Deserializer<?>;Deserializer<?>)
++  maybeOverrideEnableAutoCommit()
++  ConsumerConfig(Properties)
++  ConsumerConfig(Map<String,Object>)
++  ConsumerConfig(Map<?,?>;boolean)
++  configNames()
++  configDef()
++  main(String[])
+} 
+@enduml

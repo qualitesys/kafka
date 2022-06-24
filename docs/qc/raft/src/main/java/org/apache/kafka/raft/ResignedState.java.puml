@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+EpochState <|-- org.apache.kafka.raft.ResignedState
+class org.apache.kafka.raft.ResignedState {
++  ResignedState(Time;int;int;Set<Integer>;long;List<Integer>;LogContext)
++  election()
++  epoch()
++  unackedVoters()
++  acknowledgeResignation(int)
++  hasElectionTimeoutExpired(long)
++  remainingElectionTimeMs(long)
++  preferredSuccessors()
++  canGrantVote(int;boolean)
++  name()
++  toString()
++  close()
+} 
+@enduml

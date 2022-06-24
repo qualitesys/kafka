@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+BaseRepartitionNode<K,V> <|-- org.apache.kafka.streams.kstream.internals.graph.OptimizableRepartitionNode
+class org.apache.kafka.streams.kstream.internals.graph.OptimizableRepartitionNode {
++  OptimizableRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>)
++  keySerde()
++  valueSerde()
++  repartitionTopic()
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

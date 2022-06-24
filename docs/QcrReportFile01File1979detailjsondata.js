@@ -8,12 +8,128 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WrappedStateStore<KeyValueStore<Bytes,byte[]>,byte[],byte[]>KeyValueStore<Bytes,byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ChangeLoggingKeyValueBytesStore"
+ , "c2" : "ChangeLoggingKeyValueBytesStore(KeyValueStore<Bytes,byte[]>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(ProcessorContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(StateStoreContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeSetEvictionListener()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "approximateNumEntries()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(Bytes;byte[])"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "putIfAbsent(Bytes;byte[])"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putAll(List<KeyValue<Bytes,byte[]>>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "delete(Bytes)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "get(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Bytes,byte[]>"
+ , "c2" : "range(Bytes;Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Bytes,byte[]>"
+ , "c2" : "reverseRange(Bytes;Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Bytes,byte[]>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Bytes,byte[]>"
+ , "c2" : "reverseAll()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "log(Bytes;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore.maybeSetEvictionListener@POLYN172498 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore.maybeSetEvictionListener@POLYN174210 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore.putIfAbsent@POLYN173317 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore.putIfAbsent@POLYN175029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +230,7 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore.delete@POLYN174562 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore.delete@POLYN176274 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

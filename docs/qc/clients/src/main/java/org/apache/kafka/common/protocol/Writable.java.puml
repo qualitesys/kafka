@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.Writable
+class org.apache.kafka.common.protocol.Writable {
++  writeByte(byte)
++  writeShort(short)
++  writeInt(int)
++  writeLong(long)
++  writeDouble(double)
++  writeByteArray(byte[])
++  writeUnsignedVarint(int)
++  writeByteBuffer(ByteBuffer)
++  writeVarint(int)
++  writeVarlong(long)
++  writeRecords(BaseRecords)
++  writeUuid(Uuid)
++  writeUnsignedShort(int)
++  writeUnsignedInt(long)
+} 
+@enduml

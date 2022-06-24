@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerLoginCallbackHandler
+class org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerLoginCallbackHandler {
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  init(AccessTokenRetriever;AccessTokenValidator)
++  getAccessTokenRetriever()
++  close()
++  handle(Callback[])
++  handleTokenCallback(OAuthBearerTokenCallback)
++  handleExtensionsCallback(SaslExtensionsCallback)
++  checkInitialized()
+} 
+@enduml

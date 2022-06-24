@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+To <|-- org.apache.kafka.streams.processor.internals.ToInternal
+class org.apache.kafka.streams.processor.internals.ToInternal {
++  ToInternal()
++  ToInternal(To)
++  update(To)
++  hasTimestamp()
++  timestamp()
++  child()
+} 
+@enduml

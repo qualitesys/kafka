@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.ClusterResourceListener
+class org.apache.kafka.common.ClusterResourceListener {
++  onUpdate(ClusterResource)
+} 
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<AbortTransactionOptions> <|-- org.apache.kafka.clients.admin.AbortTransactionOptions
+class org.apache.kafka.clients.admin.AbortTransactionOptions {
++  toString()
+} 
+@enduml

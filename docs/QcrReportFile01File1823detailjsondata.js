@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StateManager"
+ , "c2" : "org.apache.kafka.streams.processor.internals.GlobalStateManager"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.GlobalStateManager" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setGlobalProcessorContext(InternalProcessorContext)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "initialize()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.svg" }
+
 ] 
 , 
 "data04" : [

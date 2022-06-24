@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.api.Record
+class org.apache.kafka.streams.processor.api.Record {
++  Record(K;V;long;Headers)
++  Record(K;V;long)
++  key()
++  value()
++  timestamp()
++  headers()
++  withTimestamp(long)
++  withHeaders(Headers)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

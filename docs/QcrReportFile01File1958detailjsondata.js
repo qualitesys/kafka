@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WindowStore<K,ValueAndTimestamp<V>>"
+ , "c2" : "org.apache.kafka.streams.state.TimestampedWindowStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.TimestampedWindowStore" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/TimestampedWindowStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/TimestampedWindowStore.java.svg" }
+
 ] 
 , 
 "data04" : [

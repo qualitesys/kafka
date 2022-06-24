@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.raft.NetworkChannel
+class org.apache.kafka.raft.NetworkChannel {
++  newCorrelationId()
++  send(RaftRequest.Outbound)
++  updateEndpoint(int;RaftConfig.InetAddressSpec)
++  close()
+} 
+@enduml

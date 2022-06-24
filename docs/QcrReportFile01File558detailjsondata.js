@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RecordsSend<T>"
+ , "c2" : "org.apache.kafka.common.record.DefaultRecordsSend"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.DefaultRecordsSend" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DefaultRecordsSend"
+ , "c2" : "DefaultRecordsSend(T)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DefaultRecordsSend"
+ , "c2" : "DefaultRecordsSend(T;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "writeTo(TransferableChannel;long;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.svg" }
+
 ] 
 , 
 "data04" : [

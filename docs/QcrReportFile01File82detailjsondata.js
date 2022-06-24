@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeLogDirsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeLogDirsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeLogDirsResult"
+ , "c2" : "DescribeLogDirsResult(Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Integer,KafkaFuture<Map<String,DescribeLogDirsResponse.LogDirInfo>>>"
+ , "c2" : "values()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,DescribeLogDirsResponse.LogDirInfo>"
+ , "c2" : "convertMapValues(Map<String,LogDirDescription>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>"
+ , "c2" : "descriptions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<Integer,Map<String,DescribeLogDirsResponse.LogDirInfo>>>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<Integer,Map<String,LogDirDescription>>>"
+ , "c2" : "allDescriptions()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,14 +153,14 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.convertMapValues@POLYN174957 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.convertMapValues@POLYN176669 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.allDescriptions@POLYN177384 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.allDescriptions@POLYN179096 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

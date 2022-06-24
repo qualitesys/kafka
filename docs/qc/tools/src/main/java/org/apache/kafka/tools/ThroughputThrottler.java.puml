@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.tools.ThroughputThrottler
+class org.apache.kafka.tools.ThroughputThrottler {
++  ThroughputThrottler(long;long)
++  shouldThrottle(long;long)
++  throttle()
++  wakeup()
+} 
+@enduml

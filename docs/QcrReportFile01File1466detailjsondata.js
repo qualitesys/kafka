@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Commands.Handler"
+ , "c2" : "org.apache.kafka.shell.ErroneousCommandHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.shell.ErroneousCommandHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ErroneousCommandHandler"
+ , "c2" : "ErroneousCommandHandler(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,35 +146,35 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN156865 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN158577 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN156865 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN158577 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN156865 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN158577 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.ErroneousCommandHandler.toString@POLYN157326 the MagicNumber/String  'ErroneousCommandHandler(' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.ErroneousCommandHandler.toString@POLYN159038 the MagicNumber/String  'ErroneousCommandHandler(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.ErroneousCommandHandler.toString@POLYN157326 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.ErroneousCommandHandler.toString@POLYN159038 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

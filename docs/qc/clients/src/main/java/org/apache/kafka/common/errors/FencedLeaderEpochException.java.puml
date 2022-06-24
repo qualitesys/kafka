@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.common.errors.FencedLeaderEpochException
+class org.apache.kafka.common.errors.FencedLeaderEpochException {
++  FencedLeaderEpochException(String)
++  FencedLeaderEpochException(String;Throwable)
+} 
+@enduml

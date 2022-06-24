@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.mirror.SourceAndTarget"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.SourceAndTarget" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SourceAndTarget"
+ , "c2" : "SourceAndTarget(String;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "source()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "target()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.mirror.SourceAndTarget.toString@POLYN155493 the MagicNumber/String  '-&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.mirror.SourceAndTarget.toString@POLYN157205 the MagicNumber/String  '-&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.mirror.SourceAndTarget.equals@POLYN155771 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.mirror.SourceAndTarget.equals@POLYN157483 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

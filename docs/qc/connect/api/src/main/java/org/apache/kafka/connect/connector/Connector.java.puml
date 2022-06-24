@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Versioned <|-- org.apache.kafka.connect.connector.Connector
+class org.apache.kafka.connect.connector.Connector {
++  initialize(ConnectorContext)
++  initialize(ConnectorContext;List<Map<String,String>>)
++  context()
++  start(Map<String,String>)
++  reconfigure(Map<String,String>)
++  taskClass()
++  taskConfigs(int)
++  stop()
++  validate(Map<String,String>)
++  config()
+} 
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AbstractRequestResponse <|-- org.apache.kafka.common.requests.ResponseHeader
+class org.apache.kafka.common.requests.ResponseHeader {
++  ResponseHeader(int;short)
++  ResponseHeader(ResponseHeaderData;short)
++  size(ObjectSerializationCache)
++  correlationId()
++  headerVersion()
++  data()
++  write(ByteBuffer;ObjectSerializationCache)
++  toString()
++  parse(ByteBuffer;short)
++  equals(Object)
++  hashCode()
+} 
+@enduml

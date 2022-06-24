@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ControllerRequestContext
+class org.apache.kafka.controller.ControllerRequestContext {
++  requestTimeoutMsToDeadlineNs(Time;int)
++  ControllerRequestContext(RequestHeaderData;KafkaPrincipal;OptionalLong)
++  ControllerRequestContext(AuthorizableRequestContext;OptionalLong)
++  requestHeader()
++  principal()
++  deadlineNs()
+} 
+@enduml

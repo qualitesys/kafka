@@ -2,18 +2,71 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java 19 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java 23 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConfigProvider"
+ , "c2" : "org.apache.kafka.common.config.provider.DirectoryConfigProvider"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.config.provider.DirectoryConfigProvider" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigData"
+ , "c2" : "get(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigData"
+ , "c2" : "get(String;Set<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigData"
+ , "c2" : "get(String;Predicate<Path>)"
+ , "c3" : "4"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "read(Path)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,6 +90,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -53,10 +115,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -128,28 +204,28 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN171284 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN172996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN171284 the MagicNumber/String  'The path {} is not a directory' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN172996 the MagicNumber/String  'The path {} is not a directory' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN171284 the MagicNumber/String  'Could not list directory {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN172996 the MagicNumber/String  'Could not list directory {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN171284 the MagicNumber/String  'Could not list directory ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN172996 the MagicNumber/String  'Could not list directory ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,21 +246,21 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN172731 the MagicNumber/String  'Could not read file {} for property {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN174443 the MagicNumber/String  'Could not read file {} for property {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN172731 the MagicNumber/String  'Could not read file ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN174443 the MagicNumber/String  'Could not read file ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN172731 the MagicNumber/String  ' for property ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN174443 the MagicNumber/String  ' for property ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -213,6 +289,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#31"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00031] Void method close is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN174443"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#73"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN174443 the MagicNumber/String 'Could not read file {} for property {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN174443 the MagicNumber/String ' for property ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN174443 the MagicNumber/String 'Could not read file ' MUST BE CONVERTED to const"
 }} 
 ]
 };

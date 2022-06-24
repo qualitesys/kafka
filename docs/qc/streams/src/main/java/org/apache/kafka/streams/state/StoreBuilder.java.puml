@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.StoreBuilder
+class org.apache.kafka.streams.state.StoreBuilder {
++  withCachingEnabled()
++  withCachingDisabled()
++  withLoggingEnabled(Map<String,String>)
++  withLoggingDisabled()
++  build()
++  logConfig()
++  loggingEnabled()
++  name()
+} 
+@enduml

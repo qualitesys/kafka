@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Login <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin
+class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin {
++  configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler)
++  close()
++  subject()
++  serviceName()
++  login()
+} 
+@enduml

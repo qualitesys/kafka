@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.EmitStrategy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.EmitStrategy" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StrategyType"
+ , "c2" : "type()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "EmitStrategy"
+ , "c2" : "onWindowClose()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "EmitStrategy"
+ , "c2" : "onWindowUpdate()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.svg" }
+
 ] 
 , 
 "data04" : [

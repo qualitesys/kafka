@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.FetchSnapshotResponse
+class org.apache.kafka.common.requests.FetchSnapshotResponse {
++  FetchSnapshotResponse(FetchSnapshotResponseData)
++  errorCounts()
++  throttleTimeMs()
++  data()
++  withTopLevelError(Errors)
++  singleton(TopicPartition;UnaryOperator<FetchSnapshotResponseData.PartitionSnapshot>)
++  forTopicPartition(FetchSnapshotResponseData;TopicPartition)
++  parse(ByteBuffer;short)
+} 
+@enduml

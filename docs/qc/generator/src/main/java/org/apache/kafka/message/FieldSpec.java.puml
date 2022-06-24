@@ -1,0 +1,38 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.FieldSpec
+class org.apache.kafka.message.FieldSpec {
++  FieldSpec(String;String;List<FieldSpec>;String;boolean;String;String;boolean;EntityType;String;String;String;Integer;boolean)
++  checkTagInvariants()
++  name()
++  capitalizedCamelCaseName()
++  camelCaseName()
++  snakeCaseName()
++  versions()
++  versionsString()
++  fields()
++  typeString()
++  type()
++  mapKey()
++  nullableVersions()
++  nullableVersionsString()
++  defaultString()
++  ignorable()
++  entityType()
++  about()
++  taggedVersionsString()
++  taggedVersions()
++  flexibleVersionsString()
++  flexibleVersions()
++  tagInteger()
++  tag()
++  zeroCopy()
++  fieldDefault(HeaderGenerator;StructRegistry)
++  validateNullDefault()
++  fieldAbstractJavaType(HeaderGenerator;StructRegistry)
++  concreteJavaType(HeaderGenerator;StructRegistry)
++  collectionType(String)
++  generateNonDefaultValueCheck(HeaderGenerator;StructRegistry;CodeBuffer;String;Versions)
++  generateNonIgnorableFieldCheck(HeaderGenerator;StructRegistry;String;CodeBuffer)
+} 
+@enduml

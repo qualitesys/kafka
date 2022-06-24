@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.NetworkClientUtils
+class org.apache.kafka.clients.NetworkClientUtils {
++  NetworkClientUtils()
++  isReady(KafkaClient;Node;long)
++  awaitReady(KafkaClient;Node;Time;long)
++  sendAndReceive(KafkaClient;ClientRequest;Time)
+} 
+@enduml

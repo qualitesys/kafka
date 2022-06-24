@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.OperationNotAttemptedException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.OperationNotAttemptedException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OperationNotAttemptedException"
+ , "c2" : "OperationNotAttemptedException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java.svg" }
+
 ] 
 , 
 "data04" : [

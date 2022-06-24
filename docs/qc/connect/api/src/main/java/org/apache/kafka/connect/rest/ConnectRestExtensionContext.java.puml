@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.rest.ConnectRestExtensionContext
+class org.apache.kafka.connect.rest.ConnectRestExtensionContext {
++  configurable()
++  clusterState()
+} 
+@enduml

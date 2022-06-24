@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.protocol.MessageSizeAccumulator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.protocol.MessageSizeAccumulator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "totalSize()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "sizeExcludingZeroCopy()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "zeroCopySize()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addZeroCopyBytes(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addBytes(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "add(MessageSizeAccumulator)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.UserScramCredentialAlteration"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.UserScramCredentialAlteration" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UserScramCredentialAlteration"
+ , "c2" : "UserScramCredentialAlteration(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "user()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialAlteration.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialAlteration.java.svg" }
+
 ] 
 , 
 "data04" : [

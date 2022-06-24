@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.StoreSupplier
+class org.apache.kafka.streams.state.StoreSupplier {
++  name()
++  get()
++  metricsScope()
+} 
+@enduml

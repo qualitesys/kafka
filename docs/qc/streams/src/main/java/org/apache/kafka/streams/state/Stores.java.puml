@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.Stores
+class org.apache.kafka.streams.state.Stores {
++  persistentKeyValueStore(String)
++  persistentTimestampedKeyValueStore(String)
++  inMemoryKeyValueStore(String)
++  lruMap(String;int)
++  persistentWindowStore(String;Duration;Duration;boolean)
++  persistentTimestampedWindowStore(String;Duration;Duration;boolean)
++  persistentWindowStore(String;Duration;Duration;boolean;boolean)
++  persistentWindowStore(String;long;long;boolean;long;boolean)
++  inMemoryWindowStore(String;Duration;Duration;boolean)
++  persistentSessionStore(String;Duration)
++  inMemorySessionStore(String;Duration)
+} 
+@enduml

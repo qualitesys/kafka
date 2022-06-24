@@ -8,12 +8,79 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KafkaException"
+ , "c2" : "org.apache.kafka.streams.errors.StreamsException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.StreamsException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "StreamsException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "StreamsException(String;TaskId)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "StreamsException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "StreamsException(String;Throwable;TaskId)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "StreamsException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "StreamsException(Throwable;TaskId)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<TaskId>"
+ , "c2" : "taskId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setTaskId(TaskId)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,21 +125,21 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN162044 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN163756 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN162423 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN164135 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN162883 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN164595 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.CommittedOffsetsFile
+class org.apache.kafka.server.log.remote.metadata.storage.CommittedOffsetsFile {
++  CommittedOffsetsFile(File)
++  writeEntries(Map<Integer,Long>)
++  readEntries()
+} 
+@enduml

@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.internals.AdminApiHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminApiHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "apiName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<RequestAndKeys<K>>"
+ , "c2" : "buildRequest(int;Set<K>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiResult<K,V>"
+ , "c2" : "handleResponse(Node;Set<K>;AbstractResponse)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AdminApiLookupStrategy<K>"
+ , "c2" : "lookupStrategy()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -156,14 +195,14 @@ var maDataBlocs = {
    "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN190182 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN191894 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN190182 the MagicNumber/String  'Unbatched admin handler should only be required to handle responses for a single key at a time' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN191894 the MagicNumber/String  'Unbatched admin handler should only be required to handle responses for a single key at a time' should be converted to const"
 }} 
 ]
 };

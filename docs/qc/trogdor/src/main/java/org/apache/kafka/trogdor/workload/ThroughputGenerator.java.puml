@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.workload.ThroughputGenerator
+class org.apache.kafka.trogdor.workload.ThroughputGenerator {
++  throttle()
+} 
+@enduml

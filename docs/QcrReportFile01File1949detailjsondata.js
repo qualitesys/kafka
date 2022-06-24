@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StoreSupplier<SessionStore<Bytes,byte[]>>"
+ , "c2" : "org.apache.kafka.streams.state.SessionBytesStoreSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.SessionBytesStoreSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "segmentIntervalMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "retentionPeriod()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [

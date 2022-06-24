@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.isolation.PluginScanResult
+class org.apache.kafka.connect.runtime.isolation.PluginScanResult {
++  PluginScanResult(Collection<PluginDesc<SinkConnector>>;Collection<PluginDesc<SourceConnector>>;Collection<PluginDesc<Converter>>;Collection<PluginDesc<HeaderConverter>>;Collection<PluginDesc<Transformation<?>>>;Collection<PluginDesc<Predicate<?>>>;Collection<PluginDesc<ConfigProvider>>;Collection<PluginDesc<ConnectRestExtension>>;Collection<PluginDesc<ConnectorClientConfigOverridePolicy>>)
++  sinkConnectors()
++  sourceConnectors()
++  converters()
++  headerConverters()
++  transformations()
++  predicates()
++  configProviders()
++  restExtensions()
++  connectorClientConfigPolicies()
++  isEmpty()
+} 
+@enduml

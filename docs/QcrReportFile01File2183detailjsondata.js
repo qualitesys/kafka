@@ -2,18 +2,50 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java 8 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java 14 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskWorker"
+ , "c2" : "org.apache.kafka.trogdor.task.NoOpTaskWorker"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.task.NoOpTaskWorker" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "NoOpTaskWorker"
+ , "c2" : "NoOpTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "stop(Platform)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +69,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -93,14 +148,14 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN157057 the MagicNumber/String  '{}: Activating NoOpTask.' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN158769 the MagicNumber/String  '{}: Activating NoOpTask.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN157057 the MagicNumber/String  'active' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN158769 the MagicNumber/String  'active' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,14 +169,56 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN157497 the MagicNumber/String  '{}: Deactivating NoOpTask.' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN159209 the MagicNumber/String  '{}: Deactivating NoOpTask.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN157497 the MagicNumber/String  'done' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN159209 the MagicNumber/String  'done' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN158769"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN159209"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00025"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#25"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN158769 the MagicNumber/String '{}: Activating NoOpTask.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#27"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN158769 the MagicNumber/String 'active' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#32"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN159209 the MagicNumber/String '{}: Deactivating NoOpTask.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#33"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN159209 the MagicNumber/String 'done' MUST BE CONVERTED to const"
 }} 
 ]
 };

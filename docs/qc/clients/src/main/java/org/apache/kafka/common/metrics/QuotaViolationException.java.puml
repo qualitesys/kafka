@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.common.metrics.QuotaViolationException
+class org.apache.kafka.common.metrics.QuotaViolationException {
++  QuotaViolationException(KafkaMetric;double;double)
++  metric()
++  value()
++  bound()
++  toString()
++  fillInStackTrace()
+} 
+@enduml

@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "UserScramCredentialAlteration"
+ , "c2" : "org.apache.kafka.clients.admin.UserScramCredentialUpsertion"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.UserScramCredentialUpsertion" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UserScramCredentialUpsertion"
+ , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UserScramCredentialUpsertion"
+ , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UserScramCredentialUpsertion"
+ , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;byte[];byte[])"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ScramCredentialInfo"
+ , "c2" : "credentialInfo()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "salt()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "password()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "generateRandomSalt()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.svg" }
+
 ] 
 , 
 "data04" : [

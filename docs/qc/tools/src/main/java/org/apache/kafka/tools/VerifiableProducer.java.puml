@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.tools.VerifiableProducer
+class org.apache.kafka.tools.VerifiableProducer {
++  VerifiableProducer(KafkaProducer<String,String>;String;int;int;Integer;Long;Integer)
++  argParser()
++  loadProps(String)
++  createFromArgs(ArgumentParser;String[])
++  send(String;String)
++  getValue(long)
++  getKey()
++  close()
++  printJson(Object)
++  run(ThroughputThrottler)
++  main(String[])
+} 
+@enduml

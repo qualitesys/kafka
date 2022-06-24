@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeFeaturesResult
+class org.apache.kafka.clients.admin.DescribeFeaturesResult {
++  DescribeFeaturesResult(KafkaFuture<FeatureMetadata>)
++  featureMetadata()
+} 
+@enduml

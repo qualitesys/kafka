@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.ApiVersions
+class org.apache.kafka.clients.ApiVersions {
++  update(String;NodeApiVersions)
++  remove(String)
++  get(String)
++  computeMaxUsableProduceMagic()
++  maxUsableProduceMagic()
+} 
+@enduml

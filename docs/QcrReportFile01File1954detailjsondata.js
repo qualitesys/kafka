@@ -8,12 +8,100 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.Stores"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.Stores" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KeyValueBytesStoreSupplier"
+ , "c2" : "persistentKeyValueStore(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueBytesStoreSupplier"
+ , "c2" : "persistentTimestampedKeyValueStore(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueBytesStoreSupplier"
+ , "c2" : "inMemoryKeyValueStore(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueBytesStoreSupplier"
+ , "c2" : "lruMap(String;int)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowBytesStoreSupplier"
+ , "c2" : "persistentWindowStore(String;Duration;Duration;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowBytesStoreSupplier"
+ , "c2" : "persistentTimestampedWindowStore(String;Duration;Duration;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowBytesStoreSupplier"
+ , "c2" : "persistentWindowStore(String;Duration;Duration;boolean;boolean)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowBytesStoreSupplier"
+ , "c2" : "persistentWindowStore(String;long;long;boolean;long;boolean)"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowBytesStoreSupplier"
+ , "c2" : "inMemoryWindowStore(String;Duration;Duration;boolean)"
+ , "c3" : "4"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SessionBytesStoreSupplier"
+ , "c2" : "persistentSessionStore(String;Duration)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SessionBytesStoreSupplier"
+ , "c2" : "inMemorySessionStore(String;Duration)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +167,14 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.Stores.persistentKeyValueStore@POLYN255536 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.Stores.persistentKeyValueStore@POLYN257248 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.Stores.persistentKeyValueStore@POLYN255536 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.Stores.persistentKeyValueStore@POLYN257248 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.Stores.persistentTimestampedKeyValueStore@POLYN256198 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.Stores.persistentTimestampedKeyValueStore@POLYN257910 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.Stores.persistentTimestampedKeyValueStore@POLYN256198 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.Stores.persistentTimestampedKeyValueStore@POLYN257910 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.Stores.inMemoryKeyValueStore@POLYN256791 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.Stores.inMemoryKeyValueStore@POLYN258503 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,28 +223,28 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN257447 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN259159 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN257447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN259159 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN257447 the MagicNumber/String  'maxCacheSize cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN259159 the MagicNumber/String  'maxCacheSize cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN257447 the MagicNumber/String  'in-memory-lru' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.Stores.lruMap@POLYN259159 the MagicNumber/String  'in-memory-lru' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,7 +258,7 @@ var maDataBlocs = {
    "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN259075 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN260787 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -184,7 +272,7 @@ var maDataBlocs = {
    "c1" : "00084"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.Stores.persistentTimestampedWindowStore@POLYN260220 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.Stores.persistentTimestampedWindowStore@POLYN261932 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,35 +286,35 @@ var maDataBlocs = {
    "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN260553 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN262265 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN260553 the MagicNumber/String  'retentionPeriod' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN262265 the MagicNumber/String  'retentionPeriod' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN260553 the MagicNumber/String  'windowSize' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN262265 the MagicNumber/String  'windowSize' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN260553 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN262265 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN260553 the MagicNumber/String  60_000L should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN262265 the MagicNumber/String  60_000L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -240,77 +328,77 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  'windowSize cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  'windowSize cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  'segmentInterval cannot be zero or negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  'segmentInterval cannot be zero or negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  'The retention period of the window store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  'The retention period of the window store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  ' must be no smaller than its window size. Got size=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  ' must be no smaller than its window size. Got size=[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  '], retention=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  '], retention=[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN261620 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.Stores.persistentWindowStore@POLYN263332 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -324,77 +412,77 @@ var maDataBlocs = {
    "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  'retentionPeriod' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  'retentionPeriod' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  'windowSize' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  'windowSize' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  'windowSize cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  'windowSize cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  'The retention period of the window store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  'The retention period of the window store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  ' must be no smaller than its window size. Got size=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  ' must be no smaller than its window size. Got size=[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  '], retention=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  '], retention=[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN263588 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.Stores.inMemoryWindowStore@POLYN265300 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -408,28 +496,28 @@ var maDataBlocs = {
    "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN265337 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN267049 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN265337 the MagicNumber/String  'retentionPeriod' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN267049 the MagicNumber/String  'retentionPeriod' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN265337 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN267049 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN265337 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.Stores.persistentSessionStore@POLYN267049 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -443,28 +531,28 @@ var maDataBlocs = {
    "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN266318 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN268030 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00178"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN266318 the MagicNumber/String  'retentionPeriod' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN268030 the MagicNumber/String  'retentionPeriod' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN266318 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN268030 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN266318 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.Stores.inMemorySessionStore@POLYN268030 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {

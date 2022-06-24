@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+KStreamAggProcessorSupplier<K,V,K,V> <|-- org.apache.kafka.streams.kstream.internals.KStreamReduce
+class org.apache.kafka.streams.kstream.internals.KStreamReduce {
++  KStreamReduce(String;Reducer<V>)
++  get()
++  enableSendingOldValues()
++  view()
+} 
+@enduml

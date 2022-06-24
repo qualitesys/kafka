@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.InvalidMetadataException
+class org.apache.kafka.common.errors.InvalidMetadataException {
++  InvalidMetadataException()
++  InvalidMetadataException(String)
++  InvalidMetadataException(String;Throwable)
++  InvalidMetadataException(Throwable)
+} 
+@enduml

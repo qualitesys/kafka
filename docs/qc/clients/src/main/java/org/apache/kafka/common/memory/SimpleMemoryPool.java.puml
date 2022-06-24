@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+MemoryPool <|-- org.apache.kafka.common.memory.SimpleMemoryPool
+class org.apache.kafka.common.memory.SimpleMemoryPool {
++  SimpleMemoryPool(long;int;boolean;Sensor)
++  tryAllocate(int)
++  release(ByteBuffer)
++  size()
++  availableMemory()
++  isOutOfMemory()
++  bufferToBeReturned(ByteBuffer)
++  bufferToBeReleased(ByteBuffer)
++  toString()
++  maybeRecordEndOfDrySpell()
+} 
+@enduml

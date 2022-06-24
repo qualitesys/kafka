@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "NamedOperation<Suppressed<K>>"
+ , "c2" : "org.apache.kafka.streams.kstream.Suppressed"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.Suppressed" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Suppressed<Windowed>"
+ , "c2" : "untilWindowCloses(StrictBufferConfig)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Suppressed<K>"
+ , "c2" : "withName(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Suppressed.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Suppressed.java.svg" }
+
 ] 
 , 
 "data04" : [

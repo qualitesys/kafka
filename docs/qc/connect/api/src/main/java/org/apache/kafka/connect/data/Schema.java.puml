@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.data.Schema
+class org.apache.kafka.connect.data.Schema {
++  type()
++  isOptional()
++  defaultValue()
++  name()
++  version()
++  doc()
++  parameters()
++  keySchema()
++  valueSchema()
++  fields()
++  field(String)
++  schema()
+} 
+@enduml

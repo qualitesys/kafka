@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<DescribeTopicsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeTopicsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeTopicsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeTopicsOptions"
+ , "c2" : "timeoutMs(Integer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeTopicsOptions"
+ , "c2" : "includeAuthorizedOperations(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "includeAuthorizedOperations()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

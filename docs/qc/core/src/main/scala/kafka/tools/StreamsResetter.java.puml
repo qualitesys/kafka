@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- kafka.tools.StreamsResetter
+class kafka.tools.StreamsResetter {
++  run(String[])
++  run(String[];Properties)
++  maybeDeleteActiveConsumers(String;Admin)
++  parseArguments(String[])
++  maybeResetInputAndSeekToEndIntermediateTopicOffsets(Map<Object,Object>;boolean)
++  maybeSeekToEnd(String;Consumer<byte[],byte[]>;Set<TopicPartition>)
++  maybeReset(String;Consumer<byte[],byte[]>;Set<TopicPartition>)
++  resetOffsetsFromResetPlan(Consumer<byte[],byte[]>;Set<TopicPartition>;Map<TopicPartition,Long>)
++  getTopicPartitionOffsetFromResetPlan(String)
++  resetByDuration(Consumer<byte[],byte[]>;Set<TopicPartition>;Duration)
++  resetToDatetime(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)
++  shiftOffsetsBy(Consumer<byte[],byte[]>;Set<TopicPartition>;long)
++  resetOffsetsTo(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)
++  parseResetPlan(String)
++  checkOffsetRange(Map<TopicPartition,Long>;Map<TopicPartition,Long>;Map<TopicPartition,Long>)
++  isInputTopic(String)
++  isIntermediateTopic(String)
++  maybeDeleteInternalTopics(Admin;boolean)
++  doDelete(List<String>;Admin)
++  isInferredInternalTopic(String)
++  matchesInternalTopicFormat(String)
++  main(String[])
+} 
+@enduml

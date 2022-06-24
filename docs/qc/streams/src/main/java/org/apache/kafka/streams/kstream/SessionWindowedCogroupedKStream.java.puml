@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.SessionWindowedCogroupedKStream
+class org.apache.kafka.streams.kstream.SessionWindowedCogroupedKStream {
++  aggregate(Initializer<V>;Merger<?superK,V>)
++  aggregate(Initializer<V>;Merger<?superK,V>;Named)
++  aggregate(Initializer<V>;Merger<?superK,V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)
++  aggregate(Initializer<V>;Merger<?superK,V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)
+} 
+@enduml

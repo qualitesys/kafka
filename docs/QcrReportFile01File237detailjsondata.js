@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.producer.internals.IncompleteBatches"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.producer.internals.IncompleteBatches" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "IncompleteBatches"
+ , "c2" : "IncompleteBatches()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "add(ProducerBatch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "remove(ProducerBatch)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterable<ProducerBatch>"
+ , "c2" : "copyAll()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterable<ProduceRequestResult>"
+ , "c2" : "requestResults()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.producer.internals.IncompleteBatches.remove@POLYN158688 the MagicNumber/String  'Remove from the incomplete set failed. This should be impossible.' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.producer.internals.IncompleteBatches.remove@POLYN160400 the MagicNumber/String  'Remove from the incomplete set failed. This should be impossible.' should be converted to const"
 }} 
 ,
 { "ligne" : {

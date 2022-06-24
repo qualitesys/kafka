@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AbstractStream<K,V>KGroupedStream<K,V> <|-- org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl
+class org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl {
++  KGroupedStreamImpl(String;Set<String>;GroupedInternal<K,V>;boolean;GraphNode;InternalStreamsBuilder)
++  reduce(Reducer<V>)
++  reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  count()
++  count(Named)
++  count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
++  count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
++  doCount(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
++  windowedBy(SlidingWindows)
++  windowedBy(SessionWindows)
+} 
+@enduml

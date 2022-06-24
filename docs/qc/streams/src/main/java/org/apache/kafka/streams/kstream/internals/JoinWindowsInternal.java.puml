@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+JoinWindows <|-- org.apache.kafka.streams.kstream.internals.JoinWindowsInternal
+class org.apache.kafka.streams.kstream.internals.JoinWindowsInternal {
++  JoinWindowsInternal(JoinWindows)
++  spuriousResultFixEnabled()
+} 
+@enduml

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.BeginQuorumEpochRequest"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.requests.BeginQuorumEpochRequest" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BeginQuorumEpochRequest"
+ , "c2" : "BeginQuorumEpochRequest(BeginQuorumEpochRequestData;short)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BeginQuorumEpochRequestData"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BeginQuorumEpochResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BeginQuorumEpochRequest"
+ , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BeginQuorumEpochRequestData"
+ , "c2" : "singletonRequest(TopicPartition;int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BeginQuorumEpochRequestData"
+ , "c2" : "singletonRequest(TopicPartition;String;int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.BeginQuorumEpochRequest.singletonRequest@POLYN163935 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.BeginQuorumEpochRequest.singletonRequest@POLYN165647 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

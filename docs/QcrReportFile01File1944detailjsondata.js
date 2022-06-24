@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.QueryableStoreTypes"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.QueryableStoreTypes" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreTypes.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreTypes.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,14 +112,14 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreTypes.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.QueryableStoreTypes.QueryableStoreTypeMatcher.accepts@POLYN183032 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.QueryableStoreTypes.QueryableStoreTypeMatcher.accepts@POLYN184744 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreTypes.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.QueryableStoreTypes.QueryableStoreTypeMatcher.accepts@POLYN183032 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.QueryableStoreTypes.QueryableStoreTypeMatcher.accepts@POLYN184744 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {

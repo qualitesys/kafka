@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.resources.LoggingResource
+class org.apache.kafka.connect.runtime.rest.resources.LoggingResource {
++  listLoggers()
++  getLogger(String)
++  setLevel(String;Map<String,String>)
++  lookupLogger(String)
++  currentLoggers()
++  rootLogger()
++  effectiveLevelToMap(Logger)
++  levelToMap(Logger)
+} 
+@enduml

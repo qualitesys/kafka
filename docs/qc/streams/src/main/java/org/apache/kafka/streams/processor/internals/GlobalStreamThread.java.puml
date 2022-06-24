@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+Thread <|-- org.apache.kafka.streams.processor.internals.GlobalStreamThread
+class org.apache.kafka.streams.processor.internals.GlobalStreamThread {
++  setStateListener(StreamThread.StateListener)
++  state()
++  setState(State)
++  stillRunning()
++  inErrorState()
++  stillInitializing()
++  GlobalStreamThread(ProcessorTopology;StreamsConfig;Consumer<byte[],byte[]>;StateDirectory;long;StreamsMetricsImpl;Time;String;StateRestoreListener;java.util.function.Consumer<Throwable>)
++  run()
++  setUncaughtExceptionHandler(java.util.function.Consumer<Throwable>)
++  resize(long)
++  initialize()
++  closeStateConsumer(StateConsumer;boolean)
++  start()
++  shutdown()
++  consumerMetrics()
+} 
+@enduml

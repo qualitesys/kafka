@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.raft.internals.BatchAccumulator
+class org.apache.kafka.raft.internals.BatchAccumulator {
++  BatchAccumulator(int;long;int;int;MemoryPool;Time;CompressionType;RecordSerde<T>)
++  append(int;List<T>)
++  appendAtomic(int;List<T>)
++  append(int;List<T>;boolean)
++  maybeResetLinger()
++  maybeAllocateBatch(Collection<T>;ObjectSerializationCache)
++  completeCurrentBatch()
++  appendControlMessage(Function<ByteBuffer,MemoryRecords>)
++  appendLeaderChangeMessage(LeaderChangeMessage;long)
++  appendSnapshotHeaderMessage(SnapshotHeaderRecord;long)
++  appendSnapshotFooterMessage(SnapshotFooterRecord;long)
++  forceDrain()
++  maybeCompleteDrain()
++  startNewBatch()
++  needsDrain(long)
++  timeUntilDrain(long)
++  epoch()
++  drain()
++  drainCompleted()
++  isEmpty()
++  numCompletedBatches()
++  close()
+} 
+@enduml

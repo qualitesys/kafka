@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Iterator<T>"
+ , "c2" : "org.apache.kafka.common.utils.MappedIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.MappedIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MappedIterator"
+ , "c2" : "MappedIterator(Iterator<?extendsF>;Function<F,T>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "next()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.svg" }
+
 ] 
 , 
 "data04" : [

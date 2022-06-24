@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+Comparable<RestartRequest> <|-- org.apache.kafka.connect.runtime.RestartRequest
+class org.apache.kafka.connect.runtime.RestartRequest {
++  RestartRequest(String;boolean;boolean)
++  connectorName()
++  onlyFailed()
++  includeTasks()
++  shouldRestartConnector(ConnectorStatus)
++  forceRestartConnectorOnly()
++  shouldRestartTask(TaskStatus)
++  compareTo(RestartRequest)
++  impactRank()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

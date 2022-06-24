@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.data.Decimal
+class org.apache.kafka.connect.data.Decimal {
++  builder(int)
++  schema(int)
++  fromLogical(Schema;BigDecimal)
++  toLogical(Schema;byte[])
++  scale(Schema)
+} 
+@enduml

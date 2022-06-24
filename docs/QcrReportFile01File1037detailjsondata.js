@@ -2,18 +2,113 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java 4 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java 7 rule violations " 
  , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.mirror.OffsetSync"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.OffsetSync" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OffsetSync"
+ , "c2" : "OffsetSync(TopicPartition;long;long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicPartition"
+ , "c2" : "topicPartition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "upstreamOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "downstreamOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "serializeValue()"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "serializeKey()"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetSync"
+ , "c2" : "deserializeRecord(ConsumerRecord<byte[],byte[]>)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Struct"
+ , "c2" : "valueStruct()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Struct"
+ , "c2" : "keyStruct()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "recordKey()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "recordValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +160,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -79,7 +181,21 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN169012 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN170724 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00055] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct valueStructN170987"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00063"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00063] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN171413"
 }} 
 ,
 { "ligne" : {
@@ -87,6 +203,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00071"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN171920|String keyStruct_getStringN172073|Integer keyStruct_getIntN172167|org.apache.kafka.common.protocol.types.Struct VALUE_SCHEMA_readN172261|Long valueStruct_getLongN172414|Long valueStruct_getLongN172508"
 }} 
 ,
 { "ligne" : {

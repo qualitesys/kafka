@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.QuorumFeatures
+class org.apache.kafka.controller.QuorumFeatures {
++  QuorumFeatures(int;ApiVersions;Map<String,VersionRange>;List<Integer>)
++  create(int;ApiVersions;Map<String,VersionRange>;Collection<Node>)
++  defaultFeatureMap()
++  reasonNotSupported(String;short)
++  localSupportedFeature(String)
+} 
+@enduml

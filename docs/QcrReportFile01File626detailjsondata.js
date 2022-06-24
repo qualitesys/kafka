@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.CreateDelegationTokenRequest"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.requests.CreateDelegationTokenRequest" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CreateDelegationTokenRequest"
+ , "c2" : "CreateDelegationTokenRequest(CreateDelegationTokenRequestData;short)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreateDelegationTokenRequest"
+ , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreateDelegationTokenRequestData"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenRequest.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenRequest.java.svg" }
+
 ] 
 , 
 "data04" : [

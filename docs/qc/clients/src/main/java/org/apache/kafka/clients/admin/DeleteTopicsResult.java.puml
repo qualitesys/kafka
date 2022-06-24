@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteTopicsResult
+class org.apache.kafka.clients.admin.DeleteTopicsResult {
++  DeleteTopicsResult(Map<Uuid,KafkaFuture<Void>>;Map<String,KafkaFuture<Void>>)
++  ofTopicIds(Map<Uuid,KafkaFuture<Void>>)
++  ofTopicNames(Map<String,KafkaFuture<Void>>)
++  topicIdValues()
++  topicNameValues()
++  values()
++  all()
+} 
+@enduml

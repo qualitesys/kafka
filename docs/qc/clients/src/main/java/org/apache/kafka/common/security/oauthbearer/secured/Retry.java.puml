@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.Retry
+class org.apache.kafka.common.security.oauthbearer.secured.Retry {
++  Retry(long;long)
++  Retry(Time;long;long)
++  execute(Retryable<R>)
+} 
+@enduml

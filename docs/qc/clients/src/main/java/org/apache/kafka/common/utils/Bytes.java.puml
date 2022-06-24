@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Comparable<Bytes> <|-- org.apache.kafka.common.utils.Bytes
+class org.apache.kafka.common.utils.Bytes {
++  wrap(byte[])
++  Bytes(byte[])
++  get()
++  hashCode()
++  equals(Object)
++  compareTo(Bytes)
++  toString()
++  toString(byte[];int;int)
++  increment(Bytes)
+} 
+@enduml

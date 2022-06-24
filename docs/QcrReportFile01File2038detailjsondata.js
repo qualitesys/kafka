@@ -2,18 +2,43 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java 89 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java 90 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "byte"
+ , "c2" : "extractPrefix(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isTimeFirstSchemaKey(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +90,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "33"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -86,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.extractPrefix@POLYN218874 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.extractPrefix@POLYN220586 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.isTimeFirstSchemaKey@POLYN219027 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.isTimeFirstSchemaKey@POLYN220739 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.isTimeFirstSchemaKey@POLYN219027 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.isTimeFirstSchemaKey@POLYN220739 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,21 +160,21 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.upperRange@POLYN219316 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.upperRange@POLYN221028 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.upperRange@POLYN219316 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.upperRange@POLYN221028 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.upperRange@POLYN219316 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.upperRange@POLYN221028 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.lowerRange@POLYN220383 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.lowerRange@POLYN222095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,14 +202,14 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.lowerRangeFixedSize@POLYN221597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.lowerRangeFixedSize@POLYN223309 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.lowerRangeFixedSize@POLYN221597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.lowerRangeFixedSize@POLYN223309 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,66 +241,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00085] For method hasNextCondition list of called methods Object monObjet|byte extractPrefixN224414|org.apache.kafka.common.utils.Bytes Bytes_wrapN225024"
+}} 
+,
+{ "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN222302 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.hasNextCondition@POLYN224014 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -289,7 +328,7 @@ var maDataBlocs = {
    "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.extractStoreKeyBytes@POLYN224367 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.extractStoreKeyBytes@POLYN226079 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -394,7 +433,7 @@ var maDataBlocs = {
    "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.fromNonPrefixWindowKey@POLYN228834 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.fromNonPrefixWindowKey@POLYN230546 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -415,7 +454,7 @@ var maDataBlocs = {
    "c1" : "00220"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.upperRange@POLYN229688 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.upperRange@POLYN231400 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -429,7 +468,7 @@ var maDataBlocs = {
    "c1" : "00227"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRange@POLYN230036 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRange@POLYN231748 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -443,21 +482,21 @@ var maDataBlocs = {
    "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRangeFixedSize@POLYN230384 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRangeFixedSize@POLYN232096 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRangeFixedSize@POLYN230384 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRangeFixedSize@POLYN232096 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00233"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRangeFixedSize@POLYN230384 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.lowerRangeFixedSize@POLYN232096 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -471,7 +510,7 @@ var maDataBlocs = {
    "c1" : "00239"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.upperRangeFixedSize@POLYN230800 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.upperRangeFixedSize@POLYN232512 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -499,49 +538,49 @@ var maDataBlocs = {
    "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN231335 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN233047 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00264"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN231335 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN233047 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00264"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN231335 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN233047 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00265"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN231335 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN233047 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00265"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN231335 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN233047 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00268"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN231335 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN233047 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00272"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN231335 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.hasNextCondition@POLYN233047 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -618,7 +657,7 @@ var maDataBlocs = {
    "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.extractStoreKeyBytes@POLYN235315 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.extractStoreKeyBytes@POLYN237027 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -667,14 +706,14 @@ var maDataBlocs = {
    "c1" : "00361"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.wrapPrefix@POLYN237633 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.wrapPrefix@POLYN239345 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00362"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.wrapPrefix@POLYN237633 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.wrapPrefix@POLYN239345 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -688,7 +727,7 @@ var maDataBlocs = {
    "c1" : "00376"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.fromNonPrefixWindowKey@POLYN238539 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema.fromNonPrefixWindowKey@POLYN240251 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

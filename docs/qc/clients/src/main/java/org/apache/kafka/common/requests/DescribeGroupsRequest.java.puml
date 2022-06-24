@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DescribeGroupsRequest
+class org.apache.kafka.common.requests.DescribeGroupsRequest {
++  DescribeGroupsRequest(DescribeGroupsRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

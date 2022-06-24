@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Timer
+class org.apache.kafka.common.utils.Timer {
++  Timer(Time;long)
++  isExpired()
++  notExpired()
++  updateAndReset(long)
++  reset(long)
++  resetDeadline(long)
++  update()
++  update(long)
++  remainingMs()
++  currentTimeMs()
++  elapsedMs()
++  timeoutMs()
++  sleep(long)
+} 
+@enduml

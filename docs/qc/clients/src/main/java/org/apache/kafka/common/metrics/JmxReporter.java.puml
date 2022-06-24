@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+MetricsReporter <|-- org.apache.kafka.common.metrics.JmxReporter
+class org.apache.kafka.common.metrics.JmxReporter {
++  JmxReporter()
++  JmxReporter(String)
++  configure(Map<String,?>)
++  reconfigurableConfigs()
++  validateReconfiguration(Map<String,?>)
++  reconfigure(Map<String,?>)
++  init(List<KafkaMetric>)
++  containsMbean(String)
++  metricChange(KafkaMetric)
++  metricRemoval(KafkaMetric)
++  removeAttribute(KafkaMetric;String)
++  addAttribute(KafkaMetric)
++  getMBeanName(String;MetricName)
++  close()
++  unregister(KafkaMbean)
++  reregister(KafkaMbean)
++  compilePredicate(Map<String,?>)
++  contextChange(MetricsContext)
+} 
+@enduml

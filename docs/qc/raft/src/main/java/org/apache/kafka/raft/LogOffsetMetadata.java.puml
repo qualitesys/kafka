@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.LogOffsetMetadata
+class org.apache.kafka.raft.LogOffsetMetadata {
++  LogOffsetMetadata(long)
++  LogOffsetMetadata(long;Optional<OffsetMetadata>)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

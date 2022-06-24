@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.KafkaConfigSchema
+class org.apache.kafka.metadata.KafkaConfigSchema {
++  translateConfigType(ConfigDef.Type)
++  translateConfigSource(ConfigEntry.ConfigSource)
++  KafkaConfigSchema(Map<ConfigResource.Type,ConfigDef>;Map<String,List<ConfigSynonym>>)
++  isSplittable(ConfigResource.Type;String)
++  isSensitive(ConfigRecord)
++  isSensitive(ConfigResource.Type;String)
++  getDefault(ConfigResource.Type;String)
++  resolveEffectiveTopicConfigs(Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>)
++  resolveEffectiveTopicConfig(ConfigDef.ConfigKey;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>)
++  toConfigEntry(ConfigDef.ConfigKey;Object;ConfigSource;Function<String,String>)
+} 
+@enduml

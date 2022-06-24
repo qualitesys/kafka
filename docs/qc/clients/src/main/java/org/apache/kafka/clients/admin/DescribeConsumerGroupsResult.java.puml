@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeConsumerGroupsResult
+class org.apache.kafka.clients.admin.DescribeConsumerGroupsResult {
++  DescribeConsumerGroupsResult(Map<String,KafkaFuture<ConsumerGroupDescription>>)
++  describedGroups()
++  all()
+} 
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider
+class org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider {
++  StreamThreadStateStoreProvider(StreamThread)
+} 
+@enduml

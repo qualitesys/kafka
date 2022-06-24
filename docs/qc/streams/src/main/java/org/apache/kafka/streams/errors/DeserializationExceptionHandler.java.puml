@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.streams.errors.DeserializationExceptionHandler
+class org.apache.kafka.streams.errors.DeserializationExceptionHandler {
++  handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception)
+} 
+@enduml

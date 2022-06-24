@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ChannelBuilder <|-- org.apache.kafka.common.network.PlaintextChannelBuilder
+class org.apache.kafka.common.network.PlaintextChannelBuilder {
++  PlaintextChannelBuilder(ListenerName)
++  configure(Map<String,?>)
++  buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)
++  buildChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)
++  buildTransportLayer(SelectionKey)
++  close()
+} 
+@enduml

@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.raft.OffsetMetadata"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.OffsetMetadata" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetMetadata.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetMetadata.java.svg" }
+
 ] 
 , 
 "data04" : [

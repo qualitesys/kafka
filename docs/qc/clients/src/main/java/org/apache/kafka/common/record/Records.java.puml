@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+TransferableRecords <|-- org.apache.kafka.common.record.Records
+class org.apache.kafka.common.record.Records {
++  batches()
++  batchIterator()
++  hasMatchingMagic(byte)
++  downConvert(byte;long;Time)
++  records()
+} 
+@enduml

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Processor<K,V,Void,Void>"
+ , "c2" : "org.apache.kafka.streams.kstream.ForeachProcessor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.ForeachProcessor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ForeachProcessor"
+ , "c2" : "ForeachProcessor(ForeachAction<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "process(Record<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.svg" }
+
 ] 
 , 
 "data04" : [

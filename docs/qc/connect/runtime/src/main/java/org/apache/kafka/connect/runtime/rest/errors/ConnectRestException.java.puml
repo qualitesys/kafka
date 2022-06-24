@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.runtime.rest.errors.ConnectRestException
+class org.apache.kafka.connect.runtime.rest.errors.ConnectRestException {
++  ConnectRestException(int;int;String;Throwable)
++  ConnectRestException(Response.Status;int;String;Throwable)
++  ConnectRestException(int;int;String)
++  ConnectRestException(Response.Status;int;String)
++  ConnectRestException(int;String;Throwable)
++  ConnectRestException(Response.Status;String;Throwable)
++  ConnectRestException(int;String)
++  ConnectRestException(Response.Status;String)
++  statusCode()
++  errorCode()
+} 
+@enduml

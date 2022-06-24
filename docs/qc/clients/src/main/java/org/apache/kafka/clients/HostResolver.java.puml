@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.HostResolver
+class org.apache.kafka.clients.HostResolver {
++  resolve(String)
+} 
+@enduml

@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthorizationException"
+ , "c2" : "org.apache.kafka.common.errors.GroupAuthorizationException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.GroupAuthorizationException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GroupAuthorizationException"
+ , "c2" : "GroupAuthorizationException(String;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "GroupAuthorizationException"
+ , "c2" : "GroupAuthorizationException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "groupId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "GroupAuthorizationException"
+ , "c2" : "forGroupId(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.errors.GroupAuthorizationException.GroupAuthorizationException@POLYN155206 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.errors.GroupAuthorizationException.GroupAuthorizationException@POLYN156918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -72,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.errors.GroupAuthorizationException.forGroupId@POLYN155574 the MagicNumber/String  'Not authorized to access group: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.errors.GroupAuthorizationException.forGroupId@POLYN157286 the MagicNumber/String  'Not authorized to access group: ' should be converted to const"
 }} 
 ]
 };

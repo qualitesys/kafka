@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessingContext"
+ , "c2" : "org.apache.kafka.streams.processor.api.ProcessorContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.ProcessorContext" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessorContext.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessorContext.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.config.TopicConfig
+class org.apache.kafka.common.config.TopicConfig {
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.snapshot.Snapshots
+class org.apache.kafka.snapshot.Snapshots {
++  snapshotDir(Path)
++  filenameFromSnapshotId(OffsetAndEpoch)
++  moveRename(Path;OffsetAndEpoch)
++  deleteRename(Path;OffsetAndEpoch)
++  snapshotPath(Path;OffsetAndEpoch)
++  createTempFile(Path;OffsetAndEpoch)
++  parse(Path)
++  deleteIfExists(Path;OffsetAndEpoch)
++  markForDelete(Path;OffsetAndEpoch)
+} 
+@enduml

@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.KeyValue"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.KeyValue" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KeyValue"
+ , "c2" : "KeyValue(K;V)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,21 +111,21 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.KeyValue.toString@POLYN161721 the MagicNumber/String  'KeyValue(' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.KeyValue.toString@POLYN163433 the MagicNumber/String  'KeyValue(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.KeyValue.toString@POLYN161721 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.KeyValue.toString@POLYN163433 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.KeyValue.toString@POLYN161721 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.KeyValue.toString@POLYN163433 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.KeyValue.equals@POLYN161915 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.KeyValue.equals@POLYN163627 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.KeyValue.equals@POLYN161915 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.KeyValue.equals@POLYN163627 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

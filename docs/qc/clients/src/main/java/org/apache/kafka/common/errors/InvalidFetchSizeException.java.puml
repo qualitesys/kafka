@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidFetchSizeException
+class org.apache.kafka.common.errors.InvalidFetchSizeException {
++  InvalidFetchSizeException(String)
++  InvalidFetchSizeException(String;Throwable)
+} 
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.OffsetFetchResponse
+class org.apache.kafka.common.requests.OffsetFetchResponse {
++  OffsetFetchResponse(OffsetFetchResponseData)
++  OffsetFetchResponse(Errors;Map<TopicPartition,PartitionData>)
++  OffsetFetchResponse(int;Errors;Map<TopicPartition,PartitionData>)
++  OffsetFetchResponse(int;Map<String,Errors>;Map<String,Map<TopicPartition,PartitionData>>)
++  OffsetFetchResponse(OffsetFetchResponseData;short)
++  topLevelError(OffsetFetchResponseData)
++  throttleTimeMs()
++  hasError()
++  groupHasError(String)
++  error()
++  groupLevelError(String)
++  errorCounts()
++  responseDataV0ToV7()
++  buildResponseData(String)
++  partitionDataMap(String)
++  parse(ByteBuffer;short)
++  data()
++  shouldClientThrottle(short)
+} 
+@enduml

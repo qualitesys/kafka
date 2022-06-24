@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DescribeQuorumRequest
+class org.apache.kafka.common.requests.DescribeQuorumRequest {
++  DescribeQuorumRequest(DescribeQuorumRequestData;short)
++  parse(ByteBuffer;short)
++  singletonRequest(TopicPartition)
++  data()
++  getErrorResponse(int;Throwable)
++  getPartitionLevelErrorResponse(DescribeQuorumRequestData;Errors)
++  getTopLevelErrorResponse(Errors)
+} 
+@enduml

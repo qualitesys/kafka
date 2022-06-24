@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WorkerStatusTracker"
+ , "c2" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "update(JsonNode)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "JsonNode"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.svg" }
+
 ] 
 , 
 "data04" : [

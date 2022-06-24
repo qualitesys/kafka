@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.shell.Commands
+class org.apache.kafka.shell.Commands {
++  Commands(boolean)
++  parser()
++  parseCommand(List<String>)
+} 
+@enduml

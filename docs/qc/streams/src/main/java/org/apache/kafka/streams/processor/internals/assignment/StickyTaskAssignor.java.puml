@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor
+class org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor {
++  StickyTaskAssignor()
++  StickyTaskAssignor(boolean)
++  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)
++  assignStandby(int)
++  assignActive()
++  allocateTaskWithClientCandidates(TaskId;Set<UUID>;boolean)
++  assignTaskToClient(Set<TaskId>;TaskId;ClientState)
++  findClientsWithoutAssignedTask(TaskId)
++  findClient(TaskId;Set<UUID>)
++  shouldBalanceLoad(ClientState)
++  hasClientsWithMoreAvailableCapacity(ClientState)
++  findClientsWithPreviousAssignedTask(TaskId;Set<UUID>)
++  findLeastLoadedClientWithPreviousStandByTask(TaskId;Set<UUID>)
++  leastLoaded(TaskId;Set<UUID>)
++  findLeastLoaded(TaskId;Set<UUID>;boolean)
++  mapPreviousTaskAssignment(Map<UUID,ClientState>)
++  sumCapacity(Collection<ClientState>)
+} 
+@enduml

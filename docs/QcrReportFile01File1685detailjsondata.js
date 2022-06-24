@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KTableProcessorSupplier<K,V,K,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KTableReduce"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableReduce" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTableReduce"
+ , "c2" : "KTableReduce(String;Reducer<V>;Reducer<V>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "enableSendingOldValues(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<K,Change<V>,K,Change<V>>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTableValueGetterSupplier<K,V>"
+ , "c2" : "view()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +125,14 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KTableReduce.enableSendingOldValues@POLYN169662 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KTableReduce.enableSendingOldValues@POLYN171374 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.KTableReduce.enableSendingOldValues@POLYN169662 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.KTableReduce.enableSendingOldValues@POLYN171374 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,56 +174,56 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  'Record key for KTable reduce operator with state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  'Record key for KTable reduce operator with state ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  ' should not be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  ' should not be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN170967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.KTableReduce.KTableReduceProcessor.process@POLYN172679 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

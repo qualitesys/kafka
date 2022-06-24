@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ClientQuotaControlManager
+class org.apache.kafka.controller.ClientQuotaControlManager {
++  ClientQuotaControlManager(SnapshotRegistry)
++  alterClientQuotas(Collection<ClientQuotaAlteration>)
++  replay(ClientQuotaRecord)
++  alterClientQuotaEntity(ClientQuotaEntity;Map<String,Double>;List<ApiMessageAndVersion>;Map<ClientQuotaEntity,ApiError>)
++  configKeysForEntityType(Map<String,String>;Map<String,ConfigDef.ConfigKey>)
++  validateQuotaKeyValue(Map<String,ConfigDef.ConfigKey>;String;Double)
++  isValidIpEntity(String)
++  validateEntity(ClientQuotaEntity;Map<String,String>)
++  iterator(long)
+} 
+@enduml

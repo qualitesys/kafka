@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.Maybe"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.Maybe" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Maybe"
+ , "c2" : "Maybe(T)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Maybe"
+ , "c2" : "Maybe()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "getNullableValue()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isDefined()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,21 +139,21 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN161080 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN162792 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN161263 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN162975 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN161263 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN162975 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,63 +174,63 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN161733 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN163445 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN161733 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN163445 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN161733 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN163445 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN162399 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN164111 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN162399 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN164111 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN162399 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN164111 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN162644 the MagicNumber/String  'DefinedMaybe{' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN164356 the MagicNumber/String  'DefinedMaybe{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN162644 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN164356 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN162644 the MagicNumber/String  'UndefinedMaybe{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN164356 the MagicNumber/String  'UndefinedMaybe{}' should be converted to const"
 }} 
 ]
 };

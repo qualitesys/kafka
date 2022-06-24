@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.RecordQueue
+class org.apache.kafka.streams.processor.internals.RecordQueue {
++  RecordQueue(TopicPartition;SourceNode<?,?>;TimestampExtractor;DeserializationExceptionHandler;InternalProcessorContext<?,?>;LogContext)
++  setPartitionTime(long)
++  source()
++  partition()
++  addRawRecords(Iterable<ConsumerRecord<byte[],byte[]>>)
++  poll(long)
++  size()
++  isEmpty()
++  headRecordTimestamp()
++  headRecordOffset()
++  clear()
++  close()
++  updateHead()
++  partitionTime()
++  getTotalBytesBuffered()
+} 
+@enduml

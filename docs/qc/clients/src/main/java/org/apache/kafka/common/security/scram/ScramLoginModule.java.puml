@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+LoginModule <|-- org.apache.kafka.common.security.scram.ScramLoginModule
+class org.apache.kafka.common.security.scram.ScramLoginModule {
++  initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>)
++  login()
++  logout()
++  commit()
++  abort()
+} 
+@enduml

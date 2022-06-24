@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+Task <|-- org.apache.kafka.streams.processor.internals.AbstractTask
+class org.apache.kafka.streams.processor.internals.AbstractTask {
++  AbstractTask(TaskId;ProcessorTopology;StateDirectory;ProcessorStateManager;Set<TopicPartition>;long;String;Class<?extendsAbstractTask>)
++  maybeWriteCheckpoint(boolean)
++  id()
++  inputPartitions()
++  changelogPartitions()
++  markChangelogAsCorrupted(Collection<TopicPartition>)
++  getStore(String)
++  state()
++  revive()
++  transitionTo(Task.State)
++  updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)
++  maybeInitTaskTimeoutOrThrow(long;Exception)
++  clearTaskTimeout()
+} 
+@enduml

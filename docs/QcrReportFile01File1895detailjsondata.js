@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.assignment.ClientStateTask"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.ClientStateTask" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ClientStateTask"
+ , "c2" : "ClientStateTask(Set<TaskId>;Map<String,Set<TaskId>>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "taskIds(Set<TaskId>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TaskId>"
+ , "c2" : "taskIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Set<TaskId>>"
+ , "c2" : "consumerToTaskIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.svg" }
+
 ] 
 , 
 "data04" : [

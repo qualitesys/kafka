@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.BrokerHeartbeatManager
+class org.apache.kafka.controller.BrokerHeartbeatManager {
++  BrokerHeartbeatManager(LogContext;Time;long)
++  time()
++  unfenced()
++  brokers()
++  fence(int)
++  remove(int)
++  untrack(BrokerHeartbeatState)
++  hasValidSession(int)
++  hasValidSession(BrokerHeartbeatState)
++  register(int;boolean)
++  touch(int;boolean;long)
++  lowestActiveOffset()
++  updateControlledShutdownOffset(int;long)
++  nextCheckTimeNs()
++  findOneStaleBroker()
++  usableBrokers(Function<Integer,Optional<String>>)
++  currentBrokerState(BrokerHeartbeatState)
++  calculateNextBrokerState(int;BrokerHeartbeatRequestData;long;Supplier<Boolean>)
+} 
+@enduml

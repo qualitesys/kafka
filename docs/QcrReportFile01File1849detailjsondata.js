@@ -2,18 +2,50 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java 12 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java 21 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.RecordDeserializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.RecordDeserializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RecordDeserializer"
+ , "c2" : "RecordDeserializer(SourceNode<?,?>;DeserializationExceptionHandler;LogContext;Sensor)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConsumerRecord<Object,Object>"
+ , "c2" : "deserialize(ProcessorContext<?,?>;ConsumerRecord<byte[],byte[]>)"
+ , "c3" : "3"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SourceNode<?,?>"
+ , "c2" : "sourceNode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +69,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "8"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -100,56 +155,119 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  'Deserialization error callback failed after deserialization error for record {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  'Deserialization error callback failed after deserialization error for record {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  'Fatal user code error in deserialization error callback' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  'Fatal user code error in deserialization error callback' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  'Deserialization exception handler is set to fail upon' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  'Deserialization exception handler is set to fail upon' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  ' a deserialization error. If you would rather have the streaming pipeline' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  ' a deserialization error. If you would rather have the streaming pipeline' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  ' continue after a deserialization error, please set the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  ' continue after a deserialization error, please set the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  ' appropriately.' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  ' appropriately.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  'Skipping record due to deserialization error. topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  'Skipping record due to deserialization error. topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN166522 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String 'Deserialization error callback failed after deserialization error for record {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#63"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String 'Fatal user code error in deserialization error callback' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#67"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String 'Deserialization exception handler is set to fail upon' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String ' a deserialization error. If you would rather have the streaming pipeline' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#69"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String ' continue after a deserialization error, please set the ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String ' appropriately.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String 'Skipping record due to deserialization error. topic=[{}] partition=[{}] offset=[{}]' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN168234 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

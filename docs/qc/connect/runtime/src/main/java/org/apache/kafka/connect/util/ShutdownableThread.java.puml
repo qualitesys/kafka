@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Thread <|-- org.apache.kafka.connect.util.ShutdownableThread
+class org.apache.kafka.connect.util.ShutdownableThread {
++  ShutdownableThread(String)
++  ShutdownableThread(String;boolean)
++  execute()
++  getRunning()
++  run()
++  shutdown(long;TimeUnit)
++  gracefulShutdown(long;TimeUnit)
++  startGracefulShutdown()
++  awaitShutdown(long;TimeUnit)
++  forceShutdown()
+} 
+@enduml

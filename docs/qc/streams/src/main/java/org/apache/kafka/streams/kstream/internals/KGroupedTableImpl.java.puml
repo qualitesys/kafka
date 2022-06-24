@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractStream<K,V>KGroupedTable<K,V> <|-- org.apache.kafka.streams.kstream.internals.KGroupedTableImpl
+class org.apache.kafka.streams.kstream.internals.KGroupedTableImpl {
++  KGroupedTableImpl(InternalStreamsBuilder;String;Set<String>;GroupedInternal<K,V>;GraphNode)
++  createRepartitionNode(String;String;String)
++  reduce(Reducer<V>;Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  reduce(Reducer<V>;Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  reduce(Reducer<V>;Reducer<V>)
++  count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
++  count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
++  count()
++  count(Named)
+} 
+@enduml

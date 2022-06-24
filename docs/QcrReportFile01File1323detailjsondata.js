@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.controller.TopicIdPartition"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.controller.TopicIdPartition" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TopicIdPartition"
+ , "c2" : "TopicIdPartition(Uuid;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "topicId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "partitionId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.controller.TopicIdPartition.equals@POLYN156394 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.controller.TopicIdPartition.equals@POLYN158106 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.TopicIdPartition.toString@POLYN156966 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.TopicIdPartition.toString@POLYN158678 the MagicNumber/String  ':' should be converted to const"
 }} 
 ]
 };

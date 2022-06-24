@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.common.errors.KafkaStorageException
+class org.apache.kafka.common.errors.KafkaStorageException {
++  KafkaStorageException()
++  KafkaStorageException(String)
++  KafkaStorageException(Throwable)
++  KafkaStorageException(String;Throwable)
+} 
+@enduml

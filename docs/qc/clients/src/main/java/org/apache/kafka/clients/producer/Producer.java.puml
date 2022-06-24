@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.clients.producer.Producer
+class org.apache.kafka.clients.producer.Producer {
++  initTransactions()
++  beginTransaction()
++  sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;String)
++  sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)
++  commitTransaction()
++  abortTransaction()
++  send(ProducerRecord<K,V>)
++  send(ProducerRecord<K,V>;Callback)
++  flush()
++  partitionsFor(String)
++  metrics()
++  close()
++  close(Duration)
+} 
+@enduml

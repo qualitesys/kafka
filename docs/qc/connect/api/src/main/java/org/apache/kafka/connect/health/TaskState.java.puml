@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractState <|-- org.apache.kafka.connect.health.TaskState
+class org.apache.kafka.connect.health.TaskState {
++  TaskState(int;String;String;String)
++  taskId()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

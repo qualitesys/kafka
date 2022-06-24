@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+ConcurrentMap<K,V> <|-- org.apache.kafka.common.utils.CopyOnWriteMap
+class org.apache.kafka.common.utils.CopyOnWriteMap {
++  CopyOnWriteMap()
++  CopyOnWriteMap(Map<K,V>)
++  containsKey(Object)
++  containsValue(Object)
++  entrySet()
++  get(Object)
++  isEmpty()
++  keySet()
++  size()
++  values()
++  clear()
++  put(K;V)
++  putAll(Map<?extendsK,?extendsV>)
++  remove(Object)
++  putIfAbsent(K;V)
++  remove(Object;Object)
++  replace(K;V;V)
++  replace(K;V)
+} 
+@enduml

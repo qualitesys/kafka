@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+OutputStream <|-- org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream
+class org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream {
++  KafkaLZ4BlockOutputStream(OutputStream;int;boolean;boolean)
++  KafkaLZ4BlockOutputStream(OutputStream;int;boolean)
++  KafkaLZ4BlockOutputStream(OutputStream;int)
++  KafkaLZ4BlockOutputStream(OutputStream)
++  KafkaLZ4BlockOutputStream(OutputStream;boolean)
++  useBrokenFlagDescriptorChecksum()
++  writeHeader()
++  writeBlock()
++  writeEndMark()
++  write(int)
++  write(byte[];int;int)
++  flush()
++  ensureNotFinished()
++  close()
+} 
+@enduml

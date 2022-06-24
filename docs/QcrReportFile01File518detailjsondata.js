@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Message"
+ , "c2" : "org.apache.kafka.common.protocol.ApiMessage"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.protocol.ApiMessage" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "short"
+ , "c2" : "apiKey()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ApiMessage.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ApiMessage.java.svg" }
+
 ] 
 , 
 "data04" : [

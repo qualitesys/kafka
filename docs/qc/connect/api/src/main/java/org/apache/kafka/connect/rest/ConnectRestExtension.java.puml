@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.connect.rest.ConnectRestExtension
+class org.apache.kafka.connect.rest.ConnectRestExtension {
++  register(ConnectRestExtensionContext)
+} 
+@enduml

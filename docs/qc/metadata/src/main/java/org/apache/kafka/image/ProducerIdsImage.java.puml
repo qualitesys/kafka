@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ProducerIdsImage
+class org.apache.kafka.image.ProducerIdsImage {
++  ProducerIdsImage(long)
++  highestSeenProducerId()
++  write(Consumer<List<ApiMessageAndVersion>>)
++  equals(Object)
++  hashCode()
++  toString()
++  isEmpty()
+} 
+@enduml

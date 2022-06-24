@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+GlobalStateMaintainer <|-- org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask
+class org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask {
++  GlobalStateUpdateTask(LogContext;ProcessorTopology;InternalProcessorContext;GlobalStateManager;DeserializationExceptionHandler)
++  initialize()
++  update(ConsumerRecord<byte[],byte[]>)
++  flushState()
++  close(boolean)
++  initTopology()
+} 
+@enduml

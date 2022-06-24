@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RetriableException"
+ , "c2" : "org.apache.kafka.common.errors.CorruptRecordException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.CorruptRecordException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CorruptRecordException"
+ , "c2" : "CorruptRecordException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CorruptRecordException"
+ , "c2" : "CorruptRecordException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CorruptRecordException"
+ , "c2" : "CorruptRecordException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CorruptRecordException"
+ , "c2" : "CorruptRecordException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.errors.CorruptRecordException.CorruptRecordException@POLYN154557 the MagicNumber/String  'This message has failed its CRC checksum, exceeds the valid size, has a null key for a compacted topic, or is otherwise corrupt.' should be converted to const"
+ , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.errors.CorruptRecordException.CorruptRecordException@POLYN156269 the MagicNumber/String  'This message has failed its CRC checksum, exceeds the valid size, has a null key for a compacted topic, or is otherwise corrupt.' should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Provider <|-- org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider
+class org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider {
++  PlainSaslServerProvider()
++  initialize()
+} 
+@enduml

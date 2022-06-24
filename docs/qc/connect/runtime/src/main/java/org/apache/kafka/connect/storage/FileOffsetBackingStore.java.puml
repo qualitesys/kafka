@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+MemoryOffsetBackingStore <|-- org.apache.kafka.connect.storage.FileOffsetBackingStore
+class org.apache.kafka.connect.storage.FileOffsetBackingStore {
++  FileOffsetBackingStore()
++  configure(WorkerConfig)
++  start()
++  stop()
++  load()
++  save()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeClusterResponse
+class org.apache.kafka.common.requests.DescribeClusterResponse {
++  DescribeClusterResponse(DescribeClusterResponseData)
++  nodes()
++  errorCounts()
++  throttleTimeMs()
++  data()
++  parse(ByteBuffer;short)
+} 
+@enduml

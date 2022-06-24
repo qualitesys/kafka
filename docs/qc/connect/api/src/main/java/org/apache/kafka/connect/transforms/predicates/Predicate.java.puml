@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.connect.transforms.predicates.Predicate
+class org.apache.kafka.connect.transforms.predicates.Predicate {
++  config()
++  test(R)
++  close()
+} 
+@enduml

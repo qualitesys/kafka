@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListPartitionReassignmentsResult"
+ , "c2" : "ListPartitionReassignmentsResult(KafkaFuture<Map<TopicPartition,PartitionReassignment>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<TopicPartition,PartitionReassignment>>"
+ , "c2" : "reassignments()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.svg" }
+
 ] 
 , 
 "data04" : [

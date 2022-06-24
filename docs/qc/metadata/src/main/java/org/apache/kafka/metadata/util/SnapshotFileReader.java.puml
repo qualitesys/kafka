@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.metadata.util.SnapshotFileReader
+class org.apache.kafka.metadata.util.SnapshotFileReader {
++  SnapshotFileReader(String;RaftClient.Listener<ApiMessageAndVersion>)
++  startup()
++  handleNextBatch()
++  scheduleHandleNextBatch()
++  handleControlBatch(FileChannelRecordBatch)
++  handleMetadataBatch(FileChannelRecordBatch)
++  beginShutdown(String)
++  close()
++  caughtUpFuture()
+} 
+@enduml

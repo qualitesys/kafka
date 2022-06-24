@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+StoreBuilder<T> <|-- org.apache.kafka.streams.state.internals.AbstractStoreBuilder
+class org.apache.kafka.streams.state.internals.AbstractStoreBuilder {
++  AbstractStoreBuilder(String;Serde<K>;Serde<V>;Time)
++  withCachingEnabled()
++  withCachingDisabled()
++  withLoggingEnabled(Map<String,String>)
++  withLoggingDisabled()
++  logConfig()
++  loggingEnabled()
++  name()
+} 
+@enduml

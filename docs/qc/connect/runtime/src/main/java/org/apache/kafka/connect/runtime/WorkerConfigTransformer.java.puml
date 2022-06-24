@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.runtime.WorkerConfigTransformer
+class org.apache.kafka.connect.runtime.WorkerConfigTransformer {
++  WorkerConfigTransformer(Worker;Map<String,ConfigProvider>)
++  transform(Map<String,String>)
++  transform(String;Map<String,String>)
++  scheduleReload(String;Map<String,Long>)
++  scheduleReload(String;String;long)
++  close()
+} 
+@enduml

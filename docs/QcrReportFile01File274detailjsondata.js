@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Serializable"
+ , "c2" : "org.apache.kafka.common.TopicPartitionReplica"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.TopicPartitionReplica" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TopicPartitionReplica"
+ , "c2" : "TopicPartitionReplica(String;int;int)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "topic()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "partition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "brokerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,21 +139,21 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.TopicPartitionReplica.hashCode@POLYN160175 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.TopicPartitionReplica.hashCode@POLYN161887 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.TopicPartitionReplica.hashCode@POLYN160175 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.TopicPartitionReplica.hashCode@POLYN161887 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.TopicPartitionReplica.hashCode@POLYN160175 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.TopicPartitionReplica.hashCode@POLYN161887 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,35 +174,35 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN160881 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN162593 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN160881 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN162593 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN160881 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN162593 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN160881 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.TopicPartitionReplica.equals@POLYN162593 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.TopicPartitionReplica.toString@POLYN161533 the MagicNumber/String  '%s-%d-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.TopicPartitionReplica.toString@POLYN163245 the MagicNumber/String  '%s-%d-%d' should be converted to const"
 }} 
 ]
 };

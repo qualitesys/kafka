@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.authorizer.AclDeleteResult
+class org.apache.kafka.server.authorizer.AclDeleteResult {
++  AclDeleteResult(ApiException)
++  AclDeleteResult(Collection<AclBindingDeleteResult>)
++  AclDeleteResult(Collection<AclBindingDeleteResult>;ApiException)
++  exception()
++  aclBindingDeleteResults()
+} 
+@enduml

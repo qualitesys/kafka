@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ProcessorSupplier<KIn,VIn,KOut,VOut> <|-- org.apache.kafka.streams.kstream.internals.KStreamMap
+class org.apache.kafka.streams.kstream.internals.KStreamMap {
++  KStreamMap(KeyValueMapper<?superKIn,?superVIn,?extendsKeyValue<?extendsKOut,?extendsVOut>>)
++  get()
+} 
+@enduml

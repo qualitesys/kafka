@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.QuickUnion
+class org.apache.kafka.streams.processor.internals.QuickUnion {
++  add(T)
++  exists(T)
++  root(T)
++  unite(T;T...)
++  unitePair(T;T)
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RuntimeException <|-- org.apache.kafka.server.common.serialization.MetadataParseException
+class org.apache.kafka.server.common.serialization.MetadataParseException {
++  MetadataParseException(String)
++  MetadataParseException(Throwable)
++  MetadataParseException(String;Throwable)
+} 
+@enduml

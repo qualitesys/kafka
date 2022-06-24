@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+NamedOperation<Consumed<K,V>> <|-- org.apache.kafka.streams.kstream.Consumed
+class org.apache.kafka.streams.kstream.Consumed {
++  Consumed(Serde<K>;Serde<V>;TimestampExtractor;Topology.AutoOffsetReset;String)
++  Consumed(Consumed<K,V>)
++  withKeySerde(Serde<K>)
++  withValueSerde(Serde<V>)
++  withTimestampExtractor(TimestampExtractor)
++  withOffsetResetPolicy(Topology.AutoOffsetReset)
++  withName(String)
++  equals(Object)
++  hashCode()
+} 
+@enduml

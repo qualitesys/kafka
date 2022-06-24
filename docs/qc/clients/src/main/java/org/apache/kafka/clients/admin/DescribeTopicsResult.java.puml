@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeTopicsResult
+class org.apache.kafka.clients.admin.DescribeTopicsResult {
++  DescribeTopicsResult(Map<String,KafkaFuture<TopicDescription>>)
++  DescribeTopicsResult(Map<Uuid,KafkaFuture<TopicDescription>>;Map<String,KafkaFuture<TopicDescription>>)
++  ofTopicIds(Map<Uuid,KafkaFuture<TopicDescription>>)
++  ofTopicNames(Map<String,KafkaFuture<TopicDescription>>)
++  topicIdValues()
++  topicNameValues()
++  values()
++  all()
++  allTopicNames()
++  allTopicIds()
+} 
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.DeferredEvent
+class org.apache.kafka.controller.DeferredEvent {
++  complete(Throwable)
+} 
+@enduml

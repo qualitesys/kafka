@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StoreQueryParameters<T>"
+ , "c2" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "NamedTopologyStoreQueryParameters"
+ , "c2" : "NamedTopologyStoreQueryParameters(String;String;QueryableStoreType<T>;Integer;boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "NamedTopologyStoreQueryParameters<T>"
+ , "c2" : "withPartition(Integer)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "NamedTopologyStoreQueryParameters<T>"
+ , "c2" : "enableStaleStores()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "topologyName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.enableStaleStores@POLYN163265 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.enableStaleStores@POLYN164977 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,49 +160,49 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN163661 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN165373 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN163661 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN165373 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN163661 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN165373 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN163661 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN165373 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN164391 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN166103 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN164391 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN166103 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN164391 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN166103 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractMap<K,V> <|-- org.apache.kafka.server.util.TranslatedValueMapView
+class org.apache.kafka.server.util.TranslatedValueMapView {
++  TranslatedValueMapView(Map<K,B>;Function<B,V>)
++  containsKey(Object)
++  get(Object)
++  entrySet()
++  isEmpty()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RecordsSend<T> <|-- org.apache.kafka.common.record.DefaultRecordsSend
+class org.apache.kafka.common.record.DefaultRecordsSend {
++  DefaultRecordsSend(T)
++  DefaultRecordsSend(T;int)
++  writeTo(TransferableChannel;long;int)
+} 
+@enduml

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.TaskCorruptedException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.TaskCorruptedException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TaskCorruptedException"
+ , "c2" : "TaskCorruptedException(Set<TaskId>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskCorruptedException"
+ , "c2" : "TaskCorruptedException(Set<TaskId>;InvalidOffsetException)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TaskId>"
+ , "c2" : "corruptedTasks()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,28 +83,28 @@ var maDataBlocs = {
    "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN157569 the MagicNumber/String  'Tasks ' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN159281 the MagicNumber/String  'Tasks ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN157569 the MagicNumber/String  ' are corrupted and hence needs to be re-initialized' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN159281 the MagicNumber/String  ' are corrupted and hence needs to be re-initialized' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN157826 the MagicNumber/String  'Tasks ' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN159538 the MagicNumber/String  'Tasks ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN157826 the MagicNumber/String  ' are corrupted and hence needs to be re-initialized' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.TaskCorruptedException.TaskCorruptedException@POLYN159538 the MagicNumber/String  ' are corrupted and hence needs to be re-initialized' should be converted to const"
 }} 
 ]
 };

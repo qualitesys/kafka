@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy
+class org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy {
++  validate(ConnectorClientConfigRequest)
+} 
+@enduml

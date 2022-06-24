@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.Config
+class org.apache.kafka.clients.admin.Config {
++  Config(Collection<ConfigEntry>)
++  entries()
++  get(String)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

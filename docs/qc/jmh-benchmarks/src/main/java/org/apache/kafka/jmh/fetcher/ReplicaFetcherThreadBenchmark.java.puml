@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark
+class org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark {
++  setup()
++  tearDown()
++  testFetcher()
++  createLogConfig()
+} 
+@enduml

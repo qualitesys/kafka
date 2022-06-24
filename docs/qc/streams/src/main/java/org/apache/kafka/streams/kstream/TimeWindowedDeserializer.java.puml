@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Deserializer<Windowed<T>> <|-- org.apache.kafka.streams.kstream.TimeWindowedDeserializer
+class org.apache.kafka.streams.kstream.TimeWindowedDeserializer {
++  TimeWindowedDeserializer()
++  TimeWindowedDeserializer(Deserializer<T>)
++  TimeWindowedDeserializer(Deserializer<T>;Long)
++  getWindowSize()
++  configure(Map<String,?>;boolean)
++  deserialize(String;byte[])
++  close()
++  setIsChangelogTopic(boolean)
++  innerDeserializer()
+} 
+@enduml

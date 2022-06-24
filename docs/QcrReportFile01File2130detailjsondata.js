@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.common.Topology"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.common.Topology" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Node"
+ , "c2" : "node(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "NavigableMap<String,Node>"
+ , "c2" : "nodes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Topology.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Topology.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Topology.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.trogdor.common.Topology.Util.agentNodeNames@POLYN157013 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.trogdor.common.Topology.Util.agentNodeNames@POLYN158725 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

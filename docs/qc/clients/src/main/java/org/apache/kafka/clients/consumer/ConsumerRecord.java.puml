@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerRecord
+class org.apache.kafka.clients.consumer.ConsumerRecord {
++  ConsumerRecord(String;int;long;K;V)
++  ConsumerRecord(String;int;long;long;TimestampType;int;int;K;V;Headers;Optional<Integer>)
++  ConsumerRecord(String;int;long;long;TimestampType;long;int;int;K;V)
++  ConsumerRecord(String;int;long;long;TimestampType;Long;int;int;K;V;Headers)
++  ConsumerRecord(String;int;long;long;TimestampType;Long;int;int;K;V;Headers;Optional<Integer>)
++  topic()
++  partition()
++  headers()
++  key()
++  value()
++  offset()
++  timestamp()
++  timestampType()
++  serializedKeySize()
++  serializedValueSize()
++  leaderEpoch()
++  toString()
+} 
+@enduml

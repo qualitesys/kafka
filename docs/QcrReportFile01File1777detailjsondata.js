@@ -11,6 +11,10 @@ var maDataBlocs = {
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor." , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [

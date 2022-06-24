@@ -8,12 +8,79 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.acl.AclBinding"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.acl.AclBinding" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AclBinding"
+ , "c2" : "AclBinding(ResourcePattern;AccessControlEntry)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isUnknown()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourcePattern"
+ , "c2" : "pattern()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AccessControlEntry"
+ , "c2" : "entry()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AclBindingFilter"
+ , "c2" : "toFilter()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,35 +146,35 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.acl.AclBinding.AclBinding@POLYN162500 the MagicNumber/String  'pattern' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.acl.AclBinding.AclBinding@POLYN164212 the MagicNumber/String  'pattern' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.acl.AclBinding.AclBinding@POLYN162500 the MagicNumber/String  'entry' should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.acl.AclBinding.AclBinding@POLYN164212 the MagicNumber/String  'entry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN163572 the MagicNumber/String  '(pattern=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN165284 the MagicNumber/String  '(pattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN163572 the MagicNumber/String  ', entry=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN165284 the MagicNumber/String  ', entry=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN163572 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN165284 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,21 +195,21 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN163766 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN165478 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN163766 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN165478 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN163766 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN165478 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

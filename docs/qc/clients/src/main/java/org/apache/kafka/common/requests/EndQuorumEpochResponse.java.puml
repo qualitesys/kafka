@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.EndQuorumEpochResponse
+class org.apache.kafka.common.requests.EndQuorumEpochResponse {
++  EndQuorumEpochResponse(EndQuorumEpochResponseData)
++  errorCounts()
++  data()
++  throttleTimeMs()
++  singletonResponse(Errors;TopicPartition;Errors;int;int)
++  parse(ByteBuffer;short)
+} 
+@enduml

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "MeteredWindowStore<K,ValueAndTimestamp<V>>TimestampedWindowStore<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MeteredTimestampedWindowStore"
+ , "c2" : "MeteredTimestampedWindowStore(WindowStore<Bytes,byte[]>;long;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<ValueAndTimestamp<V>>"
+ , "c2" : "prepareValueSerde(Serde<ValueAndTimestamp<V>>;SerdeGetter)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedWindowStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedWindowStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +104,7 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedWindowStore.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore.prepareValueSerde@POLYN162455 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore.prepareValueSerde@POLYN164167 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

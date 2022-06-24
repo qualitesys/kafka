@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Callable<V>"
+ , "c2" : "org.apache.kafka.connect.runtime.errors.Operation"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.errors.Operation" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/Operation.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/Operation.java.svg" }
+
 ] 
 , 
 "data04" : [

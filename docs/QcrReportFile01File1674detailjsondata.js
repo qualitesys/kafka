@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KTableProcessorSupplier<K,V1,K,VOut>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTableKTableAbstractJoin"
+ , "c2" : "KTableKTableAbstractJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "enableSendingOldValues(boolean)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,28 +125,28 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN158715 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN160427 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN158715 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN160427 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN158715 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN160427 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN158715 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin.enableSendingOldValues@POLYN160427 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

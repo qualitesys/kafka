@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessorSupplier<KIn,Change<VIn>,KOut,Change<VOut>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KTableProcessorSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableProcessorSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTableValueGetterSupplier<KOut,VOut>"
+ , "c2" : "view()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "enableSendingOldValues(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableProcessorSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableProcessorSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [

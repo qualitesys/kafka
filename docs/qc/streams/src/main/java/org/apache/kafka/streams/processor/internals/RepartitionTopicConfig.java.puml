@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.RepartitionTopicConfig
+class org.apache.kafka.streams.processor.internals.RepartitionTopicConfig {
++  RepartitionTopicConfig(String;Map<String,String>)
++  RepartitionTopicConfig(String;Map<String,String>;int;boolean)
++  getProperties(Map<String,String>;long)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

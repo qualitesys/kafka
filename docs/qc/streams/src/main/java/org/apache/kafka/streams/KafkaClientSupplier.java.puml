@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.KafkaClientSupplier
+class org.apache.kafka.streams.KafkaClientSupplier {
++  getAdmin(Map<String,Object>)
++  getProducer(Map<String,Object>)
++  getConsumer(Map<String,Object>)
++  getRestoreConsumer(Map<String,Object>)
++  getGlobalConsumer(Map<String,Object>)
+} 
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig
+class org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig {
++  RemoteLogManagerConfig(AbstractConfig)
++  RemoteLogManagerConfig(boolean;String;String;String;String;String;long;int;long;long;long;double;int;int;String;Map<String,Object>;String;Map<String,Object>)
++  enableRemoteStorageSystem()
++  remoteStorageManagerClassName()
++  remoteStorageManagerClassPath()
++  remoteLogMetadataManagerClassName()
++  remoteLogMetadataManagerClassPath()
++  remoteLogIndexFileCacheTotalSizeBytes()
++  remoteLogManagerThreadPoolSize()
++  remoteLogManagerTaskIntervalMs()
++  remoteLogManagerTaskRetryBackoffMs()
++  remoteLogManagerTaskRetryBackoffMaxMs()
++  remoteLogManagerTaskRetryJitter()
++  remoteLogReaderThreads()
++  remoteLogReaderMaxPendingTasks()
++  remoteLogMetadataManagerListenerName()
++  remoteStorageManagerPrefix()
++  remoteLogMetadataManagerPrefix()
++  remoteStorageManagerProps()
++  remoteLogMetadataManagerProps()
++  equals(Object)
++  hashCode()
+} 
+@enduml

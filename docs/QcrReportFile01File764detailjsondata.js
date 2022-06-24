@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractLogin"
+ , "c2" : "org.apache.kafka.common.security.authenticator.DefaultLogin"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.authenticator.DefaultLogin" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "serviceName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +76,7 @@ var maDataBlocs = {
    "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.security.authenticator.DefaultLogin.serviceName@POLYN152752 the MagicNumber/String  'kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.security.authenticator.DefaultLogin.serviceName@POLYN154464 the MagicNumber/String  'kafka' should be converted to const"
 }} 
 ]
 };

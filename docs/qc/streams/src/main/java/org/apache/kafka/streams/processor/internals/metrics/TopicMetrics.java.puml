@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.TopicMetrics
+class org.apache.kafka.streams.processor.internals.metrics.TopicMetrics {
++  consumedSensor(String;String;String;String;StreamsMetricsImpl)
++  producedSensor(String;String;String;String;StreamsMetricsImpl)
+} 
+@enduml

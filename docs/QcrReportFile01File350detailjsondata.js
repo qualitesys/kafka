@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "InvalidMetadataException"
+ , "c2" : "org.apache.kafka.common.errors.InconsistentTopicIdException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.InconsistentTopicIdException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "InconsistentTopicIdException"
+ , "c2" : "InconsistentTopicIdException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentTopicIdException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentTopicIdException.java.svg" }
+
 ] 
 , 
 "data04" : [

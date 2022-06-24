@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Topology <|-- org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology
+class org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology {
++  NamedTopology(InternalTopologyBuilder)
++  name()
++  sourceTopics()
++  internalTopologyBuilder()
++  topologyConfigs()
+} 
+@enduml

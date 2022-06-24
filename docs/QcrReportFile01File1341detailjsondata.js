@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.image.ProducerIdsDelta"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.image.ProducerIdsDelta" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ProducerIdsDelta"
+ , "c2" : "ProducerIdsDelta(ProducerIdsImage)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setNextProducerId(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "nextProducerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "finishSnapshot()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleMetadataVersionChange(MetadataVersion)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(ProducerIdsRecord)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProducerIdsImage"
+ , "c2" : "apply()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.TopicListing
+class org.apache.kafka.clients.admin.TopicListing {
++  TopicListing(String;boolean)
++  TopicListing(String;Uuid;boolean)
++  topicId()
++  name()
++  isInternal()
++  toString()
+} 
+@enduml

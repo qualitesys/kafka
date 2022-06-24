@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+SampledStatCompoundStat <|-- org.apache.kafka.common.metrics.stats.Frequencies
+class org.apache.kafka.common.metrics.stats.Frequencies {
++  forBooleanValues(MetricName;MetricName)
++  Frequencies(int;double;double;Frequency...)
++  stats()
++  frequency(MetricConfig;long;double)
++  totalCount()
++  combine(List<Sample>;MetricConfig;long)
++  newSample(long)
++  update(Sample;MetricConfig;double;long)
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConnectProtocol.WorkerState <|-- org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState
+class org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState {
++  ExtendedWorkerState(String;long;ExtendedAssignment)
++  assignment()
++  toString()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ProcessorSupplier<KIn,VIn,KIn,Change<VIn>> <|-- org.apache.kafka.streams.kstream.internals.KTableSource
+class org.apache.kafka.streams.kstream.internals.KTableSource {
++  KTableSource(String;String)
++  queryableName()
++  get()
++  enableSendingOldValues()
++  materialize()
++  materialized()
+} 
+@enduml

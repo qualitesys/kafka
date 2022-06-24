@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+PayloadGenerator <|-- org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator
+class org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator {
++  UniformRandomPayloadGenerator(int;long;int)
++  size()
++  seed()
++  padding()
++  generate(long)
+} 
+@enduml

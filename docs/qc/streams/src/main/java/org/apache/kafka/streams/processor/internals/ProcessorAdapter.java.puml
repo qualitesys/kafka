@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Processor<KIn,VIn,KOut,VOut> <|-- org.apache.kafka.streams.processor.internals.ProcessorAdapter
+class org.apache.kafka.streams.processor.internals.ProcessorAdapter {
++  ProcessorAdapter(org.apache.kafka.streams.processor.Processor<KIn,VIn>)
++  init(ProcessorContext<KOut,VOut>)
++  process(Record<KIn,VIn>)
++  close()
+} 
+@enduml

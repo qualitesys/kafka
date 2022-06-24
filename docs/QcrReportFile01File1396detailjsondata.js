@@ -11,6 +11,10 @@ var maDataBlocs = {
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft." , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [

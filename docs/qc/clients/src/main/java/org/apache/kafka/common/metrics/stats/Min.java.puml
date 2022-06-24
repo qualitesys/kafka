@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+SampledStat <|-- org.apache.kafka.common.metrics.stats.Min
+class org.apache.kafka.common.metrics.stats.Min {
++  Min()
++  update(Sample;MetricConfig;double;long)
++  combine(List<Sample>;MetricConfig;long)
+} 
+@enduml

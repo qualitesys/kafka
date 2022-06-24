@@ -8,12 +8,79 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.query.PositionBound"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.query.PositionBound" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "PositionBound"
+ , "c2" : "PositionBound(Position)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PositionBound"
+ , "c2" : "unbounded()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PositionBound"
+ , "c2" : "at(Position)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isUnbounded()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Position"
+ , "c2" : "position()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,14 +174,14 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN161366 the MagicNumber/String  'PositionBound{position=' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN163078 the MagicNumber/String  'PositionBound{position=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN161366 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN163078 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,28 +202,28 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN161514 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN163226 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN161514 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN163226 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN161514 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN163226 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.query.PositionBound.hashCode@POLYN162081 the MagicNumber/String  'This mutable object is not suitable as a hash key' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.query.PositionBound.hashCode@POLYN163793 the MagicNumber/String  'This mutable object is not suitable as a hash key' should be converted to const"
 }} 
 ,
 { "ligne" : {

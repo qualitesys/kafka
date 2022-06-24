@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ProcessorSupplier<KIn,Change<VIn>,KOut,Change<VOut>> <|-- org.apache.kafka.streams.kstream.internals.KTableProcessorSupplier
+class org.apache.kafka.streams.kstream.internals.KTableProcessorSupplier {
++  view()
++  enableSendingOldValues(boolean)
+} 
+@enduml

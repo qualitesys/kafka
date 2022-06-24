@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeConfigsOptions> <|-- org.apache.kafka.clients.admin.DescribeConfigsOptions
+class org.apache.kafka.clients.admin.DescribeConfigsOptions {
++  timeoutMs(Integer)
++  includeSynonyms()
++  includeDocumentation()
++  includeSynonyms(boolean)
++  includeDocumentation(boolean)
+} 
+@enduml

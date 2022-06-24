@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Initable"
+ , "c2" : "org.apache.kafka.common.security.oauthbearer.secured.CloseableVerificationKeyResolver"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.secured.CloseableVerificationKeyResolver" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.svg" }
+
 ] 
 , 
 "data04" : [

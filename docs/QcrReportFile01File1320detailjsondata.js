@@ -2,18 +2,365 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 454 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 524 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.controller.ReplicationControlManager"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.controller.ReplicationControlManager" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "translateCreationConfigs(CreateableTopicConfigCollection)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ReplicationControlManager"
+ , "c2" : "ReplicationControlManager(SnapshotRegistry;LogContext;short;int;int;ConfigurationControlManager;ClusterControlManager;ControllerMetrics;Optional<CreateTopicPolicy>;FeatureControlManager)"
+ , "c3" : "1"
+ , "c4" : "17"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(TopicRecord)"
+ , "c3" : "3"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(PartitionRecord)"
+ , "c3" : "7"
+ , "c4" : "19"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updateReassigningTopicsIfNeeded(Uuid;int;boolean;boolean)"
+ , "c3" : "7"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(PartitionChangeRecord)"
+ , "c3" : "8"
+ , "c4" : "16"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(RemoveTopicRecord)"
+ , "c3" : "7"
+ , "c4" : "22"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<CreateTopicsResponseData>"
+ , "c2" : "createTopics(CreateTopicsRequestData;Set<String>)"
+ , "c3" : "10"
+ , "c4" : "30"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiError"
+ , "c2" : "createTopic(CreatableTopic;List<ApiMessageAndVersion>;Map<String,CreatableTopicResult>;boolean)"
+ , "c3" : "20"
+ , "c4" : "47"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiError"
+ , "c2" : "maybeCheckCreateTopicPolicy(Supplier<CreateTopicPolicy.RequestMetadata>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "validateNewTopicNames(Map<String,ApiError>;CreatableTopicCollection;Map<String,?extendsSet<String>>)"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<ConfigResource,Map<String,Entry<OpType,String>>>"
+ , "c2" : "computeConfigChanges(Map<String,ApiError>;CreatableTopicCollection)"
+ , "c3" : "9"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,ResultOrError<Uuid>>"
+ , "c2" : "findTopicIds(long;Collection<String>)"
+ , "c3" : "6"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Uuid>"
+ , "c2" : "findAllTopicIds(long)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Uuid,ResultOrError<String>>"
+ , "c2" : "findTopicNames(long;Collection<Uuid>)"
+ , "c3" : "6"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<Map<Uuid,ApiError>>"
+ , "c2" : "deleteTopics(Collection<Uuid>)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "deleteTopic(Uuid;List<ApiMessageAndVersion>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PartitionRegistration"
+ , "c2" : "getPartition(Uuid;int)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicControlInfo"
+ , "c2" : "getTopic(Uuid)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "getTopicId(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokersToIsrs"
+ , "c2" : "brokersToIsrs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicIdPartition>"
+ , "c2" : "imbalancedPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<AlterPartitionResponseData>"
+ , "c2" : "alterPartition(ControllerRequestContext;AlterPartitionRequestData)"
+ , "c3" : "12"
+ , "c4" : "33"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Errors"
+ , "c2" : "validateAlterPartitionData(int;TopicControlInfo;int;PartitionRegistration;Function<Integer,Boolean>;short;AlterPartitionRequestData.PartitionData)"
+ , "c3" : "12"
+ , "c4" : "23"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleBrokerFenced(int;List<ApiMessageAndVersion>)"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleBrokerUnregistered(int;long;List<ApiMessageAndVersion>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleBrokerUnfenced(int;long;List<ApiMessageAndVersion>)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleBrokerInControlledShutdown(int;long;List<ApiMessageAndVersion>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<ElectLeadersResponseData>"
+ , "c2" : "electLeaders(ElectLeadersRequestData)"
+ , "c3" : "9"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ElectionType"
+ , "c2" : "electionType(byte)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiError"
+ , "c2" : "electLeader(String;int;ElectionType;List<ApiMessageAndVersion>)"
+ , "c3" : "9"
+ , "c4" : "16"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<BrokerHeartbeatReply>"
+ , "c2" : "processBrokerHeartbeat(BrokerHeartbeatRequestData;long)"
+ , "c3" : "6"
+ , "c4" : "18"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<Void>"
+ , "c2" : "unregisterBroker(int)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<Void>"
+ , "c2" : "maybeFenceOneStaleBroker()"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "arePartitionLeadersImbalanced()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<Boolean>"
+ , "c2" : "maybeBalancePartitionLeaders()"
+ , "c3" : "5"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<List<CreatePartitionsTopicResult>>"
+ , "c2" : "createPartitions(List<CreatePartitionsTopic>)"
+ , "c3" : "2"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "createPartitions(CreatePartitionsTopic;List<ApiMessageAndVersion>)"
+ , "c3" : "16"
+ , "c4" : "36"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "validateManualPartitionAssignment(List<Integer>;OptionalInt)"
+ , "c3" : "6"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "generateLeaderAndIsrUpdates(String;int;int;List<ApiMessageAndVersion>;Iterator<TopicIdPartition>)"
+ , "c3" : "10"
+ , "c4" : "21"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<AlterPartitionReassignmentsResponseData>"
+ , "c2" : "alterPartitionReassignments(AlterPartitionReassignmentsRequestData)"
+ , "c3" : "3"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "alterPartitionReassignment(String;ReassignablePartition;List<ApiMessageAndVersion>)"
+ , "c3" : "6"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<ApiMessageAndVersion>"
+ , "c2" : "cancelPartitionReassignment(String;TopicIdPartition;PartitionRegistration)"
+ , "c3" : "5"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<ApiMessageAndVersion>"
+ , "c2" : "changePartitionReassignment(TopicIdPartition;PartitionRegistration;ReassignablePartition)"
+ , "c3" : "4"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ListPartitionReassignmentsResponseData"
+ , "c2" : "listPartitionReassignments(List<ListPartitionReassignmentsTopics>)"
+ , "c3" : "6"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "listReassigningTopic(ListPartitionReassignmentsResponseData;Uuid;List<Integer>)"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<OngoingPartitionReassignment>"
+ , "c2" : "getOngoingPartitionReassignment(TopicControlInfo;int)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ReplicationControlIterator"
+ , "c2" : "iterator(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +384,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "47"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "46"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -78,6 +448,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "52"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "19"
 }}
  ] 
 ,
@@ -170,77 +547,77 @@ var maDataBlocs = {
    "c1" : "00189"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  'Configuration control must be set before building' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  'Configuration control must be set before building' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00192"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  'Cluster controller must be set before building' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  'Cluster controller must be set before building' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00194"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  'Metrics must be set before building' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  'Metrics must be set before building' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00196"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00202"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00204"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN504902 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.controller.ReplicationControlManager.Builder.build@POLYN506614 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -261,7 +638,7 @@ var maDataBlocs = {
    "c1" : "00236"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.controller.ReplicationControlManager.TopicControlInfo.TopicControlInfo@POLYN506843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.controller.ReplicationControlManager.TopicControlInfo.TopicControlInfo@POLYN508555 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -289,35 +666,35 @@ var maDataBlocs = {
    "c1" : "00329"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN512162 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00330"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN512162 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00331"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN512162 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00333"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN512162 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00334"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN510450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.controller.ReplicationControlManager.ReplicationControlManager@POLYN512162 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -325,6 +702,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#337"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00337] For method replay arguments TopicRecord  record"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00337"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#337"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00337] For method replay list of called methods Object monObjet|String Topic_unifyCollisionCharsN514378"
 }} 
 ,
 { "ligne" : {
@@ -338,21 +722,21 @@ var maDataBlocs = {
    "c1" : "00342"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN512332 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN514044 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00343"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN512332 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN514044 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00351"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN512332 the MagicNumber/String  'Created topic {} with topic ID {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN514044 the MagicNumber/String  'Created topic {} with topic ID {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -373,70 +757,70 @@ var maDataBlocs = {
    "c1" : "00356"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00357"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  'Tried to create partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  'Tried to create partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00358"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00358"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  ', but no topic with that ID was found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  ', but no topic with that ID was found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00362"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00363"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  ' with topic ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  ' with topic ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00364"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00365"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  'Created partition {} and {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  'Created partition {} and {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00372"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN513737 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515449 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -447,10 +831,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00392"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#392"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00392] For method updateReassigningTopicsIfNeeded list of called methods Object monObjet|int[] Replicas_copyWithoutN519370"
+}} 
+,
+{ "ligne" : {
    "c1" : "00402"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.controller.ReplicationControlManager.updateReassigningTopicsIfNeeded@POLYN516902 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.controller.ReplicationControlManager.updateReassigningTopicsIfNeeded@POLYN518614 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -458,6 +849,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#410"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00410] For method replay arguments PartitionChangeRecord  record"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00410"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#410"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00410] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.PartitionRegistration prevPartitionInfo_mergeN520617"
 }} 
 ,
 { "ligne" : {
@@ -471,98 +869,98 @@ var maDataBlocs = {
    "c1" : "00412"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00413"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Tried to create partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  'Tried to create partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00414"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00414"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ', but no topic with that ID was found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  ', but no topic with that ID was found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00417"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00418"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Tried to create partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  'Tried to create partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00419"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00419"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ', but no partition with that id was found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  ', but no partition with that id was found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00428"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00428"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  ' with topic ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  ' with topic ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00442"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Replayed partition assignment change {} for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  'Replayed partition assignment change {} for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00444"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN518014 the MagicNumber/String  'Replayed partition change {} for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN519726 the MagicNumber/String  'Replayed partition change {} for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -570,6 +968,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#448"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00448] For method replay arguments RemoveTopicRecord  record"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00448"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#448"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00448] For method replay list of called methods Object monObjet|String Topic_unifyCollisionCharsN523267"
 }} 
 ,
 { "ligne" : {
@@ -590,42 +995,42 @@ var maDataBlocs = {
    "c1" : "00451"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN522670 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00452"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  'Can't find topic with ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN522670 the MagicNumber/String  'Can't find topic with ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00453"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#453"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  ' to remove.' should be converted to const"
+ , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN522670 the MagicNumber/String  ' to remove.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00459"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN522670 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00476"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN522670 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00490"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN520958 the MagicNumber/String  'Removed topic {} with ID {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN522670 the MagicNumber/String  'Removed topic {} with ID {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -633,6 +1038,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#493"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00493] For method createTopics arguments CreateTopicsRequestData  request|Set&lt;String &gt;  describable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00493"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#493"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00493] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,Map&lt;String,Entry&lt;OpType,String&gt;&gt;&gt; computeConfigChangesN526453|org.apache.kafka.controller.ControllerResult&lt;Map&lt;ConfigResource,ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN526639"
 }} 
 ,
 { "ligne" : {
@@ -681,98 +1093,98 @@ var maDataBlocs = {
    "c1" : "00504"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'Topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  'Topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00504"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  '' already exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  '' already exists.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00511"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00537"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00540"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00545"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#545"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00546"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#546"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ' (' should be converted to const"
+ , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  ' (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00546"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#546"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00547"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00552"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#552"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00553"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#553"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'SUCCESS' should be converted to const"
+ , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  'SUCCESS' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00554"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00557"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#557"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'Validate-only CreateTopics result(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  'Validate-only CreateTopics result(s): {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00560"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN523676 the MagicNumber/String  'CreateTopics result(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String  'CreateTopics result(s): {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -780,6 +1192,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#565"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00565] For method createTopic arguments CreatableTopic  topic|List&lt;ApiMessageAndVersion &gt;  records|Map&lt;String ,CreatableTopicResult &gt;  successes|boolean  authorizedToReturnConfigs"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00565"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#565"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00565] For method createTopic list of called methods Object monObjet|java.util.Map&lt;String,String&gt; translateCreationConfigsN530604|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN536365|org.apache.kafka.common.Uuid Uuid_randomUuidN536716|java.util.Map&lt;String,org.apache.kafka.clients.admin.ConfigEntry&gt; configurationControl_computeEffectiveTopicConfigsN537149"
 }} 
 ,
 { "ligne" : {
@@ -856,252 +1275,252 @@ var maDataBlocs = {
    "c1" : "00572"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#572"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00574"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#574"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'A manual partition assignment was specified, but replication ' should be converted to const"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'A manual partition assignment was specified, but replication ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00575"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#575"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'factor was not set to -1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'factor was not set to -1.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00577"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00579"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#579"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'A manual partition assignment was specified, but numPartitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'A manual partition assignment was specified, but numPartitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00580"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'was not set to -1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'was not set to -1.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00586"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#586"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Found multiple manual partition assignments for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'Found multiple manual partition assignments for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00595"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#595"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'All brokers specified in the manual partition assignment for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'All brokers specified in the manual partition assignment for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00596"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00596"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  ' are fenced or in controlled shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  ' are fenced or in controlled shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00600"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00600"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00600"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00607"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#607"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00607"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#607"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00610"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00610"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00612"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Replication factor must be larger than 0, or -1 to use the default value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'Replication factor must be larger than 0, or -1 to use the default value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00613"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#613"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00613"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#613"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00615"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Number of partitions was set to an invalid non-positive value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'Number of partitions was set to an invalid non-positive value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00617"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#617"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00619"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#619"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00623"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#623"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00627"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#627"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00636"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#636"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00637"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#637"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  ' time(s): All brokers are currently fenced or in controlled shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  ' time(s): All brokers are currently fenced or in controlled shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00645"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#645"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00645] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00645] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00647"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#647"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00647] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00647] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00648"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#648"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00652"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#652"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00652] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00652] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00653"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#653"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  ' time(s): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  ' time(s): ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00656"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#656"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00664"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00674"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#674"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00680"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#680"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00680] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN528625 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00680] In method org.apache.kafka.controller.ReplicationControlManager.createTopic@POLYN530337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1123,6 +1542,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#708"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00708] For method validateNewTopicNames arguments Map&lt;String ,ApiError &gt;  topicErrors|CreatableTopicCollection  topics|Map&lt;String ,?  extends Set&lt;String &gt; &gt;  topicsWithCollisionChars"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00708"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#708"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00708] For method validateNewTopicNames list of called methods Object monObjet|String Topic_unifyCollisionCharsN540847"
 }} 
 ,
 { "ligne" : {
@@ -1164,21 +1590,21 @@ var maDataBlocs = {
    "c1" : "00722"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#722"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN538242 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN539954 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00724"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#724"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN538242 the MagicNumber/String  'Topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN539954 the MagicNumber/String  'Topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00724"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#724"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN538242 the MagicNumber/String  '' collides with existing topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.controller.ReplicationControlManager.validateNewTopicNames@POLYN539954 the MagicNumber/String  '' collides with existing topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1220,21 +1646,21 @@ var maDataBlocs = {
    "c1" : "00740"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#740"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00740] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN539846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00740] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN541558 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00748"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN539846 the MagicNumber/String  'Null value not supported for topic configs: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN541558 the MagicNumber/String  'Null value not supported for topic configs: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00748"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN539846 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.controller.ReplicationControlManager.computeConfigChanges@POLYN541558 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1262,28 +1688,28 @@ var maDataBlocs = {
    "c1" : "00759"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#759"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00759] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00759] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN543537 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00760"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#760"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00760] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00760] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN543537 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00760"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#760"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00760] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  'Invalid null topic name.' should be converted to const"
+ , "c3" : "QC-JAV000010[00760] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN543537 the MagicNumber/String  'Invalid null topic name.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00763"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#763"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN541825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.controller.ReplicationControlManager.findTopicIds@POLYN543537 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1318,21 +1744,21 @@ var maDataBlocs = {
    "c1" : "00785"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN543688 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN545400 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00787"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#787"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00787] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN543688 the MagicNumber/String  'Attempt to find topic with invalid topicId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00787] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN545400 the MagicNumber/String  'Attempt to find topic with invalid topicId ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00790"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#790"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN543688 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.controller.ReplicationControlManager.findTopicNames@POLYN545400 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1367,7 +1793,7 @@ var maDataBlocs = {
    "c1" : "00810"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#810"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00810] In method org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN545081 the MagicNumber/String  'Unexpected deleteTopics error for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00810] In method org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN546793 the MagicNumber/String  'Unexpected deleteTopics error for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1388,7 +1814,7 @@ var maDataBlocs = {
    "c1" : "00819"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#819"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00819] In method org.apache.kafka.controller.ReplicationControlManager.deleteTopic@POLYN546317 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00819] In method org.apache.kafka.controller.ReplicationControlManager.deleteTopic@POLYN548029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1402,14 +1828,14 @@ var maDataBlocs = {
    "c1" : "00829"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#829"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00829] In method org.apache.kafka.controller.ReplicationControlManager.getPartition@POLYN546899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00829] In method org.apache.kafka.controller.ReplicationControlManager.getPartition@POLYN548611 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00830"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#830"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.controller.ReplicationControlManager.getPartition@POLYN546899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.controller.ReplicationControlManager.getPartition@POLYN548611 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1431,6 +1857,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#854"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00854] For method alterPartition arguments ControllerRequestContext  context|AlterPartitionRequestData  request"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00854"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#854"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00854] For method alterPartition list of called methods Object monObjet|RequestHeaderData context_requestHeaderN549649|Errors validateAlterPartitionDataN551882|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN553165|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN553513"
 }} 
 ,
 { "ligne" : {
@@ -1598,91 +2031,91 @@ var maDataBlocs = {
    "c1" : "00869"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#869"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00869] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00869] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00870"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#870"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00870] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00870] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00871"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#871"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00871] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00871] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00877"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#877"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'Rejecting AlterPartition request for unknown topic ID {} or name {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  'Rejecting AlterPartition request for unknown topic ID {} or name {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00924"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'Node {} has altered ISR for {}-{} to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  'Node {} has altered ISR for {}-{} to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00941"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#941"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00942"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#942"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'AlterPartition request from node {} for {}-{} completed ' should be converted to const"
+ , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  'AlterPartition request from node {} for {}-{} completed ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00943"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#943"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00943] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'the ongoing partition reassignment and triggered a ' should be converted to const"
+ , "c3" : "QC-JAV000010[00943] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  'the ongoing partition reassignment and triggered a ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00944"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#944"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00944] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'leadership change. Returning {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00944] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  'leadership change. Returning {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00950"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#950"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00950] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00950] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00951"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#951"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00951] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00951] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00952"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#952"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00952] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'AlterPartition request from node {} for {}-{} completed ' should be converted to const"
+ , "c3" : "QC-JAV000010[00952] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  'AlterPartition request from node {} for {}-{} completed ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00953"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#953"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00953] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN547815 the MagicNumber/String  'the ongoing partition reassignment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00953] In method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String  'the ongoing partition reassignment.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1690,6 +2123,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#974"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00974] For method validateAlterPartitionData arguments int  brokerId|TopicControlInfo  topic|int  partitionId|PartitionRegistration  partition|Function&lt;Integer ,Boolean &gt;  isEligibleReplica|short  requestApiVersion|AlterPartitionRequestData.PartitionData  partitionData"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00974"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#974"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00974] For method validateAlterPartitionData list of called methods Object monObjet|int[] Replicas_toArrayN557741"
 }} 
 ,
 { "ligne" : {
@@ -1717,147 +2157,147 @@ var maDataBlocs = {
    "c1" : "00983"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#983"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00984"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#984"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00984] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request for unknown partition {}-{}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00984] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request for unknown partition {}-{}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00990"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#990"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00990] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[00990] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00991"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#991"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00991] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the current leader epoch is {}, not {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00991] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'the current leader epoch is {}, not {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00997"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#997"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00998"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#998"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the current leader is {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'the current leader is {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01004"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1004"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01005"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1005"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the current partition epoch is {}, not {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'the current partition epoch is {}, not {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01013"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1013"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01013] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01013] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01014"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1014"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01014] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'it specified an invalid ISR {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01014] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'it specified an invalid ISR {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01021"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1021"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01021] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01021] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01022"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1022"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'it specified an invalid ISR {} that doesn't include itself.' should be converted to const"
+ , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'it specified an invalid ISR {} that doesn't include itself.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01028"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1028"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1029"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01029] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01029] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01030"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1030"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01030] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the ISR {} had more than one replica while the leader was still ' should be converted to const"
+ , "c3" : "QC-JAV000010[01030] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'the ISR {} had more than one replica while the leader was still ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01031"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1031"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'recovering from an unclean leader election {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'recovering from an unclean leader election {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1039"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01039] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01039] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01040"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1040"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01040] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'the leader recovery state cannot change from RECOVERED to RECOVERING.' should be converted to const"
+ , "c3" : "QC-JAV000010[01040] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'the leader recovery state cannot change from RECOVERED to RECOVERING.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01050"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1050"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01050] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01050] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'Rejecting AlterPartition request from node {} for {}-{} because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01051"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1051"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01051] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  'it specified ineligible replicas {} in the new ISR {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01051] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  'it specified ineligible replicas {} in the new ISR {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1054"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01054] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN554425 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01054] In method org.apache.kafka.controller.ReplicationControlManager.validateAlterPartitionData@POLYN556137 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1865,6 +2305,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1065"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01065] For method handleBrokerFenced arguments int  brokerId|List&lt;ApiMessageAndVersion &gt;  records"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1065"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01065] For method handleBrokerFenced list of called methods Object monObjet|java.util.Map&lt;Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN560592"
 }} 
 ,
 { "ligne" : {
@@ -1878,35 +2325,35 @@ var maDataBlocs = {
    "c1" : "01067"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1067"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN560453 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01068"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1068"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  'Can't find broker registration for broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN560453 the MagicNumber/String  'Can't find broker registration for broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01070"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1070"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  'handleBrokerFenced' should be converted to const"
+ , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN560453 the MagicNumber/String  'handleBrokerFenced' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01076"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1076"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01076] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01076] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN560453 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1080"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01080] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN558741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01080] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerFenced@POLYN560453 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1927,14 +2374,14 @@ var maDataBlocs = {
    "c1" : "01087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1087"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01087] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnregistered@POLYN560262 the MagicNumber/String  'handleBrokerUnregistered' should be converted to const"
+ , "c3" : "QC-JAV000010[01087] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnregistered@POLYN561974 the MagicNumber/String  'handleBrokerUnregistered' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01091"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1091"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnregistered@POLYN560262 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnregistered@POLYN561974 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1955,21 +2402,21 @@ var maDataBlocs = {
    "c1" : "01100"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01100] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN561104 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01100] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN562816 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01103"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01103] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN561104 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01103] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN562816 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01105"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01105] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN561104 the MagicNumber/String  'handleBrokerUnfenced' should be converted to const"
+ , "c3" : "QC-JAV000010[01105] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerUnfenced@POLYN562816 the MagicNumber/String  'handleBrokerUnfenced' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1990,21 +2437,21 @@ var maDataBlocs = {
    "c1" : "01116"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01116] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN562351 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01116] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN564063 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01118"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN562351 the MagicNumber/String  'enterControlledShutdown[' should be converted to const"
+ , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN564063 the MagicNumber/String  'enterControlledShutdown[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01118"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN562351 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.controller.ReplicationControlManager.handleBrokerInControlledShutdown@POLYN564063 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2012,6 +2459,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1122"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01122] For method electLeaders arguments ElectLeadersRequestData  request"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01122"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1122"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01122] For method electLeaders list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError electLeaderN566111|org.apache.kafka.common.requests.ApiError electLeaderN567092"
 }} 
 ,
 { "ligne" : {
@@ -2081,14 +2535,14 @@ var maDataBlocs = {
    "c1" : "01126"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01126] In method org.apache.kafka.controller.ReplicationControlManager.electLeaders@POLYN563225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01126] In method org.apache.kafka.controller.ReplicationControlManager.electLeaders@POLYN564937 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01138"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.controller.ReplicationControlManager.electLeaders@POLYN563225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.controller.ReplicationControlManager.electLeaders@POLYN564937 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2102,7 +2556,7 @@ var maDataBlocs = {
    "c1" : "01174"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.controller.ReplicationControlManager.electionType@POLYN565925 the MagicNumber/String  'Unknown election type ' should be converted to const"
+ , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.controller.ReplicationControlManager.electionType@POLYN567637 the MagicNumber/String  'Unknown election type ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2110,6 +2564,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1178"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01178] For method electLeader arguments String  topic|int  partitionId|ElectionType  electionType|List&lt;ApiMessageAndVersion &gt;  records"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01178"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1178"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01178] For method electLeader list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN569966"
 }} 
 ,
 { "ligne" : {
@@ -2123,49 +2584,49 @@ var maDataBlocs = {
    "c1" : "01181"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN567961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01183"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  'No such topic as ' should be converted to const"
+ , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN567961 the MagicNumber/String  'No such topic as ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01186] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01186] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN567961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01188"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01188] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  'No such topic id as ' should be converted to const"
+ , "c3" : "QC-JAV000010[01188] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN567961 the MagicNumber/String  'No such topic id as ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01191"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01191] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01191] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN567961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01193"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  'No such partition as ' should be converted to const"
+ , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN567961 the MagicNumber/String  'No such partition as ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01193"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN566249 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.controller.ReplicationControlManager.electLeader@POLYN567961 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2173,6 +2634,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1222"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01222] For method processBrokerHeartbeat arguments BrokerHeartbeatRequestData  request|long  lastCommittedOffset"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01222"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1222"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01222] For method processBrokerHeartbeat list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager clusterControl_heartbeatManagerN570872|org.apache.kafka.controller.BrokerControlStates heartbeatManager_calculateNextBrokerStateN570947"
 }} 
 ,
 { "ligne" : {
@@ -2190,45 +2658,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01258"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1258"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01258] For method unregisterBroker list of called methods Object monObjet|java.util.Map&lt;Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN572771"
+}} 
+,
+{ "ligne" : {
    "c1" : "01260"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01260] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01260] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN572674 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01261"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01261] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  'Broker ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[01261] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN572674 the MagicNumber/String  'Broker ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01262"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01262] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  ' is not currently registered' should be converted to const"
+ , "c3" : "QC-JAV000010[01262] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN572674 the MagicNumber/String  ' is not currently registered' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01266"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01266] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN570962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01266] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN572674 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01269"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1269"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01269] For method maybeFenceOneStaleBroker list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager clusterControl_heartbeatManagerN573582"
 }} 
 ,
 { "ligne" : {
    "c1" : "01276"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01276] In method org.apache.kafka.controller.ReplicationControlManager.maybeFenceOneStaleBroker@POLYN571690 the MagicNumber/String  'Fencing broker {} because its session has timed out.' should be converted to const"
+ , "c3" : "QC-JAV000010[01276] In method org.apache.kafka.controller.ReplicationControlManager.maybeFenceOneStaleBroker@POLYN573402 the MagicNumber/String  'Fencing broker {} because its session has timed out.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01280"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01280] In method org.apache.kafka.controller.ReplicationControlManager.maybeFenceOneStaleBroker@POLYN571690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01280] In method org.apache.kafka.controller.ReplicationControlManager.maybeFenceOneStaleBroker@POLYN573402 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2256,42 +2738,42 @@ var maDataBlocs = {
    "c1" : "01291"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01291] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01291] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN574484 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01294"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01294] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01294] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN574484 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01299"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01299] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01299] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN574484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01300"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01300] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  'Skipping unknown imbalanced topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01300] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN574484 the MagicNumber/String  'Skipping unknown imbalanced topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01305"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN574484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01306"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01306] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN572772 the MagicNumber/String  'Skipping unknown imbalanced partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01306] In method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN574484 the MagicNumber/String  'Skipping unknown imbalanced partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2326,7 +2808,7 @@ var maDataBlocs = {
    "c1" : "01336"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01336] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN574428 the MagicNumber/String  'Unexpected createPartitions error for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01336] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN576140 the MagicNumber/String  'Unexpected createPartitions error for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2334,6 +2816,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1347"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01347] For method createPartitions arguments CreatePartitionsTopic  topic|List&lt;ApiMessageAndVersion &gt;  records"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01347"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1347"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01347] For method createPartitions list of called methods Object monObjet|org.apache.kafka.metadata.placement.ReplicaPlacer clusterControl_replicaPlacerN581670"
 }} 
 ,
 { "ligne" : {
@@ -2382,196 +2871,196 @@ var maDataBlocs = {
    "c1" : "01350"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01350] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01350] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01354"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01354] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01354] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01358"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01358] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Topic already has ' should be converted to const"
+ , "c3" : "QC-JAV000010[01358] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'Topic already has ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01359"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1359"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01359] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' partition(s).' should be converted to const"
+ , "c3" : "QC-JAV000010[01359] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' partition(s).' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01361"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01361] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'The topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01361] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'The topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01361"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01361] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' currently ' should be converted to const"
+ , "c3" : "QC-JAV000010[01361] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' currently ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01362"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01362] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'has ' should be converted to const"
+ , "c3" : "QC-JAV000010[01362] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'has ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01362"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01362] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' partition(s); ' should be converted to const"
+ , "c3" : "QC-JAV000010[01362] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' partition(s); ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01363"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01363] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' would not be an increase.' should be converted to const"
+ , "c3" : "QC-JAV000010[01363] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' would not be an increase.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01366"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01366] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01366] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01368"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01368] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Attempted to add ' should be converted to const"
+ , "c3" : "QC-JAV000010[01368] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'Attempted to add ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01369"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01369] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' additional partition(s), but only ' should be converted to const"
+ , "c3" : "QC-JAV000010[01369] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' additional partition(s), but only ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01370"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01370] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' assignment(s) were specified.' should be converted to const"
+ , "c3" : "QC-JAV000010[01370] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' assignment(s) were specified.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01375"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01375] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Invalid state: topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01375] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'Invalid state: topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01376"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' appears to have no partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' appears to have no partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01380"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01380] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Invalid replication factor ' should be converted to const"
+ , "c3" : "QC-JAV000010[01380] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'Invalid replication factor ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01381"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01381] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ': expected a number equal to less than ' should be converted to const"
+ , "c3" : "QC-JAV000010[01381] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ': expected a number equal to less than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01389"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1389"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01389] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01389] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01392"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01392] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01392] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01401"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01401] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'All brokers specified in the manual partition assignment for ' should be converted to const"
+ , "c3" : "QC-JAV000010[01401] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'All brokers specified in the manual partition assignment for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01402"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01402] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01402] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01402"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01402] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' are fenced or in controlled shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[01402] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' are fenced or in controlled shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01415"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01415] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01415] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01424"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01424] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01424] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  'Unable to replicate the partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01425"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01425] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  ' time(s): All brokers are currently fenced or in controlled shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[01425] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  ' time(s): All brokers are currently fenced or in controlled shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01435"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01435] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01435] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01436"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01436] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01436] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01437"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01437] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN575741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01437] In method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN577453 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2599,112 +3088,112 @@ var maDataBlocs = {
    "c1" : "01445"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1445"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01445] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01445] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'The manual partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01446"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1446"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01446] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes an empty replica list.' should be converted to const"
+ , "c3" : "QC-JAV000010[01446] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'assignment includes an empty replica list.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01450"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01450] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01450] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01453"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1453"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01453] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01453] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'The manual partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01454"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'assignment includes broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01454"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ', but no such broker is ' should be converted to const"
+ , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  ', but no such broker is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01455"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01455] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'registered.' should be converted to const"
+ , "c3" : "QC-JAV000010[01455] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'registered.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01458"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01458] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01458] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'The manual partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01459"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01459] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes the broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[01459] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'assignment includes the broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01459"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01459] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ' more than ' should be converted to const"
+ , "c3" : "QC-JAV000010[01459] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  ' more than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01460"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01460] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'once.' should be converted to const"
+ , "c3" : "QC-JAV000010[01460] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'once.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01466"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1466"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01466] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'The manual partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01466] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'The manual partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01467"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1467"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01467] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'assignment includes a partition with ' should be converted to const"
+ , "c3" : "QC-JAV000010[01467] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'assignment includes a partition with ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01468"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01468] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ' replica(s), but this is not consistent with previous ' should be converted to const"
+ , "c3" : "QC-JAV000010[01468] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  ' replica(s), but this is not consistent with previous ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01469"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  'partitions, which have ' should be converted to const"
+ , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  'partitions, which have ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01469"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN581698 the MagicNumber/String  ' replica(s).' should be converted to const"
+ , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.controller.ReplicationControlManager.validateManualPartitionAssignment@POLYN583410 the MagicNumber/String  ' replica(s).' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2781,77 +3270,77 @@ var maDataBlocs = {
    "c1" : "01499"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01499] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01499] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01500"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01500] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  'Topic ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[01500] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  'Topic ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01501"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  ' existed in isrMembers, but not in the topics map.' should be converted to const"
+ , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  ' existed in isrMembers, but not in the topics map.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01504"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01504] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01504] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01505"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1505"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01505] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  'Partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01505] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  'Partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01506"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1506"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01506] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  ' existed in isrMembers, but not in the partitions map.' should be converted to const"
+ , "c3" : "QC-JAV000010[01506] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  ' existed in isrMembers, but not in the partitions map.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01527"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1527"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01527] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[01527] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01532"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01532] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[01532] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01534"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1534"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01534] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[01534] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01536"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1536"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01536] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '{}: changing partition(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01536] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  '{}: changing partition(s): {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01538"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01538] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN583721 the MagicNumber/String  '{}: changing {} partition(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[01538] In method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String  '{}: changing {} partition(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2914,63 +3403,63 @@ var maDataBlocs = {
    "c1" : "01547"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01547] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01547] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01548"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01548"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01558"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01558] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  'Unable to alter partition reassignment for ' should be converted to const"
+ , "c3" : "QC-JAV000010[01558] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  'Unable to alter partition reassignment for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01559"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1559"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01559] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[01559] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01559"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1559"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01559] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  ' because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01559] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  ' because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01560"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  'of an ' should be converted to const"
+ , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  'of an ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01560"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  ' error: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  ' error: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01571"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN587184 the MagicNumber/String  'Successfully altered {} out of {} partition reassignment(s).' should be converted to const"
+ , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String  'Successfully altered {} out of {} partition reassignment(s).' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2978,6 +3467,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1576"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01576] For method alterPartitionReassignment arguments String  topicName|ReassignablePartition  target|List&lt;ApiMessageAndVersion &gt;  records"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01576"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1576"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01576] For method alterPartitionReassignment list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; cancelPartitionReassignmentN592443|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; changePartitionReassignmentN592591"
 }} 
 ,
 { "ligne" : {
@@ -2991,91 +3487,91 @@ var maDataBlocs = {
    "c1" : "01580"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01580] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01580] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01581"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1581"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01581] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'Unable to find a topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01581] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  'Unable to find a topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01582"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1582"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01582] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'named ' should be converted to const"
+ , "c3" : "QC-JAV000010[01582] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  'named ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01582"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1582"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01582] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01582] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01585"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1585"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01585] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01585] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01586"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1586"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01586] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'Unable to find a topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01586] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  'Unable to find a topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01587"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01587] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'with ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[01587] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  'with ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01587"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01587] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01587] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01591"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1591"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01591] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01591] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01592"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1592"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01592] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  'Unable to find partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01592] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  'Unable to find partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01593"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1593"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01593] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[01593] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01593"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1593"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01593] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01593] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01596"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01596] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN589281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01596] In method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignment@POLYN590993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3103,35 +3599,35 @@ var maDataBlocs = {
    "c1" : "01613"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1613"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01613] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  'Unable to revert partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01613] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN592801 the MagicNumber/String  'Unable to revert partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01614"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1614"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  'assignment for ' should be converted to const"
+ , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN592801 the MagicNumber/String  'assignment for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01614"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1614"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN592801 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01614"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1614"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  ' because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN592801 the MagicNumber/String  ' because ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01615"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01615] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN591089 the MagicNumber/String  'it would require an unclean leader election.' should be converted to const"
+ , "c3" : "QC-JAV000010[01615] In method org.apache.kafka.controller.ReplicationControlManager.cancelPartitionReassignment@POLYN592801 the MagicNumber/String  'it would require an unclean leader election.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3139,6 +3635,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1634"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01634] For method changePartitionReassignment arguments TopicIdPartition  tp|PartitionRegistration  part|ReassignablePartition  target"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01634"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1634"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01634] For method changePartitionReassignment list of called methods Object monObjet|java.util.List&lt;Integer&gt; Replicas_toListN595453"
 }} 
 ,
 { "ligne" : {
@@ -3180,21 +3683,21 @@ var maDataBlocs = {
    "c1" : "01663"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1663"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01663] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN594872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01663] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN596584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01664"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01664] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN594872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01664] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN596584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01673"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1673"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01673] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN594872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01673] In method org.apache.kafka.controller.ReplicationControlManager.listPartitionReassignments@POLYN596584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3202,6 +3705,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1681"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01681] For method listReassigningTopic arguments ListPartitionReassignmentsResponseData  response|Uuid  topicId|List&lt;Integer &gt;  partitionIds"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01681"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1681"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01681] For method listReassigningTopic list of called methods Object monObjet|java.util.Optional&lt;OngoingPartitionReassignment&gt; getOngoingPartitionReassignmentN598181"
 }} 
 ,
 { "ligne" : {
@@ -3222,7 +3732,7 @@ var maDataBlocs = {
    "c1" : "01685"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1685"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01685] In method org.apache.kafka.controller.ReplicationControlManager.listReassigningTopic@POLYN595923 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01685] In method org.apache.kafka.controller.ReplicationControlManager.listReassigningTopic@POLYN597635 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3243,7 +3753,7 @@ var maDataBlocs = {
    "c1" : "01703"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.controller.ReplicationControlManager.getOngoingPartitionReassignment@POLYN596954 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.controller.ReplicationControlManager.getOngoingPartitionReassignment@POLYN598666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3258,6 +3768,363 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1742"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01742] For method iterator arguments long  epoch"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01547"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1547"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01547] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01548"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01548] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01548"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01548] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01558"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1558"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01558] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String 'Unable to alter partition reassignment for ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01559"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1559"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01559] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String ' because ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01559"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1559"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01559] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String ':' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01560"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01560] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String ' error: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01560"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01560] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String 'of an ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01571"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01571] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN588896 the MagicNumber/String 'Successfully altered {} out of {} partition reassignment-s-.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00504"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00504] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String '' already exists.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00504"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00504] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00511"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#511"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00537"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#537"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00540"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00540] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00545"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#545"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00545] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String ': ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00546"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00546] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String ' -' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00546"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00546] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00547"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#547"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00547] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00552"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00552] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String ': ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00553"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#553"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00553] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String 'SUCCESS' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00554"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00554] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00557"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00557] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String 'Validate-only CreateTopics result-s-: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00560"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN525388 the MagicNumber/String 'CreateTopics result-s-: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00869"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#869"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00869] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00870"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#870"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00870] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00871"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#871"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00871] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00877"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#877"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00877] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 'Rejecting AlterPartition request for unknown topic ID {} or name {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00924"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#924"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00924] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 'Node {} has altered ISR for {}-{} to {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00941"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00941] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00942"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00942] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 'AlterPartition request from node {} for {}-{} completed ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00943"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#943"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00943] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 'the ongoing partition reassignment and triggered a ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00944"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00944] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 'leadership change. Returning {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00950"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#950"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00950] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00951"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#951"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00951] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00952"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#952"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00952] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 'AlterPartition request from node {} for {}-{} completed ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00953"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00953] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN549527 the MagicNumber/String 'the ongoing partition reassignment.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01499"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1499"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01499] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01500"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1500"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01500] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String 'Topic ID ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01501"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1501"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01501] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String ' existed in isrMembers, but not in the topics map.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01504"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01504] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01505"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1505"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01505] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01506"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1506"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01506] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String ' existed in isrMembers, but not in the partitions map.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01527"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1527"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01527] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01532"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1532"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01532] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01534"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1534"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01534] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01536"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1536"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01536] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String '{}: changing partition-s-: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01538"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1538"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01538] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN585433 the MagicNumber/String '{}: changing {} partition-s-' MUST BE CONVERTED to const"
 }} 
 ]
 };

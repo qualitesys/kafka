@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+RocksDBStoreComparable<KeyValueSegment> <|-- org.apache.kafka.streams.state.internals.KeyValueSegment
+class org.apache.kafka.streams.state.internals.KeyValueSegment {
++  KeyValueSegment(String;String;long;RocksDBMetricsRecorder)
++  destroy()
++  deleteRange(Bytes;Bytes)
++  compareTo(KeyValueSegment)
++  openDB(Map<String,Object>;File)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry
+class org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry {
++  FetcherMetricsRegistry()
++  FetcherMetricsRegistry(String)
++  FetcherMetricsRegistry(Set<String>;String)
++  getAllTemplates()
+} 
+@enduml

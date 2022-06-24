@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ProcessorSupplier<K,V1,K,VOut> <|-- org.apache.kafka.streams.kstream.internals.KStreamKTableJoin
+class org.apache.kafka.streams.kstream.internals.KStreamKTableJoin {
++  KStreamKTableJoin(KTableValueGetterSupplier<K,V2>;ValueJoinerWithKey<?superK,?superV1,?superV2,VOut>;boolean)
++  get()
+} 
+@enduml

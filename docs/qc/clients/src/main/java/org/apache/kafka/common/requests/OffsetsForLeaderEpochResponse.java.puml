@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.OffsetsForLeaderEpochResponse
+class org.apache.kafka.common.requests.OffsetsForLeaderEpochResponse {
++  OffsetsForLeaderEpochResponse(OffsetForLeaderEpochResponseData)
++  data()
++  errorCounts()
++  throttleTimeMs()
++  parse(ByteBuffer;short)
++  toString()
+} 
+@enduml

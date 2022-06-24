@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+ProcessorNode<KIn,VIn,KIn,VIn> <|-- org.apache.kafka.streams.processor.internals.SourceNode
+class org.apache.kafka.streams.processor.internals.SourceNode {
++  SourceNode(String;TimestampExtractor;Deserializer<KIn>;Deserializer<VIn>)
++  SourceNode(String;Deserializer<KIn>;Deserializer<VIn>)
++  deserializeKey(String;Headers;byte[])
++  deserializeValue(String;Headers;byte[])
++  init(InternalProcessorContext<KIn,VIn>)
++  process(Record<KIn,VIn>)
++  toString()
++  getTimestampExtractor()
+} 
+@enduml

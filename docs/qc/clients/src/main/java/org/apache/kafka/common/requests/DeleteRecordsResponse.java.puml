@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DeleteRecordsResponse
+class org.apache.kafka.common.requests.DeleteRecordsResponse {
++  DeleteRecordsResponse(DeleteRecordsResponseData)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

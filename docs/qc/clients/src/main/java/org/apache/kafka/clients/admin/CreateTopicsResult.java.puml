@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.CreateTopicsResult
+class org.apache.kafka.clients.admin.CreateTopicsResult {
++  CreateTopicsResult(Map<String,KafkaFuture<TopicMetadataAndConfig>>)
++  values()
++  all()
++  config(String)
++  topicId(String)
++  numPartitions(String)
++  replicationFactor(String)
+} 
+@enduml

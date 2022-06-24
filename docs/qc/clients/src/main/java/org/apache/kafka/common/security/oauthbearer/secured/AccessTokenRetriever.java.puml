@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Initable <|-- org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetriever
+class org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetriever {
++  retrieve()
++  close()
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.NotEnoughReplicasException
+class org.apache.kafka.common.errors.NotEnoughReplicasException {
++  NotEnoughReplicasException()
++  NotEnoughReplicasException(String;Throwable)
++  NotEnoughReplicasException(String)
++  NotEnoughReplicasException(Throwable)
+} 
+@enduml

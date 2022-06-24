@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.metadata.LeaderConstants"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.LeaderConstants" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/LeaderConstants.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/LeaderConstants.java.svg" }
+
 ] 
 , 
 "data04" : [

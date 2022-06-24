@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Scheduler <|-- org.apache.kafka.common.utils.SystemScheduler
+class org.apache.kafka.common.utils.SystemScheduler {
++  SystemScheduler()
++  time()
+} 
+@enduml

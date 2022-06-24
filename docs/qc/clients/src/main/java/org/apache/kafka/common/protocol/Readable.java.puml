@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.Readable
+class org.apache.kafka.common.protocol.Readable {
++  readByte()
++  readShort()
++  readInt()
++  readLong()
++  readDouble()
++  readArray(byte[])
++  readUnsignedVarint()
++  readByteBuffer(int)
++  readVarint()
++  readVarlong()
++  remaining()
++  readString(int)
++  readUnknownTaggedField(List<RawTaggedField>;int;int)
++  readRecords(int)
++  readUuid()
++  readUnsignedShort()
++  readUnsignedInt()
+} 
+@enduml

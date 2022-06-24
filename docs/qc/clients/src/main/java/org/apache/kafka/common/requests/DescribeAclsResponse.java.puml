@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeAclsResponse
+class org.apache.kafka.common.requests.DescribeAclsResponse {
++  DescribeAclsResponse(DescribeAclsResponseData;short)
++  DescribeAclsResponse(DescribeAclsResponseData)
++  data()
++  throttleTimeMs()
++  error()
++  errorCounts()
++  acls()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
++  validate(Optional<Short>)
++  aclBindings(DescribeAclsResource)
++  aclBindings(List<DescribeAclsResource>)
++  aclsResources(Collection<AclBinding>)
+} 
+@enduml

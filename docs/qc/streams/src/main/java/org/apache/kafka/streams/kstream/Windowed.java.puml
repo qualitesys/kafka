@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.Windowed
+class org.apache.kafka.streams.kstream.Windowed {
++  Windowed(K;Window)
++  key()
++  window()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

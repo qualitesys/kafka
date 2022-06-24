@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ConfigProvider <|-- org.apache.kafka.common.config.provider.FileConfigProvider
+class org.apache.kafka.common.config.provider.FileConfigProvider {
++  configure(Map<String,?>)
++  get(String)
++  get(String;Set<String>)
++  reader(String)
++  close()
+} 
+@enduml

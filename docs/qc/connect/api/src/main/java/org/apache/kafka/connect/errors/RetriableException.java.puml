@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.errors.RetriableException
+class org.apache.kafka.connect.errors.RetriableException {
++  RetriableException(String)
++  RetriableException(String;Throwable)
++  RetriableException(Throwable)
+} 
+@enduml

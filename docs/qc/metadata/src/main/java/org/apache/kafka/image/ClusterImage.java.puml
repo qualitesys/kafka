@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ClusterImage
+class org.apache.kafka.image.ClusterImage {
++  ClusterImage(Map<Integer,BrokerRegistration>)
++  isEmpty()
++  brokers()
++  broker(int)
++  write(Consumer<List<ApiMessageAndVersion>>;MetadataVersion)
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

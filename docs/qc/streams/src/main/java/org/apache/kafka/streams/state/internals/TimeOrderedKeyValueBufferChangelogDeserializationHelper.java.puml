@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper
+class org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper {
++  TimeOrderedKeyValueBufferChangelogDeserializationHelper()
++  deserializeV0(ConsumerRecord<byte[],byte[]>;Bytes;byte[])
++  deserializeV1(ConsumerRecord<byte[],byte[]>;Bytes;byte[])
++  duckTypeV2(ConsumerRecord<byte[],byte[]>;Bytes)
++  deserializeV2(ConsumerRecord<byte[],byte[]>;Bytes)
++  deserializeV3(ConsumerRecord<byte[],byte[]>;Bytes)
+} 
+@enduml

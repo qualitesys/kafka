@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.common.ProduceRequestBenchmark
+class org.apache.kafka.jmh.common.ProduceRequestBenchmark {
++  setup()
++  testRequestToJson()
+} 
+@enduml

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Scheduler"
+ , "c2" : "org.apache.kafka.common.utils.SystemScheduler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.SystemScheduler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SystemScheduler"
+ , "c2" : "SystemScheduler()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Time"
+ , "c2" : "time()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemScheduler.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SystemScheduler.java.svg" }
+
 ] 
 , 
 "data04" : [

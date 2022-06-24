@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<ListTopicsOptions> <|-- org.apache.kafka.clients.admin.ListTopicsOptions
+class org.apache.kafka.clients.admin.ListTopicsOptions {
++  timeoutMs(Integer)
++  listInternal(boolean)
++  shouldListInternal()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

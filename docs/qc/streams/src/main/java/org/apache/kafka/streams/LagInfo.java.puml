@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.LagInfo
+class org.apache.kafka.streams.LagInfo {
++  LagInfo(long;long)
++  currentOffsetPosition()
++  endOffsetPosition()
++  offsetLag()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

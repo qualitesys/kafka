@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeClusterResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeClusterResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeClusterResult"
+ , "c2" : "DescribeClusterResult(KafkaFuture<Collection<Node>>;KafkaFuture<Node>;KafkaFuture<String>;KafkaFuture<Set<AclOperation>>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Collection<Node>>"
+ , "c2" : "nodes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Node>"
+ , "c2" : "controller()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<String>"
+ , "c2" : "clusterId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Set<AclOperation>>"
+ , "c2" : "authorizedOperations()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.svg" }
+
 ] 
 , 
 "data04" : [

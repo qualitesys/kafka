@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "OffsetBackingStore"
+ , "c2" : "org.apache.kafka.connect.storage.ConnectorOffsetBackingStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.ConnectorOffsetBackingStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConnectorOffsetBackingStore"
+ , "c2" : "ConnectorOffsetBackingStore(OffsetBackingStore;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "primaryOffsetsTopic()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "start()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "stop()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
+ , "c2" : "get(Collection<ByteBuffer>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Future<Void>"
+ , "c2" : "set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(WorkerConfig)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.svg" }
+
 ] 
 , 
 "data04" : [

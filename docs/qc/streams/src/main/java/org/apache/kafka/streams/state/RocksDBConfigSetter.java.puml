@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.RocksDBConfigSetter
+class org.apache.kafka.streams.state.RocksDBConfigSetter {
++  setConfig(String;Options;Map<String,Object>)
++  close(String;Options)
+} 
+@enduml

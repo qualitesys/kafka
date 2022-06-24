@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.Node
+class org.apache.kafka.common.Node {
++  Node(int;String;int)
++  Node(int;String;int;String)
++  noNode()
++  isEmpty()
++  id()
++  idString()
++  host()
++  port()
++  hasRack()
++  rack()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "MetadataUpdater"
+ , "c2" : "org.apache.kafka.clients.ManualMetadataUpdater"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.ManualMetadataUpdater" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ManualMetadataUpdater"
+ , "c2" : "ManualMetadataUpdater()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ManualMetadataUpdater"
+ , "c2" : "ManualMetadataUpdater(List<Node>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setNodes(List<Node>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<Node>"
+ , "c2" : "fetchNodes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isUpdateDue(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "maybeUpdate(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleServerDisconnect(long;String;Optional<AuthenticationException>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleFailedRequest(long;Optional<KafkaException>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleSuccessfulResponse(RequestHeader;long;MetadataResponse)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.ManualMetadataUpdater.ManualMetadataUpdater@POLYN160711 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.ManualMetadataUpdater.ManualMetadataUpdater@POLYN162423 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.ManualMetadataUpdater.isUpdateDue@POLYN161343 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.ManualMetadataUpdater.isUpdateDue@POLYN163055 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

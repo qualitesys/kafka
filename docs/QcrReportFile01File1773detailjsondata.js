@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ExtractRecordMetadataTimestamp"
+ , "c2" : "org.apache.kafka.streams.processor.LogAndSkipOnInvalidTimestamp"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.LogAndSkipOnInvalidTimestamp" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/LogAndSkipOnInvalidTimestamp.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/LogAndSkipOnInvalidTimestamp.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +83,7 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/LogAndSkipOnInvalidTimestamp.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.processor.LogAndSkipOnInvalidTimestamp.onInvalidTimestamp@POLYN165461 the MagicNumber/String  'Input record {} will be dropped because it has an invalid (negative) timestamp.' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.processor.LogAndSkipOnInvalidTimestamp.onInvalidTimestamp@POLYN167173 the MagicNumber/String  'Input record {} will be dropped because it has an invalid (negative) timestamp.' should be converted to const"
 }} 
 ]
 };

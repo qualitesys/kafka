@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidCommitOffsetSizeException
+class org.apache.kafka.common.errors.InvalidCommitOffsetSizeException {
++  InvalidCommitOffsetSizeException(String;Throwable)
++  InvalidCommitOffsetSizeException(String)
+} 
+@enduml

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.NewPartitions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.NewPartitions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "NewPartitions"
+ , "c2" : "NewPartitions(int;List<List<Integer>>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "NewPartitions"
+ , "c2" : "increaseTo(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "NewPartitions"
+ , "c2" : "increaseTo(int;List<List<Integer>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "totalCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<List<Integer>>"
+ , "c2" : "assignments()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.NewPartitions.increaseTo@POLYN168020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.NewPartitions.increaseTo@POLYN169732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,21 +146,21 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN169705 the MagicNumber/String  '(totalCount=' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN171417 the MagicNumber/String  '(totalCount=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN169705 the MagicNumber/String  ', newAssignments=' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN171417 the MagicNumber/String  ', newAssignments=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN169705 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN171417 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

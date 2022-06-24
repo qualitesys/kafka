@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<KeyValueStore<Bytes,byte[]>,K,V>KeyValueStore<K,V> <|-- org.apache.kafka.streams.state.internals.MeteredKeyValueStore
+class org.apache.kafka.streams.state.internals.MeteredKeyValueStore {
++  MeteredKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<V>)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  registerMetrics()
++  prepareValueSerdeForStore(Serde<V>;SerdeGetter)
++  initStoreSerde(ProcessorContext)
++  initStoreSerde(StateStoreContext)
++  setFlushListener(CacheFlushListener<K,V>;boolean)
++  getPosition()
++  get(K)
++  put(K;V)
++  putIfAbsent(K;V)
++  putAll(List<KeyValue<K,V>>)
++  delete(K)
++  range(K;K)
++  reverseRange(K;K)
++  all()
++  reverseAll()
++  flush()
++  approximateNumEntries()
++  close()
++  outerValue(byte[])
++  keyBytes(K)
++  innerEntries(List<KeyValue<K,V>>)
++  maybeRecordE2ELatency()
+} 
+@enduml

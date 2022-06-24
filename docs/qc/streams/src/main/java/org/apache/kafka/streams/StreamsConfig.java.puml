@@ -1,0 +1,38 @@
+@startuml
+!pragma layout smetana
+AbstractConfig <|-- org.apache.kafka.streams.StreamsConfig
+class org.apache.kafka.streams.StreamsConfig {
++  consumerPrefix(String)
++  mainConsumerPrefix(String)
++  restoreConsumerPrefix(String)
++  clientTagPrefix(String)
++  globalConsumerPrefix(String)
++  producerPrefix(String)
++  adminClientPrefix(String)
++  topicPrefix(String)
++  configDef()
++  StreamsConfig(Map<?,?>)
++  StreamsConfig(Map<?,?>;boolean)
++  verifyEOSTransactionTimeoutCompatibility()
++  postProcessParsedConfig(Map<String,Object>)
++  validateRackAwarenessConfiguration()
++  getCommonConsumerConfigs()
++  checkIfUnexpectedUserSpecifiedConsumerConfig(Map<String,Object>;String[])
++  verifyMaxInFlightRequestPerConnection(Object)
++  getMainConsumerConfigs(String;String;int)
++  getRestoreConsumerConfigs(String)
++  getGlobalConsumerConfigs(String)
++  getProducerConfigs(String)
++  getAdminConfigs(String)
++  getClientTags()
++  getClientPropsWithPrefix(String;Set<String>)
++  getClientCustomProps()
++  defaultKeySerde()
++  defaultValueSerde()
++  defaultTimestampExtractor()
++  defaultDeserializationExceptionHandler()
++  defaultProductionExceptionHandler()
++  clientProps(Set<String>;Map<String,Object>)
++  main(String[])
+} 
+@enduml

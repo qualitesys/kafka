@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.runtime.PredicatedTransformation
+class org.apache.kafka.connect.runtime.PredicatedTransformation {
++  PredicatedTransformation(Predicate<R>;boolean;Transformation<R>)
++  configure(Map<String,?>)
++  apply(R)
++  config()
++  close()
++  toString()
+} 
+@enduml

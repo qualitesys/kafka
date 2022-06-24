@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.BaseRepartitionNode
+class org.apache.kafka.streams.kstream.internals.graph.BaseRepartitionNode {
++  BaseRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>;InternalTopicProperties)
++  valueSerializer()
++  valueDeserializer()
++  keySerializer()
++  keyDeserializer()
++  toString()
+} 
+@enduml

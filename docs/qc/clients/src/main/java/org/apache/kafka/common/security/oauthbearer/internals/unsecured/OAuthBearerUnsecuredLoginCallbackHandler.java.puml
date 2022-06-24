@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler
+class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler {
++  time(Time)
++  configured()
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  handle(Callback[])
++  close()
++  handleTokenCallback(OAuthBearerTokenCallback)
++  handleExtensionsCallback(SaslExtensionsCallback)
++  commaPrependedStringNumberAndListClaimsJsonText()
++  confirmNotReservedClaimName(String)
++  listJsonText(String)
++  optionValue(String)
++  optionValue(String;String)
++  option(String)
++  claimOrHeaderJsonText(String;Number)
++  claimOrHeaderJsonText(String;String)
++  claimOrHeaderJsonArrayText(String;String)
++  escape(String)
++  expClaimText(long)
+} 
+@enduml

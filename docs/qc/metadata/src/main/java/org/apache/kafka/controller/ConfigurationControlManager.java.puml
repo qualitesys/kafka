@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ConfigurationControlManager
+class org.apache.kafka.controller.ConfigurationControlManager {
++  ConfigurationControlManager(LogContext;SnapshotRegistry;KafkaConfigSchema;Consumer<ConfigResource>;Optional<AlterConfigPolicy>;ConfigurationValidator;Map<String,Object>;int)
++  snapshotRegistry()
++  incrementalAlterConfigs(Map<ConfigResource,Map<String,Entry<OpType,String>>>;boolean)
++  incrementalAlterConfigResource(ConfigResource;Map<String,Entry<OpType,String>>;boolean;List<ApiMessageAndVersion>;Map<ConfigResource,ApiError>)
++  validateAlterConfig(ConfigResource;List<ApiMessageAndVersion>;boolean)
++  legacyAlterConfigs(Map<ConfigResource,Map<String,String>>;boolean)
++  legacyAlterConfigResource(ConfigResource;Map<String,String>;boolean;List<ApiMessageAndVersion>;Map<ConfigResource,ApiError>)
++  getParts(String;String;ConfigResource)
++  replay(ConfigRecord)
++  getConfigs(ConfigResource)
++  describeConfigs(long;Map<ConfigResource,Collection<String>>)
++  deleteTopicConfigs(String)
++  uncleanLeaderElectionEnabledForTopic(String)
++  computeEffectiveTopicConfigs(Map<String,String>)
++  clusterConfig()
++  currentControllerConfig()
++  iterator(long)
+} 
+@enduml

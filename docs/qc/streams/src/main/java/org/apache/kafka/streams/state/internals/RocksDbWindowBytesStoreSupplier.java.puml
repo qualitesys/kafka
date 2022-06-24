@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+WindowBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier
+class org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier {
++  RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;boolean)
++  RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;WindowStoreTypes)
++  name()
++  get()
++  metricsScope()
++  segmentIntervalMs()
++  windowSize()
++  retainDuplicates()
++  retentionPeriod()
++  toString()
+} 
+@enduml

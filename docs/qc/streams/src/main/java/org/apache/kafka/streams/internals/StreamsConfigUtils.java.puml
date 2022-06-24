@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.internals.StreamsConfigUtils
+class org.apache.kafka.streams.internals.StreamsConfigUtils {
++  processingMode(StreamsConfig)
++  processingModeString(ProcessingMode)
++  eosEnabled(StreamsConfig)
++  eosEnabled(ProcessingMode)
++  getTotalCacheSize(StreamsConfig)
+} 
+@enduml

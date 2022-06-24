@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.snapshot.SnapshotPath
+class org.apache.kafka.snapshot.SnapshotPath {
++  SnapshotPath(Path;OffsetAndEpoch;boolean;boolean)
++  toString()
+} 
+@enduml

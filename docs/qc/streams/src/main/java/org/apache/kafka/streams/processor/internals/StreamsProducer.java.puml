@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StreamsProducer
+class org.apache.kafka.streams.processor.internals.StreamsProducer {
++  StreamsProducer(StreamsConfig;String;KafkaClientSupplier;TaskId;UUID;LogContext;Time)
++  formatException(String)
++  eosEnabled()
++  initTransaction()
++  resetProducer()
++  getMetricValue(Map<MetricName,?extendsMetric>;String)
++  totalBlockedTime(Producer<?,?>)
++  totalBlockedTime()
++  maybeBeginTransaction()
++  send(ProducerRecord<byte[],byte[]>;Callback)
++  isRecoverable(KafkaException)
++  commitTransaction(Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)
++  abortTransaction()
++  partitionsFor(String)
++  metrics()
++  flush()
++  close()
++  kafkaProducer()
+} 
+@enduml

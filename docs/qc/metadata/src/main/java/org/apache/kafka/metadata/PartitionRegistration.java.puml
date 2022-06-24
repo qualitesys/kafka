@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.PartitionRegistration
+class org.apache.kafka.metadata.PartitionRegistration {
++  electionWasClean(int;int[])
++  PartitionRegistration(PartitionRecord)
++  PartitionRegistration(int[];int[];int[];int[];int;LeaderRecoveryState;int;int)
++  merge(PartitionChangeRecord)
++  diff(PartitionRegistration)
++  maybeLogPartitionChange(Logger;String;PartitionRegistration)
++  hasLeader()
++  hasPreferredLeader()
++  preferredReplica()
++  toRecord(Uuid;int)
++  toLeaderAndIsrPartitionState(TopicPartition;boolean)
++  isReassigning()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

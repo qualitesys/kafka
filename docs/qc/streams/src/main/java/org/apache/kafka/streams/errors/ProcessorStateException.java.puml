@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.ProcessorStateException
+class org.apache.kafka.streams.errors.ProcessorStateException {
++  ProcessorStateException(String)
++  ProcessorStateException(String;Throwable)
++  ProcessorStateException(Throwable)
+} 
+@enduml

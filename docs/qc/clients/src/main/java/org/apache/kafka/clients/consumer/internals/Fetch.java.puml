@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.Fetch
+class org.apache.kafka.clients.consumer.internals.Fetch {
++  Fetch(Map<TopicPartition,List<ConsumerRecord<K,V>>>;boolean;int)
++  add(Fetch<K,V>)
++  records()
++  positionAdvanced()
++  numRecords()
++  isEmpty()
++  addRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)
+} 
+@enduml

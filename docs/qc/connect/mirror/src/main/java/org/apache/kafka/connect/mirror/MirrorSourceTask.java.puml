@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+SourceTask <|-- org.apache.kafka.connect.mirror.MirrorSourceTask
+class org.apache.kafka.connect.mirror.MirrorSourceTask {
++  MirrorSourceTask()
++  MirrorSourceTask(KafkaConsumer<byte[],byte[]>;MirrorMetrics;String;ReplicationPolicy;long)
++  start(Map<String,String>)
++  commit()
++  stop()
++  version()
++  poll()
++  commitRecord(SourceRecord;RecordMetadata)
++  maybeSyncOffsets(TopicPartition;long;long)
++  sendOffsetSync(TopicPartition;long;long)
++  loadOffsets(Set<TopicPartition>)
++  loadOffset(TopicPartition)
++  convertRecord(ConsumerRecord<byte[],byte[]>)
++  convertHeaders(ConsumerRecord<byte[],byte[]>)
++  formatRemoteTopic(String)
++  byteSize(byte[])
+} 
+@enduml

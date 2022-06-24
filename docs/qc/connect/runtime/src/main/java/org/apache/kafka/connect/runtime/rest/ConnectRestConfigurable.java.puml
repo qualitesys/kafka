@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+Configurable<ResourceConfig> <|-- org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable
+class org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable {
++  ConnectRestConfigurable(ResourceConfig)
++  getConfiguration()
++  property(String;Object)
++  register(Object)
++  register(Object;int)
++  register(Object;Map<Class<?>,Integer>)
++  register(Object;Class<?>...)
++  register(Class<?>;Map<Class<?>,Integer>)
++  register(Class<?>;Class<?>...)
++  register(Class<?>;int)
++  register(Class<?>)
++  allowedToRegister(Object)
++  allowedToRegister(Class<?>)
+} 
+@enduml

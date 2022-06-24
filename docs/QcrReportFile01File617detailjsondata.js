@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BrokerHeartbeatRequest"
+ , "c2" : "BrokerHeartbeatRequest(BrokerHeartbeatRequestData;short)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokerHeartbeatRequestData"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokerHeartbeatResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokerHeartbeatRequest"
+ , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StandbyTaskCreator
+class org.apache.kafka.streams.processor.internals.StandbyTaskCreator {
++  StandbyTaskCreator(TopologyMetadata;StreamsConfig;StreamsMetricsImpl;StateDirectory;ChangelogReader;String;Logger)
++  removeRevokedUnknownTasks(Set<TaskId>)
++  uncreatedTasksForTopologies(Set<String>)
++  createTasks(Map<TaskId,Set<TopicPartition>>)
++  createStandbyTaskFromActive(StreamTask;Set<TopicPartition>)
++  createStandbyTask(TaskId;Set<TopicPartition>;ProcessorTopology;ProcessorStateManager;InternalProcessorContext)
++  getLogContext(TaskId)
+} 
+@enduml

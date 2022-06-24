@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractRocksDBSegmentedBytesStore<KeyValueSegment>"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RocksDBSegmentedBytesStore"
+ , "c2" : "RocksDBSegmentedBytesStore(String;String;long;long;KeySchema)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSegmentedBytesStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSegmentedBytesStore.java.svg" }
+
 ] 
 , 
 "data04" : [

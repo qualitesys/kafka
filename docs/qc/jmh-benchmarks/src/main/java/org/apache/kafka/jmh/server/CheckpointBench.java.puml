@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.server.CheckpointBench
+class org.apache.kafka.jmh.server.CheckpointBench {
++  setup()
++  tearDown()
++  measureCheckpointHighWatermarks()
++  measureCheckpointLogStartOffsets()
+} 
+@enduml

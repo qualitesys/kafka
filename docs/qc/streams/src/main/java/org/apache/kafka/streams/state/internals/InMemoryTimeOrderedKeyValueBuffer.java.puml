@@ -1,0 +1,32 @@
+@startuml
+!pragma layout smetana
+TimeOrderedKeyValueBuffer<K,V> <|-- org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer
+class org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer {
++  InMemoryTimeOrderedKeyValueBuffer(String;boolean;Serde<K>;Serde<V>)
++  name()
++  persistent()
++  setSerdesIfNull(SerdeGetter)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  init(StateStore)
++  isOpen()
++  getPosition()
++  close()
++  flush()
++  logValue(Bytes;BufferKey;BufferValue)
++  logTombstone(Bytes)
++  restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>)
++  evictWhile(Supplier<Boolean>;Consumer<Eviction<K,V>>)
++  priorValueForBuffered(K)
++  internalPriorValueForBuffered(Bytes)
++  put(long;Record<K,Change<V>>;ProcessorRecordContext)
++  getBuffered(Bytes)
++  cleanPut(long;Bytes;BufferValue)
++  numRecords()
++  bufferSize()
++  minTimestamp()
++  computeRecordSize(Bytes;BufferValue)
++  updateBufferMetrics()
++  toString()
+} 
+@enduml

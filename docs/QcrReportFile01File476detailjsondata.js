@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SampledStat"
+ , "c2" : "org.apache.kafka.common.metrics.stats.Max"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.metrics.stats.Max" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Max"
+ , "c2" : "Max()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "update(Sample;MetricConfig;double;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "double"
+ , "c2" : "combine(List<Sample>;MetricConfig;long)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.metrics.stats.Max.combine@POLYN156705 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.metrics.stats.Max.combine@POLYN158417 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.metrics.stats.Max.combine@POLYN156705 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.metrics.stats.Max.combine@POLYN158417 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

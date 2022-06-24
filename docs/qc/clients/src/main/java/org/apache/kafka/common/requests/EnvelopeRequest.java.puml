@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.EnvelopeRequest
+class org.apache.kafka.common.requests.EnvelopeRequest {
++  EnvelopeRequest(EnvelopeRequestData;short)
++  requestData()
++  clientAddress()
++  requestPrincipal()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  data()
+} 
+@enduml

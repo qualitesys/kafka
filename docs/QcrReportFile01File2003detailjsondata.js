@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.KeyValueIterators"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.KeyValueIterators" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +98,7 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.KeyValueIterators.EmptyKeyValueIterator.hasNext@POLYN158092 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.KeyValueIterators.EmptyKeyValueIterator.hasNext@POLYN159804 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

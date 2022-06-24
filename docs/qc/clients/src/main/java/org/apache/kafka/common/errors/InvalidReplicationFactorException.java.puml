@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidReplicationFactorException
+class org.apache.kafka.common.errors.InvalidReplicationFactorException {
++  InvalidReplicationFactorException(String)
++  InvalidReplicationFactorException(String;Throwable)
+} 
+@enduml

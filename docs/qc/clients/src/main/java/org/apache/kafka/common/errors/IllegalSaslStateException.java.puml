@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AuthenticationException <|-- org.apache.kafka.common.errors.IllegalSaslStateException
+class org.apache.kafka.common.errors.IllegalSaslStateException {
++  IllegalSaslStateException(String)
++  IllegalSaslStateException(String;Throwable)
+} 
+@enduml

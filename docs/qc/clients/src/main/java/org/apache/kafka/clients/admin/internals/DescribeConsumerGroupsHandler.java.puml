@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Batched<CoordinatorKey,ConsumerGroupDescription> <|-- org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler
+class org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler {
++  DescribeConsumerGroupsHandler(boolean;LogContext)
++  buildKeySet(Collection<String>)
++  newFuture(Collection<String>)
++  apiName()
++  lookupStrategy()
++  buildBatchedRequest(int;Set<CoordinatorKey>)
++  handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)
++  handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)
++  validAclOperations(int)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig
+class org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig {
++  WindowedChangelogTopicConfig(String;Map<String,String>)
++  getProperties(Map<String,String>;long)
++  setRetentionMs(long)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.network.ReauthenticationContext
+class org.apache.kafka.common.network.ReauthenticationContext {
++  ReauthenticationContext(Authenticator;NetworkReceive;long)
++  networkReceive()
++  previousAuthenticator()
++  reauthenticationBeginNanos()
+} 
+@enduml

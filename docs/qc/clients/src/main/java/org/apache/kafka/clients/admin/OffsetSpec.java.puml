@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.OffsetSpec
+class org.apache.kafka.clients.admin.OffsetSpec {
++  latest()
++  earliest()
++  forTimestamp(long)
++  maxTimestamp()
+} 
+@enduml

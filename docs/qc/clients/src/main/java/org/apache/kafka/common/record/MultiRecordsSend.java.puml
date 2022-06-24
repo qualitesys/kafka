@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Send <|-- org.apache.kafka.common.record.MultiRecordsSend
+class org.apache.kafka.common.record.MultiRecordsSend {
++  MultiRecordsSend(Queue<Send>)
++  MultiRecordsSend(Queue<Send>;long)
++  size()
++  completed()
++  numResidentSends()
++  writeTo(TransferableChannel)
++  recordConversionStats()
++  toString()
++  updateRecordConversionStats(Send)
+} 
+@enduml

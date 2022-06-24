@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeClientQuotasResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeClientQuotasResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeClientQuotasResult"
+ , "c2" : "DescribeClientQuotasResult(KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>>"
+ , "c2" : "entities()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+RemoteLogMetadataTransform<RemoteLogSegmentMetadata> <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataTransform
+class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataTransform {
++  toApiMessageAndVersion(RemoteLogSegmentMetadata)
++  createSegmentLeaderEpochsEntry(RemoteLogSegmentMetadata)
++  createRemoteLogSegmentIdEntry(RemoteLogSegmentMetadata)
++  fromApiMessageAndVersion(ApiMessageAndVersion)
++  buildRemoteLogSegmentId(RemoteLogSegmentMetadataRecord.RemoteLogSegmentIdEntry)
+} 
+@enduml

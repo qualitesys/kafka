@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.RequestManager
+class org.apache.kafka.raft.RequestManager {
++  RequestManager(Set<Integer>;int;int;Random)
++  getOrCreate(int)
++  findReadyVoter(long)
++  backoffBeforeAvailableVoter(long)
++  resetAll()
+} 
+@enduml

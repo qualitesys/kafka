@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.authorizer.AclCreateResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.authorizer.AclCreateResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AclCreateResult"
+ , "c2" : "AclCreateResult()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AclCreateResult"
+ , "c2" : "AclCreateResult(ApiException)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<ApiException>"
+ , "c2" : "exception()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,14 +97,14 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.server.authorizer.AclCreateResult.AclCreateResult@POLYN155532 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.server.authorizer.AclCreateResult.AclCreateResult@POLYN157244 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.server.authorizer.AclCreateResult.exception@POLYN155853 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.server.authorizer.AclCreateResult.exception@POLYN157565 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+MeasurableStat <|-- org.apache.kafka.common.metrics.stats.Rate
+class org.apache.kafka.common.metrics.stats.Rate {
++  Rate()
++  Rate(TimeUnit)
++  Rate(SampledStat)
++  Rate(TimeUnit;SampledStat)
++  unitName()
++  record(MetricConfig;double;long)
++  measure(MetricConfig;long)
++  windowSize(MetricConfig;long)
++  toString()
+} 
+@enduml

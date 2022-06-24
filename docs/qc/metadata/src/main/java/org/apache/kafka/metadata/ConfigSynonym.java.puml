@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.ConfigSynonym
+class org.apache.kafka.metadata.ConfigSynonym {
++  valueToInt(String;int;String)
++  ConfigSynonym(String;Function<String,String>)
++  ConfigSynonym(String)
++  name()
++  converter()
+} 
+@enduml

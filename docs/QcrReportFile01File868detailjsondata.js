@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Deserializer<Long>"
+ , "c2" : "org.apache.kafka.common.serialization.LongDeserializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.serialization.LongDeserializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "deserialize(String;byte[])"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,49 +97,49 @@ var maDataBlocs = {
    "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN154288 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN156000 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN154288 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN156000 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN154288 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN156000 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00011"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN154288 the MagicNumber/String  'Size of data received by LongDeserializer is not 8' should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN156000 the MagicNumber/String  'Size of data received by LongDeserializer is not 8' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN154288 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN156000 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN154288 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN156000 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN154288 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.LongDeserializer.deserialize@POLYN156000 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ]
 };

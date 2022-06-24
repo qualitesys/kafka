@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractStoreBuilder<K,V,KeyValueStore<K,V>> <|-- org.apache.kafka.streams.state.internals.ListValueStoreBuilder
+class org.apache.kafka.streams.state.internals.ListValueStoreBuilder {
++  ListValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time)
++  build()
++  maybeWrapCaching(KeyValueStore<Bytes,byte[]>)
++  maybeWrapLogging(KeyValueStore<Bytes,byte[]>)
+} 
+@enduml

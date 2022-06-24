@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.data.Date"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.data.Date" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SchemaBuilder"
+ , "c2" : "builder()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "fromLogical(Schema;java.util.Date)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "java.util.Date"
+ , "c2" : "toLogical(Schema;int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.builder@POLYN164148 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.builder@POLYN165860 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,42 +132,42 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN164560 the MagicNumber/String  'Requested conversion of Date object but the schema does not match.' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN166272 the MagicNumber/String  'Requested conversion of Date object but the schema does not match.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN164560 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN166272 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN164560 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN166272 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN164560 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN166272 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN164560 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN166272 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN164560 the MagicNumber/String  'Kafka Connect Date type should not have any time fields set to non-zero values.' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.fromLogical@POLYN166272 the MagicNumber/String  'Kafka Connect Date type should not have any time fields set to non-zero values.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Date.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.toLogical@POLYN165705 the MagicNumber/String  'Requested conversion of Date object but the schema does not match.' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Date.toLogical@POLYN167417 the MagicNumber/String  'Requested conversion of Date object but the schema does not match.' should be converted to const"
 }} 
 ]
 };

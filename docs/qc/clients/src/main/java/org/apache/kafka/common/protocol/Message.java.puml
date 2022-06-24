@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.Message
+class org.apache.kafka.common.protocol.Message {
++  lowestSupportedVersion()
++  highestSupportedVersion()
++  size(ObjectSerializationCache;short)
++  addSize(MessageSizeAccumulator;ObjectSerializationCache;short)
++  write(Writable;ObjectSerializationCache;short)
++  read(Readable;short)
++  unknownTaggedFields()
++  duplicate()
+} 
+@enduml

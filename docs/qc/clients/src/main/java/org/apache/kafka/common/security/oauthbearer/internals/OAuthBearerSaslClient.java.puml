@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+SaslClient <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient
+class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient {
++  OAuthBearerSaslClient(AuthenticateCallbackHandler)
++  callbackHandler()
++  getMechanismName()
++  hasInitialResponse()
++  evaluateChallenge(byte[])
++  isComplete()
++  unwrap(byte[];int;int)
++  wrap(byte[];int;int)
++  getNegotiatedProperty(String)
++  dispose()
++  setState(State)
++  retrieveCustomExtensions()
+} 
+@enduml

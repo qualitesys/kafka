@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.storage.LogSegmentData
+class org.apache.kafka.server.log.remote.storage.LogSegmentData {
++  LogSegmentData(Path;Path;Path;Optional<Path>;Path;ByteBuffer)
++  logSegment()
++  offsetIndex()
++  timeIndex()
++  transactionIndex()
++  producerSnapshotIndex()
++  leaderEpochIndex()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

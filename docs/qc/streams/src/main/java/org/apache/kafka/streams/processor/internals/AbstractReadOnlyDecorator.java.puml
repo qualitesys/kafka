@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<T,K,V> <|-- org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator
+class org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator {
++  AbstractReadOnlyDecorator(T)
++  flush()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  close()
++  getReadOnlyStore(StateStore)
+} 
+@enduml

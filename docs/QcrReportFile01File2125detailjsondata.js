@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.common.JsonUtil"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.common.JsonUtil" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toJsonString(Object)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toPrettyJsonString(Object)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "openBraceComesFirst(String)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,21 +139,21 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN167571 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN169283 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN167571 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN169283 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN167571 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN169283 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

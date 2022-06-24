@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Callback <|-- org.apache.kafka.common.security.oauthbearer.OAuthBearerTokenCallback
+class org.apache.kafka.common.security.oauthbearer.OAuthBearerTokenCallback {
++  token()
++  errorCode()
++  errorDescription()
++  errorUri()
++  token(OAuthBearerToken)
++  error(String;String;String)
+} 
+@enduml

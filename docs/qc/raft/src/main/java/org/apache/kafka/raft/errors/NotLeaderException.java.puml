@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RaftException <|-- org.apache.kafka.raft.errors.NotLeaderException
+class org.apache.kafka.raft.errors.NotLeaderException {
++  NotLeaderException(String)
++  NotLeaderException(String;Throwable)
++  NotLeaderException(Throwable)
+} 
+@enduml

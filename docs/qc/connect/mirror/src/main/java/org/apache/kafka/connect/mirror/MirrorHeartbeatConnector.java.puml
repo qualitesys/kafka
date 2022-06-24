@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+SourceConnector <|-- org.apache.kafka.connect.mirror.MirrorHeartbeatConnector
+class org.apache.kafka.connect.mirror.MirrorHeartbeatConnector {
++  MirrorHeartbeatConnector()
++  MirrorHeartbeatConnector(MirrorConnectorConfig)
++  start(Map<String,String>)
++  stop()
++  taskClass()
++  taskConfigs(int)
++  config()
++  version()
++  createInternalTopics()
+} 
+@enduml

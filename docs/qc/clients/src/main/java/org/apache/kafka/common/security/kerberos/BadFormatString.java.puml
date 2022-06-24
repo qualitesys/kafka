@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+IOException <|-- org.apache.kafka.common.security.kerberos.BadFormatString
+class org.apache.kafka.common.security.kerberos.BadFormatString {
++  BadFormatString(String)
++  BadFormatString(String;Throwable)
+} 
+@enduml

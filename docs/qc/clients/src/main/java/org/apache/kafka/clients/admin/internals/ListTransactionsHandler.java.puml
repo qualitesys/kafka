@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Batched<AllBrokersStrategy.BrokerKey,Collection<TransactionListing>> <|-- org.apache.kafka.clients.admin.internals.ListTransactionsHandler
+class org.apache.kafka.clients.admin.internals.ListTransactionsHandler {
++  ListTransactionsHandler(ListTransactionsOptions;LogContext)
++  newFuture()
++  apiName()
++  lookupStrategy()
++  buildBatchedRequest(int;Set<AllBrokersStrategy.BrokerKey>)
++  handleResponse(Node;Set<AllBrokersStrategy.BrokerKey>;AbstractResponse)
++  requireSingleton(Set<AllBrokersStrategy.BrokerKey>;int)
+} 
+@enduml

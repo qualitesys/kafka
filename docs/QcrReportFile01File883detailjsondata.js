@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AutoCloseable"
+ , "c2" : "org.apache.kafka.common.utils.BufferSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.BufferSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BufferSupplier"
+ , "c2" : "create()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "get(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "release(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.get@POLYN167679 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.get@POLYN169391 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,14 +160,14 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN168101 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN169813 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN168101 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN169813 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -142,21 +181,21 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN169040 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN170752 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN169040 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN170752 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN169040 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN170752 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -177,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.close@POLYN169735 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.close@POLYN171447 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

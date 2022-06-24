@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ConfigProvider <|-- org.apache.kafka.common.config.provider.DirectoryConfigProvider
+class org.apache.kafka.common.config.provider.DirectoryConfigProvider {
++  configure(Map<String,?>)
++  close()
++  get(String)
++  get(String;Set<String>)
++  get(String;Predicate<Path>)
++  read(Path)
+} 
+@enduml

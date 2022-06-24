@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ChannelMetadataRegistry <|-- org.apache.kafka.common.network.DefaultChannelMetadataRegistry
+class org.apache.kafka.common.network.DefaultChannelMetadataRegistry {
++  registerCipherInformation(CipherInformation)
++  cipherInformation()
++  registerClientInformation(ClientInformation)
++  clientInformation()
++  close()
+} 
+@enduml

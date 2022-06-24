@@ -1,0 +1,35 @@
+@startuml
+!pragma layout smetana
+WorkerTask <|-- org.apache.kafka.connect.runtime.AbstractWorkerSourceTask
+class org.apache.kafka.connect.runtime.AbstractWorkerSourceTask {
++  prepareToInitializeTask()
++  prepareToEnterSendLoop()
++  beginSendIteration()
++  prepareToPollTask()
++  recordDropped(SourceRecord)
++  prepareToSendRecord(SourceRecord;ProducerRecord<byte[],byte[]>)
++  recordDispatched(SourceRecord)
++  batchDispatched()
++  recordSent(SourceRecord;ProducerRecord<byte[],byte[]>;RecordMetadata)
++  producerSendFailed(boolean;ProducerRecord<byte[],byte[]>;SourceRecord;Exception)
++  finalOffsetCommit(boolean)
++  AbstractWorkerSourceTask(ConnectorTaskId;SourceTask;TaskStatus.Listener;TargetState;Converter;Converter;HeaderConverter;TransformationChain<SourceRecord>;WorkerSourceTaskContext;Producer<byte[],byte[]>;TopicAdmin;Map<String,TopicCreationGroup>;CloseableOffsetStorageReader;OffsetStorageWriter;ConnectorOffsetBackingStore;WorkerConfig;ConnectMetrics;ClassLoader;Time;RetryWithToleranceOperator;StatusBackingStore;Executor)
++  initialize(TaskConfig)
++  initializeAndStart()
++  cancel()
++  stop()
++  removeMetrics()
++  close()
++  closeProducer(Duration)
++  execute()
++  sendRecords()
++  poll()
++  convertTransformedRecord(SourceRecord)
++  maybeCreateTopic(String)
++  convertHeaderFor(SourceRecord)
++  commitTaskRecord(SourceRecord;RecordMetadata)
++  commitSourceTask()
++  recordPollReturned(int;long)
++  sourceTaskMetricsGroup()
+} 
+@enduml

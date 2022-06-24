@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+ThreadMetadata <|-- org.apache.kafka.streams.processor.internals.ThreadMetadataImpl
+class org.apache.kafka.streams.processor.internals.ThreadMetadataImpl {
++  ThreadMetadataImpl(String;String;String;String;Set<String>;String;Set<TaskMetadata>;Set<TaskMetadata>)
++  threadState()
++  threadName()
++  activeTasks()
++  standbyTasks()
++  consumerClientId()
++  restoreConsumerClientId()
++  producerClientIds()
++  adminClientId()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

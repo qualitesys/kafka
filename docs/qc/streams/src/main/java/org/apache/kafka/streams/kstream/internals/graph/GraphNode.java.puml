@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.graph.GraphNode
+class org.apache.kafka.streams.kstream.internals.graph.GraphNode {
++  GraphNode(String)
++  parentNodes()
++  parentNodeNames()
++  allParentsWrittenToTopology()
++  children()
++  clearChildren()
++  removeChild(GraphNode)
++  addChild(GraphNode)
++  nodeName()
++  isKeyChangingOperation()
++  isValueChangingOperation()
++  isMergeNode()
++  setMergeNode(boolean)
++  setValueChangingOperation(boolean)
++  keyChangingOperation(boolean)
++  setBuildPriority(int)
++  buildPriority()
++  writeToTopology(InternalTopologyBuilder)
++  hasWrittenToTopology()
++  setHasWrittenToTopology(boolean)
++  toString()
+} 
+@enduml

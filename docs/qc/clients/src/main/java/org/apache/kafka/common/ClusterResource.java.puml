@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.ClusterResource
+class org.apache.kafka.common.ClusterResource {
++  ClusterResource(String)
++  clusterId()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

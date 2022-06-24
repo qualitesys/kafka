@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Thread <|-- kafka.examples.Producer
+Callback <|-- kafka.examples.DemoCallBack
+class kafka.examples.DemoCallBack {
++  Producer(String;Boolean;String;boolean;int;int;CountDownLatch)
++  get()
++  run()
++  DemoCallBack(long;int;String)
++  onCompletion(RecordMetadata;Exception)
+} 
+@enduml

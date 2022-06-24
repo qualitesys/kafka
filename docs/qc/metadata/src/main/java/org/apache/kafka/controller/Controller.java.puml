@@ -1,0 +1,32 @@
+@startuml
+!pragma layout smetana
+AclMutator <|-- org.apache.kafka.controller.Controller
+class org.apache.kafka.controller.Controller {
++  alterPartition(ControllerRequestContext;AlterPartitionRequestData)
++  createTopics(ControllerRequestContext;CreateTopicsRequestData;Set<String>)
++  unregisterBroker(ControllerRequestContext;int)
++  findTopicIds(ControllerRequestContext;Collection<String>)
++  findAllTopicIds(ControllerRequestContext)
++  findTopicNames(ControllerRequestContext;Collection<Uuid>)
++  deleteTopics(ControllerRequestContext;Collection<Uuid>)
++  describeConfigs(ControllerRequestContext;Map<ConfigResource,Collection<String>>)
++  electLeaders(ControllerRequestContext;ElectLeadersRequestData)
++  finalizedFeatures(ControllerRequestContext)
++  incrementalAlterConfigs(ControllerRequestContext;Map<ConfigResource,Map<String,Map.Entry<AlterConfigOp.OpType,String>>>;boolean)
++  alterPartitionReassignments(ControllerRequestContext;AlterPartitionReassignmentsRequestData)
++  listPartitionReassignments(ControllerRequestContext;ListPartitionReassignmentsRequestData)
++  legacyAlterConfigs(ControllerRequestContext;Map<ConfigResource,Map<String,String>>;boolean)
++  processBrokerHeartbeat(ControllerRequestContext;BrokerHeartbeatRequestData)
++  registerBroker(ControllerRequestContext;BrokerRegistrationRequestData)
++  waitForReadyBrokers(int)
++  alterClientQuotas(ControllerRequestContext;Collection<ClientQuotaAlteration>;boolean)
++  allocateProducerIds(ControllerRequestContext;AllocateProducerIdsRequestData)
++  updateFeatures(ControllerRequestContext;UpdateFeaturesRequestData)
++  beginWritingSnapshot()
++  createPartitions(ControllerRequestContext;List<CreatePartitionsTopic>;boolean)
++  beginShutdown()
++  curClaimEpoch()
++  isActive()
++  close()
+} 
+@enduml

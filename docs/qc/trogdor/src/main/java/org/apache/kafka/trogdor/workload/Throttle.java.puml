@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.workload.Throttle
+class org.apache.kafka.trogdor.workload.Throttle {
++  Throttle(int;int)
++  increment()
++  lastTimeMs()
++  time()
++  delay(long)
+} 
+@enduml

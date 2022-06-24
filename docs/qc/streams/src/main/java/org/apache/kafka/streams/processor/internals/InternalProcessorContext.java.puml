@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+ProcessorContext <|-- org.apache.kafka.streams.processor.internals.InternalProcessorContext
+class org.apache.kafka.streams.processor.internals.InternalProcessorContext {
++  metrics()
++  setSystemTimeMs(long)
++  recordContext()
++  setRecordContext(ProcessorRecordContext)
++  setCurrentNode(ProcessorNode<?,?,?,?>)
++  currentNode()
++  cache()
++  initialize()
++  uninitialize()
++  taskType()
++  transitionToActive(StreamTask;RecordCollector;ThreadCache)
++  transitionToStandby(ThreadCache)
++  registerCacheFlushListener(String;DirtyEntryFlushListener)
++  logChange(String;Bytes;byte[];long;Position)
++  changelogFor(String)
++  addProcessorMetadataKeyValue(String;long)
++  processorMetadataForKey(String)
++  setProcessorMetadata(ProcessorMetadata)
++  getProcessorMetadata()
+} 
+@enduml

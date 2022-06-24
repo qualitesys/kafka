@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ControllerPurgatory
+class org.apache.kafka.controller.ControllerPurgatory {
++  completeUpTo(long)
++  failAll(Exception)
++  add(long;DeferredEvent)
++  highestPendingOffset()
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+OffsetBackingStore <|-- org.apache.kafka.connect.storage.ConnectorOffsetBackingStore
+class org.apache.kafka.connect.storage.ConnectorOffsetBackingStore {
++  ConnectorOffsetBackingStore(OffsetBackingStore;String)
++  primaryOffsetsTopic()
++  start()
++  stop()
++  get(Collection<ByteBuffer>)
++  set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)
++  configure(WorkerConfig)
+} 
+@enduml

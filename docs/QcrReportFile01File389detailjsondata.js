@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.OffsetMetadataTooLarge"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.OffsetMetadataTooLarge" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OffsetMetadataTooLarge"
+ , "c2" : "OffsetMetadataTooLarge()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetMetadataTooLarge"
+ , "c2" : "OffsetMetadataTooLarge(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetMetadataTooLarge"
+ , "c2" : "OffsetMetadataTooLarge(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetMetadataTooLarge"
+ , "c2" : "OffsetMetadataTooLarge(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetMetadataTooLarge.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetMetadataTooLarge.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.ByteBufferUnmapper
+class org.apache.kafka.common.utils.ByteBufferUnmapper {
++  ByteBufferUnmapper()
++  unmap(String;ByteBuffer)
++  lookupUnmapMethodHandle()
++  unmapJava7Or8(MethodHandles.Lookup)
++  unmapJava9(MethodHandles.Lookup)
++  nonNull(Object)
+} 
+@enduml

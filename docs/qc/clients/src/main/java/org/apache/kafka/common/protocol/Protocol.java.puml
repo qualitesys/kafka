@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.Protocol
+class org.apache.kafka.common.protocol.Protocol {
++  indentString(int)
++  schemaToBnfHtml(Schema;StringBuilder;int)
++  populateSchemaFields(Schema;Set<BoundField>)
++  schemaToFieldTableHtml(Schema;StringBuilder)
++  toHtml()
++  main(String[])
+} 
+@enduml

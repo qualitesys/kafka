@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+CumulativeSum <|-- org.apache.kafka.common.metrics.stats.CumulativeCount
+class org.apache.kafka.common.metrics.stats.CumulativeCount {
++  record(MetricConfig;double;long)
+} 
+@enduml

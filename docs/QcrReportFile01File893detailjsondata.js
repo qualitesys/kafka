@@ -2,18 +2,36 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java 39 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java 40 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.utils.ConfigUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.ConfigUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "configMapToRedactedString(Map<String,Object>;ConfigDef)"
+ , "c3" : "8"
+ , "c4" : "14"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -70,6 +88,13 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
  , "c4" : "1"
 }}
  ] 
@@ -246,6 +271,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00082] For method configMapToRedactedString list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN188292"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00082] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -275,77 +307,77 @@ var maDataBlocs = {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  '(redacted)' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  '(redacted)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN185829 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN187541 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

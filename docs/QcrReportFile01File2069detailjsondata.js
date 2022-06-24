@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractStoreBuilder<K,V,SessionStore<K,V>>"
+ , "c2" : "org.apache.kafka.streams.state.internals.SessionStoreBuilder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.SessionStoreBuilder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SessionStoreBuilder"
+ , "c2" : "SessionStoreBuilder(SessionBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SessionStore<K,V>"
+ , "c2" : "build()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SessionStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapCaching(SessionStore<Bytes,byte[]>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SessionStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapLogging(SessionStore<Bytes,byte[]>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "retentionPeriod()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN160285 the MagicNumber/String  'storeSupplier cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN161997 the MagicNumber/String  'storeSupplier cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN160285 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN161997 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {

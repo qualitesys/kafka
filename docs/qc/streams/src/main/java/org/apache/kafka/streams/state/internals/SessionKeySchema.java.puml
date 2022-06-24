@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+SegmentedBytesStore.KeySchema <|-- org.apache.kafka.streams.state.internals.SessionKeySchema
+class org.apache.kafka.streams.state.internals.SessionKeySchema {
++  keyByteLength(Bytes)
++  upperRangeFixedSize(Bytes;long)
++  lowerRangeFixedSize(Bytes;long)
++  upperRange(Bytes;long)
++  lowerRange(Bytes;long)
++  segmentTimestamp(Bytes)
++  hasNextCondition(Bytes;Bytes;long;long;boolean)
++  extractKeyBytes(byte[])
++  extractEndTimestamp(byte[])
++  extractStartTimestamp(byte[])
++  extractWindow(byte[])
++  from(Bytes)
++  toBinary(Windowed<Bytes>)
++  toBinary(Bytes;long;long)
++  writeBinary(ByteBuffer;Windowed<Bytes>)
++  writeBinary(ByteBuffer;Bytes;long;long)
+} 
+@enduml

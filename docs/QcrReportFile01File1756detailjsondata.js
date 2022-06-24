@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "BaseRepartitionNode<K,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UnoptimizableRepartitionNode"
+ , "c2" : "UnoptimizableRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>;InternalTopicProperties)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeToTopology(InternalTopologyBuilder)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,21 +111,21 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode.writeToTopology@POLYN162550 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode.writeToTopology@POLYN164262 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode.toString@POLYN163287 the MagicNumber/String  'UnoptimizableRepartitionNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode.toString@POLYN164999 the MagicNumber/String  'UnoptimizableRepartitionNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode.toString@POLYN163287 the MagicNumber/String  ' }' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode.toString@POLYN164999 the MagicNumber/String  ' }' should be converted to const"
 }} 
 ]
 };

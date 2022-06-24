@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+WindowBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier
+class org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier {
++  create(String;Duration;Duration;boolean;boolean)
++  RocksDbIndexedTimeOrderedWindowBytesStoreSupplier(String;long;long;long;boolean;boolean)
++  RocksDbIndexedTimeOrderedWindowBytesStoreSupplier(String;long;long;long;boolean;WindowStoreTypes)
++  name()
++  get()
++  metricsScope()
++  segmentIntervalMs()
++  windowSize()
++  retainDuplicates()
++  retentionPeriod()
++  toString()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+SinkTask <|-- org.apache.kafka.connect.tools.VerifiableSinkTask
+class org.apache.kafka.connect.tools.VerifiableSinkTask {
++  version()
++  start(Map<String,String>)
++  put(Collection<SinkRecord>)
++  flush(Map<TopicPartition,OffsetAndMetadata>)
++  stop()
+} 
+@enduml

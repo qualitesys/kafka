@@ -2,18 +2,330 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java 90 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java 108 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RocksDBMetrics"
+ , "c2" : "RocksDBMetrics()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "bytesWrittenToDatabaseSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "bytesReadFromDatabaseSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "memtableBytesFlushedSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "memtableHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "memtableAvgFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "memtableMinFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "memtableMaxFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "writeStallDurationSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "blockCacheDataHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "blockCacheIndexHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "blockCacheFilterHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "bytesReadDuringCompactionSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "bytesWrittenDuringCompactionSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "compactionTimeAvgSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "compactionTimeMinSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "compactionTimeMaxSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "numberOfOpenFilesSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "numberOfFileErrorsSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumEntriesActiveMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumEntriesImmMemTablesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumDeletesImmMemTablesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumDeletesActiveMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumImmutableMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addCurSizeActiveMemTable(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addCurSizeAllMemTables(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addSizeAllMemTables(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addMemTableFlushPending(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumRunningFlushesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addCompactionPendingMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumRunningCompactionsMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addEstimatePendingCompactionBytesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addTotalSstFilesSizeMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addLiveSstFilesSizeMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumLiveVersionMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addBlockCacheCapacityMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addBlockCacheUsageMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addBlockCachePinnedUsageMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addEstimateNumKeysMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addEstimateTableReadersMemMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addBackgroundErrorsMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addMutableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>;String;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "createSensor(StreamsMetricsImpl;RocksDBMetricContext;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,6 +384,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "43"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "18"
+}}
  ] 
 ,
 "data13b" : [
@@ -107,21 +426,21 @@ var maDataBlocs = {
    "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN242403 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN244115 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN242403 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN244115 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN242403 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN244115 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -129,6 +448,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#188"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00188] For method bytesWrittenToDatabaseSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#188"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00188] For method bytesWrittenToDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN245174"
 }} 
 ,
 { "ligne" : {
@@ -155,6 +481,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#206"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00206] For method bytesReadFromDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN245769"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#206"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00206] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -171,6 +504,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#224"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00224] For method memtableBytesFlushedSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#224"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00224] For method memtableBytesFlushedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN246364"
 }} 
 ,
 { "ligne" : {
@@ -197,6 +537,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00242"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#242"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00242] For method memtableHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN246959"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00242"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#242"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00242] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -213,6 +560,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#259"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00259] For method memtableAvgFlushTimeSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00259"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#259"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00259] For method memtableAvgFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN247532"
 }} 
 ,
 { "ligne" : {
@@ -239,6 +593,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00276"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00276] For method memtableMinFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN248105"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00276"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#276"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00276] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -255,6 +616,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#293"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00293] For method memtableMaxFlushTimeSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00293"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#293"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00293] For method memtableMaxFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN248678"
 }} 
 ,
 { "ligne" : {
@@ -281,6 +649,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00310"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#310"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00310] For method writeStallDurationSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN249251"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00310"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#310"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00310] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -297,6 +672,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#328"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00328] For method blockCacheDataHitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00328"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#328"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00328] For method blockCacheDataHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN249846"
 }} 
 ,
 { "ligne" : {
@@ -323,6 +705,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#345"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00345] For method blockCacheIndexHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN250419"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00345"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#345"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00345] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -339,6 +728,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#362"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00362] For method blockCacheFilterHitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00362"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#362"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00362] For method blockCacheFilterHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN250992"
 }} 
 ,
 { "ligne" : {
@@ -365,6 +761,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#379"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00379] For method bytesReadDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN251565"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#379"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00379] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -381,6 +784,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#396"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00396] For method bytesWrittenDuringCompactionSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00396"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#396"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00396] For method bytesWrittenDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN252138"
 }} 
 ,
 { "ligne" : {
@@ -407,6 +817,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00413"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#413"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00413] For method compactionTimeAvgSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN252711"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00413"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#413"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00413] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -423,6 +840,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#430"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00430] For method compactionTimeMinSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00430"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#430"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00430] For method compactionTimeMinSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN253284"
 }} 
 ,
 { "ligne" : {
@@ -449,6 +873,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00447"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#447"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00447] For method compactionTimeMaxSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN253857"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00447"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#447"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00447] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -470,6 +901,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00464"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#464"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00464] For method numberOfOpenFilesSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN254430"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00464"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#464"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00464] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -485,7 +923,7 @@ var maDataBlocs = {
    "c1" : "00476"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfOpenFilesSensor@POLYN252585 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfOpenFilesSensor@POLYN254297 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -493,6 +931,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#482"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00482] For method numberOfFileErrorsSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00482"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#482"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00482] For method numberOfFileErrorsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN255027"
 }} 
 ,
 { "ligne" : {

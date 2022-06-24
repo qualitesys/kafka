@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+TimestampExtractor <|-- org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor
+class org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor {
++  extract(ConsumerRecord<Object,Object>;long)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Provider <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider
+class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider {
++  OAuthBearerSaslClientProvider()
++  initialize()
+} 
+@enduml

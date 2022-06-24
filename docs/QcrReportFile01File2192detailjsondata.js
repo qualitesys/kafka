@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "FlushGenerator"
+ , "c2" : "org.apache.kafka.trogdor.workload.ConstantFlushGenerator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.ConstantFlushGenerator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConstantFlushGenerator"
+ , "c2" : "ConstantFlushGenerator(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "messagesPerFlush()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.svg" }
+
 ] 
 , 
 "data04" : [

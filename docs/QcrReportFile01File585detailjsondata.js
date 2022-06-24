@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.replica.ClientMetadata"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.replica.ClientMetadata" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "rackId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "clientId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "InetAddress"
+ , "c2" : "clientAddress()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaPrincipal"
+ , "c2" : "principal()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "listenerName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,91 +139,91 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN164890 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN166602 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN164890 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN166602 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN164890 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN166602 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  'DefaultClientMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  'DefaultClientMetadata{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  'rackId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  'rackId='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', clientId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  ', clientId='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', clientAddress=' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  ', clientAddress=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', principal=' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  ', principal=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  ', listenerName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  ', listenerName='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN166004 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN167716 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

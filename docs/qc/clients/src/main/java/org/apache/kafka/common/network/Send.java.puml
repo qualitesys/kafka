@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.network.Send
+class org.apache.kafka.common.network.Send {
++  completed()
++  writeTo(TransferableChannel)
++  size()
+} 
+@enduml

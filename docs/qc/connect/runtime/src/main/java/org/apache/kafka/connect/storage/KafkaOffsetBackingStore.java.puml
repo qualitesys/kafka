@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+OffsetBackingStore <|-- org.apache.kafka.connect.storage.KafkaOffsetBackingStore
+class org.apache.kafka.connect.storage.KafkaOffsetBackingStore {
++  KafkaOffsetBackingStore()
++  KafkaOffsetBackingStore(Supplier<TopicAdmin>)
++  configure(WorkerConfig)
++  createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<byte[],byte[]>>;NewTopic;Supplier<TopicAdmin>)
++  start()
++  stop()
++  get(Collection<ByteBuffer>)
++  set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)
+} 
+@enduml

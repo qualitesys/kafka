@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+InvalidOffsetException <|-- org.apache.kafka.clients.consumer.NoOffsetForPartitionException
+class org.apache.kafka.clients.consumer.NoOffsetForPartitionException {
++  NoOffsetForPartitionException(TopicPartition)
++  NoOffsetForPartitionException(Collection<TopicPartition>)
++  partitions()
+} 
+@enduml

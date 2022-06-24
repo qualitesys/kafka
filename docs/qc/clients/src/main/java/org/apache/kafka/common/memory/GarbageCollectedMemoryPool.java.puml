@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+SimpleMemoryPoolAutoCloseable <|-- org.apache.kafka.common.memory.GarbageCollectedMemoryPool
+class org.apache.kafka.common.memory.GarbageCollectedMemoryPool {
++  GarbageCollectedMemoryPool(long;int;boolean;Sensor)
++  bufferToBeReturned(ByteBuffer)
++  bufferToBeReleased(ByteBuffer)
++  close()
++  toString()
+} 
+@enduml

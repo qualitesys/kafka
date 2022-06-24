@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.timeline.Revertable
+class org.apache.kafka.timeline.Revertable {
++  executeRevert(long;Delta)
++  reset()
+} 
+@enduml

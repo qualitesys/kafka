@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Iterator<T> <|-- org.apache.kafka.common.utils.AbstractIterator
+class org.apache.kafka.common.utils.AbstractIterator {
++  hasNext()
++  next()
++  remove()
++  peek()
++  allDone()
++  makeNext()
++  maybeComputeNext()
+} 
+@enduml

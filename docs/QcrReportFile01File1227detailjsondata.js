@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Predicate<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.predicates.RecordIsTombstone"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.predicates.RecordIsTombstone" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "test(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.test@POLYN157054 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.test@POLYN158766 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.toString@POLYN157383 the MagicNumber/String  'RecordIsTombstone{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.toString@POLYN159095 the MagicNumber/String  'RecordIsTombstone{}' should be converted to const"
 }} 
 ,
 { "ligne" : {

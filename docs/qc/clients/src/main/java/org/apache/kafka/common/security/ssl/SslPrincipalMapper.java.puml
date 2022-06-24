@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.ssl.SslPrincipalMapper
+class org.apache.kafka.common.security.ssl.SslPrincipalMapper {
++  SslPrincipalMapper(String)
++  fromRules(String)
++  splitRules(String)
++  parseRules(List<String>)
++  getName(String)
++  toString()
+} 
+@enduml

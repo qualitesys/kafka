@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.internals.metrics.ClientMetrics
+class org.apache.kafka.streams.internals.metrics.ClientMetrics {
++  ClientMetrics()
++  version()
++  commitId()
++  addVersionMetric(StreamsMetricsImpl)
++  addCommitIdMetric(StreamsMetricsImpl)
++  addApplicationIdMetric(StreamsMetricsImpl;String)
++  addTopologyDescriptionMetric(StreamsMetricsImpl;Gauge<String>)
++  addStateMetric(StreamsMetricsImpl;Gauge<State>)
++  addNumAliveStreamThreadMetric(StreamsMetricsImpl;Gauge<Integer>)
++  failedStreamThreadSensor(StreamsMetricsImpl)
+} 
+@enduml

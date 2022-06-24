@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.HeartbeatResponse
+class org.apache.kafka.common.requests.HeartbeatResponse {
++  HeartbeatResponse(HeartbeatResponseData)
++  throttleTimeMs()
++  error()
++  errorCounts()
++  data()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

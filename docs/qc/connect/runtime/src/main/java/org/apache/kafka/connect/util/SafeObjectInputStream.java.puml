@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ObjectInputStream <|-- org.apache.kafka.connect.util.SafeObjectInputStream
+class org.apache.kafka.connect.util.SafeObjectInputStream {
++  SafeObjectInputStream(InputStream)
++  resolveClass(ObjectStreamClass)
++  isBlocked(String)
+} 
+@enduml

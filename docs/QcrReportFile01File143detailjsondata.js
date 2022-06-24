@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.UnregisterBrokerResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.UnregisterBrokerResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UnregisterBrokerResult"
+ , "c2" : "UnregisterBrokerResult(KafkaFuture<Void>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerResult.java.svg" }
+
 ] 
 , 
 "data04" : [

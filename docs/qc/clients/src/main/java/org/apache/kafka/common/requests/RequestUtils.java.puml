@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.requests.RequestUtils
+class org.apache.kafka.common.requests.RequestUtils {
++  RequestUtils()
++  getLeaderEpoch(int)
++  hasTransactionalRecords(ProduceRequest)
++  flag(ProduceRequest;Predicate<RecordBatch>)
++  serialize(Message;short;Message;short)
+} 
+@enduml

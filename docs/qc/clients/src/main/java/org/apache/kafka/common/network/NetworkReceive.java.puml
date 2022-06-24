@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+Receive <|-- org.apache.kafka.common.network.NetworkReceive
+class org.apache.kafka.common.network.NetworkReceive {
++  NetworkReceive(String;ByteBuffer)
++  NetworkReceive(String)
++  NetworkReceive(int;String)
++  NetworkReceive(int;String;MemoryPool)
++  NetworkReceive()
++  source()
++  complete()
++  readFrom(ScatteringByteChannel)
++  requiredMemoryAmountKnown()
++  memoryAllocated()
++  close()
++  payload()
++  bytesRead()
++  size()
+} 
+@enduml

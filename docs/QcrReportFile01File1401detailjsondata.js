@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.raft.LogFetchInfo"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.LogFetchInfo" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "LogFetchInfo"
+ , "c2" : "LogFetchInfo(Records;LogOffsetMetadata)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogFetchInfo.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogFetchInfo.java.svg" }
+
 ] 
 , 
 "data04" : [

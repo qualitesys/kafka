@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark
+class org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark {
++  setup()
++  testGetListOffsetsCalls()
++  mockCluster()
+} 
+@enduml

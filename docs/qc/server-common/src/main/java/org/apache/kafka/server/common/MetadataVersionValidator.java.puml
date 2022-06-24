@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Validator <|-- org.apache.kafka.server.common.MetadataVersionValidator
+class org.apache.kafka.server.common.MetadataVersionValidator {
++  ensureValid(String;Object)
++  toString()
+} 
+@enduml

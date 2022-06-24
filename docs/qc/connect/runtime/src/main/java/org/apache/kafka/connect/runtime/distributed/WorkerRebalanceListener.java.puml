@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.distributed.WorkerRebalanceListener
+class org.apache.kafka.connect.runtime.distributed.WorkerRebalanceListener {
++  onAssigned(ExtendedAssignment;int)
++  onRevoked(String;Collection<String>;Collection<ConnectorTaskId>)
+} 
+@enduml

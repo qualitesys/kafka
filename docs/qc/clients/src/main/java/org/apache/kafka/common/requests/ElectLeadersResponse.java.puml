@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.ElectLeadersResponse
+class org.apache.kafka.common.requests.ElectLeadersResponse {
++  ElectLeadersResponse(ElectLeadersResponseData)
++  ElectLeadersResponse(int;short;List<ReplicaElectionResult>;short)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
++  electLeadersResult(ElectLeadersResponseData)
+} 
+@enduml

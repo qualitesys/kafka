@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Transformation<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.Filter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.Filter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "apply(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.transforms.Filter.apply@POLYN157489 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.transforms.Filter.apply@POLYN159201 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

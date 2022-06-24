@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+Type <|-- org.apache.kafka.common.protocol.types.Schema
+class org.apache.kafka.common.protocol.types.Schema {
++  Schema(Field...)
++  Schema(boolean;Field...)
++  write(ByteBuffer;Object)
++  read(ByteBuffer)
++  sizeOf(Object)
++  numFields()
++  get(int)
++  get(String)
++  fields()
++  toString()
++  validate(Object)
++  walk(Visitor)
++  handleNode(Type;Visitor)
+} 
+@enduml

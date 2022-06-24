@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+TypeClassGenerator <|-- org.apache.kafka.message.ApiMessageTypeGenerator
+class org.apache.kafka.message.ApiMessageTypeGenerator {
++  ApiMessageTypeGenerator(String)
++  outputName()
++  registerMessageType(MessageSpec)
++  generateAndWrite(BufferedWriter)
++  generate()
++  generateListenerTypeEnumSet(Collection<String>)
++  generateEnumValues()
++  generateInstanceVariables()
++  generateEnumConstructor()
++  generateFromApiKey()
++  generateNewApiMessageMethod(String)
++  generateAccessor(String;String)
++  generateToString()
++  generateHeaderVersion(String)
++  generateListenerTypesEnum()
++  write(BufferedWriter)
+} 
+@enduml

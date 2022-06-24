@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StreamsMetadataState
+class org.apache.kafka.streams.processor.internals.StreamsMetadataState {
++  StreamsMetadataState(TopologyMetadata;HostInfo;LogContext)
++  toString()
++  toString(String)
++  getLocalMetadata()
++  getAllMetadata()
++  getAllMetadataForStore(String)
++  getAllMetadataForStore(String;String)
++  getAllMetadataForTopology(String)
++  onChange(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Cluster)
++  hasPartitionsForAnyTopics(List<String>;Set<TopicPartition>)
++  getStoresOnHost(Map<String,List<String>>;Set<TopicPartition>)
++  rebuildMetadata(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)
++  rebuildMetadataForNamedTopologies(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)
++  rebuildMetadataForSingleTopology(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)
++  getSourceTopicsInfo(String)
++  getSourceTopicsInfo(String;String)
++  isInitialized()
++  getStoreForChangelogTopic(String)
+} 
+@enduml

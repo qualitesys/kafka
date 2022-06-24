@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+AbstractConfig <|-- org.apache.kafka.connect.runtime.WorkerConfig
+class org.apache.kafka.connect.runtime.WorkerConfig {
++  baseConfigDef()
++  logInternalConverterRemovalWarnings(Map<String,String>)
++  logPluginPathConfigProviderWarning(Map<String,String>)
++  bootstrapServers()
++  getRebalanceTimeout()
++  topicCreationEnable()
++  exactlyOnceSourceEnabled()
++  offsetsTopic()
++  connectorOffsetsTopicsPermitted()
++  offsetCommitInterval()
++  groupId()
++  postProcessParsedConfig(Map<String,Object>)
++  pluginLocations(Map<String,String>)
++  WorkerConfig(ConfigDef;Map<String,String>)
++  validateHttpResponseHeaderConfig(String)
++  validateHeaderConfigAction(String)
+} 
+@enduml

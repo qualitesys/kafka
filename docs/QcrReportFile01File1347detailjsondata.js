@@ -8,12 +8,79 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.metadata.BrokerHeartbeatReply"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.BrokerHeartbeatReply" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BrokerHeartbeatReply"
+ , "c2" : "BrokerHeartbeatReply(boolean;boolean;boolean;boolean)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isCaughtUp()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isFenced()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "inControlledShutdown()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldShutDown()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,42 +146,42 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.metadata.BrokerHeartbeatReply.equals@POLYN160817 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.metadata.BrokerHeartbeatReply.equals@POLYN162529 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN161315 the MagicNumber/String  'BrokerHeartbeatReply(isCaughtUp=' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN163027 the MagicNumber/String  'BrokerHeartbeatReply(isCaughtUp=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN161315 the MagicNumber/String  ', isFenced=' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN163027 the MagicNumber/String  ', isFenced=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN161315 the MagicNumber/String  ', inControlledShutdown=' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN163027 the MagicNumber/String  ', inControlledShutdown=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN161315 the MagicNumber/String  ', shouldShutDown = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN163027 the MagicNumber/String  ', shouldShutDown = ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN161315 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.metadata.BrokerHeartbeatReply.toString@POLYN163027 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

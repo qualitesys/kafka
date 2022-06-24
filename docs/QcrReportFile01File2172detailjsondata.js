@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Message"
+ , "c2" : "org.apache.kafka.trogdor.rest.TasksResponse"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.TasksResponse" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TasksResponse"
+ , "c2" : "TasksResponse(TreeMap<String,TaskState>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,TaskState>"
+ , "c2" : "tasks()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +76,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.trogdor.rest.TasksResponse.TasksResponse@POLYN155655 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.trogdor.rest.TasksResponse.TasksResponse@POLYN157367 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

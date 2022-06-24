@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.MirrorUtils
+class org.apache.kafka.connect.mirror.MirrorUtils {
++  MirrorUtils()
++  newProducer(Map<String,Object>)
++  newConsumer(Map<String,Object>)
++  encodeTopicPartition(TopicPartition)
++  wrapPartition(TopicPartition;String)
++  wrapOffset(long)
++  unwrapPartition(Map<String,?>)
++  unwrapOffset(Map<String,?>)
++  decodeTopicPartition(String)
++  compilePatternList(List<String>)
++  compilePatternList(String)
++  createCompactedTopic(String;short;short;Map<String,Object>)
++  createSinglePartitionCompactedTopic(String;short;Map<String,Object>)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+KTableProcessorSupplier<KIn,VIn,KIn,VAgg> <|-- org.apache.kafka.streams.kstream.internals.KTableAggregate
+class org.apache.kafka.streams.kstream.internals.KTableAggregate {
++  KTableAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)
++  enableSendingOldValues(boolean)
++  get()
++  view()
+} 
+@enduml

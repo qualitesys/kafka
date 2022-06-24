@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Metric <|-- org.apache.kafka.common.metrics.KafkaMetric
+class org.apache.kafka.common.metrics.KafkaMetric {
++  KafkaMetric(Object;MetricName;MetricValueProvider<?>;MetricConfig;Time)
++  config()
++  metricName()
++  metricValue()
++  measurable()
++  measurableValue(long)
++  config(MetricConfig)
+} 
+@enduml

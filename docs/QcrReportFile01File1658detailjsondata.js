@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessorSupplier<K,V,K,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamJoinWindow"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamJoinWindow" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamJoinWindow"
+ , "c2" : "KStreamJoinWindow(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<K,V,K,V>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.KStreamJoinWindow.KStreamJoinWindowProcessor.process@POLYN159969 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.KStreamJoinWindow.KStreamJoinWindowProcessor.process@POLYN161681 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

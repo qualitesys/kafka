@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "GatheringByteChannel"
+ , "c2" : "org.apache.kafka.common.network.TransferableChannel"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.network.TransferableChannel" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasPendingWrites()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "transferFrom(FileChannel;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.svg" }
+
 ] 
 , 
 "data04" : [

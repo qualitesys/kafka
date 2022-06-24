@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.task.TaskWorker
+class org.apache.kafka.trogdor.task.TaskWorker {
++  start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)
++  stop(Platform)
+} 
+@enduml

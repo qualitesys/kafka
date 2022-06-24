@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.BaseJoinProcessorNode
+class org.apache.kafka.streams.kstream.internals.graph.BaseJoinProcessorNode {
++  BaseJoinProcessorNode(String;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVR>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;ProcessorParameters<K,VR,?,?>;String;String)
++  thisProcessorParameters()
++  otherProcessorParameters()
++  mergeProcessorParameters()
++  thisJoinSideNodeName()
++  otherJoinSideNodeName()
++  toString()
+} 
+@enduml

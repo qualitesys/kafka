@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.FeatureMetadata
+class org.apache.kafka.clients.admin.FeatureMetadata {
++  FeatureMetadata(Map<String,FinalizedVersionRange>;Optional<Long>;Map<String,SupportedVersionRange>)
++  finalizedFeatures()
++  finalizedFeaturesEpoch()
++  supportedFeatures()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

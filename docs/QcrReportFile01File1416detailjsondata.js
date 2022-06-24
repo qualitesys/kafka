@@ -8,12 +8,219 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AutoCloseable"
+ , "c2" : "org.apache.kafka.raft.ReplicatedLog"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.ReplicatedLog" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "LogAppendInfo"
+ , "c2" : "appendAsLeader(Records;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LogAppendInfo"
+ , "c2" : "appendAsFollower(Records)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LogFetchInfo"
+ , "c2" : "read(long;Isolation)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "lastFetchedEpoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ValidOffsetAndEpoch"
+ , "c2" : "validateOffsetAndEpoch(long;int)"
+ , "c3" : "6"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetAndEpoch"
+ , "c2" : "endOffsetForEpoch(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LogOffsetMetadata"
+ , "c2" : "endOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LogOffsetMetadata"
+ , "c2" : "highWatermark()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "startOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "initializeLeaderEpoch(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "truncateTo(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "truncateToLatestSnapshot()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updateHighWatermark(LogOffsetMetadata)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "deleteBeforeSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "flush(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "maybeClean()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "lastFlushedOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicPartition"
+ , "c2" : "topicPartition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "topicId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "truncateToEndOffset(OffsetAndEpoch)"
+ , "c3" : "5"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<RawSnapshotWriter>"
+ , "c2" : "createNewSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<RawSnapshotWriter>"
+ , "c2" : "storeSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<RawSnapshotReader>"
+ , "c2" : "readSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<RawSnapshotReader>"
+ , "c2" : "latestSnapshot()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<OffsetAndEpoch>"
+ , "c2" : "latestSnapshotId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<OffsetAndEpoch>"
+ , "c2" : "earliestSnapshotId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "onSnapshotFrozen(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.svg" }
+
 ] 
 , 
 "data04" : [

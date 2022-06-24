@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.runtime.errors.ProcessingContext
+class org.apache.kafka.connect.runtime.errors.ProcessingContext {
++  reset()
++  consumerRecord(ConsumerRecord<byte[],byte[]>)
++  consumerRecord()
++  sourceRecord()
++  sourceRecord(SourceRecord)
++  position(Stage)
++  stage()
++  executingClass()
++  executingClass(Class<?>)
++  currentContext(Stage;Class<?>)
++  report()
++  toString()
++  toString(boolean)
++  attempt(int)
++  attempt()
++  error()
++  error(Throwable)
++  failed()
++  reporters(Collection<ErrorReporter>)
++  close()
+} 
+@enduml

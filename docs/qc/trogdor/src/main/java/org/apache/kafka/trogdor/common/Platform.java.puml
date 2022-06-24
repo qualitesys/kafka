@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.common.Platform
+class org.apache.kafka.trogdor.common.Platform {
++  name()
++  curNode()
++  topology()
++  scheduler()
++  runCommand(String[])
+} 
+@enduml

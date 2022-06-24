@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- kafka.server.builders.LogManagerBuilder
+class kafka.server.builders.LogManagerBuilder {
++  setLogDirs(List<File>)
++  setInitialOfflineDirs(List<File>)
++  setConfigRepository(ConfigRepository)
++  setInitialDefaultConfig(LogConfig)
++  setCleanerConfig(CleanerConfig)
++  setRecoveryThreadsPerDataDir(int)
++  setFlushCheckMs(long)
++  setFlushRecoveryOffsetCheckpointMs(long)
++  setFlushStartOffsetCheckpointMs(long)
++  setRetentionCheckMs(long)
++  setMaxTransactionTimeoutMs(int)
++  setMaxPidExpirationMs(int)
++  setInterBrokerProtocolVersion(MetadataVersion)
++  setScheduler(Scheduler)
++  setBrokerTopicStats(BrokerTopicStats)
++  setLogDirFailureChannel(LogDirFailureChannel)
++  setTime(Time)
++  setKeepPartitionMetadataFile(boolean)
++  build()
+} 
+@enduml

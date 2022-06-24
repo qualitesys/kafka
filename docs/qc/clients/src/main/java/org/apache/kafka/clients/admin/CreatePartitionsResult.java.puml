@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.CreatePartitionsResult
+class org.apache.kafka.clients.admin.CreatePartitionsResult {
++  CreatePartitionsResult(Map<String,KafkaFuture<Void>>)
++  values()
++  all()
+} 
+@enduml

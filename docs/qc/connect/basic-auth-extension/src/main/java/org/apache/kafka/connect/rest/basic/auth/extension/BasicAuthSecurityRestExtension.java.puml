@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+ConnectRestExtension <|-- org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension
+class org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension {
++  initializeConfiguration(Supplier<Configuration>)
++  BasicAuthSecurityRestExtension()
++  BasicAuthSecurityRestExtension(Supplier<Configuration>)
++  register(ConnectRestExtensionContext)
++  close()
++  configure(Map<String,?>)
++  version()
+} 
+@enduml

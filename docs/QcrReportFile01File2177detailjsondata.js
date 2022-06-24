@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WorkerState"
+ , "c2" : "org.apache.kafka.trogdor.rest.WorkerStarting"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerStarting" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "WorkerStarting"
+ , "c2" : "WorkerStarting(String;TaskSpec)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "JsonNode"
+ , "c2" : "status()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +76,7 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.rest.WorkerStarting.status@POLYN155682 the MagicNumber/String  'starting' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.rest.WorkerStarting.status@POLYN157394 the MagicNumber/String  'starting' should be converted to const"
 }} 
 ]
 };

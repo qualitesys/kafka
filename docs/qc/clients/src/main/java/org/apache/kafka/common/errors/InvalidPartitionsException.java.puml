@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidPartitionsException
+class org.apache.kafka.common.errors.InvalidPartitionsException {
++  InvalidPartitionsException(String)
++  InvalidPartitionsException(String;Throwable)
+} 
+@enduml

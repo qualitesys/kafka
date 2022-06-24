@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+BlockBasedTableConfig <|-- org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache
+class org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache {
++  setBlockCache(Cache)
++  blockCache()
+} 
+@enduml

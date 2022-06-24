@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+SinkConnector <|-- org.apache.kafka.connect.tools.MockSinkConnector
+class org.apache.kafka.connect.tools.MockSinkConnector {
++  initialize(ConnectorContext)
++  initialize(ConnectorContext;List<Map<String,String>>)
++  reconfigure(Map<String,String>)
++  validate(Map<String,String>)
++  version()
++  start(Map<String,String>)
++  taskClass()
++  taskConfigs(int)
++  stop()
++  config()
+} 
+@enduml

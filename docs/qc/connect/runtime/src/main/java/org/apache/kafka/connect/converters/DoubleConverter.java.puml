@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+NumberConverter<Double> <|-- org.apache.kafka.connect.converters.DoubleConverter
+class org.apache.kafka.connect.converters.DoubleConverter {
++  DoubleConverter()
+} 
+@enduml

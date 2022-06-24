@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.util.ConnectorUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.util.ConnectorUtils" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.svg" }
+
 ] 
 , 
 "data04" : [

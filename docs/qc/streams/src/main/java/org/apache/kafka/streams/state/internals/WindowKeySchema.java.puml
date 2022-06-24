@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+RocksDBSegmentedBytesStore.KeySchema <|-- org.apache.kafka.streams.state.internals.WindowKeySchema
+class org.apache.kafka.streams.state.internals.WindowKeySchema {
++  upperRange(Bytes;long)
++  lowerRange(Bytes;long)
++  lowerRangeFixedSize(Bytes;long)
++  upperRangeFixedSize(Bytes;long)
++  segmentTimestamp(Bytes)
++  hasNextCondition(Bytes;Bytes;long;long;boolean)
++  timeWindowForSize(long;long)
++  extractWindow(byte[];long)
++  toStoreKeyBinary(Bytes;long;int)
++  toStoreKeyBinary(Windowed<Bytes>;int)
++  toStoreKeyBinary(byte[];long;int)
++  extractStoreKeyBytes(byte[])
++  extractStoreTimestamp(byte[])
++  extractStoreSequence(byte[])
++  fromStoreBytesKey(byte[];long)
++  extractStoreWindow(byte[];long)
+} 
+@enduml

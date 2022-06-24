@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.mirror.OffsetSyncStore
+class org.apache.kafka.connect.mirror.OffsetSyncStore {
++  OffsetSyncStore(MirrorConnectorConfig)
++  OffsetSyncStore(KafkaConsumer<byte[],byte[]>;TopicPartition)
++  translateDownstream(TopicPartition;long)
++  update(Duration)
++  close()
++  handleRecord(ConsumerRecord<byte[],byte[]>)
++  latestOffsetSync(TopicPartition)
+} 
+@enduml

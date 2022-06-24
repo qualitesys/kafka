@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+DocumentedType <|-- org.apache.kafka.common.protocol.types.TaggedFields
+class org.apache.kafka.common.protocol.types.TaggedFields {
++  of(Object...)
++  TaggedFields(Map<Integer,Field>)
++  isNullable()
++  write(ByteBuffer;Object)
++  read(ByteBuffer)
++  sizeOf(Object)
++  toString()
++  validate(Object)
++  typeName()
++  documentation()
++  numFields()
+} 
+@enduml

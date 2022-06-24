@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.ExpireDelegationTokenResponse
+class org.apache.kafka.common.requests.ExpireDelegationTokenResponse {
++  ExpireDelegationTokenResponse(ExpireDelegationTokenResponseData)
++  parse(ByteBuffer;short)
++  error()
++  expiryTimestamp()
++  errorCounts()
++  data()
++  throttleTimeMs()
++  hasError()
++  shouldClientThrottle(short)
+} 
+@enduml

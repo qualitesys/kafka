@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+RemoteLogMetadataManager <|-- org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager
+class org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager {
++  TopicBasedRemoteLogMetadataManager()
++  TopicBasedRemoteLogMetadataManager(boolean)
++  addRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)
++  updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate)
++  putRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)
++  storeRemoteLogMetadata(TopicIdPartition;RemoteLogMetadata)
++  remoteLogSegmentMetadata(TopicIdPartition;int;long)
++  highestOffsetForEpoch(TopicIdPartition;int)
++  listRemoteLogSegments(TopicIdPartition)
++  listRemoteLogSegments(TopicIdPartition;int)
++  metadataPartition(TopicIdPartition)
++  receivedOffsetForPartition(int)
++  onPartitionLeadershipChanges(Set<TopicIdPartition>;Set<TopicIdPartition>)
++  assignPartitions(Set<TopicIdPartition>)
++  onStopPartitions(Set<TopicIdPartition>)
++  configure(Map<String,?>)
++  initializeResources()
++  isPartitionsCountSameAsConfigured(AdminClient;String)
++  createRemoteLogMetadataTopicRequest()
++  createTopic(AdminClient;NewTopic)
++  isInitialized()
++  ensureInitializedAndNotClosed()
++  config()
++  startConsumerThread()
++  close()
+} 
+@enduml

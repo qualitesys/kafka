@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.json.JsonSchema
+class org.apache.kafka.connect.json.JsonSchema {
++  envelope(JsonNode;JsonNode)
+} 
+@enduml

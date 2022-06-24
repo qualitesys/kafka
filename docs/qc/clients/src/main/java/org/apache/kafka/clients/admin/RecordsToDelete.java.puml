@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.RecordsToDelete
+class org.apache.kafka.clients.admin.RecordsToDelete {
++  RecordsToDelete(long)
++  beforeOffset(long)
++  beforeOffset()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

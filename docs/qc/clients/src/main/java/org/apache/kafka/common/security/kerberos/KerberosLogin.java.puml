@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+AbstractLogin <|-- org.apache.kafka.common.security.kerberos.KerberosLogin
+class org.apache.kafka.common.security.kerberos.KerberosLogin {
++  configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler)
++  login()
++  close()
++  subject()
++  serviceName()
++  getServiceName(Map<String,?>;String;Configuration)
++  getRefreshTime(KerberosTicket)
++  getTGT()
++  hasSufficientTimeElapsed()
++  reLogin()
++  login(LoginContext)
++  logout()
++  currentElapsedTime()
++  currentWallTime()
+} 
+@enduml

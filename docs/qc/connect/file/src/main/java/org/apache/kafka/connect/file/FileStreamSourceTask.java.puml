@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+SourceTask <|-- org.apache.kafka.connect.file.FileStreamSourceTask
+class org.apache.kafka.connect.file.FileStreamSourceTask {
++  FileStreamSourceTask()
++  FileStreamSourceTask(int)
++  version()
++  start(Map<String,String>)
++  poll()
++  extractLine()
++  stop()
++  offsetKey(String)
++  offsetValue(Long)
++  logFilename()
++  bufferSize()
+} 
+@enduml

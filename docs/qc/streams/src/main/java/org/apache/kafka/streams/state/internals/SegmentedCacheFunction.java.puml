@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+CacheFunction <|-- org.apache.kafka.streams.state.internals.SegmentedCacheFunction
+class org.apache.kafka.streams.state.internals.SegmentedCacheFunction {
++  SegmentedCacheFunction(KeySchema;long)
++  key(Bytes)
++  cacheKey(Bytes)
++  cacheKey(Bytes;long)
++  bytesFromCacheKey(Bytes)
++  segmentId(Bytes)
++  segmentId(long)
++  getSegmentInterval()
++  compareSegmentedKeys(Bytes;Bytes)
+} 
+@enduml

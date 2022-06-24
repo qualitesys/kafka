@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ServerInfo
+class org.apache.kafka.connect.runtime.rest.entities.ServerInfo {
++  ServerInfo(String;String;String)
++  ServerInfo(String)
++  version()
++  commit()
++  clusterId()
+} 
+@enduml

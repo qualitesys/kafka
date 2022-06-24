@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+RuntimeException <|-- org.apache.kafka.trogdor.rest.RequestConflictException
+class org.apache.kafka.trogdor.rest.RequestConflictException {
++  RequestConflictException(String)
++  RequestConflictException()
+} 
+@enduml

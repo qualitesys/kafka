@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+StandbyTaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor
+class org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor {
++  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignorConfiguration.AssignmentConfigs)
+} 
+@enduml

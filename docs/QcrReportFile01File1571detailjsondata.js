@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "NamedOperation<Branched<K,V>>"
+ , "c2" : "org.apache.kafka.streams.kstream.Branched"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.Branched" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Branched"
+ , "c2" : "Branched(String;Function<?superKStream<K,V>,?extendsKStream<K,V>>;Consumer<?superKStream<K,V>>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Branched"
+ , "c2" : "Branched(Branched<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Branched<K,V>"
+ , "c2" : "withName(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -184,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.Branched.withName@POLYN190822 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.Branched.withName@POLYN192534 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ]
 };

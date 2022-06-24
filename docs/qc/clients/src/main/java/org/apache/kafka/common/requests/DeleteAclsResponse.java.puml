@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DeleteAclsResponse
+class org.apache.kafka.common.requests.DeleteAclsResponse {
++  DeleteAclsResponse(DeleteAclsResponseData;short)
++  data()
++  throttleTimeMs()
++  filterResults()
++  errorCounts()
++  parse(ByteBuffer;short)
++  toString()
++  shouldClientThrottle(short)
++  validate(short)
++  filterResult(AclDeleteResult)
++  matchingAcl(AclDeleteResult.AclBindingDeleteResult)
++  matchingAcl(AclBinding;ApiError)
++  aclBinding(DeleteAclsMatchingAcl)
+} 
+@enduml

@@ -2,18 +2,64 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java 10 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java 11 rule violations " 
  , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TopicFilter"
+ , "c2" : "org.apache.kafka.connect.mirror.DefaultTopicFilter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.DefaultTopicFilter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "included(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "excluded(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldReplicateTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,6 +83,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -49,6 +104,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -100,7 +162,7 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.included@POLYN163925 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.included@POLYN165637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.excluded@POLYN164138 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.excluded@POLYN165850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.TopicFilterConfig.TopicFilterConfig@POLYN165163 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.TopicFilterConfig.TopicFilterConfig@POLYN166875 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -143,6 +205,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#36"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00036] Void method close is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.DefaultTopicFilter.configure@POLYN165239"
 }} 
 ]
 };

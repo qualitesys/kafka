@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Error <|-- org.apache.kafka.common.internals.FatalExitError
+class org.apache.kafka.common.internals.FatalExitError {
++  FatalExitError(int)
++  FatalExitError()
++  statusCode()
+} 
+@enduml

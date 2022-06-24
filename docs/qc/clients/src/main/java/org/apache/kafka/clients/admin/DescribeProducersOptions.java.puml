@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeProducersOptions> <|-- org.apache.kafka.clients.admin.DescribeProducersOptions
+class org.apache.kafka.clients.admin.DescribeProducersOptions {
++  brokerId(int)
++  brokerId()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

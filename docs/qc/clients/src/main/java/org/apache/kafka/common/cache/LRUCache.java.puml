@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Cache<K,V> <|-- org.apache.kafka.common.cache.LRUCache
+class org.apache.kafka.common.cache.LRUCache {
++  LRUCache(int)
++  get(K)
++  put(K;V)
++  remove(K)
++  size()
+} 
+@enduml

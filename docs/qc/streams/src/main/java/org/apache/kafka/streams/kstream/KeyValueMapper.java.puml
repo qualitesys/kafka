@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.KeyValueMapper
+class org.apache.kafka.streams.kstream.KeyValueMapper {
++  apply(K;V)
+} 
+@enduml

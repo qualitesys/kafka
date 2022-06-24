@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.types.Field
+class org.apache.kafka.common.protocol.types.Field {
++  Field(String;Type;String;boolean;Object)
++  Field(String;Type;String)
++  Field(String;Type;String;Object)
++  Field(String;Type)
+} 
+@enduml

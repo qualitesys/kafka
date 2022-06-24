@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.PartitionGrouper
+class org.apache.kafka.streams.processor.internals.PartitionGrouper {
++  partitionGroups(Map<Subtopology,Set<String>>;Cluster)
++  maxNumPartitions(Cluster;Set<String>)
+} 
+@enduml

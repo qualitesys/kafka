@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.UnregisterBrokerResponse
+class org.apache.kafka.common.requests.UnregisterBrokerResponse {
++  UnregisterBrokerResponse(UnregisterBrokerResponseData)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

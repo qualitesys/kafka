@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "InvalidStateStoreException"
+ , "c2" : "org.apache.kafka.streams.errors.StreamsStoppedException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.StreamsStoppedException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StreamsStoppedException"
+ , "c2" : "StreamsStoppedException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamsStoppedException"
+ , "c2" : "StreamsStoppedException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsStoppedException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsStoppedException.java.svg" }
+
 ] 
 , 
 "data04" : [

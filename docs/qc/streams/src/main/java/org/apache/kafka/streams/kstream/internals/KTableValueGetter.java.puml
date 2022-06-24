@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.KTableValueGetter
+class org.apache.kafka.streams.kstream.internals.KTableValueGetter {
++  init(ProcessorContext<?,?>)
++  get(K)
++  close()
+} 
+@enduml

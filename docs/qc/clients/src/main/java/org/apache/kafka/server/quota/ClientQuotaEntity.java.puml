@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.quota.ClientQuotaEntity
+class org.apache.kafka.server.quota.ClientQuotaEntity {
++  configEntities()
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RaftMessageQueue <|-- org.apache.kafka.raft.internals.BlockingMessageQueue
+class org.apache.kafka.raft.internals.BlockingMessageQueue {
++  poll(long)
++  add(RaftMessage)
++  isEmpty()
++  wakeup()
+} 
+@enduml

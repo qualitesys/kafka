@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.FetchResponse
+class org.apache.kafka.common.requests.FetchResponse {
++  data()
++  FetchResponse(FetchResponseData)
++  error()
++  responseData(Map<Uuid,String>;short)
++  throttleTimeMs()
++  sessionId()
++  errorCounts()
++  parse(ByteBuffer;short)
++  topicIds()
++  sizeOf(short;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)
++  shouldClientThrottle(short)
++  divergingEpoch(FetchResponseData.PartitionData)
++  isDivergingEpoch(FetchResponseData.PartitionData)
++  preferredReadReplica(FetchResponseData.PartitionData)
++  isPreferredReplica(FetchResponseData.PartitionData)
++  partitionResponse(TopicIdPartition;Errors)
++  partitionResponse(int;Errors)
++  recordsOrFail(FetchResponseData.PartitionData)
++  recordsSize(FetchResponseData.PartitionData)
++  of(Errors;int;int;LinkedHashMap<TopicIdPartition,FetchResponseData.PartitionData>)
++  matchingTopic(FetchResponseData.FetchableTopicResponse;TopicIdPartition)
++  toMessage(Errors;int;int;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)
+} 
+@enduml

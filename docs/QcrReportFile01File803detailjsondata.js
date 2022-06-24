@@ -2,18 +2,43 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java 10 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AccessTokenRetriever"
+ , "c2" : "create(Map<String,?>;Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AccessTokenRetriever"
+ , "c2" : "create(Map<String,?>;String;Map<String,Object>)"
+ , "c3" : "4"
+ , "c4" : "10"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,6 +83,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -79,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN165590 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN167302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -90,38 +122,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#27"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00027] For method create list of called methods Object monObjet|java.net.URL cu_validateUrlN167915"
+}} 
+,
+{ "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN165873 the MagicNumber/String  'file' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN167585 the MagicNumber/String  'file' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN165873 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN167585 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN165873 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN167585 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN165873 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN167585 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN165873 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory.create@POLYN167585 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

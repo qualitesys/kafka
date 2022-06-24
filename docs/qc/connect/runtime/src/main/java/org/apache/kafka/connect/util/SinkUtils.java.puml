@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.util.SinkUtils
+class org.apache.kafka.connect.util.SinkUtils {
++  SinkUtils()
++  consumerGroupId(String)
+} 
+@enduml

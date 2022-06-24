@@ -2,18 +2,176 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java 29 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java 30 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Writable"
+ , "c2" : "org.apache.kafka.common.protocol.SendBuilder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.protocol.SendBuilder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SendBuilder"
+ , "c2" : "SendBuilder(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeByte(byte)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeShort(short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeInt(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeLong(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeDouble(double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeByteArray(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeUnsignedVarint(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeByteBuffer(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeVarint(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeVarlong(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addBuffer(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addSend(Send)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "clearBuffers()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeRecords(BaseRecords)"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "flushPendingSend()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "flushPendingBuffer()"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Send"
+ , "c2" : "build()"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Send"
+ , "c2" : "buildRequestSend(RequestHeader;Message)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Send"
+ , "c2" : "buildResponseSend(ResponseHeader;Message;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Send"
+ , "c2" : "buildSend(Message;short;Message;short)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -64,6 +222,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "16"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -176,6 +341,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00092] For method addSend list of called methods Object monObjet|long send_sizeN185410"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#92"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00092] The argument send is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -184,7 +356,7 @@ var maDataBlocs = {
    "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN183743 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN185455 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -205,14 +377,14 @@ var maDataBlocs = {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN184745 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN186457 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.SendBuilder.build@POLYN185854 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.SendBuilder.build@POLYN187566 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -268,7 +440,7 @@ var maDataBlocs = {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.protocol.SendBuilder.buildSend@POLYN186812 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.protocol.SendBuilder.buildSend@POLYN188524 the MagicNumber/String  4 should be converted to const"
 }} 
 ]
 };

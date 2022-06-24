@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.common.FetchRequestBenchmark
+class org.apache.kafka.jmh.common.FetchRequestBenchmark {
++  setup()
++  testFetchRequestFromBuffer()
++  testFetchRequestForConsumer()
++  testFetchRequestForReplica()
++  testSerializeFetchRequestForConsumer()
++  testSerializeFetchRequestForReplica()
++  testRequestToJson()
+} 
+@enduml

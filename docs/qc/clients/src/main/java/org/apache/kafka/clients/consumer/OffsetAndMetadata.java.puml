@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Serializable <|-- org.apache.kafka.clients.consumer.OffsetAndMetadata
+class org.apache.kafka.clients.consumer.OffsetAndMetadata {
++  OffsetAndMetadata(long;Optional<Integer>;String)
++  OffsetAndMetadata(long;String)
++  OffsetAndMetadata(long)
++  offset()
++  metadata()
++  leaderEpoch()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

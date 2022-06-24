@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+WorkerState <|-- org.apache.kafka.trogdor.rest.WorkerReceiving
+class org.apache.kafka.trogdor.rest.WorkerReceiving {
++  WorkerReceiving(String;TaskSpec)
++  status()
+} 
+@enduml

@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.InvalidTxnStateException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.InvalidTxnStateException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "InvalidTxnStateException"
+ , "c2" : "InvalidTxnStateException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTxnStateException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTxnStateException.java.svg" }
+
 ] 
 , 
 "data04" : [

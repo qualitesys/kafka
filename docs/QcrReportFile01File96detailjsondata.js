@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ElectLeadersResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ElectLeadersResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ElectLeadersResult"
+ , "c2" : "ElectLeadersResult(KafkaFuture<Map<TopicPartition,Optional<Throwable>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<TopicPartition,Optional<Throwable>>>"
+ , "c2" : "partitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "all()"
+ , "c3" : "5"
+ , "c4" : "7"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,14 +104,14 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN163447 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN165159 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN163447 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN165159 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

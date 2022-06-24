@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.PartitionReassignment
+class org.apache.kafka.clients.admin.PartitionReassignment {
++  PartitionReassignment(List<Integer>;List<Integer>;List<Integer>)
++  replicas()
++  addingReplicas()
++  removingReplicas()
++  toString()
+} 
+@enduml

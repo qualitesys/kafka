@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+RecordBatch <|-- org.apache.kafka.common.record.MutableRecordBatch
+class org.apache.kafka.common.record.MutableRecordBatch {
++  setLastOffset(long)
++  setMaxTimestamp(TimestampType;long)
++  setPartitionLeaderEpoch(int)
++  writeTo(ByteBufferOutputStream)
++  skipKeyValueIterator(BufferSupplier)
+} 
+@enduml

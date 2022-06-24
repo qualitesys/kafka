@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Commands.Handler <|-- org.apache.kafka.shell.LsCommandHandler
+class org.apache.kafka.shell.LsCommandHandler {
++  LsCommandHandler(List<String>)
++  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
++  printTargets(PrintWriter;OptionalInt;List<String>;List<TargetDirectory>)
++  printEntries(PrintWriter;String;OptionalInt;List<String>)
++  calculateColumnSchema(OptionalInt;List<String>)
++  hashCode()
++  equals(Object)
+} 
+@enduml

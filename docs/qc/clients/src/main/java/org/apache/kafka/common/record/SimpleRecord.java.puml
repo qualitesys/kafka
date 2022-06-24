@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.SimpleRecord
+class org.apache.kafka.common.record.SimpleRecord {
++  SimpleRecord(long;ByteBuffer;ByteBuffer;Header[])
++  SimpleRecord(long;byte[];byte[];Header[])
++  SimpleRecord(long;ByteBuffer;ByteBuffer)
++  SimpleRecord(long;byte[];byte[])
++  SimpleRecord(long;byte[])
++  SimpleRecord(byte[])
++  SimpleRecord(ByteBuffer)
++  SimpleRecord(byte[];byte[])
++  SimpleRecord(Record)
++  key()
++  value()
++  timestamp()
++  headers()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ConsumerGroupDescription
+class org.apache.kafka.clients.admin.ConsumerGroupDescription {
++  ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node)
++  ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node;Set<AclOperation>)
++  equals(Object)
++  hashCode()
++  groupId()
++  isSimpleConsumerGroup()
++  members()
++  partitionAssignor()
++  state()
++  coordinator()
++  authorizedOperations()
++  toString()
+} 
+@enduml

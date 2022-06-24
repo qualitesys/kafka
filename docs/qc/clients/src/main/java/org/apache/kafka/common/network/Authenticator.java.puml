@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.common.network.Authenticator
+class org.apache.kafka.common.network.Authenticator {
++  authenticate()
++  handleAuthenticationFailure()
++  principal()
++  principalSerde()
++  complete()
++  reauthenticate(ReauthenticationContext)
++  serverSessionExpirationTimeNanos()
++  clientSessionReauthenticationTimeNanos()
++  reauthenticationLatencyMs()
++  pollResponseReceivedDuringReauthentication()
++  connectedClientSupportsReauthentication()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ChangelogTopics
+class org.apache.kafka.streams.processor.internals.ChangelogTopics {
++  ChangelogTopics(InternalTopicManager;Map<Subtopology,TopicsInfo>;Map<Subtopology,Set<TaskId>>;String)
++  setup()
++  preExistingNonSourceTopicBasedPartitions()
++  preExistingPartitionsFor(TaskId)
++  preExistingSourceTopicBasedPartitions()
++  statefulTaskIds()
+} 
+@enduml

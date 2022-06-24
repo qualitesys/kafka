@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.util.TopicCreationGroup
+class org.apache.kafka.connect.util.TopicCreationGroup {
++  TopicCreationGroup(String;SourceConnectorConfig)
++  configuredGroups(SourceConnectorConfig)
++  name()
++  matches(String)
++  newTopic(String)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

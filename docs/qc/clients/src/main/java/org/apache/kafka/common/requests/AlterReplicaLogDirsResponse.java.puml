@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.AlterReplicaLogDirsResponse
+class org.apache.kafka.common.requests.AlterReplicaLogDirsResponse {
++  AlterReplicaLogDirsResponse(AlterReplicaLogDirsResponseData)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

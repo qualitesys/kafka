@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.health.ConnectClusterDetails
+class org.apache.kafka.connect.health.ConnectClusterDetails {
++  kafkaClusterId()
+} 
+@enduml

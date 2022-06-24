@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+WrappingNullableSerde<ValueAndTimestamp<V>,Void,V> <|-- org.apache.kafka.streams.state.internals.ValueAndTimestampSerde
+class org.apache.kafka.streams.state.internals.ValueAndTimestampSerde {
++  ValueAndTimestampSerde(Serde<V>)
+} 
+@enduml

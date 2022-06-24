@@ -1,0 +1,33 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateDirectory
+class org.apache.kafka.streams.processor.internals.StateDirectory {
++  StateDirectory(StreamsConfig;Time;boolean;boolean)
++  configurePermissions(File)
++  lockStateDirectory()
++  initializeProcessId()
++  getOrCreateDirectoryForTask(TaskId)
++  getTaskDirectoryParentName(TaskId)
++  getNamedTopologyDirName(String)
++  checkpointFileFor(TaskId)
++  directoryForTaskIsEmpty(TaskId)
++  taskDirIsEmpty(File)
++  globalStateDir()
++  logPrefix()
++  lock(TaskId)
++  unlock(TaskId)
++  close()
++  clean()
++  cleanRemovedTasks(long)
++  cleanRemovedTasksCalledByCleanerThread(long)
++  maybeCleanEmptyNamedTopologyDirs(boolean)
++  clearLocalStateForNamedTopology(String)
++  cleanStateAndTaskDirectoriesCalledByUser()
++  listNonEmptyTaskDirectories()
++  listAllTaskDirectories()
++  listTaskDirectories(FileFilter)
++  listNamedTopologyDirs()
++  parseNamedTopologyFromDirectory(String)
++  tryLock(FileChannel)
+} 
+@enduml

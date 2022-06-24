@@ -2,18 +2,120 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java 16 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java 21 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractResponse"
+ , "c2" : "org.apache.kafka.common.requests.DeleteAclsResponse"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.requests.DeleteAclsResponse" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DeleteAclsResponse"
+ , "c2" : "DeleteAclsResponse(DeleteAclsResponseData;short)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteAclsResponseData"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "throttleTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<DeleteAclsResponseData.DeleteAclsFilterResult>"
+ , "c2" : "filterResults()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Errors,Integer>"
+ , "c2" : "errorCounts()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteAclsResponse"
+ , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldClientThrottle(short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "validate(short)"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteAclsFilterResult"
+ , "c2" : "filterResult(AclDeleteResult)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteAclsMatchingAcl"
+ , "c2" : "matchingAcl(AclDeleteResult.AclBindingDeleteResult)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteAclsMatchingAcl"
+ , "c2" : "matchingAcl(AclBinding;ApiError)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AclBinding"
+ , "c2" : "aclBinding(DeleteAclsMatchingAcl)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +139,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -57,6 +175,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -79,7 +204,7 @@ var maDataBlocs = {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.DeleteAclsResponse.shouldClientThrottle@POLYN179745 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.DeleteAclsResponse.shouldClientThrottle@POLYN181457 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -90,24 +215,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#70"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00070] For method validate list of called methods Object monObjet|java.util.List&lt;DeleteAclsResponseData.DeleteAclsFilterResult&gt; filterResultsN181752|java.util.List&lt;DeleteAclsResponseData.DeleteAclsFilterResult&gt; filterResultsN182174"
+}} 
+,
+{ "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN179869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN181581 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN179869 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN181581 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN179869 the MagicNumber/String  'DeleteAclsMatchingAcls contain UNKNOWN elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN181581 the MagicNumber/String  'DeleteAclsMatchingAcls contain UNKNOWN elements' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -115,6 +247,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#89"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00089] For method filterResult arguments AclDeleteResult  result"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#89"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00089] For method filterResult list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.common.errors.ApiException&gt; result_exceptionN182944|java.util.Collection&lt;org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult&gt; result_aclBindingDeleteResultsN183181"
 }} 
 ,
 { "ligne" : {
@@ -171,6 +310,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#120"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00120] The argument matchingAcl is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.filterResults@POLYN180621"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.throttleTimeMs@POLYN180486"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.toString@POLYN181337"
 }} 
 ]
 };

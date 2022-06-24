@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+AbstractStream<K,V>SessionWindowedKStream<K,V> <|-- org.apache.kafka.streams.kstream.internals.SessionWindowedKStreamImpl
+class org.apache.kafka.streams.kstream.internals.SessionWindowedKStreamImpl {
++  SessionWindowedKStreamImpl(SessionWindows;InternalStreamsBuilder;Set<String>;String;Serde<K>;Serde<V>;GroupedStreamAggregateBuilder<K,V>;GraphNode)
++  count()
++  count(Named)
++  count(Materialized<K,Long,SessionStore<Bytes,byte[]>>)
++  count(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)
++  doCount(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)
++  reduce(Reducer<V>)
++  reduce(Reducer<V>;Named)
++  reduce(Reducer<V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)
++  reduce(Reducer<V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)
++  mergerForAggregator(Aggregator<K,V,V>)
++  aggregatorForReducer(Reducer<V>)
+} 
+@enduml

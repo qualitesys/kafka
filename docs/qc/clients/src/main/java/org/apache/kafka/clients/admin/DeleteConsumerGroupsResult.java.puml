@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteConsumerGroupsResult
+class org.apache.kafka.clients.admin.DeleteConsumerGroupsResult {
++  DeleteConsumerGroupsResult(Map<String,KafkaFuture<Void>>)
++  deletedGroups()
++  all()
+} 
+@enduml

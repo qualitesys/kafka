@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.EndTxnResponse
+class org.apache.kafka.common.requests.EndTxnResponse {
++  EndTxnResponse(EndTxnResponseData)
++  throttleTimeMs()
++  error()
++  errorCounts()
++  data()
++  parse(ByteBuffer;short)
++  toString()
++  shouldClientThrottle(short)
+} 
+@enduml

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "FuturePurgatory<T>"
+ , "c2" : "org.apache.kafka.raft.internals.ThresholdPurgatory"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.internals.ThresholdPurgatory" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ThresholdPurgatory"
+ , "c2" : "ThresholdPurgatory(ExpirationService)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CompletableFuture<Long>"
+ , "c2" : "await(T;long)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeComplete(T;long)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "completeAll(long)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "completeAllExceptionally(Throwable)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "numWaiting()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.raft.internals.ThresholdPurgatory.ThresholdKey.compareTo@POLYN166988 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.raft.internals.ThresholdPurgatory.ThresholdKey.compareTo@POLYN168700 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

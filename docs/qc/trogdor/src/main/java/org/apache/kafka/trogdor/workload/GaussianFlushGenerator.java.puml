@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+FlushGenerator <|-- org.apache.kafka.trogdor.workload.GaussianFlushGenerator
+class org.apache.kafka.trogdor.workload.GaussianFlushGenerator {
++  GaussianFlushGenerator(int;double)
++  messagesPerFlushAverage()
++  messagesPerFlushDeviation()
++  calculateFlushSize()
+} 
+@enduml

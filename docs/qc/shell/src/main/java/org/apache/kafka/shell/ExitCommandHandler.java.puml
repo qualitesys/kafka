@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Commands.Handler <|-- org.apache.kafka.shell.ExitCommandHandler
+class org.apache.kafka.shell.ExitCommandHandler {
++  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
++  hashCode()
++  equals(Object)
+} 
+@enduml

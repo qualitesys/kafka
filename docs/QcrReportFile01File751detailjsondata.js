@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.security.auth.KafkaPrincipalSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.auth.KafkaPrincipalSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "serialize(KafkaPrincipal)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaPrincipal"
+ , "c2" : "deserialize(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ListTransactionsResult
+class org.apache.kafka.clients.admin.ListTransactionsResult {
++  ListTransactionsResult(KafkaFuture<Map<Integer,KafkaFutureImpl<Collection<TransactionListing>>>>)
++  all()
++  byBrokerId()
++  allByBrokerId()
+} 
+@enduml

@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Serializer<Float>"
+ , "c2" : "org.apache.kafka.common.serialization.FloatSerializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.serialization.FloatSerializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "serialize(String;Float)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,35 +97,35 @@ var maDataBlocs = {
    "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.html#7"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN154147 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN155859 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN154147 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN155859 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN154147 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN155859 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN154147 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN155859 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN154147 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN155859 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
 };

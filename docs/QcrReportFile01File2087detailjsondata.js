@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WrappingNullableSerde<ValueAndTimestamp<V>,Void,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.ValueAndTimestampSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.ValueAndTimestampSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ValueAndTimestampSerde"
+ , "c2" : "ValueAndTimestampSerde(Serde<V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,14 +69,14 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerde.ValueAndTimestampSerde@POLYN155249 the MagicNumber/String  'valueSerde was null' should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerde.ValueAndTimestampSerde@POLYN156961 the MagicNumber/String  'valueSerde was null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00014"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerde.ValueAndTimestampSerde@POLYN155249 the MagicNumber/String  'valueSerde was null' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerde.ValueAndTimestampSerde@POLYN156961 the MagicNumber/String  'valueSerde was null' should be converted to const"
 }} 
 ]
 };

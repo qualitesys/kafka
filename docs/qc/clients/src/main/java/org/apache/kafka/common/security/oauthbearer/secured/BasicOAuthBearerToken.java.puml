@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+OAuthBearerToken <|-- org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken
+class org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken {
++  BasicOAuthBearerToken(String;Set<String>;long;String;Long)
++  value()
++  scope()
++  lifetimeMs()
++  principalName()
++  startTimeMs()
++  toString()
+} 
+@enduml

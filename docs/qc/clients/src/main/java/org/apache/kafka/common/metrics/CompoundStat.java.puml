@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Stat <|-- org.apache.kafka.common.metrics.CompoundStat
+class org.apache.kafka.common.metrics.CompoundStat {
++  stats()
+} 
+@enduml

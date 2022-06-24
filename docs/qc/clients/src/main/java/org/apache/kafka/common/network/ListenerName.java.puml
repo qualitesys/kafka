@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.network.ListenerName
+class org.apache.kafka.common.network.ListenerName {
++  forSecurityProtocol(SecurityProtocol)
++  normalised(String)
++  ListenerName(String)
++  value()
++  equals(Object)
++  hashCode()
++  toString()
++  configPrefix()
++  saslMechanismConfigPrefix(String)
++  saslMechanismPrefix(String)
+} 
+@enduml

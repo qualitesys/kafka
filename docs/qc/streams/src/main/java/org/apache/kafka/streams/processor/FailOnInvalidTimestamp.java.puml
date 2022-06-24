@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ExtractRecordMetadataTimestamp <|-- org.apache.kafka.streams.processor.FailOnInvalidTimestamp
+class org.apache.kafka.streams.processor.FailOnInvalidTimestamp {
++  onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long)
+} 
+@enduml

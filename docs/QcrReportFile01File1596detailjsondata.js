@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "NamedOperation<Repartitioned<K,V>>"
+ , "c2" : "org.apache.kafka.streams.kstream.Repartitioned"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.Repartitioned" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Repartitioned"
+ , "c2" : "Repartitioned(String;Serde<K>;Serde<V>;Integer;StreamPartitioner<K,V>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Repartitioned"
+ , "c2" : "Repartitioned(Repartitioned<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Repartitioned<K,V>"
+ , "c2" : "withName(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Repartitioned<K,V>"
+ , "c2" : "withNumberOfPartitions(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Repartitioned<K,V>"
+ , "c2" : "withKeySerde(Serde<K>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Repartitioned<K,V>"
+ , "c2" : "withValueSerde(Serde<V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Repartitioned<K,V>"
+ , "c2" : "withStreamPartitioner(StreamPartitioner<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.svg" }
+
 ] 
 , 
 "data04" : [

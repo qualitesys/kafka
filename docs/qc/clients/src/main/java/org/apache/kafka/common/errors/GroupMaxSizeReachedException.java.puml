@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.GroupMaxSizeReachedException
+class org.apache.kafka.common.errors.GroupMaxSizeReachedException {
++  GroupMaxSizeReachedException(String)
+} 
+@enduml

@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WindowBytesStoreSupplier"
+ , "c2" : "org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "InMemoryWindowBytesStoreSupplier"
+ , "c2" : "InMemoryWindowBytesStoreSupplier(String;long;long;boolean)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStore<Bytes,byte[]>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "metricsScope()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "retentionPeriod()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "windowSize()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "segmentIntervalMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "retainDuplicates()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,63 +139,63 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.metricsScope@POLYN159457 the MagicNumber/String  'in-memory-window' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.metricsScope@POLYN161169 the MagicNumber/String  'in-memory-window' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.segmentIntervalMs@POLYN159759 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.segmentIntervalMs@POLYN161471 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN159961 the MagicNumber/String  'InMemoryWindowBytesStoreSupplier{' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN161673 the MagicNumber/String  'InMemoryWindowBytesStoreSupplier{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN159961 the MagicNumber/String  'name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN161673 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN159961 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN161673 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN159961 the MagicNumber/String  ', retentionPeriod=' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN161673 the MagicNumber/String  ', retentionPeriod=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN159961 the MagicNumber/String  ', windowSize=' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN161673 the MagicNumber/String  ', windowSize=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN159961 the MagicNumber/String  ', retainDuplicates=' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN161673 the MagicNumber/String  ', retainDuplicates=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN159961 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN161673 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

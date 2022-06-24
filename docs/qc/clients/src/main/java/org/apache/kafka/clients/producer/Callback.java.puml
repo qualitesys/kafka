@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.Callback
+class org.apache.kafka.clients.producer.Callback {
++  onCompletion(RecordMetadata;Exception)
+} 
+@enduml

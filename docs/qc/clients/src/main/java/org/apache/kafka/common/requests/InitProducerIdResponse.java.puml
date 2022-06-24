@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.InitProducerIdResponse
+class org.apache.kafka.common.requests.InitProducerIdResponse {
++  InitProducerIdResponse(InitProducerIdResponseData)
++  throttleTimeMs()
++  errorCounts()
++  data()
++  parse(ByteBuffer;short)
++  toString()
++  error()
++  shouldClientThrottle(short)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.common.serialization.Deserializer
+class org.apache.kafka.common.serialization.Deserializer {
++  configure(Map<String,?>;boolean)
++  deserialize(String;byte[])
++  deserialize(String;Headers;byte[])
++  close()
+} 
+@enduml

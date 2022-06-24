@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.MemberDescription
+class org.apache.kafka.clients.admin.MemberDescription {
++  MemberDescription(String;Optional<String>;String;String;MemberAssignment)
++  MemberDescription(String;String;String;MemberAssignment)
++  equals(Object)
++  hashCode()
++  consumerId()
++  groupInstanceId()
++  clientId()
++  host()
++  assignment()
++  toString()
+} 
+@enduml

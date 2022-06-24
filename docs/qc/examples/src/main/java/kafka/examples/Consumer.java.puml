@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ShutdownableThread <|-- kafka.examples.Consumer
+class kafka.examples.Consumer {
++  Consumer(String;String;Optional<String>;boolean;int;CountDownLatch)
++  get()
++  doWork()
++  name()
++  isInterruptible()
+} 
+@enduml

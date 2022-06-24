@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.ReplaceField
+class org.apache.kafka.connect.transforms.ReplaceField {
++  configure(Map<String,?>)
++  parseRenameMappings(List<String>)
++  invert(Map<String,String>)
++  filter(String)
++  renamed(String)
++  reverseRenamed(String)
++  apply(R)
++  applySchemaless(R)
++  applyWithSchema(R)
++  makeUpdatedSchema(Schema)
++  config()
++  close()
++  operatingSchema(R)
++  operatingValue(R)
++  newRecord(R;Schema;Object)
+} 
+@enduml

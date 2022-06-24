@@ -2,18 +2,71 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java 18 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java 19 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractRocksDBTimeOrderedSegmentedBytesStore"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RocksDBTimeOrderedWindowSegmentedBytesStore"
+ , "c2" : "RocksDBTimeOrderedWindowSegmentedBytesStore(String;String;long;long;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(Bytes;long;int;byte[])"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "fetch(Bytes;long;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Bytes,byte[]>"
+ , "c2" : "getIndexKeyValue(Bytes;byte[])"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<KeyValueSegment,WriteBatch>"
+ , "c2" : "getWriteBatches(Collection<ConsumerRecord<byte[],byte[]>>)"
+ , "c3" : "5"
+ , "c4" : "15"
+}} 
+,
+{ "ligne" : {
+   "c1" : "IndexToBaseStoreIterator"
+ , "c2" : "getIndexToBaseStoreIterator(SegmentIterator<KeyValueSegment>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +118,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -86,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.RocksDBTimeOrderedWindowSegmentedBytesStore@POLYN174294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.RocksDBTimeOrderedWindowSegmentedBytesStore@POLYN176006 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +181,7 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getIndexKeyValue@POLYN175497 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getIndexKeyValue@POLYN177209 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -129,6 +189,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#64"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00064] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00064] For method getWriteBatches list of called methods Object monObjet|long WindowKeySchema_extractStoreTimestampN178246|long WindowKeySchema_extractStoreTimestampN178735"
 }} 
 ,
 { "ligne" : {
@@ -156,35 +223,35 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN176233 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN177945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN176233 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN177945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN176233 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN177945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN176233 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN177945 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN176233 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.getWriteBatches@POLYN177945 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
 }} 
 ,
 { "ligne" : {

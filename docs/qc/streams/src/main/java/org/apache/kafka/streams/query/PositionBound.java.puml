@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.query.PositionBound
+class org.apache.kafka.streams.query.PositionBound {
++  PositionBound(Position)
++  unbounded()
++  at(Position)
++  isUnbounded()
++  position()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

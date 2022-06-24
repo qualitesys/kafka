@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Stamped<ProcessorNode>"
+ , "c2" : "org.apache.kafka.streams.processor.internals.PunctuationSchedule"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.PunctuationSchedule" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "PunctuationSchedule"
+ , "c2" : "PunctuationSchedule(ProcessorNode;long;long;Punctuator)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PunctuationSchedule"
+ , "c2" : "PunctuationSchedule(ProcessorNode;long;long;Punctuator;RepointableCancellable)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProcessorNode"
+ , "c2" : "node()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Punctuator"
+ , "c2" : "punctuator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Cancellable"
+ , "c2" : "cancellable()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "markCancelled()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isCancelled()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PunctuationSchedule"
+ , "c2" : "next(long)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.PunctuationSchedule.markCancelled@POLYN162370 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.PunctuationSchedule.markCancelled@POLYN164082 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -86,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.PunctuationSchedule.next@POLYN162556 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.PunctuationSchedule.next@POLYN164268 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {

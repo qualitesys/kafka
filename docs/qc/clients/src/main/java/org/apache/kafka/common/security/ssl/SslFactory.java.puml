@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+Reconfigurable <|-- org.apache.kafka.common.security.ssl.SslFactory
+class org.apache.kafka.common.security.ssl.SslFactory {
++  SslFactory(Mode)
++  SslFactory(Mode;String;boolean)
++  configure(Map<String,?>)
++  reconfigurableConfigs()
++  validateReconfiguration(Map<String,?>)
++  reconfigure(Map<String,?>)
++  instantiateSslEngineFactory(Map<String,Object>)
++  createNewSslEngineFactory(Map<String,?>)
++  createSslEngine(Socket)
++  createSslEngine(String;int)
++  peerHost(Socket)
++  sslEngineFactory()
++  close()
+} 
+@enduml

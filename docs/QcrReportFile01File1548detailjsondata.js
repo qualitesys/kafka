@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "DeserializationExceptionHandler"
+ , "c2" : "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DeserializationHandlerResponse"
+ , "c2" : "handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.LogAndContinueExceptionHandler.handle@POLYN156873 the MagicNumber/String  'Exception caught during Deserialization, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.LogAndContinueExceptionHandler.handle@POLYN158585 the MagicNumber/String  'Exception caught during Deserialization, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.errors.LogAndContinueExceptionHandler.handle@POLYN156873 the MagicNumber/String  'taskId: {}, topic: {}, partition: {}, offset: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.errors.LogAndContinueExceptionHandler.handle@POLYN158585 the MagicNumber/String  'taskId: {}, topic: {}, partition: {}, offset: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {

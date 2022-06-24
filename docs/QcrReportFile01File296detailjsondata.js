@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KafkaException"
+ , "c2" : "org.apache.kafka.common.config.ConfigException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.config.ConfigException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConfigException"
+ , "c2" : "ConfigException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigException"
+ , "c2" : "ConfigException(String;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigException"
+ , "c2" : "ConfigException(String;Object;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,42 +83,42 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155245 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN156957 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  'Invalid value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN157145 the MagicNumber/String  'Invalid value ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  ' for configuration ' should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN157145 the MagicNumber/String  ' for configuration ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN157145 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN157145 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN155433 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.config.ConfigException.ConfigException@POLYN157145 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ]
 };

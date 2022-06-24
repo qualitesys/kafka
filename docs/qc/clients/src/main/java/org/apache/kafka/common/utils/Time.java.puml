@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Time
+class org.apache.kafka.common.utils.Time {
++  milliseconds()
++  hiResClockMs()
++  nanoseconds()
++  sleep(long)
++  waitObject(Object;Supplier<Boolean>;long)
++  timer(long)
++  timer(Duration)
+} 
+@enduml

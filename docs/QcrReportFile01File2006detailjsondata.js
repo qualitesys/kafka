@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractStoreBuilder<K,V,KeyValueStore<K,V>>"
+ , "c2" : "org.apache.kafka.streams.state.internals.KeyValueStoreBuilder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.KeyValueStoreBuilder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KeyValueStoreBuilder"
+ , "c2" : "KeyValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueStore<K,V>"
+ , "c2" : "build()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapCaching(KeyValueStore<Bytes,byte[]>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapLogging(KeyValueStore<Bytes,byte[]>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueStoreBuilder.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueStoreBuilder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,14 +111,14 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueStoreBuilder.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.state.internals.KeyValueStoreBuilder.KeyValueStoreBuilder@POLYN159889 the MagicNumber/String  'storeSupplier can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.state.internals.KeyValueStoreBuilder.KeyValueStoreBuilder@POLYN161601 the MagicNumber/String  'storeSupplier can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueStoreBuilder.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.KeyValueStoreBuilder.KeyValueStoreBuilder@POLYN159889 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.KeyValueStoreBuilder.KeyValueStoreBuilder@POLYN161601 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueStoreBuilder.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.KeyValueStoreBuilder.maybeWrapCaching@POLYN160928 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.KeyValueStoreBuilder.maybeWrapCaching@POLYN162640 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

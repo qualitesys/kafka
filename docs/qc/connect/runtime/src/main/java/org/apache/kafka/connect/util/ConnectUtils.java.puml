@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.util.ConnectUtils
+class org.apache.kafka.connect.util.ConnectUtils {
++  checkAndConvertTimestamp(Long)
++  lookupKafkaClusterId(WorkerConfig)
++  lookupKafkaClusterId(Admin)
++  ensureProperty(Map<String,?superString>;String;String;String;boolean)
++  ensurePropertyAndGetWarning(Map<String,?superString>;String;String;String;boolean)
++  addMetricsContextProperties(Map<String,Object>;WorkerConfig;String)
++  isSinkConnector(Connector)
++  isSourceConnector(Connector)
++  maybeWrap(Throwable;String)
+} 
+@enduml

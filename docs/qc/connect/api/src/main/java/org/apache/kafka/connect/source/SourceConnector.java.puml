@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Connector <|-- org.apache.kafka.connect.source.SourceConnector
+class org.apache.kafka.connect.source.SourceConnector {
++  context()
++  exactlyOnceSupport(Map<String,String>)
++  canDefineTransactionBoundaries(Map<String,String>)
+} 
+@enduml

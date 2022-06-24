@@ -8,12 +8,107 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Transformation<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.MaskField"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.MaskField" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "apply(R)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applySchemaless(R)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applyWithSchema(R)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "masked(Object)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "maskWithCustomReplacement(Object;String)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "maskWithNullValue(Object)"
+ , "c3" : "6"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Schema"
+ , "c2" : "operatingSchema(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "operatingValue(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "newRecord(R;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00087"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.transforms.MaskField.apply@POLYN194279 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.transforms.MaskField.apply@POLYN195991 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,21 +244,21 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.transforms.MaskField.masked@POLYN196201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.transforms.MaskField.masked@POLYN197913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.transforms.MaskField.masked@POLYN196201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.transforms.MaskField.masked@POLYN197913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.transforms.MaskField.masked@POLYN196201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.transforms.MaskField.masked@POLYN197913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,42 +286,42 @@ var maDataBlocs = {
    "c1" : "00122"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN196577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN198289 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN196577 the MagicNumber/String  'Cannot mask value of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN198289 the MagicNumber/String  'Cannot mask value of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN196577 the MagicNumber/String  ' with custom replacement.' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN198289 the MagicNumber/String  ' with custom replacement.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN196577 the MagicNumber/String  'Unable to convert ' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN198289 the MagicNumber/String  'Unable to convert ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN196577 the MagicNumber/String  ' (' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN198289 the MagicNumber/String  ' (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN196577 the MagicNumber/String  ') to number' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.MaskField.maskWithCustomReplacement@POLYN198289 the MagicNumber/String  ') to number' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -247,14 +342,14 @@ var maDataBlocs = {
    "c1" : "00134"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.transforms.MaskField.maskWithNullValue@POLYN197389 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.transforms.MaskField.maskWithNullValue@POLYN199101 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00140"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.transforms.MaskField.maskWithNullValue@POLYN197389 the MagicNumber/String  'Cannot mask value of type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.transforms.MaskField.maskWithNullValue@POLYN199101 the MagicNumber/String  'Cannot mask value of type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {

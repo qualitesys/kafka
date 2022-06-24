@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeDelegationTokenOptions> <|-- org.apache.kafka.clients.admin.DescribeDelegationTokenOptions
+class org.apache.kafka.clients.admin.DescribeDelegationTokenOptions {
++  owners(List<KafkaPrincipal>)
++  owners()
+} 
+@enduml

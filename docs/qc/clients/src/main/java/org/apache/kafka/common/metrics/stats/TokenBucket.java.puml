@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+MeasurableStat <|-- org.apache.kafka.common.metrics.stats.TokenBucket
+class org.apache.kafka.common.metrics.stats.TokenBucket {
++  TokenBucket()
++  TokenBucket(TimeUnit)
++  measure(MetricConfig;long)
++  record(MetricConfig;double;long)
++  refill(double;double;long)
++  burst(MetricConfig)
++  toString()
+} 
+@enduml

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ObjectInputStream"
+ , "c2" : "org.apache.kafka.connect.util.SafeObjectInputStream"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.util.SafeObjectInputStream" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SafeObjectInputStream"
+ , "c2" : "SafeObjectInputStream(InputStream)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Class<?>"
+ , "c2" : "resolveClass(ObjectStreamClass)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isBlocked(String)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.SafeObjectInputStream.resolveClass@POLYN159610 the MagicNumber/String  'Illegal type to deserialize: prevented for security reasons' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.SafeObjectInputStream.resolveClass@POLYN161322 the MagicNumber/String  'Illegal type to deserialize: prevented for security reasons' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.util.SafeObjectInputStream.isBlocked@POLYN160008 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.util.SafeObjectInputStream.isBlocked@POLYN161720 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.util.SafeObjectInputStream.isBlocked@POLYN160008 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.util.SafeObjectInputStream.isBlocked@POLYN161720 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

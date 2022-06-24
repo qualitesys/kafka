@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.DescribeGroupsRequest"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.requests.DescribeGroupsRequest" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeGroupsRequest"
+ , "c2" : "DescribeGroupsRequest(DescribeGroupsRequestData;short)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeGroupsRequestData"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeGroupsRequest"
+ , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.DescribeGroupsRequest.getErrorResponse@POLYN160763 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.DescribeGroupsRequest.getErrorResponse@POLYN162475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

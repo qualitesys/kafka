@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractState <|-- org.apache.kafka.connect.health.ConnectorState
+class org.apache.kafka.connect.health.ConnectorState {
++  ConnectorState(String;String;String)
++  toString()
+} 
+@enduml

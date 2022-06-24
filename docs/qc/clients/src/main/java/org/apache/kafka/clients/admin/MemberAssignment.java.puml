@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.MemberAssignment
+class org.apache.kafka.clients.admin.MemberAssignment {
++  MemberAssignment(Set<TopicPartition>)
++  equals(Object)
++  hashCode()
++  topicPartitions()
++  toString()
+} 
+@enduml

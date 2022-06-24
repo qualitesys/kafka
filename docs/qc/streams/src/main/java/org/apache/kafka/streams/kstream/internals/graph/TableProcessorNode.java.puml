@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.TableProcessorNode
+class org.apache.kafka.streams.kstream.internals.graph.TableProcessorNode {
++  TableProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<TimestampedKeyValueStore<K,V>>)
++  TableProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<TimestampedKeyValueStore<K,V>>;String[])
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

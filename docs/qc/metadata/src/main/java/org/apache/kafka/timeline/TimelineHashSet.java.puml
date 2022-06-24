@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+SnapshottableHashTable<TimelineHashSet.TimelineHashSetEntry<T>>Set<T> <|-- org.apache.kafka.timeline.TimelineHashSet
+class org.apache.kafka.timeline.TimelineHashSet {
++  TimelineHashSet(SnapshotRegistry;int)
++  size()
++  size(long)
++  isEmpty()
++  isEmpty(long)
++  contains(Object)
++  contains(Object;long)
++  iterator()
++  iterator(long)
++  toArray()
++  add(T)
++  remove(Object)
++  containsAll(Collection<?>)
++  addAll(Collection<?extendsT>)
++  retainAll(Collection<?>)
++  removeAll(Collection<?>)
++  clear()
++  hashCode()
++  equals(Object)
+} 
+@enduml

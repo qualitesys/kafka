@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+StateStore <|-- org.apache.kafka.streams.state.internals.WrappedStateStore
+class org.apache.kafka.streams.state.internals.WrappedStateStore {
++  isTimestamped(StateStore)
++  WrappedStateStore(S)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  setFlushListener(CacheFlushListener<K,V>;boolean)
++  flushCache()
++  name()
++  persistent()
++  isOpen()
++  validateStoreOpen()
++  flush()
++  close()
++  getPosition()
++  wrapped()
+} 
+@enduml

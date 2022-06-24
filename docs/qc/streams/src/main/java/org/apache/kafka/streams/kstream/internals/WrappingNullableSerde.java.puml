@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Serde<T> <|-- org.apache.kafka.streams.kstream.internals.WrappingNullableSerde
+class org.apache.kafka.streams.kstream.internals.WrappingNullableSerde {
++  WrappingNullableSerde(WrappingNullableSerializer<T,InnerK,InnerV>;WrappingNullableDeserializer<T,InnerK,InnerV>)
++  serializer()
++  deserializer()
++  configure(Map<String,?>;boolean)
++  close()
++  setIfUnset(SerdeGetter)
+} 
+@enduml

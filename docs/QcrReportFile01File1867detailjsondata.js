@@ -2,18 +2,323 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 204 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 303 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ChangelogReader"
+ , "c2" : "org.apache.kafka.streams.processor.internals.StoreChangelogReader"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.StoreChangelogReader" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setMainConsumer(Consumer<byte[],byte[]>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StoreChangelogReader"
+ , "c2" : "StoreChangelogReader(Time;StreamsConfig;LogContext;Admin;Consumer<byte[],byte[]>;StateRestoreListener)"
+ , "c3" : "1"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "recordEndOffset(Long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasRestoredToEnd(ChangelogMetadata)"
+ , "c3" : "7"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "enforceRestoreActive()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "transitToUpdateStandby()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "register(TopicPartition;ProcessorStateManager)"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ChangelogMetadata"
+ , "c2" : "restoringChangelogByPartition(TopicPartition)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<ChangelogMetadata>"
+ , "c2" : "registeredChangelogs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicPartition>"
+ , "c2" : "restoringChangelogs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicPartition>"
+ , "c2" : "activeRestoringChangelogs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicPartition>"
+ , "c2" : "standbyRestoringChangelogs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "allChangelogsCompleted()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicPartition>"
+ , "c2" : "completedChangelogs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "restore(Map<TaskId,Task>)"
+ , "c3" : "8"
+ , "c4" : "20"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "pauseResumePartitions(Map<TaskId,Task>;Set<TopicPartition>)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updatePartitionsByType(Map<TaskId,Task>;Set<TopicPartition>;TaskType)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldResume(Map<TaskId,Task>;TopicPartition;TaskType)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldPause(Map<TaskId,Task>;TopicPartition;TaskType)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeLogRestorationProgress()"
+ , "c3" : "6"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "getPositionString(TopicPartition;ChangelogMetadata)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeUpdateLimitOffsetsForStandbyChangelogs(Map<TaskId,Task>)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "bufferChangelogRecords(ChangelogMetadata;List<ConsumerRecord<byte[],byte[]>>)"
+ , "c3" : "5"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "restoreChangelog(ChangelogMetadata)"
+ , "c3" : "6"
+ , "c4" : "24"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<Task>"
+ , "c2" : "getTasksFromPartitions(Map<TaskId,Task>;Set<TopicPartition>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "clearTaskTimeout(Set<Task>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeInitTaskTimeoutOrThrow(Set<Task>;Exception)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "committedOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "endOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>)"
+ , "c3" : "2"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updateLimitOffsetsForStandbyChangelogs(Map<TopicPartition,Long>)"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "initializeChangelogs(Map<TaskId,Task>;Set<ChangelogMetadata>)"
+ , "c3" : "12"
+ , "c4" : "21"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addChangelogsToRestoreConsumer(Set<TopicPartition>)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "pauseChangelogsFromRestoreConsumer(Collection<TopicPartition>)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "removeChangelogsFromRestoreConsumer(Collection<TopicPartition>)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "resumeChangelogsFromRestoreConsumer(Collection<TopicPartition>)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "prepareChangelogs(Set<ChangelogMetadata>)"
+ , "c3" : "7"
+ , "c4" : "18"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "unregister(Collection<TopicPartition>)"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "clear()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ChangelogMetadata"
+ , "c2" : "changelogMetadata(TopicPartition)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ChangelogReaderState"
+ , "c2" : "state()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +342,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "79"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "18"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : {
@@ -79,6 +407,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "29"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "6"
+}}
  ] 
 ,
 "data13b" : [
@@ -100,21 +435,21 @@ var maDataBlocs = {
    "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.ChangelogMetadata@POLYN291259 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.ChangelogMetadata@POLYN292971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.ChangelogMetadata@POLYN291259 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.ChangelogMetadata@POLYN292971 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.ChangelogMetadata@POLYN291259 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.ChangelogMetadata@POLYN292971 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,42 +470,42 @@ var maDataBlocs = {
    "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.transitTo@POLYN291947 the MagicNumber/String  'Invalid transition from ' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.transitTo@POLYN293659 the MagicNumber/String  'Invalid transition from ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.transitTo@POLYN291947 the MagicNumber/String  ' to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.transitTo@POLYN293659 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00140"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN292368 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN294080 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN292368 the MagicNumber/String  ' (currentOffset ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN294080 the MagicNumber/String  ' (currentOffset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN292368 the MagicNumber/String  ', endOffset ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN294080 the MagicNumber/String  ', endOffset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN292368 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.toString@POLYN294080 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,7 +533,7 @@ var maDataBlocs = {
    "c1" : "00215"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.StoreChangelogReader@POLYN294109 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.StoreChangelogReader@POLYN295821 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -212,14 +547,14 @@ var maDataBlocs = {
    "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.recordEndOffset@POLYN295359 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.recordEndOffset@POLYN297071 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.recordEndOffset@POLYN295359 the MagicNumber/String  'UNKNOWN (since it is for standby task)' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.recordEndOffset@POLYN297071 the MagicNumber/String  'UNKNOWN (since it is for standby task)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -240,105 +575,105 @@ var maDataBlocs = {
    "c1" : "00226"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  'End offset for changelog ' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  'End offset for changelog ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  ' is unknown when deciding ' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  ' is unknown when deciding ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00230"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  'if it has completed restoration, this should never happen.' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  'if it has completed restoration, this should never happen.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00231"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00234"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00257"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  'Restore consumer get unexpected error trying to get the position ' should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  'Restore consumer get unexpected error trying to get the position ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00258"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  ' of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  ' of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00261"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN295599 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.hasRestoredToEnd@POLYN297311 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN296771 the MagicNumber/String  'Transiting to restore active tasks: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN298483 the MagicNumber/String  'Transiting to restore active tasks: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN296771 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN298483 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00295"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN297196 the MagicNumber/String  'The changelog reader is not restoring active tasks (is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String  'The changelog reader is not restoring active tasks (is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00295"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN297196 the MagicNumber/String  ') while trying to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String  ') while trying to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00296"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN297196 the MagicNumber/String  'transit to update standby tasks: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String  'transit to update standby tasks: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00300"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN297196 the MagicNumber/String  'Transiting to update standby tasks: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String  'Transiting to update standby tasks: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -346,6 +681,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#310"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00310] For method register arguments TopicPartition  partition|ProcessorStateManager  stateManager"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00310"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#310"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00310] For method register list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorStateManager.StateStoreMetadata stateManager_storeMetadataN299675"
 }} 
 ,
 { "ligne" : {
@@ -359,42 +701,42 @@ var maDataBlocs = {
    "c1" : "00312"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN297834 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN299546 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00313"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN297834 the MagicNumber/String  'Cannot find the corresponding state store metadata for changelog ' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN299546 the MagicNumber/String  'Cannot find the corresponding state store metadata for changelog ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN297834 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN299546 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00324"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN297834 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN299546 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN297834 the MagicNumber/String  'There is already a changelog registered for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN299546 the MagicNumber/String  'There is already a changelog registered for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00326"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN297834 the MagicNumber/String  ', this should not happen: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.register@POLYN299546 the MagicNumber/String  ', this should not happen: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -408,35 +750,35 @@ var maDataBlocs = {
    "c1" : "00332"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN298839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN300551 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00333"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN298839 the MagicNumber/String  'The corresponding changelog restorer for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN300551 the MagicNumber/String  'The corresponding changelog restorer for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00334"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN298839 the MagicNumber/String  ' does not exist, this should not happen.' should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN300551 the MagicNumber/String  ' does not exist, this should not happen.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN298839 the MagicNumber/String  'The corresponding changelog restorer for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN300551 the MagicNumber/String  'The corresponding changelog restorer for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00338"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN298839 the MagicNumber/String  ' has already transited to completed state, this should not happen.' should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoringChangelogByPartition@POLYN300551 the MagicNumber/String  ' has already transited to completed state, this should not happen.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -478,70 +820,70 @@ var maDataBlocs = {
    "c1" : "00395"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  'Should not be in standby updating state if there are still un-completed active changelogs' should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  'Should not be in standby updating state if there are still un-completed active changelogs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00399"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#399"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  'Finished restoring all changelogs {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  'Finished restoring all changelogs {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00418"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  'Encountered ' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  'Encountered ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00419"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  ' fetching records from restore consumer for partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  ' fetching records from restore consumer for partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00419"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  ', it is likely that ' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  ', it is likely that ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00420"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  'the consumer's position has fallen out of the topic partition offset range because the topic was ' should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  'the consumer's position has fallen out of the topic partition offset range because the topic was ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00421"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  'truncated or compacted on the broker, marking the corresponding tasks as corrupted and re-initializing' should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  'truncated or compacted on the broker, marking the corresponding tasks as corrupted and re-initializing' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00422"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  ' it later.' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  ' it later.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00428"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  'Restore consumer get unexpected error polling records.' should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  'Restore consumer get unexpected error polling records.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00445"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#445"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN301709 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -575,6 +917,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00484"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#484"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00484] For method shouldResume list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId manager_taskIdN308410"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00484"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#484"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00484] The argument tasks is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -583,14 +932,14 @@ var maDataBlocs = {
    "c1" : "00489"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldResume@POLYN306389 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldResume@POLYN308101 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00491"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#491"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldResume@POLYN306389 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldResume@POLYN308101 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -598,6 +947,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#494"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00494] For method shouldPause arguments Map&lt;TaskId ,Task &gt;  tasks|TopicPartition  partition|TaskType  taskType"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00494"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#494"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00494] For method shouldPause list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId manager_taskIdN309057"
 }} 
 ,
 { "ligne" : {
@@ -611,14 +967,21 @@ var maDataBlocs = {
    "c1" : "00499"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldPause@POLYN307036 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldPause@POLYN308748 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldPause@POLYN307036 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.shouldPause@POLYN308748 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00504"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#504"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00504] For method maybeLogRestorationProgress list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; activeRestoringChangelogsN309676|org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata restoringChangelogByPartitionN310123"
 }} 
 ,
 { "ligne" : {
@@ -632,63 +995,63 @@ var maDataBlocs = {
    "c1" : "00509"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  'Restoration in progress for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  'Restoration in progress for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00511"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  ' partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  ' partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00514"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  ' {' should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  ' {' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00516"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00517"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  'position=' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  'position=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00519"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  ', end=' should be converted to const"
+ , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  ', end=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00521"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#521"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00521] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  ', totalRestored=' should be converted to const"
+ , "c3" : "QC-JAV000010[00521] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  ', totalRestored=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00523"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00530"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN307675 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -696,6 +1059,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#534"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00534] For method getPositionString arguments TopicPartition  partition|ChangelogMetadata  changelogMetadata"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00534"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#534"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00534] For method getPositionString list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Long&gt; stateManager_changelogOffsetsN311148"
 }} 
 ,
 { "ligne" : {
@@ -709,14 +1079,14 @@ var maDataBlocs = {
    "c1" : "00538"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.getPositionString@POLYN309235 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.getPositionString@POLYN310947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00538"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.getPositionString@POLYN309235 the MagicNumber/String  'unknown' should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.getPositionString@POLYN310947 the MagicNumber/String  'unknown' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -744,28 +1114,28 @@ var maDataBlocs = {
    "c1" : "00570"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN310819 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN312531 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00571"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN310819 the MagicNumber/String  'Read changelog record with null key from changelog {} at offset {}, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN312531 the MagicNumber/String  'Read changelog record with null key from changelog {} at offset {}, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00572"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#572"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN310819 the MagicNumber/String  'skipping it for restoration' should be converted to const"
+ , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN312531 the MagicNumber/String  'skipping it for restoration' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00576"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#576"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN310819 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.bufferChangelogRecords@POLYN312531 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -786,70 +1156,70 @@ var maDataBlocs = {
    "c1" : "00591"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#591"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00593"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#593"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00593] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00593] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00594"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#594"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00594] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00594] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00596"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00609"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#609"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  'Restored {} records from changelog {} to store {}, end offset is {}, current offset is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  'Restored {} records from changelog {} to store {}, end offset is {}, current offset is {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00612"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00620"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#620"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  'State restore listener failed on batch restored' should be converted to const"
+ , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  'State restore listener failed on batch restored' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00627"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#627"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00629"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  'Finished restoring changelog {} to store {} with a total number of {} records' should be converted to const"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  'Finished restoring changelog {} to store {} with a total number of {} records' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00638"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#638"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00638] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN311934 the MagicNumber/String  'State restore listener failed on restore completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00638] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String  'State restore listener failed on restore completed' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -884,7 +1254,7 @@ var maDataBlocs = {
    "c1" : "00656"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#656"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.clearTaskTimeout@POLYN315419 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.clearTaskTimeout@POLYN317131 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -912,7 +1282,7 @@ var maDataBlocs = {
    "c1" : "00675"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.committedOffsetForChangelogs@POLYN316100 the MagicNumber/String  'Could not fetch all committed offsets for {}, will retry in the next run loop' should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.committedOffsetForChangelogs@POLYN317812 the MagicNumber/String  'Could not fetch all committed offsets for {}, will retry in the next run loop' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -933,14 +1303,14 @@ var maDataBlocs = {
    "c1" : "00702"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#702"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.endOffsetForChangelogs@POLYN317059 the MagicNumber/String  'Could not fetch all end offsets for {}, will retry in the next run loop' should be converted to const"
+ , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.endOffsetForChangelogs@POLYN318771 the MagicNumber/String  'Could not fetch all end offsets for {}, will retry in the next run loop' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00706"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#706"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00706] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.endOffsetForChangelogs@POLYN317059 the MagicNumber/String  'Failed to retrieve end offsets for %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00706] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.endOffsetForChangelogs@POLYN318771 the MagicNumber/String  'Failed to retrieve end offsets for %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -982,28 +1352,28 @@ var maDataBlocs = {
    "c1" : "00720"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN318776 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN320488 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00721"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#721"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN318776 the MagicNumber/String  'Offset limit should monotonically increase, but was reduced for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN320488 the MagicNumber/String  'Offset limit should monotonically increase, but was reduced for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00722"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#722"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN318776 the MagicNumber/String  '. New limit: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN320488 the MagicNumber/String  '. New limit: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00722"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#722"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN318776 the MagicNumber/String  '. Previous limit: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.updateLimitOffsetsForStandbyChangelogs@POLYN320488 the MagicNumber/String  '. Previous limit: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1011,6 +1381,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#735"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00735] For method initializeChangelogs arguments Map&lt;TaskId ,Task &gt;  tasks|Set&lt;ChangelogMetadata &gt;  newPartitionsToRestore"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00735"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#735"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00735] For method initializeChangelogs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Long&gt; endOffsetForChangelogsN322884|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Long&gt; committedOffsetForChangelogsN323034"
 }} 
 ,
 { "ligne" : {
@@ -1052,91 +1429,91 @@ var maDataBlocs = {
    "c1" : "00772"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#772"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00772] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00772] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00772"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#772"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00772] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00772] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00773"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#773"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00773] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00773] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00774"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#774"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00774] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  'End offset for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00774] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  'End offset for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00775"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#775"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  ' should only be initialized once. Existing value: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  ' should only be initialized once. Existing value: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00776"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#776"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  ', new value: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  ', new value: (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00776"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#776"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00776"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#776"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00781"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#781"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  'End offset for changelog {} initialized as {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  'End offset for changelog {} initialized as {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00784"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  'New changelogs to restore ' should be converted to const"
+ , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  'New changelogs to restore ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00785"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  ' does not contain the one looking for end offset: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  ' does not contain the one looking for end offset: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00785"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  ', this should not happen.' should be converted to const"
+ , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  ', this should not happen.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00788"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#788"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN320115 the MagicNumber/String  'End offset for changelog {} cannot be found; will retry in the next time.' should be converted to const"
+ , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String  'End offset for changelog {} cannot be found; will retry in the next time.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1150,28 +1527,28 @@ var maDataBlocs = {
    "c1" : "00818"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#818"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00818] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN323728 the MagicNumber/String  'The current assignment ' should be converted to const"
+ , "c3" : "QC-JAV000010[00818] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String  'The current assignment ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00818"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#818"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00818] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN323728 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00818] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00819"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#819"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00819] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN323728 the MagicNumber/String  'already contains some of the new partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00819] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String  'already contains some of the new partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00824"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#824"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00824] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN323728 the MagicNumber/String  'Added partitions {} to the restore consumer, current assignment is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00824] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String  'Added partitions {} to the restore consumer, current assignment is {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1185,35 +1562,35 @@ var maDataBlocs = {
    "c1" : "00832"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#832"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN324499 the MagicNumber/String  'The current assignment ' should be converted to const"
+ , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String  'The current assignment ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00832"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#832"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN324499 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00833"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#833"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00833] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN324499 the MagicNumber/String  'does not contain some of the partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00833] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String  'does not contain some of the partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00833"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#833"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00833] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN324499 the MagicNumber/String  ' for pausing.' should be converted to const"
+ , "c3" : "QC-JAV000010[00833] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String  ' for pausing.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00837"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#837"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00837] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN324499 the MagicNumber/String  'Paused partitions {} from the restore consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00837] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String  'Paused partitions {} from the restore consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1227,28 +1604,28 @@ var maDataBlocs = {
    "c1" : "00845"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN325190 the MagicNumber/String  'The current assignment ' should be converted to const"
+ , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String  'The current assignment ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00845"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN325190 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00846"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#846"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN325190 the MagicNumber/String  'does not contain some of the partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String  'does not contain some of the partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00846"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#846"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN325190 the MagicNumber/String  ' for removing.' should be converted to const"
+ , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String  ' for removing.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1262,35 +1639,35 @@ var maDataBlocs = {
    "c1" : "00857"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#857"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00857] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN325857 the MagicNumber/String  'The current assignment ' should be converted to const"
+ , "c3" : "QC-JAV000010[00857] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String  'The current assignment ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00857"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#857"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00857] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN325857 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00857] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00858"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#858"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00858] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN325857 the MagicNumber/String  'does not contain some of the partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00858] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String  'does not contain some of the partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00858"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#858"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00858] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN325857 the MagicNumber/String  ' for resuming.' should be converted to const"
+ , "c3" : "QC-JAV000010[00858] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String  ' for resuming.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00862"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#862"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00862] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN325857 the MagicNumber/String  'Resumed partitions {} from the restore consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00862] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String  'Resumed partitions {} from the restore consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1381,63 +1758,63 @@ var maDataBlocs = {
    "c1" : "00875"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#875"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00879"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#879"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00879] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00879] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00881"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#881"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00881] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  'Start restoring changelog partition {} from current offset {} to end offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00881] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  'Start restoring changelog partition {} from current offset {} to end offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00884"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#884"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00884] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  'Start restoring changelog partition {} from the beginning offset to end offset {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00884] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  'Start restoring changelog partition {} from the beginning offset to end offset {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00885"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#885"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00885] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  'since we cannot find current offset.' should be converted to const"
+ , "c3" : "QC-JAV000010[00885] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  'since we cannot find current offset.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00904"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#904"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00904] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00904] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00912"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#912"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00912] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  'Restore consumer get unexpected error trying to get the position ' should be converted to const"
+ , "c3" : "QC-JAV000010[00912] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  'Restore consumer get unexpected error trying to get the position ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00913"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#913"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  ' of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  ' of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00919"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#919"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN326548 the MagicNumber/String  'State restore listener failed on batch restored' should be converted to const"
+ , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String  'State restore listener failed on batch restored' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1458,49 +1835,49 @@ var maDataBlocs = {
    "c1" : "00932"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#932"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00932] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN329120 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00932] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN330832 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00939"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#939"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00939] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN329120 the MagicNumber/String  'Changelog partition {} could not be found,' should be converted to const"
+ , "c3" : "QC-JAV000010[00939] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN330832 the MagicNumber/String  'Changelog partition {} could not be found,' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00940"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#940"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00940] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN329120 the MagicNumber/String  ' it could be already cleaned up during the handling' should be converted to const"
+ , "c3" : "QC-JAV000010[00940] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN330832 the MagicNumber/String  ' it could be already cleaned up during the handling' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00941"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#941"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN329120 the MagicNumber/String  ' of task corruption and never restore again' should be converted to const"
+ , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.unregister@POLYN330832 the MagicNumber/String  ' of task corruption and never restore again' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00958"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#958"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00958] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN330062 the MagicNumber/String  'Restore consumer get unexpected error unsubscribing' should be converted to const"
+ , "c3" : "QC-JAV000010[00958] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN331774 the MagicNumber/String  'Restore consumer get unexpected error unsubscribing' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00969"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#969"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.toString@POLYN330667 the MagicNumber/String  'StoreChangelogReader: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.toString@POLYN332379 the MagicNumber/String  'StoreChangelogReader: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00969"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#969"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.toString@POLYN330667 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.streams.processor.internals.StoreChangelogReader.toString@POLYN332379 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1508,6 +1885,657 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#973"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00973] For method changelogMetadata arguments TopicPartition  partition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.endOffsetForChangelogs@POLYN318771"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.committedOffsetForChangelogs@POLYN317812"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN331774"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN298483"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00702"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#702"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00702] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.endOffsetForChangelogs@POLYN318771 the MagicNumber/String 'Could not fetch all end offsets for {}, will retry in the next run loop' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00706"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00706] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.endOffsetForChangelogs@POLYN318771 the MagicNumber/String 'Failed to retrieve end offsets for %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00675"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#675"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00675] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.committedOffsetForChangelogs@POLYN317812 the MagicNumber/String 'Could not fetch all committed offsets for {}, will retry in the next run loop' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00772"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#772"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00772] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00772"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#772"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00772] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00773"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#773"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00773] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00774"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#774"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00774] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String 'End offset for ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00775"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#775"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00775] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String ' should only be initialized once. Existing value: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00776"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#776"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00776] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00776"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#776"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00776] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00776"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#776"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00776] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String ', new value: -' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00781"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00781] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String 'End offset for changelog {} initialized as {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00784"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#784"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00784] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String 'New changelogs to restore ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00785"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#785"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00785] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String ' does not contain the one looking for end offset: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00785"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#785"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00785] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String ', this should not happen.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00788"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#788"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00788] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.initializeChangelogs@POLYN321827 the MagicNumber/String 'End offset for changelog {} cannot be found; will retry in the next time.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00832"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00832] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String ' ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00832"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00832] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String 'The current assignment ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00833"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#833"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00833] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String ' for pausing.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00833"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#833"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00833] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String 'does not contain some of the partitions ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00837"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00837] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.pauseChangelogsFromRestoreConsumer@POLYN326211 the MagicNumber/String 'Paused partitions {} from the restore consumer' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00875"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#875"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00875] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00879"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#879"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00879] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00881"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#881"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00881] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String 'Start restoring changelog partition {} from current offset {} to end offset {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00884"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00884] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String 'Start restoring changelog partition {} from the beginning offset to end offset {} ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00885"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#885"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00885] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String 'since we cannot find current offset.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00904"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#904"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00904] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00912"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#912"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00912] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String 'Restore consumer get unexpected error trying to get the position ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00913"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00913] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String ' of ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00919"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#919"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00919] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.prepareChangelogs@POLYN328260 the MagicNumber/String 'State restore listener failed on batch restored' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00395"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String 'Should not be in standby updating state if there are still un-completed active changelogs' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00399"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String 'Finished restoring all changelogs {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00418"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#418"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String 'Encountered ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00419"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00419] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String ' fetching records from restore consumer for partitions ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00419"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00419] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String ', it is likely that ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00420"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#420"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String 'the consumer's position has fallen out of the topic partition offset range because the topic was ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00421"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String 'truncated or compacted on the broker, marking the corresponding tasks as corrupted and re-initializing' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00422"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#422"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String ' it later.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00428"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#428"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00428] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String 'Restore consumer get unexpected error polling records.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#445"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00445] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN303421 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00509"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#509"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String 'Restoration in progress for ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00511"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#511"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String ' partitions.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00514"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String ' {' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00516"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#516"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00516] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String ': ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00517"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00517] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String 'position=' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00519"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#519"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00519] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String ', end=' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00521"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#521"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00521] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String ', totalRestored=' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00523"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String '}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00530"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#530"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.maybeLogRestorationProgress@POLYN309387 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00958"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#958"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00958] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN331774 the MagicNumber/String 'Restore consumer get unexpected error unsubscribing' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00591"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00591] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00593"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00593] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00594"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#594"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00594] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00596"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00609"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#609"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00609] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String 'Restored {} records from changelog {} to store {}, end offset is {}, current offset is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00612"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#612"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00612] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00620"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#620"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00620] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String 'State restore listener failed on batch restored' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00627"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#627"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00627] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00629"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#629"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00629] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String 'Finished restoring changelog {} to store {} with a total number of {} records' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00638"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00638] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.restoreChangelog@POLYN313646 the MagicNumber/String 'State restore listener failed on restore completed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00295"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String '- while trying to ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00295"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String 'The changelog reader is not restoring active tasks -is ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#296"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String 'transit to update standby tasks: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00300"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#300"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00300] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.transitToUpdateStandby@POLYN298908 the MagicNumber/String 'Transiting to update standby tasks: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00857"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00857] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String ' ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00857"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00857] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String 'The current assignment ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00858"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#858"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00858] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String ' for resuming.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00858"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#858"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00858] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String 'does not contain some of the partitions ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00862"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#862"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00862] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.resumeChangelogsFromRestoreConsumer@POLYN327569 the MagicNumber/String 'Resumed partitions {} from the restore consumer' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN298483 the MagicNumber/String 'Transiting to restore active tasks: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00275] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN298483 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00845"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#845"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00845] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String ' ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00845"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#845"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00845] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String 'The current assignment ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00846"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#846"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00846] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String ' for removing.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00846"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#846"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00846] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN326902 the MagicNumber/String 'does not contain some of the partitions ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00818"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#818"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00818] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String ' ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00818"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#818"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00818] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String 'The current assignment ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00819"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#819"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00819] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String 'already contains some of the new partitions ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00824"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#824"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00824] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN325440 the MagicNumber/String 'Added partitions {} to the restore consumer, current assignment is {}' MUST BE CONVERTED to const"
 }} 
 ]
 };

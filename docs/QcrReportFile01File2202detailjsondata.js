@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "PayloadGenerator"
+ , "c2" : "org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GaussianTimestampConstantPayloadGenerator"
+ , "c2" : "GaussianTimestampConstantPayloadGenerator(int;double;int;long)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "messageSizeAverage()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "double"
+ , "c2" : "messageSizeDeviation()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "messagesUntilSizeChange()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "seed()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "generate(long)"
+ , "c3" : "2"
+ , "c4" : "10"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampConstantPayloadGenerator.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampConstantPayloadGenerator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,35 +146,35 @@ var maDataBlocs = {
    "c1" : "00066"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampConstantPayloadGenerator.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN170277 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN171989 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampConstantPayloadGenerator.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN170277 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN171989 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampConstantPayloadGenerator.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN170277 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN171989 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampConstantPayloadGenerator.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN170277 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN171989 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampConstantPayloadGenerator.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN170277 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.workload.GaussianTimestampConstantPayloadGenerator.generate@POLYN171989 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

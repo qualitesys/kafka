@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+AbstractApiMessageSerde <|-- org.apache.kafka.metadata.MetadataRecordSerde
+class org.apache.kafka.metadata.MetadataRecordSerde {
++  apiMessageFor(short)
+} 
+@enduml

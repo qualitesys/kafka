@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskWorker"
+ , "c2" : "org.apache.kafka.trogdor.fault.KiboshFaultWorker"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.fault.KiboshFaultWorker" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KiboshFaultWorker"
+ , "c2" : "KiboshFaultWorker(String;KiboshFaultSpec;String)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "stop(Platform)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,21 +125,21 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN161134 the MagicNumber/String  'Activating {} {}: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN162846 the MagicNumber/String  'Activating {} {}: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN161134 the MagicNumber/String  'Adding fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN162846 the MagicNumber/String  'Adding fault ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN161134 the MagicNumber/String  'Added fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN162846 the MagicNumber/String  'Added fault ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,21 +153,21 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN161924 the MagicNumber/String  'Deactivating {} {}: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN163636 the MagicNumber/String  'Deactivating {} {}: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN161924 the MagicNumber/String  'Removing fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN163636 the MagicNumber/String  'Removing fault ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN161924 the MagicNumber/String  'Removed fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN163636 the MagicNumber/String  'Removed fault ' should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Window <|-- org.apache.kafka.streams.kstream.internals.TimeWindow
+class org.apache.kafka.streams.kstream.internals.TimeWindow {
++  TimeWindow(long;long)
++  overlap(Window)
+} 
+@enduml

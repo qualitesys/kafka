@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AuthenticationContext <|-- org.apache.kafka.common.security.auth.PlaintextAuthenticationContext
+class org.apache.kafka.common.security.auth.PlaintextAuthenticationContext {
++  PlaintextAuthenticationContext(InetAddress;String)
++  securityProtocol()
++  clientAddress()
++  listenerName()
+} 
+@enduml

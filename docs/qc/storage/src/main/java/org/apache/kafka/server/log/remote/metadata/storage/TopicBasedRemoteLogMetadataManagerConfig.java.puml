@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManagerConfig
+class org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManagerConfig {
++  TopicBasedRemoteLogMetadataManagerConfig(Map<String,?>)
++  initializeProducerConsumerProperties(Map<String,?>)
++  remoteLogMetadataTopicName()
++  metadataTopicPartitionsCount()
++  metadataTopicReplicationFactor()
++  metadataTopicRetentionMs()
++  consumeWaitMs()
++  initializationRetryMaxTimeoutMs()
++  initializationRetryIntervalMs()
++  logDir()
++  consumerProperties()
++  producerProperties()
++  createConsumerProps(HashMap<String,Object>)
++  createProducerProps(HashMap<String,Object>)
++  toString()
+} 
+@enduml

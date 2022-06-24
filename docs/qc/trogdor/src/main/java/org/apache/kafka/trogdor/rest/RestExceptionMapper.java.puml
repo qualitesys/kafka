@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ExceptionMapper<Throwable> <|-- org.apache.kafka.trogdor.rest.RestExceptionMapper
+class org.apache.kafka.trogdor.rest.RestExceptionMapper {
++  toResponse(Throwable)
++  toException(int;String)
++  buildResponse(Response.Status;Throwable)
+} 
+@enduml

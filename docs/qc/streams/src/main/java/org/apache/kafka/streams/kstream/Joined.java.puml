@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+NamedOperation<Joined<K,V,VO>> <|-- org.apache.kafka.streams.kstream.Joined
+class org.apache.kafka.streams.kstream.Joined {
++  Joined(Serde<K>;Serde<V>;Serde<VO>;String)
++  Joined(Joined<K,V,VO>)
++  withKeySerde(Serde<K>)
++  withValueSerde(Serde<V>)
++  withOtherValueSerde(Serde<VO>)
++  withName(String)
++  keySerde()
++  valueSerde()
++  otherValueSerde()
+} 
+@enduml

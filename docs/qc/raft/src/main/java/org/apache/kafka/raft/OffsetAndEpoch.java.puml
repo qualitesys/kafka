@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Comparable<OffsetAndEpoch> <|-- org.apache.kafka.raft.OffsetAndEpoch
+class org.apache.kafka.raft.OffsetAndEpoch {
++  OffsetAndEpoch(long;int)
++  equals(Object)
++  hashCode()
++  toString()
++  compareTo(OffsetAndEpoch)
+} 
+@enduml

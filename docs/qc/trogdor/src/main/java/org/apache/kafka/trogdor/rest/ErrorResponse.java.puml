@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.rest.ErrorResponse
+class org.apache.kafka.trogdor.rest.ErrorResponse {
++  ErrorResponse(int;String)
++  code()
++  message()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.WriteTxnMarkersResponse
+class org.apache.kafka.common.requests.WriteTxnMarkersResponse {
++  WriteTxnMarkersResponse(Map<Long,Map<TopicPartition,Errors>>)
++  WriteTxnMarkersResponse(WriteTxnMarkersResponseData)
++  data()
++  errorsByProducerId()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
+} 
+@enduml

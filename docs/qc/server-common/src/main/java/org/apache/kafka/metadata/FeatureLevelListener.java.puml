@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.FeatureLevelListener
+class org.apache.kafka.metadata.FeatureLevelListener {
++  handle(String;short)
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.util.SharedTopicAdmin
+class org.apache.kafka.connect.util.SharedTopicAdmin {
++  SharedTopicAdmin(Map<String,Object>)
++  SharedTopicAdmin(Map<String,Object>;Function<Map<String,Object>,TopicAdmin>)
++  get()
++  topicAdmin()
++  bootstrapServers()
++  close()
++  close(Duration)
++  toString()
++  createAdmin(TopicAdmin)
+} 
+@enduml

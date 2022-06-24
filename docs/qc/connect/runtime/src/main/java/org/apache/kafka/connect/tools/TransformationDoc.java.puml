@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.tools.TransformationDoc
+class org.apache.kafka.connect.tools.TransformationDoc {
++  printTransformationHtml(PrintStream;DocInfo)
++  printHtml(PrintStream)
++  main(String...)
+} 
+@enduml

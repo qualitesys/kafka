@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+StateStore <|-- org.apache.kafka.streams.state.SessionStore
+class org.apache.kafka.streams.state.SessionStore {
++  findSessions(K;Instant;Instant)
++  backwardFindSessions(K;Instant;Instant)
++  findSessions(K;K;Instant;Instant)
++  backwardFindSessions(K;K;Instant;Instant)
++  fetchSession(K;Instant;Instant)
++  remove(Windowed<K>)
++  put(Windowed<K>;AGG)
+} 
+@enduml

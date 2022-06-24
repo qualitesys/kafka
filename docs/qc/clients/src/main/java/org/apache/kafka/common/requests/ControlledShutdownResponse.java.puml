@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.ControlledShutdownResponse
+class org.apache.kafka.common.requests.ControlledShutdownResponse {
++  ControlledShutdownResponse(ControlledShutdownResponseData)
++  error()
++  errorCounts()
++  throttleTimeMs()
++  parse(ByteBuffer;short)
++  data()
++  prepareResponse(Errors;Set<TopicPartition>)
+} 
+@enduml

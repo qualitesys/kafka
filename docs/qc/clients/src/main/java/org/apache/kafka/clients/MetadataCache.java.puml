@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.MetadataCache
+class org.apache.kafka.clients.MetadataCache {
++  MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)
++  MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;Cluster)
++  partitionMetadata(TopicPartition)
++  topicIds()
++  nodeById(int)
++  cluster()
++  clusterResource()
++  mergeWith(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;BiPredicate<String,Boolean>)
++  computeClusterView()
++  bootstrap(List<InetSocketAddress>)
++  empty()
++  toString()
+} 
+@enduml

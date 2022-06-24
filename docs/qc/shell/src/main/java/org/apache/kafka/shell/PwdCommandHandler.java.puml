@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Commands.Handler <|-- org.apache.kafka.shell.PwdCommandHandler
+class org.apache.kafka.shell.PwdCommandHandler {
++  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
++  hashCode()
++  equals(Object)
+} 
+@enduml

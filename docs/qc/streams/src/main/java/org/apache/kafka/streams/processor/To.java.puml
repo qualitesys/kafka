@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.To
+class org.apache.kafka.streams.processor.To {
++  To(String;long)
++  To(To)
++  update(To)
++  child(String)
++  all()
++  withTimestamp(long)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

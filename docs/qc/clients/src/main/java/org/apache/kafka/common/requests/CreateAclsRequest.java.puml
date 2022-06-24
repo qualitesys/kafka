@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.CreateAclsRequest
+class org.apache.kafka.common.requests.CreateAclsRequest {
++  CreateAclsRequest(CreateAclsRequestData;short)
++  aclCreations()
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  validate(CreateAclsRequestData)
++  aclBinding(AclCreation)
++  aclCreation(AclBinding)
++  aclResult(Throwable)
+} 
+@enduml

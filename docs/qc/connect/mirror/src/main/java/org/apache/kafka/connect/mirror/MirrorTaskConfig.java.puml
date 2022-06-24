@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+MirrorConnectorConfig <|-- org.apache.kafka.connect.mirror.MirrorTaskConfig
+class org.apache.kafka.connect.mirror.MirrorTaskConfig {
++  MirrorTaskConfig(Map<String,String>)
++  taskTopicPartitions()
++  taskConsumerGroups()
++  metrics()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ProcessorNode<KIn,VIn,Void,Void> <|-- org.apache.kafka.streams.processor.internals.SinkNode
+class org.apache.kafka.streams.processor.internals.SinkNode {
++  SinkNode(String;TopicNameExtractor<KIn,VIn>;Serializer<KIn>;Serializer<VIn>;StreamPartitioner<?superKIn,?superVIn>)
++  addChild(ProcessorNode<Void,Void,?,?>)
++  init(InternalProcessorContext<Void,Void>)
++  process(Record<KIn,VIn>)
++  toString()
++  toString(String)
+} 
+@enduml

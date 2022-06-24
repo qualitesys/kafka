@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.metrics.Sensor
+class org.apache.kafka.common.metrics.Sensor {
++  Sensor(Metrics;String;Sensor[];MetricConfig;Time;long;RecordingLevel)
++  checkForest(Set<Sensor>)
++  name()
++  parents()
++  shouldRecord()
++  record()
++  record(double)
++  record(double;long)
++  record(double;long;boolean)
++  recordInternal(double;long;boolean)
++  checkQuotas()
++  checkQuotas(long)
++  add(CompoundStat)
++  add(CompoundStat;MetricConfig)
++  add(MetricName;MeasurableStat)
++  add(MetricName;MeasurableStat;MetricConfig)
++  hasMetrics()
++  hasExpired()
++  metrics()
++  metricLock()
+} 
+@enduml

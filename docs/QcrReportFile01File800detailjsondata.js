@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Serializable"
+ , "c2" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OAuthBearerValidationResult"
+ , "c2" : "newSuccess()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OAuthBearerValidationResult"
+ , "c2" : "newFailure(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OAuthBearerValidationResult"
+ , "c2" : "newFailure(String;String;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OAuthBearerValidationResult"
+ , "c2" : "OAuthBearerValidationResult(boolean;String;String;String)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "success()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "failureDescription()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "failureScope()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "failureOpenIdConfig()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "throwExceptionIfFailed()"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,28 +146,28 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN166135 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN167847 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN166135 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN167847 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN166135 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN167847 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN166135 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newSuccess@POLYN167847 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,14 +181,14 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newFailure@POLYN166445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newFailure@POLYN168157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newFailure@POLYN166445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newFailure@POLYN168157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,28 +202,28 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newFailure@POLYN166846 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.newFailure@POLYN168558 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.OAuthBearerValidationResult@POLYN167099 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.OAuthBearerValidationResult@POLYN168811 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.OAuthBearerValidationResult@POLYN167099 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.OAuthBearerValidationResult@POLYN168811 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.OAuthBearerValidationResult@POLYN167099 the MagicNumber/String  'success was indicated but failure scope/OpenIdConfig were provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult.OAuthBearerValidationResult@POLYN168811 the MagicNumber/String  'success was indicated but failure scope/OpenIdConfig were provided' should be converted to const"
 }} 
 ]
 };

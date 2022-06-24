@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.FullChangeSerde
+class org.apache.kafka.streams.kstream.internals.FullChangeSerde {
++  FullChangeSerde(Serde<T>)
++  innerSerde()
++  serializeParts(String;Change<T>)
++  deserializeParts(String;Change<byte[]>)
++  decomposeLegacyFormattedArrayIntoChangeArrays(byte[])
+} 
+@enduml

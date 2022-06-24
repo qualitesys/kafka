@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.BrokersToIsrs
+class org.apache.kafka.controller.BrokersToIsrs {
++  BrokersToIsrs(SnapshotRegistry)
++  update(Uuid;int;int[];int[];int;int)
++  removeTopicEntryForBroker(Uuid;int)
++  add(int;Uuid;int;boolean)
++  change(int;Uuid;int;boolean;boolean)
++  remove(int;Uuid;int;boolean)
++  iterator(int;boolean)
++  partitionsWithNoLeader()
++  partitionsLedByBroker(int)
++  partitionsWithBrokerInIsr(int)
++  hasLeaderships(int)
++  offlinePartitionCount()
+} 
+@enduml

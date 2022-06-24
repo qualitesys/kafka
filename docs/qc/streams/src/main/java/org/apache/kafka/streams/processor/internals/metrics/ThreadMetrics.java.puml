@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics
+class org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics {
++  ThreadMetrics()
++  createTaskSensor(String;StreamsMetricsImpl)
++  closeTaskSensor(String;StreamsMetricsImpl)
++  skipRecordSensor(String;StreamsMetricsImpl)
++  commitSensor(String;StreamsMetricsImpl)
++  pollSensor(String;StreamsMetricsImpl)
++  processLatencySensor(String;StreamsMetricsImpl)
++  pollRecordsSensor(String;StreamsMetricsImpl)
++  processRecordsSensor(String;StreamsMetricsImpl)
++  processRateSensor(String;StreamsMetricsImpl)
++  punctuateSensor(String;StreamsMetricsImpl)
++  commitOverTasksSensor(String;StreamsMetricsImpl)
++  processRatioSensor(String;StreamsMetricsImpl)
++  punctuateRatioSensor(String;StreamsMetricsImpl)
++  pollRatioSensor(String;StreamsMetricsImpl)
++  commitRatioSensor(String;StreamsMetricsImpl)
++  addThreadStartTimeMetric(String;StreamsMetricsImpl;long)
++  addThreadBlockedTimeMetric(String;StreamThreadTotalBlockedTime;StreamsMetricsImpl)
++  invocationRateAndCountSensor(String;String;String;String;RecordingLevel;StreamsMetricsImpl)
++  invocationRateAndCountAndAvgAndMaxLatencySensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)
+} 
+@enduml

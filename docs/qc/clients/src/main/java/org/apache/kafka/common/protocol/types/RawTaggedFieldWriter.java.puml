@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.types.RawTaggedFieldWriter
+class org.apache.kafka.common.protocol.types.RawTaggedFieldWriter {
++  forFields(List<RawTaggedField>)
++  RawTaggedFieldWriter(List<RawTaggedField>)
++  numFields()
++  writeRawTags(Writable;int)
+} 
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- kafka.server.builders.KafkaApisBuilder
+class kafka.server.builders.KafkaApisBuilder {
++  setRequestChannel(RequestChannel)
++  setMetadataSupport(MetadataSupport)
++  setReplicaManager(ReplicaManager)
++  setGroupCoordinator(GroupCoordinator)
++  setTxnCoordinator(TransactionCoordinator)
++  setAutoTopicCreationManager(AutoTopicCreationManager)
++  setBrokerId(int)
++  setConfig(KafkaConfig)
++  setConfigRepository(ConfigRepository)
++  setMetadataCache(MetadataCache)
++  setMetrics(Metrics)
++  setAuthorizer(Optional<Authorizer>)
++  setQuotas(QuotaManagers)
++  setFetchManager(FetchManager)
++  setBrokerTopicStats(BrokerTopicStats)
++  setClusterId(String)
++  setTime(Time)
++  setTokenManager(DelegationTokenManager)
++  setApiVersionManager(ApiVersionManager)
++  build()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ContainerRequestFilter <|-- org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter
+class org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter {
++  JaasBasicAuthFilter(Configuration)
++  filter(ContainerRequestContext)
++  isInternalRequest(ContainerRequestContext)
+} 
+@enduml

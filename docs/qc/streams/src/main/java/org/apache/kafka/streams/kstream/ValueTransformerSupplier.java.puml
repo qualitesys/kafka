@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ConnectedStoreProvider <|-- org.apache.kafka.streams.kstream.ValueTransformerSupplier
+class org.apache.kafka.streams.kstream.ValueTransformerSupplier {
++  get()
+} 
+@enduml

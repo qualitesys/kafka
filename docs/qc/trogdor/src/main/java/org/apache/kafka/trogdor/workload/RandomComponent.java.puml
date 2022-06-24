@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.workload.RandomComponent
+class org.apache.kafka.trogdor.workload.RandomComponent {
++  RandomComponent(int;PayloadGenerator)
++  percent()
++  component()
+} 
+@enduml

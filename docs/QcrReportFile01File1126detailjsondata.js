@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectClusterDetails"
+ , "c2" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConnectClusterDetailsImpl"
+ , "c2" : "ConnectClusterDetailsImpl(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "kafkaClusterId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterDetailsImpl.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterDetailsImpl.java.svg" }
+
 ] 
 , 
 "data04" : [

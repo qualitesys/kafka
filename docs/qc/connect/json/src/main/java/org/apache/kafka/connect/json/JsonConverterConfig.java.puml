@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ConverterConfig <|-- org.apache.kafka.connect.json.JsonConverterConfig
+class org.apache.kafka.connect.json.JsonConverterConfig {
++  configDef()
++  JsonConverterConfig(Map<String,?>)
++  schemasEnabled()
++  schemaCacheSize()
++  decimalFormat()
+} 
+@enduml

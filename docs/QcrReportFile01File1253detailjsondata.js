@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.message.MessageClassGenerator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.message.MessageClassGenerator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "outputName(MessageSpec)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "generateAndWrite(MessageSpec;BufferedWriter)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageClassGenerator.java.png" 
+
+ , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageClassGenerator.java.svg" }
+
 ] 
 , 
 "data04" : [

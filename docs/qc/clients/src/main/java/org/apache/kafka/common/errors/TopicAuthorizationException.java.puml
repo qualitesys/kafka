@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AuthorizationException <|-- org.apache.kafka.common.errors.TopicAuthorizationException
+class org.apache.kafka.common.errors.TopicAuthorizationException {
++  TopicAuthorizationException(String;Set<String>)
++  TopicAuthorizationException(Set<String>)
++  TopicAuthorizationException(String)
++  unauthorizedTopics()
+} 
+@enduml

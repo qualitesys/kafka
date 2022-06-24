@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+SegmentedBytesStore <|-- org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore
+class org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore {
++  AbstractDualSchemaRocksDBSegmentedBytesStore(String;KeySchema;Optional<KeySchema>;AbstractSegments<S>)
++  all()
++  backwardAll()
++  remove(Bytes)
++  getIndexKeyValue(Bytes;byte[])
++  putIndex(Bytes;byte[])
++  getIndex(Bytes)
++  removeIndex(Bytes)
++  put(Bytes;byte[])
++  get(Bytes)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  flush()
++  close()
++  persistent()
++  isOpen()
++  getSegments()
++  restoreAllInternal(Collection<ConsumerRecord<byte[],byte[]>>)
++  getWriteBatches(Collection<ConsumerRecord<byte[],byte[]>>)
++  getPosition()
++  hasIndex()
+} 
+@enduml

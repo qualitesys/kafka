@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.Initable
+class org.apache.kafka.common.security.oauthbearer.secured.Initable {
++  init()
+} 
+@enduml

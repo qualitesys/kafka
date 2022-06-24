@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils
+class org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils {
++  ConfigurationUtils(Map<String,?>)
++  ConfigurationUtils(Map<String,?>;String)
++  validateFile(String)
++  validateInteger(String;boolean)
++  validateLong(String)
++  validateLong(String;boolean)
++  validateLong(String;boolean;Long)
++  validateUrl(String)
++  validateString(String)
++  validateString(String;boolean)
+} 
+@enduml

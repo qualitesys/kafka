@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.network.ChannelState
+class org.apache.kafka.common.network.ChannelState {
++  ChannelState(State)
++  ChannelState(State;String)
++  ChannelState(State;AuthenticationException;String)
++  state()
++  exception()
++  remoteAddress()
+} 
+@enduml

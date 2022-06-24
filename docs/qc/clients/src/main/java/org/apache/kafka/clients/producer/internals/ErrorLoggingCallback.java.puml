@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Callback <|-- org.apache.kafka.clients.producer.internals.ErrorLoggingCallback
+class org.apache.kafka.clients.producer.internals.ErrorLoggingCallback {
++  ErrorLoggingCallback(String;byte[];byte[];boolean)
++  onCompletion(RecordMetadata;Exception)
+} 
+@enduml

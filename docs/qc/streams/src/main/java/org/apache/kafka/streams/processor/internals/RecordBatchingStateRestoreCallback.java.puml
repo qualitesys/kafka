@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+BatchingStateRestoreCallback <|-- org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback
+class org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback {
++  restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>)
++  restoreAll(Collection<KeyValue<byte[],byte[]>>)
+} 
+@enduml

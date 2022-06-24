@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+MeasurableStat <|-- org.apache.kafka.common.metrics.stats.SampledStat
+class org.apache.kafka.common.metrics.stats.SampledStat {
++  SampledStat(double)
++  record(MetricConfig;double;long)
++  advance(MetricConfig;long)
++  newSample(long)
++  measure(MetricConfig;long)
++  current(long)
++  oldest(long)
++  toString()
++  update(Sample;MetricConfig;double;long)
++  combine(List<Sample>;MetricConfig;long)
++  purgeObsoleteSamples(MetricConfig;long)
+} 
+@enduml

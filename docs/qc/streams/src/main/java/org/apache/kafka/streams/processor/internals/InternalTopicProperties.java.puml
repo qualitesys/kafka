@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.InternalTopicProperties
+class org.apache.kafka.streams.processor.internals.InternalTopicProperties {
++  InternalTopicProperties(Integer)
++  getNumberOfPartitions()
++  empty()
++  toString()
+} 
+@enduml

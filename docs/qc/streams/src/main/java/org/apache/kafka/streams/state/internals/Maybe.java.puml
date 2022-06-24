@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.Maybe
+class org.apache.kafka.streams.state.internals.Maybe {
++  Maybe(T)
++  Maybe()
++  getNullableValue()
++  isDefined()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

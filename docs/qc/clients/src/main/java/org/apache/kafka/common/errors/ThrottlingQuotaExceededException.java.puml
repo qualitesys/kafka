@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.ThrottlingQuotaExceededException
+class org.apache.kafka.common.errors.ThrottlingQuotaExceededException {
++  ThrottlingQuotaExceededException(String)
++  ThrottlingQuotaExceededException(int;String)
++  throttleTimeMs()
+} 
+@enduml

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Bytes,byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.SegmentIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.SegmentIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SegmentIterator"
+ , "c2" : "SegmentIterator(Iterator<S>;HasNextCondition;Bytes;Bytes;boolean)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "peekNextKey()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNextConditionHasNext()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Bytes,byte[]>"
+ , "c2" : "next()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.SegmentIterator.close@POLYN163996 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.SegmentIterator.close@POLYN165708 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.SegmentIterator.close@POLYN163996 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.SegmentIterator.close@POLYN165708 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,21 +174,21 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNext@POLYN164488 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNext@POLYN166200 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNext@POLYN164488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNext@POLYN166200 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNext@POLYN164488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNext@POLYN166200 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +202,7 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNextConditionHasNext@POLYN165445 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.SegmentIterator.hasNextConditionHasNext@POLYN167157 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

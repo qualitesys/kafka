@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.EndTransactionMarker
+class org.apache.kafka.common.record.EndTransactionMarker {
++  EndTransactionMarker(ControlRecordType;int)
++  coordinatorEpoch()
++  controlType()
++  buildRecordValue()
++  serializeValue()
++  equals(Object)
++  hashCode()
++  ensureTransactionMarkerControlType(ControlRecordType)
++  deserialize(Record)
++  deserializeValue(ControlRecordType;ByteBuffer)
+} 
+@enduml

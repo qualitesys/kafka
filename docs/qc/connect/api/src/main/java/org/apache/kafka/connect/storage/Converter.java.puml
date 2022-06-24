@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.storage.Converter
+class org.apache.kafka.connect.storage.Converter {
++  configure(Map<String,?>;boolean)
++  fromConnectData(String;Schema;Object)
++  fromConnectData(String;Headers;Schema;Object)
++  toConnectData(String;byte[])
++  toConnectData(String;Headers;byte[])
++  config()
+} 
+@enduml

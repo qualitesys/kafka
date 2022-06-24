@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+DefaultRecord <|-- org.apache.kafka.common.record.PartialDefaultRecord
+class org.apache.kafka.common.record.PartialDefaultRecord {
++  PartialDefaultRecord(int;byte;long;long;int;int;int)
++  equals(Object)
++  hashCode()
++  toString()
++  keySize()
++  hasKey()
++  key()
++  valueSize()
++  hasValue()
++  value()
++  headers()
+} 
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ConsumerGroupListing
+class org.apache.kafka.clients.admin.ConsumerGroupListing {
++  ConsumerGroupListing(String;boolean)
++  ConsumerGroupListing(String;boolean;Optional<ConsumerGroupState>)
++  groupId()
++  isSimpleConsumerGroup()
++  state()
++  toString()
++  hashCode()
++  equals(Object)
+} 
+@enduml

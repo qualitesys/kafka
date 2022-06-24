@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.cache.LRUCacheBenchmark
+class org.apache.kafka.jmh.cache.LRUCacheBenchmark {
++  setUp()
++  testCachePerformance()
++  main(String[])
+} 
+@enduml

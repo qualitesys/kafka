@@ -1,0 +1,30 @@
+@startuml
+!pragma layout smetana
+Iterable<Record> <|-- org.apache.kafka.common.record.RecordBatch
+class org.apache.kafka.common.record.RecordBatch {
++  isValid()
++  ensureValid()
++  checksum()
++  maxTimestamp()
++  timestampType()
++  baseOffset()
++  lastOffset()
++  nextOffset()
++  magic()
++  producerId()
++  producerEpoch()
++  hasProducerId()
++  baseSequence()
++  lastSequence()
++  compressionType()
++  sizeInBytes()
++  countOrNull()
++  isCompressed()
++  writeTo(ByteBuffer)
++  isTransactional()
++  deleteHorizonMs()
++  partitionLeaderEpoch()
++  streamingIterator(BufferSupplier)
++  isControlBatch()
+} 
+@enduml

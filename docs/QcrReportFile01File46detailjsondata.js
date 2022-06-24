@@ -8,12 +8,107 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ConsumerGroupDescription"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ConsumerGroupDescription" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConsumerGroupDescription"
+ , "c2" : "ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConsumerGroupDescription"
+ , "c2" : "ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node;Set<AclOperation>)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "groupId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isSimpleConsumerGroup()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<MemberDescription>"
+ , "c2" : "members()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "partitionAssignor()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConsumerGroupState"
+ , "c2" : "state()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Node"
+ , "c2" : "coordinator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<AclOperation>"
+ , "c2" : "authorizedOperations()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,35 +174,35 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN170520 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN172232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN170520 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN172232 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN170520 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN172232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN170520 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN172232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN170520 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.ConsumerGroupDescription@POLYN172232 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,84 +223,84 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.equals@POLYN171638 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.equals@POLYN173350 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.equals@POLYN171638 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.equals@POLYN173350 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.equals@POLYN171638 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.equals@POLYN173350 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  '(groupId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  '(groupId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ', isSimpleConsumerGroup=' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ', isSimpleConsumerGroup=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ', members=' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ', members=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ', partitionAssignor=' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ', partitionAssignor=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ', state=' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ', state=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ', coordinator=' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ', coordinator=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ', authorizedOperations=' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ', authorizedOperations=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN173923 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.ConsumerGroupDescription.toString@POLYN175635 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

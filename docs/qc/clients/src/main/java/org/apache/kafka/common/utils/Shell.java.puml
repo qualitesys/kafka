@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Shell
+class org.apache.kafka.common.utils.Shell {
++  execString()
++  parseExecResult(BufferedReader)
++  Shell(long)
++  exitCode()
++  process()
++  run()
++  runCommand()
++  execCommand(String...)
++  execCommand(String[];long)
+} 
+@enduml

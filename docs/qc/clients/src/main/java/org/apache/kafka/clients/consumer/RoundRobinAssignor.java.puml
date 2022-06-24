@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AbstractPartitionAssignor <|-- org.apache.kafka.clients.consumer.RoundRobinAssignor
+class org.apache.kafka.clients.consumer.RoundRobinAssignor {
++  assign(Map<String,Integer>;Map<String,Subscription>)
++  allPartitionsSorted(Map<String,Integer>;Map<String,Subscription>)
++  name()
+} 
+@enduml

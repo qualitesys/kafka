@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey> <|-- org.apache.kafka.clients.admin.internals.AllBrokersStrategy
+class org.apache.kafka.clients.admin.internals.AllBrokersStrategy {
++  AllBrokersStrategy(LogContext)
++  lookupScope(BrokerKey)
++  buildRequest(Set<BrokerKey>)
++  handleResponse(Set<BrokerKey>;AbstractResponse)
++  validateLookupKeys(Set<BrokerKey>)
+} 
+@enduml

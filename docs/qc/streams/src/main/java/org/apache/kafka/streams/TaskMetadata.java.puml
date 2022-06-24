@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.TaskMetadata
+class org.apache.kafka.streams.TaskMetadata {
++  taskId()
++  topicPartitions()
++  committedOffsets()
++  endOffsets()
++  timeCurrentIdlingStarted()
++  equals(Object)
++  hashCode()
+} 
+@enduml

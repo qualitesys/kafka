@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.MessageUtil
+class org.apache.kafka.common.protocol.MessageUtil {
++  byteBufferToArray(ByteBuffer)
++  deepToString(Iterator<?>)
++  jsonNodeToByte(JsonNode;String)
++  jsonNodeToShort(JsonNode;String)
++  jsonNodeToUnsignedShort(JsonNode;String)
++  jsonNodeToUnsignedInt(JsonNode;String)
++  jsonNodeToInt(JsonNode;String)
++  jsonNodeToLong(JsonNode;String)
++  jsonNodeToBinary(JsonNode;String)
++  jsonNodeToDouble(JsonNode;String)
++  duplicate(byte[])
++  compareRawTaggedFields(List<RawTaggedField>;List<RawTaggedField>)
++  toByteBuffer(Message;short)
++  toVersionPrefixedByteBuffer(short;Message)
++  toVersionPrefixedBytes(short;Message)
+} 
+@enduml

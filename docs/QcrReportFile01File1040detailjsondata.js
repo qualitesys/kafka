@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Configurable"
+ , "c2" : "org.apache.kafka.connect.mirror.TopicFilter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.TopicFilter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldReplicateTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.svg" }
+
 ] 
 , 
 "data04" : [

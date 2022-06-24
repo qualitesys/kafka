@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+Records <|-- org.apache.kafka.common.record.AbstractRecords
+class org.apache.kafka.common.record.AbstractRecords {
++  hasMatchingMagic(byte)
++  firstBatch()
++  records()
++  toSend()
++  recordsIterator()
++  estimateSizeInBytes(byte;long;CompressionType;Iterable<Record>)
++  estimateSizeInBytes(byte;CompressionType;Iterable<SimpleRecord>)
++  estimateCompressedSizeInBytes(int;CompressionType)
++  estimateSizeInBytesUpperBound(byte;CompressionType;byte[];byte[];Header[])
++  estimateSizeInBytesUpperBound(byte;CompressionType;ByteBuffer;ByteBuffer;Header[])
++  recordBatchHeaderSizeInBytes(byte;CompressionType)
+} 
+@enduml

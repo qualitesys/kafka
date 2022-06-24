@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractControlRequest <|-- org.apache.kafka.common.requests.StopReplicaRequest
+class org.apache.kafka.common.requests.StopReplicaRequest {
++  StopReplicaRequest(StopReplicaRequestData;short)
++  getErrorResponse(int;Throwable)
++  topicStates()
++  partitionStates()
++  controllerId()
++  controllerEpoch()
++  brokerEpoch()
++  parse(ByteBuffer;short)
++  data()
+} 
+@enduml

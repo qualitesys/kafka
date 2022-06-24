@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaAlteration
+class org.apache.kafka.common.quota.ClientQuotaAlteration {
++  ClientQuotaAlteration(ClientQuotaEntity;Collection<Op>)
++  entity()
++  ops()
++  toString()
+} 
+@enduml

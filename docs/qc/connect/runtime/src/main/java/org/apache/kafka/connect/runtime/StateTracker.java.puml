@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.StateTracker
+class org.apache.kafka.connect.runtime.StateTracker {
++  changeState(State;long)
++  durationRatio(State;long)
++  currentState()
+} 
+@enduml

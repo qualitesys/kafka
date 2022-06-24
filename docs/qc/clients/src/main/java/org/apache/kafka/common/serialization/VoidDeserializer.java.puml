@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Deserializer<Void> <|-- org.apache.kafka.common.serialization.VoidDeserializer
+class org.apache.kafka.common.serialization.VoidDeserializer {
++  deserialize(String;byte[])
+} 
+@enduml

@@ -8,12 +8,121 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskSpec"
+ , "c2" : "org.apache.kafka.trogdor.workload.ConfigurableProducerSpec"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.ConfigurableProducerSpec" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConfigurableProducerSpec"
+ , "c2" : "ConfigurableProducerSpec(long;long;String;String;Optional<FlushGenerator>;ThroughputGenerator;PayloadGenerator;PayloadGenerator;Map<String,String>;Map<String,String>;Map<String,String>;TopicsSpec;int)"
+ , "c3" : "1"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "producerNode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "bootstrapServers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<FlushGenerator>"
+ , "c2" : "flushGenerator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PayloadGenerator"
+ , "c2" : "keyGenerator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PayloadGenerator"
+ , "c2" : "valueGenerator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ThroughputGenerator"
+ , "c2" : "throughputGenerator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "producerConf()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "commonClientConf()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "adminClientConf()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicsSpec"
+ , "c2" : "activeTopic()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "activePartition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,28 +181,28 @@ var maDataBlocs = {
    "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN186872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN188584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN186872 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN188584 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN186872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN188584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN186872 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN188584 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {

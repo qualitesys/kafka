@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+CloseableOffsetStorageReader <|-- org.apache.kafka.connect.storage.OffsetStorageReaderImpl
+class org.apache.kafka.connect.storage.OffsetStorageReaderImpl {
++  OffsetStorageReaderImpl(OffsetBackingStore;String;Converter;Converter)
++  close()
+} 
+@enduml

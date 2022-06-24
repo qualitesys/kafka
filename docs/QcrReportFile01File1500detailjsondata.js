@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Iterator<RemoteLogSegmentMetadata>"
+ , "c2" : "listAllRemoteLogSegments(Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "collectConvertedIdToMetadata(Collection<RemoteLogSegmentId>;Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>;Collection<RemoteLogSegmentMetadata>)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleSegmentWithCopySegmentStartedState(RemoteLogSegmentId)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleSegmentWithCopySegmentFinishedState(Long;RemoteLogSegmentId;Long)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleSegmentWithDeleteSegmentStartedState(Long;RemoteLogSegmentId)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleSegmentWithDeleteSegmentFinishedState(RemoteLogSegmentId)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "highestLogOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteLogSegmentId"
+ , "c2" : "floorEntry(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<RemoteLogSegmentId>"
+ , "c2" : "unreferencedSegmentIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<RemoteLogSegmentId>"
+ , "c2" : "referencedSegmentIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.png" 
+
+ , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.listAllRemoteLogSegments@POLYN177110 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.listAllRemoteLogSegments@POLYN178822 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +209,14 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.collectConvertedIdToMetadata@POLYN178086 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.collectConvertedIdToMetadata@POLYN179798 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.collectConvertedIdToMetadata@POLYN178086 the MagicNumber/String  'No remote log segment metadata found for :' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.collectConvertedIdToMetadata@POLYN179798 the MagicNumber/String  'No remote log segment metadata found for :' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,14 +237,14 @@ var maDataBlocs = {
    "c1" : "00079"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.handleSegmentWithCopySegmentFinishedState@POLYN178827 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.handleSegmentWithCopySegmentFinishedState@POLYN180539 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.handleSegmentWithCopySegmentFinishedState@POLYN178827 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.handleSegmentWithCopySegmentFinishedState@POLYN180539 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,14 +272,14 @@ var maDataBlocs = {
    "c1" : "00111"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.floorEntry@POLYN180075 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.floorEntry@POLYN181787 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.floorEntry@POLYN180075 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.floorEntry@POLYN181787 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

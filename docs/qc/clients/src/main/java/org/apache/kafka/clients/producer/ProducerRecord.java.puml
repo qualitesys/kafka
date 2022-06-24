@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.ProducerRecord
+class org.apache.kafka.clients.producer.ProducerRecord {
++  ProducerRecord(String;Integer;Long;K;V;Iterable<Header>)
++  ProducerRecord(String;Integer;Long;K;V)
++  ProducerRecord(String;Integer;K;V;Iterable<Header>)
++  ProducerRecord(String;Integer;K;V)
++  ProducerRecord(String;K;V)
++  ProducerRecord(String;V)
++  topic()
++  headers()
++  key()
++  value()
++  timestamp()
++  partition()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

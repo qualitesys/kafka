@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+UnalignedRecords <|-- org.apache.kafka.common.record.UnalignedMemoryRecords
+class org.apache.kafka.common.record.UnalignedMemoryRecords {
++  UnalignedMemoryRecords(ByteBuffer)
++  buffer()
++  sizeInBytes()
++  writeTo(TransferableChannel;long;int)
+} 
+@enduml

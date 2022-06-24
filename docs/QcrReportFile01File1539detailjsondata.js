@@ -2,18 +2,183 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/Topology.java 100 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/Topology.java 102 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.Topology"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.Topology" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "Topology()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "Topology(TopologyConfig)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "Topology(InternalTopologyBuilder)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(String;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(TimestampExtractor;String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(TimestampExtractor;String;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;TimestampExtractor;String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;TimestampExtractor;String;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(String;Deserializer<?>;Deserializer<?>;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(String;Deserializer<?>;Deserializer<?>;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;Deserializer<?>;Deserializer<?>;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;Deserializer<?>;Deserializer<?>;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;TimestampExtractor;Deserializer<?>;Deserializer<?>;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;TimestampExtractor;Deserializer<?>;Deserializer<?>;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addSink(String;String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addProcessor(String;org.apache.kafka.streams.processor.ProcessorSupplier;String...)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "addStateStore(StoreBuilder<?>;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "connectProcessorAndStateStores(String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopologyDescription"
+ , "c2" : "describe()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,6 +202,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -50,6 +224,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -107,28 +288,28 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN395860 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN397572 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN395860 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN397572 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN395860 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN397572 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN395860 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN397572 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,28 +330,28 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN396727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN398439 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN396727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN398439 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN396727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN398439 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN396727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN398439 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,21 +372,21 @@ var maDataBlocs = {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN397657 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN399369 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN397657 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN399369 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN397657 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN399369 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -226,21 +407,21 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN398628 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN400340 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN398628 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN400340 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN398628 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN400340 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -261,21 +442,21 @@ var maDataBlocs = {
    "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN399527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN401239 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN399527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN401239 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN399527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN401239 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -296,21 +477,21 @@ var maDataBlocs = {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN400441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN402153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN400441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN402153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN400441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN402153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -331,14 +512,14 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.Topology.addSource@POLYN401424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.Topology.addSource@POLYN403136 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.Topology.addSource@POLYN401424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.Topology.addSource@POLYN403136 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -359,14 +540,14 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.Topology.addSource@POLYN402448 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.Topology.addSource@POLYN404160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.Topology.addSource@POLYN402448 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.Topology.addSource@POLYN404160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -387,14 +568,14 @@ var maDataBlocs = {
    "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.Topology.addSource@POLYN403439 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.Topology.addSource@POLYN405151 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.Topology.addSource@POLYN403439 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.Topology.addSource@POLYN405151 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -415,14 +596,14 @@ var maDataBlocs = {
    "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.Topology.addSource@POLYN404586 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.Topology.addSource@POLYN406298 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.Topology.addSource@POLYN404586 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.Topology.addSource@POLYN406298 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -443,7 +624,7 @@ var maDataBlocs = {
    "c1" : "00138"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.Topology.addSource@POLYN405796 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.Topology.addSource@POLYN407508 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -464,7 +645,7 @@ var maDataBlocs = {
    "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.Topology.addSource@POLYN406990 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.Topology.addSource@POLYN408702 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -513,21 +694,21 @@ var maDataBlocs = {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN410654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN412366 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN410654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN412366 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN410654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN412366 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -780,6 +961,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#255"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00255] Public method addProcessor is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.Topology.addStateStore@POLYN426060"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.Topology.connectProcessorAndStateStores@POLYN433970"
 }} 
 ]
 };

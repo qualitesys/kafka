@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.PositionOutOfRangeException
+class org.apache.kafka.common.errors.PositionOutOfRangeException {
++  PositionOutOfRangeException(String)
++  PositionOutOfRangeException(String;Throwable)
+} 
+@enduml

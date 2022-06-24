@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<DescribeUserScramCredentialsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

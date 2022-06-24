@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.TestInputTopic
+class org.apache.kafka.streams.TestInputTopic {
++  TestInputTopic(TopologyTestDriver;String;Serializer<K>;Serializer<V>;Instant;Duration)
++  advanceTime(Duration)
++  getTimestampAndAdvance()
++  pipeInput(TestRecord<K,V>)
++  pipeInput(V)
++  pipeInput(K;V)
++  pipeInput(V;Instant)
++  pipeInput(K;V;long)
++  pipeInput(K;V;Instant)
++  pipeRecordList(List<?extendsTestRecord<K,V>>)
++  pipeKeyValueList(List<KeyValue<K,V>>)
++  pipeValueList(List<V>)
++  pipeKeyValueList(List<KeyValue<K,V>>;Instant;Duration)
++  pipeValueList(List<V>;Instant;Duration)
++  toString()
+} 
+@enduml

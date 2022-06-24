@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.LockException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.LockException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "LockException"
+ , "c2" : "LockException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LockException"
+ , "c2" : "LockException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LockException"
+ , "c2" : "LockException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.TopicIdPartition
+class org.apache.kafka.controller.TopicIdPartition {
++  TopicIdPartition(Uuid;int)
++  topicId()
++  partitionId()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

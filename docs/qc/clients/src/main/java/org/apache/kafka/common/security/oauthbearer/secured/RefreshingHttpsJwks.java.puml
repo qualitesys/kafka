@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Initable <|-- org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks
+class org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks {
++  RefreshingHttpsJwks(Time;HttpsJwks;long;long;long)
++  init()
++  close()
++  getJsonWebKeys()
++  getLocation()
++  refresh()
++  maybeExpediteRefresh(String)
+} 
+@enduml

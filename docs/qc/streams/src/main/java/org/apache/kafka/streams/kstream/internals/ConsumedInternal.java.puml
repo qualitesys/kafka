@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Consumed<K,V> <|-- org.apache.kafka.streams.kstream.internals.ConsumedInternal
+class org.apache.kafka.streams.kstream.internals.ConsumedInternal {
++  ConsumedInternal(Consumed<K,V>)
++  ConsumedInternal(Serde<K>;Serde<V>;TimestampExtractor;Topology.AutoOffsetReset)
++  ConsumedInternal()
++  keySerde()
++  keyDeserializer()
++  valueSerde()
++  valueDeserializer()
++  timestampExtractor()
++  offsetResetPolicy()
++  name()
+} 
+@enduml

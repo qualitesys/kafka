@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ConfigurationValidator
+class org.apache.kafka.controller.ConfigurationValidator {
++  validate(ConfigResource)
++  validate(ConfigResource;Map<String,String>)
+} 
+@enduml

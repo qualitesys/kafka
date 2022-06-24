@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.common.errors.PreferredLeaderNotAvailableException
+class org.apache.kafka.common.errors.PreferredLeaderNotAvailableException {
++  PreferredLeaderNotAvailableException(String)
++  PreferredLeaderNotAvailableException(String;Throwable)
+} 
+@enduml

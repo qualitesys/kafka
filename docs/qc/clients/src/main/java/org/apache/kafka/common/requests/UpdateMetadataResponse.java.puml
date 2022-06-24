@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.UpdateMetadataResponse
+class org.apache.kafka.common.requests.UpdateMetadataResponse {
++  UpdateMetadataResponse(UpdateMetadataResponseData)
++  error()
++  errorCounts()
++  throttleTimeMs()
++  parse(ByteBuffer;short)
++  data()
+} 
+@enduml

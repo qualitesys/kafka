@@ -8,12 +8,100 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SnapshotWriter<T>"
+ , "c2" : "org.apache.kafka.snapshot.RecordsSnapshotWriter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.snapshot.RecordsSnapshotWriter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RecordsSnapshotWriter"
+ , "c2" : "RecordsSnapshotWriter(RawSnapshotWriter;int;MemoryPool;Time;long;CompressionType;RecordSerde<T>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "initializeSnapshotWithHeader()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "finalizeSnapshotWithFooter()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetAndEpoch"
+ , "c2" : "snapshotId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "lastContainedLogOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "lastContainedLogEpoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isFrozen()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "append(List<T>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "freeze()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "appendBatches(List<CompletedBatch<T>>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,21 +174,21 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.RecordsSnapshotWriter@POLYN176106 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.RecordsSnapshotWriter@POLYN177818 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN176926 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN178638 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN176926 the MagicNumber/String  'Initializing writer with a non-empty snapshot: id = '%s'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN178638 the MagicNumber/String  'Initializing writer with a non-empty snapshot: id = '%s'.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +202,7 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.lastContainedLogOffset@POLYN179331 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.lastContainedLogOffset@POLYN181043 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN179731 the MagicNumber/String  'Append not supported. Snapshot is already frozen: id = '%s'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN181443 the MagicNumber/String  'Append not supported. Snapshot is already frozen: id = '%s'.' should be converted to const"
 }} 
 ,
 { "ligne" : {

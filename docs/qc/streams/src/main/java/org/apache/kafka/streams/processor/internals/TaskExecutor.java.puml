@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskExecutor
+class org.apache.kafka.streams.processor.internals.TaskExecutor {
++  TaskExecutor(Tasks;TaskExecutionMetadata;ProcessingMode;boolean;LogContext)
++  process(int;Time)
++  processTask(Task;int;long;Time)
++  commitTasksAndMaybeUpdateCommittableOffsets(Collection<Task>;Map<Task,Map<TopicPartition,OffsetAndMetadata>>)
++  commitOffsetsOrTransaction(Map<Task,Map<TopicPartition,OffsetAndMetadata>>)
++  updateTaskCommitMetadata(Map<TopicPartition,OffsetAndMetadata>)
++  commitSuccessfullyProcessedTasks()
++  punctuate()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.common.security.oauthbearer.secured.UnretryableException
+class org.apache.kafka.common.security.oauthbearer.secured.UnretryableException {
++  UnretryableException(String)
++  UnretryableException(Throwable)
++  UnretryableException(String;Throwable)
+} 
+@enduml

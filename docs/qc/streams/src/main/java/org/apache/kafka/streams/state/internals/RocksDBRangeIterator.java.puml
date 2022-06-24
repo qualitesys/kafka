@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+RocksDbIterator <|-- org.apache.kafka.streams.state.internals.RocksDBRangeIterator
+class org.apache.kafka.streams.state.internals.RocksDBRangeIterator {
++  RocksDBRangeIterator(String;RocksIterator;Set<KeyValueIterator<Bytes,byte[]>>;Bytes;Bytes;boolean;boolean)
++  makeNext()
+} 
+@enduml

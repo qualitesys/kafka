@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler
+class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler {
++  configured()
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  handle(Callback[])
++  close()
++  handleCallback(OAuthBearerTokenCallback)
++  handleCallback(SaslExtensionsCallback;Subject)
+} 
+@enduml

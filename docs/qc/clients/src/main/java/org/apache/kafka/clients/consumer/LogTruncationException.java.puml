@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+OffsetOutOfRangeException <|-- org.apache.kafka.clients.consumer.LogTruncationException
+class org.apache.kafka.clients.consumer.LogTruncationException {
++  LogTruncationException(String;Map<TopicPartition,Long>;Map<TopicPartition,OffsetAndMetadata>)
++  divergentOffsets()
+} 
+@enduml

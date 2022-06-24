@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.AbstractStream
+class org.apache.kafka.streams.kstream.internals.AbstractStream {
++  AbstractStream(AbstractStream<K,V>)
++  AbstractStream(String;Serde<K>;Serde<V>;Set<String>;GraphNode;InternalStreamsBuilder)
++  internalTopologyBuilder()
++  ensureCopartitionWith(Collection<?extendsAbstractStream<K,?>>)
++  keySerde()
++  valueSerde()
+} 
+@enduml

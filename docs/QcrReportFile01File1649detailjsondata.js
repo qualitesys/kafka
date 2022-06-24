@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessorSupplier<K,V,K,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamBranch"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamBranch" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamBranch"
+ , "c2" : "KStreamBranch(List<Predicate<?superK,?superV>>;List<String>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<K,V,K,V>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KStreamBranch.KStreamBranchProcessor.process@POLYN161130 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KStreamBranch.KStreamBranchProcessor.process@POLYN162842 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

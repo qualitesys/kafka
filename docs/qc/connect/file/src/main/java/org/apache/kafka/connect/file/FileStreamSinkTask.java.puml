@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+SinkTask <|-- org.apache.kafka.connect.file.FileStreamSinkTask
+class org.apache.kafka.connect.file.FileStreamSinkTask {
++  FileStreamSinkTask()
++  FileStreamSinkTask(PrintStream)
++  version()
++  start(Map<String,String>)
++  put(Collection<SinkRecord>)
++  flush(Map<TopicPartition,OffsetAndMetadata>)
++  stop()
++  logFilename()
+} 
+@enduml

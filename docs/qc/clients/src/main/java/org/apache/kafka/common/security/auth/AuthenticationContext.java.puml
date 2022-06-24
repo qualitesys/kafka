@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.auth.AuthenticationContext
+class org.apache.kafka.common.security.auth.AuthenticationContext {
++  securityProtocol()
++  clientAddress()
++  listenerName()
+} 
+@enduml

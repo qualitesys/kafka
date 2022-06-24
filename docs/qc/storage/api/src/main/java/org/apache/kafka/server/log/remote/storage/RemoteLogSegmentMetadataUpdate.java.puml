@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+RemoteLogMetadata <|-- org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadataUpdate
+class org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadataUpdate {
++  RemoteLogSegmentMetadataUpdate(RemoteLogSegmentId;long;RemoteLogSegmentState;int)
++  remoteLogSegmentId()
++  state()
++  topicIdPartition()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

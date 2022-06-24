@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ExtractRecordMetadataTimestamp"
+ , "c2" : "org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,21 +83,21 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN164059 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN165771 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00017"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN164059 the MagicNumber/String  'Could not infer new timestamp for input record ' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN165771 the MagicNumber/String  'Could not infer new timestamp for input record ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00018"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN164059 the MagicNumber/String  ' because partition time is unknown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN165771 the MagicNumber/String  ' because partition time is unknown.' should be converted to const"
 }} 
 ]
 };

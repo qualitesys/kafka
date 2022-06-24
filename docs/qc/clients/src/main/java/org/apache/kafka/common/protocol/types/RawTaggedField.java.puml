@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.types.RawTaggedField
+class org.apache.kafka.common.protocol.types.RawTaggedField {
++  RawTaggedField(int;byte[])
++  tag()
++  data()
++  size()
++  equals(Object)
++  hashCode()
+} 
+@enduml

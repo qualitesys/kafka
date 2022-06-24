@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Unbatched<CoordinatorKey,ProducerIdAndEpoch> <|-- org.apache.kafka.clients.admin.internals.FenceProducersHandler
+class org.apache.kafka.clients.admin.internals.FenceProducersHandler {
++  FenceProducersHandler(LogContext)
++  newFuture(Collection<String>)
++  buildKeySet(Collection<String>)
++  apiName()
++  lookupStrategy()
++  buildSingleRequest(int;CoordinatorKey)
++  handleSingleResponse(Node;CoordinatorKey;AbstractResponse)
++  handleError(CoordinatorKey;Errors)
+} 
+@enduml

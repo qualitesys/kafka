@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeMetadataQuorumOptions> <|-- org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions
+class org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions {
+} 
+@enduml

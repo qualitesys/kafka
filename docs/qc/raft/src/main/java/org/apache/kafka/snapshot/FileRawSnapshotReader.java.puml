@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+RawSnapshotReader <|-- org.apache.kafka.snapshot.FileRawSnapshotReader
+class org.apache.kafka.snapshot.FileRawSnapshotReader {
++  FileRawSnapshotReader(FileRecords;OffsetAndEpoch)
++  snapshotId()
++  sizeInBytes()
++  slice(long;int)
++  records()
++  close()
++  open(Path;OffsetAndEpoch)
+} 
+@enduml

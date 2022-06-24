@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ResultOrError
+class org.apache.kafka.controller.ResultOrError {
++  ResultOrError(Errors;String)
++  ResultOrError(ApiError)
++  ResultOrError(T)
++  isError()
++  isResult()
++  error()
++  result()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+StateManager <|-- org.apache.kafka.streams.processor.internals.GlobalStateManager
+class org.apache.kafka.streams.processor.internals.GlobalStateManager {
++  setGlobalProcessorContext(InternalProcessorContext)
++  initialize()
+} 
+@enduml

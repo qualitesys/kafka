@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KTableKTableAbstractJoin<K,V1,V2,VOut>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTableKTableLeftJoin"
+ , "c2" : "KTableKTableLeftJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<K,Change<V1>,K,Change<VOut>>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTableValueGetterSupplier<K,VOut>"
+ , "c2" : "view()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,77 +146,77 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  'Skipping record due to null key. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  'Skipping record due to null key. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  'topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  'topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  'Skipping record due to null key. Topic, partition, and offset not known.' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  'Skipping record due to null key. Topic, partition, and offset not known.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN183191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinProcessor.process@POLYN184903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -212,21 +244,21 @@ var maDataBlocs = {
    "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinValueGetter.get@POLYN186677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinValueGetter.get@POLYN188389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinValueGetter.get@POLYN186677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinValueGetter.get@POLYN188389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinValueGetter.get@POLYN186677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin.KTableKTableLeftJoinValueGetter.get@POLYN188389 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.metadata.VersionRange"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.VersionRange" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "VersionRange"
+ , "c2" : "VersionRange(short;short)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "VersionRange"
+ , "c2" : "of(short;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "VersionRange"
+ , "c2" : "of(int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "short"
+ , "c2" : "min()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "short"
+ , "c2" : "max()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "contains(short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "intersects(VersionRange)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "5"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -121,21 +202,21 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.VersionRange.equals@POLYN162379 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.VersionRange.equals@POLYN164091 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.metadata.VersionRange.toString@POLYN162773 the MagicNumber/String  '+' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.metadata.VersionRange.toString@POLYN164485 the MagicNumber/String  '+' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.metadata.VersionRange.toString@POLYN162773 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.metadata.VersionRange.toString@POLYN164485 the MagicNumber/String  '-' should be converted to const"
 }} 
 ]
 };

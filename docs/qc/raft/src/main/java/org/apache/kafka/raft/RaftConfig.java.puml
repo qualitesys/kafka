@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.RaftConfig
+class org.apache.kafka.raft.RaftConfig {
++  RaftConfig(AbstractConfig)
++  RaftConfig(Map<Integer,AddressSpec>;int;int;int;int;int;int)
++  requestTimeoutMs()
++  retryBackoffMs()
++  electionTimeoutMs()
++  electionBackoffMaxMs()
++  fetchTimeoutMs()
++  appendLingerMs()
++  quorumVoterIds()
++  quorumVoterConnections()
++  parseVoterId(String)
++  parseVoterConnections(List<String>)
++  quorumVoterStringsToNodes(List<String>)
++  voterConnectionsToNodes(Map<Integer,RaftConfig.AddressSpec>)
+} 
+@enduml

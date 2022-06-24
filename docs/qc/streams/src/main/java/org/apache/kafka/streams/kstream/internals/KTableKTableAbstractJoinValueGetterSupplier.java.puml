@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+KTableValueGetterSupplier<K,R> <|-- org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier
+class org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier {
++  KTableKTableAbstractJoinValueGetterSupplier(KTableValueGetterSupplier<K,V1>;KTableValueGetterSupplier<K,V2>)
++  storeNames()
+} 
+@enduml

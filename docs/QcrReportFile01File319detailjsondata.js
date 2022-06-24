@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthorizationException"
+ , "c2" : "org.apache.kafka.common.errors.ClusterAuthorizationException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.ClusterAuthorizationException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ClusterAuthorizationException"
+ , "c2" : "ClusterAuthorizationException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClusterAuthorizationException"
+ , "c2" : "ClusterAuthorizationException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ClusterAuthorizationException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ClusterAuthorizationException.java.svg" }
+
 ] 
 , 
 "data04" : [

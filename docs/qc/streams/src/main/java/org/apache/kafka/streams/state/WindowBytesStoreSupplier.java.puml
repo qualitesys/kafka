@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+StoreSupplier<WindowStore<Bytes,byte[]>> <|-- org.apache.kafka.streams.state.WindowBytesStoreSupplier
+class org.apache.kafka.streams.state.WindowBytesStoreSupplier {
++  segmentIntervalMs()
++  windowSize()
++  retainDuplicates()
++  retentionPeriod()
+} 
+@enduml

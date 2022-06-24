@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AdminApiLookupStrategy<K> <|-- org.apache.kafka.clients.admin.internals.StaticBrokerStrategy
+class org.apache.kafka.clients.admin.internals.StaticBrokerStrategy {
++  StaticBrokerStrategy(int)
++  lookupScope(K)
++  buildRequest(Set<K>)
++  handleResponse(Set<K>;AbstractResponse)
+} 
+@enduml

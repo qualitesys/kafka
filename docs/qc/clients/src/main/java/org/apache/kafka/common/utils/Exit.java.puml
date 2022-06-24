@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Exit
+class org.apache.kafka.common.utils.Exit {
++  exit(int)
++  exit(int;String)
++  halt(int)
++  halt(int;String)
++  addShutdownHook(String;Runnable)
++  setExitProcedure(Procedure)
++  setHaltProcedure(Procedure)
++  setShutdownHookAdder(ShutdownHookAdder)
++  resetExitProcedure()
++  resetHaltProcedure()
++  resetShutdownHookAdder()
+} 
+@enduml

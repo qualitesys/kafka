@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.metrics.Quota"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.metrics.Quota" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Quota"
+ , "c2" : "Quota(double;boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Quota"
+ , "c2" : "upperBound(double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Quota"
+ , "c2" : "lowerBound(double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isUpperBound()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "double"
+ , "c2" : "bound()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "acceptable(double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.metrics.Quota.upperBound@POLYN159432 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.metrics.Quota.upperBound@POLYN161144 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.Quota.lowerBound@POLYN159607 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.Quota.lowerBound@POLYN161319 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,28 +188,28 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN160254 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN161966 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN160254 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN161966 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN160254 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN161966 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN160254 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN161966 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,28 +223,28 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.Quota.equals@POLYN160778 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.Quota.equals@POLYN162490 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.metrics.Quota.equals@POLYN160778 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.metrics.Quota.equals@POLYN162490 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN161325 the MagicNumber/String  'upper=' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN163037 the MagicNumber/String  'upper=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN161325 the MagicNumber/String  'lower=' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN163037 the MagicNumber/String  'lower=' should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.HostInfo
+class org.apache.kafka.streams.state.HostInfo {
++  HostInfo(String;int)
++  buildFromEndpoint(String)
++  unavailable()
++  equals(Object)
++  hashCode()
++  host()
++  port()
++  toString()
+} 
+@enduml

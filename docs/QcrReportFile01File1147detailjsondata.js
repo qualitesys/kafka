@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConnectorStateInfo"
+ , "c2" : "ConnectorStateInfo(String;ConnectorState;List<TaskState>;ConnectorType)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectorState"
+ , "c2" : "connector()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<TaskState>"
+ , "c2" : "tasks()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectorType"
+ , "c2" : "type()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConnectorStateInfo.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConnectorStateInfo.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,21 +153,21 @@ var maDataBlocs = {
    "c1" : "00111"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConnectorStateInfo.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo.TaskState.equals@POLYN168691 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo.TaskState.equals@POLYN170403 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConnectorStateInfo.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo.TaskState.equals@POLYN168691 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo.TaskState.equals@POLYN170403 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConnectorStateInfo.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo.TaskState.equals@POLYN168691 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo.TaskState.equals@POLYN170403 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

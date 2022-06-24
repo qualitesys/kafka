@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.acl.AclAuthorizerBenchmark
+class org.apache.kafka.jmh.acl.AclAuthorizerBenchmark {
++  setup()
++  prepareAclCache()
++  prepareAclToUpdate()
++  randomResourceName(String)
++  shouldDeny()
++  tearDown()
++  testAclsIterator()
++  testAuthorizer()
++  testAuthorizeByResourceType()
++  testUpdateCache()
+} 
+@enduml

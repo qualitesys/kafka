@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthenticateCallbackHandler"
+ , "c2" : "org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handle(Callback[])"
+ , "c3" : "6"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleRealmCallback(RealmCallback)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleAuthorizeCallback(AuthorizeCallback)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -156,7 +202,7 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleRealmCallback@POLYN163359 the MagicNumber/String  'Client supplied realm: {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleRealmCallback@POLYN165071 the MagicNumber/String  'Client supplied realm: {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -177,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN163628 the MagicNumber/String  'Successfully authenticated client: authenticationID={}; authorizationID={}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN165340 the MagicNumber/String  'Successfully authenticated client: authenticationID={}; authorizationID={}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN163628 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN165340 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {

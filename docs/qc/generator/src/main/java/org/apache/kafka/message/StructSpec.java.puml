@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.StructSpec
+class org.apache.kafka.message.StructSpec {
++  StructSpec(String;String;List<FieldSpec>)
++  name()
++  versions()
++  versionsString()
++  fields()
++  hasKeys()
+} 
+@enduml

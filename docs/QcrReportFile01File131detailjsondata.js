@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<RenewDelegationTokenOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RenewDelegationTokenOptions"
+ , "c2" : "renewTimePeriodMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "renewTimePeriodMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

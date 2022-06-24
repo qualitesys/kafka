@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.data.Field
+class org.apache.kafka.connect.data.Field {
++  Field(String;int;Schema)
++  name()
++  index()
++  schema()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

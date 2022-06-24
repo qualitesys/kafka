@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+ConnectProtocol.Assignment <|-- org.apache.kafka.connect.runtime.distributed.ExtendedAssignment
+class org.apache.kafka.connect.runtime.distributed.ExtendedAssignment {
++  ExtendedAssignment(short;short;String;String;long;Collection<String>;Collection<ConnectorTaskId>;Collection<String>;Collection<ConnectorTaskId>;int)
++  duplicate(ExtendedAssignment)
++  version()
++  revokedConnectors()
++  revokedTasks()
++  delay()
++  empty()
++  toString()
++  revokedAsMap()
++  toStruct()
++  fromStruct(short;Struct)
++  taskAssignments(Map<String,Collection<Integer>>)
++  extractConnectors(Struct;String)
++  extractTasks(Struct;String)
+} 
+@enduml

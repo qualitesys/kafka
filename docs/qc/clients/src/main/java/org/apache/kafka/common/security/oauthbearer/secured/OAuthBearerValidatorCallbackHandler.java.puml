@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler
+class org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler {
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  init(CloseableVerificationKeyResolver;AccessTokenValidator)
++  close()
++  handle(Callback[])
++  handleValidatorCallback(OAuthBearerValidatorCallback)
++  handleExtensionsValidatorCallback(OAuthBearerExtensionsValidatorCallback)
++  checkInitialized()
+} 
+@enduml

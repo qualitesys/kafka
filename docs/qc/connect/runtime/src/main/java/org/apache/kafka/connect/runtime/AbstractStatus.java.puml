@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.AbstractStatus
+class org.apache.kafka.connect.runtime.AbstractStatus {
++  AbstractStatus(T;State;String;int;String)
++  id()
++  state()
++  trace()
++  workerId()
++  generation()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

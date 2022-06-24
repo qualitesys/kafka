@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.Endpoint
+class org.apache.kafka.common.Endpoint {
++  Endpoint(String;SecurityProtocol;String;int)
++  listenerName()
++  securityProtocol()
++  host()
++  port()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

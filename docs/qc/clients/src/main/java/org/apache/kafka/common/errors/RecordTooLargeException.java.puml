@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.RecordTooLargeException
+class org.apache.kafka.common.errors.RecordTooLargeException {
++  RecordTooLargeException()
++  RecordTooLargeException(String;Throwable)
++  RecordTooLargeException(String)
++  RecordTooLargeException(Throwable)
++  RecordTooLargeException(String;Map<TopicPartition,Long>)
++  recordTooLargePartitions()
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.FeaturesImage
+class org.apache.kafka.image.FeaturesImage {
++  FeaturesImage(Map<String,Short>;MetadataVersion)
++  isEmpty()
++  metadataVersion()
++  finalizedVersions()
++  finalizedVersion(String)
++  write(Consumer<List<ApiMessageAndVersion>>)
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

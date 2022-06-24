@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.BufferValue
+class org.apache.kafka.streams.state.internals.BufferValue {
++  BufferValue(byte[];byte[];byte[];ProcessorRecordContext)
++  priorValue()
++  oldValue()
++  newValue()
++  context()
++  deserialize(ByteBuffer)
++  serialize(int)
++  addValue(ByteBuffer;byte[])
++  residentMemorySizeEstimate()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DeleteTopicsOptions> <|-- org.apache.kafka.clients.admin.DeleteTopicsOptions
+class org.apache.kafka.clients.admin.DeleteTopicsOptions {
++  timeoutMs(Integer)
++  retryOnQuotaViolation(boolean)
++  shouldRetryOnQuotaViolation()
+} 
+@enduml

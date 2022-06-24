@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException
+class org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException {
+} 
+@enduml

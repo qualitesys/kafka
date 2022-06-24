@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+InvalidOffsetException <|-- org.apache.kafka.clients.consumer.OffsetOutOfRangeException
+class org.apache.kafka.clients.consumer.OffsetOutOfRangeException {
++  OffsetOutOfRangeException(Map<TopicPartition,Long>)
++  OffsetOutOfRangeException(String;Map<TopicPartition,Long>)
++  offsetOutOfRangePartitions()
++  partitions()
+} 
+@enduml

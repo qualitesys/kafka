@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.protocol.types.Type"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.protocol.types.Type" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "write(ByteBuffer;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "read(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "validate(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "sizeOf(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isNullable()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<Type>"
+ , "c2" : "arrayElementType()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isArray()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toHtml()"
+ , "c3" : "2"
+ , "c4" : "17"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "main(String[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,91 +174,91 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.Type.isNullable@POLYN282598 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.Type.isNullable@POLYN284310 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1055"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01055] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;table class=\'data-table\'&amp;gt;&amp;lt;tbody&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01055] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;table class=\'data-table\'&amp;gt;&amp;lt;tbody&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1056"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1057"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01057] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;th&amp;gt;Type&amp;lt;/th&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01057] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;th&amp;gt;Type&amp;lt;/th&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1058"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1059"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1061"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01061] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01061] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1062"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1064"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01064] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01064] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1065"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01065] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01065] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1067"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1068"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1070"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN322510 the MagicNumber/String  '&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN324222 the MagicNumber/String  '&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {

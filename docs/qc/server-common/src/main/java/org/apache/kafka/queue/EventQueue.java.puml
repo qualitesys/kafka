@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.queue.EventQueue
+class org.apache.kafka.queue.EventQueue {
++  prepend(Event)
++  append(Event)
++  appendWithDeadline(long;Event)
++  scheduleDeferred(String;Function<OptionalLong,OptionalLong>;Event)
++  cancelDeferred(String)
++  enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event)
++  beginShutdown(String)
++  beginShutdown(String;Event)
++  beginShutdown(String;Event;long;TimeUnit)
++  wakeup()
++  close()
+} 
+@enduml

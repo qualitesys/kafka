@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.AbortTransactionSpec
+class org.apache.kafka.clients.admin.AbortTransactionSpec {
++  AbortTransactionSpec(TopicPartition;long;short;int)
++  topicPartition()
++  producerId()
++  producerEpoch()
++  coordinatorEpoch()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.TaskMigratedException
+class org.apache.kafka.streams.errors.TaskMigratedException {
++  TaskMigratedException(String)
++  TaskMigratedException(String;Throwable)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Cache<K,V> <|-- org.apache.kafka.common.cache.SynchronizedCache
+class org.apache.kafka.common.cache.SynchronizedCache {
++  SynchronizedCache(Cache<K,V>)
++  get(K)
++  put(K;V)
++  remove(K)
++  size()
+} 
+@enduml

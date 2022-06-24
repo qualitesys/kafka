@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.ReadOnlyWindowStore
+class org.apache.kafka.streams.state.ReadOnlyWindowStore {
++  fetch(K;long)
++  fetch(K;Instant;Instant)
++  backwardFetch(K;Instant;Instant)
++  fetch(K;K;Instant;Instant)
++  backwardFetch(K;K;Instant;Instant)
++  all()
++  backwardAll()
++  fetchAll(Instant;Instant)
++  backwardFetchAll(Instant;Instant)
+} 
+@enduml

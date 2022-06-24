@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.Cast
+class org.apache.kafka.connect.transforms.Cast {
++  configure(Map<String,?>)
++  apply(R)
++  config()
++  close()
++  applySchemaless(R)
++  applyWithSchema(R)
++  getOrBuildSchema(Schema)
++  convertFieldType(Schema.Type)
++  encodeLogicalType(Schema;Object)
++  castValueToType(Schema;Object;Schema.Type)
++  castToInt8(Object)
++  castToInt16(Object)
++  castToInt32(Object)
++  castToInt64(Object)
++  castToFloat32(Object)
++  castToFloat64(Object)
++  castToBoolean(Object)
++  castToString(Object)
++  operatingSchema(R)
++  operatingValue(R)
++  newRecord(R;Schema;Object)
++  parseFieldTypes(List<String>)
++  validCastType(Schema.Type;FieldType)
+} 
+@enduml

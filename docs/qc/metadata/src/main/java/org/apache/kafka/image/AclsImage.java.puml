@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.AclsImage
+class org.apache.kafka.image.AclsImage {
++  AclsImage(Map<Uuid,StandardAcl>)
++  isEmpty()
++  acls()
++  write(Consumer<List<ApiMessageAndVersion>>)
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

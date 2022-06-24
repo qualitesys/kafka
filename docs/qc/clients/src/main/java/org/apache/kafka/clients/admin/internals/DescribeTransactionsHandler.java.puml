@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Batched<CoordinatorKey,TransactionDescription> <|-- org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler
+class org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler {
++  DescribeTransactionsHandler(LogContext)
++  newFuture(Collection<String>)
++  buildKeySet(Collection<String>)
++  apiName()
++  lookupStrategy()
++  buildBatchedRequest(int;Set<CoordinatorKey>)
++  handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)
++  collectTopicPartitions(DescribeTransactionsResponseData.TransactionState)
++  handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;List<CoordinatorKey>)
+} 
+@enduml

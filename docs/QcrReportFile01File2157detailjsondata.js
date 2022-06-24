@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.rest.ErrorResponse"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.ErrorResponse" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ErrorResponse"
+ , "c2" : "ErrorResponse(int;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "code()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "message()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,21 +153,21 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.rest.ErrorResponse.equals@POLYN158571 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.rest.ErrorResponse.equals@POLYN160283 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.ErrorResponse.equals@POLYN158571 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.ErrorResponse.equals@POLYN160283 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.ErrorResponse.equals@POLYN158571 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.ErrorResponse.equals@POLYN160283 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

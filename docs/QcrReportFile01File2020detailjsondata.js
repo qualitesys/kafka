@@ -2,18 +2,71 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java 6 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java 8 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractMergedSortedCacheStoreIterator<Windowed<Bytes>,Windowed<Bytes>,byte[],byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MergedSortedCacheSessionStoreIterator"
+ , "c2" : "MergedSortedCacheSessionStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;SegmentedCacheFunction;boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Windowed<Bytes>,byte[]>"
+ , "c2" : "deserializeStorePair(KeyValue<Windowed<Bytes>,byte[]>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Windowed<Bytes>"
+ , "c2" : "deserializeCacheKey(Bytes)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "deserializeCacheValue(LRUCacheEntry)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Windowed<Bytes>"
+ , "c2" : "deserializeStoreKey(Windowed<Bytes>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "compare(Bytes;Windowed<Bytes>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,6 +104,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -66,6 +126,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html#29"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00029] For method deserializeCacheKey arguments Bytes  cacheKey"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html#29"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00029] For method deserializeCacheKey list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes cacheFunction_keyN163652|byte[] SessionKeySchema_extractKeyBytesN163777|org.apache.kafka.streams.kstream.Window SessionKeySchema_extractWindowN163876"
 }} 
 ,
 { "ligne" : {
@@ -94,6 +161,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html#48"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00048] For method compare arguments Bytes  cacheKey|Windowed&lt;Bytes &gt;  storeKey"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00048] For method compare list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes SessionKeySchema_toBinaryN164571"
 }} 
 ]
 };

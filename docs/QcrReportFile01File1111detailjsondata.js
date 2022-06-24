@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectException"
+ , "c2" : "org.apache.kafka.connect.runtime.distributed.RebalanceNeededException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.RebalanceNeededException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RebalanceNeededException"
+ , "c2" : "RebalanceNeededException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RebalanceNeededException.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RebalanceNeededException.java.svg" }
+
 ] 
 , 
 "data04" : [

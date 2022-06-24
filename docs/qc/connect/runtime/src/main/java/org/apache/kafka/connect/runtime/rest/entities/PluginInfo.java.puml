@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.PluginInfo
+class org.apache.kafka.connect.runtime.rest.entities.PluginInfo {
++  PluginInfo(String;PluginType;String)
++  PluginInfo(PluginDesc<?>)
++  className()
++  type()
++  version()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.common.serialization.BytesApiMessageSerde
+class org.apache.kafka.server.common.serialization.BytesApiMessageSerde {
++  serialize(ApiMessageAndVersion)
++  deserialize(byte[])
++  apiMessageFor(short)
+} 
+@enduml

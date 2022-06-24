@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+WorkerConfig <|-- org.apache.kafka.connect.runtime.standalone.StandaloneConfig
+class org.apache.kafka.connect.runtime.standalone.StandaloneConfig {
++  StandaloneConfig(Map<String,String>)
+} 
+@enduml

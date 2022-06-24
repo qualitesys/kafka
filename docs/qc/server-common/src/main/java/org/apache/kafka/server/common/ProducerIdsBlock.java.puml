@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.common.ProducerIdsBlock
+class org.apache.kafka.server.common.ProducerIdsBlock {
++  ProducerIdsBlock(int;long;int)
++  assignedBrokerId()
++  firstProducerId()
++  size()
++  lastProducerId()
++  nextBlockFirstId()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ProducerState
+class org.apache.kafka.clients.admin.ProducerState {
++  ProducerState(long;int;int;long;OptionalInt;OptionalLong)
++  producerId()
++  producerEpoch()
++  lastSequence()
++  lastTimestamp()
++  currentTransactionStartOffset()
++  coordinatorEpoch()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

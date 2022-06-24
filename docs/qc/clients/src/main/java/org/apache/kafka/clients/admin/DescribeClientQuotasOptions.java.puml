@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeClientQuotasOptions> <|-- org.apache.kafka.clients.admin.DescribeClientQuotasOptions
+class org.apache.kafka.clients.admin.DescribeClientQuotasOptions {
+} 
+@enduml

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RemoteStorageException"
+ , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RemoteResourceNotFoundException"
+ , "c2" : "RemoteResourceNotFoundException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteResourceNotFoundException"
+ , "c2" : "RemoteResourceNotFoundException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteResourceNotFoundException"
+ , "c2" : "RemoteResourceNotFoundException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.png" 
+
+ , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +83,7 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException.RemoteResourceNotFoundException@POLYN155309 the MagicNumber/String  'Requested remote resource was not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException.RemoteResourceNotFoundException@POLYN157021 the MagicNumber/String  'Requested remote resource was not found' should be converted to const"
 }} 
 ]
 };

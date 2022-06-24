@@ -2,18 +2,78 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java 67 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java 70 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.StoreQueryUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.StoreQueryUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StoreQueryUtils"
+ , "c2" : "StoreQueryUtils()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updatePosition(Position;StateStoreContext)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isPermitted(Position;PositionBound;int)"
+ , "c3" : "7"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "checkpointPosition(OffsetCheckpoint;Position)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Position"
+ , "c2" : "readPositionFromCheckpoint(OffsetCheckpoint)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "positionToTopicPartitionMap(Position)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Position"
+ , "c2" : "topicPartitionMapToPosition(Map<TopicPartition,Long>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -71,6 +131,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -167,6 +234,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00120] For method updatePosition list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.api.RecordMetadata&gt; stateStoreContext_recordMetadataN224187"
+}} 
+,
+{ "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#121"
  , "c2" : "CRITICAL"
@@ -177,14 +251,14 @@ var maDataBlocs = {
    "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN222211 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN223923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN222211 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN223923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -192,6 +266,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method isPermitted arguments Position  position|PositionBound  positionBound|int  partition"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method isPermitted list of called methods Object monObjet|org.apache.kafka.streams.query.Position positionBound_positionN224700|java.util.Map&lt;Integer,Long&gt; bound_getPartitionPositionsN224914|java.util.Map&lt;Integer,Long&gt; position_getPartitionPositionsN225050"
 }} 
 ,
 { "ligne" : {
@@ -226,21 +307,21 @@ var maDataBlocs = {
    "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN222827 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN224539 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN222827 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN224539 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN222827 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN224539 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -443,7 +524,7 @@ var maDataBlocs = {
    "c1" : "00335"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.checkpointPosition@POLYN233610 the MagicNumber/String  'Error writing checkpoint file' should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.checkpointPosition@POLYN235322 the MagicNumber/String  'Error writing checkpoint file' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -464,7 +545,7 @@ var maDataBlocs = {
    "c1" : "00343"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.readPositionFromCheckpoint@POLYN233985 the MagicNumber/String  'Error reading checkpoint file' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.readPositionFromCheckpoint@POLYN235697 the MagicNumber/String  'Error reading checkpoint file' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -472,6 +553,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00347] For method positionToTopicPartitionMap arguments Position  position"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00347] For method positionToTopicPartitionMap list of called methods Object monObjet|java.util.Set&lt;String&gt; position_getTopicsN236319|java.util.Map&lt;Integer,Long&gt; position_getPartitionPositionsN236513"
 }} 
 ,
 { "ligne" : {

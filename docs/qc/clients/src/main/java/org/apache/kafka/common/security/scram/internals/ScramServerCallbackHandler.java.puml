@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler
+class org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler {
++  ScramServerCallbackHandler(CredentialCache.Cache<ScramCredential>;DelegationTokenCache)
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  handle(Callback[])
++  close()
+} 
+@enduml

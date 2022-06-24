@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.SaslHandshakeRequest
+class org.apache.kafka.common.requests.SaslHandshakeRequest {
++  SaslHandshakeRequest(SaslHandshakeRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

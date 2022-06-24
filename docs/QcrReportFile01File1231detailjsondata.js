@@ -2,18 +2,78 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java 23 rule violations " 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java 29 rule violations " 
  , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.transforms.util.Requirements"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.util.Requirements" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "requireSchema(Schema;String)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "requireMap(Object;String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "requireMapOrNull(Object;String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Struct"
+ , "c2" : "requireStruct(Object;String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Struct"
+ , "c2" : "requireStructOrNull(Object;String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SinkRecord"
+ , "c2" : "requireSinkRecord(ConnectRecord<?>;String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "nullSafeClassName(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,7 +97,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -79,21 +162,21 @@ var maDataBlocs = {
    "c1" : "00015"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN163093 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  'Schema required for [' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN163093 the MagicNumber/String  'Schema required for [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN161381 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.Requirements.requireSchema@POLYN163093 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,14 +190,14 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN161759 the MagicNumber/String  'Only Map objects supported in absence of schema for [' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN163471 the MagicNumber/String  'Only Map objects supported in absence of schema for [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN161759 the MagicNumber/String  '], found: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.transforms.util.Requirements.requireMap@POLYN163471 the MagicNumber/String  '], found: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +211,14 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN162261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN163973 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN162261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.transforms.util.Requirements.requireMapOrNull@POLYN163973 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,14 +232,14 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN162563 the MagicNumber/String  'Only Struct objects supported for [' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN164275 the MagicNumber/String  'Only Struct objects supported for [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN162563 the MagicNumber/String  '], found: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN164275 the MagicNumber/String  '], found: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,14 +253,14 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN162991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN164703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN162991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.util.Requirements.requireStructOrNull@POLYN164703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,14 +274,14 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN163293 the MagicNumber/String  'Only SinkRecord supported for [' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN165005 the MagicNumber/String  'Only SinkRecord supported for [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN163293 the MagicNumber/String  '], found: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN165005 the MagicNumber/String  '], found: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -212,14 +295,56 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN163736 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN165448 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN163736 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.transforms.util.Requirements.nullSafeClassName@POLYN165448 the MagicNumber/String  'null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN164275"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN165005"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN164275 the MagicNumber/String 'Only Struct objects supported for [' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.connect.transforms.util.Requirements.requireStruct@POLYN164275 the MagicNumber/String '], found: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN165005 the MagicNumber/String 'Only SinkRecord supported for [' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.connect.transforms.util.Requirements.requireSinkRecord@POLYN165005 the MagicNumber/String '], found: ' MUST BE CONVERTED to const"
 }} 
 ]
 };

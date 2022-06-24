@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+SourceConnector <|-- org.apache.kafka.connect.mirror.MirrorCheckpointConnector
+class org.apache.kafka.connect.mirror.MirrorCheckpointConnector {
++  MirrorCheckpointConnector()
++  MirrorCheckpointConnector(List<String>;MirrorConnectorConfig)
++  start(Map<String,String>)
++  stop()
++  taskClass()
++  taskConfigs(int)
++  config()
++  version()
++  refreshConsumerGroups()
++  loadInitialConsumerGroups()
++  findConsumerGroups()
++  listConsumerGroups()
++  createInternalTopics()
++  shouldReplicate(String)
+} 
+@enduml

@@ -2,18 +2,99 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java 35 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java 41 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.controller.BootstrapMetadata"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.controller.BootstrapMetadata" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BootstrapMetadata"
+ , "c2" : "BootstrapMetadata(MetadataVersion;List<ApiMessageAndVersion>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "MetadataVersion"
+ , "c2" : "metadataVersion()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<ApiMessageAndVersion>"
+ , "c2" : "records()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BootstrapMetadata"
+ , "c2" : "create(MetadataVersion)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BootstrapMetadata"
+ , "c2" : "create(MetadataVersion;List<ApiMessageAndVersion>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BootstrapMetadata"
+ , "c2" : "load(Path;Supplier<MetadataVersion>)"
+ , "c3" : "9"
+ , "c4" : "17"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "write(BootstrapMetadata;Path)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +118,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "8"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -107,42 +211,42 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN184891 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN186603 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN184891 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN186603 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN184891 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN186603 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN185514 the MagicNumber/String  'BootstrapMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN187226 the MagicNumber/String  'BootstrapMetadata{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN185514 the MagicNumber/String  'metadataVersion=' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN187226 the MagicNumber/String  'metadataVersion=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN185514 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN187226 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -233,7 +337,7 @@ var maDataBlocs = {
    "c1" : "00112"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.controller.BootstrapMetadata.create@POLYN187124 the MagicNumber/String  'Cannot create BootstrapMetadata with a non-KRaft metadata version %s. Minimum version is %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.controller.BootstrapMetadata.create@POLYN188836 the MagicNumber/String  'Cannot create BootstrapMetadata with a non-KRaft metadata version %s. Minimum version is %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -261,35 +365,35 @@ var maDataBlocs = {
    "c1" : "00132"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN188079 the MagicNumber/String  'Missing bootstrap file, this appears to be a KRaft cluster older than 3.3. Setting metadata.version to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String  'Missing bootstrap file, this appears to be a KRaft cluster older than 3.3. Setting metadata.version to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN188079 the MagicNumber/String  'Could not set fallback bootstrap metadata with non-KRaft metadata version of %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String  'Could not set fallback bootstrap metadata with non-KRaft metadata version of %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN188079 the MagicNumber/String  'Failed to load snapshot' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String  'Failed to load snapshot' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN188079 the MagicNumber/String  'Expected a metadata.version to exist in the snapshot ' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String  'Expected a metadata.version to exist in the snapshot ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN188079 the MagicNumber/String  ', but none was found' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String  ', but none was found' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -317,14 +421,56 @@ var maDataBlocs = {
    "c1" : "00174"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.controller.BootstrapMetadata.write@POLYN190776 the MagicNumber/String  'Cannot write metadata bootstrap file ' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.controller.BootstrapMetadata.write@POLYN192488 the MagicNumber/String  'Cannot write metadata bootstrap file ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.BootstrapMetadata.write@POLYN190776 the MagicNumber/String  '. File already already exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.BootstrapMetadata.write@POLYN192488 the MagicNumber/String  '. File already already exists.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00132"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String 'Missing bootstrap file, this appears to be a KRaft cluster older than 3.3. Setting metadata.version to {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00136"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String 'Could not set fallback bootstrap metadata with non-KRaft metadata version of %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00145"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String 'Failed to load snapshot' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String ', but none was found' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN189791 the MagicNumber/String 'Expected a metadata.version to exist in the snapshot ' MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.PartitionReassignmentReplicas
+class org.apache.kafka.controller.PartitionReassignmentReplicas {
++  calculateDifference(List<Integer>;List<Integer>)
++  PartitionReassignmentReplicas(List<Integer>;List<Integer>)
++  removing()
++  adding()
++  merged()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

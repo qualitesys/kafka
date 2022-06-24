@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils
+class org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils {
++  validateScopes(String;Collection<String>)
++  validateExpiration(String;Long)
++  validateSubject(String;String)
++  validateIssuedAt(String;Long)
++  validateClaimNameOverride(String;String)
++  validateString(String;String)
+} 
+@enduml

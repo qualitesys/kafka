@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.AddOffsetsToTxnResponse
+class org.apache.kafka.common.requests.AddOffsetsToTxnResponse {
++  AddOffsetsToTxnResponse(AddOffsetsToTxnResponseData)
++  errorCounts()
++  throttleTimeMs()
++  data()
++  parse(ByteBuffer;short)
++  toString()
++  shouldClientThrottle(short)
+} 
+@enduml

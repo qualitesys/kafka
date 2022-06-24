@@ -8,12 +8,79 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Callback"
+ , "c2" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OAuthBearerExtensionsValidatorCallback"
+ , "c2" : "OAuthBearerExtensionsValidatorCallback(OAuthBearerToken;SaslExtensions)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OAuthBearerToken"
+ , "c2" : "token()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SaslExtensions"
+ , "c2" : "inputExtensions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "validatedExtensions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "invalidExtensions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "ignoredExtensions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "valid(String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "error(String;String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerExtensionsValidatorCallback.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerExtensionsValidatorCallback.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerExtensionsValidatorCallback.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback.valid@POLYN174499 the MagicNumber/String  'Extension %s was not found in the original extensions' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback.valid@POLYN176211 the MagicNumber/String  'Extension %s was not found in the original extensions' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerExtensionsValidatorCallback.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback.error@POLYN175114 the MagicNumber/String  'extension name must not be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback.error@POLYN176826 the MagicNumber/String  'extension name must not be empty' should be converted to const"
 }} 
 ]
 };

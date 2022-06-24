@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.LeftOrRightValue
+class org.apache.kafka.streams.state.internals.LeftOrRightValue {
++  LeftOrRightValue(V1;V2)
++  getLeftValue()
++  getRightValue()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

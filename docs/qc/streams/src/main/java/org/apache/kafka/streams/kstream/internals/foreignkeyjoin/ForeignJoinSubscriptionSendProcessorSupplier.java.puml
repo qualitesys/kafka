@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ProcessorSupplier<K,Change<V>,KO,SubscriptionWrapper<K>> <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionSendProcessorSupplier
+class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionSendProcessorSupplier {
++  ForeignJoinSubscriptionSendProcessorSupplier(Function<V,KO>;Supplier<String>;Supplier<String>;Serde<KO>;Serializer<V>;boolean)
++  get()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeClusterResult
+class org.apache.kafka.clients.admin.DescribeClusterResult {
++  DescribeClusterResult(KafkaFuture<Collection<Node>>;KafkaFuture<Node>;KafkaFuture<String>;KafkaFuture<Set<AclOperation>>)
++  nodes()
++  controller()
++  clusterId()
++  authorizedOperations()
+} 
+@enduml

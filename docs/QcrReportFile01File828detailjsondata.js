@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "LoginModule"
+ , "c2" : "org.apache.kafka.common.security.plain.PlainLoginModule"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.plain.PlainLoginModule" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "login()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "logout()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "commit()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "abort()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,42 +146,42 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.security.plain.PlainLoginModule.initialize@POLYN158090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.security.plain.PlainLoginModule.initialize@POLYN159802 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.security.plain.PlainLoginModule.initialize@POLYN158090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.security.plain.PlainLoginModule.initialize@POLYN159802 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.plain.PlainLoginModule.login@POLYN158836 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.plain.PlainLoginModule.login@POLYN160548 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.plain.PlainLoginModule.logout@POLYN158938 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.plain.PlainLoginModule.logout@POLYN160650 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.plain.PlainLoginModule.commit@POLYN159040 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.plain.PlainLoginModule.commit@POLYN160752 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.plain.PlainLoginModule.abort@POLYN159142 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.plain.PlainLoginModule.abort@POLYN160854 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

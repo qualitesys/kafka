@@ -1,0 +1,30 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo
+class org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo {
++  validateVersions(int;int)
++  SubscriptionInfo(int;int;UUID;String;Map<TaskId,Long>;byte;int;Map<String,String>)
++  SubscriptionInfo(SubscriptionInfoData)
++  clientTags()
++  errorCode()
++  buildClientTagsFromMap(Map<String,String>)
++  setTaskOffsetSumDataWithNamedTopologiesFromTaskOffsetSumMap(Map<TaskId,Long>)
++  setTaskOffsetSumDataFromTaskOffsetSumMap(Map<TaskId,Long>)
++  setPrevAndStandbySetsFromParsedTaskOffsetSumMap(Map<TaskId,Long>)
++  version()
++  latestSupportedVersion()
++  processId()
++  prevTasks()
++  standbyTasks()
++  taskOffsetSums()
++  userEndPoint()
++  getActiveTasksFromTaskOffsetSumMap(Map<TaskId,Long>)
++  getStandbyTasksFromTaskOffsetSumMap(Map<TaskId,Long>)
++  taskOffsetSumMapToTaskSet(Map<TaskId,Long>;boolean)
++  encode()
++  decode(ByteBuffer)
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

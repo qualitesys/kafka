@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.errors.NotFoundException
+class org.apache.kafka.connect.errors.NotFoundException {
++  NotFoundException(String)
++  NotFoundException(String;Throwable)
++  NotFoundException(Throwable)
+} 
+@enduml

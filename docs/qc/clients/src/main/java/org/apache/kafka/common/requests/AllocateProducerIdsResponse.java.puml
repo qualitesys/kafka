@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.AllocateProducerIdsResponse
+class org.apache.kafka.common.requests.AllocateProducerIdsResponse {
++  AllocateProducerIdsResponse(AllocateProducerIdsResponseData)
++  data()
++  errorCounts()
++  throttleTimeMs()
++  parse(ByteBuffer;short)
+} 
+@enduml

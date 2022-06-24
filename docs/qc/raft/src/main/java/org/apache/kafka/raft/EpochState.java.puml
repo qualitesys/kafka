@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.raft.EpochState
+class org.apache.kafka.raft.EpochState {
++  highWatermark()
++  canGrantVote(int;boolean)
++  election()
++  epoch()
++  name()
+} 
+@enduml

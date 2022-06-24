@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Iterator<T>"
+ , "c2" : "org.apache.kafka.common.utils.CircularIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.CircularIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CircularIterator"
+ , "c2" : "CircularIterator(Collection<T>)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "next()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "advance()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "peek()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "remove()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.utils.CircularIterator.CircularIterator@POLYN166634 the MagicNumber/String  'CircularIterator can only be used on non-empty lists' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.utils.CircularIterator.CircularIterator@POLYN168346 the MagicNumber/String  'CircularIterator can only be used on non-empty lists' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.CircularIterator.hasNext@POLYN167252 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.CircularIterator.hasNext@POLYN168964 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

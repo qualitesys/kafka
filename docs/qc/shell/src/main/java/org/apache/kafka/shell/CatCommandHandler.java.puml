@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Commands.Handler <|-- org.apache.kafka.shell.CatCommandHandler
+class org.apache.kafka.shell.CatCommandHandler {
++  CatCommandHandler(List<String>)
++  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
++  hashCode()
++  equals(Object)
+} 
+@enduml

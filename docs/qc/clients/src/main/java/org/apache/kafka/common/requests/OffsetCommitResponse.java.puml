@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.OffsetCommitResponse
+class org.apache.kafka.common.requests.OffsetCommitResponse {
++  OffsetCommitResponse(OffsetCommitResponseData)
++  OffsetCommitResponse(int;Map<TopicPartition,Errors>)
++  OffsetCommitResponse(Map<TopicPartition,Errors>)
++  data()
++  errorCounts()
++  parse(ByteBuffer;short)
++  toString()
++  throttleTimeMs()
++  shouldClientThrottle(short)
+} 
+@enduml

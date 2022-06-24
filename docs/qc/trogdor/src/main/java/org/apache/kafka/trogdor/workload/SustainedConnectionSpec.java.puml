@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+TaskSpec <|-- org.apache.kafka.trogdor.workload.SustainedConnectionSpec
+class org.apache.kafka.trogdor.workload.SustainedConnectionSpec {
++  SustainedConnectionSpec(long;long;String;String;Map<String,String>;Map<String,String>;Map<String,String>;Map<String,String>;PayloadGenerator;PayloadGenerator;int;int;int;String;int;int)
++  clientNode()
++  bootstrapServers()
++  producerConf()
++  consumerConf()
++  adminClientConf()
++  commonClientConf()
++  keyGenerator()
++  valueGenerator()
++  producerConnectionCount()
++  consumerConnectionCount()
++  metadataConnectionCount()
++  topicName()
++  numThreads()
++  refreshRateMs()
++  newController(String)
++  newTaskWorker(String)
+} 
+@enduml

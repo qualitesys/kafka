@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+CloseableVerificationKeyResolver <|-- org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver
+class org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver {
++  RefreshingHttpsJwksVerificationKeyResolver(RefreshingHttpsJwks)
++  init()
++  close()
++  resolveKey(JsonWebSignature;List<JsonWebStructure>)
+} 
+@enduml

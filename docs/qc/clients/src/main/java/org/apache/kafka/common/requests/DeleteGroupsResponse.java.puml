@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DeleteGroupsResponse
+class org.apache.kafka.common.requests.DeleteGroupsResponse {
++  DeleteGroupsResponse(DeleteGroupsResponseData)
++  data()
++  errors()
++  get(String)
++  errorCounts()
++  parse(ByteBuffer;short)
++  throttleTimeMs()
++  shouldClientThrottle(short)
+} 
+@enduml

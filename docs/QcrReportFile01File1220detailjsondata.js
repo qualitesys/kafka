@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Transformation<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.RegexRouter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.RegexRouter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "apply(R)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,14 +153,14 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN164507 the MagicNumber/String  'Rerouting from topic '{}' to new topic '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN166219 the MagicNumber/String  'Rerouting from topic '{}' to new topic '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN164507 the MagicNumber/String  'Not rerouting topic '{}' as it does not match the configured regex' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN166219 the MagicNumber/String  'Not rerouting topic '{}' as it does not match the configured regex' should be converted to const"
 }} 
 ,
 { "ligne" : {

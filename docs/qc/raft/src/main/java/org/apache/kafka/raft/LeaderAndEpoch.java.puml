@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.LeaderAndEpoch
+class org.apache.kafka.raft.LeaderAndEpoch {
++  LeaderAndEpoch(OptionalInt;int)
++  leaderId()
++  epoch()
++  isLeader(int)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Provider <|-- org.apache.kafka.common.security.scram.internals.ScramSaslServerProvider
+class org.apache.kafka.common.security.scram.internals.ScramSaslServerProvider {
++  ScramSaslServerProvider()
++  initialize()
+} 
+@enduml

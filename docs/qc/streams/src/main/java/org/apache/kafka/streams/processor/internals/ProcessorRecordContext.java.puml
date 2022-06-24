@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+RecordContext <|-- org.apache.kafka.streams.processor.internals.ProcessorRecordContext
+class org.apache.kafka.streams.processor.internals.ProcessorRecordContext {
++  ProcessorRecordContext(long;long;int;String;Headers)
++  offset()
++  timestamp()
++  topic()
++  partition()
++  headers()
++  residentMemorySizeEstimate()
++  serialize()
++  deserialize(ByteBuffer)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

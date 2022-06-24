@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.compress.ZstdFactory
+class org.apache.kafka.common.compress.ZstdFactory {
++  ZstdFactory()
++  wrapForOutput(ByteBufferOutputStream)
++  wrapForInput(ByteBuffer;byte;BufferSupplier)
+} 
+@enduml

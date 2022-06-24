@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.ProduceRequest
+class org.apache.kafka.common.requests.ProduceRequest {
++  forMagic(byte;ProduceRequestData)
++  forCurrentMagic(ProduceRequestData)
++  ProduceRequest(ProduceRequestData;short)
++  partitionSizes()
++  data()
++  toString(boolean)
++  getErrorResponse(int;Throwable)
++  errorCounts(Throwable)
++  acks()
++  timeout()
++  transactionalId()
++  clearPartitionRecords()
++  validateRecords(short;BaseRecords)
++  parse(ByteBuffer;short)
++  requiredMagicForVersion(short)
+} 
+@enduml

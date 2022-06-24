@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.RemoteClusterUtils
+class org.apache.kafka.connect.mirror.RemoteClusterUtils {
++  RemoteClusterUtils()
++  replicationHops(Map<String,Object>;String)
++  heartbeatTopics(Map<String,Object>)
++  checkpointTopics(Map<String,Object>)
++  upstreamClusters(Map<String,Object>)
++  translateOffsets(Map<String,Object>;String;String;Duration)
+} 
+@enduml

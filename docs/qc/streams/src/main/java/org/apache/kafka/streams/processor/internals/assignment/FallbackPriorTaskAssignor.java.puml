@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor
+class org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor {
++  FallbackPriorTaskAssignor()
++  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)
+} 
+@enduml

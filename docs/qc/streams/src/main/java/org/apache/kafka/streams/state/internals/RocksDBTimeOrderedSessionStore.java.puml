@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<RocksDBTimeOrderedSessionSegmentedBytesStore,Object,Object>SessionStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore
+class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore {
++  RocksDBTimeOrderedSessionStore(RocksDBTimeOrderedSessionSegmentedBytesStore)
++  init(StateStoreContext;StateStore)
++  findSessions(Bytes;long;long)
++  backwardFindSessions(Bytes;long;long)
++  findSessions(Bytes;Bytes;long;long)
++  backwardFindSessions(Bytes;Bytes;long;long)
++  fetchSession(Bytes;long;long)
++  fetch(Bytes)
++  backwardFetch(Bytes)
++  fetch(Bytes;Bytes)
++  backwardFetch(Bytes;Bytes)
++  remove(Windowed<Bytes>)
++  put(Windowed<Bytes>;byte[])
+} 
+@enduml

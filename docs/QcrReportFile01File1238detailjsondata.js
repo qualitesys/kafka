@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ShutdownableThread"
+ , "c2" : "kafka.examples.Consumer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "kafka.examples.Consumer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Consumer"
+ , "c2" : "Consumer(String;String;Optional<String>;boolean;int;CountDownLatch)"
+ , "c3" : "2"
+ , "c4" : "18"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaConsumer<Integer,String>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "doWork()"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isInterruptible()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.png" 
+
+ , "ligneplantuml" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,140 +111,140 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  'KafkaConsumerExample' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  'KafkaConsumerExample' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  'true' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  '1000' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  '1000' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  '30000' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  '30000' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  'org.apache.kafka.common.serialization.IntegerDeserializer' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  'org.apache.kafka.common.serialization.IntegerDeserializer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  'org.apache.kafka.common.serialization.StringDeserializer' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  'org.apache.kafka.common.serialization.StringDeserializer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  'read_committed' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  'read_committed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method kafka.examples.Consumer.Consumer@POLYN165559 the MagicNumber/String  'earliest' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method kafka.examples.Consumer.Consumer@POLYN167271 the MagicNumber/String  'earliest' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  ' received message : from partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  ' received message : from partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  ', (' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  ', (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  ') at offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  ') at offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  ' finished reading ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  ' finished reading ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method kafka.examples.Consumer.doWork@POLYN167694 the MagicNumber/String  ' messages' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method kafka.examples.Consumer.doWork@POLYN169406 the MagicNumber/String  ' messages' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method kafka.examples.Consumer.name@POLYN168857 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method kafka.examples.Consumer.name@POLYN170569 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method kafka.examples.Consumer.isInterruptible@POLYN168959 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method kafka.examples.Consumer.isInterruptible@POLYN170671 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

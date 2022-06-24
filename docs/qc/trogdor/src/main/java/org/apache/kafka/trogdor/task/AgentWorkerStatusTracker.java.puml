@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+WorkerStatusTracker <|-- org.apache.kafka.trogdor.task.AgentWorkerStatusTracker
+class org.apache.kafka.trogdor.task.AgentWorkerStatusTracker {
++  update(JsonNode)
++  get()
+} 
+@enduml

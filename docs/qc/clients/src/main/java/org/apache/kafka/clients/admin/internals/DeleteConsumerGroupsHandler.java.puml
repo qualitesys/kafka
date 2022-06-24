@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Batched<CoordinatorKey,Void> <|-- org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler
+class org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler {
++  DeleteConsumerGroupsHandler(LogContext)
++  apiName()
++  lookupStrategy()
++  newFuture(Collection<String>)
++  buildKeySet(Collection<String>)
++  buildBatchedRequest(int;Set<CoordinatorKey>)
++  handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)
++  handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult
+class org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult {
++  DeleteConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>;Set<TopicPartition>)
++  partitionResult(TopicPartition)
++  all()
++  maybeCompleteExceptionally(Map<TopicPartition,Errors>;TopicPartition;KafkaFutureImpl<Void>)
+} 
+@enduml

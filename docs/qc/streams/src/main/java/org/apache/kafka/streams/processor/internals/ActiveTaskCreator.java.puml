@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ActiveTaskCreator
+class org.apache.kafka.streams.processor.internals.ActiveTaskCreator {
++  ActiveTaskCreator(TopologyMetadata;StreamsConfig;StreamsMetricsImpl;StateDirectory;ChangelogReader;ThreadCache;Time;KafkaClientSupplier;String;UUID;Logger)
++  reInitializeThreadProducer()
++  streamsProducerForTask(TaskId)
++  threadProducer()
++  removeRevokedUnknownTasks(Set<TaskId>)
++  uncreatedTasksForTopologies(Set<String>)
++  createTasks(Consumer<byte[],byte[]>;Map<TaskId,Set<TopicPartition>>)
++  createActiveTaskFromStandby(StandbyTask;Set<TopicPartition>;Consumer<byte[],byte[]>)
++  createActiveTask(TaskId;Set<TopicPartition>;Consumer<byte[],byte[]>;LogContext;ProcessorTopology;ProcessorStateManager;InternalProcessorContext)
++  closeThreadProducerIfNeeded()
++  closeAndRemoveTaskProducerIfNeeded(TaskId)
++  producerMetrics()
++  producerClientIds()
++  getLogContext(TaskId)
++  totalProducerBlockedTime()
+} 
+@enduml

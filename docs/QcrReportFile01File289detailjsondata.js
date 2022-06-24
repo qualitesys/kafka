@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.compress.SnappyFactory"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.compress.SnappyFactory" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SnappyFactory"
+ , "c2" : "SnappyFactory()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OutputStream"
+ , "c2" : "wrapForOutput(ByteBufferOutputStream)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "InputStream"
+ , "c2" : "wrapForInput(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.svg" }
+
 ] 
 , 
 "data04" : [

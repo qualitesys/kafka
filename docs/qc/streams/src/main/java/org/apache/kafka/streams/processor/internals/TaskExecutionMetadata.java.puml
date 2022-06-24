@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskExecutionMetadata
+class org.apache.kafka.streams.processor.internals.TaskExecutionMetadata {
++  TaskExecutionMetadata(Set<String>;Set<String>)
++  canProcessTask(Task;long)
++  registerTaskError(Task;Throwable;long)
+} 
+@enduml

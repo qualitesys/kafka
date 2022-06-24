@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.NewLeaderElectedException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.NewLeaderElectedException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "NewLeaderElectedException"
+ , "c2" : "NewLeaderElectedException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NewLeaderElectedException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NewLeaderElectedException.java.svg" }
+
 ] 
 , 
 "data04" : [

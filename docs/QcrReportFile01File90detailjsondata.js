@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeTopicsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeTopicsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeTopicsResult"
+ , "c2" : "DescribeTopicsResult(Map<String,KafkaFuture<TopicDescription>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeTopicsResult"
+ , "c2" : "DescribeTopicsResult(Map<Uuid,KafkaFuture<TopicDescription>>;Map<String,KafkaFuture<TopicDescription>>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeTopicsResult"
+ , "c2" : "ofTopicIds(Map<Uuid,KafkaFuture<TopicDescription>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeTopicsResult"
+ , "c2" : "ofTopicNames(Map<String,KafkaFuture<TopicDescription>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Uuid,KafkaFuture<TopicDescription>>"
+ , "c2" : "topicIdValues()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,KafkaFuture<TopicDescription>>"
+ , "c2" : "topicNameValues()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,KafkaFuture<TopicDescription>>"
+ , "c2" : "values()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<String,TopicDescription>>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<String,TopicDescription>>"
+ , "c2" : "allTopicNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<Uuid,TopicDescription>>"
+ , "c2" : "allTopicIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,49 +160,49 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN175909 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN177621 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN176108 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN177820 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN176108 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN177820 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN176108 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be specified.' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN177820 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be specified.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN176108 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN177820 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN176108 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN177820 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN176108 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.DescribeTopicsResult.DescribeTopicsResult@POLYN177820 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.DescribeTopicsResult.ofTopicIds@POLYN176802 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.DescribeTopicsResult.ofTopicIds@POLYN178514 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +230,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.admin.DescribeTopicsResult.ofTopicNames@POLYN177030 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.admin.DescribeTopicsResult.ofTopicNames@POLYN178742 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

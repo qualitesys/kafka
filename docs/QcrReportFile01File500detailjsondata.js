@@ -2,18 +2,99 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/ListenerName.java 19 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/ListenerName.java 22 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.network.ListenerName"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.network.ListenerName" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListenerName"
+ , "c2" : "forSecurityProtocol(SecurityProtocol)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ListenerName"
+ , "c2" : "normalised(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ListenerName"
+ , "c2" : "ListenerName(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "value()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "configPrefix()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "saslMechanismConfigPrefix(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "saslMechanismPrefix(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,6 +118,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -46,10 +136,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -114,7 +218,7 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.ListenerName.ListenerName@POLYN160026 the MagicNumber/String  'value should not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.ListenerName.ListenerName@POLYN161738 the MagicNumber/String  'value should not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,35 +232,35 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.network.ListenerName.equals@POLYN160356 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.network.ListenerName.equals@POLYN162068 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN160835 the MagicNumber/String  'ListenerName(' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN162547 the MagicNumber/String  'ListenerName(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN160835 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN162547 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN160969 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN162681 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN160969 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN162681 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -184,7 +288,7 @@ var maDataBlocs = {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.network.ListenerName.saslMechanismPrefix@POLYN161350 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.network.ListenerName.saslMechanismPrefix@POLYN163062 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -206,6 +310,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00060] Public method saslMechanismPrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.ListenerName.equals@POLYN162068"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.ListenerName.hashCode@POLYN162427"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.network.ListenerName.equals@POLYN162068 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.ExceptionUtils
+class org.apache.kafka.streams.state.internals.ExceptionUtils {
++  ExceptionUtils()
++  executeAll(Runnable...)
++  throwSuppressed(String;LinkedList<RuntimeException>)
+} 
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+RaftException <|-- org.apache.kafka.raft.errors.BufferAllocationException
+class org.apache.kafka.raft.errors.BufferAllocationException {
++  BufferAllocationException(String)
+} 
+@enduml

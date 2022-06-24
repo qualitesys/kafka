@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractStoreBuilder<K,ValueAndTimestamp<V>,TimestampedKeyValueStore<K,V>> <|-- org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder
+class org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder {
++  TimestampedKeyValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time)
++  build()
++  maybeWrapCaching(KeyValueStore<Bytes,byte[]>)
++  maybeWrapLogging(KeyValueStore<Bytes,byte[]>)
+} 
+@enduml

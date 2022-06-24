@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.distributed.WorkerGroupMember
+class org.apache.kafka.connect.runtime.distributed.WorkerGroupMember {
++  WorkerGroupMember(DistributedConfig;String;ConfigBackingStore;WorkerRebalanceListener;Time;String;LogContext)
++  stop()
++  ensureActive()
++  poll(long)
++  wakeup()
++  memberId()
++  requestRejoin()
++  maybeLeaveGroup(String)
++  ownerUrl(String)
++  ownerUrl(ConnectorTaskId)
++  currentProtocolVersion()
++  revokeAssignment(ExtendedAssignment)
++  stop(boolean)
++  metrics()
+} 
+@enduml

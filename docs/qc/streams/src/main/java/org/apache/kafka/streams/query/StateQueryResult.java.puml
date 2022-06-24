@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.query.StateQueryResult
+class org.apache.kafka.streams.query.StateQueryResult {
++  setGlobalResult(QueryResult<R>)
++  addResult(int;QueryResult<R>)
++  getPartitionResults()
++  getOnlyPartitionResult()
++  getGlobalResult()
++  getPosition()
++  toString()
+} 
+@enduml

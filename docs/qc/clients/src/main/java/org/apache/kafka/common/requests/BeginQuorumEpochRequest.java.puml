@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.BeginQuorumEpochRequest
+class org.apache.kafka.common.requests.BeginQuorumEpochRequest {
++  BeginQuorumEpochRequest(BeginQuorumEpochRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  singletonRequest(TopicPartition;int;int)
++  singletonRequest(TopicPartition;String;int;int)
+} 
+@enduml

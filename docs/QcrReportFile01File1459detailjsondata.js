@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "JmxReporter"
+ , "c2" : "org.apache.kafka.server.metrics.FilteringJmxReporter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.metrics.FilteringJmxReporter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FilteringJmxReporter"
+ , "c2" : "FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "onMetricAdded(MetricName;Metric)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updatePredicate(Predicate<MetricName>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.png" 
+
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.svg" }
+
 ] 
 , 
 "data04" : [

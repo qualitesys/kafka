@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Deserializer<List<Inner>> <|-- org.apache.kafka.common.serialization.ListDeserializer
+class org.apache.kafka.common.serialization.ListDeserializer {
++  ListDeserializer()
++  innerDeserializer()
++  configure(Map<String,?>;boolean)
++  configureListClass(Map<String,?>;boolean)
++  configureInnerSerde(Map<String,?>;boolean)
++  createListInstance(int)
++  parseSerializationStrategyFlag(int)
++  deserializeNullIndexList(DataInputStream)
++  deserialize(String;byte[])
++  close()
+} 
+@enduml

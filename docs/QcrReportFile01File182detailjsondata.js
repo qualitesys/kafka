@@ -2,18 +2,85 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java 21 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java 24 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractStickyAssignor"
+ , "c2" : "org.apache.kafka.clients.consumer.CooperativeStickyAssignor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.CooperativeStickyAssignor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<RebalanceProtocol>"
+ , "c2" : "supportedProtocols()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "onAssignment(Assignment;ConsumerGroupMetadata)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "subscriptionUserData(Set<String>)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "MemberData"
+ , "c2" : "memberData(Subscription)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,List<TopicPartition>>"
+ , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "adjustAssignment(Map<String,List<TopicPartition>>;Map<TopicPartition,String>)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,String>"
+ , "c2" : "computePartitionsTransferringOwnership(Map<String,Subscription>;Map<String,List<TopicPartition>>)"
+ , "c3" : "6"
+ , "c4" : "11"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +104,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -65,6 +155,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -73,6 +170,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#41"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00041] For method onAssignment arguments Assignment  assignment|ConsumerGroupMetadata  metadata"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#41"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00041] For method onAssignment list of called methods Object monObjet|int metadata_generationIdN179909"
 }} 
 ,
 { "ligne" : {
@@ -107,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.memberData@POLYN178871 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.memberData@POLYN180583 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +225,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN179812 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN181524 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -213,6 +317,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#112"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00112] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN181524"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN181524 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

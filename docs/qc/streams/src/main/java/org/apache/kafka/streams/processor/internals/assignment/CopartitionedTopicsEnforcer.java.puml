@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer
+class org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer {
++  CopartitionedTopicsEnforcer(String)
++  enforce(Set<String>;Map<String,InternalTopicConfig>;Cluster)
++  maybeSetNumberOfPartitionsForInternalTopic(int;InternalTopicConfig)
++  validateAndGetNumOfPartitions(Map<Object,InternalTopicConfig>;Collection<InternalTopicConfig>)
++  emptyNumberOfPartitionsExceptionSupplier(String)
++  getSamePartitions(Map<String,Integer>)
++  getMaxPartitions(Map<Object,InternalTopicConfig>)
+} 
+@enduml

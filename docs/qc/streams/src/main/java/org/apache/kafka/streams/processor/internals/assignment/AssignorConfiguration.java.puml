@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration
+class org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration {
++  AssignorConfiguration(Map<String,?>)
++  referenceContainer()
++  rebalanceProtocol()
++  logPrefix()
++  configuredMetadataVersion(int)
++  userEndPoint()
++  internalTopicManager()
++  copartitionedTopicsEnforcer()
++  assignmentConfigs()
++  taskAssignor()
++  assignmentListener()
+} 
+@enduml

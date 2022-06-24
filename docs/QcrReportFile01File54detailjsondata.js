@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<CreateTopicsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.CreateTopicsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.CreateTopicsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CreateTopicsOptions"
+ , "c2" : "timeoutMs(Integer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreateTopicsOptions"
+ , "c2" : "validateOnly(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldValidateOnly()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreateTopicsOptions"
+ , "c2" : "retryOnQuotaViolation(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldRetryOnQuotaViolation()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.sink.SinkTaskContext
+class org.apache.kafka.connect.sink.SinkTaskContext {
++  configs()
++  offset(Map<TopicPartition,Long>)
++  offset(TopicPartition;long)
++  timeout(long)
++  assignment()
++  pause(TopicPartition...)
++  resume(TopicPartition...)
++  requestCommit()
++  errantRecordReporter()
+} 
+@enduml

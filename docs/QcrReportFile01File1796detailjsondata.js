@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessingContext"
+ , "c2" : "org.apache.kafka.streams.processor.api.FixedKeyProcessorContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.FixedKeyProcessorContext" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java.svg" }
+
 ] 
 , 
 "data04" : [

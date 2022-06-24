@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+CompletableFuture<T> <|-- org.apache.kafka.common.internals.KafkaCompletableFuture
+class org.apache.kafka.common.internals.KafkaCompletableFuture {
++  kafkaComplete(T)
++  kafkaCompleteExceptionally(Throwable)
++  complete(T)
++  completeExceptionally(Throwable)
++  obtrudeValue(T)
++  obtrudeException(Throwable)
++  completeAsync(Supplier<?extendsT>;Executor)
++  completeAsync(Supplier<?extendsT>)
++  completeOnTimeout(T;long;TimeUnit)
++  erroneousCompletionException()
+} 
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.requests.FetchMetadata
+class org.apache.kafka.common.requests.FetchMetadata {
++  nextEpoch(int)
++  FetchMetadata(int;int)
++  isFull()
++  sessionId()
++  epoch()
++  hashCode()
++  equals(Object)
++  nextCloseExisting()
++  newIncremental(int)
++  nextIncremental()
++  toString()
+} 
+@enduml

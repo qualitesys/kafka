@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.ReadOnlySessionStore
+class org.apache.kafka.streams.state.ReadOnlySessionStore {
++  findSessions(K;long;long)
++  findSessions(K;Instant;Instant)
++  backwardFindSessions(K;long;long)
++  backwardFindSessions(K;Instant;Instant)
++  findSessions(K;K;long;long)
++  findSessions(K;K;Instant;Instant)
++  backwardFindSessions(K;K;long;long)
++  backwardFindSessions(K;K;Instant;Instant)
++  fetchSession(K;long;long)
++  fetchSession(K;Instant;Instant)
++  fetch(K)
++  backwardFetch(K)
++  fetch(K;K)
++  backwardFetch(K;K)
+} 
+@enduml

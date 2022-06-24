@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "UnalignedRecords"
+ , "c2" : "org.apache.kafka.common.record.UnalignedFileRecords"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.UnalignedFileRecords" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UnalignedFileRecords"
+ , "c2" : "UnalignedFileRecords(FileChannel;long;int)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "sizeInBytes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "writeTo(TransferableChannel;long;int)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.svg" }
+
 ] 
 , 
 "data04" : [

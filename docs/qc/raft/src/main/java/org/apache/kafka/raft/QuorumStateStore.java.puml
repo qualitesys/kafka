@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.QuorumStateStore
+class org.apache.kafka.raft.QuorumStateStore {
++  readElectionState()
++  writeElectionState(ElectionState)
++  clear()
+} 
+@enduml

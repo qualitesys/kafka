@@ -8,12 +8,149 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StreamsMetadataState"
+ , "c2" : "StreamsMetadataState(TopologyMetadata;HostInfo;LogContext)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString(String)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamsMetadata"
+ , "c2" : "getLocalMetadata()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<StreamsMetadata>"
+ , "c2" : "getAllMetadata()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<StreamsMetadata>"
+ , "c2" : "getAllMetadataForStore(String)"
+ , "c3" : "7"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<StreamsMetadata>"
+ , "c2" : "getAllMetadataForStore(String;String)"
+ , "c3" : "5"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<StreamsMetadata>"
+ , "c2" : "getAllMetadataForTopology(String)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "onChange(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Cluster)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasPartitionsForAnyTopics(List<String>;Set<TopicPartition>)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "getStoresOnHost(Map<String,List<String>>;Set<TopicPartition>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "rebuildMetadata(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<StreamsMetadata>"
+ , "c2" : "rebuildMetadataForNamedTopologies(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)"
+ , "c3" : "7"
+ , "c4" : "20"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<StreamsMetadata>"
+ , "c2" : "rebuildMetadataForSingleTopology(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)"
+ , "c3" : "4"
+ , "c4" : "16"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SourceTopicsInfo"
+ , "c2" : "getSourceTopicsInfo(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SourceTopicsInfo"
+ , "c2" : "getSourceTopicsInfo(String;String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isInitialized()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "getStoreForChangelogTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,7 +251,7 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254472 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256184 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,49 +265,49 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254591 the MagicNumber/String  'GlobalMetadata: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256303 the MagicNumber/String  'GlobalMetadata: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254591 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256303 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254591 the MagicNumber/String  'GlobalStores: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256303 the MagicNumber/String  'GlobalStores: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254591 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256303 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254591 the MagicNumber/String  'My HostInfo: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256303 the MagicNumber/String  'My HostInfo: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254591 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256303 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN254591 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.toString@POLYN256303 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,35 +328,35 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN256259 the MagicNumber/String  'storeName cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257971 the MagicNumber/String  'storeName cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN256259 the MagicNumber/String  'Cannot invoke the getAllMetadataForStore(storeName) method when' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257971 the MagicNumber/String  'Cannot invoke the getAllMetadataForStore(storeName) method when' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN256259 the MagicNumber/String  'using named topologies, please use the overload that accepts' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257971 the MagicNumber/String  'using named topologies, please use the overload that accepts' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN256259 the MagicNumber/String  'a topologyName parameter to identify the correct store' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257971 the MagicNumber/String  'a topologyName parameter to identify the correct store' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN256259 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -254,21 +391,21 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257853 the MagicNumber/String  'storeName cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN259565 the MagicNumber/String  'storeName cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257853 the MagicNumber/String  'topologyName cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN259565 the MagicNumber/String  'topologyName cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN257853 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForStore@POLYN259565 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -303,14 +440,14 @@ var maDataBlocs = {
    "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForTopology@POLYN259282 the MagicNumber/String  'topologyName cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForTopology@POLYN260994 the MagicNumber/String  'topologyName cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForTopology@POLYN259282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getAllMetadataForTopology@POLYN260994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -527,14 +664,14 @@ var maDataBlocs = {
    "c1" : "00242"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.hasPartitionsForAnyTopics@POLYN265891 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.hasPartitionsForAnyTopics@POLYN267603 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.hasPartitionsForAnyTopics@POLYN265891 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.hasPartitionsForAnyTopics@POLYN267603 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -604,7 +741,7 @@ var maDataBlocs = {
    "c1" : "00330"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.rebuildMetadataForNamedTopologies@POLYN268046 the MagicNumber/String  'Host {} has no tasks for topology {} at the moment, this metadata will not be built' should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.rebuildMetadataForNamedTopologies@POLYN269758 the MagicNumber/String  'Host {} has no tasks for topology {} at the moment, this metadata will not be built' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -765,7 +902,7 @@ var maDataBlocs = {
    "c1" : "00461"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getSourceTopicsInfo@POLYN279308 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getSourceTopicsInfo@POLYN281020 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -779,21 +916,21 @@ var maDataBlocs = {
    "c1" : "00468"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getSourceTopicsInfo@POLYN279474 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.getSourceTopicsInfo@POLYN281186 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.isInitialized@POLYN279948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.isInitialized@POLYN281660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.isInitialized@POLYN279948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.isInitialized@POLYN281660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -821,7 +958,7 @@ var maDataBlocs = {
    "c1" : "00492"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.SourceTopicsInfo.SourceTopicsInfo@POLYN280512 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.streams.processor.internals.StreamsMetadataState.SourceTopicsInfo.SourceTopicsInfo@POLYN282224 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

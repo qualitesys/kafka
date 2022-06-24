@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.RaftMessageQueue
+class org.apache.kafka.raft.RaftMessageQueue {
++  poll(long)
++  add(RaftMessage)
++  isEmpty()
++  wakeup()
+} 
+@enduml

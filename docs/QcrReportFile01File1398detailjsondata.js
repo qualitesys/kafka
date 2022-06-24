@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.raft.LeaderAndEpoch"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.LeaderAndEpoch" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "LeaderAndEpoch"
+ , "c2" : "LeaderAndEpoch(OptionalInt;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OptionalInt"
+ , "c2" : "leaderId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "epoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isLeader(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,49 +160,49 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN158410 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN160122 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN158410 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN160122 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN158410 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN160122 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN159124 the MagicNumber/String  'LeaderAndEpoch(' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN160836 the MagicNumber/String  'LeaderAndEpoch(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN159124 the MagicNumber/String  'leaderId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN160836 the MagicNumber/String  'leaderId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN159124 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN160836 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN159124 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN160836 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

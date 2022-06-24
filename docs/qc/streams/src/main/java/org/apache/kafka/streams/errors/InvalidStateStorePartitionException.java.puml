@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidStateStoreException <|-- org.apache.kafka.streams.errors.InvalidStateStorePartitionException
+class org.apache.kafka.streams.errors.InvalidStateStorePartitionException {
++  InvalidStateStorePartitionException(String)
++  InvalidStateStorePartitionException(String;Throwable)
+} 
+@enduml

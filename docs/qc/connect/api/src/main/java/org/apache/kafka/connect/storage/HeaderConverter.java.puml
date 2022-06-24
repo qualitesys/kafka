@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.connect.storage.HeaderConverter
+class org.apache.kafka.connect.storage.HeaderConverter {
++  toConnectHeader(String;String;byte[])
++  fromConnectHeader(String;String;Schema;Object)
++  config()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.network.CipherInformation
+class org.apache.kafka.common.network.CipherInformation {
++  CipherInformation(String;String)
++  cipher()
++  protocol()
++  toString()
++  hashCode()
++  equals(Object)
+} 
+@enduml

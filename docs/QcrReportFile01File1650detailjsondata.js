@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "FixedKeyProcessorSupplier<K,V,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamFilter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamFilter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamFilter"
+ , "c2" : "KStreamFilter(Predicate<K,V>;boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "FixedKeyProcessor<K,V,V>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFilter.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFilter.java.svg" }
+
 ] 
 , 
 "data04" : [

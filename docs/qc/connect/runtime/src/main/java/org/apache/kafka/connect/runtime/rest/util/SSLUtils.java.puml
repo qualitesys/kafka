@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.util.SSLUtils
+class org.apache.kafka.connect.runtime.rest.util.SSLUtils {
++  createServerSideSslContextFactory(WorkerConfig;String)
++  createServerSideSslContextFactory(WorkerConfig)
++  createClientSideSslContextFactory(WorkerConfig)
++  configureSslContextFactoryKeyStore(SslContextFactory;Map<String,Object>)
++  getOrDefault(Map<String,Object>;String;Object)
++  configureSslContextFactoryTrustStore(SslContextFactory;Map<String,Object>)
++  configureSslContextFactoryAlgorithms(SslContextFactory;Map<String,Object>)
++  configureSslContextFactoryEndpointIdentification(SslContextFactory;Map<String,Object>)
++  configureSslContextFactoryAuthentication(SslContextFactory.Server;Map<String,Object>)
+} 
+@enduml

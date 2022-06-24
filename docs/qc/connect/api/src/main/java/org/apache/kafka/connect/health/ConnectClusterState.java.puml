@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.health.ConnectClusterState
+class org.apache.kafka.connect.health.ConnectClusterState {
++  connectors()
++  connectorHealth(String)
++  connectorConfig(String)
++  clusterDetails()
+} 
+@enduml

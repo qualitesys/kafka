@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.health.ConnectorHealth
+class org.apache.kafka.connect.health.ConnectorHealth {
++  ConnectorHealth(String;ConnectorState;Map<Integer,TaskState>;ConnectorType)
++  name()
++  connectorState()
++  tasksState()
++  type()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+WorkerState <|-- org.apache.kafka.trogdor.rest.WorkerStarting
+class org.apache.kafka.trogdor.rest.WorkerStarting {
++  WorkerStarting(String;TaskSpec)
++  status()
+} 
+@enduml

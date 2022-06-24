@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.token.delegation.TokenInformation
+class org.apache.kafka.common.security.token.delegation.TokenInformation {
++  TokenInformation(String;KafkaPrincipal;Collection<KafkaPrincipal>;long;long;long)
++  owner()
++  ownerAsString()
++  renewers()
++  renewersAsString()
++  issueTimestamp()
++  expiryTimestamp()
++  setExpiryTimestamp(long)
++  tokenId()
++  maxTimestamp()
++  ownerOrRenewer(KafkaPrincipal)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

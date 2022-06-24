@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.RequestFutureAdapter
+class org.apache.kafka.clients.consumer.internals.RequestFutureAdapter {
++  onSuccess(F;RequestFuture<T>)
++  onFailure(RuntimeException;RequestFuture<T>)
+} 
+@enduml

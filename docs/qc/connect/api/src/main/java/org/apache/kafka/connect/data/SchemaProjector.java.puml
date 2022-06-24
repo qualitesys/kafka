@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.data.SchemaProjector
+class org.apache.kafka.connect.data.SchemaProjector {
++  project(Schema;Object;Schema)
++  projectRequiredSchema(Schema;Object;Schema)
++  projectStruct(Schema;Struct;Schema)
++  checkMaybeCompatible(Schema;Schema)
++  projectArray(Schema;Object;Schema)
++  projectMap(Schema;Object;Schema)
++  projectPrimitive(Schema;Object;Schema)
++  isPromotable(Type;Type)
+} 
+@enduml

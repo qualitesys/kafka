@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.controller.ResultOrError"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.controller.ResultOrError" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ResultOrError"
+ , "c2" : "ResultOrError(Errors;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResultOrError"
+ , "c2" : "ResultOrError(ApiError)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResultOrError"
+ , "c2" : "ResultOrError(T)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isError()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isResult()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiError"
+ , "c2" : "error()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "result()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,28 +153,28 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.controller.ResultOrError.ResultOrError@POLYN160731 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.controller.ResultOrError.ResultOrError@POLYN162443 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.controller.ResultOrError.ResultOrError@POLYN160992 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.controller.ResultOrError.ResultOrError@POLYN162704 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.ResultOrError.isError@POLYN161587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.ResultOrError.isError@POLYN163299 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.ResultOrError.isResult@POLYN161697 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.ResultOrError.isResult@POLYN163409 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,49 +188,49 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.controller.ResultOrError.equals@POLYN161993 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.controller.ResultOrError.equals@POLYN163705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.ResultOrError.equals@POLYN161993 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.ResultOrError.equals@POLYN163705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.ResultOrError.toString@POLYN162745 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.ResultOrError.toString@POLYN164457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.ResultOrError.toString@POLYN162745 the MagicNumber/String  'ResultOrError(' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.ResultOrError.toString@POLYN164457 the MagicNumber/String  'ResultOrError(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.ResultOrError.toString@POLYN162745 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.ResultOrError.toString@POLYN164457 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.ResultOrError.toString@POLYN162745 the MagicNumber/String  'ResultOrError(' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.ResultOrError.toString@POLYN164457 the MagicNumber/String  'ResultOrError(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.ResultOrError.toString@POLYN162745 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.ResultOrError.toString@POLYN164457 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

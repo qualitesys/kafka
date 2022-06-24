@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.MessageSpec
+class org.apache.kafka.message.MessageSpec {
++  MessageSpec(String;String;List<FieldSpec>;Short;MessageSpecType;List<StructSpec>;String;List<RequestListenerType>)
++  struct()
++  name()
++  validVersions()
++  validVersionsString()
++  fields()
++  apiKey()
++  type()
++  commonStructs()
++  flexibleVersions()
++  flexibleVersionsString()
++  listeners()
++  dataClassName()
+} 
+@enduml

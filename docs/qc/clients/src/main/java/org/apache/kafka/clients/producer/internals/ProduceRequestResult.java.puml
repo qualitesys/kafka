@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.ProduceRequestResult
+class org.apache.kafka.clients.producer.internals.ProduceRequestResult {
++  ProduceRequestResult(TopicPartition)
++  set(long;long;Function<Integer,RuntimeException>)
++  done()
++  await()
++  await(long;TimeUnit)
++  baseOffset()
++  hasLogAppendTime()
++  logAppendTime()
++  error(int)
++  topicPartition()
++  completed()
+} 
+@enduml

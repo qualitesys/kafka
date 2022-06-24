@@ -2,18 +2,71 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java 22 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java 23 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractStickyAssignor"
+ , "c2" : "org.apache.kafka.clients.consumer.StickyAssignor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.StickyAssignor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "onAssignment(Assignment;ConsumerGroupMetadata)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "subscriptionUserData(Set<String>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "MemberData"
+ , "c2" : "memberData(Subscription)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "serializeTopicPartitionAssignment(MemberData)"
+ , "c3" : "3"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : {
+   "c1" : "MemberData"
+ , "c2" : "deserializeTopicPartitionAssignment(ByteBuffer)"
+ , "c3" : "3"
+ , "c4" : "12"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +118,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -100,14 +160,14 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN228194 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN229906 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN228194 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN229906 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN228560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN230272 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -157,6 +217,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00090] For method deserializeTopicPartitionAssignment arguments ByteBuffer  buffer"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00090] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.MemberData assignment_getStringN233218|boolean struct_hasFieldN233657"
 }} 
 ,
 { "ligne" : {

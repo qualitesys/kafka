@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.metadata.FinalizedControllerFeatures"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.FinalizedControllerFeatures" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FinalizedControllerFeatures"
+ , "c2" : "FinalizedControllerFeatures(Map<String,Short>;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<Short>"
+ , "c2" : "get(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "featureNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "epoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,35 +146,35 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.metadata.FinalizedControllerFeatures.equals@POLYN160258 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.metadata.FinalizedControllerFeatures.equals@POLYN161970 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN162381 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  'featureMap=' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN162381 the MagicNumber/String  'featureMap=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN162381 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN160669 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.FinalizedControllerFeatures.toString@POLYN162381 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

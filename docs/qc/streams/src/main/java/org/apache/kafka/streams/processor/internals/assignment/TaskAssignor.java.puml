@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.TaskAssignor
+class org.apache.kafka.streams.processor.internals.assignment.TaskAssignor {
++  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignorConfiguration.AssignmentConfigs)
+} 
+@enduml

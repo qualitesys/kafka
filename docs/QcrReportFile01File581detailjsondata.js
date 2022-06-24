@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "BaseRecords"
+ , "c2" : "org.apache.kafka.common.record.TransferableRecords"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.TransferableRecords" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "writeTo(TransferableChannel;long;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.svg" }
+
 ] 
 , 
 "data04" : [

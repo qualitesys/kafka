@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+StateStoreProvider <|-- org.apache.kafka.streams.state.internals.GlobalStateStoreProvider
+class org.apache.kafka.streams.state.internals.GlobalStateStoreProvider {
++  GlobalStateStoreProvider(Map<String,StateStore>)
+} 
+@enduml

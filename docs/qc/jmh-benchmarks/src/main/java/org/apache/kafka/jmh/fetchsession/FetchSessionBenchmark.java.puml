@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark
+class org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark {
++  setUp()
++  incrementalFetchSessionBuild()
+} 
+@enduml

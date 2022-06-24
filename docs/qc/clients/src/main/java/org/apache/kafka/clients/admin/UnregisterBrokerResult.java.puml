@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.UnregisterBrokerResult
+class org.apache.kafka.clients.admin.UnregisterBrokerResult {
++  UnregisterBrokerResult(KafkaFuture<Void>)
++  all()
+} 
+@enduml

@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<UpdateFeaturesOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "dryRun()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "validateOnly()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UpdateFeaturesOptions"
+ , "c2" : "dryRun(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UpdateFeaturesOptions"
+ , "c2" : "validateOnly(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

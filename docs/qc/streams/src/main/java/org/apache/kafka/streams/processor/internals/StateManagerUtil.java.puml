@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateManagerUtil
+class org.apache.kafka.streams.processor.internals.StateManagerUtil {
++  StateManagerUtil()
++  converterForStore(StateStore)
++  checkpointNeeded(boolean;Map<TopicPartition,Long>;Map<TopicPartition,Long>)
++  registerStateStores(Logger;String;ProcessorTopology;ProcessorStateManager;StateDirectory;InternalProcessorContext)
++  closeStateManager(Logger;String;boolean;boolean;ProcessorStateManager;StateDirectory;TaskType)
++  parseTaskDirectoryName(String;String)
++  toTaskDirString(TaskId)
+} 
+@enduml

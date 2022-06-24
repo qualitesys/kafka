@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+LoginModule <|-- org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule
+class org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule {
++  initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>)
++  login()
++  identifyToken()
++  identifyExtensions()
++  logout()
++  commit()
++  abort()
++  committedTokenCount()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.CollectionUtils
+class org.apache.kafka.common.utils.CollectionUtils {
++  CollectionUtils()
++  groupPartitionsByTopic(Collection<TopicPartition>)
+} 
+@enduml

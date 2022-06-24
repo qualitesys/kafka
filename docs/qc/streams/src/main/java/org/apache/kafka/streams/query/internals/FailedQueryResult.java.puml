@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractQueryResult<R>QueryResult<R> <|-- org.apache.kafka.streams.query.internals.FailedQueryResult
+class org.apache.kafka.streams.query.internals.FailedQueryResult {
++  FailedQueryResult(FailureReason;String)
++  isSuccess()
++  isFailure()
++  getFailureReason()
++  getFailureMessage()
++  getResult()
++  toString()
+} 
+@enduml

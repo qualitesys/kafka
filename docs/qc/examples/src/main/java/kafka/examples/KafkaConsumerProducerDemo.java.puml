@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- kafka.examples.KafkaConsumerProducerDemo
+class kafka.examples.KafkaConsumerProducerDemo {
++  main(String[])
+} 
+@enduml

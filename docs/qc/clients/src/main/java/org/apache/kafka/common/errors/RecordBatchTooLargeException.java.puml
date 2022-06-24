@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.RecordBatchTooLargeException
+class org.apache.kafka.common.errors.RecordBatchTooLargeException {
++  RecordBatchTooLargeException()
++  RecordBatchTooLargeException(String;Throwable)
++  RecordBatchTooLargeException(String)
++  RecordBatchTooLargeException(Throwable)
+} 
+@enduml

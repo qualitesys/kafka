@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+TimeoutException <|-- org.apache.kafka.clients.producer.BufferExhaustedException
+class org.apache.kafka.clients.producer.BufferExhaustedException {
++  BufferExhaustedException(String)
+} 
+@enduml

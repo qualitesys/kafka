@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.AppInfoParser
+class org.apache.kafka.common.utils.AppInfoParser {
++  getVersion()
++  getCommitId()
++  registerAppInfo(String;String;Metrics;long)
++  unregisterAppInfo(String;String;Metrics)
++  metricName(Metrics;String)
++  registerMetrics(Metrics;AppInfo)
++  unregisterMetrics(Metrics)
+} 
+@enduml

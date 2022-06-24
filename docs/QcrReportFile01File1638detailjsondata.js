@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "GlobalKTable<K,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.GlobalKTableImpl"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.GlobalKTableImpl" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GlobalKTableImpl"
+ , "c2" : "GlobalKTableImpl(KTableValueGetterSupplier<K,V>;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTableValueGetterSupplier<K,V>"
+ , "c2" : "valueGetterSupplier()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "queryableStoreName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.svg" }
+
 ] 
 , 
 "data04" : [

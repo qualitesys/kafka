@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+Runnable <|-- org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask
+class org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask {
++  ConsumerTask(KafkaConsumer<byte[],byte[]>;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Path;Time;long)
++  initializeConsumerAssignment(Path)
++  run()
++  processConsumerRecord(ConsumerRecord<byte[],byte[]>)
++  maybeSyncCommittedDataAndOffsets(boolean)
++  closeConsumer()
++  maybeWaitForPartitionsAssignment()
++  executeReassignment(Set<Integer>)
++  addAssignmentsForPartitions(Set<TopicIdPartition>)
++  removeAssignmentsForPartitions(Set<TopicIdPartition>)
++  updateAssignmentsForPartitions(Set<TopicIdPartition>;Set<TopicIdPartition>)
++  receivedOffsetForPartition(int)
++  isPartitionAssigned(int)
++  close()
+} 
+@enduml

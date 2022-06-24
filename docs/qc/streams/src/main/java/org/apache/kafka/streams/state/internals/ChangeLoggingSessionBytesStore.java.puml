@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<SessionStore<Bytes,byte[]>,byte[],byte[]>SessionStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore
+class org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore {
++  ChangeLoggingSessionBytesStore(SessionStore<Bytes,byte[]>)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  findSessions(Bytes;long;long)
++  backwardFindSessions(Bytes;long;long)
++  findSessions(Bytes;Bytes;long;long)
++  backwardFindSessions(Bytes;Bytes;long;long)
++  remove(Windowed<Bytes>)
++  put(Windowed<Bytes>;byte[])
++  fetchSession(Bytes;long;long)
++  backwardFetch(Bytes)
++  fetch(Bytes)
++  backwardFetch(Bytes;Bytes)
++  fetch(Bytes;Bytes)
+} 
+@enduml

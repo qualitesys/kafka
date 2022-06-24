@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.RenewDelegationTokenResult
+class org.apache.kafka.clients.admin.RenewDelegationTokenResult {
++  RenewDelegationTokenResult(KafkaFuture<Long>)
++  expiryTimestamp()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeClusterOptions> <|-- org.apache.kafka.clients.admin.DescribeClusterOptions
+class org.apache.kafka.clients.admin.DescribeClusterOptions {
++  timeoutMs(Integer)
++  includeAuthorizedOperations(boolean)
++  includeAuthorizedOperations()
+} 
+@enduml

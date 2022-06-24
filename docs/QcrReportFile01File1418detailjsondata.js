@@ -8,12 +8,107 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "EpochState"
+ , "c2" : "org.apache.kafka.raft.ResignedState"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.ResignedState" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ResignedState"
+ , "c2" : "ResignedState(Time;int;int;Set<Integer>;long;List<Integer>;LogContext)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ElectionState"
+ , "c2" : "election()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "epoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<Integer>"
+ , "c2" : "unackedVoters()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "acknowledgeResignation(int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasElectionTimeoutExpired(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "remainingElectionTimeMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<Integer>"
+ , "c2" : "preferredSuccessors()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "canGrantVote(int;boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,14 +209,14 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.raft.ResignedState.acknowledgeResignation@POLYN174048 the MagicNumber/String  'Attempt to acknowledge delivery of `EndQuorumEpoch` ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.raft.ResignedState.acknowledgeResignation@POLYN175760 the MagicNumber/String  'Attempt to acknowledge delivery of `EndQuorumEpoch` ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.raft.ResignedState.acknowledgeResignation@POLYN174048 the MagicNumber/String  'by a non-voter ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.raft.ResignedState.acknowledgeResignation@POLYN175760 the MagicNumber/String  'by a non-voter ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,77 +244,77 @@ var maDataBlocs = {
    "c1" : "00086"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ResignedState.canGrantVote@POLYN175169 the MagicNumber/String  'Rejecting vote request from candidate {} since we have resigned as candidate/leader in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ResignedState.canGrantVote@POLYN176881 the MagicNumber/String  'Rejecting vote request from candidate {} since we have resigned as candidate/leader in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.ResignedState.canGrantVote@POLYN175169 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.ResignedState.canGrantVote@POLYN176881 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.ResignedState.name@POLYN175435 the MagicNumber/String  'Resigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.ResignedState.name@POLYN177147 the MagicNumber/String  'Resigned' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  'ResignedState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  'ResignedState(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  'localId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  'localId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', voters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  ', voters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', unackedVoters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  ', unackedVoters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ', preferredSuccessors=' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  ', preferredSuccessors=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.ResignedState.toString@POLYN175537 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.ResignedState.toString@POLYN177249 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {

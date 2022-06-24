@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Predicate<R> <|-- org.apache.kafka.connect.transforms.predicates.HasHeaderKey
+class org.apache.kafka.connect.transforms.predicates.HasHeaderKey {
++  config()
++  test(R)
++  close()
++  configure(Map<String,?>)
++  toString()
+} 
+@enduml

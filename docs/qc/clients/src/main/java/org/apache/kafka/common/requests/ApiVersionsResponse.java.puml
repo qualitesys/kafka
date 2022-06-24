@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.ApiVersionsResponse
+class org.apache.kafka.common.requests.ApiVersionsResponse {
++  ApiVersionsResponse(ApiVersionsResponseData)
++  data()
++  apiVersion(short)
++  errorCounts()
++  throttleTimeMs()
++  shouldClientThrottle(short)
++  parse(ByteBuffer;short)
++  defaultApiVersionsResponse(ApiMessageType.ListenerType)
++  defaultApiVersionsResponse(int;ApiMessageType.ListenerType)
++  createApiVersionsResponse(int;ApiVersionCollection)
++  createApiVersionsResponse(int;RecordVersion;Features<SupportedVersionRange>;Map<String,Short>;long;NodeApiVersions;ListenerType)
++  createApiVersionsResponse(int;ApiVersionCollection;Features<SupportedVersionRange>;Map<String,Short>;long)
++  filterApis(RecordVersion;ApiMessageType.ListenerType)
++  collectApis(Set<ApiKeys>)
++  intersectForwardableApis(ApiMessageType.ListenerType;RecordVersion;Map<ApiKeys,ApiVersion>)
++  createApiVersionsResponseData(int;Errors;ApiVersionCollection;Features<SupportedVersionRange>;Map<String,Short>;long)
++  createSupportedFeatureKeys(Features<SupportedVersionRange>)
++  createFinalizedFeatureKeys(Map<String,Short>)
++  intersect(ApiVersion;ApiVersion)
++  toApiVersion(ApiKeys)
+} 
+@enduml

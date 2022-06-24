@@ -2,18 +2,36 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java 6 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java 7 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ReplicaSelector"
+ , "c2" : "org.apache.kafka.common.replica.RackAwareReplicaSelector"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.replica.RackAwareReplicaSelector" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Optional<ReplicaView>"
+ , "c2" : "select(TopicPartition;ClientMetadata;PartitionView)"
+ , "c3" : "7"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,6 +90,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -87,6 +112,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00014] For method select arguments TopicPartition  topicPartition|ClientMetadata  clientMetadata|PartitionView  partitionView"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00014] For method select list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.replica.ReplicaView&gt; partitionView_replicasN160629"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.replica.RackAwareReplicaSelector.select@POLYN158585 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.replica.RackAwareReplicaSelector.select@POLYN160297 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+MetricValueProvider<T> <|-- org.apache.kafka.common.metrics.Gauge
+class org.apache.kafka.common.metrics.Gauge {
++  value(MetricConfig;long)
+} 
+@enduml

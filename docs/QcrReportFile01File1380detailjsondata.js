@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.timeline.Snapshot"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.timeline.Snapshot" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Snapshot"
+ , "c2" : "Snapshot(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "epoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setDelta(Revertable;Delta)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleRevert()"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "mergeFrom(Snapshot)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Snapshot"
+ , "c2" : "prev()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Snapshot"
+ , "c2" : "next()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "appendNext(Snapshot)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "erase()"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.timeline.Snapshot.mergeFrom@POLYN162709 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.timeline.Snapshot.mergeFrom@POLYN164421 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.timeline.Snapshot.erase@POLYN163772 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.timeline.Snapshot.erase@POLYN165484 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

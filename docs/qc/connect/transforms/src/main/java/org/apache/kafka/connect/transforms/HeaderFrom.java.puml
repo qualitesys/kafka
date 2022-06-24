@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.HeaderFrom
+class org.apache.kafka.connect.transforms.HeaderFrom {
++  apply(R)
++  applyWithSchema(R;Object;Schema)
++  moveSchema(Schema)
++  applySchemaless(R;Object)
++  operatingValue(R)
++  operatingSchema(R)
++  newRecord(R;Schema;Object;Iterable<Header>)
++  config()
++  close()
++  configure(Map<String,?>)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AuthenticationException <|-- org.apache.kafka.common.errors.SslAuthenticationException
+class org.apache.kafka.common.errors.SslAuthenticationException {
++  SslAuthenticationException(String)
++  SslAuthenticationException(String;Throwable)
+} 
+@enduml

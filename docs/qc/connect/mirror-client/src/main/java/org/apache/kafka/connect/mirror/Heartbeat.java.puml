@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.Heartbeat
+class org.apache.kafka.connect.mirror.Heartbeat {
++  Heartbeat(String;String;long)
++  sourceClusterAlias()
++  targetClusterAlias()
++  timestamp()
++  toString()
++  serializeValue(short)
++  serializeKey()
++  deserializeRecord(ConsumerRecord<byte[],byte[]>)
++  headerStruct(short)
++  valueStruct(Schema)
++  keyStruct()
++  connectPartition()
++  recordKey()
++  recordValue()
++  valueSchema(short)
+} 
+@enduml

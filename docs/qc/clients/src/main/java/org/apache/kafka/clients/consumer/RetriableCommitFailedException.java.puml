@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.clients.consumer.RetriableCommitFailedException
+class org.apache.kafka.clients.consumer.RetriableCommitFailedException {
++  RetriableCommitFailedException(Throwable)
++  RetriableCommitFailedException(String)
++  RetriableCommitFailedException(String;Throwable)
+} 
+@enduml

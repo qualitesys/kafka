@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo
+class org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo {
++  ConnectorStateInfo(String;ConnectorState;List<TaskState>;ConnectorType)
++  name()
++  connector()
++  tasks()
++  type()
+} 
+@enduml

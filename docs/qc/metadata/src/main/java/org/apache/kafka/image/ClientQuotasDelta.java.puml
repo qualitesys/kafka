@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ClientQuotasDelta
+class org.apache.kafka.image.ClientQuotasDelta {
++  ClientQuotasDelta(ClientQuotasImage)
++  changes()
++  finishSnapshot()
++  handleMetadataVersionChange(MetadataVersion)
++  replay(ClientQuotaRecord)
++  apply()
++  toString()
+} 
+@enduml

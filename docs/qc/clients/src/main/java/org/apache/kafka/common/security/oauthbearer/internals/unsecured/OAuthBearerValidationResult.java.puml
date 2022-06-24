@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Serializable <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult
+class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult {
++  newSuccess()
++  newFailure(String)
++  newFailure(String;String;String)
++  OAuthBearerValidationResult(boolean;String;String;String)
++  success()
++  failureDescription()
++  failureScope()
++  failureOpenIdConfig()
++  throwExceptionIfFailed()
+} 
+@enduml

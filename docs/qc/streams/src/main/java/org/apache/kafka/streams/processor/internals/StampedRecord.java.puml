@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+Stamped<ConsumerRecord<?,?>> <|-- org.apache.kafka.streams.processor.internals.StampedRecord
+class org.apache.kafka.streams.processor.internals.StampedRecord {
++  StampedRecord(ConsumerRecord<?,?>;long)
++  topic()
++  partition()
++  key()
++  value()
++  offset()
++  headers()
++  toString()
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.SchemaGenerator
+class org.apache.kafka.message.SchemaGenerator {
++  SchemaGenerator(HeaderGenerator;StructRegistry)
++  generateSchemas(MessageSpec)
++  generateSchemas(String;StructSpec;Versions)
++  generateSchemaForVersion(StructSpec;short;CodeBuffer)
++  generateTaggedFieldsSchemaForVersion(StructSpec;short;CodeBuffer)
++  fieldTypeToSchemaType(FieldSpec;short;Versions)
++  fieldTypeToSchemaType(FieldType;boolean;short;Versions;boolean)
++  floorVersion(String;short)
++  writeSchema(String;CodeBuffer)
+} 
+@enduml

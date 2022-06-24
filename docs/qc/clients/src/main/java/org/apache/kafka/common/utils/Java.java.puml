@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Java
+class org.apache.kafka.common.utils.Java {
++  Java()
++  parseVersion(String)
++  isIbmJdk()
+} 
+@enduml

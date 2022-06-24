@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler
+class org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler {
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  handle(Callback[])
++  authenticate(String;char[])
++  close()
+} 
+@enduml

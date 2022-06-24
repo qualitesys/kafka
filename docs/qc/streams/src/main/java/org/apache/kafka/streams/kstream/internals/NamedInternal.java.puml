@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Named <|-- org.apache.kafka.streams.kstream.internals.NamedInternal
+class org.apache.kafka.streams.kstream.internals.NamedInternal {
++  empty()
++  with(String)
++  NamedInternal(Named)
++  NamedInternal(String)
++  name()
++  withName(String)
++  suffixWithOrElseGet(String;String)
++  suffixWithOrElseGet(String;InternalNameProvider;String)
++  orElseGenerateWithPrefix(InternalNameProvider;String)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt
+class org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt {
++  SerializedJwt(String)
++  getToken()
++  getHeader()
++  getPayload()
++  getSignature()
++  validateSection(String;String)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractConfig <|-- org.apache.kafka.connect.runtime.TaskConfig
+class org.apache.kafka.connect.runtime.TaskConfig {
++  TaskConfig()
++  TaskConfig(Map<String,?>)
+} 
+@enduml

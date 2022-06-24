@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.LeaveGroupRequest
+class org.apache.kafka.common.requests.LeaveGroupRequest {
++  LeaveGroupRequest(LeaveGroupRequestData;short)
++  data()
++  members()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

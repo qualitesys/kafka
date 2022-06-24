@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.internals.ApiRequestScope"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.ApiRequestScope" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OptionalInt"
+ , "c2" : "destinationBrokerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ApiRequestScope.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ApiRequestScope.java.svg" }
+
 ] 
 , 
 "data04" : [

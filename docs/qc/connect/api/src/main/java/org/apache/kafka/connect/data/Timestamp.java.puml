@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.data.Timestamp
+class org.apache.kafka.connect.data.Timestamp {
++  builder()
++  fromLogical(Schema;java.util.Date)
++  toLogical(Schema;long)
+} 
+@enduml

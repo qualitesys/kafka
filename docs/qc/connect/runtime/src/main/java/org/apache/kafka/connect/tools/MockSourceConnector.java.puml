@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+SourceConnector <|-- org.apache.kafka.connect.tools.MockSourceConnector
+class org.apache.kafka.connect.tools.MockSourceConnector {
++  initialize(ConnectorContext)
++  initialize(ConnectorContext;List<Map<String,String>>)
++  reconfigure(Map<String,String>)
++  validate(Map<String,String>)
++  version()
++  start(Map<String,String>)
++  taskClass()
++  taskConfigs(int)
++  stop()
++  config()
+} 
+@enduml

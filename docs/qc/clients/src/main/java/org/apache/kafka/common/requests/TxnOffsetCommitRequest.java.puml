@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.TxnOffsetCommitRequest
+class org.apache.kafka.common.requests.TxnOffsetCommitRequest {
++  TxnOffsetCommitRequest(TxnOffsetCommitRequestData;short)
++  offsets()
++  getTopics(Map<TopicPartition,CommittedOffset>)
++  data()
++  getErrorResponseTopics(List<TxnOffsetCommitRequestTopic>;Errors)
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

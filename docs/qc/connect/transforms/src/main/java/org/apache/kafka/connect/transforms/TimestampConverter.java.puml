@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.TimestampConverter
+class org.apache.kafka.connect.transforms.TimestampConverter {
++  configure(Map<String,?>)
++  apply(R)
++  config()
++  close()
++  operatingSchema(R)
++  operatingValue(R)
++  newRecord(R;Schema;Object)
++  applyWithSchema(R)
++  applyValueWithSchema(Struct;Schema)
++  applySchemaless(R)
++  timestampTypeFromSchema(Schema)
++  inferTimestampType(Object)
++  convertTimestamp(Object;String)
++  convertTimestamp(Object)
+} 
+@enduml

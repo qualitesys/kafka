@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListConsumerGroupsResult"
+ , "c2" : "ListConsumerGroupsResult(KafkaFuture<Collection<Object>>)"
+ , "c3" : "6"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Collection<ConsumerGroupListing>>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Collection<ConsumerGroupListing>>"
+ , "c2" : "valid()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Collection<Throwable>>"
+ , "c2" : "errors()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.ListConsumerGroupsResult.ListConsumerGroupsResult@POLYN167742 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.ListConsumerGroupsResult.ListConsumerGroupsResult@POLYN169454 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ListConsumerGroupsResult.ListConsumerGroupsResult@POLYN167742 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ListConsumerGroupsResult.ListConsumerGroupsResult@POLYN169454 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

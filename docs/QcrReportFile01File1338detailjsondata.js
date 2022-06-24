@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.image.LocalReplicaChanges"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.image.LocalReplicaChanges" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "LocalReplicaChanges"
+ , "c2" : "LocalReplicaChanges(Set<TopicPartition>;Map<TopicPartition,PartitionInfo>;Map<TopicPartition,PartitionInfo>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicPartition>"
+ , "c2" : "deletes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,PartitionInfo>"
+ , "c2" : "leaders()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,PartitionInfo>"
+ , "c2" : "followers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.image.LocalReplicaChanges.toString@POLYN159933 the MagicNumber/String  'LocalReplicaChanges(deletes = %s, leaders = %s, followers = %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.image.LocalReplicaChanges.toString@POLYN161645 the MagicNumber/String  'LocalReplicaChanges(deletes = %s, leaders = %s, followers = %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -79,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.image.LocalReplicaChanges.PartitionInfo.toString@POLYN160485 the MagicNumber/String  'PartitionInfo(topicId = %s, partition = %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.image.LocalReplicaChanges.PartitionInfo.toString@POLYN162197 the MagicNumber/String  'PartitionInfo(topicId = %s, partition = %s)' should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Deserializer<Outer> <|-- org.apache.kafka.streams.kstream.internals.WrappingNullableDeserializer
+class org.apache.kafka.streams.kstream.internals.WrappingNullableDeserializer {
++  setIfUnset(SerdeGetter)
+} 
+@enduml

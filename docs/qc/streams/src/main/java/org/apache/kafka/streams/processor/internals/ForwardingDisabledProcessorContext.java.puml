@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+ProcessorContext <|-- org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext
+class org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext {
++  ForwardingDisabledProcessorContext(ProcessorContext)
++  applicationId()
++  taskId()
++  keySerde()
++  valueSerde()
++  stateDir()
++  metrics()
++  register(StateStore;StateRestoreCallback)
++  schedule(Duration;PunctuationType;Punctuator)
++  commit()
++  topic()
++  partition()
++  offset()
++  headers()
++  timestamp()
++  appConfigs()
++  appConfigsWithPrefix(String)
++  currentSystemTimeMs()
++  currentStreamTimeMs()
+} 
+@enduml

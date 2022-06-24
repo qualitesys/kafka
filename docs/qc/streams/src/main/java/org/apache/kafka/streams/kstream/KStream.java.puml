@@ -1,0 +1,37 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.KStream
+class org.apache.kafka.streams.kstream.KStream {
++  filter(Predicate<?superK,?superV>)
++  filter(Predicate<?superK,?superV>;Named)
++  filterNot(Predicate<?superK,?superV>)
++  filterNot(Predicate<?superK,?superV>;Named)
++  print(Printed<K,V>)
++  foreach(ForeachAction<?superK,?superV>)
++  foreach(ForeachAction<?superK,?superV>;Named)
++  peek(ForeachAction<?superK,?superV>)
++  peek(ForeachAction<?superK,?superV>;Named)
++  branch(Predicate<?superK,?superV>...)
++  branch(Named;Predicate<?superK,?superV>...)
++  split()
++  split(Named)
++  merge(KStream<K,V>)
++  merge(KStream<K,V>;Named)
++  through(String)
++  through(String;Produced<K,V>)
++  repartition()
++  repartition(Repartitioned<K,V>)
++  to(String)
++  to(String;Produced<K,V>)
++  to(TopicNameExtractor<K,V>)
++  to(TopicNameExtractor<K,V>;Produced<K,V>)
++  toTable()
++  toTable(Named)
++  toTable(Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  toTable(Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  groupByKey()
++  groupByKey(Grouped<K,V>)
++  process(org.apache.kafka.streams.processor.ProcessorSupplier<?superK,?superV>;String...)
++  process(org.apache.kafka.streams.processor.ProcessorSupplier<?superK,?superV>;Named;String...)
+} 
+@enduml

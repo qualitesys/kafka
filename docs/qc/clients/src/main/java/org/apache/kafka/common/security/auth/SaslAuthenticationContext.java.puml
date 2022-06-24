@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AuthenticationContext <|-- org.apache.kafka.common.security.auth.SaslAuthenticationContext
+class org.apache.kafka.common.security.auth.SaslAuthenticationContext {
++  SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String)
++  SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional<SSLSession>)
++  server()
++  sslSession()
++  securityProtocol()
++  clientAddress()
++  listenerName()
+} 
+@enduml

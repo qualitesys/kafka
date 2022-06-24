@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskAssignor"
+ , "c2" : "org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FallbackPriorTaskAssignor"
+ , "c2" : "FallbackPriorTaskAssignor()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.FallbackPriorTaskAssignor@POLYN157345 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.FallbackPriorTaskAssignor@POLYN159057 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -86,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.assign@POLYN157502 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.assign@POLYN159214 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

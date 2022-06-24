@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.AbstractControlRequest
+class org.apache.kafka.common.requests.AbstractControlRequest {
++  AbstractControlRequest(ApiKeys;short)
++  controllerId()
++  controllerEpoch()
++  brokerEpoch()
+} 
+@enduml

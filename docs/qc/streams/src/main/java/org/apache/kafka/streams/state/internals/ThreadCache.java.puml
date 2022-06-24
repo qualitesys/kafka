@@ -1,0 +1,34 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.ThreadCache
+class org.apache.kafka.streams.state.internals.ThreadCache {
++  ThreadCache(LogContext;long;StreamsMetricsImpl)
++  puts()
++  gets()
++  evicts()
++  flushes()
++  resize(long)
++  nameSpaceFromTaskIdAndStore(String;String)
++  taskIDfromCacheName(String)
++  underlyingStoreNamefromCacheName(String)
++  addDirtyEntryFlushListener(String;DirtyEntryFlushListener)
++  flush(String)
++  get(String;Bytes)
++  put(String;Bytes;LRUCacheEntry)
++  putIfAbsent(String;Bytes;LRUCacheEntry)
++  putAll(String;List<KeyValue<Bytes,LRUCacheEntry>>)
++  delete(String;Bytes)
++  range(String;Bytes;Bytes)
++  range(String;Bytes;Bytes;boolean)
++  reverseRange(String;Bytes;Bytes)
++  all(String)
++  reverseAll(String)
++  size()
++  isOverflowing(long)
++  sizeBytes()
++  close(String)
++  maybeEvict(String)
++  getCache(String)
++  getOrCreateCache(String)
+} 
+@enduml

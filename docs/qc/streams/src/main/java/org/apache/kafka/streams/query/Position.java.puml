@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.query.Position
+class org.apache.kafka.streams.query.Position {
++  Position(ConcurrentHashMap<String,ConcurrentHashMap<Integer,Long>>)
++  emptyPosition()
++  fromMap(Map<String,?extendsMap<Integer,Long>>)
++  withComponent(String;int;long)
++  copy()
++  merge(Position)
++  getTopics()
++  getPartitionPositions(String)
++  deepCopy(Map<String,?extendsMap<Integer,Long>>)
++  toString()
++  equals(Object)
++  hashCode()
++  isEmpty()
+} 
+@enduml

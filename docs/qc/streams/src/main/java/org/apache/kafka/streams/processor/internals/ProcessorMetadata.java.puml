@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorMetadata
+class org.apache.kafka.streams.processor.internals.ProcessorMetadata {
++  ProcessorMetadata()
++  ProcessorMetadata(Map<String,Long>)
++  deserialize(byte[])
++  serialize()
++  put(String;long)
++  get(String)
++  update(ProcessorMetadata)
++  setNeedsCommit(boolean)
++  needsCommit()
++  hashCode()
++  equals(Object)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeAclsResult
+class org.apache.kafka.clients.admin.DescribeAclsResult {
++  DescribeAclsResult(KafkaFuture<Collection<AclBinding>>)
++  values()
+} 
+@enduml

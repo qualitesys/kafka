@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.tools.TransactionsCommand
+class org.apache.kafka.tools.TransactionsCommand {
++  TransactionsCommand(Time)
++  name()
++  addSubparser(Subparsers)
++  execute(Admin;Namespace;PrintStream)
++  appendColumnValue(StringBuilder;String;int)
++  printRow(List<Integer>;String[];PrintStream)
++  prettyPrintTable(String[];List<String[]>;PrintStream)
++  printErrorAndExit(String;Throwable)
++  printErrorAndExit(String)
++  buildAdminClient(Namespace)
++  buildBaseParser()
++  execute(String[];Function<Namespace,Admin>;PrintStream;Time)
++  main(String[])
+} 
+@enduml

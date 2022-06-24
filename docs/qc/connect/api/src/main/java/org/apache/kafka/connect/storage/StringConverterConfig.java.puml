@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConverterConfig <|-- org.apache.kafka.connect.storage.StringConverterConfig
+class org.apache.kafka.connect.storage.StringConverterConfig {
++  configDef()
++  StringConverterConfig(Map<String,?>)
++  encoding()
+} 
+@enduml

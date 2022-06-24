@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.SecurityDisabledException
+class org.apache.kafka.common.errors.SecurityDisabledException {
++  SecurityDisabledException(String)
++  SecurityDisabledException(String;Throwable)
+} 
+@enduml

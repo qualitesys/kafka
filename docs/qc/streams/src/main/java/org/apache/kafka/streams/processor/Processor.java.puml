@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.Processor
+class org.apache.kafka.streams.processor.Processor {
++  init(ProcessorContext)
++  process(K;V)
++  close()
+} 
+@enduml

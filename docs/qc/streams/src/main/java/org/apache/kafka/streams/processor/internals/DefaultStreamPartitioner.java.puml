@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+StreamPartitioner<K,V> <|-- org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner
+class org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner {
++  DefaultStreamPartitioner(Serializer<K>;Cluster)
++  partition(String;K;V;int)
+} 
+@enduml

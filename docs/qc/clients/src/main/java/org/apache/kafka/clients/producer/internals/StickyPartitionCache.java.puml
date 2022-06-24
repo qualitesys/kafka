@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.StickyPartitionCache
+class org.apache.kafka.clients.producer.internals.StickyPartitionCache {
++  StickyPartitionCache()
++  partition(String;Cluster)
++  nextPartition(String;Cluster;int)
+} 
+@enduml

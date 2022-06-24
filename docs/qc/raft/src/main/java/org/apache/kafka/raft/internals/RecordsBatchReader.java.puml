@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+BatchReader<T> <|-- org.apache.kafka.raft.internals.RecordsBatchReader
+class org.apache.kafka.raft.internals.RecordsBatchReader {
++  RecordsBatchReader(long;RecordsIterator<T>;CloseListener<BatchReader<T>>)
++  hasNext()
++  next()
++  baseOffset()
++  lastOffset()
++  close()
++  ensureOpen()
++  nextBatch()
+} 
+@enduml

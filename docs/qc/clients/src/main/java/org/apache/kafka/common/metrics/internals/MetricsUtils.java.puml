@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.metrics.internals.MetricsUtils
+class org.apache.kafka.common.metrics.internals.MetricsUtils {
++  convert(long;TimeUnit)
++  getTags(String...)
+} 
+@enduml

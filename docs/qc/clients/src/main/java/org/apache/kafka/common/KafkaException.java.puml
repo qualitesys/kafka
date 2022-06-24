@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RuntimeException <|-- org.apache.kafka.common.KafkaException
+class org.apache.kafka.common.KafkaException {
++  KafkaException(String;Throwable)
++  KafkaException(String)
++  KafkaException(Throwable)
++  KafkaException()
+} 
+@enduml

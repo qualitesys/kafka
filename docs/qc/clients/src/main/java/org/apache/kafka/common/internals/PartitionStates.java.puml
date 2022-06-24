@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.internals.PartitionStates
+class org.apache.kafka.common.internals.PartitionStates {
++  PartitionStates()
++  moveToEnd(TopicPartition)
++  updateAndMoveToEnd(TopicPartition;S)
++  update(TopicPartition;S)
++  remove(TopicPartition)
++  partitionSet()
++  clear()
++  contains(TopicPartition)
++  stateIterator()
++  forEach(BiConsumer<TopicPartition,S>)
++  partitionStateMap()
++  partitionStateValues()
++  stateValue(TopicPartition)
++  size()
++  set(Map<TopicPartition,S>)
++  updateSize()
++  update(Map<TopicPartition,S>)
+} 
+@enduml

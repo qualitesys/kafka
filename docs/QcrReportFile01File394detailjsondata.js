@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.PolicyViolationException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.PolicyViolationException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "PolicyViolationException"
+ , "c2" : "PolicyViolationException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PolicyViolationException"
+ , "c2" : "PolicyViolationException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/PolicyViolationException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/PolicyViolationException.java.svg" }
+
 ] 
 , 
 "data04" : [

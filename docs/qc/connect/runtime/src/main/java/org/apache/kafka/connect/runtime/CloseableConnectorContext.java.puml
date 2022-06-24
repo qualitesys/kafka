@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ConnectorContext <|-- org.apache.kafka.connect.runtime.CloseableConnectorContext
+class org.apache.kafka.connect.runtime.CloseableConnectorContext {
++  close()
+} 
+@enduml

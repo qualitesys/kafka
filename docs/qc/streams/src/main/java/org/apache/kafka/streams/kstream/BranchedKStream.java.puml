@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.BranchedKStream
+class org.apache.kafka.streams.kstream.BranchedKStream {
++  branch(Predicate<?superK,?superV>)
++  branch(Predicate<?superK,?superV>;Branched<K,V>)
++  defaultBranch()
++  defaultBranch(Branched<K,V>)
++  noDefaultBranch()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.UnsupportedCompressionTypeException
+class org.apache.kafka.common.errors.UnsupportedCompressionTypeException {
++  UnsupportedCompressionTypeException(String)
++  UnsupportedCompressionTypeException(String;Throwable)
+} 
+@enduml

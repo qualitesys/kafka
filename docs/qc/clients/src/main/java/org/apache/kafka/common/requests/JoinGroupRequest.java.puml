@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.JoinGroupRequest
+class org.apache.kafka.common.requests.JoinGroupRequest {
++  validateGroupInstanceId(String)
++  JoinGroupRequest(JoinGroupRequestData;short)
++  maybeOverrideRebalanceTimeout(short)
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

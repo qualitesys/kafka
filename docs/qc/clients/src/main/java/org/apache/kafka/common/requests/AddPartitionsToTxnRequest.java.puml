@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.AddPartitionsToTxnRequest
+class org.apache.kafka.common.requests.AddPartitionsToTxnRequest {
++  AddPartitionsToTxnRequest(AddPartitionsToTxnRequestData;short)
++  partitions()
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

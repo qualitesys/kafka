@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.WorkerMetricsGroup
+class org.apache.kafka.connect.runtime.WorkerMetricsGroup {
++  WorkerMetricsGroup(Map<String,WorkerConnector>;Map<ConnectorTaskId,WorkerTask>;ConnectMetrics)
++  close()
++  recordConnectorStartupFailure()
++  recordConnectorStartupSuccess()
++  recordTaskFailure()
++  recordTaskSuccess()
++  metricGroup()
++  wrapStatusListener(ConnectorStatus.Listener)
++  wrapStatusListener(TaskStatus.Listener)
+} 
+@enduml

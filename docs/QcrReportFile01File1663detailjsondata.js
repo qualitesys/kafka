@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "FixedKeyProcessorSupplier<KIn,VIn,VOut>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamMapValues"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamMapValues" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamMapValues"
+ , "c2" : "KStreamMapValues(ValueMapperWithKey<KIn,VIn,VOut>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.CogroupedStreamAggregateBuilder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.CogroupedStreamAggregateBuilder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CogroupedStreamAggregateBuilder"
+ , "c2" : "CogroupedStreamAggregateBuilder(InternalStreamsBuilder)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "processRepartitions(Map<KGroupedStreamImpl<K,?>,Aggregator<?superK,?superObject,VOut>>;StoreBuilder<?>)"
+ , "c3" : "5"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StatefulProcessorNode<K,?>"
+ , "c2" : "getStatefulProcessorNode(String;boolean;StoreBuilder<?>;ProcessorSupplier<K,?,K,?>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -471,7 +503,7 @@ var maDataBlocs = {
    "c1" : "00192"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.kstream.internals.CogroupedStreamAggregateBuilder.processRepartitions@POLYN217352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.kstream.internals.CogroupedStreamAggregateBuilder.processRepartitions@POLYN219064 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

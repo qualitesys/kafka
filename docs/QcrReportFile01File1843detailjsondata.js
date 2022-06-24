@@ -2,18 +2,50 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java 12 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java 13 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.PunctuationQueue"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.PunctuationQueue" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Cancellable"
+ , "c2" : "schedule(PunctuationSchedule)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "mayPunctuate(long;PunctuationType;ProcessorNodePunctuator)"
+ , "c3" : "4"
+ , "c4" : "9"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -74,6 +106,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -127,6 +166,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#28"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00028] For method mayPunctuate list of called methods Object monObjet|org.apache.kafka.streams.processor.Cancellable pq_peekN162176"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#28"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00028] The argument processorNodePunctuator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -149,21 +195,21 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN159390 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN161102 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN159390 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN161102 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN159390 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN161102 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

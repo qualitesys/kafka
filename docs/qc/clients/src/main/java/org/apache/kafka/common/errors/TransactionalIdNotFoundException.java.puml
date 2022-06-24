@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.TransactionalIdNotFoundException
+class org.apache.kafka.common.errors.TransactionalIdNotFoundException {
++  TransactionalIdNotFoundException(String)
+} 
+@enduml

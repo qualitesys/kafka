@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+SerializationException <|-- org.apache.kafka.common.errors.RecordDeserializationException
+class org.apache.kafka.common.errors.RecordDeserializationException {
++  RecordDeserializationException(TopicPartition;long;String;Throwable)
++  topicPartition()
++  offset()
+} 
+@enduml

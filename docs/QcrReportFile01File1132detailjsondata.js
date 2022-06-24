@@ -8,12 +8,100 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.runtime.isolation.PluginScanResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.isolation.PluginScanResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "PluginScanResult"
+ , "c2" : "PluginScanResult(Collection<PluginDesc<SinkConnector>>;Collection<PluginDesc<SourceConnector>>;Collection<PluginDesc<Converter>>;Collection<PluginDesc<HeaderConverter>>;Collection<PluginDesc<Transformation<?>>>;Collection<PluginDesc<Predicate<?>>>;Collection<PluginDesc<ConfigProvider>>;Collection<PluginDesc<ConnectRestExtension>>;Collection<PluginDesc<ConnectorClientConfigOverridePolicy>>)"
+ , "c3" : "1"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<SinkConnector>>"
+ , "c2" : "sinkConnectors()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<SourceConnector>>"
+ , "c2" : "sourceConnectors()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<Converter>>"
+ , "c2" : "converters()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<HeaderConverter>>"
+ , "c2" : "headerConverters()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<Transformation<?>>>"
+ , "c2" : "transformations()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<Predicate<?>>>"
+ , "c2" : "predicates()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<ConfigProvider>>"
+ , "c2" : "configProviders()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<ConnectRestExtension>>"
+ , "c2" : "restExtensions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<PluginDesc<ConnectorClientConfigOverridePolicy>>"
+ , "c2" : "connectorClientConfigPolicies()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.isolation.PluginScanResult.isEmpty@POLYN171539 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.isolation.PluginScanResult.isEmpty@POLYN173251 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

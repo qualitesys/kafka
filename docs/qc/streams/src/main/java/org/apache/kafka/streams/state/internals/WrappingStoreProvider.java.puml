@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+StateStoreProvider <|-- org.apache.kafka.streams.state.internals.WrappingStoreProvider
+class org.apache.kafka.streams.state.internals.WrappingStoreProvider {
++  WrappingStoreProvider(Collection<StreamThreadStateStoreProvider>;StoreQueryParameters)
++  setStoreQueryParameters(StoreQueryParameters)
+} 
+@enduml

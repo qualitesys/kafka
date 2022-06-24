@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ListTransactionsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ListTransactionsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListTransactionsResult"
+ , "c2" : "ListTransactionsResult(KafkaFuture<Map<Integer,KafkaFutureImpl<Collection<TransactionListing>>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Collection<TransactionListing>>"
+ , "c2" : "all()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<Integer,KafkaFuture<Collection<TransactionListing>>>>"
+ , "c2" : "byBrokerId()"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<Integer,Collection<TransactionListing>>>"
+ , "c2" : "allByBrokerId()"
+ , "c3" : "6"
+ , "c4" : "13"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,21 +111,21 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.ListTransactionsResult.byBrokerId@POLYN174875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.ListTransactionsResult.byBrokerId@POLYN176587 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN176136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN177848 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN176136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN177848 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ConnectRestException <|-- org.apache.kafka.connect.runtime.rest.errors.BadRequestException
+class org.apache.kafka.connect.runtime.rest.errors.BadRequestException {
++  BadRequestException(String)
+} 
+@enduml

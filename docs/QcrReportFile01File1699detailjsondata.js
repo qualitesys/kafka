@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Repartitioned<K,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.RepartitionedInternal"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.RepartitionedInternal" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RepartitionedInternal"
+ , "c2" : "RepartitionedInternal(Repartitioned<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "InternalTopicProperties"
+ , "c2" : "toInternalTopicProperties()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<K>"
+ , "c2" : "keySerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<V>"
+ , "c2" : "valueSerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StreamPartitioner<K,V>"
+ , "c2" : "streamPartitioner()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Integer"
+ , "c2" : "numberOfPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.svg" }
+
 ] 
 , 
 "data04" : [

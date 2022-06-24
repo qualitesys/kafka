@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.mirror.MirrorMetrics
+class org.apache.kafka.connect.mirror.MirrorMetrics {
++  MirrorMetrics(MirrorTaskConfig)
++  close()
++  countRecord(TopicPartition)
++  recordAge(TopicPartition;long)
++  replicationLatency(TopicPartition;long)
++  recordBytes(TopicPartition;long)
++  checkpointLatency(TopicPartition;String;long)
++  group(TopicPartition;String)
++  addReporter(MetricsReporter)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest
+class org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest {
++  OffsetsForLeaderEpochRequest(OffsetForLeaderEpochRequestData;short)
++  data()
++  replicaId()
++  parse(ByteBuffer;short)
++  getErrorResponse(int;Throwable)
++  supportsTopicPermission(short)
+} 
+@enduml

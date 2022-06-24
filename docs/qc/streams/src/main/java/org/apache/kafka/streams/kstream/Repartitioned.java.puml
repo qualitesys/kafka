@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+NamedOperation<Repartitioned<K,V>> <|-- org.apache.kafka.streams.kstream.Repartitioned
+class org.apache.kafka.streams.kstream.Repartitioned {
++  Repartitioned(String;Serde<K>;Serde<V>;Integer;StreamPartitioner<K,V>)
++  Repartitioned(Repartitioned<K,V>)
++  withName(String)
++  withNumberOfPartitions(int)
++  withKeySerde(Serde<K>)
++  withValueSerde(Serde<V>)
++  withStreamPartitioner(StreamPartitioner<K,V>)
+} 
+@enduml

@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Configurable"
+ , "c2" : "org.apache.kafka.server.quota.ClientQuotaCallback"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.quota.ClientQuotaCallback" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "quotaMetricTags(ClientQuotaType;KafkaPrincipal;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Double"
+ , "c2" : "quotaLimit(ClientQuotaType;Map<String,String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updateQuota(ClientQuotaType;ClientQuotaEntity;double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "removeQuota(ClientQuotaType;ClientQuotaEntity)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "quotaResetRequired(ClientQuotaType)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "updateClusterMetadata(Cluster)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.svg" }
+
 ] 
 , 
 "data04" : [

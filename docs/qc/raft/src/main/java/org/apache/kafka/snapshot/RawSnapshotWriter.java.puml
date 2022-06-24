@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.snapshot.RawSnapshotWriter
+class org.apache.kafka.snapshot.RawSnapshotWriter {
++  snapshotId()
++  sizeInBytes()
++  append(MemoryRecords)
++  append(UnalignedMemoryRecords)
++  isFrozen()
++  freeze()
++  close()
+} 
+@enduml

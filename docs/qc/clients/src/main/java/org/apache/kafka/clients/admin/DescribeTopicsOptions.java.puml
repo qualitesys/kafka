@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeTopicsOptions> <|-- org.apache.kafka.clients.admin.DescribeTopicsOptions
+class org.apache.kafka.clients.admin.DescribeTopicsOptions {
++  timeoutMs(Integer)
++  includeAuthorizedOperations(boolean)
++  includeAuthorizedOperations()
+} 
+@enduml

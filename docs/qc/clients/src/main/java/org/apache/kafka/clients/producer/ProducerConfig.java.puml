@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AbstractConfig <|-- org.apache.kafka.clients.producer.ProducerConfig
+class org.apache.kafka.clients.producer.ProducerConfig {
++  postProcessParsedConfig(Map<String,Object>)
++  maybeOverrideClientId(Map<String,Object>)
++  postProcessAndValidateIdempotenceConfigs(Map<String,Object>)
++  parseAcks(String)
++  appendSerializerToConfig(Map<String,Object>;Serializer<?>;Serializer<?>)
++  ProducerConfig(Properties)
++  ProducerConfig(Map<String,Object>)
++  ProducerConfig(Map<?,?>;boolean)
++  configNames()
++  configDef()
++  main(String[])
+} 
+@enduml

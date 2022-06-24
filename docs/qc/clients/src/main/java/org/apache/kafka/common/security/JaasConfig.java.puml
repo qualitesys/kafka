@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Configuration <|-- org.apache.kafka.common.security.JaasConfig
+class org.apache.kafka.common.security.JaasConfig {
++  JaasConfig(String;String)
++  getAppConfigurationEntry(String)
++  loginModuleControlFlag(String)
++  parseAppConfigurationEntry(StreamTokenizer)
+} 
+@enduml

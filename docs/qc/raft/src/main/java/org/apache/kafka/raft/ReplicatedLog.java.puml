@@ -1,0 +1,34 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.raft.ReplicatedLog
+class org.apache.kafka.raft.ReplicatedLog {
++  appendAsLeader(Records;int)
++  appendAsFollower(Records)
++  read(long;Isolation)
++  lastFetchedEpoch()
++  validateOffsetAndEpoch(long;int)
++  endOffsetForEpoch(int)
++  endOffset()
++  highWatermark()
++  startOffset()
++  initializeLeaderEpoch(int)
++  truncateTo(long)
++  truncateToLatestSnapshot()
++  updateHighWatermark(LogOffsetMetadata)
++  deleteBeforeSnapshot(OffsetAndEpoch)
++  flush(boolean)
++  maybeClean()
++  lastFlushedOffset()
++  topicPartition()
++  topicId()
++  truncateToEndOffset(OffsetAndEpoch)
++  createNewSnapshot(OffsetAndEpoch)
++  storeSnapshot(OffsetAndEpoch)
++  readSnapshot(OffsetAndEpoch)
++  latestSnapshot()
++  latestSnapshotId()
++  earliestSnapshotId()
++  onSnapshotFrozen(OffsetAndEpoch)
++  close()
+} 
+@enduml

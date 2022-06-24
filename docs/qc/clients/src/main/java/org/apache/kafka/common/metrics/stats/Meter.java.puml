@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+CompoundStat <|-- org.apache.kafka.common.metrics.stats.Meter
+class org.apache.kafka.common.metrics.stats.Meter {
++  Meter(MetricName;MetricName)
++  Meter(TimeUnit;MetricName;MetricName)
++  Meter(SampledStat;MetricName;MetricName)
++  Meter(TimeUnit;SampledStat;MetricName;MetricName)
++  stats()
++  record(MetricConfig;double;long)
++  toString()
+} 
+@enduml

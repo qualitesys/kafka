@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.AlterClientQuotasRequest
+class org.apache.kafka.common.requests.AlterClientQuotasRequest {
++  AlterClientQuotasRequest(AlterClientQuotasRequestData;short)
++  entries()
++  validateOnly()
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

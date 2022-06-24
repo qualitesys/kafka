@@ -1,0 +1,36 @@
+@startuml
+!pragma layout smetana
+EpochState <|-- org.apache.kafka.raft.LeaderState
+class org.apache.kafka.raft.LeaderState {
++  LeaderState(int;int;long;Set<Integer>;Set<Integer>;BatchAccumulator<T>;LogContext)
++  accumulator()
++  convertToVoters(Set<Integer>)
++  appendLeaderChangeMessage(long)
++  isResignRequested()
++  requestResign()
++  highWatermark()
++  election()
++  epoch()
++  grantingVoters()
++  localId()
++  nonAcknowledgingVoters()
++  updateHighWatermark()
++  updateLocalState(long;LogOffsetMetadata)
++  updateReplicaState(int;long;LogOffsetMetadata)
++  nonLeaderVotersByDescendingFetchOffset()
++  followersByDescendingFetchOffset()
++  updateEndOffset(ReplicaState;LogOffsetMetadata)
++  addAcknowledgementFrom(int)
++  ensureValidVoter(int)
++  epochStartOffset()
++  getReplicaState(int)
++  getVoterEndOffsets()
++  getObserverStates(long)
++  clearInactiveObservers(long)
++  isVoter(int)
++  canGrantVote(int;boolean)
++  toString()
++  name()
++  close()
+} 
+@enduml

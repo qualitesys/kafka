@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Message <|-- org.apache.kafka.trogdor.rest.DestroyWorkerRequest
+class org.apache.kafka.trogdor.rest.DestroyWorkerRequest {
++  DestroyWorkerRequest(long)
++  workerId()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ChangelogRegister
+class org.apache.kafka.streams.processor.internals.ChangelogRegister {
++  register(TopicPartition;ProcessorStateManager)
++  unregister(Collection<TopicPartition>)
+} 
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<RocksDBTimeOrderedWindowSegmentedBytesStore,Object,Object>WindowStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore
+class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore {
++  RocksDBTimeOrderedWindowStore(RocksDBTimeOrderedWindowSegmentedBytesStore;boolean;long)
++  init(StateStoreContext;StateStore)
++  flush()
++  close()
++  persistent()
++  isOpen()
++  put(Bytes;byte[];long)
++  fetch(Bytes;long)
++  fetch(Bytes;long;long)
++  backwardFetch(Bytes;long;long)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;long;long)
++  all()
++  backwardAll()
++  fetchAll(long;long)
++  backwardFetchAll(long;long)
++  hasIndex()
++  maybeUpdateSeqnumForDups()
+} 
+@enduml

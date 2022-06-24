@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+StateStore <|-- org.apache.kafka.streams.state.WindowStore
+class org.apache.kafka.streams.state.WindowStore {
++  put(K;V;long)
++  fetch(K;long;long)
++  fetch(K;Instant;Instant)
++  backwardFetch(K;long;long)
++  backwardFetch(K;Instant;Instant)
++  fetch(K;K;long;long)
++  fetch(K;K;Instant;Instant)
++  backwardFetch(K;K;long;long)
++  backwardFetch(K;K;Instant;Instant)
++  fetchAll(long;long)
++  fetchAll(Instant;Instant)
++  backwardFetchAll(long;long)
++  backwardFetchAll(Instant;Instant)
+} 
+@enduml

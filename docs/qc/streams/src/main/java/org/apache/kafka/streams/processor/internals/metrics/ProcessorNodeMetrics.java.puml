@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics
+class org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics {
++  ProcessorNodeMetrics()
++  suppressionEmitSensor(String;String;String;StreamsMetricsImpl)
++  skippedIdempotentUpdatesSensor(String;String;String;StreamsMetricsImpl)
++  processAtSourceSensor(String;String;String;StreamsMetricsImpl)
++  forwardSensor(String;String;String;StreamsMetricsImpl)
++  e2ELatencySensor(String;String;String;StreamsMetricsImpl)
++  emitFinalLatencySensor(String;String;String;StreamsMetricsImpl)
++  emittedRecordsSensor(String;String;String;StreamsMetricsImpl)
++  throughputParentSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)
++  throughputSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)
+} 
+@enduml

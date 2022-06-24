@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+AbstractRocksDBSegmentedBytesStore<TimestampedSegment> <|-- org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore
+class org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore {
++  RocksDBTimestampedSegmentedBytesStore(String;String;long;long;KeySchema)
+} 
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Reconfigurable <|-- org.apache.kafka.common.network.ListenerReconfigurable
+class org.apache.kafka.common.network.ListenerReconfigurable {
++  listenerName()
+} 
+@enduml

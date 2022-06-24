@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.common.replica.ReplicaSelector
+class org.apache.kafka.common.replica.ReplicaSelector {
++  select(TopicPartition;ClientMetadata;PartitionView)
++  close()
++  configure(Map<String,?>)
+} 
+@enduml

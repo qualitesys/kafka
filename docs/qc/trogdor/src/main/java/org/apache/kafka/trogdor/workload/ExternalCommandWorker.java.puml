@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+TaskWorker <|-- org.apache.kafka.trogdor.workload.ExternalCommandWorker
+class org.apache.kafka.trogdor.workload.ExternalCommandWorker {
++  ExternalCommandWorker(String;ExternalCommandSpec)
++  start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)
++  startProcess()
++  readObject(String)
++  stop(Platform)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.rest.TaskRequest
+class org.apache.kafka.trogdor.rest.TaskRequest {
++  TaskRequest(String)
++  taskId()
+} 
+@enduml

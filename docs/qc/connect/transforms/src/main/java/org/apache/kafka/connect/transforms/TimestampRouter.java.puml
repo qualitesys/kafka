@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.TimestampRouter
+class org.apache.kafka.connect.transforms.TimestampRouter {
++  configure(Map<String,?>)
++  apply(R)
++  close()
++  config()
+} 
+@enduml

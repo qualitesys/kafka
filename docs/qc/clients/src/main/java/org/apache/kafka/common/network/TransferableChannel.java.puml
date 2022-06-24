@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+GatheringByteChannel <|-- org.apache.kafka.common.network.TransferableChannel
+class org.apache.kafka.common.network.TransferableChannel {
++  hasPendingWrites()
++  transferFrom(FileChannel;long;long)
+} 
+@enduml

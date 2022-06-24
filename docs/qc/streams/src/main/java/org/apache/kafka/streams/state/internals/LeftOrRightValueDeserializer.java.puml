@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+WrappingNullableDeserializer<LeftOrRightValue<V1,V2>,Void,Object> <|-- org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer
+class org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer {
++  LeftOrRightValueDeserializer(Deserializer<V1>;Deserializer<V2>)
++  setIfUnset(SerdeGetter)
++  configure(Map<String,?>;boolean)
++  deserialize(String;byte[])
++  rawValue(byte[])
+} 
+@enduml

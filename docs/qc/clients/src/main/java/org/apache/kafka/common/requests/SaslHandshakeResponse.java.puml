@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.SaslHandshakeResponse
+class org.apache.kafka.common.requests.SaslHandshakeResponse {
++  SaslHandshakeResponse(SaslHandshakeResponseData)
++  error()
++  errorCounts()
++  throttleTimeMs()
++  data()
++  enabledMechanisms()
++  parse(ByteBuffer;short)
+} 
+@enduml

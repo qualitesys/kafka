@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+SessionBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbSessionBytesStoreSupplier
+class org.apache.kafka.streams.state.internals.RocksDbSessionBytesStoreSupplier {
++  RocksDbSessionBytesStoreSupplier(String;long)
++  name()
++  get()
++  metricsScope()
++  segmentIntervalMs()
++  retentionPeriod()
+} 
+@enduml

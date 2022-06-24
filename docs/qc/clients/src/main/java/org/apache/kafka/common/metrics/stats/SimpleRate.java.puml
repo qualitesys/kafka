@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Rate <|-- org.apache.kafka.common.metrics.stats.SimpleRate
+class org.apache.kafka.common.metrics.stats.SimpleRate {
++  windowSize(MetricConfig;long)
+} 
+@enduml

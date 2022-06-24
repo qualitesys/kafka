@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.connect.mirror.TopicFilter
+class org.apache.kafka.connect.mirror.TopicFilter {
++  shouldReplicateTopic(String)
++  close()
++  configure(Map<String,?>)
+} 
+@enduml

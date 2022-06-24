@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.errors.AlreadyExistsException
+class org.apache.kafka.connect.errors.AlreadyExistsException {
++  AlreadyExistsException(String)
++  AlreadyExistsException(String;Throwable)
++  AlreadyExistsException(Throwable)
+} 
+@enduml

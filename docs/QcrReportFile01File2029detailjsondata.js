@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MeteredWindowedKeyValueIterator"
+ , "c2" : "MeteredWindowedKeyValueIterator(KeyValueIterator<Windowed<Bytes>,byte[]>;Sensor;StreamsMetrics;Function<byte[],K>;Function<byte[],V>;Time)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Windowed<K>,V>"
+ , "c2" : "next()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Windowed<K>"
+ , "c2" : "windowedKey(Windowed<Bytes>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Windowed<K>"
+ , "c2" : "peekNextKey()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.svg" }
+
 ] 
 , 
 "data04" : [

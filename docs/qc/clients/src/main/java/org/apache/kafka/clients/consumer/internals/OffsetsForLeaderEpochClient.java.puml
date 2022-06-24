@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AsyncClient<Map<TopicPartition,SubscriptionState.FetchPosition>,OffsetsForLeaderEpochRequest,OffsetsForLeaderEpochResponse,OffsetsForLeaderEpochClient.OffsetForEpochResult> <|-- org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient
+class org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient {
++  OffsetsForLeaderEpochClient(ConsumerNetworkClient;LogContext)
++  prepareRequest(Node;Map<TopicPartition,SubscriptionState.FetchPosition>)
++  handleResponse(Node;Map<TopicPartition,SubscriptionState.FetchPosition>;OffsetsForLeaderEpochResponse)
+} 
+@enduml

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KafkaException"
+ , "c2" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OAuthBearerIllegalTokenException"
+ , "c2" : "OAuthBearerIllegalTokenException(OAuthBearerValidationResult)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OAuthBearerValidationResult"
+ , "c2" : "reason()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException.OAuthBearerIllegalTokenException@POLYN157138 the MagicNumber/String  'The reason indicates success; it must instead indicate failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException.OAuthBearerIllegalTokenException@POLYN158850 the MagicNumber/String  'The reason indicates success; it must instead indicate failure' should be converted to const"
 }} 
 ]
 };

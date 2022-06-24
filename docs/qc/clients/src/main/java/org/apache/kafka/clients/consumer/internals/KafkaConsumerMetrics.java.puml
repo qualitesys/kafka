@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics
+class org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics {
++  KafkaConsumerMetrics(Metrics;String)
++  recordPollStart(long)
++  recordPollEnd(long)
++  recordCommitSync(long)
++  recordCommitted(long)
++  close()
+} 
+@enduml

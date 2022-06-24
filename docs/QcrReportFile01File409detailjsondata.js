@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KafkaException"
+ , "c2" : "org.apache.kafka.common.errors.SerializationException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.SerializationException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SerializationException"
+ , "c2" : "SerializationException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SerializationException"
+ , "c2" : "SerializationException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SerializationException"
+ , "c2" : "SerializationException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SerializationException"
+ , "c2" : "SerializationException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.svg" }
+
 ] 
 , 
 "data04" : [

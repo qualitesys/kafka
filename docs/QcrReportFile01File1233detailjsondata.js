@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractConfig"
+ , "c2" : "org.apache.kafka.connect.transforms.util.SimpleConfig"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.util.SimpleConfig" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SimpleConfig"
+ , "c2" : "SimpleConfig(ConfigDef;Map<?,?>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SimpleConfig.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SimpleConfig.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +69,7 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SimpleConfig.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.connect.transforms.util.SimpleConfig.SimpleConfig@POLYN154211 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.connect.transforms.util.SimpleConfig.SimpleConfig@POLYN155923 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

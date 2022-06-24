@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+NamedOperation<Named> <|-- org.apache.kafka.streams.kstream.Named
+class org.apache.kafka.streams.kstream.Named {
++  Named(Named)
++  Named(String)
++  as(String)
++  withName(String)
++  validate(String)
++  containsValidPattern(String)
+} 
+@enduml

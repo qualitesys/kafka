@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.AlterConfigOp
+class org.apache.kafka.clients.admin.AlterConfigOp {
++  AlterConfigOp(ConfigEntry;OpType)
++  configEntry()
++  opType()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

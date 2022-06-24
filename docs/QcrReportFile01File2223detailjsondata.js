@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "PayloadGenerator"
+ , "c2" : "org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TimestampConstantPayloadGenerator"
+ , "c2" : "TimestampConstantPayloadGenerator(int)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "generate(long)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +111,14 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.TimestampConstantPayloadGenerator@POLYN161602 the MagicNumber/String  'The size of the payload must be greater than or equal to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.TimestampConstantPayloadGenerator@POLYN163314 the MagicNumber/String  'The size of the payload must be greater than or equal to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.TimestampConstantPayloadGenerator@POLYN161602 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.TimestampConstantPayloadGenerator@POLYN163314 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.generate@POLYN162296 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.generate@POLYN164008 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.generate@POLYN162296 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator.generate@POLYN164008 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

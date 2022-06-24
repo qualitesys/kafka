@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.TopicsDelta
+class org.apache.kafka.image.TopicsDelta {
++  TopicsDelta(TopicsImage)
++  image()
++  changedTopics()
++  replay(TopicRecord)
++  getOrCreateTopicDelta(Uuid)
++  replay(PartitionRecord)
++  replay(PartitionChangeRecord)
++  replay(RemoveTopicRecord)
++  finishSnapshot()
++  handleMetadataVersionChange(MetadataVersion)
++  apply()
++  changedTopic(Uuid)
++  topicWasDeleted(String)
++  deletedTopicIds()
++  localChanges(int)
++  toString()
+} 
+@enduml

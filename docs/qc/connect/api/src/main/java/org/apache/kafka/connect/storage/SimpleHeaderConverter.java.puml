@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+HeaderConverter <|-- org.apache.kafka.connect.storage.SimpleHeaderConverter
+class org.apache.kafka.connect.storage.SimpleHeaderConverter {
++  config()
++  configure(Map<String,?>)
++  toConnectHeader(String;String;byte[])
++  fromConnectHeader(String;String;Schema;Object)
++  close()
+} 
+@enduml

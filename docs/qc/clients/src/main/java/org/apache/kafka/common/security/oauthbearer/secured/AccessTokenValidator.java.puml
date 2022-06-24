@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidator
+class org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidator {
++  validate(String)
+} 
+@enduml

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Serializer<Change<T>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.ChangedSerializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.ChangedSerializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ChangedSerializer"
+ , "c2" : "ChangedSerializer(Serializer<T>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serializer<T>"
+ , "c2" : "inner()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setIfUnset(SerdeGetter)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "serialize(String;Headers;Change<T>)"
+ , "c3" : "5"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "serialize(String;Change<T>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.setIfUnset@POLYN163285 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.setIfUnset@POLYN164997 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,70 +167,70 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  'Both old and new values are not null (' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  'Both old and new values are not null (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  ' : ' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  ' : ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  ') in ChangeSerializer, which is not allowed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  ') in ChangeSerializer, which is not allowed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  'Both old and new values are null in ChangeSerializer, which is not allowed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  'Both old and new values are null in ChangeSerializer, which is not allowed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN163678 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165390 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,7 +244,7 @@ var maDataBlocs = {
    "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN165153 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.internals.ChangedSerializer.serialize@POLYN166865 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

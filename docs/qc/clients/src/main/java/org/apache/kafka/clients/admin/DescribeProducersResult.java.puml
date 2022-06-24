@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeProducersResult
+class org.apache.kafka.clients.admin.DescribeProducersResult {
++  DescribeProducersResult(Map<TopicPartition,KafkaFuture<PartitionProducerState>>)
++  partitionResult(TopicPartition)
++  all()
+} 
+@enduml

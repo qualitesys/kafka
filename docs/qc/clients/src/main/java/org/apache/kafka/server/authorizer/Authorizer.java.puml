@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.server.authorizer.Authorizer
+class org.apache.kafka.server.authorizer.Authorizer {
++  start(AuthorizerServerInfo)
++  authorize(AuthorizableRequestContext;List<Action>)
++  createAcls(AuthorizableRequestContext;List<AclBinding>)
++  deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)
++  acls(AclBindingFilter)
++  aclCount()
++  authorizeByResourceType(AuthorizableRequestContext;AclOperation;ResourceType)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractStoreBuilder<K,ValueAndTimestamp<V>,TimestampedWindowStore<K,V>> <|-- org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder
+class org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder {
++  TimestampedWindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time)
++  build()
++  maybeWrapCaching(WindowStore<Bytes,byte[]>)
++  isTimeOrderedStore(StateStore)
++  maybeWrapLogging(WindowStore<Bytes,byte[]>)
++  retentionPeriod()
+} 
+@enduml

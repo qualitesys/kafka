@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidReplicaAssignmentException
+class org.apache.kafka.common.errors.InvalidReplicaAssignmentException {
++  InvalidReplicaAssignmentException(String)
++  InvalidReplicaAssignmentException(String;Throwable)
+} 
+@enduml

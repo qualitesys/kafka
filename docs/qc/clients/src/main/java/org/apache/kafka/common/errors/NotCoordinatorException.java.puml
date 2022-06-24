@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.NotCoordinatorException
+class org.apache.kafka.common.errors.NotCoordinatorException {
++  NotCoordinatorException(String)
++  NotCoordinatorException(String;Throwable)
+} 
+@enduml

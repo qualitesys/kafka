@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Transformation<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.ValueToKey"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.ValueToKey" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "apply(R)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applySchemaless(R)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applyWithSchema(R)"
+ , "c3" : "5"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.ValueToKey.configure@POLYN171895 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.ValueToKey.configure@POLYN173607 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.ValueToKey.apply@POLYN172376 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.ValueToKey.apply@POLYN174088 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.transforms.ValueToKey.applySchemaless@POLYN172694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.transforms.ValueToKey.applySchemaless@POLYN174406 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -163,28 +216,28 @@ var maDataBlocs = {
    "c1" : "00069"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN173619 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN175331 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN173619 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN175331 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN173619 the MagicNumber/String  'Field does not exist: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN175331 the MagicNumber/String  'Field does not exist: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.ValueToKey.close@POLYN175461 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.ValueToKey.close@POLYN177173 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

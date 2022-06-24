@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+RocksDBTimestampedStoreComparable<TimestampedSegment> <|-- org.apache.kafka.streams.state.internals.TimestampedSegment
+class org.apache.kafka.streams.state.internals.TimestampedSegment {
++  TimestampedSegment(String;String;long;RocksDBMetricsRecorder)
++  destroy()
++  deleteRange(Bytes;Bytes)
++  compareTo(TimestampedSegment)
++  openDB(Map<String,Object>;File)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

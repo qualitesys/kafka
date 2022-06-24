@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "kafka.examples.KafkaProperties"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "kafka.examples.KafkaProperties" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KafkaProperties"
+ , "c2" : "KafkaProperties()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/examples/src/main/java/kafka/examples/KafkaProperties.java.png" 
+
+ , "ligneplantuml" : "./qc/examples/src/main/java/kafka/examples/KafkaProperties.java.svg" }
+
 ] 
 , 
 "data04" : [

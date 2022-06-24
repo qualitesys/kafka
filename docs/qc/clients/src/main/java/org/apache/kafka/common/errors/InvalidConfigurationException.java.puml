@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidConfigurationException
+class org.apache.kafka.common.errors.InvalidConfigurationException {
++  InvalidConfigurationException(String)
++  InvalidConfigurationException(String;Throwable)
+} 
+@enduml

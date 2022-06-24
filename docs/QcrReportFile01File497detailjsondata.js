@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthenticationException"
+ , "c2" : "org.apache.kafka.common.network.DelayedResponseAuthenticationException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.network.DelayedResponseAuthenticationException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DelayedResponseAuthenticationException"
+ , "c2" : "DelayedResponseAuthenticationException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/DelayedResponseAuthenticationException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/DelayedResponseAuthenticationException.java.svg" }
+
 ] 
 , 
 "data04" : [

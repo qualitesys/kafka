@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler
+class org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler {
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  handle(Callback[])
++  close()
+} 
+@enduml

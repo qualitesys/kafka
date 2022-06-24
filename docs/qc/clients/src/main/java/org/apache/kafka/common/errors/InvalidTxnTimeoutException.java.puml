@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidTxnTimeoutException
+class org.apache.kafka.common.errors.InvalidTxnTimeoutException {
++  InvalidTxnTimeoutException(String;Throwable)
++  InvalidTxnTimeoutException(String)
+} 
+@enduml

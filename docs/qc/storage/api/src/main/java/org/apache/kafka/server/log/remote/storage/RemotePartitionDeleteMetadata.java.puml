@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+RemoteLogMetadata <|-- org.apache.kafka.server.log.remote.storage.RemotePartitionDeleteMetadata
+class org.apache.kafka.server.log.remote.storage.RemotePartitionDeleteMetadata {
++  RemotePartitionDeleteMetadata(TopicIdPartition;RemotePartitionDeleteState;long;int)
++  topicIdPartition()
++  state()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.TaskMigratedException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.TaskMigratedException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TaskMigratedException"
+ , "c2" : "TaskMigratedException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskMigratedException"
+ , "c2" : "TaskMigratedException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,14 +76,14 @@ var maDataBlocs = {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN155004 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN156716 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN155152 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN156864 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
 }} 
 ]
 };

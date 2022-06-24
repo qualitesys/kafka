@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<DeleteConsumerGroupsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

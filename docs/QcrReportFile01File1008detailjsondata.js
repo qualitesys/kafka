@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Deserializer<JsonNode>"
+ , "c2" : "org.apache.kafka.connect.json.JsonDeserializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.json.JsonDeserializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "JsonDeserializer"
+ , "c2" : "JsonDeserializer()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "JsonDeserializer"
+ , "c2" : "JsonDeserializer(Set<DeserializationFeature>;JsonNodeFactory)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "JsonNode"
+ , "c2" : "deserialize(String;byte[])"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonDeserializer.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonDeserializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonDeserializer.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.json.JsonDeserializer.JsonDeserializer@POLYN160325 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.json.JsonDeserializer.JsonDeserializer@POLYN162037 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonDeserializer.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.connect.json.JsonDeserializer.deserialize@POLYN160926 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.connect.json.JsonDeserializer.deserialize@POLYN162638 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonDeserializer.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.json.JsonDeserializer.deserialize@POLYN160926 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.json.JsonDeserializer.deserialize@POLYN162638 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

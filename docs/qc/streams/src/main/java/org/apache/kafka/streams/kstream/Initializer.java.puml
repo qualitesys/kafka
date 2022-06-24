@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.Initializer
+class org.apache.kafka.streams.kstream.Initializer {
++  apply()
+} 
+@enduml

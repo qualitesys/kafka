@@ -2,18 +2,148 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 77 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 97 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskAssignor"
+ , "c2" : "org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StickyTaskAssignor"
+ , "c2" : "StickyTaskAssignor()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StickyTaskAssignor"
+ , "c2" : "StickyTaskAssignor(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "assignStandby(int)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "assignActive()"
+ , "c3" : "9"
+ , "c4" : "19"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "allocateTaskWithClientCandidates(TaskId;Set<UUID>;boolean)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "assignTaskToClient(Set<TaskId>;TaskId;ClientState)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<UUID>"
+ , "c2" : "findClientsWithoutAssignedTask(TaskId)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClientState"
+ , "c2" : "findClient(TaskId;Set<UUID>)"
+ , "c3" : "5"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldBalanceLoad(ClientState)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasClientsWithMoreAvailableCapacity(ClientState)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClientState"
+ , "c2" : "findClientsWithPreviousAssignedTask(TaskId;Set<UUID>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClientState"
+ , "c2" : "findLeastLoadedClientWithPreviousStandByTask(TaskId;Set<UUID>)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClientState"
+ , "c2" : "leastLoaded(TaskId;Set<UUID>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClientState"
+ , "c2" : "findLeastLoaded(TaskId;Set<UUID>;boolean)"
+ , "c3" : "7"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "mapPreviousTaskAssignment(Map<UUID,ClientState>)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "sumCapacity(Collection<ClientState>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +167,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "9"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "9"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -79,6 +232,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "18"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "7"
+}}
  ] 
 ,
 "data13b" : [
@@ -93,7 +253,7 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.StickyTaskAssignor@POLYN200004 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.StickyTaskAssignor@POLYN201716 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,21 +281,21 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assign@POLYN200248 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assign@POLYN201960 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assign@POLYN200248 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assign@POLYN201960 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assign@POLYN200248 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assign@POLYN201960 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -143,6 +303,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#59"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00059] For method assignStandby arguments int  numStandbyReplicas"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00059] For method assignStandby list of called methods Object monObjet|java.util.Set&lt;java.util.UUID&gt; findClientsWithoutAssignedTaskN203242"
 }} 
 ,
 { "ligne" : {
@@ -163,42 +330,49 @@ var maDataBlocs = {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN201170 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN202882 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN201170 the MagicNumber/String  'Unable to assign {} of {} standby tasks for task [{}]. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN202882 the MagicNumber/String  'Unable to assign {} of {} standby tasks for task [{}]. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN201170 the MagicNumber/String  'There is not enough available capacity. You should ' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN202882 the MagicNumber/String  'There is not enough available capacity. You should ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN201170 the MagicNumber/String  'increase the number of threads and/or application instances ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN202882 the MagicNumber/String  'increase the number of threads and/or application instances ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN201170 the MagicNumber/String  'to maintain the requested number of standby replicas.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN202882 the MagicNumber/String  'to maintain the requested number of standby replicas.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN201170 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN202882 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#77"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00077] For method assignActive list of called methods Object monObjet|int sumCapacityN203808"
 }} 
 ,
 { "ligne" : {
@@ -254,14 +428,14 @@ var maDataBlocs = {
    "c1" : "00102"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN202020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN203732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN202020 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN203732 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -269,6 +443,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#122"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00122] For method allocateTaskWithClientCandidates arguments TaskId  taskId|Set&lt;UUID &gt;  clientsWithin|boolean  active"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#122"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00122] For method allocateTaskWithClientCandidates list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState findClientN206431"
 }} 
 ,
 { "ligne" : {
@@ -309,6 +490,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#149"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00149] For method findClient list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState findClientsWithPreviousAssignedTaskN208201|org.apache.kafka.streams.processor.internals.assignment.ClientState findLeastLoadedClientWithPreviousStandByTaskN208556"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#149"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00149] The argument clientsWithin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -317,21 +505,21 @@ var maDataBlocs = {
    "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN206127 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN207839 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN206127 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN207839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN206127 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN207839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -359,14 +547,14 @@ var maDataBlocs = {
    "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.hasClientsWithMoreAvailableCapacity@POLYN207398 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.hasClientsWithMoreAvailableCapacity@POLYN209110 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.hasClientsWithMoreAvailableCapacity@POLYN207398 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.hasClientsWithMoreAvailableCapacity@POLYN209110 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -387,7 +575,7 @@ var maDataBlocs = {
    "c1" : "00187"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN207737 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN209449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -401,14 +589,14 @@ var maDataBlocs = {
    "c1" : "00195"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoadedClientWithPreviousStandByTask@POLYN208258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoadedClientWithPreviousStandByTask@POLYN209970 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoadedClientWithPreviousStandByTask@POLYN208258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoadedClientWithPreviousStandByTask@POLYN209970 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -419,24 +607,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#203"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00203] For method leastLoaded list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState findLeastLoadedN210768"
+}} 
+,
+{ "ligne" : {
    "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.leastLoaded@POLYN208902 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.leastLoaded@POLYN210614 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00205"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.leastLoaded@POLYN208902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.leastLoaded@POLYN210614 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.leastLoaded@POLYN208902 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.leastLoaded@POLYN210614 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -444,6 +639,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#211"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00211] For method findLeastLoaded arguments TaskId  taskId|Set&lt;UUID &gt;  clientIds|boolean  checkTaskPairs"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00211"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00211] For method findLeastLoaded list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState clients_getN211413"
 }} 
 ,
 { "ligne" : {
@@ -457,21 +659,21 @@ var maDataBlocs = {
    "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN209385 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN211097 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00217"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN209385 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN211097 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN209385 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN211097 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -510,10 +712,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00248"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#248"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00248] For method sumCapacity list of called methods Object monObjet|int client_capacityN213209"
+}} 
+,
+{ "ligne" : {
    "c1" : "00249"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.sumCapacity@POLYN211243 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.sumCapacity@POLYN212955 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -534,21 +743,21 @@ var maDataBlocs = {
    "c1" : "00268"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.hasNewPair@POLYN211963 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.hasNewPair@POLYN213675 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00272"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.hasNewPair@POLYN211963 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.hasNewPair@POLYN213675 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.hasNewPair@POLYN211963 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.hasNewPair@POLYN213675 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -576,7 +785,7 @@ var maDataBlocs = {
    "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.pair@POLYN212831 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.pair@POLYN214543 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -604,21 +813,112 @@ var maDataBlocs = {
    "c1" : "00303"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.Pair.equals@POLYN213593 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.Pair.equals@POLYN215305 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00305"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.Pair.equals@POLYN213593 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.Pair.equals@POLYN215305 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00306"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.Pair.equals@POLYN213593 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.Pair.equals@POLYN215305 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN203732"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN207839"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN209449"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN211097"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN203732 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN203732 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN207839 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN207839 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN207839 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN209449 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00214] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN211097 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00217"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN211097 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN211097 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

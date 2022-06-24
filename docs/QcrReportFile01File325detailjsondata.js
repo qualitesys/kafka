@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthorizationException"
+ , "c2" : "org.apache.kafka.common.errors.DelegationTokenAuthorizationException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.DelegationTokenAuthorizationException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DelegationTokenAuthorizationException"
+ , "c2" : "DelegationTokenAuthorizationException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DelegationTokenAuthorizationException"
+ , "c2" : "DelegationTokenAuthorizationException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.svg" }
+
 ] 
 , 
 "data04" : [

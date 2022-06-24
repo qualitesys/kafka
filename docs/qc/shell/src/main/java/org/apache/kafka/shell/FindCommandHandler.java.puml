@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Commands.Handler <|-- org.apache.kafka.shell.FindCommandHandler
+class org.apache.kafka.shell.FindCommandHandler {
++  FindCommandHandler(List<String>)
++  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
++  find(PrintWriter;String;MetadataNode)
++  hashCode()
++  equals(Object)
+} 
+@enduml

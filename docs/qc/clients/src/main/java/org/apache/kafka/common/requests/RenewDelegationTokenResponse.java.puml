@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.RenewDelegationTokenResponse
+class org.apache.kafka.common.requests.RenewDelegationTokenResponse {
++  RenewDelegationTokenResponse(RenewDelegationTokenResponseData)
++  parse(ByteBuffer;short)
++  errorCounts()
++  data()
++  throttleTimeMs()
++  error()
++  expiryTimestamp()
++  hasError()
++  shouldClientThrottle(short)
+} 
+@enduml

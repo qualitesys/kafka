@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.ListTransactionsRequest
+class org.apache.kafka.common.requests.ListTransactionsRequest {
++  ListTransactionsRequest(ListTransactionsRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  toString(boolean)
+} 
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+!pragma layout smetana
+SegmentedBytesStore <|-- org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore
+class org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore {
++  AbstractRocksDBSegmentedBytesStore(String;String;KeySchema;AbstractSegments<S>)
++  fetch(Bytes;long;long)
++  backwardFetch(Bytes;long;long)
++  fetch(Bytes;long;long;boolean)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;long;long)
++  fetch(Bytes;Bytes;long;long;boolean)
++  all()
++  backwardAll()
++  fetchAll(long;long)
++  backwardFetchAll(long;long)
++  remove(Bytes)
++  remove(Bytes;long)
++  put(Bytes;byte[])
++  get(Bytes)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  flush()
++  close()
++  persistent()
++  isOpen()
++  getSegments()
++  restoreAllInternal(Collection<ConsumerRecord<byte[],byte[]>>)
++  getWriteBatches(Collection<ConsumerRecord<byte[],byte[]>>)
++  getPosition()
+} 
+@enduml

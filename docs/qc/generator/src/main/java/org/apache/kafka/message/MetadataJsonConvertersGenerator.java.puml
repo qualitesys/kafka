@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+TypeClassGenerator <|-- org.apache.kafka.message.MetadataJsonConvertersGenerator
+class org.apache.kafka.message.MetadataJsonConvertersGenerator {
++  MetadataJsonConvertersGenerator(String)
++  outputName()
++  registerMessageType(MessageSpec)
++  generateAndWrite(BufferedWriter)
++  generateWriteJson()
++  generateReadJson()
+} 
+@enduml

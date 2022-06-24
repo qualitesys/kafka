@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.LeaveGroupResponse
+class org.apache.kafka.common.requests.LeaveGroupResponse {
++  LeaveGroupResponse(LeaveGroupResponseData)
++  LeaveGroupResponse(List<MemberResponse>;Errors;int;short)
++  throttleTimeMs()
++  memberResponses()
++  error()
++  topLevelError()
++  getError(Errors;List<MemberResponse>)
++  errorCounts()
++  data()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractIterator<T> <|-- org.apache.kafka.common.record.RecordBatchIterator
+class org.apache.kafka.common.record.RecordBatchIterator {
++  RecordBatchIterator(LogInputStream<T>)
++  makeNext()
+} 
+@enduml

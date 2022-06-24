@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StandbyTaskAssignor"
+ , "c2" : "org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignorConfiguration.AssignmentConfigs)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/DefaultStandbyTaskAssignor.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/DefaultStandbyTaskAssignor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/DefaultStandbyTaskAssignor.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor.assign@POLYN159289 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor.assign@POLYN161001 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

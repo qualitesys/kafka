@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RocksDBStoreTimestampedBytesStore <|-- org.apache.kafka.streams.state.internals.RocksDBTimestampedStore
+class org.apache.kafka.streams.state.internals.RocksDBTimestampedStore {
++  RocksDBTimestampedStore(String;String)
++  RocksDBTimestampedStore(String;String;RocksDBMetricsRecorder)
++  openRocksDB(DBOptions;ColumnFamilyOptions)
++  setDbAccessor(ColumnFamilyHandle;ColumnFamilyHandle)
+} 
+@enduml

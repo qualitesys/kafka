@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Deserializer<String> <|-- org.apache.kafka.common.serialization.StringDeserializer
+class org.apache.kafka.common.serialization.StringDeserializer {
++  configure(Map<String,?>;boolean)
++  deserialize(String;byte[])
+} 
+@enduml

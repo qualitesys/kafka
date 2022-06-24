@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TxnPartitionEntry"
+ , "c2" : "TxnPartitionEntry()"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "resetSequenceNumbers(Consumer<ProducerBatch>)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +104,7 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.producer.internals.TxnPartitionEntry.TxnPartitionEntry@POLYN157899 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.producer.internals.TxnPartitionEntry.TxnPartitionEntry@POLYN159611 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "NumberConverter<Double>"
+ , "c2" : "org.apache.kafka.connect.converters.DoubleConverter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.converters.DoubleConverter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DoubleConverter"
+ , "c2" : "DoubleConverter()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/DoubleConverter.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/DoubleConverter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +69,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/DoubleConverter.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.DoubleConverter.DoubleConverter@POLYN156805 the MagicNumber/String  'double' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.DoubleConverter.DoubleConverter@POLYN158517 the MagicNumber/String  'double' should be converted to const"
 }} 
 ]
 };

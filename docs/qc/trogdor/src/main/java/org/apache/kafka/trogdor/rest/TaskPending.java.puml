@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+TaskState <|-- org.apache.kafka.trogdor.rest.TaskPending
+class org.apache.kafka.trogdor.rest.TaskPending {
++  TaskPending(TaskSpec)
++  stateType()
+} 
+@enduml

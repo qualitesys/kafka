@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+StateStore <|-- org.apache.kafka.streams.state.internals.SegmentedBytesStore
+class org.apache.kafka.streams.state.internals.SegmentedBytesStore {
++  fetch(Bytes;long;long)
++  backwardFetch(Bytes;long;long)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;long;long)
++  all()
++  backwardAll()
++  fetchAll(long;long)
++  backwardFetchAll(long;long)
++  remove(Bytes)
++  remove(Bytes;long)
++  put(Bytes;byte[])
++  get(Bytes)
+} 
+@enduml

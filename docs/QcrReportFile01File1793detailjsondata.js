@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
+ , "c2" : "org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ContextualFixedKeyProcessor"
+ , "c2" : "ContextualFixedKeyProcessor()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(FixedKeyProcessorContext<KIn,VOut>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "FixedKeyProcessorContext<KIn,VOut>"
+ , "c2" : "context()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.ListOffsetsRequest
+class org.apache.kafka.common.requests.ListOffsetsRequest {
++  ListOffsetsRequest(ListOffsetsRequestData;short)
++  getErrorResponse(int;Throwable)
++  data()
++  replicaId()
++  isolationLevel()
++  topics()
++  duplicatePartitions()
++  parse(ByteBuffer;short)
++  toListOffsetsTopics(Map<TopicPartition,ListOffsetsPartition>)
++  singletonRequestData(String;int;long;int)
+} 
+@enduml

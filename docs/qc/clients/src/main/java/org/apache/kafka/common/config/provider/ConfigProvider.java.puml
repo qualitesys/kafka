@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.common.config.provider.ConfigProvider
+class org.apache.kafka.common.config.provider.ConfigProvider {
++  get(String)
++  get(String;Set<String>)
++  subscribe(String;Set<String>;ConfigChangeCallback)
++  unsubscribe(String;Set<String>;ConfigChangeCallback)
++  unsubscribeAll()
+} 
+@enduml

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "IOException"
+ , "c2" : "org.apache.kafka.common.security.kerberos.BadFormatString"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.kerberos.BadFormatString" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BadFormatString"
+ , "c2" : "BadFormatString(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BadFormatString"
+ , "c2" : "BadFormatString(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/BadFormatString.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/BadFormatString.java.svg" }
+
 ] 
 , 
 "data04" : [

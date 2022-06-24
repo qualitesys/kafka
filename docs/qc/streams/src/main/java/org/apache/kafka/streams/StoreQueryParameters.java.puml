@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.StoreQueryParameters
+class org.apache.kafka.streams.StoreQueryParameters {
++  StoreQueryParameters(String;QueryableStoreType<T>;Integer;boolean)
++  withPartition(Integer)
++  enableStaleStores()
++  storeName()
++  queryableStoreType()
++  partition()
++  staleStoresEnabled()
++  equals(Object)
++  toString()
++  hashCode()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+MeteredWindowStore<K,ValueAndTimestamp<V>>TimestampedWindowStore<K,V> <|-- org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore
+class org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore {
++  MeteredTimestampedWindowStore(WindowStore<Bytes,byte[]>;long;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)
++  prepareValueSerde(Serde<ValueAndTimestamp<V>>;SerdeGetter)
+} 
+@enduml

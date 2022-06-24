@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.VersionConditional
+class org.apache.kafka.message.VersionConditional {
++  forVersions(Versions;Versions)
++  VersionConditional(Versions;Versions)
++  ifMember(ClauseGenerator)
++  ifNotMember(ClauseGenerator)
++  alwaysEmitBlockScope(boolean)
++  allowMembershipCheckAlwaysFalse(boolean)
++  generateFullRangeCheck(Versions;Versions;CodeBuffer)
++  generateLowerRangeCheck(Versions;Versions;CodeBuffer)
++  generateUpperRangeCheck(Versions;Versions;CodeBuffer)
++  generateAlwaysTrueCheck(Versions;CodeBuffer)
++  generateAlwaysFalseCheck(Versions;CodeBuffer)
++  generate(CodeBuffer)
+} 
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.InFlightRequests
+class org.apache.kafka.clients.InFlightRequests {
++  InFlightRequests(int)
++  add(NetworkClient.InFlightRequest)
++  requestQueue(String)
++  completeNext(String)
++  lastSent(String)
++  completeLastSent(String)
++  canSendMore(String)
++  count(String)
++  isEmpty(String)
++  count()
++  isEmpty()
++  clearAll(String)
++  hasExpiredRequest(long;Deque<NetworkClient.InFlightRequest>)
++  nodesWithTimedOutRequests(long)
+} 
+@enduml

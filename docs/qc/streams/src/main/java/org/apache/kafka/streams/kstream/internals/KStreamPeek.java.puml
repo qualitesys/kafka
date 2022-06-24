@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+FixedKeyProcessorSupplier<K,V,V> <|-- org.apache.kafka.streams.kstream.internals.KStreamPeek
+class org.apache.kafka.streams.kstream.internals.KStreamPeek {
++  KStreamPeek(ForeachAction<K,V>)
++  get()
+} 
+@enduml

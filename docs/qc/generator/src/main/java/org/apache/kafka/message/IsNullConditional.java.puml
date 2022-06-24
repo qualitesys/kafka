@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.IsNullConditional
+class org.apache.kafka.message.IsNullConditional {
++  forName(String)
++  forField(FieldSpec)
++  IsNullConditional(String)
++  nullableVersions(Versions)
++  possibleVersions(Versions)
++  ifNull(Runnable)
++  ifShouldNotBeNull(Runnable)
++  alwaysEmitBlockScope(boolean)
++  conditionalGenerator(ConditionalGenerator)
++  generate(CodeBuffer)
+} 
+@enduml

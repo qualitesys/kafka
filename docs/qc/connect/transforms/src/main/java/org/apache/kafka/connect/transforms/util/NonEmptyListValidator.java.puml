@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ConfigDef.Validator <|-- org.apache.kafka.connect.transforms.util.NonEmptyListValidator
+class org.apache.kafka.connect.transforms.util.NonEmptyListValidator {
++  ensureValid(String;Object)
++  toString()
+} 
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<KeyValueStore<Bytes,byte[]>,Bytes,byte[]>KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.ListValueStore
+class org.apache.kafka.streams.state.internals.ListValueStore {
++  ListValueStore(KeyValueStore<Bytes,byte[]>)
++  put(Bytes;byte[])
++  putIfAbsent(Bytes;byte[])
++  putInternal(Bytes;byte[];byte[])
++  putAll(List<KeyValue<Bytes,byte[]>>)
++  delete(Bytes)
++  get(Bytes)
++  range(Bytes;Bytes)
++  all()
++  approximateNumEntries()
+} 
+@enduml

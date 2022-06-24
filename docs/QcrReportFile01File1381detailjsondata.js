@@ -8,12 +8,135 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.timeline.SnapshotRegistry"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.timeline.SnapshotRegistry" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SnapshotRegistry"
+ , "c2" : "SnapshotRegistry(LogContext)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterator<Snapshot>"
+ , "c2" : "iterator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterator<Snapshot>"
+ , "c2" : "iterator(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterator<Snapshot>"
+ , "c2" : "iterator(Snapshot)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterator<Snapshot>"
+ , "c2" : "reverseIterator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<Long>"
+ , "c2" : "epochsList()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasSnapshot(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Snapshot"
+ , "c2" : "getSnapshot(long)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Snapshot"
+ , "c2" : "getOrCreateSnapshot(long)"
+ , "c3" : "4"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "revertToSnapshot(long)"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "deleteSnapshot(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "deleteSnapshot(Snapshot)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "deleteSnapshotsUpTo(long)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "latestEpoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "register(Revertable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "reset()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN189223 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN190935 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN189223 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN190935 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,35 +279,35 @@ var maDataBlocs = {
    "c1" : "00122"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN192665 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN194377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN192665 the MagicNumber/String  'No snapshot for epoch ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN194377 the MagicNumber/String  'No snapshot for epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN192665 the MagicNumber/String  '. Snapshot ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN194377 the MagicNumber/String  '. Snapshot ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN192665 the MagicNumber/String  'epochs are: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN194377 the MagicNumber/String  'epochs are: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN192665 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN194377 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,21 +321,21 @@ var maDataBlocs = {
    "c1" : "00134"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN193501 the MagicNumber/String  'Can't create a new snapshot at epoch ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN195213 the MagicNumber/String  'Can't create a new snapshot at epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN193501 the MagicNumber/String  ' because there is already a snapshot with epoch ' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN195213 the MagicNumber/String  ' because there is already a snapshot with epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN193501 the MagicNumber/String  'Creating snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN195213 the MagicNumber/String  'Creating snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -233,7 +356,7 @@ var maDataBlocs = {
    "c1" : "00153"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.timeline.SnapshotRegistry.revertToSnapshot@POLYN194520 the MagicNumber/String  'Deleting snapshot {} because we are reverting to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.timeline.SnapshotRegistry.revertToSnapshot@POLYN196232 the MagicNumber/String  'Deleting snapshot {} because we are reverting to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -261,7 +384,7 @@ var maDataBlocs = {
    "c1" : "00173"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshot@POLYN195533 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshot@POLYN197245 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -282,7 +405,7 @@ var maDataBlocs = {
    "c1" : "00184"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshotsUpTo@POLYN196204 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshotsUpTo@POLYN197916 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {

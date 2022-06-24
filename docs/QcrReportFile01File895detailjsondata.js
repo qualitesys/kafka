@@ -2,18 +2,57 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java 7 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java 9 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.utils.Crc32C"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.Crc32C" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Crc32C"
+ , "c2" : "Crc32C()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "compute(byte[];int;int)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "compute(ByteBuffer;int;int)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Checksum"
+ , "c2" : "create()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,6 +97,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -76,10 +122,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00026] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN168785"
+}} 
+,
+{ "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00033] For method compute arguments ByteBuffer  buffer|int  offset|int  size"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00033] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN169377"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Produced<K,V> <|-- org.apache.kafka.streams.kstream.internals.ProducedInternal
+class org.apache.kafka.streams.kstream.internals.ProducedInternal {
++  ProducedInternal(Produced<K,V>)
++  keySerde()
++  valueSerde()
++  streamPartitioner()
++  name()
+} 
+@enduml

@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "GraphNode"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ProcessorGraphNode"
+ , "c2" : "ProcessorGraphNode(ProcessorParameters<K,V,?,?>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProcessorGraphNode"
+ , "c2" : "ProcessorGraphNode(String;ProcessorParameters<K,V,?,?>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProcessorParameters<K,V,?,?>"
+ , "c2" : "processorParameters()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeToTopology(InternalTopologyBuilder)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,21 +118,21 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode.toString@POLYN158131 the MagicNumber/String  'ProcessorNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode.toString@POLYN159843 the MagicNumber/String  'ProcessorNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode.toString@POLYN158131 the MagicNumber/String  'processorParameters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode.toString@POLYN159843 the MagicNumber/String  'processorParameters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode.toString@POLYN158131 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode.toString@POLYN159843 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ,
 { "ligne" : {

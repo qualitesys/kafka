@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.requests.RequestAndSize
+class org.apache.kafka.common.requests.RequestAndSize {
++  RequestAndSize(AbstractRequest;int)
+} 
+@enduml

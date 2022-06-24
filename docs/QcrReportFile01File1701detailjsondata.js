@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.SessionTupleForwarder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.SessionTupleForwarder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SessionTupleForwarder"
+ , "c2" : "SessionTupleForwarder(StateStore;ProcessorContext<Windowed<K>,Change<V>>;CacheFlushListener<Windowed<K>,V>;boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeForward(Record<Windowed<K>,Change<V>>)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionTupleForwarder.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionTupleForwarder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionTupleForwarder.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.SessionTupleForwarder.maybeForward@POLYN162183 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.SessionTupleForwarder.maybeForward@POLYN163895 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionTupleForwarder.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.SessionTupleForwarder.maybeForward@POLYN162183 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.SessionTupleForwarder.maybeForward@POLYN163895 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

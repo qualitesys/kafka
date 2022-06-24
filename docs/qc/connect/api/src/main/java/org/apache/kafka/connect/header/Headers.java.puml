@@ -1,0 +1,36 @@
+@startuml
+!pragma layout smetana
+Iterable<Header> <|-- org.apache.kafka.connect.header.Headers
+class org.apache.kafka.connect.header.Headers {
++  size()
++  isEmpty()
++  allWithName(String)
++  lastWithName(String)
++  add(Header)
++  add(String;SchemaAndValue)
++  add(String;Object;Schema)
++  addString(String;String)
++  addBoolean(String;boolean)
++  addByte(String;byte)
++  addShort(String;short)
++  addInt(String;int)
++  addLong(String;long)
++  addFloat(String;float)
++  addDouble(String;double)
++  addBytes(String;byte[])
++  addList(String;List<?>;Schema)
++  addMap(String;Map<?,?>;Schema)
++  addStruct(String;Struct)
++  addDecimal(String;BigDecimal)
++  addDate(String;java.util.Date)
++  addTime(String;java.util.Date)
++  addTimestamp(String;java.util.Date)
++  remove(String)
++  retainLatest(String)
++  retainLatest()
++  clear()
++  duplicate()
++  apply(HeaderTransform)
++  apply(String;HeaderTransform)
+} 
+@enduml

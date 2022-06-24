@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.RecordMetadata
+class org.apache.kafka.clients.producer.RecordMetadata {
++  RecordMetadata(TopicPartition;long;int;long;int;int)
++  RecordMetadata(TopicPartition;long;long;long;Long;int;int)
++  batchIndexToInt(long)
++  hasOffset()
++  offset()
++  hasTimestamp()
++  timestamp()
++  serializedKeySize()
++  serializedValueSize()
++  topic()
++  partition()
++  toString()
+} 
+@enduml

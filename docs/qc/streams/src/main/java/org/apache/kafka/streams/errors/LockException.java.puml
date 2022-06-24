@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.LockException
+class org.apache.kafka.streams.errors.LockException {
++  LockException(String)
++  LockException(String;Throwable)
++  LockException(Throwable)
+} 
+@enduml

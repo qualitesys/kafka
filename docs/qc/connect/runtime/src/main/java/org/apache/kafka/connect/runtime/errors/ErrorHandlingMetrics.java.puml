@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics
+class org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics {
++  ErrorHandlingMetrics(ConnectorTaskId;ConnectMetrics)
++  recordFailure()
++  recordError()
++  recordSkipped()
++  recordRetry()
++  recordErrorLogged()
++  recordDeadLetterQueueProduceRequest()
++  recordDeadLetterQueueProduceFailed()
++  recordErrorTimestamp()
++  metricGroup()
+} 
+@enduml

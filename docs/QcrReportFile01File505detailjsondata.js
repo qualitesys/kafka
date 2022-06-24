@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ChannelBuilder"
+ , "c2" : "org.apache.kafka.common.network.PlaintextChannelBuilder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.network.PlaintextChannelBuilder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "PlaintextChannelBuilder"
+ , "c2" : "PlaintextChannelBuilder(ListenerName)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaChannel"
+ , "c2" : "buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaChannel"
+ , "c2" : "buildChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PlaintextTransportLayer"
+ , "c2" : "buildTransportLayer(SelectionKey)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,14 +153,14 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN169243 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN170955 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN169243 the MagicNumber/String  'Failed to create channel due to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN170955 the MagicNumber/String  'Failed to create channel due to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,42 +188,42 @@ var maDataBlocs = {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN170962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN172674 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN170962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN172674 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN171462 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN173174 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN171462 the MagicNumber/String  'Unexpected call to principal() when listenerName is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN173174 the MagicNumber/String  'Unexpected call to principal() when listenerName is null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.complete@POLYN172186 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.complete@POLYN173898 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.close@POLYN172280 the MagicNumber/String  'principal builder' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.close@POLYN173992 the MagicNumber/String  'principal builder' should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.CreateConnectorRequest
+class org.apache.kafka.connect.runtime.rest.entities.CreateConnectorRequest {
++  CreateConnectorRequest(String;Map<String,String>)
++  name()
++  config()
++  equals(Object)
++  hashCode()
+} 
+@enduml

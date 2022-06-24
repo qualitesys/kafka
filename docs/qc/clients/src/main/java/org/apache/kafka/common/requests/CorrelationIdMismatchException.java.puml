@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+IllegalStateException <|-- org.apache.kafka.common.requests.CorrelationIdMismatchException
+class org.apache.kafka.common.requests.CorrelationIdMismatchException {
++  CorrelationIdMismatchException(String;int;int)
++  requestCorrelationId()
++  responseCorrelationId()
+} 
+@enduml

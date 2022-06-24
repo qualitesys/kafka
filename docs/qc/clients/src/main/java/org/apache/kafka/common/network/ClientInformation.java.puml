@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.network.ClientInformation
+class org.apache.kafka.common.network.ClientInformation {
++  ClientInformation(String;String)
++  softwareName()
++  softwareVersion()
++  toString()
++  hashCode()
++  equals(Object)
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.CodeBuffer
+class org.apache.kafka.message.CodeBuffer {
++  CodeBuffer()
++  incrementIndent()
++  decrementIndent()
++  printf(String;Object...)
++  write(Writer)
++  write(CodeBuffer)
++  indentSpaces()
++  equals(Object)
++  hashCode()
+} 
+@enduml

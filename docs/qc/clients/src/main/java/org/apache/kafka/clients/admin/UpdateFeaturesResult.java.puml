@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.UpdateFeaturesResult
+class org.apache.kafka.clients.admin.UpdateFeaturesResult {
++  UpdateFeaturesResult(Map<String,KafkaFuture<Void>>)
++  values()
++  all()
+} 
+@enduml

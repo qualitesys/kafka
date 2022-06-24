@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+AbstractProcessorContext<Object,Object>RecordCollector.Supplier <|-- org.apache.kafka.streams.processor.internals.ProcessorContextImpl
+class org.apache.kafka.streams.processor.internals.ProcessorContextImpl {
++  ProcessorContextImpl(TaskId;StreamsConfig;ProcessorStateManager;StreamsMetricsImpl;ThreadCache)
++  transitionToActive(StreamTask;RecordCollector;ThreadCache)
++  transitionToStandby(ThreadCache)
++  registerCacheFlushListener(String;DirtyEntryFlushListener)
++  addAllFlushListenersToNewCache()
++  stateManager()
++  recordCollector()
++  logChange(String;Bytes;byte[];long;Position)
++  commit()
++  schedule(Duration;PunctuationType;Punctuator)
++  topic()
++  partition()
++  offset()
++  timestamp()
++  currentStreamTimeMs()
++  currentNode()
++  setRecordContext(ProcessorRecordContext)
++  recordContext()
++  throwUnsupportedOperationExceptionIfStandby(String)
+} 
+@enduml

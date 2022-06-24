@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.common.errors.ListenerNotFoundException
+class org.apache.kafka.common.errors.ListenerNotFoundException {
++  ListenerNotFoundException(String)
++  ListenerNotFoundException(String;Throwable)
+} 
+@enduml

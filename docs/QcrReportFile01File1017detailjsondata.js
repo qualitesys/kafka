@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.mirror.RemoteClusterUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.RemoteClusterUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RemoteClusterUtils"
+ , "c2" : "RemoteClusterUtils()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "replicationHops(Map<String,Object>;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "heartbeatTopics(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "checkpointTopics(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "upstreamClusters(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+ , "c2" : "translateOffsets(Map<String,Object>;String;String;Duration)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.svg" }
+
 ] 
 , 
 "data04" : [

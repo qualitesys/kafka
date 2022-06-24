@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter
+class org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter {
++  SourceTaskOffsetCommitter(WorkerConfig;ScheduledExecutorService;ConcurrentMap<ConnectorTaskId,ScheduledFuture<?>>)
++  SourceTaskOffsetCommitter(WorkerConfig)
++  close(long)
++  schedule(ConnectorTaskId;WorkerSourceTask)
++  remove(ConnectorTaskId)
++  commit(WorkerSourceTask)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.TopicCreationConfig
+class org.apache.kafka.connect.runtime.TopicCreationConfig {
++  validatePartitions(String;int)
++  validateReplicationFactor(String;short)
++  configDef(String;short;int)
++  defaultGroupConfigDef()
+} 
+@enduml

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskSpec"
+ , "c2" : "org.apache.kafka.trogdor.task.NoOpTaskSpec"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.task.NoOpTaskSpec" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "NoOpTaskSpec"
+ , "c2" : "NoOpTaskSpec(long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.svg" }
+
 ] 
 , 
 "data04" : [

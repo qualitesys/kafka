@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.RenewDelegationTokenRequest
+class org.apache.kafka.common.requests.RenewDelegationTokenRequest {
++  RenewDelegationTokenRequest(RenewDelegationTokenRequestData;short)
++  parse(ByteBuffer;short)
++  data()
++  getErrorResponse(int;Throwable)
+} 
+@enduml

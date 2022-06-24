@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.OffsetSync
+class org.apache.kafka.connect.mirror.OffsetSync {
++  OffsetSync(TopicPartition;long;long)
++  topicPartition()
++  upstreamOffset()
++  downstreamOffset()
++  toString()
++  serializeValue()
++  serializeKey()
++  deserializeRecord(ConsumerRecord<byte[],byte[]>)
++  valueStruct()
++  keyStruct()
++  recordKey()
++  recordValue()
+} 
+@enduml

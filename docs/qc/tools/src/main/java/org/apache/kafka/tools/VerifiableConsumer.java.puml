@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.tools.VerifiableConsumer
+class org.apache.kafka.tools.VerifiableConsumer {
++  VerifiableConsumer(KafkaConsumer<String,String>;PrintStream;String;int;boolean;boolean;boolean)
++  addKafkaSerializerModule()
++  hasMessageLimit()
++  isFinished()
++  onRecordsReceived(ConsumerRecords<String,String>)
++  onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception)
++  onPartitionsAssigned(Collection<TopicPartition>)
++  onPartitionsRevoked(Collection<TopicPartition>)
++  printJson(Object)
++  commitSync(Map<TopicPartition,OffsetAndMetadata>)
++  run()
++  close()
++  argParser()
++  createFromArgs(ArgumentParser;String[])
++  main(String[])
+} 
+@enduml

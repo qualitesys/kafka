@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.timeline.BaseHashTable
+class org.apache.kafka.timeline.BaseHashTable {
++  BaseHashTable(int)
++  expectedSizeToCapacity(int)
++  roundUpToPowerOfTwo(long)
++  baseSize()
++  baseElements()
++  baseGet(Object)
++  baseAddOrReplace(T)
++  baseRemove(Object)
++  rehash(int)
++  findSlot(Object;int)
++  baseToDebugString()
+} 
+@enduml

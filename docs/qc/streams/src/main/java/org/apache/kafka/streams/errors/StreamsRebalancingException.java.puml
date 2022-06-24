@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidStateStoreException <|-- org.apache.kafka.streams.errors.StreamsRebalancingException
+class org.apache.kafka.streams.errors.StreamsRebalancingException {
++  StreamsRebalancingException(String)
++  StreamsRebalancingException(String;Throwable)
+} 
+@enduml

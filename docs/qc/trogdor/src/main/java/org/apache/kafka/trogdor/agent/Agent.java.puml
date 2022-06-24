@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.agent.Agent
+class org.apache.kafka.trogdor.agent.Agent {
++  Agent(Platform;Scheduler;JsonRestServer;AgentRestResource)
++  port()
++  beginShutdown()
++  waitForShutdown()
++  status()
++  uptime()
++  createWorker(CreateWorkerRequest)
++  stopWorker(StopWorkerRequest)
++  destroyWorker(DestroyWorkerRequest)
++  rebaseTaskSpecTime(TaskSpec)
++  exec(TaskSpec;PrintStream)
++  main(String[])
+} 
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.InternalTopicManager
+class org.apache.kafka.streams.processor.internals.InternalTopicManager {
++  InternalTopicManager(Time;Admin;StreamsConfig)
++  validate(Map<String,InternalTopicConfig>)
++  validatePartitionCount(ValidationResult;InternalTopicConfig;TopicDescription)
++  validateCleanupPolicy(ValidationResult;InternalTopicConfig;Config)
++  validateCleanupPolicyForUnwindowedChangelogs(ValidationResult;InternalTopicConfig;Config)
++  validateCleanupPolicyForWindowedChangelogs(ValidationResult;InternalTopicConfig;Config)
++  validateCleanupPolicyForRepartitionTopic(ValidationResult;InternalTopicConfig;Config)
++  getBrokerSideConfigValue(Config;String;String)
++  makeReady(Map<String,InternalTopicConfig>)
++  getNumPartitions(Set<String>;Set<String>)
++  validateTopics(Set<String>;Map<String,InternalTopicConfig>;Set<String>)
++  setup(Map<String,InternalTopicConfig>)
++  processCreateTopicResults(CreateTopicsResult;Set<String>;Set<String>;long)
++  cleanUpCreatedTopics(Set<String>)
++  maybeThrowTimeoutException(List<Set<String>>;long;String)
++  maybeThrowTimeoutExceptionDuringSetup(Set<String>;Set<String>;Map<String,Throwable>;long)
++  maybeSleep(List<Set<String>>;long;String)
+} 
+@enduml

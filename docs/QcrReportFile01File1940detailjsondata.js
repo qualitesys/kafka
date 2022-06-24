@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StoreSupplier<KeyValueStore<Bytes,byte[]>>"
+ , "c2" : "org.apache.kafka.streams.state.KeyValueBytesStoreSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.KeyValueBytesStoreSupplier" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueBytesStoreSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueBytesStoreSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [

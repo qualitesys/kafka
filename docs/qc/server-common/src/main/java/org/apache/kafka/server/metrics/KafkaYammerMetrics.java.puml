@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Reconfigurable <|-- org.apache.kafka.server.metrics.KafkaYammerMetrics
+class org.apache.kafka.server.metrics.KafkaYammerMetrics {
++  defaultRegistry()
++  KafkaYammerMetrics()
++  configure(Map<String,?>)
++  reconfigurableConfigs()
++  validateReconfiguration(Map<String,?>)
++  reconfigure(Map<String,?>)
++  getMetricName(String;String;String)
++  getMetricName(String;String;String;LinkedHashMap<String,String>)
++  toMBeanName(LinkedHashMap<String,String>)
++  toScope(Map<String,String>)
+} 
+@enduml

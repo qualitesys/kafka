@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.PartitionGroup
+class org.apache.kafka.streams.processor.internals.PartitionGroup {
++  PartitionGroup(LogContext;Map<TopicPartition,RecordQueue>;Function<TopicPartition,OptionalLong>;Sensor;Sensor;Sensor;long)
++  readyToProcess(long)
++  partitionTimestamp(TopicPartition)
++  updatePartitions(Set<TopicPartition>;Function<TopicPartition,RecordQueue>)
++  setPartitionTime(TopicPartition;long)
++  nextRecord(RecordInfo;long)
++  addRawRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)
++  partitions()
++  streamTime()
++  headRecordOffset(TopicPartition)
++  numBuffered(TopicPartition)
++  getNonEmptyTopicPartitions()
++  numBuffered()
++  totalBytesBuffered()
++  clear()
++  close()
++  allPartitionsBufferedLocally()
+} 
+@enduml

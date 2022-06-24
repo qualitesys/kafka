@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+Comparable<StandardAcl> <|-- org.apache.kafka.metadata.authorizer.StandardAcl
+class org.apache.kafka.metadata.authorizer.StandardAcl {
++  fromRecord(AccessControlEntryRecord)
++  fromAclBinding(AclBinding)
++  StandardAcl(ResourceType;String;PatternType;String;String;AclOperation;AclPermissionType)
++  resourceType()
++  resourceName()
++  patternType()
++  principal()
++  kafkaPrincipal()
++  host()
++  operation()
++  permissionType()
++  toBinding()
++  equals(Object)
++  hashCode()
++  compareTo(StandardAcl)
++  toString()
+} 
+@enduml

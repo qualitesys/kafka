@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.BrokerRegistration
+class org.apache.kafka.metadata.BrokerRegistration {
++  listenersToMap(Collection<Endpoint>)
++  BrokerRegistration(int;long;Uuid;List<Endpoint>;Map<String,VersionRange>;Optional<String>;boolean;boolean)
++  BrokerRegistration(int;long;Uuid;Map<String,Endpoint>;Map<String,VersionRange>;Optional<String>;boolean;boolean)
++  fromRecord(RegisterBrokerRecord)
++  id()
++  epoch()
++  incarnationId()
++  listeners()
++  node(String)
++  supportedFeatures()
++  rack()
++  fenced()
++  inControlledShutdown()
++  toRecord(MetadataVersion)
++  hashCode()
++  equals(Object)
++  toString()
++  cloneWith(Optional<Boolean>;Optional<Boolean>)
+} 
+@enduml

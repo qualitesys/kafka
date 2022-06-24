@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StreamPartitioner<Windowed<K>,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "WindowedStreamPartitioner"
+ , "c2" : "WindowedStreamPartitioner(WindowedSerializer<K>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Integer"
+ , "c2" : "partition(String;Windowed<K>;V;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.svg" }
+
 ] 
 , 
 "data04" : [

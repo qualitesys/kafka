@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Callback <|-- org.apache.kafka.common.security.scram.ScramExtensionsCallback
+class org.apache.kafka.common.security.scram.ScramExtensionsCallback {
++  extensions()
++  extensions(Map<String,String>)
+} 
+@enduml

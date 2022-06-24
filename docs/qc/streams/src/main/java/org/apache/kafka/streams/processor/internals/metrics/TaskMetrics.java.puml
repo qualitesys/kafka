@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.TaskMetrics
+class org.apache.kafka.streams.processor.internals.metrics.TaskMetrics {
++  TaskMetrics()
++  processLatencySensor(String;String;StreamsMetricsImpl)
++  activeProcessRatioSensor(String;String;StreamsMetricsImpl)
++  activeBufferedRecordsSensor(String;String;StreamsMetricsImpl)
++  totalInputBufferBytesSensor(String;String;StreamsMetricsImpl)
++  totalCacheSizeBytesSensor(String;String;StreamsMetricsImpl)
++  punctuateSensor(String;String;StreamsMetricsImpl)
++  commitSensor(String;String;StreamsMetricsImpl;Sensor...)
++  enforcedProcessingSensor(String;String;StreamsMetricsImpl;Sensor...)
++  recordLatenessSensor(String;String;StreamsMetricsImpl)
++  droppedRecordsSensor(String;String;StreamsMetricsImpl)
++  invocationRateAndCountSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)
++  avgAndMaxSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)
++  invocationRateAndCountAndAvgAndMaxLatencySensor(String;String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)
+} 
+@enduml

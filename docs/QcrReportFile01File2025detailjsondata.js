@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "MeteredKeyValueStore<K,ValueAndTimestamp<V>>TimestampedKeyValueStore<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MeteredTimestampedKeyValueStore"
+ , "c2" : "MeteredTimestampedKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<ValueAndTimestamp<V>>"
+ , "c2" : "prepareValueSerdeForStore(Serde<ValueAndTimestamp<V>>;SerdeGetter)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RawAndDeserializedValue<V>"
+ , "c2" : "getWithBinary(K)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "putIfDifferentValues(K;ValueAndTimestamp<V>;byte[])"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.prepareValueSerdeForStore@POLYN169917 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.prepareValueSerdeForStore@POLYN171629 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,14 +146,14 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.putIfDifferentValues@POLYN171197 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.putIfDifferentValues@POLYN172909 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.putIfDifferentValues@POLYN171197 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.putIfDifferentValues@POLYN172909 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {

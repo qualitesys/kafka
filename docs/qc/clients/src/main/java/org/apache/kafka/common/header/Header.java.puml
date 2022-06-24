@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.header.Header
+class org.apache.kafka.common.header.Header {
++  key()
++  value()
+} 
+@enduml

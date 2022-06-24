@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<DescribeConsumerGroupsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeConsumerGroupsOptions"
+ , "c2" : "includeAuthorizedOperations(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "includeAuthorizedOperations()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

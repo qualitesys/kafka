@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+TaskWorker <|-- org.apache.kafka.trogdor.workload.SustainedConnectionWorker
+class org.apache.kafka.trogdor.workload.SustainedConnectionWorker {
++  SustainedConnectionWorker(String;SustainedConnectionSpec)
++  start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)
++  findConnectionToMaintain()
++  stop(Platform)
+} 
+@enduml

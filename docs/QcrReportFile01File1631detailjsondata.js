@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Deserializer<Change<T>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.ChangedDeserializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.ChangedDeserializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ChangedDeserializer"
+ , "c2" : "ChangedDeserializer(Deserializer<T>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Deserializer<T>"
+ , "c2" : "inner()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setIfUnset(SerdeGetter)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Change<T>"
+ , "c2" : "deserialize(String;Headers;byte[])"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Change<T>"
+ , "c2" : "deserialize(String;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.setIfUnset@POLYN161048 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.setIfUnset@POLYN162760 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,35 +160,35 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN161367 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN163079 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN161367 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN163079 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN161367 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN163079 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN161367 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN163079 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN161367 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN163079 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +202,7 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN162424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN164136 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

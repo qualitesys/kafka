@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.JoinGroupResponse
+class org.apache.kafka.common.requests.JoinGroupResponse {
++  JoinGroupResponse(JoinGroupResponseData)
++  data()
++  isLeader()
++  throttleTimeMs()
++  error()
++  errorCounts()
++  parse(ByteBuffer;short)
++  toString()
++  shouldClientThrottle(short)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+KeyValueIterator<K,V> <|-- org.apache.kafka.streams.state.internals.CompositeKeyValueIterator
+class org.apache.kafka.streams.state.internals.CompositeKeyValueIterator {
++  CompositeKeyValueIterator(Iterator<StoreType>;NextIteratorFunction<K,V,StoreType>)
++  close()
++  peekNextKey()
++  hasNext()
++  next()
+} 
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+RemotePartitionMetadataEventHandlerCloseable <|-- org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore
+class org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore {
++  RemotePartitionMetadataStore(Path)
++  handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)
++  partitionLogDirectory(TopicPartition)
++  handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate)
++  handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)
++  syncLogMetadataSnapshot(TopicIdPartition;int;Long)
++  clearTopicPartition(TopicIdPartition)
++  listRemoteLogSegments(TopicIdPartition)
++  listRemoteLogSegments(TopicIdPartition;int)
++  getRemoteLogMetadataCache(TopicIdPartition)
++  remoteLogSegmentMetadata(TopicIdPartition;long;int)
++  highestLogOffset(TopicIdPartition;int)
++  close()
++  maybeLoadPartition(TopicIdPartition)
+} 
+@enduml

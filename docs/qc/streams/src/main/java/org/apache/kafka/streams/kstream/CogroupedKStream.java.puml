@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.CogroupedKStream
+class org.apache.kafka.streams.kstream.CogroupedKStream {
++  aggregate(Initializer<VOut>)
++  aggregate(Initializer<VOut>;Named)
++  aggregate(Initializer<VOut>;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)
++  aggregate(Initializer<VOut>;Named;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)
++  windowedBy(SlidingWindows)
++  windowedBy(SessionWindows)
+} 
+@enduml

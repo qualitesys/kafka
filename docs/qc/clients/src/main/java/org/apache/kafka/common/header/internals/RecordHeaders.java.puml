@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+Headers <|-- org.apache.kafka.common.header.internals.RecordHeaders
+class org.apache.kafka.common.header.internals.RecordHeaders {
++  RecordHeaders()
++  RecordHeaders(Header[])
++  RecordHeaders(Iterable<Header>)
++  add(Header)
++  add(String;byte[])
++  remove(String)
++  lastHeader(String)
++  headers(String)
++  iterator()
++  setReadOnly()
++  toArray()
++  checkKey(String)
++  canWrite()
++  closeAware(Iterator<Header>)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

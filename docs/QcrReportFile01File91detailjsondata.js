@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<DescribeTransactionsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeTransactionsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeTransactionsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,21 +69,21 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsOptions.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.clients.admin.DescribeTransactionsOptions.toString@POLYN154472 the MagicNumber/String  'DescribeTransactionsOptions(' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.clients.admin.DescribeTransactionsOptions.toString@POLYN156184 the MagicNumber/String  'DescribeTransactionsOptions(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsOptions.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.clients.admin.DescribeTransactionsOptions.toString@POLYN154472 the MagicNumber/String  'timeoutMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.clients.admin.DescribeTransactionsOptions.toString@POLYN156184 the MagicNumber/String  'timeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsOptions.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.admin.DescribeTransactionsOptions.toString@POLYN154472 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.admin.DescribeTransactionsOptions.toString@POLYN156184 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

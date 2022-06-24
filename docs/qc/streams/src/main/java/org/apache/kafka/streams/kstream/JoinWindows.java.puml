@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+Windows<Window> <|-- org.apache.kafka.streams.kstream.JoinWindows
+class org.apache.kafka.streams.kstream.JoinWindows {
++  JoinWindows(JoinWindows)
++  JoinWindows(long;long;long;boolean)
++  ofTimeDifferenceAndGrace(Duration;Duration)
++  ofTimeDifferenceWithNoGrace(Duration)
++  of(Duration)
++  before(Duration)
++  after(Duration)
++  windowsFor(long)
++  size()
++  grace(Duration)
++  gracePeriodMs()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

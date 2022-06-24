@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.transforms.util.SchemaUtil
+class org.apache.kafka.connect.transforms.util.SchemaUtil {
++  copySchemaBasics(Schema)
++  copySchemaBasics(Schema;SchemaBuilder)
+} 
+@enduml

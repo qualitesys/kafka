@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.TimeoutException
+class org.apache.kafka.common.errors.TimeoutException {
++  TimeoutException()
++  TimeoutException(String;Throwable)
++  TimeoutException(String)
++  TimeoutException(Throwable)
+} 
+@enduml

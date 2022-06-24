@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.clients.producer.Partitioner
+class org.apache.kafka.clients.producer.Partitioner {
++  partition(String;Object;byte[];Object;byte[];Cluster)
++  close()
++  onNewBatch(String;Cluster;int)
+} 
+@enduml

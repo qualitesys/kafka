@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.CoordinatorNotAvailableException
+class org.apache.kafka.common.errors.CoordinatorNotAvailableException {
++  CoordinatorNotAvailableException()
++  CoordinatorNotAvailableException(String)
++  CoordinatorNotAvailableException(String;Throwable)
+} 
+@enduml

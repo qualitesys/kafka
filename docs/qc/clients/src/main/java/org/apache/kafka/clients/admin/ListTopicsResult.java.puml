@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ListTopicsResult
+class org.apache.kafka.clients.admin.ListTopicsResult {
++  ListTopicsResult(KafkaFuture<Map<String,TopicListing>>)
++  namesToListings()
++  listings()
++  names()
+} 
+@enduml

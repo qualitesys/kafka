@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.DuplicateBrokerRegistrationException
+class org.apache.kafka.common.errors.DuplicateBrokerRegistrationException {
++  DuplicateBrokerRegistrationException(String)
++  DuplicateBrokerRegistrationException(String;Throwable)
+} 
+@enduml

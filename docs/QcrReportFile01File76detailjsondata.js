@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeConsumerGroupsResult"
+ , "c2" : "DescribeConsumerGroupsResult(Map<String,KafkaFuture<ConsumerGroupDescription>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,KafkaFuture<ConsumerGroupDescription>>"
+ , "c2" : "describedGroups()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<String,ConsumerGroupDescription>>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.DescribeConsumerGroupsResult.all@POLYN161726 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.DescribeConsumerGroupsResult.all@POLYN163438 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

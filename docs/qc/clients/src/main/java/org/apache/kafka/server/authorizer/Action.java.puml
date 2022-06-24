@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.authorizer.Action
+class org.apache.kafka.server.authorizer.Action {
++  Action(AclOperation;ResourcePattern;int;boolean;boolean)
++  resourcePattern()
++  operation()
++  logIfAllowed()
++  logIfDenied()
++  resourceReferenceCount()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

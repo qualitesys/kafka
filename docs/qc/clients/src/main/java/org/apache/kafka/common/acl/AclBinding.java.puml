@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.acl.AclBinding
+class org.apache.kafka.common.acl.AclBinding {
++  AclBinding(ResourcePattern;AccessControlEntry)
++  isUnknown()
++  pattern()
++  entry()
++  toFilter()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

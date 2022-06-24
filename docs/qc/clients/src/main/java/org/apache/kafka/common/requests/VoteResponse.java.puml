@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.VoteResponse
+class org.apache.kafka.common.requests.VoteResponse {
++  VoteResponse(VoteResponseData)
++  singletonResponse(Errors;TopicPartition;Errors;int;int;boolean)
++  errorCounts()
++  data()
++  throttleTimeMs()
++  parse(ByteBuffer;short)
+} 
+@enduml

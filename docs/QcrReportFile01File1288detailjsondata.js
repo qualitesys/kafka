@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "BaseRecordBatchBenchmark"
+ , "c2" : "org.apache.kafka.jmh.record.RecordBatchIterationBenchmark"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.jmh.record.RecordBatchIterationBenchmark" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CompressionType"
+ , "c2" : "compressionType()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "measureIteratorForBatchWithSingleMessage(Blackhole)"
+ , "c3" : "3"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "measureStreamingIteratorForVariableBatchSize(Blackhole)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "measureSkipIteratorForVariableBatchSize(Blackhole)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.png" 
+
+ , "ligneplantuml" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -128,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.record.RecordBatchIterationBenchmark.measureStreamingIteratorForVariableBatchSize@POLYN167056 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.record.RecordBatchIterationBenchmark.measureStreamingIteratorForVariableBatchSize@POLYN168768 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.record.RecordBatchIterationBenchmark.measureSkipIteratorForVariableBatchSize@POLYN167896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.record.RecordBatchIterationBenchmark.measureSkipIteratorForVariableBatchSize@POLYN169608 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Sanitizer
+class org.apache.kafka.common.utils.Sanitizer {
++  sanitize(String)
++  desanitize(String)
++  jmxSanitize(String)
+} 
+@enduml

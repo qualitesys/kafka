@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+Reconfigurable <|-- org.apache.kafka.common.metrics.MetricsReporter
+class org.apache.kafka.common.metrics.MetricsReporter {
++  init(List<KafkaMetric>)
++  metricChange(KafkaMetric)
++  metricRemoval(KafkaMetric)
++  close()
++  reconfigurableConfigs()
++  validateReconfiguration(Map<String,?>)
++  reconfigure(Map<String,?>)
++  contextChange(MetricsContext)
+} 
+@enduml

@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Joined<K,V,VO>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.JoinedInternal"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.JoinedInternal" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "JoinedInternal"
+ , "c2" : "JoinedInternal(Joined<K,V,VO>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<K>"
+ , "c2" : "keySerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<V>"
+ , "c2" : "valueSerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<VO>"
+ , "c2" : "otherValueSerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.svg" }
+
 ] 
 , 
 "data04" : [

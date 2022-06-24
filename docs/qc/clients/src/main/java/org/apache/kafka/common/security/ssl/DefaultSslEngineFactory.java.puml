@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+SslEngineFactory <|-- org.apache.kafka.common.security.ssl.DefaultSslEngineFactory
+class org.apache.kafka.common.security.ssl.DefaultSslEngineFactory {
++  createClientSslEngine(String;int;String)
++  createServerSslEngine(String;int)
++  shouldBeRebuilt(Map<String,Object>)
++  reconfigurableConfigs()
++  keystore()
++  truststore()
++  configure(Map<String,?>)
++  close()
++  sslContext()
++  createSslEngine(Mode;String;int;String)
++  createSslClientAuth(String)
++  createSecureRandom(String)
++  createSSLContext(SecurityStore;SecurityStore)
++  createKeystore(String;String;Password;Password;Password;Password)
++  createTruststore(String;String;Password;Password)
+} 
+@enduml

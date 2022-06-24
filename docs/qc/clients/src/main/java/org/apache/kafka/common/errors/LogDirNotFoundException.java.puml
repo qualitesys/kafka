@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.LogDirNotFoundException
+class org.apache.kafka.common.errors.LogDirNotFoundException {
++  LogDirNotFoundException(String)
++  LogDirNotFoundException(String;Throwable)
++  LogDirNotFoundException(Throwable)
+} 
+@enduml

@@ -8,12 +8,114 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Configurable<ResourceConfig>"
+ , "c2" : "org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConnectRestConfigurable"
+ , "c2" : "ConnectRestConfigurable(ResourceConfig)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Configuration"
+ , "c2" : "getConfiguration()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "property(String;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Object)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Object;int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Object;Map<Class<?>,Integer>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Object;Class<?>...)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Class<?>;Map<Class<?>,Integer>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Class<?>;Class<?>...)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Class<?>;int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ResourceConfig"
+ , "c2" : "register(Class<?>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "allowedToRegister(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "allowedToRegister(Class<?>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.ConnectRestConfigurable@POLYN167246 the MagicNumber/String  'ResourceConfig can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.ConnectRestConfigurable@POLYN168958 the MagicNumber/String  'ResourceConfig can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +251,7 @@ var maDataBlocs = {
    "c1" : "00107"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN170494 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN172206 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -163,7 +265,7 @@ var maDataBlocs = {
    "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN170821 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN172533 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
 }} 
 ]
 };

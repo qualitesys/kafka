@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.InternalTopicConfig
+class org.apache.kafka.streams.processor.internals.InternalTopicConfig {
++  InternalTopicConfig(String;Map<String,String>)
++  InternalTopicConfig(String;Map<String,String>;int;boolean)
++  getProperties(Map<String,String>;long)
++  hasEnforcedNumberOfPartitions()
++  name()
++  numberOfPartitions()
++  setNumberOfPartitions(int)
++  validateNumberOfPartitions(int)
++  toString()
+} 
+@enduml

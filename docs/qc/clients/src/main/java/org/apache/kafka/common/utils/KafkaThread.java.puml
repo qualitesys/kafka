@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Thread <|-- org.apache.kafka.common.utils.KafkaThread
+class org.apache.kafka.common.utils.KafkaThread {
++  daemon(String;Runnable)
++  nonDaemon(String;Runnable)
++  KafkaThread(String;boolean)
++  KafkaThread(String;Runnable;boolean)
++  configureThread(String;boolean)
+} 
+@enduml

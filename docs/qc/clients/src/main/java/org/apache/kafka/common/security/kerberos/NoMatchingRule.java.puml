@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+IOException <|-- org.apache.kafka.common.security.kerberos.NoMatchingRule
+class org.apache.kafka.common.security.kerberos.NoMatchingRule {
++  NoMatchingRule(String)
+} 
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.tools.ClientCompatibilityTest
+class org.apache.kafka.tools.ClientCompatibilityTest {
++  main(String[])
++  toHexString(byte[])
++  compareArrays(byte[];byte[])
++  ClientCompatibilityTest(TestConfig)
++  run()
++  testProduce()
++  testAdminClient()
++  testDescribeConfigsMethod(Admin)
++  createTopicsResultTest(Admin;Collection<String>)
++  topicExists(Collection<TopicListing>;String)
++  testConsume(long)
++  tryFeature(String;boolean;Invoker)
++  tryFeature(String;boolean;Invoker;ResultTester)
+} 
+@enduml

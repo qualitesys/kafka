@@ -2,18 +2,99 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java 21 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java 22 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.internals.metrics.ClientMetrics"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.internals.metrics.ClientMetrics" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ClientMetrics"
+ , "c2" : "ClientMetrics()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "version()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "commitId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addVersionMetric(StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addCommitIdMetric(StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addApplicationIdMetric(StreamsMetricsImpl;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addTopologyDescriptionMetric(StreamsMetricsImpl;Gauge<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addStateMetric(StreamsMetricsImpl;Gauge<State>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addNumAliveStreamThreadMetric(StreamsMetricsImpl;Gauge<Integer>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "failedStreamThreadSensor(StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -71,6 +152,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -176,6 +264,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00120] For method failedStreamThreadSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_clientLevelSensorN173983"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00120] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -184,7 +279,7 @@ var maDataBlocs = {
    "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.internals.metrics.ClientMetrics.failedStreamThreadSensor@POLYN172166 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.internals.metrics.ClientMetrics.failedStreamThreadSensor@POLYN173878 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

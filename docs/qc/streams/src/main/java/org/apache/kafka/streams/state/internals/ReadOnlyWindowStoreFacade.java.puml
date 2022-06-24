@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+ReadOnlyWindowStore<K,V> <|-- org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade
+class org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade {
++  ReadOnlyWindowStoreFacade(TimestampedWindowStore<K,V>)
++  fetch(K;long)
++  fetch(K;Instant;Instant)
++  backwardFetch(K;Instant;Instant)
++  fetch(K;K;Instant;Instant)
++  backwardFetch(K;K;Instant;Instant)
++  fetchAll(Instant;Instant)
++  backwardFetchAll(Instant;Instant)
++  all()
++  backwardAll()
+} 
+@enduml

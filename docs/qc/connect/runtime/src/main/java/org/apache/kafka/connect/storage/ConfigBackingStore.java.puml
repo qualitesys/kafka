@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.storage.ConfigBackingStore
+class org.apache.kafka.connect.storage.ConfigBackingStore {
++  start()
++  stop()
++  snapshot()
++  contains(String)
++  putConnectorConfig(String;Map<String,String>)
++  removeConnectorConfig(String)
++  putTaskConfigs(String;List<Map<String,String>>)
++  removeTaskConfigs(String)
++  refresh(long;TimeUnit)
++  putTargetState(String;TargetState)
++  putSessionKey(SessionKey)
++  putRestartRequest(RestartRequest)
++  putTaskCountRecord(String;int)
++  claimWritePrivileges()
++  setUpdateListener(UpdateListener)
+} 
+@enduml

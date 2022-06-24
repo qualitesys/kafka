@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ConfigurationsDelta
+class org.apache.kafka.image.ConfigurationsDelta {
++  ConfigurationsDelta(ConfigurationsImage)
++  changes()
++  finishSnapshot()
++  handleMetadataVersionChange(MetadataVersion)
++  replay(ConfigRecord)
++  replay(RemoveTopicRecord;String)
++  apply()
++  toString()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.ClientUtils
+class org.apache.kafka.clients.ClientUtils {
++  ClientUtils()
++  parseAndValidateAddresses(List<String>;String)
++  parseAndValidateAddresses(List<String>;ClientDnsLookup)
++  createChannelBuilder(AbstractConfig;Time;LogContext)
++  resolve(String;HostResolver)
++  filterPreferredAddresses(InetAddress[])
+} 
+@enduml

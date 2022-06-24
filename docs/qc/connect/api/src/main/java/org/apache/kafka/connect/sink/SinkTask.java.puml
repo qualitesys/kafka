@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Task <|-- org.apache.kafka.connect.sink.SinkTask
+class org.apache.kafka.connect.sink.SinkTask {
++  initialize(SinkTaskContext)
++  start(Map<String,String>)
++  put(Collection<SinkRecord>)
++  flush(Map<TopicPartition,OffsetAndMetadata>)
++  preCommit(Map<TopicPartition,OffsetAndMetadata>)
++  open(Collection<TopicPartition>)
++  onPartitionsAssigned(Collection<TopicPartition>)
++  close(Collection<TopicPartition>)
++  onPartitionsRevoked(Collection<TopicPartition>)
++  stop()
+} 
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+WindowedSum <|-- org.apache.kafka.common.metrics.stats.WindowedCount
+class org.apache.kafka.common.metrics.stats.WindowedCount {
++  update(Sample;MetricConfig;double;long)
+} 
+@enduml

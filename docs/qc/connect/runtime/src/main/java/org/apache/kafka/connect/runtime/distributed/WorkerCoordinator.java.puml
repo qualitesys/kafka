@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+AbstractCoordinatorCloseable <|-- org.apache.kafka.connect.runtime.distributed.WorkerCoordinator
+class org.apache.kafka.connect.runtime.distributed.WorkerCoordinator {
++  WorkerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;Metrics;String;Time;String;ConfigBackingStore;WorkerRebalanceListener;ConnectProtocolCompatibility;int)
++  requestRejoin(String)
++  protocolType()
++  ensureCoordinatorReady(Timer)
++  poll(long)
++  metadata()
++  onJoinComplete(int;String;String;ByteBuffer)
++  onLeaderElected(String;String;List<JoinGroupResponseMember>;boolean)
++  onJoinPrepare(int;String)
++  rejoinNeededOrPending()
++  memberId()
++  generationId()
++  lastCompletedGenerationId()
++  revokeAssignment(ExtendedAssignment)
++  isLeader()
++  ownerUrl(String)
++  ownerUrl(ConnectorTaskId)
++  configFreshSnapshot()
++  configSnapshot()
++  configSnapshot(ClusterConfigState)
++  leaderState()
++  leaderState(LeaderState)
++  currentProtocolVersion()
+} 
+@enduml

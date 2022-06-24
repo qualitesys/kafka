@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.ListOffsetsResponse
+class org.apache.kafka.common.requests.ListOffsetsResponse {
++  ListOffsetsResponse(ListOffsetsResponseData)
++  throttleTimeMs()
++  data()
++  topics()
++  errorCounts()
++  parse(ByteBuffer;short)
++  toString()
++  shouldClientThrottle(short)
++  singletonListOffsetsTopicResponse(TopicPartition;Errors;long;long;int)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.Segment
+class org.apache.kafka.streams.state.internals.Segment {
++  destroy()
++  deleteRange(Bytes;Bytes)
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.StreamSinkNode
+class org.apache.kafka.streams.kstream.internals.graph.StreamSinkNode {
++  StreamSinkNode(String;TopicNameExtractor<K,V>;ProducedInternal<K,V>)
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

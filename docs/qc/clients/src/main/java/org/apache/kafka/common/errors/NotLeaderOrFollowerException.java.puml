@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+NotLeaderForPartitionException <|-- org.apache.kafka.common.errors.NotLeaderOrFollowerException
+class org.apache.kafka.common.errors.NotLeaderOrFollowerException {
++  NotLeaderOrFollowerException()
++  NotLeaderOrFollowerException(String)
++  NotLeaderOrFollowerException(Throwable)
++  NotLeaderOrFollowerException(String;Throwable)
+} 
+@enduml

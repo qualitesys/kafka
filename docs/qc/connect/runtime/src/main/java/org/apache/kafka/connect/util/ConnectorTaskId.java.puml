@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Serializable <|-- org.apache.kafka.connect.util.ConnectorTaskId
+class org.apache.kafka.connect.util.ConnectorTaskId {
++  ConnectorTaskId(String;int)
++  connector()
++  task()
++  equals(Object)
++  hashCode()
++  toString()
++  compareTo(ConnectorTaskId)
+} 
+@enduml

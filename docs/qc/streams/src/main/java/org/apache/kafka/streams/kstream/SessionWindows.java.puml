@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.SessionWindows
+class org.apache.kafka.streams.kstream.SessionWindows {
++  SessionWindows(long;long;boolean)
++  ofInactivityGapWithNoGrace(Duration)
++  ofInactivityGapAndGrace(Duration;Duration)
++  with(Duration)
++  grace(Duration)
++  gracePeriodMs()
++  inactivityGap()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

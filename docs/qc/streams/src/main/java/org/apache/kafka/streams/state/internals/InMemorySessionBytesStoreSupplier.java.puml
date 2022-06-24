@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+SessionBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier
+class org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier {
++  InMemorySessionBytesStoreSupplier(String;long)
++  name()
++  get()
++  metricsScope()
++  segmentIntervalMs()
++  retentionPeriod()
+} 
+@enduml

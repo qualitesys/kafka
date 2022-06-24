@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.SecurityUtils
+class org.apache.kafka.common.utils.SecurityUtils {
++  parseKafkaPrincipal(String)
++  addConfiguredSecurityProviders(Map<String,?>)
++  resourceType(String)
++  operation(String)
++  permissionType(String)
++  resourceTypeName(ResourceType)
++  operationName(AclOperation)
++  permissionTypeName(AclPermissionType)
++  toPascalCase(String)
++  authorizeByResourceTypeCheckArgs(AclOperation;ResourceType)
++  denyAll(ResourcePattern)
+} 
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+ClusterMetadataAuthorizer <|-- org.apache.kafka.metadata.authorizer.StandardAuthorizer
+class org.apache.kafka.metadata.authorizer.StandardAuthorizer {
++  setAclMutator(AclMutator)
++  aclMutatorOrException()
++  completeInitialLoad()
++  initialLoadFuture()
++  completeInitialLoad(Exception)
++  addAcl(Uuid;StandardAcl)
++  removeAcl(Uuid)
++  loadSnapshot(Map<Uuid,StandardAcl>)
++  start(AuthorizerServerInfo)
++  authorize(AuthorizableRequestContext;List<Action>)
++  acls(AclBindingFilter)
++  aclCount()
++  close()
++  configure(Map<String,?>)
++  superUsers()
++  defaultResult()
++  getConfiguredSuperUsers(Map<String,?>)
++  getDefaultResult(Map<String,?>)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Serializer<UUID> <|-- org.apache.kafka.common.serialization.UUIDSerializer
+class org.apache.kafka.common.serialization.UUIDSerializer {
++  configure(Map<String,?>;boolean)
++  serialize(String;UUID)
+} 
+@enduml

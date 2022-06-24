@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+InputStream <|-- org.apache.kafka.common.compress.KafkaLZ4BlockInputStream
+class org.apache.kafka.common.compress.KafkaLZ4BlockInputStream {
++  KafkaLZ4BlockInputStream(ByteBuffer;BufferSupplier;boolean)
++  ignoreFlagDescriptorChecksum()
++  readHeader()
++  readBlock()
++  read()
++  read(byte[];int;int)
++  skip(long)
++  available()
++  close()
++  mark(int)
++  reset()
++  markSupported()
++  detectBrokenLz4Version()
+} 
+@enduml

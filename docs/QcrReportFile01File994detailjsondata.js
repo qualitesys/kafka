@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConverterConfig"
+ , "c2" : "org.apache.kafka.connect.storage.StringConverterConfig"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.StringConverterConfig" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "configDef()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StringConverterConfig"
+ , "c2" : "StringConverterConfig(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "encoding()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverterConfig.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverterConfig.java.svg" }
+
 ] 
 , 
 "data04" : [

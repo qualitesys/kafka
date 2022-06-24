@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.api.FixedKeyProcessor
+class org.apache.kafka.streams.processor.api.FixedKeyProcessor {
++  init(FixedKeyProcessorContext<KIn,VOut>)
++  process(FixedKeyRecord<KIn,VIn>)
++  close()
+} 
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+NamedOperation<Produced<K,V>> <|-- org.apache.kafka.streams.kstream.Produced
+class org.apache.kafka.streams.kstream.Produced {
++  Produced(Serde<K>;Serde<V>;StreamPartitioner<?superK,?superV>;String)
++  Produced(Produced<K,V>)
++  withStreamPartitioner(StreamPartitioner<?superK,?superV>)
++  withValueSerde(Serde<V>)
++  withKeySerde(Serde<K>)
++  equals(Object)
++  hashCode()
++  withName(String)
+} 
+@enduml

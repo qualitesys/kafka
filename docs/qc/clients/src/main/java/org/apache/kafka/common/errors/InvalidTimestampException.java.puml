@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidTimestampException
+class org.apache.kafka.common.errors.InvalidTimestampException {
++  InvalidTimestampException(String)
++  InvalidTimestampException(String;Throwable)
+} 
+@enduml

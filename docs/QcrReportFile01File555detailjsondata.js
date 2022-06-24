@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.record.ConvertedRecords"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.ConvertedRecords" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConvertedRecords"
+ , "c2" : "ConvertedRecords(T;RecordConversionStats)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "records()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RecordConversionStats"
+ , "c2" : "recordConversionStats()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.svg" }
+
 ] 
 , 
 "data04" : [

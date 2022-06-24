@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.AllocateProducerIdsRequest
+class org.apache.kafka.common.requests.AllocateProducerIdsRequest {
++  AllocateProducerIdsRequest(AllocateProducerIdsRequestData;short)
++  getErrorResponse(int;Throwable)
++  data()
++  parse(ByteBuffer;short)
+} 
+@enduml

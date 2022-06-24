@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.storage.PrivilegedWriteException
+class org.apache.kafka.connect.storage.PrivilegedWriteException {
++  PrivilegedWriteException(String)
++  PrivilegedWriteException(String;Throwable)
+} 
+@enduml

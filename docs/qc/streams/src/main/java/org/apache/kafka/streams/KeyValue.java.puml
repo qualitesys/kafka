@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.KeyValue
+class org.apache.kafka.streams.KeyValue {
++  KeyValue(K;V)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

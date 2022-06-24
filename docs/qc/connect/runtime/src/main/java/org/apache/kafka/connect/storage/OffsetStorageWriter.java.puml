@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.storage.OffsetStorageWriter
+class org.apache.kafka.connect.storage.OffsetStorageWriter {
++  OffsetStorageWriter(OffsetBackingStore;String;Converter;Converter)
++  offset(Map<String,?>;Map<String,?>)
++  flushing()
++  beginFlush()
++  willFlush()
++  doFlush(Callback<Void>)
++  cancelFlush()
++  handleFinishWrite(long;Throwable;Void)
+} 
+@enduml

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.rest.Message"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.Message" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,21 +125,21 @@ var maDataBlocs = {
    "c1" : "00012"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN155014 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN156726 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00013"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN155014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN156726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00013"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN155014 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN156726 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

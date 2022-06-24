@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.BootstrapMetadata
+class org.apache.kafka.controller.BootstrapMetadata {
++  BootstrapMetadata(MetadataVersion;List<ApiMessageAndVersion>)
++  metadataVersion()
++  records()
++  equals(Object)
++  hashCode()
++  toString()
++  create(MetadataVersion)
++  create(MetadataVersion;List<ApiMessageAndVersion>)
++  load(Path;Supplier<MetadataVersion>)
++  write(BootstrapMetadata;Path)
+} 
+@enduml

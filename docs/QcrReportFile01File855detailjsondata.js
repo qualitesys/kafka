@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Deserializer<ByteBuffer>"
+ , "c2" : "org.apache.kafka.common.serialization.ByteBufferDeserializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.serialization.ByteBufferDeserializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "deserialize(String;byte[])"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferDeserializer.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferDeserializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +97,14 @@ var maDataBlocs = {
    "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferDeserializer.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.ByteBufferDeserializer.deserialize@POLYN153208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.ByteBufferDeserializer.deserialize@POLYN154920 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferDeserializer.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.ByteBufferDeserializer.deserialize@POLYN153208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.ByteBufferDeserializer.deserialize@POLYN154920 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

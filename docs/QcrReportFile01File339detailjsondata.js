@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RetriableException"
+ , "c2" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FetchSessionIdNotFoundException"
+ , "c2" : "FetchSessionIdNotFoundException()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "FetchSessionIdNotFoundException"
+ , "c2" : "FetchSessionIdNotFoundException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.svg" }
+
 ] 
 , 
 "data04" : [

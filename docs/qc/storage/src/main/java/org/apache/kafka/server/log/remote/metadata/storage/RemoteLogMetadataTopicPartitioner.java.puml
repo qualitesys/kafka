@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner
+class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner {
++  RemoteLogMetadataTopicPartitioner(int)
++  metadataPartition(TopicIdPartition)
++  toBytes(TopicIdPartition)
++  toBytes(int)
+} 
+@enduml

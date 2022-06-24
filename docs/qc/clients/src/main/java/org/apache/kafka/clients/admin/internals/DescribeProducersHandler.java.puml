@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Batched<TopicPartition,PartitionProducerState> <|-- org.apache.kafka.clients.admin.internals.DescribeProducersHandler
+class org.apache.kafka.clients.admin.internals.DescribeProducersHandler {
++  DescribeProducersHandler(DescribeProducersOptions;LogContext)
++  newFuture(Collection<TopicPartition>)
++  apiName()
++  lookupStrategy()
++  buildBatchedRequest(int;Set<TopicPartition>)
++  handlePartitionError(TopicPartition;ApiError;Map<TopicPartition,Throwable>;List<TopicPartition>)
++  handleResponse(Node;Set<TopicPartition>;AbstractResponse)
+} 
+@enduml

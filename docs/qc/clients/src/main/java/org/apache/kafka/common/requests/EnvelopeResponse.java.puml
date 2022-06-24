@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.EnvelopeResponse
+class org.apache.kafka.common.requests.EnvelopeResponse {
++  EnvelopeResponse(ByteBuffer;Errors)
++  EnvelopeResponse(Errors)
++  EnvelopeResponse(EnvelopeResponseData)
++  responseData()
++  errorCounts()
++  error()
++  data()
++  throttleTimeMs()
++  parse(ByteBuffer;short)
+} 
+@enduml

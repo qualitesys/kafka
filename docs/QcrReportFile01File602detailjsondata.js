@@ -2,18 +2,71 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java 12 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java 15 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.AlterConfigsRequest"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.requests.AlterConfigsRequest" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AlterConfigsRequest"
+ , "c2" : "AlterConfigsRequest(AlterConfigsRequestData;short)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<ConfigResource,Config>"
+ , "c2" : "configs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "validateOnly()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AlterConfigsRequestData"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AlterConfigsRequest"
+ , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +90,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -72,6 +141,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -86,7 +162,7 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.requests.AlterConfigsRequest.Config.Config@POLYN171024 the MagicNumber/String  'entries' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.requests.AlterConfigsRequest.Config.Config@POLYN172736 the MagicNumber/String  'entries' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,14 +176,14 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN171469 the MagicNumber/String  'name' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN173181 the MagicNumber/String  'name' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN171469 the MagicNumber/String  'value' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN173181 the MagicNumber/String  'value' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.requests.AlterConfigsRequest.Builder.Builder@POLYN172151 the MagicNumber/String  'configs' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.requests.AlterConfigsRequest.Builder.Builder@POLYN173863 the MagicNumber/String  'configs' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,10 +229,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#105"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00105] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN176643"
+}} 
+,
+{ "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#120"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00120] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterConfigsRequest.getErrorResponse@POLYN176521"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterConfigsRequest.validateOnly@POLYN176301"
 }} 
 ]
 };

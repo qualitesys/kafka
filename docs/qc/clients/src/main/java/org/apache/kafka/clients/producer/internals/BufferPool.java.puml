@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.BufferPool
+class org.apache.kafka.clients.producer.internals.BufferPool {
++  BufferPool(long;int;Metrics;Time;String)
++  allocate(int;long)
++  recordWaitTime(long)
++  safeAllocateByteBuffer(int)
++  allocateByteBuffer(int)
++  freeUp(int)
++  deallocate(ByteBuffer;int)
++  deallocate(ByteBuffer)
++  availableMemory()
++  freeSize()
++  unallocatedMemory()
++  queued()
++  poolableSize()
++  totalMemory()
++  waiters()
++  close()
+} 
+@enduml

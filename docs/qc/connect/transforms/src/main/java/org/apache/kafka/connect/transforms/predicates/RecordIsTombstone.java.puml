@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Predicate<R> <|-- org.apache.kafka.connect.transforms.predicates.RecordIsTombstone
+class org.apache.kafka.connect.transforms.predicates.RecordIsTombstone {
++  config()
++  test(R)
++  close()
++  configure(Map<String,?>)
++  toString()
+} 
+@enduml

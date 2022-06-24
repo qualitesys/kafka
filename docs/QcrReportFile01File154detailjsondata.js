@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ApiRequestScope"
+ , "c2" : "lookupScope(T)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractRequest.Builder<?>"
+ , "c2" : "buildRequest(Set<T>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LookupResult<T>"
+ , "c2" : "handleResponse(Set<T>;AbstractResponse)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.svg" }
+
 ] 
 , 
 "data04" : [

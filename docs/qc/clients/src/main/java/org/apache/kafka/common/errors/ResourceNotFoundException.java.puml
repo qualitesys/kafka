@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.ResourceNotFoundException
+class org.apache.kafka.common.errors.ResourceNotFoundException {
++  ResourceNotFoundException(String)
++  ResourceNotFoundException(String;Throwable)
++  ResourceNotFoundException(String;String)
++  ResourceNotFoundException(String;String;Throwable)
++  resource()
+} 
+@enduml

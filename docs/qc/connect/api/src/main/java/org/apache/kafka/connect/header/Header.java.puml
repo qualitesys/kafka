@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.header.Header
+class org.apache.kafka.connect.header.Header {
++  key()
++  schema()
++  value()
++  with(Schema;Object)
++  rename(String)
+} 
+@enduml

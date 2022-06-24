@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo
+class org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo {
++  ConfigValueInfo(String;String;List<String>;List<String>;boolean)
++  name()
++  value()
++  recommendedValues()
++  errors()
++  visible()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

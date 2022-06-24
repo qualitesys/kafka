@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.KeyValueIterators
+class org.apache.kafka.streams.state.internals.KeyValueIterators {
+} 
+@enduml

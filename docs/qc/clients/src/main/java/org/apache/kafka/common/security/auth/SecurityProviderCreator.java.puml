@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.common.security.auth.SecurityProviderCreator
+class org.apache.kafka.common.security.auth.SecurityProviderCreator {
++  configure(Map<String,?>)
++  getProvider()
+} 
+@enduml

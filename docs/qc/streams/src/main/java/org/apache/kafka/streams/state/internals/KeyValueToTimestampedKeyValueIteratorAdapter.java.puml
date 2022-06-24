@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+KeyValueIterator<K,byte[]> <|-- org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueIteratorAdapter
+class org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueIteratorAdapter {
++  KeyValueToTimestampedKeyValueIteratorAdapter(KeyValueIterator<K,byte[]>)
++  close()
++  peekNextKey()
++  hasNext()
++  next()
+} 
+@enduml

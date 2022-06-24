@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RetriableException"
+ , "c2" : "org.apache.kafka.common.errors.UnstableOffsetCommitException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.UnstableOffsetCommitException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UnstableOffsetCommitException"
+ , "c2" : "UnstableOffsetCommitException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnstableOffsetCommitException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnstableOffsetCommitException.java.svg" }
+
 ] 
 , 
 "data04" : [

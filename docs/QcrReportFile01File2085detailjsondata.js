@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractStoreBuilder<K,ValueAndTimestamp<V>,TimestampedWindowStore<K,V>>"
+ , "c2" : "org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TimestampedWindowStoreBuilder"
+ , "c2" : "TimestampedWindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TimestampedWindowStore<K,V>"
+ , "c2" : "build()"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapCaching(WindowStore<Bytes,byte[]>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isTimeOrderedStore(StateStore)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapLogging(WindowStore<Bytes,byte[]>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "retentionPeriod()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,42 +132,42 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN188219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN189931 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN188219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN189931 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN188219 the MagicNumber/String  'storeSupplier can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN189931 the MagicNumber/String  'storeSupplier can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN188219 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN189931 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.build@POLYN189009 the MagicNumber/String  'Disabling caching for {} since store was configured to retain duplicates' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.build@POLYN190721 the MagicNumber/String  'Disabling caching for {} since store was configured to retain duplicates' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.build@POLYN189009 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.build@POLYN190721 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.isTimeOrderedStore@POLYN190823 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.isTimeOrderedStore@POLYN192535 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.isTimeOrderedStore@POLYN190823 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.isTimeOrderedStore@POLYN192535 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,7 +223,7 @@ var maDataBlocs = {
    "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker.InMemoryTimestampedWindowStoreMarker@POLYN191897 the MagicNumber/String  'Provided store must not be a persistent store, but it is.' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker.InMemoryTimestampedWindowStoreMarker@POLYN193609 the MagicNumber/String  'Provided store must not be a persistent store, but it is.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -282,7 +335,7 @@ var maDataBlocs = {
    "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker.persistent@POLYN196896 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker.persistent@POLYN198608 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

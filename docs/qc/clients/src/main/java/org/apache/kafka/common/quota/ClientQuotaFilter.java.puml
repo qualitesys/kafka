@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaFilter
+class org.apache.kafka.common.quota.ClientQuotaFilter {
++  ClientQuotaFilter(Collection<ClientQuotaFilterComponent>;boolean)
++  contains(Collection<ClientQuotaFilterComponent>)
++  containsOnly(Collection<ClientQuotaFilterComponent>)
++  all()
++  components()
++  strict()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteRecordsResult
+class org.apache.kafka.clients.admin.DeleteRecordsResult {
++  DeleteRecordsResult(Map<TopicPartition,KafkaFuture<DeletedRecords>>)
++  lowWatermarks()
++  all()
+} 
+@enduml

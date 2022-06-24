@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.OperationNotAttemptedException
+class org.apache.kafka.common.errors.OperationNotAttemptedException {
++  OperationNotAttemptedException(String)
+} 
+@enduml

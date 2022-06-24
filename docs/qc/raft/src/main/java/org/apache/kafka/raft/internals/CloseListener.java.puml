@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.internals.CloseListener
+class org.apache.kafka.raft.internals.CloseListener {
++  onClose(T)
+} 
+@enduml

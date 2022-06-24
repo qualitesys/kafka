@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Batched<CoordinatorKey,Map<TopicPartition,OffsetAndMetadata>> <|-- org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler
+class org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler {
++  ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;LogContext)
++  newFuture(String)
++  apiName()
++  lookupStrategy()
++  validateKeys(Set<CoordinatorKey>)
++  buildBatchedRequest(int;Set<CoordinatorKey>)
++  handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)
++  handleGroupError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)
+} 
+@enduml

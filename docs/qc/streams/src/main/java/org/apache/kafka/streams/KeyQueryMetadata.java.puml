@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.KeyQueryMetadata
+class org.apache.kafka.streams.KeyQueryMetadata {
++  KeyQueryMetadata(HostInfo;Set<HostInfo>;int)
++  getActiveHost()
++  getStandbyHosts()
++  getPartition()
++  activeHost()
++  standbyHosts()
++  partition()
++  equals(Object)
++  toString()
++  hashCode()
+} 
+@enduml

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "PeekingKeyValueIterator<Bytes,LRUCacheEntry>"
+ , "c2" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FilteredCacheIterator"
+ , "c2" : "FilteredCacheIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;HasNextCondition;CacheFunction)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "peekNextKey()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Bytes,LRUCacheEntry>"
+ , "c2" : "next()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Bytes,LRUCacheEntry>"
+ , "c2" : "peekNext()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.svg" }
+
 ] 
 , 
 "data04" : [

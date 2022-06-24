@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<SessionStore<Bytes,byte[]>,Windowed<K>,V>SessionStore<K,V> <|-- org.apache.kafka.streams.state.internals.MeteredSessionStore
+class org.apache.kafka.streams.state.internals.MeteredSessionStore {
++  MeteredSessionStore(SessionStore<Bytes,byte[]>;String;Serde<K>;Serde<V>;Time)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  registerMetrics()
++  initStoreSerde(ProcessorContext)
++  initStoreSerde(StateStoreContext)
++  setFlushListener(CacheFlushListener<Windowed<K>,V>;boolean)
++  put(Windowed<K>;V)
++  remove(Windowed<K>)
++  fetchSession(K;long;long)
++  fetch(K)
++  backwardFetch(K)
++  fetch(K;K)
++  backwardFetch(K;K)
++  findSessions(K;long;long)
++  backwardFindSessions(K;long;long)
++  findSessions(K;K;long;long)
++  backwardFindSessions(K;K;long;long)
++  flush()
++  close()
++  keyBytes(K)
++  maybeRecordE2ELatency()
+} 
+@enduml

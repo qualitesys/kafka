@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.MetricName
+class org.apache.kafka.common.MetricName {
++  MetricName(String;String;String;Map<String,String>)
++  name()
++  group()
++  tags()
++  description()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

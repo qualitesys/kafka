@@ -2,18 +2,92 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java 14 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java 15 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Windows<UnlimitedWindow>"
+ , "c2" : "org.apache.kafka.streams.kstream.UnlimitedWindows"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.UnlimitedWindows" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UnlimitedWindows"
+ , "c2" : "UnlimitedWindows(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UnlimitedWindows"
+ , "c2" : "of()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UnlimitedWindows"
+ , "c2" : "startOn(Instant)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Long,UnlimitedWindow>"
+ , "c2" : "windowsFor(long)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "gracePeriodMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,6 +132,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -69,24 +150,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#34"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00034] For method startOn list of called methods Object monObjet|String prepareMillisCheckFailMsgPrefixN170659|long ApiUtils_validateMillisecondInstantN170774"
+}} 
+,
+{ "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN168830 the MagicNumber/String  'start' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN170542 the MagicNumber/String  'start' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN168830 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN170542 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN168830 the MagicNumber/String  'Window start time (startMs) cannot be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN170542 the MagicNumber/String  'Window start time (startMs) cannot be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.UnlimitedWindows.gracePeriodMs@POLYN170146 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.UnlimitedWindows.gracePeriodMs@POLYN171858 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,42 +209,42 @@ var maDataBlocs = {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN170248 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN171960 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN170248 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN171960 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN170248 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN171960 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN170915 the MagicNumber/String  'UnlimitedWindows{' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN172627 the MagicNumber/String  'UnlimitedWindows{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN170915 the MagicNumber/String  'startMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN172627 the MagicNumber/String  'startMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN170915 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN172627 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

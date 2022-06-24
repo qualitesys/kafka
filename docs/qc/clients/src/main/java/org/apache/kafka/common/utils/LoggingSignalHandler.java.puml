@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.LoggingSignalHandler
+class org.apache.kafka.common.utils.LoggingSignalHandler {
++  LoggingSignalHandler()
++  register()
++  createSignalHandler(Map<String,Object>)
++  register(String;Map<String,Object>)
+} 
+@enduml

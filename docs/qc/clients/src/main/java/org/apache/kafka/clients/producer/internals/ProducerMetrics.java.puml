@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.ProducerMetrics
+class org.apache.kafka.clients.producer.internals.ProducerMetrics {
++  ProducerMetrics(Metrics)
++  getAllTemplates()
++  main(String[])
+} 
+@enduml

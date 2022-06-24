@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Consumer<MetadataNodeManager.Data> <|-- org.apache.kafka.shell.GlobVisitor
+class org.apache.kafka.shell.GlobVisitor {
++  GlobVisitor(String;Consumer<Optional<MetadataNodeInfo>>)
++  accept(MetadataNodeManager.Data)
++  accept(List<String>;int;MetadataNode;String[])
+} 
+@enduml

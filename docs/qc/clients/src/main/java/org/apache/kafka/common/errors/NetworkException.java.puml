@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.common.errors.NetworkException
+class org.apache.kafka.common.errors.NetworkException {
++  NetworkException()
++  NetworkException(String;Throwable)
++  NetworkException(String)
++  NetworkException(Throwable)
+} 
+@enduml

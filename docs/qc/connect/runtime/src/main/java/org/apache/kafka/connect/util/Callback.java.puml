@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.util.Callback
+class org.apache.kafka.connect.util.Callback {
++  onCompletion(Throwable;V)
+} 
+@enduml

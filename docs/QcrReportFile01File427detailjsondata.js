@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "InvalidMetadataException"
+ , "c2" : "org.apache.kafka.common.errors.UnknownTopicIdException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.UnknownTopicIdException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UnknownTopicIdException"
+ , "c2" : "UnknownTopicIdException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownTopicIdException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownTopicIdException.java.svg" }
+
 ] 
 , 
 "data04" : [

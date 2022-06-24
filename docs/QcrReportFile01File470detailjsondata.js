@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SampledStat"
+ , "c2" : "org.apache.kafka.common.metrics.stats.Avg"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.metrics.stats.Avg" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Avg"
+ , "c2" : "Avg()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "update(Sample;MetricConfig;double;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "double"
+ , "c2" : "combine(List<Sample>;MetricConfig;long)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.metrics.stats.Avg.Avg@POLYN155856 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.metrics.stats.Avg.Avg@POLYN157568 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,21 +125,21 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.metrics.stats.Avg.combine@POLYN156196 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.metrics.stats.Avg.combine@POLYN157908 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.metrics.stats.Avg.combine@POLYN156196 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.metrics.stats.Avg.combine@POLYN157908 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.metrics.stats.Avg.combine@POLYN156196 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.metrics.stats.Avg.combine@POLYN157908 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

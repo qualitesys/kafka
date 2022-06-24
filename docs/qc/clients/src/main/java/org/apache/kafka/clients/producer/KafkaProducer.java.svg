@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:568px;height:136px;background:#000000;" version="1.1" viewBox="0 0 568 136" width="568px" zoomAndPan="magnify"><defs/><g><rect fill="#080514" height="1" style="stroke:#080514;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.5</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="556" x="5" y="111.1563">Producer&lt;K,V&gt; &lt;|-- org.apache.kafka.clients.producer.KafkaProducer</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[98655a3ded347aeb282a73c48969a854]
+@startuml
+!pragma layout smetana
+Producer<K,V> <|- - org.apache.kafka.clients.producer.KafkaProducer
+class org.apache.kafka.clients.producer.KafkaProducer {
++  KafkaProducer(Map<String,Object>)
++  KafkaProducer(Map<String,Object>;Serializer<K>;Serializer<V>)
++  KafkaProducer(Properties)
++  KafkaProducer(Properties;Serializer<K>;Serializer<V>)
++  warnIfPartitionerDeprecated()
++  KafkaProducer(ProducerConfig;Serializer<K>;Serializer<V>;ProducerMetadata;KafkaClient;ProducerInterceptors<K,V>;Time)
++  KafkaProducer(ProducerConfig;LogContext;Metrics;Serializer<K>;Serializer<V>;ProducerMetadata;RecordAccumulator;TransactionManager;Sender;ProducerInterceptors<K,V>;Partitioner;Time;KafkaThread)
++  newSender(LogContext;KafkaClient;ProducerMetadata)
++  lingerMs(ProducerConfig)
++  configureDeliveryTimeout(ProducerConfig;Logger)
++  configureTransactionState(ProducerConfig;LogContext)
++  initTransactions()
++  beginTransaction()
++  sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;String)
++  sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)
++  commitTransaction()
++  abortTransaction()
++  send(ProducerRecord<K,V>)
++  send(ProducerRecord<K,V>;Callback)
++  throwIfProducerClosed()
++  onNewBatch(String;Cluster;int)
++  doSend(ProducerRecord<K,V>;Callback)
++  setReadOnly(Headers)
++  waitOnMetadata(String;Integer;long;long)
++  ensureValidRecordSize(int)
++  flush()
++  partitionsFor(String)
++  metrics()
++  close()
++  close(Duration)
++  close(Duration;boolean)
++  configureClusterResourceListeners(Serializer<K>;Serializer<V>;List<?>...)
++  partition(ProducerRecord<K,V>;byte[];byte[];Cluster)
++  throwIfInvalidGroupMetadata(ConsumerGroupMetadata)
++  throwIfNoTransactionManager()
++  getClientId()
+} 
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AdminApiLookupStrategy<TopicPartition> <|-- org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy
+class org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy {
++  PartitionLeaderStrategy(LogContext)
++  lookupScope(TopicPartition)
++  buildRequest(Set<TopicPartition>)
++  handleTopicError(String;Errors;Set<TopicPartition>;Map<TopicPartition,Throwable>)
++  failAllPartitionsForTopic(String;Set<TopicPartition>;Map<TopicPartition,Throwable>;Function<TopicPartition,Throwable>)
++  handlePartitionError(TopicPartition;Errors;Map<TopicPartition,Throwable>)
++  handleResponse(Set<TopicPartition>;AbstractResponse)
+} 
+@enduml

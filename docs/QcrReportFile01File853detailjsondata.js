@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Deserializer<byte[]>"
+ , "c2" : "org.apache.kafka.common.serialization.ByteArrayDeserializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.serialization.ByteArrayDeserializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "deserialize(String;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.svg" }
+
 ] 
 , 
 "data04" : [

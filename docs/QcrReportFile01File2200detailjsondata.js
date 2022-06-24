@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "FlushGenerator"
+ , "c2" : "org.apache.kafka.trogdor.workload.GaussianFlushGenerator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.GaussianFlushGenerator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GaussianFlushGenerator"
+ , "c2" : "GaussianFlushGenerator(int;double)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "messagesPerFlushAverage()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "double"
+ , "c2" : "messagesPerFlushDeviation()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "calculateFlushSize()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN167639 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN169351 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN167639 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN169351 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "InternalTopicConfig"
+ , "c2" : "org.apache.kafka.streams.processor.internals.RepartitionTopicConfig"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.RepartitionTopicConfig" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RepartitionTopicConfig"
+ , "c2" : "RepartitionTopicConfig(String;Map<String,String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RepartitionTopicConfig"
+ , "c2" : "RepartitionTopicConfig(String;Map<String,String>;int;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "getProperties(Map<String,String>;long)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,56 +139,56 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.equals@POLYN165796 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.equals@POLYN167508 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.equals@POLYN165796 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.equals@POLYN167508 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.equals@POLYN165796 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.equals@POLYN167508 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN166728 the MagicNumber/String  'RepartitionTopicConfig(' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN168440 the MagicNumber/String  'RepartitionTopicConfig(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN166728 the MagicNumber/String  'name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN168440 the MagicNumber/String  'name=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN166728 the MagicNumber/String  ', topicConfigs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN168440 the MagicNumber/String  ', topicConfigs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN166728 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN168440 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN166728 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.RepartitionTopicConfig.toString@POLYN168440 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

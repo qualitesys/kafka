@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerPartitionAssignor
+class org.apache.kafka.clients.consumer.ConsumerPartitionAssignor {
++  subscriptionUserData(Set<String>)
++  assign(Cluster;GroupSubscription)
++  onAssignment(Assignment;ConsumerGroupMetadata)
++  supportedProtocols()
++  version()
++  name()
++  getAssignorInstances(List<String>;Map<String,Object>)
+} 
+@enduml

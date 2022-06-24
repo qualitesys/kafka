@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.InternalRequestSignature
+class org.apache.kafka.connect.runtime.rest.InternalRequestSignature {
++  addToRequest(SecretKey;byte[];String;Request)
++  fromHeaders(byte[];HttpHeaders)
++  InternalRequestSignature(byte[];Mac;byte[])
++  keyAlgorithm()
++  isValid(SecretKey)
++  mac(String)
++  sign(Mac;SecretKey;byte[])
++  equals(Object)
++  hashCode()
+} 
+@enduml

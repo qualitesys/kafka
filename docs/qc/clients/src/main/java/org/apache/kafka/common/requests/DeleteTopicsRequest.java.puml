@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DeleteTopicsRequest
+class org.apache.kafka.common.requests.DeleteTopicsRequest {
++  DeleteTopicsRequest(DeleteTopicsRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  topicNames()
++  numberOfTopics()
++  topicIds()
++  topics()
++  parse(ByteBuffer;short)
+} 
+@enduml

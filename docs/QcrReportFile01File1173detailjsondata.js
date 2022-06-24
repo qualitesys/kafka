@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "OffsetBackingStore"
+ , "c2" : "org.apache.kafka.connect.storage.MemoryOffsetBackingStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.MemoryOffsetBackingStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MemoryOffsetBackingStore"
+ , "c2" : "MemoryOffsetBackingStore()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(WorkerConfig)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "start()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "stop()"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
+ , "c2" : "get(Collection<ByteBuffer>)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Future<Void>"
+ , "c2" : "set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "save()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,56 +153,56 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.start@POLYN165455 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.start@POLYN167167 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.start@POLYN165455 the MagicNumber/String  '-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.start@POLYN167167 the MagicNumber/String  '-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.start@POLYN165455 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.start@POLYN167167 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN165752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN167464 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN165752 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN167464 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN165752 the MagicNumber/String  'Failed to stop MemoryOffsetBackingStore. Exiting without cleanly ' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN167464 the MagicNumber/String  'Failed to stop MemoryOffsetBackingStore. Exiting without cleanly ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN165752 the MagicNumber/String  'shutting down pending tasks and/or callbacks.' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN167464 the MagicNumber/String  'shutting down pending tasks and/or callbacks.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN165752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.stop@POLYN167464 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -163,28 +223,28 @@ var maDataBlocs = {
    "c1" : "00076"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN167077 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN168789 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN167077 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN168789 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN167077 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN168789 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN167077 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.storage.MemoryOffsetBackingStore.set@POLYN168789 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

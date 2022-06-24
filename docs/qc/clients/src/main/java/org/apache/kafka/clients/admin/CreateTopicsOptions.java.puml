@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<CreateTopicsOptions> <|-- org.apache.kafka.clients.admin.CreateTopicsOptions
+class org.apache.kafka.clients.admin.CreateTopicsOptions {
++  timeoutMs(Integer)
++  validateOnly(boolean)
++  shouldValidateOnly()
++  retryOnQuotaViolation(boolean)
++  shouldRetryOnQuotaViolation()
+} 
+@enduml

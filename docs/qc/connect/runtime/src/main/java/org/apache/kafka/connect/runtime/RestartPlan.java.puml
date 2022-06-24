@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.RestartPlan
+class org.apache.kafka.connect.runtime.RestartPlan {
++  RestartPlan(RestartRequest;ConnectorStateInfo)
++  connectorName()
++  restartRequest()
++  restartConnectorStateInfo()
++  taskIdsToRestart()
++  shouldRestartConnector()
++  shouldRestartTasks()
++  restartTaskCount()
++  totalTaskCount()
++  isRestarting(ConnectorStateInfo.AbstractState)
++  isRestarting(String)
++  toString()
+} 
+@enduml

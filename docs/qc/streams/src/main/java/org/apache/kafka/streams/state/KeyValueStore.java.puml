@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+StateStore <|-- org.apache.kafka.streams.state.KeyValueStore
+class org.apache.kafka.streams.state.KeyValueStore {
++  put(K;V)
++  putIfAbsent(K;V)
++  putAll(List<KeyValue<K,V>>)
++  delete(K)
+} 
+@enduml

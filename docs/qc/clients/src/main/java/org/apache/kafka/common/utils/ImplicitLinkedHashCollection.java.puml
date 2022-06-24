@@ -1,0 +1,37 @@
+@startuml
+!pragma layout smetana
+AbstractCollection<E> <|-- org.apache.kafka.common.utils.ImplicitLinkedHashCollection
+class org.apache.kafka.common.utils.ImplicitLinkedHashCollection {
++  indexToElement(Element;Element[];int)
++  addToListTail(Element;Element[];int)
++  removeFromList(Element;Element[];int)
++  iterator()
++  listIterator(int)
++  slot(Element[];Object)
++  findIndexOfEqualElement(Object)
++  find(E)
++  size()
++  contains(Object)
++  calculateCapacity(int)
++  add(E)
++  mustAdd(E)
++  addInternal(Element;Element[])
++  changeCapacity(int)
++  remove(Object)
++  findElementToRemove(Object)
++  removeElementAtSlot(int)
++  reseat(int)
++  ImplicitLinkedHashCollection()
++  ImplicitLinkedHashCollection(int)
++  ImplicitLinkedHashCollection(Iterator<E>)
++  clear()
++  moveToEnd(E)
++  clear(int)
++  equals(Object)
++  hashCode()
++  numSlots()
++  valuesList()
++  valuesSet()
++  sort(Comparator<E>)
+} 
+@enduml

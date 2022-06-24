@@ -1,0 +1,30 @@
+@startuml
+!pragma layout smetana
+Runnable <|-- org.apache.kafka.connect.runtime.WorkerConnector
+class org.apache.kafka.connect.runtime.WorkerConnector {
++  WorkerConnector(String;Connector;ConnectorConfig;CloseableConnectorContext;ConnectMetrics;ConnectorStatus.Listener;CloseableOffsetStorageReader;ConnectorOffsetBackingStore;ClassLoader)
++  loader()
++  run()
++  doRun()
++  initialize()
++  doStart()
++  onFailure(Throwable)
++  resume()
++  start()
++  isRunning()
++  pause()
++  shutdown()
++  doShutdown()
++  cancel()
++  awaitShutdown(long)
++  transitionTo(TargetState;Callback<TargetState>)
++  doTransitionTo(TargetState;Callback<TargetState>)
++  doTransitionTo(TargetState)
++  isSinkConnector()
++  isSourceConnector()
++  connectorType()
++  connector()
++  metrics()
++  toString()
+} 
+@enduml

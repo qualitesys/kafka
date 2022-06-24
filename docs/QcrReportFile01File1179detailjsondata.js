@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectException"
+ , "c2" : "org.apache.kafka.connect.storage.PrivilegedWriteException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.PrivilegedWriteException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "PrivilegedWriteException"
+ , "c2" : "PrivilegedWriteException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PrivilegedWriteException"
+ , "c2" : "PrivilegedWriteException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/PrivilegedWriteException.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/PrivilegedWriteException.java.svg" }
+
 ] 
 , 
 "data04" : [

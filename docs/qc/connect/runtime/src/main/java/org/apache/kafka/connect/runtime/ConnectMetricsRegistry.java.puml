@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.ConnectMetricsRegistry
+class org.apache.kafka.connect.runtime.ConnectMetricsRegistry {
++  ConnectMetricsRegistry()
++  ConnectMetricsRegistry(Set<String>)
++  createTemplate(String;String;String;Set<String>)
++  getAllTemplates()
++  connectorTagName()
++  taskTagName()
++  connectorGroupName()
++  taskGroupName()
++  sinkTaskGroupName()
++  sourceTaskGroupName()
++  workerGroupName()
++  workerRebalanceGroupName()
++  taskErrorHandlingGroupName()
+} 
+@enduml

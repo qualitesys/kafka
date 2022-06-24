@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.shell.CommandUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.shell.CommandUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "List<String>"
+ , "c2" : "getEffectivePaths(List<String>)"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "completeCommand(String;List<Candidate>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<String>"
+ , "c2" : "splitPath(String)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<String>"
+ , "c2" : "stripDotPathComponents(List<String>)"
+ , "c3" : "6"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "completePath(MetadataNodeManager;String;List<Candidate>)"
+ , "c3" : "8"
+ , "c4" : "24"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.CommandUtils.getEffectivePaths@POLYN175889 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.CommandUtils.getEffectivePaths@POLYN177601 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.CommandUtils.completeCommand@POLYN176643 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.CommandUtils.completeCommand@POLYN178355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +174,14 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN177354 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN179066 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN177354 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN179066 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,28 +195,28 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN178077 the MagicNumber/String  '..' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN179789 the MagicNumber/String  '..' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN178077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN179789 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN178077 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN179789 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN178077 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN179789 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -205,140 +251,140 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN179020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN180732 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

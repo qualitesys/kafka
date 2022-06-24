@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidStateStoreException <|-- org.apache.kafka.streams.errors.StreamsStoppedException
+class org.apache.kafka.streams.errors.StreamsStoppedException {
++  StreamsStoppedException(String)
++  StreamsStoppedException(String;Throwable)
+} 
+@enduml

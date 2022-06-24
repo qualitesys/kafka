@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper
+class org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper {
++  WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long)
++  WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long;Function<byte[],Long>;BiFunction<byte[],Long,Windowed<Bytes>>)
++  valuesIterator()
++  keyValueIterator()
+} 
+@enduml

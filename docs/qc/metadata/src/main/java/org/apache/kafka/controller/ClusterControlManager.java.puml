@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ClusterControlManager
+class org.apache.kafka.controller.ClusterControlManager {
++  ClusterControlManager(LogContext;String;Time;SnapshotRegistry;long;ReplicaPlacer;ControllerMetrics;FeatureControlManager)
++  replicaPlacer()
++  activate()
++  deactivate()
++  brokerRegistrations()
++  brokerSupportedVersions()
++  fencedBrokerIds()
++  registerBroker(BrokerRegistrationRequestData;long;FinalizedControllerFeatures)
++  replay(RegisterBrokerRecord)
++  replay(UnregisterBrokerRecord)
++  replay(FenceBrokerRecord)
++  replay(UnfenceBrokerRecord)
++  replay(BrokerRegistrationChangeRecord)
++  replayRegistrationChange(ApiMessage;int;long;Optional<Boolean>;Optional<Boolean>)
++  updateMetrics(BrokerRegistration;BrokerRegistration)
++  usableBrokers()
++  unfenced(int)
++  inControlledShutdown(int)
++  active(int)
++  heartbeatManager()
++  checkBrokerEpoch(int;long)
++  addReadyBrokersFuture(CompletableFuture<Void>;int)
++  iterator(long)
+} 
+@enduml

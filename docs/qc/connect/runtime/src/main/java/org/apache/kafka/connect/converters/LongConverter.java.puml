@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+NumberConverter<Long> <|-- org.apache.kafka.connect.converters.LongConverter
+class org.apache.kafka.connect.converters.LongConverter {
++  LongConverter()
+} 
+@enduml

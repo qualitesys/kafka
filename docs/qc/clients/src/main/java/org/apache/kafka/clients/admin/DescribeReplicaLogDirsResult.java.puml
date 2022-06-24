@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult
+class org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult {
++  DescribeReplicaLogDirsResult(Map<TopicPartitionReplica,KafkaFuture<ReplicaLogDirInfo>>)
++  values()
++  all()
+} 
+@enduml

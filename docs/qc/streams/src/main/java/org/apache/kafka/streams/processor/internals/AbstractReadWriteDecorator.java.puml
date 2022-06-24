@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<T,K,V> <|-- org.apache.kafka.streams.processor.internals.AbstractReadWriteDecorator
+class org.apache.kafka.streams.processor.internals.AbstractReadWriteDecorator {
++  AbstractReadWriteDecorator(T)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  close()
++  getReadWriteStore(StateStore)
+} 
+@enduml

@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KeyValueIterator<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.CompositeKeyValueIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.CompositeKeyValueIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CompositeKeyValueIterator"
+ , "c2" : "CompositeKeyValueIterator(Iterator<StoreType>;NextIteratorFunction<K,V,StoreType>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "K"
+ , "c2" : "peekNextKey()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<K,V>"
+ , "c2" : "next()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,35 +111,35 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.close@POLYN159204 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.close@POLYN160916 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.close@POLYN159204 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.close@POLYN160916 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.peekNextKey@POLYN159451 the MagicNumber/String  'peekNextKey not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.peekNextKey@POLYN161163 the MagicNumber/String  'peekNextKey not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.hasNext@POLYN159591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.hasNext@POLYN161303 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.hasNext@POLYN159591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.hasNext@POLYN161303 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

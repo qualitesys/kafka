@@ -2,18 +2,85 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java 14 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java 23 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.agent.AgentRestResource"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.agent.AgentRestResource" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setAgent(Agent)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AgentStatusResponse"
+ , "c2" : "getStatus()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UptimeResponse"
+ , "c2" : "uptime()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "createWorker(CreateWorkerRequest)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "stopWorker(StopWorkerRequest)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "destroyWorker(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "shutdown()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Agent"
+ , "c2" : "agent()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,11 +104,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "7"
 }}
 ,
@@ -107,14 +197,14 @@ var maDataBlocs = {
    "c1" : "00080"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN169872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN171584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN169872 the MagicNumber/String  'AgentRestResource has not been initialized yet.' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN171584 the MagicNumber/String  'AgentRestResource has not been initialized yet.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -164,6 +254,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#34"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00034] Public method setAgent is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN171584"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.AgentRestResource.createWorker@POLYN170478"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.AgentRestResource.destroyWorker@POLYN171018"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.AgentRestResource.getStatus@POLYN170112"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.AgentRestResource.setAgent@POLYN169911"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.AgentRestResource.stopWorker@POLYN170748"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.AgentRestResource.uptime@POLYN170301"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#80"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN171584 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN171584 the MagicNumber/String 'AgentRestResource has not been initialized yet.' MUST BE CONVERTED to const"
 }} 
 ]
 };

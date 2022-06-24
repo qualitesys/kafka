@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+MetricsContext <|-- org.apache.kafka.common.metrics.KafkaMetricsContext
+class org.apache.kafka.common.metrics.KafkaMetricsContext {
++  KafkaMetricsContext(String)
++  KafkaMetricsContext(String;Map<String,?>)
++  contextLabels()
+} 
+@enduml

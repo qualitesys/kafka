@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.MissingSourceTopicException
+class org.apache.kafka.streams.errors.MissingSourceTopicException {
++  MissingSourceTopicException(String)
+} 
+@enduml

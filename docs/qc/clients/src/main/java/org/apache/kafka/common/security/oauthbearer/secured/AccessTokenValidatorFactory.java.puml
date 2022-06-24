@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory
+class org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory {
++  create(Map<String,?>)
++  create(Map<String,?>;String)
++  create(Map<String,?>;VerificationKeyResolver)
++  create(Map<String,?>;String;VerificationKeyResolver)
+} 
+@enduml

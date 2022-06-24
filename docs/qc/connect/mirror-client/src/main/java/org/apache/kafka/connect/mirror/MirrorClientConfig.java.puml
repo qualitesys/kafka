@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractConfig <|-- org.apache.kafka.connect.mirror.MirrorClientConfig
+class org.apache.kafka.connect.mirror.MirrorClientConfig {
++  MirrorClientConfig(Map<?,?>)
++  replicationPolicy()
++  adminConfig()
++  consumerConfig()
++  producerConfig()
++  clientConfig(String)
+} 
+@enduml

@@ -2,18 +2,99 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java 42 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java 46 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.metadata.KafkaConfigSchema"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.KafkaConfigSchema" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConfigEntry.ConfigType"
+ , "c2" : "translateConfigType(ConfigDef.Type)"
+ , "c3" : "10"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeConfigsResponse.ConfigSource"
+ , "c2" : "translateConfigSource(ConfigEntry.ConfigSource)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaConfigSchema"
+ , "c2" : "KafkaConfigSchema(Map<ConfigResource.Type,ConfigDef>;Map<String,List<ConfigSynonym>>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isSplittable(ConfigResource.Type;String)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isSensitive(ConfigRecord)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isSensitive(ConfigResource.Type;String)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "getDefault(ConfigResource.Type;String)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,ConfigEntry>"
+ , "c2" : "resolveEffectiveTopicConfigs(Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigEntry"
+ , "c2" : "resolveEffectiveTopicConfig(ConfigDef.ConfigKey;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>)"
+ , "c3" : "8"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigEntry"
+ , "c2" : "toConfigEntry(ConfigDef.ConfigKey;Object;ConfigSource;Function<String,String>)"
+ , "c3" : "7"
+ , "c4" : "7"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,6 +160,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -107,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.metadata.KafkaConfigSchema.translateConfigSource@POLYN196623 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.metadata.KafkaConfigSchema.translateConfigSource@POLYN198335 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -118,31 +206,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN197525 the MagicNumber/String  null should be converted to const"
+   "c1" : "00083"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#83"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00083] For method isSplittable list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN199562"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN197525 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN199237 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN199237 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN197525 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN199237 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN197525 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.metadata.KafkaConfigSchema.isSplittable@POLYN199237 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -169,6 +264,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00098] For method isSensitive list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN200649"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#98"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00098] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -177,28 +279,28 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN198612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN200324 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN198612 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN200324 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN198612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN200324 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN198612 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.metadata.KafkaConfigSchema.isSensitive@POLYN200324 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,31 +311,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00109"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN199254 the MagicNumber/String  null should be converted to const"
+   "c1" : "00107"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#107"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00107] For method getDefault list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN201291"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN199254 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN200966 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN200966 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN199254 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN200966 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN199254 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.metadata.KafkaConfigSchema.getDefault@POLYN200966 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -241,6 +350,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#117"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00117] For method resolveEffectiveTopicConfigs arguments Map&lt;String ,?  extends Object &gt;  staticNodeConfig|Map&lt;String ,?  extends Object &gt;  dynamicClusterConfigs|Map&lt;String ,?  extends Object &gt;  dynamicNodeConfigs|Map&lt;String ,?  extends Object &gt;  dynamicTopicConfigs"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00117] For method resolveEffectiveTopicConfigs list of called methods Object monObjet|org.apache.kafka.clients.admin.ConfigEntry resolveEffectiveTopicConfigN202411"
 }} 
 ,
 { "ligne" : {
@@ -296,7 +412,7 @@ var maDataBlocs = {
    "c1" : "00161"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.metadata.KafkaConfigSchema.resolveEffectiveTopicConfig@POLYN201000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.metadata.KafkaConfigSchema.resolveEffectiveTopicConfig@POLYN202712 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -324,42 +440,42 @@ var maDataBlocs = {
    "c1" : "00170"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN203263 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN204975 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN203263 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN204975 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN203263 the MagicNumber/String  'Unable to convert ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN204975 the MagicNumber/String  'Unable to convert ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN203263 the MagicNumber/String  ' to string.' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN204975 the MagicNumber/String  ' to string.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN203263 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN204975 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN203263 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.metadata.KafkaConfigSchema.toConfigEntry@POLYN204975 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

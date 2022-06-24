@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.JaasUtils
+class org.apache.kafka.common.security.JaasUtils {
++  JaasUtils()
++  zkSecuritySysConfigString()
++  isZkSaslEnabled()
+} 
+@enduml

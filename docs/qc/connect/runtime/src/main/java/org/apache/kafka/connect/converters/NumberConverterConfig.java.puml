@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ConverterConfig <|-- org.apache.kafka.connect.converters.NumberConverterConfig
+class org.apache.kafka.connect.converters.NumberConverterConfig {
++  configDef()
++  NumberConverterConfig(Map<String,?>)
+} 
+@enduml

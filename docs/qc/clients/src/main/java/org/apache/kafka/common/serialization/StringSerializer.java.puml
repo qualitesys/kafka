@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Serializer<String> <|-- org.apache.kafka.common.serialization.StringSerializer
+class org.apache.kafka.common.serialization.StringSerializer {
++  configure(Map<String,?>;boolean)
++  serialize(String;String)
+} 
+@enduml

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeConfigsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConfigsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeConfigsResult"
+ , "c2" : "DescribeConfigsResult(Map<ConfigResource,KafkaFuture<Config>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<ConfigResource,KafkaFuture<Config>>"
+ , "c2" : "values()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<ConfigResource,Config>>"
+ , "c2" : "all()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.DescribeConfigsResult.all@POLYN162351 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.DescribeConfigsResult.all@POLYN164063 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

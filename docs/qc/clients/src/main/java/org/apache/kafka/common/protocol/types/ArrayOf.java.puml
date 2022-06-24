@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+DocumentedType <|-- org.apache.kafka.common.protocol.types.ArrayOf
+class org.apache.kafka.common.protocol.types.ArrayOf {
++  ArrayOf(Type)
++  nullable(Type)
++  ArrayOf(Type;boolean)
++  isNullable()
++  write(ByteBuffer;Object)
++  read(ByteBuffer)
++  sizeOf(Object)
++  arrayElementType()
++  toString()
++  validate(Object)
++  typeName()
++  documentation()
+} 
+@enduml

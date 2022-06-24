@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+ConnectorConfig <|-- org.apache.kafka.connect.runtime.SourceConnectorConfig
+class org.apache.kafka.connect.runtime.SourceConnectorConfig {
++  configDef()
++  embedDefaultGroup(ConfigDef)
++  enrich(ConfigDef;Map<String,String>;AbstractConfig)
++  SourceConnectorConfig(Plugins;Map<String,String>;boolean)
++  usesTopicCreation(Map<String,String>)
++  get(String)
++  transactionBoundary()
++  transactionBoundaryInterval()
++  offsetsTopic()
++  usesTopicCreation()
++  topicCreationInclude(String)
++  topicCreationExclude(String)
++  topicCreationReplicationFactor(String)
++  topicCreationPartitions(String)
++  topicCreationOtherConfigs(String)
++  main(String[])
+} 
+@enduml

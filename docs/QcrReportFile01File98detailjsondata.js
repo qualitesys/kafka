@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ExpireDelegationTokenResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ExpireDelegationTokenResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ExpireDelegationTokenResult"
+ , "c2" : "ExpireDelegationTokenResult(KafkaFuture<Long>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Long>"
+ , "c2" : "expiryTimestamp()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenResult.java.svg" }
+
 ] 
 , 
 "data04" : [

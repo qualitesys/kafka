@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+PayloadGenerator <|-- org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator
+class org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator {
++  GaussianTimestampRandomPayloadGenerator(int;double;int;long)
++  messageSizeAverage()
++  messageSizeDeviation()
++  messagesUntilSizeChange()
++  seed()
++  generate(long)
+} 
+@enduml

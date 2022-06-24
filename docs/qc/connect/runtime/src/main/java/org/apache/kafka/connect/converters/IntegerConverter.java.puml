@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+NumberConverter<Integer> <|-- org.apache.kafka.connect.converters.IntegerConverter
+class org.apache.kafka.connect.converters.IntegerConverter {
++  IntegerConverter()
+} 
+@enduml

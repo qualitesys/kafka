@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.clients.consumer.CommitFailedException
+class org.apache.kafka.clients.consumer.CommitFailedException {
++  CommitFailedException(String)
++  CommitFailedException()
+} 
+@enduml

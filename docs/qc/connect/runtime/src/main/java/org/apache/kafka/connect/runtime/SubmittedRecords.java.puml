@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.SubmittedRecords
+class org.apache.kafka.connect.runtime.SubmittedRecords {
++  SubmittedRecords()
++  submit(SourceRecord)
++  submit(Map<String,Object>;Map<String,Object>)
++  committableOffsets()
++  awaitAllMessages(long;TimeUnit)
++  committableOffset(Deque<SubmittedRecord>)
++  canCommitHead(Deque<SubmittedRecord>)
++  messageAcked()
+} 
+@enduml

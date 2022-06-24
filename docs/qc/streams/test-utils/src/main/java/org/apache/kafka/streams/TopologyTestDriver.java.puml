@@ -1,0 +1,36 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.streams.TopologyTestDriver
+class org.apache.kafka.streams.TopologyTestDriver {
++  TopologyTestDriver(Topology)
++  TopologyTestDriver(Topology;Properties)
++  TopologyTestDriver(Topology;Instant)
++  TopologyTestDriver(Topology;Properties;Instant)
++  TopologyTestDriver(InternalTopologyBuilder;Properties;long)
++  logIfTaskIdleEnabled(StreamsConfig)
++  setupMetrics(StreamsConfig)
++  setupTopology(InternalTopologyBuilder;StreamsConfig)
++  setupGlobalTask(Time;StreamsConfig;StreamsMetricsImpl;ThreadCache)
++  setupTask(StreamsConfig;StreamsMetricsImpl;ThreadCache;TaskConfig)
++  metrics()
++  pipeRecord(String;long;byte[];byte[];Headers)
++  enqueueTaskRecord(String;TopicPartition;long;byte[];byte[];Headers)
++  completeAllProcessableWork()
++  commit(Map<TopicPartition,OffsetAndMetadata>)
++  processGlobalRecord(TopicPartition;long;byte[];byte[];Headers)
++  validateSourceTopicNameRegexPattern(String)
++  getInputTopicOrPatternPartition(String)
++  captureOutputsAndReEnqueueInternalResults()
++  advanceWallClockTime(Duration)
++  getRecordsQueue(String)
++  producedTopicNames()
++  readRecord(String)
++  getQueueSize(String)
++  isEmpty(String)
++  getAllStateStores()
++  getStateStore(String)
++  getStateStore(String;boolean)
++  throwIfBuiltInStore(StateStore)
++  close()
+} 
+@enduml

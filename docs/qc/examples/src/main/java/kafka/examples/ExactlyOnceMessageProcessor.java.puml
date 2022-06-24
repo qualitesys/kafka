@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Thread <|-- kafka.examples.ExactlyOnceMessageProcessor
+class kafka.examples.ExactlyOnceMessageProcessor {
++  ExactlyOnceMessageProcessor(String;String;int;CountDownLatch)
++  run()
++  consumerOffsets()
++  printWithTxnId(String)
++  transform(ConsumerRecord<Integer,String>)
++  messagesRemaining(KafkaConsumer<Integer,String>)
++  resetToLastCommittedPositions(KafkaConsumer<Integer,String>)
+} 
+@enduml

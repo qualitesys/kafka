@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StateStoreProvider"
+ , "c2" : "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GlobalStateStoreProvider"
+ , "c2" : "GlobalStateStoreProvider(Map<String,StateStore>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.svg" }
+
 ] 
 , 
 "data04" : [

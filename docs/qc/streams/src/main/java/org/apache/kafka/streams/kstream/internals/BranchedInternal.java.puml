@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Branched<K,V> <|-- org.apache.kafka.streams.kstream.internals.BranchedInternal
+class org.apache.kafka.streams.kstream.internals.BranchedInternal {
++  BranchedInternal(Branched<K,V>)
++  BranchedInternal()
++  name()
++  chainFunction()
++  chainConsumer()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractStoreBuilder<K,V,SessionStore<K,V>> <|-- org.apache.kafka.streams.state.internals.SessionStoreBuilder
+class org.apache.kafka.streams.state.internals.SessionStoreBuilder {
++  SessionStoreBuilder(SessionBytesStoreSupplier;Serde<K>;Serde<V>;Time)
++  build()
++  maybeWrapCaching(SessionStore<Bytes,byte[]>)
++  maybeWrapLogging(SessionStore<Bytes,byte[]>)
++  retentionPeriod()
+} 
+@enduml

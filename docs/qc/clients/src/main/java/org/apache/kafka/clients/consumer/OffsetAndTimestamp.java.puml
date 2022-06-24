@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.OffsetAndTimestamp
+class org.apache.kafka.clients.consumer.OffsetAndTimestamp {
++  OffsetAndTimestamp(long;long)
++  OffsetAndTimestamp(long;long;Optional<Integer>)
++  timestamp()
++  offset()
++  leaderEpoch()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

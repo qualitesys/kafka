@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+QueryResult<R> <|-- org.apache.kafka.streams.query.internals.AbstractQueryResult
+class org.apache.kafka.streams.query.internals.AbstractQueryResult {
++  AbstractQueryResult()
++  AbstractQueryResult(List<String>;Position)
++  addExecutionInfo(String)
++  setPosition(Position)
++  getExecutionInfo()
++  getPosition()
+} 
+@enduml

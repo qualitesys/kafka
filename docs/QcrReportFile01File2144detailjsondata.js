@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskSpec"
+ , "c2" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "NetworkPartitionFaultSpec"
+ , "c2" : "NetworkPartitionFaultSpec(long;long;List<List<String>>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<List<String>>"
+ , "c2" : "partitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<Set<String>>"
+ , "c2" : "partitionSets()"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec.NetworkPartitionFaultSpec@POLYN161410 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec.NetworkPartitionFaultSpec@POLYN163122 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec.partitionSets@POLYN162532 the MagicNumber/String  'Node ' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec.partitionSets@POLYN164244 the MagicNumber/String  'Node ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec.partitionSets@POLYN162532 the MagicNumber/String  ' appears in more than one partition.' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec.partitionSets@POLYN164244 the MagicNumber/String  ' appears in more than one partition.' should be converted to const"
 }} 
 ]
 };

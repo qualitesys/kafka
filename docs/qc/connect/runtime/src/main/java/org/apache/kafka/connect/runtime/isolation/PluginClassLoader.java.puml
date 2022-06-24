@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+URLClassLoader <|-- org.apache.kafka.connect.runtime.isolation.PluginClassLoader
+class org.apache.kafka.connect.runtime.isolation.PluginClassLoader {
++  PluginClassLoader(URL;URL[];ClassLoader)
++  PluginClassLoader(URL;URL[])
++  location()
++  toString()
++  loadClass(String;boolean)
+} 
+@enduml

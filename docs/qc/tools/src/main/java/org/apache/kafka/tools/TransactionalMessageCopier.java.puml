@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.tools.TransactionalMessageCopier
+class org.apache.kafka.tools.TransactionalMessageCopier {
++  argParser()
++  createProducer(Namespace)
++  createConsumer(Namespace)
++  producerRecordFromConsumerRecord(String;ConsumerRecord<String,String>)
++  consumerPositions(KafkaConsumer<String,String>)
++  resetToLastCommittedPositions(KafkaConsumer<String,String>)
++  messagesRemaining(KafkaConsumer<String,String>;TopicPartition)
++  toJsonString(Map<String,Object>)
++  statusAsJson(String;long;long;long;String)
++  abortTransactionAndResetPosition(KafkaProducer<String,String>;KafkaConsumer<String,String>)
++  main(String[])
++  runEventLoop(Namespace)
+} 
+@enduml

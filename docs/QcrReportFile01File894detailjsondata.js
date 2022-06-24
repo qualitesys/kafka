@@ -8,12 +8,149 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConcurrentMap<K,V>"
+ , "c2" : "org.apache.kafka.common.utils.CopyOnWriteMap"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.CopyOnWriteMap" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CopyOnWriteMap"
+ , "c2" : "CopyOnWriteMap()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CopyOnWriteMap"
+ , "c2" : "CopyOnWriteMap(Map<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "containsKey(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "containsValue(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<java.util.Map.Entry<K,V>>"
+ , "c2" : "entrySet()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "get(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<K>"
+ , "c2" : "keySet()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<V>"
+ , "c2" : "values()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "clear()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "put(K;V)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putAll(Map<?extendsK,?extendsV>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "remove(Object)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "putIfAbsent(K;V)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "remove(Object;Object)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "replace(K;V;V)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "replace(K;V)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -177,14 +314,14 @@ var maDataBlocs = {
    "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN172596 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN174308 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN172596 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN174308 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -205,14 +342,14 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN173042 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN174754 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN173042 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN174754 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -233,7 +370,7 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN173535 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN175247 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

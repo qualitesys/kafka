@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AdminApiLookupStrategy<K>"
+ , "c2" : "org.apache.kafka.clients.admin.internals.StaticBrokerStrategy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.StaticBrokerStrategy" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StaticBrokerStrategy"
+ , "c2" : "StaticBrokerStrategy(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiRequestScope"
+ , "c2" : "lookupScope(K)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractRequest.Builder<?>"
+ , "c2" : "buildRequest(Set<K>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LookupResult<K>"
+ , "c2" : "handleResponse(Set<K>;AbstractResponse)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.svg" }
+
 ] 
 , 
 "data04" : [

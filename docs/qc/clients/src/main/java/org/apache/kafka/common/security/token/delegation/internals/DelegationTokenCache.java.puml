@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache
+class org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache {
++  DelegationTokenCache(Collection<String>)
++  credential(String;String)
++  owner(String)
++  updateCache(DelegationToken;Map<String,ScramCredential>)
++  removeCache(String)
++  tokenIdForHmac(String)
++  tokenForHmac(String)
++  addToken(String;TokenInformation)
++  removeToken(String)
++  tokens()
++  token(String)
++  credentialCache(String)
++  updateCredentials(String;Map<String,ScramCredential>)
+} 
+@enduml

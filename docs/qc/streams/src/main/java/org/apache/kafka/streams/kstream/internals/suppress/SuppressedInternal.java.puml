@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Suppressed<K> <|-- org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal
+class org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal {
++  SuppressedInternal(String;Duration;BufferConfig;TimeDefinition<K>;boolean)
++  withName(String)
++  name()
++  timeDefinition()
++  timeToWaitForMoreEvents()
++  safeToDropTombstones()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

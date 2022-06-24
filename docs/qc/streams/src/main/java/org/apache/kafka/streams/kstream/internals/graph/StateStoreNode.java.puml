@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.StateStoreNode
+class org.apache.kafka.streams.kstream.internals.graph.StateStoreNode {
++  StateStoreNode(StoreBuilder<S>)
++  writeToTopology(InternalTopologyBuilder)
++  toString()
+} 
+@enduml

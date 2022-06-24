@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+InternalNameProvider <|-- org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder
+class org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder {
++  InternalStreamsBuilder(InternalTopologyBuilder)
++  newProcessorName(String)
++  newStoreName(String)
++  addStateStore(StoreBuilder<?>)
++  addGraphNode(GraphNode;GraphNode)
++  addGraphNode(Collection<GraphNode>;GraphNode)
++  maybeAddNodeForOptimizationMetadata(GraphNode)
++  buildAndOptimizeTopology()
++  buildAndOptimizeTopology(boolean)
++  mergeDuplicateSourceNodes()
++  optimizeKTableSourceTopics()
++  maybeOptimizeRepartitionOperations()
++  maybeUpdateKeyChangingRepartitionNodeMap()
++  mergeNodeHasRepartitionChildren(GraphNode;LinkedHashSet<OptimizableRepartitionNode<?,?>>)
++  getKeyChangingParentNode(GraphNode)
++  getFirstRepartitionTopicName(Collection<OptimizableRepartitionNode<?,?>>)
++  findParentNodeMatching(GraphNode;Predicate<GraphNode>)
++  root()
+} 
+@enduml

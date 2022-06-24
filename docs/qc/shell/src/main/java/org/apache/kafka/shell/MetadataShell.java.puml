@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.shell.MetadataShell
+class org.apache.kafka.shell.MetadataShell {
++  MetadataShell(KafkaRaftManager<ApiMessageAndVersion>;SnapshotFileReader;MetadataNodeManager)
++  run(List<String>)
++  close()
++  main(String[])
++  waitUntilCaughtUp()
+} 
+@enduml

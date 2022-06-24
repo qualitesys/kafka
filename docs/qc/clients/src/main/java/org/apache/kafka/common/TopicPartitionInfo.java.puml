@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.TopicPartitionInfo
+class org.apache.kafka.common.TopicPartitionInfo {
++  TopicPartitionInfo(int;Node;List<Node>;List<Node>)
++  partition()
++  leader()
++  replicas()
++  isr()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

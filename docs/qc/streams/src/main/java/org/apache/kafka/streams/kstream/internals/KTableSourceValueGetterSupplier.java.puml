@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+KTableValueGetterSupplier<K,V> <|-- org.apache.kafka.streams.kstream.internals.KTableSourceValueGetterSupplier
+class org.apache.kafka.streams.kstream.internals.KTableSourceValueGetterSupplier {
++  KTableSourceValueGetterSupplier(String)
++  get()
++  storeNames()
+} 
+@enduml

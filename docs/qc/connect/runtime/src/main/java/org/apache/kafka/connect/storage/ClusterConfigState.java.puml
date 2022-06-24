@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.storage.ClusterConfigState
+class org.apache.kafka.connect.storage.ClusterConfigState {
++  ClusterConfigState(long;SessionKey;Map<String,Integer>;Map<String,Map<String,String>>;Map<String,TargetState>;Map<ConnectorTaskId,Map<String,String>>;Map<String,Integer>;Map<String,Integer>;Set<String>;Set<String>)
++  ClusterConfigState(long;SessionKey;Map<String,Integer>;Map<String,Map<String,String>>;Map<String,TargetState>;Map<ConnectorTaskId,Map<String,String>>;Map<String,Integer>;Map<String,Integer>;Set<String>;Set<String>;WorkerConfigTransformer)
++  offset()
++  sessionKey()
++  contains(String)
++  connectors()
++  connectorConfig(String)
++  rawConnectorConfig(String)
++  targetState(String)
++  taskConfig(ConnectorTaskId)
++  rawTaskConfig(ConnectorTaskId)
++  allTaskConfigs(String)
++  taskCount(String)
++  pendingFencing(String)
++  tasks(String)
++  taskCountRecord(String)
++  taskConfigGeneration(String)
++  inconsistentConnectors()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

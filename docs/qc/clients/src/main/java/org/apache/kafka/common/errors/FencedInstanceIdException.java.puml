@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.FencedInstanceIdException
+class org.apache.kafka.common.errors.FencedInstanceIdException {
++  FencedInstanceIdException(String)
++  FencedInstanceIdException(String;Throwable)
+} 
+@enduml

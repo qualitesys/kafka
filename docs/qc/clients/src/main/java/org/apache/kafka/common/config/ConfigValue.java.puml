@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.config.ConfigValue
+class org.apache.kafka.common.config.ConfigValue {
++  ConfigValue(String)
++  ConfigValue(String;Object;List<Object>;List<String>)
++  name()
++  value()
++  recommendedValues()
++  errorMessages()
++  visible()
++  value(Object)
++  recommendedValues(List<Object>)
++  addErrorMessage(String)
++  visible(boolean)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

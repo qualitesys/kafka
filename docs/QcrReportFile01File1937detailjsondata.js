@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.query.internals.InternalQueryResultUtil"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.query.internals.InternalQueryResultUtil" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "InternalQueryResultUtil"
+ , "c2" : "InternalQueryResultUtil()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.svg" }
+
 ] 
 , 
 "data04" : [

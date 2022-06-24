@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.Record
+class org.apache.kafka.common.record.Record {
++  offset()
++  sequence()
++  sizeInBytes()
++  timestamp()
++  ensureValid()
++  keySize()
++  hasKey()
++  key()
++  valueSize()
++  hasValue()
++  value()
++  hasMagic(byte)
++  isCompressed()
++  hasTimestampType(TimestampType)
++  headers()
+} 
+@enduml

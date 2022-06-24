@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.AbortTransactionResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.AbortTransactionResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AbortTransactionResult"
+ , "c2" : "AbortTransactionResult(Map<TopicPartition,KafkaFuture<Void>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.admin.AbortTransactionResult.all@POLYN158079 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.admin.AbortTransactionResult.all@POLYN159791 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

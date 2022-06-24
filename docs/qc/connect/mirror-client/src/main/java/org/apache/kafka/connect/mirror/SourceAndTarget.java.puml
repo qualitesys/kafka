@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.SourceAndTarget
+class org.apache.kafka.connect.mirror.SourceAndTarget {
++  SourceAndTarget(String;String)
++  source()
++  target()
++  toString()
++  hashCode()
++  equals(Object)
+} 
+@enduml

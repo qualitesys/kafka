@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+AbstractConfig <|-- org.apache.kafka.connect.mirror.MirrorMakerConfig
+class org.apache.kafka.connect.mirror.MirrorMakerConfig {
++  MirrorMakerConfig(Map<?,?>)
++  clusters()
++  clusterPairs()
++  clientConfig(String)
++  clusterProps(String)
++  workerConfig(SourceAndTarget)
++  connectorBaseConfig(SourceAndTarget;Class<?>)
++  configProviders()
++  transform(Map<String,String>)
++  stringsWithPrefixStripped(String)
++  stringsWithPrefix(String)
++  clusterConfigsWithPrefix(String;Map<String,String>)
++  clientConfigsWithPrefix(String;Map<String,String>)
+} 
+@enduml

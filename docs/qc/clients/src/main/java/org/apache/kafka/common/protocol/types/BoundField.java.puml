@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.types.BoundField
+class org.apache.kafka.common.protocol.types.BoundField {
++  BoundField(Field;Schema;int)
++  toString()
+} 
+@enduml

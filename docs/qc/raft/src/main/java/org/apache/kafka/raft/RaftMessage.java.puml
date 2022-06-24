@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.RaftMessage
+class org.apache.kafka.raft.RaftMessage {
++  correlationId()
++  data()
+} 
+@enduml

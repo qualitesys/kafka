@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+PayloadGenerator <|-- org.apache.kafka.trogdor.workload.NullPayloadGenerator
+class org.apache.kafka.trogdor.workload.NullPayloadGenerator {
++  NullPayloadGenerator()
++  generate(long)
+} 
+@enduml

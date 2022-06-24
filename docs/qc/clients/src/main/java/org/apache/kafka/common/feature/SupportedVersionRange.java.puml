@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+BaseVersionRange <|-- org.apache.kafka.common.feature.SupportedVersionRange
+class org.apache.kafka.common.feature.SupportedVersionRange {
++  SupportedVersionRange(short;short)
++  SupportedVersionRange(short)
++  fromMap(Map<String,Short>)
++  isIncompatibleWith(short)
+} 
+@enduml

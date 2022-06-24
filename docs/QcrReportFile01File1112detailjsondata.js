@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectException"
+ , "c2" : "org.apache.kafka.connect.runtime.distributed.RequestTargetException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.RequestTargetException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RequestTargetException"
+ , "c2" : "RequestTargetException(String;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RequestTargetException"
+ , "c2" : "RequestTargetException(String;Throwable;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RequestTargetException"
+ , "c2" : "RequestTargetException(Throwable;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "forwardUrl()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.svg" }
+
 ] 
 , 
 "data04" : [

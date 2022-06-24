@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.task.TaskSpec"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.task.TaskSpec" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TaskSpec"
+ , "c2" : "TaskSpec(long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "startMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "endMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "durationMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "configOrEmptyMap(Map<String,String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.task.TaskSpec.TaskSpec@POLYN166324 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.task.TaskSpec.TaskSpec@POLYN168036 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,21 +202,21 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN167541 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN169253 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN167541 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN169253 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN167541 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN169253 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +230,7 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.task.TaskSpec.configOrEmptyMap@POLYN168308 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.task.TaskSpec.configOrEmptyMap@POLYN170020 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

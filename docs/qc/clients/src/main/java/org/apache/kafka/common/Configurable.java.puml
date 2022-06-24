@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.Configurable
+class org.apache.kafka.common.Configurable {
++  configure(Map<String,?>)
+} 
+@enduml

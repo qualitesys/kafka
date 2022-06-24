@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.timeline.SnapshotRegistry
+class org.apache.kafka.timeline.SnapshotRegistry {
++  SnapshotRegistry(LogContext)
++  iterator()
++  iterator(long)
++  iterator(Snapshot)
++  reverseIterator()
++  epochsList()
++  hasSnapshot(long)
++  getSnapshot(long)
++  getOrCreateSnapshot(long)
++  revertToSnapshot(long)
++  deleteSnapshot(long)
++  deleteSnapshot(Snapshot)
++  deleteSnapshotsUpTo(long)
++  latestEpoch()
++  register(Revertable)
++  reset()
+} 
+@enduml

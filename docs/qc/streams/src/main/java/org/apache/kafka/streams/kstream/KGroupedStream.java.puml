@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.KGroupedStream
+class org.apache.kafka.streams.kstream.KGroupedStream {
++  count()
++  count(Named)
++  count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
++  count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
++  reduce(Reducer<V>)
++  reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  windowedBy(SlidingWindows)
++  windowedBy(SessionWindows)
+} 
+@enduml

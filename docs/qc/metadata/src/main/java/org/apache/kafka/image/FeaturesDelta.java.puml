@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.FeaturesDelta
+class org.apache.kafka.image.FeaturesDelta {
++  FeaturesDelta(FeaturesImage)
++  changes()
++  metadataVersionChange()
++  finishSnapshot()
++  replay(FeatureLevelRecord)
++  apply()
++  toString()
+} 
+@enduml

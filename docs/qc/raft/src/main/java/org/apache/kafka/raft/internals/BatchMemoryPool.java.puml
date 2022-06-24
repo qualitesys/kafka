@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+MemoryPool <|-- org.apache.kafka.raft.internals.BatchMemoryPool
+class org.apache.kafka.raft.internals.BatchMemoryPool {
++  BatchMemoryPool(int;int)
++  tryAllocate(int)
++  release(ByteBuffer)
++  size()
++  availableMemory()
++  isOutOfMemory()
+} 
+@enduml

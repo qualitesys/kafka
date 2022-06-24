@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+LinkedHashMap<K,V> <|-- org.apache.kafka.common.utils.FixedOrderMap
+class org.apache.kafka.common.utils.FixedOrderMap {
++  removeEldestEntry(Map.Entry<K,V>)
++  remove(Object)
++  remove(Object;Object)
++  clone()
+} 
+@enduml

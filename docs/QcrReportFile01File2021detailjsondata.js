@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractMergedSortedCacheStoreIterator<Long,Long,byte[],byte[]>WindowStoreIterator<byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MergedSortedCacheWindowStoreIterator"
+ , "c2" : "MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "MergedSortedCacheWindowStoreIterator"
+ , "c2" : "MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean;Function<byte[],Long>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Long,byte[]>"
+ , "c2" : "deserializeStorePair(KeyValue<Long,byte[]>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "deserializeCacheKey(Bytes)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "deserializeCacheValue(LRUCacheEntry)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "deserializeStoreKey(Long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "compare(Bytes;Long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.svg" }
+
 ] 
 , 
 "data04" : [

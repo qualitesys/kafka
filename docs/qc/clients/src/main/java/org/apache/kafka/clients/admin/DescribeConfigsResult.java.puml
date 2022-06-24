@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeConfigsResult
+class org.apache.kafka.clients.admin.DescribeConfigsResult {
++  DescribeConfigsResult(Map<ConfigResource,KafkaFuture<Config>>)
++  values()
++  all()
+} 
+@enduml

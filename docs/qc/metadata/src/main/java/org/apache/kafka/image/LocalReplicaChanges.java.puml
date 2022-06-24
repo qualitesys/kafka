@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.LocalReplicaChanges
+class org.apache.kafka.image.LocalReplicaChanges {
++  LocalReplicaChanges(Set<TopicPartition>;Map<TopicPartition,PartitionInfo>;Map<TopicPartition,PartitionInfo>)
++  deletes()
++  leaders()
++  followers()
++  toString()
+} 
+@enduml

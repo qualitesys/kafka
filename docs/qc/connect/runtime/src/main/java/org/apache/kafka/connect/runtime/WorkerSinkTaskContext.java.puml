@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+SinkTaskContext <|-- org.apache.kafka.connect.runtime.WorkerSinkTaskContext
+class org.apache.kafka.connect.runtime.WorkerSinkTaskContext {
++  WorkerSinkTaskContext(KafkaConsumer<byte[],byte[]>;WorkerSinkTask;ClusterConfigState)
++  configs()
++  offset(Map<TopicPartition,Long>)
++  offset(TopicPartition;long)
++  clearOffsets()
++  offsets()
++  timeout(long)
++  timeout()
++  assignment()
++  pause(TopicPartition...)
++  resume(TopicPartition...)
++  pausedPartitions()
++  requestCommit()
++  isCommitRequested()
++  clearCommitRequest()
++  errantRecordReporter()
++  toString()
+} 
+@enduml

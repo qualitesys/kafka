@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<KeyValueStore<Bytes,byte[]>,byte[],byte[]>KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore
+class org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore {
++  ChangeLoggingKeyValueBytesStore(KeyValueStore<Bytes,byte[]>)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  maybeSetEvictionListener()
++  approximateNumEntries()
++  put(Bytes;byte[])
++  putIfAbsent(Bytes;byte[])
++  putAll(List<KeyValue<Bytes,byte[]>>)
++  delete(Bytes)
++  get(Bytes)
++  range(Bytes;Bytes)
++  reverseRange(Bytes;Bytes)
++  all()
++  reverseAll()
++  log(Bytes;byte[])
+} 
+@enduml

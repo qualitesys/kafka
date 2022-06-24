@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.errors.DataException
+class org.apache.kafka.connect.errors.DataException {
++  DataException(String)
++  DataException(String;Throwable)
++  DataException(Throwable)
+} 
+@enduml

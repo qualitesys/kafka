@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AuthenticationException <|-- org.apache.kafka.common.errors.UnsupportedSaslMechanismException
+class org.apache.kafka.common.errors.UnsupportedSaslMechanismException {
++  UnsupportedSaslMechanismException(String)
++  UnsupportedSaslMechanismException(String;Throwable)
+} 
+@enduml

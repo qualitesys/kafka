@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.snapshot.SnapshotPath"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.snapshot.SnapshotPath" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SnapshotPath"
+ , "c2" : "SnapshotPath(Path;OffsetAndEpoch;boolean;boolean)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.snapshot.SnapshotPath.toString@POLYN155308 the MagicNumber/String  'SnapshotPath(path=%s, snapshotId=%s, partial=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.snapshot.SnapshotPath.toString@POLYN157020 the MagicNumber/String  'SnapshotPath(path=%s, snapshotId=%s, partial=%s)' should be converted to const"
 }} 
 ]
 };

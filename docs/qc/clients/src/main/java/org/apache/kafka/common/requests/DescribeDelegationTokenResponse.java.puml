@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeDelegationTokenResponse
+class org.apache.kafka.common.requests.DescribeDelegationTokenResponse {
++  DescribeDelegationTokenResponse(int;Errors;List<DelegationToken>)
++  DescribeDelegationTokenResponse(int;Errors)
++  DescribeDelegationTokenResponse(DescribeDelegationTokenResponseData)
++  parse(ByteBuffer;short)
++  errorCounts()
++  data()
++  throttleTimeMs()
++  error()
++  tokens()
++  hasError()
++  shouldClientThrottle(short)
+} 
+@enduml

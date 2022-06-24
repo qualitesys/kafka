@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredValidatorCallbackHandler
+class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredValidatorCallbackHandler {
++  time(Time)
++  configured()
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  handle(Callback[])
++  close()
++  handleCallback(OAuthBearerValidatorCallback)
++  principalClaimName()
++  scopeClaimName()
++  requiredScope()
++  allowableClockSkewMs()
++  option(String)
+} 
+@enduml

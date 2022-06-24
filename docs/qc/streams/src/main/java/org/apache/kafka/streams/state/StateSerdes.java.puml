@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.StateSerdes
+class org.apache.kafka.streams.state.StateSerdes {
++  StateSerdes(String;Serde<K>;Serde<V>)
++  keySerde()
++  valueSerde()
++  keyDeserializer()
++  keySerializer()
++  valueDeserializer()
++  valueSerializer()
++  topic()
++  keyFrom(byte[])
++  valueFrom(byte[])
++  rawKey(K)
++  rawValue(V)
+} 
+@enduml

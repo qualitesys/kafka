@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "NamedOperation<TableJoined<K,KO>>"
+ , "c2" : "org.apache.kafka.streams.kstream.TableJoined"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.TableJoined" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TableJoined"
+ , "c2" : "TableJoined(StreamPartitioner<K,Void>;StreamPartitioner<KO,Void>;String)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TableJoined"
+ , "c2" : "TableJoined(TableJoined<K,KO>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TableJoined<K,KO>"
+ , "c2" : "withPartitioner(StreamPartitioner<K,Void>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TableJoined<K,KO>"
+ , "c2" : "withOtherPartitioner(StreamPartitioner<KO,Void>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TableJoined<K,KO>"
+ , "c2" : "withName(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.svg" }
+
 ] 
 , 
 "data04" : [

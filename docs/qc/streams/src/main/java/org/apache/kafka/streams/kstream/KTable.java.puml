@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.KTable
+class org.apache.kafka.streams.kstream.KTable {
++  filter(Predicate<?superK,?superV>)
++  filter(Predicate<?superK,?superV>;Named)
++  filter(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  filter(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  filterNot(Predicate<?superK,?superV>)
++  filterNot(Predicate<?superK,?superV>;Named)
++  filterNot(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  filterNot(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  toStream()
++  toStream(Named)
++  suppress(Suppressed<?superK>)
++  queryableStoreName()
+} 
+@enduml

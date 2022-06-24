@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.Heartbeat
+class org.apache.kafka.clients.consumer.internals.Heartbeat {
++  Heartbeat(GroupRebalanceConfig;Time)
++  update(long)
++  poll(long)
++  hasInflight()
++  sentHeartbeat(long)
++  failHeartbeat()
++  receiveHeartbeat()
++  shouldHeartbeat(long)
++  lastHeartbeatSend()
++  timeToNextHeartbeat(long)
++  sessionTimeoutExpired(long)
++  resetTimeouts()
++  resetSessionTimeout()
++  pollTimeoutExpired(long)
++  lastPollTime()
+} 
+@enduml

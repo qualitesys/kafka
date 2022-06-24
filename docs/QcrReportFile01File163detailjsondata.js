@@ -2,18 +2,92 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java 38 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java 49 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AdminApiHandler.Batched<CoordinatorKey,ConsumerGroupDescription>"
+ , "c2" : "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeConsumerGroupsHandler"
+ , "c2" : "DescribeConsumerGroupsHandler(boolean;LogContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<CoordinatorKey>"
+ , "c2" : "buildKeySet(Collection<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ConsumerGroupDescription>"
+ , "c2" : "newFuture(Collection<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "apiName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
+ , "c2" : "lookupStrategy()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeGroupsRequest.Builder"
+ , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiResult<CoordinatorKey,ConsumerGroupDescription>"
+ , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
+ , "c3" : "7"
+ , "c4" : "20"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)"
+ , "c3" : "5"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<AclOperation>"
+ , "c2" : "validAclOperations(int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,7 +111,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "8"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -50,6 +140,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -71,6 +168,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -107,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.apiName@POLYN186644 the MagicNumber/String  'describeGroups' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.apiName@POLYN188356 the MagicNumber/String  'describeGroups' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +232,14 @@ var maDataBlocs = {
    "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN186875 the MagicNumber/String  'Invalid transaction coordinator key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN188587 the MagicNumber/String  'Invalid transaction coordinator key ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN186875 the MagicNumber/String  ' when building `DescribeGroups` request' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN188587 the MagicNumber/String  ' when building `DescribeGroups` request' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -143,6 +247,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#92"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00092] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00092] For method handleResponse list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byGroupIdN190172|java.util.Set&lt;AclOperation&gt; validAclOperationsN191119|Assignment ConsumerProtocol_deserializeAssignmentN191505"
 }} 
 ,
 { "ligne" : {
@@ -233,14 +344,14 @@ var maDataBlocs = {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleResponse@POLYN187737 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleResponse@POLYN189449 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleResponse@POLYN187737 the MagicNumber/String  'GroupId %s is not a consumer group (%s).' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleResponse@POLYN189449 the MagicNumber/String  'GroupId %s is not a consumer group (%s).' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -289,42 +400,42 @@ var maDataBlocs = {
    "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN191250 the MagicNumber/String  '`DescribeGroups` request for group id {} failed due to error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String  '`DescribeGroups` request for group id {} failed due to error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN191250 the MagicNumber/String  '`DescribeGroups` request for group id {} failed because the coordinator ' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String  '`DescribeGroups` request for group id {} failed because the coordinator ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN191250 the MagicNumber/String  'is still in the process of loading state. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String  'is still in the process of loading state. Will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN191250 the MagicNumber/String  '`DescribeGroups` request for group id {} returned error {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String  '`DescribeGroups` request for group id {} returned error {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN191250 the MagicNumber/String  'Will attempt to find the coordinator again and retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String  'Will attempt to find the coordinator again and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN191250 the MagicNumber/String  '`DescribeGroups` request for group id {} failed due to unexpected error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String  '`DescribeGroups` request for group id {} failed due to unexpected error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -338,7 +449,77 @@ var maDataBlocs = {
    "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.validAclOperations@POLYN192540 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.validAclOperations@POLYN194252 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN188587"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String '`DescribeGroups` request for group id {} failed due to error {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00160"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#160"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String '`DescribeGroups` request for group id {} failed because the coordinator ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00161"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String 'is still in the process of loading state. Will retry' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String '`DescribeGroups` request for group id {} returned error {}. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String 'Will attempt to find the coordinator again and retry' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00174"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00174] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN192962 the MagicNumber/String '`DescribeGroups` request for group id {} failed due to unexpected error {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#80"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN188587 the MagicNumber/String 'Invalid transaction coordinator key ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN188587 the MagicNumber/String ' when building `DescribeGroups` request' MUST BE CONVERTED to const"
 }} 
 ]
 };

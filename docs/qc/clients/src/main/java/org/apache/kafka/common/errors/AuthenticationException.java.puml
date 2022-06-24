@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.AuthenticationException
+class org.apache.kafka.common.errors.AuthenticationException {
++  AuthenticationException(String)
++  AuthenticationException(Throwable)
++  AuthenticationException(String;Throwable)
+} 
+@enduml

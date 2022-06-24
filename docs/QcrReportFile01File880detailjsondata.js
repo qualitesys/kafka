@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Serializer<Void>"
+ , "c2" : "org.apache.kafka.common.serialization.VoidSerializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.serialization.VoidSerializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "serialize(String;Void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#7"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN152731 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN154443 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

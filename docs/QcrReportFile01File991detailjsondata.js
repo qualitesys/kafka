@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.storage.OffsetStorageReader"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.OffsetStorageReader" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReader.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReader.java.svg" }
+
 ] 
 , 
 "data04" : [

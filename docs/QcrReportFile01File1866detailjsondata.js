@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TopicNameExtractor<K,V>"
+ , "c2" : "org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StaticTopicNameExtractor"
+ , "c2" : "StaticTopicNameExtractor(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "extract(K;V;RecordContext)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN157804 the MagicNumber/String  'StaticTopicNameExtractor(' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN159516 the MagicNumber/String  'StaticTopicNameExtractor(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN157804 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN159516 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,21 +160,21 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN157952 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN159664 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN157952 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN159664 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN157952 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN159664 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

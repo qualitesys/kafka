@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.cache.Cache
+class org.apache.kafka.common.cache.Cache {
++  get(K)
++  put(K;V)
++  remove(K)
++  size()
+} 
+@enduml

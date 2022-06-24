@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectException"
+ , "c2" : "org.apache.kafka.connect.runtime.rest.errors.ConnectRestException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.rest.errors.ConnectRestException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(int;int;String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(Response.Status;int;String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(int;int;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(Response.Status;int;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(int;String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(Response.Status;String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(int;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectRestException"
+ , "c2" : "ConnectRestException(Response.Status;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "statusCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "errorCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,14 +146,14 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN160137 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN161849 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN160372 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN162084 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -86,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN161109 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN162821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,7 +181,7 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN161319 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.rest.errors.ConnectRestException.ConnectRestException@POLYN163031 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

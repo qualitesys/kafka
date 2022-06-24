@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+NamedOperation<StreamJoined<K,V1,V2>> <|-- org.apache.kafka.streams.kstream.StreamJoined
+class org.apache.kafka.streams.kstream.StreamJoined {
++  StreamJoined(StreamJoined<K,V1,V2>)
++  StreamJoined(Serde<K>;Serde<V1>;Serde<V2>;WindowBytesStoreSupplier;WindowBytesStoreSupplier;String;String;boolean;Map<String,String>)
++  withName(String)
++  withStoreName(String)
++  withKeySerde(Serde<K>)
++  withValueSerde(Serde<V1>)
++  withOtherValueSerde(Serde<V2>)
++  withThisStoreSupplier(WindowBytesStoreSupplier)
++  withOtherStoreSupplier(WindowBytesStoreSupplier)
++  withLoggingEnabled(Map<String,String>)
++  withLoggingDisabled()
++  toString()
+} 
+@enduml

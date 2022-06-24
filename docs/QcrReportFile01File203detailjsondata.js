@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Metadata"
+ , "c2" : "org.apache.kafka.clients.consumer.internals.ConsumerMetadata"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.internals.ConsumerMetadata" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConsumerMetadata"
+ , "c2" : "ConsumerMetadata(long;long;boolean;boolean;SubscriptionState;LogContext;ClusterResourceListeners)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "allowAutoTopicCreation()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "MetadataRequest.Builder"
+ , "c2" : "newMetadataRequestBuilder()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addTransientTopics(Set<String>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "clearTransientTopics()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "retainTopic(String;boolean;long)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,14 +160,14 @@ var maDataBlocs = {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN163363 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN165075 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN163363 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN165075 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

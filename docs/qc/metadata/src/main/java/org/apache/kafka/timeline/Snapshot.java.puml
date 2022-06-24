@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.timeline.Snapshot
+class org.apache.kafka.timeline.Snapshot {
++  Snapshot(long)
++  epoch()
++  setDelta(Revertable;Delta)
++  handleRevert()
++  mergeFrom(Snapshot)
++  prev()
++  next()
++  appendNext(Snapshot)
++  erase()
+} 
+@enduml

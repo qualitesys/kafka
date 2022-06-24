@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Reconfigurable"
+ , "c2" : "org.apache.kafka.common.network.ListenerReconfigurable"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.network.ListenerReconfigurable" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListenerName"
+ , "c2" : "listenerName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerReconfigurable.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerReconfigurable.java.svg" }
+
 ] 
 , 
 "data04" : [

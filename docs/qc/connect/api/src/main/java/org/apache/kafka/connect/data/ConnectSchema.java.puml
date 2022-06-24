@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+Schema <|-- org.apache.kafka.connect.data.ConnectSchema
+class org.apache.kafka.connect.data.ConnectSchema {
++  ConnectSchema(Type;boolean;Object;String;Integer;String;Map<String,String>;List<Field>;Schema;Schema)
++  ConnectSchema(Type;boolean;Object;String;Integer;String)
++  ConnectSchema(Type)
++  type()
++  isOptional()
++  defaultValue()
++  name()
++  version()
++  doc()
++  parameters()
++  fields()
++  field(String)
++  keySchema()
++  valueSchema()
++  validateValue(Schema;Object)
++  validateValue(String;Schema;Object)
++  expectedClassesFor(Schema)
++  validateValue(Object)
++  schema()
++  equals(Object)
++  hashCode()
++  toString()
++  schemaType(Class<?>)
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.tools.PredicateDoc
+class org.apache.kafka.connect.tools.PredicateDoc {
++  printPredicateHtml(PrintStream;DocInfo)
++  printHtml(PrintStream)
++  main(String...)
+} 
+@enduml

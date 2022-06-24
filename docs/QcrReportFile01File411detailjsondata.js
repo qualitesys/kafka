@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthenticationException"
+ , "c2" : "org.apache.kafka.common.errors.SslAuthenticationException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.SslAuthenticationException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SslAuthenticationException"
+ , "c2" : "SslAuthenticationException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SslAuthenticationException"
+ , "c2" : "SslAuthenticationException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/SslAuthenticationException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/SslAuthenticationException.java.svg" }
+
 ] 
 , 
 "data04" : [

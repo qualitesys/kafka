@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Repartitioned<K,V> <|-- org.apache.kafka.streams.kstream.internals.RepartitionedInternal
+class org.apache.kafka.streams.kstream.internals.RepartitionedInternal {
++  RepartitionedInternal(Repartitioned<K,V>)
++  toInternalTopicProperties()
++  name()
++  keySerde()
++  valueSerde()
++  streamPartitioner()
++  numberOfPartitions()
+} 
+@enduml

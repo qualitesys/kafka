@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+AbstractRocksDBSegmentedBytesStore<KeyValueSegment> <|-- org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore
+class org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore {
++  RocksDBSegmentedBytesStore(String;String;long;long;KeySchema)
+} 
+@enduml

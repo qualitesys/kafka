@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Message"
+ , "c2" : "org.apache.kafka.trogdor.rest.TaskState"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskState" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TaskState"
+ , "c2" : "TaskState(TaskSpec;JsonNode)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskSpec"
+ , "c2" : "spec()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "JsonNode"
+ , "c2" : "status()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskStateType"
+ , "c2" : "stateType()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.rest.TaskState.TaskState@POLYN159885 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.rest.TaskState.TaskState@POLYN161597 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

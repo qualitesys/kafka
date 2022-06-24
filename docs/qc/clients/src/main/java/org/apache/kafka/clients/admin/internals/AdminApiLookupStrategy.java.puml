@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy
+class org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy {
++  lookupScope(T)
++  buildRequest(Set<T>)
++  handleResponse(Set<T>;AbstractResponse)
+} 
+@enduml

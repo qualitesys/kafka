@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.FinalizedControllerFeatures
+class org.apache.kafka.metadata.FinalizedControllerFeatures {
++  FinalizedControllerFeatures(Map<String,Short>;long)
++  get(String)
++  featureNames()
++  epoch()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Transformation<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.InsertField"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.InsertField" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "3"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "apply(R)"
+ , "c3" : "5"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applySchemaless(R)"
+ , "c3" : "6"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applyWithSchema(R)"
+ , "c3" : "8"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Schema"
+ , "c2" : "makeUpdatedSchema(Schema)"
+ , "c3" : "7"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Schema"
+ , "c2" : "operatingSchema(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "operatingValue(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "newRecord(R;Schema;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,77 +181,77 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  '?' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  '?' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  '!' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  '!' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN202022 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.transforms.InsertField.InsertionSpec.parse@POLYN203734 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,77 +272,77 @@ var maDataBlocs = {
    "c1" : "00102"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  'No field insertion configured' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  'No field insertion configured' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  'No value specified for static field: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  'No value specified for static field: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN203201 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.transforms.InsertField.configure@POLYN204913 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -275,14 +356,14 @@ var maDataBlocs = {
    "c1" : "00115"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.transforms.InsertField.apply@POLYN204994 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.transforms.InsertField.apply@POLYN206706 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.transforms.InsertField.apply@POLYN204994 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.transforms.InsertField.apply@POLYN206706 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -303,63 +384,63 @@ var maDataBlocs = {
    "c1" : "00129"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN205460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.transforms.InsertField.applySchemaless@POLYN207172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -380,63 +461,63 @@ var maDataBlocs = {
    "c1" : "00152"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00163"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00172"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00172"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN207167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.transforms.InsertField.applyWithSchema@POLYN208879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -457,42 +538,42 @@ var maDataBlocs = {
    "c1" : "00189"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN211215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00192"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN211215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00195"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN211215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN211215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00201"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN209503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.transforms.InsertField.makeUpdatedSchema@POLYN211215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00210"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.connect.transforms.InsertField.close@POLYN211225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.connect.transforms.InsertField.close@POLYN212937 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.IllegalGenerationException
+class org.apache.kafka.common.errors.IllegalGenerationException {
++  IllegalGenerationException()
++  IllegalGenerationException(String;Throwable)
++  IllegalGenerationException(String)
++  IllegalGenerationException(Throwable)
+} 
+@enduml

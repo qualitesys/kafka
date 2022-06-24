@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractStream<K,VOut>CogroupedKStream<K,VOut> <|-- org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl
+class org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl {
++  CogroupedKStreamImpl(String;Set<String>;GraphNode;InternalStreamsBuilder)
++  aggregate(Initializer<VOut>;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)
++  aggregate(Initializer<VOut>;Named)
++  aggregate(Initializer<VOut>;Named;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)
++  aggregate(Initializer<VOut>)
++  windowedBy(SlidingWindows)
++  windowedBy(SessionWindows)
++  doAggregate(Initializer<VOut>;NamedInternal;MaterializedInternal<K,VOut,KeyValueStore<Bytes,byte[]>>)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.VoteRequest
+class org.apache.kafka.common.requests.VoteRequest {
++  VoteRequest(VoteRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  singletonRequest(TopicPartition;int;int;int;long)
++  singletonRequest(TopicPartition;String;int;int;int;long)
+} 
+@enduml

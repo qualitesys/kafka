@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.json.JsonSchema"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.json.JsonSchema" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ObjectNode"
+ , "c2" : "envelope(JsonNode;JsonNode)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.svg" }
+
 ] 
 , 
 "data04" : [

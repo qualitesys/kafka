@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeClientQuotasResult
+class org.apache.kafka.clients.admin.DescribeClientQuotasResult {
++  DescribeClientQuotasResult(KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>>)
++  entities()
+} 
+@enduml

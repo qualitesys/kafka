@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Cache<K,V>"
+ , "c2" : "org.apache.kafka.common.cache.LRUCache"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.cache.LRUCache" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "LRUCache"
+ , "c2" : "LRUCache(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "get(K)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(K;V)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "remove(K)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,21 +118,21 @@ var maDataBlocs = {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN156936 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN158648 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN156936 the MagicNumber/String  .75f should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN158648 the MagicNumber/String  .75f should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN156936 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN158648 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.cache.LRUCache.remove@POLYN157770 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.cache.LRUCache.remove@POLYN159482 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

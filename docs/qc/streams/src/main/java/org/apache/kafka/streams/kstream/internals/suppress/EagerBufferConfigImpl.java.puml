@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+BufferConfigInternal<Suppressed.EagerBufferConfig>Suppressed.EagerBufferConfig <|-- org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl
+class org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl {
++  EagerBufferConfigImpl(long;long;Map<String,String>)
++  withMaxRecords(long)
++  withMaxBytes(long)
++  maxRecords()
++  maxBytes()
++  bufferFullStrategy()
++  withLoggingDisabled()
++  withLoggingEnabled(Map<String,String>)
++  isLoggingEnabled()
++  getLogConfig()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

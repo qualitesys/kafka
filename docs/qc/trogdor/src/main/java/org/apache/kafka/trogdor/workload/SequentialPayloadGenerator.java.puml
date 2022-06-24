@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+PayloadGenerator <|-- org.apache.kafka.trogdor.workload.SequentialPayloadGenerator
+class org.apache.kafka.trogdor.workload.SequentialPayloadGenerator {
++  SequentialPayloadGenerator(int;long)
++  size()
++  startOffset()
++  generate(long)
+} 
+@enduml

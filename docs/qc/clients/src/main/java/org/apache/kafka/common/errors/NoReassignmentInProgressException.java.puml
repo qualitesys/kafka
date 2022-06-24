@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.NoReassignmentInProgressException
+class org.apache.kafka.common.errors.NoReassignmentInProgressException {
++  NoReassignmentInProgressException(String)
++  NoReassignmentInProgressException(String;Throwable)
+} 
+@enduml

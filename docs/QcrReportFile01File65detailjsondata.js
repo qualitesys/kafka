@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DeleteTopicsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DeleteTopicsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DeleteTopicsResult"
+ , "c2" : "DeleteTopicsResult(Map<Uuid,KafkaFuture<Void>>;Map<String,KafkaFuture<Void>>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteTopicsResult"
+ , "c2" : "ofTopicIds(Map<Uuid,KafkaFuture<Void>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteTopicsResult"
+ , "c2" : "ofTopicNames(Map<String,KafkaFuture<Void>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Uuid,KafkaFuture<Void>>"
+ , "c2" : "topicIdValues()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,KafkaFuture<Void>>"
+ , "c2" : "topicNameValues()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,KafkaFuture<Void>>"
+ , "c2" : "values()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,42 +132,42 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN166337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN168049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN166337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN168049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN166337 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be specified.' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN168049 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be specified.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN166337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN168049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN166337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN168049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN166337 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.admin.DeleteTopicsResult.DeleteTopicsResult@POLYN168049 the MagicNumber/String  'topicIdFutures and nameFutures cannot both be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +181,7 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.DeleteTopicsResult.ofTopicIds@POLYN167031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.DeleteTopicsResult.ofTopicIds@POLYN168743 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,28 +195,28 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.DeleteTopicsResult.ofTopicNames@POLYN167259 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.DeleteTopicsResult.ofTopicNames@POLYN168971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.DeleteTopicsResult.all@POLYN168529 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.DeleteTopicsResult.all@POLYN170241 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.DeleteTopicsResult.all@POLYN168529 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.DeleteTopicsResult.all@POLYN170241 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.DeleteTopicsResult.all@POLYN168529 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.DeleteTopicsResult.all@POLYN170241 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

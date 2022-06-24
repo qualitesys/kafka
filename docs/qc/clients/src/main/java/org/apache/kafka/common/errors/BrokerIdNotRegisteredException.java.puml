@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.BrokerIdNotRegisteredException
+class org.apache.kafka.common.errors.BrokerIdNotRegisteredException {
++  BrokerIdNotRegisteredException(String)
++  BrokerIdNotRegisteredException(String;Throwable)
+} 
+@enduml

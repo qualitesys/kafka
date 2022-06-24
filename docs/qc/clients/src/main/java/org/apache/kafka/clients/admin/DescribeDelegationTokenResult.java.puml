@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeDelegationTokenResult
+class org.apache.kafka.clients.admin.DescribeDelegationTokenResult {
++  DescribeDelegationTokenResult(KafkaFuture<List<DelegationToken>>)
++  delegationTokens()
+} 
+@enduml

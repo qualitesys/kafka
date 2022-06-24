@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+TaskSpec <|-- org.apache.kafka.trogdor.workload.ExternalCommandSpec
+class org.apache.kafka.trogdor.workload.ExternalCommandSpec {
++  ExternalCommandSpec(long;long;String;List<String>;JsonNode;Optional<Integer>)
++  commandNode()
++  command()
++  workload()
++  shutdownGracePeriodMs()
++  newController(String)
++  newTaskWorker(String)
+} 
+@enduml

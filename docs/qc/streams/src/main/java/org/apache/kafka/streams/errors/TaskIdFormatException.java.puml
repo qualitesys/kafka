@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.TaskIdFormatException
+class org.apache.kafka.streams.errors.TaskIdFormatException {
++  TaskIdFormatException(String)
++  TaskIdFormatException(String;Throwable)
++  TaskIdFormatException(Throwable)
+} 
+@enduml

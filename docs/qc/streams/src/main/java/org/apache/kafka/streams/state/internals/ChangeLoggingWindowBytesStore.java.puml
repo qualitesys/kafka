@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<WindowStore<Bytes,byte[]>,byte[],byte[]>WindowStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore
+class org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore {
++  ChangeLoggingWindowBytesStore(WindowStore<Bytes,byte[]>;boolean;ChangeLoggingKeySerializer)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  fetch(Bytes;long)
++  fetch(Bytes;long;long)
++  backwardFetch(Bytes;long;long)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;long;long)
++  all()
++  backwardAll()
++  fetchAll(long;long)
++  backwardFetchAll(long;long)
++  put(Bytes;byte[];long)
++  log(Bytes;byte[])
++  maybeUpdateSeqnumForDups()
+} 
+@enduml

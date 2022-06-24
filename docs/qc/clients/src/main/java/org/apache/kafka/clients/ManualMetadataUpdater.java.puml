@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+MetadataUpdater <|-- org.apache.kafka.clients.ManualMetadataUpdater
+class org.apache.kafka.clients.ManualMetadataUpdater {
++  ManualMetadataUpdater()
++  ManualMetadataUpdater(List<Node>)
++  setNodes(List<Node>)
++  fetchNodes()
++  isUpdateDue(long)
++  maybeUpdate(long)
++  handleServerDisconnect(long;String;Optional<AuthenticationException>)
++  handleFailedRequest(long;Optional<KafkaException>)
++  handleSuccessfulResponse(RequestHeader;long;MetadataResponse)
++  close()
+} 
+@enduml

@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.KGroupedStream"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.KGroupedStream" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTable<K,Long>"
+ , "c2" : "count()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<K,Long>"
+ , "c2" : "count(Named)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<K,Long>"
+ , "c2" : "count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<K,Long>"
+ , "c2" : "count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<K,V>"
+ , "c2" : "reduce(Reducer<V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<K,V>"
+ , "c2" : "reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<K,V>"
+ , "c2" : "reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TimeWindowedKStream<K,V>"
+ , "c2" : "windowedBy(SlidingWindows)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SessionWindowedKStream<K,V>"
+ , "c2" : "windowedBy(SessionWindows)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.svg" }
+
 ] 
 , 
 "data04" : [

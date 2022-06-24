@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+Comparable<PluginDesc<T>> <|-- org.apache.kafka.connect.runtime.isolation.PluginDesc
+class org.apache.kafka.connect.runtime.isolation.PluginDesc {
++  PluginDesc(Class<?extendsT>;String;ClassLoader)
++  toString()
++  pluginClass()
++  className()
++  version()
++  type()
++  typeName()
++  location()
++  equals(Object)
++  hashCode()
++  compareTo(PluginDesc<T>)
+} 
+@enduml

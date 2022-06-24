@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.MaskField
+class org.apache.kafka.connect.transforms.MaskField {
++  configure(Map<String,?>)
++  apply(R)
++  applySchemaless(R)
++  applyWithSchema(R)
++  masked(Object)
++  maskWithCustomReplacement(Object;String)
++  maskWithNullValue(Object)
++  config()
++  close()
++  operatingSchema(R)
++  operatingValue(R)
++  newRecord(R;Object)
+} 
+@enduml

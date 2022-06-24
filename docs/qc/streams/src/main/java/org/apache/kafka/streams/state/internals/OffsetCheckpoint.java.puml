@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.OffsetCheckpoint
+class org.apache.kafka.streams.state.internals.OffsetCheckpoint {
++  OffsetCheckpoint(File)
++  write(Map<TopicPartition,Long>)
++  writeIntLine(BufferedWriter;int)
++  writeEntry(BufferedWriter;TopicPartition;long)
++  read()
++  readInt(BufferedReader)
++  delete()
++  toString()
++  isValid(long)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.FenceProducersResult
+class org.apache.kafka.clients.admin.FenceProducersResult {
++  FenceProducersResult(Map<CoordinatorKey,KafkaFuture<ProducerIdAndEpoch>>)
++  fencedProducers()
++  producerId(String)
++  epochId(String)
++  all()
+} 
+@enduml

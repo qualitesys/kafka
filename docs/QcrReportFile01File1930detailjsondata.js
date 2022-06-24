@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Query<KeyValueIterator<K,V>>"
+ , "c2" : "org.apache.kafka.streams.query.RangeQuery"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.query.RangeQuery" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RangeQuery"
+ , "c2" : "RangeQuery(Optional<K>;Optional<K>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<K>"
+ , "c2" : "getLowerBound()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<K>"
+ , "c2" : "getUpperBound()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.svg" }
+
 ] 
 , 
 "data04" : [

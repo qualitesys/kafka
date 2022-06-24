@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.api.RecordMetadata
+class org.apache.kafka.streams.processor.api.RecordMetadata {
++  topic()
++  partition()
++  offset()
+} 
+@enduml

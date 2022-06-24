@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "InputStream"
+ , "c2" : "org.apache.kafka.common.utils.ByteBufferInputStream"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.utils.ByteBufferInputStream" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ByteBufferInputStream"
+ , "c2" : "ByteBufferInputStream(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "read()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "read(byte[];int;int)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,14 +90,14 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN156126 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN157838 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN156126 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN157838 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -79,21 +111,21 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN156381 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN158093 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN156381 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN158093 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN156381 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.utils.ByteBufferInputStream.read@POLYN158093 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

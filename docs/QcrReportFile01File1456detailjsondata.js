@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "serialize(ApiMessageAndVersion)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiMessageAndVersion"
+ , "c2" : "deserialize(byte[])"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiMessage"
+ , "c2" : "apiMessageFor(short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.svg" }
+
 ] 
 , 
 "data04" : [

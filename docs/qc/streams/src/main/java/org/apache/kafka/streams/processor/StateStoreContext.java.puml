@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.StateStoreContext
+class org.apache.kafka.streams.processor.StateStoreContext {
++  applicationId()
++  taskId()
++  recordMetadata()
++  keySerde()
++  valueSerde()
++  stateDir()
++  metrics()
++  register(StateStore;StateRestoreCallback)
++  register(StateStore;StateRestoreCallback;CommitCallback)
++  appConfigs()
++  appConfigsWithPrefix(String)
+} 
+@enduml

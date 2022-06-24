@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.runtime.distributed.RebalanceNeededException
+class org.apache.kafka.connect.runtime.distributed.RebalanceNeededException {
++  RebalanceNeededException(String)
+} 
+@enduml

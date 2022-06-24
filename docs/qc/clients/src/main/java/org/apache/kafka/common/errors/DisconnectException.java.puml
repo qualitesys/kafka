@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.DisconnectException
+class org.apache.kafka.common.errors.DisconnectException {
++  DisconnectException()
++  DisconnectException(String;Throwable)
++  DisconnectException(String)
++  DisconnectException(Throwable)
+} 
+@enduml

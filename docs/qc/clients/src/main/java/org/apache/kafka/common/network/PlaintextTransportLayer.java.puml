@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+TransportLayer <|-- org.apache.kafka.common.network.PlaintextTransportLayer
+class org.apache.kafka.common.network.PlaintextTransportLayer {
++  PlaintextTransportLayer(SelectionKey)
++  ready()
++  finishConnect()
++  disconnect()
++  socketChannel()
++  selectionKey()
++  isOpen()
++  isConnected()
++  close()
++  handshake()
++  read(ByteBuffer)
++  read(ByteBuffer[])
++  read(ByteBuffer[];int;int)
++  write(ByteBuffer)
++  write(ByteBuffer[])
++  write(ByteBuffer[];int;int)
++  hasPendingWrites()
++  peerPrincipal()
++  addInterestOps(int)
++  removeInterestOps(int)
++  isMute()
++  hasBytesBuffered()
++  transferFrom(FileChannel;long;long)
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Header <|-- org.apache.kafka.common.header.internals.RecordHeader
+class org.apache.kafka.common.header.internals.RecordHeader {
++  RecordHeader(String;byte[])
++  RecordHeader(ByteBuffer;ByteBuffer)
++  key()
++  value()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

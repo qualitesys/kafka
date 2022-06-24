@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+BaseRecords <|-- org.apache.kafka.common.record.LazyDownConversionRecords
+class org.apache.kafka.common.record.LazyDownConversionRecords {
++  LazyDownConversionRecords(TopicPartition;Records;byte;long;Time)
++  sizeInBytes()
++  toSend()
++  topicPartition()
++  equals(Object)
++  hashCode()
++  toString()
++  iterator(long)
+} 
+@enduml

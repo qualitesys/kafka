@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.LRUCacheEntry
+class org.apache.kafka.streams.state.internals.LRUCacheEntry {
++  LRUCacheEntry(byte[])
++  LRUCacheEntry(byte[];Headers;boolean;long;long;int;String)
++  markClean()
++  isDirty()
++  size()
++  value()
++  context()
++  equals(Object)
++  hashCode()
+} 
+@enduml

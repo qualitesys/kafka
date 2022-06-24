@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.CacheFunction
+class org.apache.kafka.streams.state.internals.CacheFunction {
++  key(Bytes)
++  cacheKey(Bytes)
+} 
+@enduml

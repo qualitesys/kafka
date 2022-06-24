@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.serialization.Serdes
+class org.apache.kafka.common.serialization.Serdes {
++  Long()
++  Integer()
++  Short()
++  Float()
++  Double()
++  String()
++  ByteBuffer()
++  Bytes()
++  UUID()
++  ByteArray()
++  Void()
+} 
+@enduml

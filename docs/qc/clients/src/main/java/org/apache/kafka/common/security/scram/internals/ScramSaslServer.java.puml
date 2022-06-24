@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+SaslServer <|-- org.apache.kafka.common.security.scram.internals.ScramSaslServer
+class org.apache.kafka.common.security.scram.internals.ScramSaslServer {
++  ScramSaslServer(ScramMechanism;Map<String,?>;CallbackHandler)
++  evaluateResponse(byte[])
++  getAuthorizationID()
++  getMechanismName()
++  getNegotiatedProperty(String)
++  isComplete()
++  unwrap(byte[];int;int)
++  wrap(byte[];int;int)
++  dispose()
++  setState(State)
++  verifyClientProof(ClientFinalMessage)
++  clearCredentials()
+} 
+@enduml

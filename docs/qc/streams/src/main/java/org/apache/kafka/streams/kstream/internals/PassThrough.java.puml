@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ProcessorSupplier<K,V,K,V> <|-- org.apache.kafka.streams.kstream.internals.PassThrough
+class org.apache.kafka.streams.kstream.internals.PassThrough {
++  get()
+} 
+@enduml

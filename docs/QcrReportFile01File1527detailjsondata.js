@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.KafkaClientSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.KafkaClientSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Admin"
+ , "c2" : "getAdmin(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Producer<byte[],byte[]>"
+ , "c2" : "getProducer(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Consumer<byte[],byte[]>"
+ , "c2" : "getConsumer(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Consumer<byte[],byte[]>"
+ , "c2" : "getRestoreConsumer(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Consumer<byte[],byte[]>"
+ , "c2" : "getGlobalConsumer(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [

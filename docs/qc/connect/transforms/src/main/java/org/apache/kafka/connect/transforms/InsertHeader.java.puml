@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.InsertHeader
+class org.apache.kafka.connect.transforms.InsertHeader {
++  apply(R)
++  config()
++  close()
++  configure(Map<String,?>)
+} 
+@enduml

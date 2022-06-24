@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+Iterable<T> <|-- org.apache.kafka.raft.Batch
+class org.apache.kafka.raft.Batch {
++  Batch(long;int;long;int;long;List<T>)
++  lastOffset()
++  baseOffset()
++  appendTimestamp()
++  records()
++  epoch()
++  sizeInBytes()
++  iterator()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

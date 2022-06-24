@@ -8,12 +8,114 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WrappedStateStore<SegmentedBytesStore,Object,Object>WindowStore<Bytes,byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDBWindowStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBWindowStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RocksDBWindowStore"
+ , "c2" : "RocksDBWindowStore(SegmentedBytesStore;boolean;long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(StateStoreContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(Bytes;byte[];long)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "fetch(Bytes;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "fetch(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "backwardFetch(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetch(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetch(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardAll()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetchAll(long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetchAll(long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeUpdateSeqnumForDups()"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN176067 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN177779 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +230,14 @@ var maDataBlocs = {
    "c1" : "00126"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN181068 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN182780 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN181068 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN182780 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ]
 };

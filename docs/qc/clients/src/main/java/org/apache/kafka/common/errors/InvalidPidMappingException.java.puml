@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidPidMappingException
+class org.apache.kafka.common.errors.InvalidPidMappingException {
++  InvalidPidMappingException(String)
+} 
+@enduml

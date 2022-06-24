@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RaftMessage <|-- org.apache.kafka.raft.RaftResponse
+class org.apache.kafka.raft.RaftResponse {
++  RaftResponse(int;ApiMessage)
++  correlationId()
++  data()
+} 
+@enduml

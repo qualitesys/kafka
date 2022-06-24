@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.metrics.stats.Percentile
+class org.apache.kafka.common.metrics.stats.Percentile {
++  Percentile(MetricName;double)
++  name()
++  percentile()
+} 
+@enduml

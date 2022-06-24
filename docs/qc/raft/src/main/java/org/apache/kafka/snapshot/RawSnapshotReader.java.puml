@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.snapshot.RawSnapshotReader
+class org.apache.kafka.snapshot.RawSnapshotReader {
++  snapshotId()
++  sizeInBytes()
++  slice(long;int)
++  records()
+} 
+@enduml

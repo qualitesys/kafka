@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+StandbyTaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor
+class org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor {
++  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignorConfiguration.AssignmentConfigs)
++  assignPendingStandbyTasksToLeastLoadedClients(Map<UUID,ClientState>;int;ConstrainedPrioritySet;Map<TaskId,Integer>)
++  isAllowedTaskMovement(ClientState;ClientState)
++  fillClientsTagStatistics(Map<UUID,ClientState>;Map<TagEntry,Set<UUID>>;Map<String,Set<String>>)
++  assignStandbyTasksToClientsWithDifferentTags(int;ConstrainedPrioritySet;TaskId;UUID;Set<String>;Map<UUID,ClientState>;Map<TaskId,Integer>;Map<String,Set<String>>;Map<TagEntry,Set<UUID>>;Map<TaskId,UUID>)
++  isClientUsedOnAnyOfTheTagEntries(UUID;Map<TagEntry,Set<UUID>>)
++  updateClientsOnAlreadyUsedTagEntries(UUID;int;Set<String>;Map<UUID,ClientState>;Map<TagEntry,Set<UUID>>;Map<String,Set<String>>;Map<TagEntry,Set<UUID>>)
+} 
+@enduml

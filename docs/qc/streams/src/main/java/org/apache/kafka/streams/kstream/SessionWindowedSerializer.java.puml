@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+WindowedSerializer<T> <|-- org.apache.kafka.streams.kstream.SessionWindowedSerializer
+class org.apache.kafka.streams.kstream.SessionWindowedSerializer {
++  SessionWindowedSerializer()
++  SessionWindowedSerializer(Serializer<T>)
++  configure(Map<String,?>;boolean)
++  serialize(String;Windowed<T>)
++  close()
++  serializeBaseKey(String;Windowed<T>)
++  innerSerializer()
+} 
+@enduml

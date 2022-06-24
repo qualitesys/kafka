@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+Comparable<TaskId> <|-- org.apache.kafka.streams.processor.TaskId
+class org.apache.kafka.streams.processor.TaskId {
++  TaskId(int;int)
++  TaskId(int;int;String)
++  subtopology()
++  partition()
++  topologyName()
++  toString()
++  parse(String)
++  writeTo(DataOutputStream;int)
++  readFrom(DataInputStream;int)
++  writeTo(ByteBuffer;int)
++  readFrom(ByteBuffer;int)
++  equals(Object)
++  hashCode()
++  compareTo(TaskId)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+TaskSpec <|-- org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec
+class org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec {
++  DegradedNetworkFaultSpec(long;long;Map<String,NodeDegradeSpec>)
++  newController(String)
++  newTaskWorker(String)
++  nodeSpecs()
+} 
+@enduml

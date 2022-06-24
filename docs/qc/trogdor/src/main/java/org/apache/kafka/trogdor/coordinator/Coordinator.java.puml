@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.coordinator.Coordinator
+class org.apache.kafka.trogdor.coordinator.Coordinator {
++  Coordinator(Platform;Scheduler;JsonRestServer;CoordinatorRestResource;long)
++  port()
++  status()
++  uptime()
++  createTask(CreateTaskRequest)
++  stopTask(StopTaskRequest)
++  destroyTask(DestroyTaskRequest)
++  tasks(TasksRequest)
++  task(TaskRequest)
++  beginShutdown(boolean)
++  waitForShutdown()
++  main(String[])
+} 
+@enduml

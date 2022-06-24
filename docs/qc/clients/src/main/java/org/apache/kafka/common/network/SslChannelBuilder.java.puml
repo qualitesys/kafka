@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+ChannelBuilder <|-- org.apache.kafka.common.network.SslChannelBuilder
+class org.apache.kafka.common.network.SslChannelBuilder {
++  SslChannelBuilder(Mode;ListenerName;boolean;LogContext)
++  configure(Map<String,?>)
++  reconfigurableConfigs()
++  validateReconfiguration(Map<String,?>)
++  reconfigure(Map<String,?>)
++  listenerName()
++  buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)
++  close()
++  buildTransportLayer(SslFactory;String;SelectionKey;ChannelMetadataRegistry)
+} 
+@enduml

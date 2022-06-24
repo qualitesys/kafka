@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+ConnectorConfig <|-- org.apache.kafka.connect.runtime.SinkConnectorConfig
+class org.apache.kafka.connect.runtime.SinkConnectorConfig {
++  configDef()
++  SinkConnectorConfig(Plugins;Map<String,String>)
++  validate(Map<String,String>)
++  hasTopicsConfig(Map<String,String>)
++  hasTopicsRegexConfig(Map<String,String>)
++  hasDlqTopicConfig(Map<String,String>)
++  parseTopicsList(Map<String,String>)
++  dlqTopicName()
++  dlqTopicReplicationFactor()
++  isDlqContextHeadersEnabled()
++  enableErrantRecordReporter()
++  main(String[])
+} 
+@enduml

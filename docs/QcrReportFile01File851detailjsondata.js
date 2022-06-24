@@ -2,18 +2,120 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java 26 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java 34 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DelegationTokenCache"
+ , "c2" : "DelegationTokenCache(Collection<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ScramCredential"
+ , "c2" : "credential(String;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "owner(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updateCache(DelegationToken;Map<String,ScramCredential>)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "removeCache(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "tokenIdForHmac(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TokenInformation"
+ , "c2" : "tokenForHmac(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TokenInformation"
+ , "c2" : "addToken(String;TokenInformation)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "removeToken(String)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<TokenInformation>"
+ , "c2" : "tokens()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TokenInformation"
+ , "c2" : "token(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CredentialCache.Cache<ScramCredential>"
+ , "c2" : "credentialCache(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "updateCredentials(String;Map<String,ScramCredential>)"
+ , "c3" : "5"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +139,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -72,6 +197,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -93,14 +225,14 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169951 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN171663 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169951 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN171663 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,14 +246,14 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.owner@POLYN170348 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.owner@POLYN172060 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.owner@POLYN170348 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.owner@POLYN172060 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -129,6 +261,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#45"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00045] For method updateCache arguments DelegationToken  token|Map&lt;String ,ScramCredential &gt;  scramCredentialMap"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#45"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00045] For method updateCache list of called methods Object monObjet|org.apache.kafka.common.security.token.delegation.TokenInformation token_tokenInfoN172519|String token_hmacAsBase64StringN172719"
 }} 
 ,
 { "ligne" : {
@@ -163,14 +302,14 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.tokenForHmac@POLYN171718 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.tokenForHmac@POLYN173430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.tokenForHmac@POLYN171718 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.tokenForHmac@POLYN173430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,14 +330,14 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.removeToken@POLYN172215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.removeToken@POLYN173927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.removeToken@POLYN172215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.removeToken@POLYN173927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -247,14 +386,63 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN173191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN174903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN173191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN174903 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCache@POLYN172364"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN174903"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN171663"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN174903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN174903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN171663 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN171663 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ThroughputGenerator <|-- org.apache.kafka.trogdor.workload.ConstantThroughputGenerator
+class org.apache.kafka.trogdor.workload.ConstantThroughputGenerator {
++  ConstantThroughputGenerator(int;long)
++  windowSizeMs()
++  messagesPerWindow()
++  calculateNextWindow()
++  throttle()
+} 
+@enduml

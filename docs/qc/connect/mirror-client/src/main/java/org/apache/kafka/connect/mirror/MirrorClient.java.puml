@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.mirror.MirrorClient
+class org.apache.kafka.connect.mirror.MirrorClient {
++  MirrorClient(Map<String,Object>)
++  MirrorClient(MirrorClientConfig)
++  MirrorClient(AdminClient;ReplicationPolicy;Map<String,Object>)
++  close()
++  replicationPolicy()
++  replicationHops(String)
++  heartbeatTopics()
++  checkpointTopics()
++  upstreamClusters()
++  remoteTopics()
++  remoteTopics(String)
++  remoteConsumerOffsets(String;String;Duration)
++  listTopics()
++  countHopsForTopic(String;String)
++  isHeartbeatTopic(String)
++  isCheckpointTopic(String)
++  isRemoteTopic(String)
++  allSources(String)
++  endOfStream(Consumer<?,?>;Collection<TopicPartition>)
+} 
+@enduml

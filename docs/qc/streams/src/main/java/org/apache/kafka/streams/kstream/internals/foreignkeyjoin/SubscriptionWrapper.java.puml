@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper
+class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper {
++  SubscriptionWrapper(long[];Instruction;K;Integer)
++  SubscriptionWrapper(long[];Instruction;K;byte;Integer)
++  getInstruction()
++  getHash()
++  getPrimaryKey()
++  getVersion()
++  getPrimaryPartition()
++  toString()
+} 
+@enduml

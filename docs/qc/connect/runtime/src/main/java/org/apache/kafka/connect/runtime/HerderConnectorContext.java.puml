@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+CloseableConnectorContext <|-- org.apache.kafka.connect.runtime.HerderConnectorContext
+class org.apache.kafka.connect.runtime.HerderConnectorContext {
++  HerderConnectorContext(AbstractHerder;String)
++  requestTaskReconfiguration()
++  raiseError(Exception)
++  close()
+} 
+@enduml

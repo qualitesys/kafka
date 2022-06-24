@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.placement.ReplicaPlacer
+class org.apache.kafka.metadata.placement.ReplicaPlacer {
++  place(PlacementSpec;ClusterDescriber)
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.query.QueryResult
+class org.apache.kafka.streams.query.QueryResult {
++  addExecutionInfo(String)
++  setPosition(Position)
++  isSuccess()
++  isFailure()
++  getExecutionInfo()
++  getPosition()
++  getFailureReason()
++  getFailureMessage()
++  getResult()
+} 
+@enduml

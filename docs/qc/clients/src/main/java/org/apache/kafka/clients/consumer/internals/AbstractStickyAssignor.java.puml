@@ -1,0 +1,30 @@
+@startuml
+!pragma layout smetana
+AbstractPartitionAssignor <|-- org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor
+class org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor {
++  memberData(Subscription)
++  assign(Map<String,Integer>;Map<String,Subscription>)
++  allSubscriptionsEqual(Set<String>;Map<String,Subscription>;Map<String,List<TopicPartition>>;Set<TopicPartition>)
++  constrainedAssign(Map<String,Integer>;Map<String,List<TopicPartition>>;Set<TopicPartition>)
++  getAllTopicPartitions(Map<String,Integer>;List<String>;int)
++  generalAssign(Map<String,Integer>;Map<String,Subscription>;Map<String,List<TopicPartition>>)
++  getUnassignedPartitions(List<TopicPartition>;List<TopicPartition>;Map<String,List<String>>)
++  getUnassignedPartitions(int;Map<String,Integer>;List<TopicPartition>)
++  updatePrevAssignment(Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;String;int)
++  prepopulateCurrentAssignments(Map<String,Subscription>;Map<TopicPartition,ConsumerGenerationPair>)
++  isBalanced(Map<String,List<TopicPartition>>;TreeSet<String>;Map<String,List<String>>;Map<String,Integer>;int)
++  getMaxAssignmentSize(int;List<String>;Map<String,Integer>)
++  getBalanceScore(Map<String,List<TopicPartition>>)
++  assignPartition(TopicPartition;TreeSet<String>;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<TopicPartition,String>)
++  canParticipateInReassignment(String;Map<String,List<String>>)
++  canParticipateInReassignment(String;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<String,List<String>>;Map<String,Integer>;int)
++  balance(Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;List<TopicPartition>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;boolean;Map<String,Integer>;int)
++  performReassignments(List<TopicPartition>;Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;Map<String,Integer>;int)
++  reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;Map<String,List<String>>)
++  reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;String)
++  processPartitionMovement(TopicPartition;String;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>)
++  isSticky()
++  deepCopy(Map<String,List<TopicPartition>>;Map<String,List<TopicPartition>>)
++  deepCopy(Map<String,List<TopicPartition>>)
+} 
+@enduml

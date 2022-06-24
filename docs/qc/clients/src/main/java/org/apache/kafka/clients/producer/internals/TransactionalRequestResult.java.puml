@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.TransactionalRequestResult
+class org.apache.kafka.clients.producer.internals.TransactionalRequestResult {
++  TransactionalRequestResult(String)
++  TransactionalRequestResult(CountDownLatch;String)
++  fail(RuntimeException)
++  done()
++  await()
++  await(long;TimeUnit)
++  error()
++  isSuccessful()
++  isCompleted()
++  isAcked()
+} 
+@enduml

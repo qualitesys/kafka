@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Serde<SubscriptionResponseWrapper<V>> <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde
+class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde {
++  SubscriptionResponseWrapperSerde(Serde<V>)
++  serializer()
++  deserializer()
+} 
+@enduml

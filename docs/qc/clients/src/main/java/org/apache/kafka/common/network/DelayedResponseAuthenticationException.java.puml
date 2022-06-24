@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+AuthenticationException <|-- org.apache.kafka.common.network.DelayedResponseAuthenticationException
+class org.apache.kafka.common.network.DelayedResponseAuthenticationException {
++  DelayedResponseAuthenticationException(Throwable)
+} 
+@enduml

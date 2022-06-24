@@ -2,18 +2,43 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java 20 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java 26 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.PartitionGrouper"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.PartitionGrouper" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Map<TaskId,Set<TopicPartition>>"
+ , "c2" : "partitionGroups(Map<Subtopology,Set<String>>;Cluster)"
+ , "c3" : "5"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "maxNumPartitions(Cluster;Set<String>)"
+ , "c3" : "4"
+ , "c4" : "7"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +62,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -72,6 +120,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -87,6 +142,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00026] For method partitionGroups arguments Map&lt;Subtopology ,Set&lt;String &gt; &gt;  topicGroups|Cluster  metadata"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00026] For method partitionGroups list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,Set&lt;TopicPartition&gt;&gt; metadata_partitionsForTopicN171361"
 }} 
 ,
 { "ligne" : {
@@ -170,7 +232,7 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.partitionGroups@POLYN168446 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.partitionGroups@POLYN170158 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -178,6 +240,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00052] For method maxNumPartitions arguments Cluster  metadata|Set&lt;String &gt;  topics"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00052] For method maxNumPartitions list of called methods Object monObjet|int metadata_partitionsForTopicN172334"
 }} 
 ,
 { "ligne" : {
@@ -198,21 +267,49 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN170313 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN172025 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN170313 the MagicNumber/String  'Empty partitions for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN172025 the MagicNumber/String  'Empty partitions for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN170313 the MagicNumber/String  'Empty partitions for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN172025 the MagicNumber/String  'Empty partitions for topic ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN172025"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN172025 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#57"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN172025 the MagicNumber/String 'Empty partitions for topic {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN172025 the MagicNumber/String 'Empty partitions for topic ' MUST BE CONVERTED to const"
 }} 
 ]
 };

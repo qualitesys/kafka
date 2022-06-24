@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.RecordTooLargeException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.RecordTooLargeException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RecordTooLargeException"
+ , "c2" : "RecordTooLargeException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RecordTooLargeException"
+ , "c2" : "RecordTooLargeException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RecordTooLargeException"
+ , "c2" : "RecordTooLargeException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RecordTooLargeException"
+ , "c2" : "RecordTooLargeException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RecordTooLargeException"
+ , "c2" : "RecordTooLargeException(String;Map<TopicPartition,Long>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "recordTooLargePartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.svg" }
+
 ] 
 , 
 "data04" : [

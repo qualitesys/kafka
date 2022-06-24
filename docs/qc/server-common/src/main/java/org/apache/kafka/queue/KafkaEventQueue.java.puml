@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+EventQueue <|-- org.apache.kafka.queue.KafkaEventQueue
+class org.apache.kafka.queue.KafkaEventQueue {
++  KafkaEventQueue(Time;LogContext;String)
++  enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event)
++  cancelDeferred(String)
++  beginShutdown(String;Event;long;TimeUnit)
++  wakeup()
++  close()
+} 
+@enduml

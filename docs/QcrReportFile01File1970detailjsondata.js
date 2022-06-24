@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "BlockBasedTableConfig"
+ , "c2" : "org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BlockBasedTableConfig"
+ , "c2" : "setBlockCache(Cache)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Cache"
+ , "c2" : "blockCache()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.svg" }
+
 ] 
 , 
 "data04" : [

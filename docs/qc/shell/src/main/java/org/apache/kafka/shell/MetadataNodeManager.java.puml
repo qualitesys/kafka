@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.shell.MetadataNodeManager
+class org.apache.kafka.shell.MetadataNodeManager {
++  MetadataNodeManager()
++  setup()
++  logListener()
++  getData()
++  close()
++  visit(Consumer<Data>)
++  appendEvent(String;Runnable;CompletableFuture<?>)
++  handleMessage(ApiMessage)
++  handleCommitImpl(MetadataRecordType;ApiMessage)
++  clientQuotaRecordDirectories(List<EntityData>)
+} 
+@enduml

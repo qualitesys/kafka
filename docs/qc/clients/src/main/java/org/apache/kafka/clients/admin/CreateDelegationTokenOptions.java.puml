@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<CreateDelegationTokenOptions> <|-- org.apache.kafka.clients.admin.CreateDelegationTokenOptions
+class org.apache.kafka.clients.admin.CreateDelegationTokenOptions {
++  renewers(List<KafkaPrincipal>)
++  renewers()
++  maxlifeTimeMs(long)
++  maxlifeTimeMs()
+} 
+@enduml

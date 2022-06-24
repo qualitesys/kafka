@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.authorizer.StandardAclWithId
+class org.apache.kafka.metadata.authorizer.StandardAclWithId {
++  fromRecord(AccessControlEntryRecord)
++  StandardAclWithId(Uuid;StandardAcl)
++  id()
++  acl()
++  toRecord()
++  toBinding()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

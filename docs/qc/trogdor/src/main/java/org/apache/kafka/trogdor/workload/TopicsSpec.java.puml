@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Message <|-- org.apache.kafka.trogdor.workload.TopicsSpec
+class org.apache.kafka.trogdor.workload.TopicsSpec {
++  TopicsSpec()
++  TopicsSpec(Map<String,PartitionsSpec>)
++  get()
++  set(String;PartitionsSpec)
++  immutableCopy()
++  materialize()
+} 
+@enduml

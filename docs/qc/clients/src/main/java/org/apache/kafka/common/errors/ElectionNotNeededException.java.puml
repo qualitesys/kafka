@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.common.errors.ElectionNotNeededException
+class org.apache.kafka.common.errors.ElectionNotNeededException {
++  ElectionNotNeededException(String)
++  ElectionNotNeededException(String;Throwable)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.InvalidFetchSessionEpochException
+class org.apache.kafka.common.errors.InvalidFetchSessionEpochException {
++  InvalidFetchSessionEpochException()
++  InvalidFetchSessionEpochException(String)
+} 
+@enduml

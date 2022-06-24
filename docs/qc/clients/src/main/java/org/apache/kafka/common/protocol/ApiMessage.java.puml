@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Message <|-- org.apache.kafka.common.protocol.ApiMessage
+class org.apache.kafka.common.protocol.ApiMessage {
++  apiKey()
+} 
+@enduml

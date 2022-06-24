@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.RaftUtil
+class org.apache.kafka.raft.RaftUtil {
++  errorResponse(ApiKeys;Errors)
++  singletonFetchRequest(TopicPartition;Uuid;Consumer<FetchRequestData.FetchPartition>)
++  singletonFetchResponse(TopicPartition;Uuid;Errors;Consumer<FetchResponseData.PartitionData>)
++  hasValidTopicPartition(FetchRequestData;TopicPartition;Uuid)
++  hasValidTopicPartition(FetchResponseData;TopicPartition;Uuid)
++  hasValidTopicPartition(VoteResponseData;TopicPartition)
++  hasValidTopicPartition(VoteRequestData;TopicPartition)
++  hasValidTopicPartition(BeginQuorumEpochRequestData;TopicPartition)
++  hasValidTopicPartition(BeginQuorumEpochResponseData;TopicPartition)
++  hasValidTopicPartition(EndQuorumEpochRequestData;TopicPartition)
++  hasValidTopicPartition(EndQuorumEpochResponseData;TopicPartition)
++  hasValidTopicPartition(DescribeQuorumRequestData;TopicPartition)
+} 
+@enduml

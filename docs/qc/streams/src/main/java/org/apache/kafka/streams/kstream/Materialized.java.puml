@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.Materialized
+class org.apache.kafka.streams.kstream.Materialized {
++  Materialized(StoreSupplier<S>)
++  Materialized(String)
++  Materialized(StoreType)
++  Materialized(Materialized<K,V,S>)
++  withValueSerde(Serde<V>)
++  withKeySerde(Serde<K>)
++  withLoggingEnabled(Map<String,String>)
++  withLoggingDisabled()
++  withCachingEnabled()
++  withCachingDisabled()
++  withRetention(Duration)
++  withStoreType(StoreType)
+} 
+@enduml

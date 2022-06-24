@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.consumer.internals.Fetch"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.internals.Fetch" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Fetch"
+ , "c2" : "Fetch(Map<TopicPartition,List<ConsumerRecord<K,V>>>;boolean;int)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "add(Fetch<K,V>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<TopicPartition,List<ConsumerRecord<K,V>>>"
+ , "c2" : "records()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "positionAdvanced()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "numRecords()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)"
+ , "c3" : "3"
+ , "c4" : "8"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.consumer.internals.Fetch.isEmpty@POLYN174888 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.consumer.internals.Fetch.isEmpty@POLYN176600 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.Fetch.addRecords@POLYN175021 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.Fetch.addRecords@POLYN176733 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

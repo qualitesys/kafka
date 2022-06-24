@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AccessTokenRetriever <|-- org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever
+class org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever {
++  FileTokenRetriever(Path)
++  init()
++  retrieve()
+} 
+@enduml

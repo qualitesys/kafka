@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.TimeWindowedCogroupedKStream"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.TimeWindowedCogroupedKStream" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTable<Windowed<K>,V>"
+ , "c2" : "aggregate(Initializer<V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<Windowed<K>,V>"
+ , "c2" : "aggregate(Initializer<V>;Named)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<Windowed<K>,V>"
+ , "c2" : "aggregate(Initializer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTable<Windowed<K>,V>"
+ , "c2" : "aggregate(Initializer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.svg" }
+
 ] 
 , 
 "data04" : [

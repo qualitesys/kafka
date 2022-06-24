@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Iterator<T> <|-- org.apache.kafka.common.utils.CloseableIterator
+class org.apache.kafka.common.utils.CloseableIterator {
++  close()
+} 
+@enduml

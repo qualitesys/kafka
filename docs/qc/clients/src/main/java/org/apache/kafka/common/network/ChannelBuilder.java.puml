@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.common.network.ChannelBuilder
+class org.apache.kafka.common.network.ChannelBuilder {
++  buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)
++  close()
+} 
+@enduml

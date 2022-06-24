@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor
+class org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor {
++  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)
++  assignActiveStatefulTasks(SortedMap<UUID,ClientState>;SortedSet<TaskId>)
++  assignStandbyReplicaTasks(TreeMap<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)
++  balanceTasksOverThreads(SortedMap<UUID,ClientState>;Function<ClientState,Set<TaskId>>;BiConsumer<ClientState,TaskId>;BiConsumer<ClientState,TaskId>;BiPredicate<ClientState,ClientState>)
++  shouldMoveATask(ClientState;ClientState)
++  assignStatelessActiveTasks(TreeMap<UUID,ClientState>;Iterable<TaskId>)
++  tasksToCaughtUpClients(Set<TaskId>;Map<UUID,ClientState>;long)
++  tasksToClientByLag(Set<TaskId>;Map<UUID,ClientState>)
++  unbounded(long)
++  acceptable(long;long)
++  activeRunning(long)
+} 
+@enduml

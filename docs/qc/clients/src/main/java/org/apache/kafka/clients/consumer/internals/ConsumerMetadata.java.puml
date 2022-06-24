@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Metadata <|-- org.apache.kafka.clients.consumer.internals.ConsumerMetadata
+class org.apache.kafka.clients.consumer.internals.ConsumerMetadata {
++  ConsumerMetadata(long;long;boolean;boolean;SubscriptionState;LogContext;ClusterResourceListeners)
++  allowAutoTopicCreation()
++  newMetadataRequestBuilder()
++  addTransientTopics(Set<String>)
++  clearTransientTopics()
++  retainTopic(String;boolean;long)
+} 
+@enduml

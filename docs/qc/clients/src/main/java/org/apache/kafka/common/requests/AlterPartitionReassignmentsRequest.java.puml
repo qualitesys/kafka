@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest
+class org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest {
++  AlterPartitionReassignmentsRequest(AlterPartitionReassignmentsRequestData;short)
++  parse(ByteBuffer;short)
++  data()
++  getErrorResponse(int;Throwable)
+} 
+@enduml

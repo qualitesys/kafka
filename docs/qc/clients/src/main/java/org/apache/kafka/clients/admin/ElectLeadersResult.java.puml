@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ElectLeadersResult
+class org.apache.kafka.clients.admin.ElectLeadersResult {
++  ElectLeadersResult(KafkaFuture<Map<TopicPartition,Optional<Throwable>>>)
++  partitions()
++  all()
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.internals.Topic
+class org.apache.kafka.common.internals.Topic {
++  validate(String)
++  validate(String;String;Consumer<String>)
++  isInternal(String)
++  hasCollisionChars(String)
++  unifyCollisionChars(String)
++  hasCollision(String;String)
++  containsValidPattern(String)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.ControlRecordUtils
+class org.apache.kafka.common.record.ControlRecordUtils {
++  deserializeLeaderChangeMessage(Record)
++  deserializeLeaderChangeMessage(ByteBuffer)
++  deserializedSnapshotHeaderRecord(Record)
++  deserializedSnapshotHeaderRecord(ByteBuffer)
++  deserializedSnapshotFooterRecord(Record)
++  deserializedSnapshotFooterRecord(ByteBuffer)
+} 
+@enduml

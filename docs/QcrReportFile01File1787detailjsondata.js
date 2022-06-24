@@ -8,12 +8,107 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.ThreadMetadata"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.ThreadMetadata" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ThreadMetadata"
+ , "c2" : "ThreadMetadata(String;String;String;String;Set<String>;String;Set<org.apache.kafka.streams.processor.TaskMetadata>;Set<org.apache.kafka.streams.processor.TaskMetadata>)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "threadState()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "threadName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<org.apache.kafka.streams.processor.TaskMetadata>"
+ , "c2" : "activeTasks()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<org.apache.kafka.streams.processor.TaskMetadata>"
+ , "c2" : "standbyTasks()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "consumerClientId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "restoreConsumerClientId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "producerClientIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "adminClientId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,91 +188,91 @@ var maDataBlocs = {
    "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.ThreadMetadata.equals@POLYN168956 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.ThreadMetadata.equals@POLYN170668 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.ThreadMetadata.equals@POLYN168956 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.ThreadMetadata.equals@POLYN170668 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.ThreadMetadata.equals@POLYN168956 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.ThreadMetadata.equals@POLYN170668 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  'ThreadMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  'ThreadMetadata{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  'threadName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  'threadName=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  ', threadState=' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  ', threadState=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  ', activeTasks=' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  ', activeTasks=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  ', standbyTasks=' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  ', standbyTasks=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  ', consumerClientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  ', consumerClientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  ', restoreConsumerClientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  ', restoreConsumerClientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  ', producerClientIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  ', producerClientIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  ', adminClientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  ', adminClientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN170387 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN172099 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

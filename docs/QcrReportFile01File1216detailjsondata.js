@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Transformation<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.HoistField"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.HoistField" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "apply(R)"
+ , "c3" : "4"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Schema"
+ , "c2" : "operatingSchema(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "operatingValue(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "newRecord(R;Schema;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +146,14 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.HoistField.configure@POLYN170720 the MagicNumber/String  'field' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.HoistField.configure@POLYN172432 the MagicNumber/String  'field' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.transforms.HoistField.configure@POLYN170720 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.transforms.HoistField.configure@POLYN172432 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,28 +167,28 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.transforms.HoistField.apply@POLYN171203 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.transforms.HoistField.apply@POLYN172915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.transforms.HoistField.apply@POLYN171203 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.transforms.HoistField.apply@POLYN172915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.transforms.HoistField.apply@POLYN171203 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.transforms.HoistField.apply@POLYN172915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.transforms.HoistField.close@POLYN172417 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.transforms.HoistField.close@POLYN174129 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

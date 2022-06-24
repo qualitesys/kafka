@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KeyValueBytesStoreSupplier"
+ , "c2" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "InMemoryKeyValueBytesStoreSupplier"
+ , "c2" : "InMemoryKeyValueBytesStoreSupplier(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueStore<Bytes,byte[]>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "metricsScope()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +104,7 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.metricsScope@POLYN155478 the MagicNumber/String  'in-memory' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.metricsScope@POLYN157190 the MagicNumber/String  'in-memory' should be converted to const"
 }} 
 ]
 };

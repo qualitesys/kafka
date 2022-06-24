@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.common.errors.ApiException
+class org.apache.kafka.common.errors.ApiException {
++  ApiException(String;Throwable)
++  ApiException(String)
++  ApiException(Throwable)
++  ApiException()
++  fillInStackTrace()
+} 
+@enduml

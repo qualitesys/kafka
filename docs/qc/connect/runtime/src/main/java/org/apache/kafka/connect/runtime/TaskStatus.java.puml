@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractStatus<ConnectorTaskId> <|-- org.apache.kafka.connect.runtime.TaskStatus
+class org.apache.kafka.connect.runtime.TaskStatus {
++  TaskStatus(ConnectorTaskId;State;String;int;String)
++  TaskStatus(ConnectorTaskId;State;String;int)
+} 
+@enduml

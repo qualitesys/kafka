@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+StatusBackingStore <|-- org.apache.kafka.connect.storage.MemoryStatusBackingStore
+class org.apache.kafka.connect.storage.MemoryStatusBackingStore {
++  MemoryStatusBackingStore()
++  configure(WorkerConfig)
++  start()
++  stop()
++  put(ConnectorStatus)
++  putSafe(ConnectorStatus)
++  put(TaskStatus)
++  putSafe(TaskStatus)
++  put(TopicStatus)
++  get(ConnectorTaskId)
++  get(String)
++  getAll(String)
++  getTopic(String;String)
++  getAllTopics(String)
++  deleteTopic(String;String)
++  connectors()
++  flush()
+} 
+@enduml

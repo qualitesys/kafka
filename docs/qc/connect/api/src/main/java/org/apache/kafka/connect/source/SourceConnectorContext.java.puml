@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ConnectorContext <|-- org.apache.kafka.connect.source.SourceConnectorContext
+class org.apache.kafka.connect.source.SourceConnectorContext {
++  offsetStorageReader()
+} 
+@enduml

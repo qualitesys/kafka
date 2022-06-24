@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.CreateTopicsRequest
+class org.apache.kafka.common.requests.CreateTopicsRequest {
++  CreateTopicsRequest(CreateTopicsRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

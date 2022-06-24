@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Serializer<Change<T>> <|-- org.apache.kafka.streams.kstream.internals.ChangedSerializer
+class org.apache.kafka.streams.kstream.internals.ChangedSerializer {
++  ChangedSerializer(Serializer<T>)
++  inner()
++  setIfUnset(SerdeGetter)
++  serialize(String;Headers;Change<T>)
++  serialize(String;Change<T>)
++  close()
+} 
+@enduml

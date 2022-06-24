@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+AuthorizableRequestContext <|-- org.apache.kafka.common.requests.RequestContext
+class org.apache.kafka.common.requests.RequestContext {
++  RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean)
++  RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean;Optional<KafkaPrincipalSerde>)
++  parseRequest(ByteBuffer)
++  buildResponseSend(AbstractResponse)
++  buildResponseEnvelopePayload(AbstractResponse)
++  isUnsupportedApiVersionsRequest()
++  apiVersion()
++  listenerName()
++  securityProtocol()
++  principal()
++  clientAddress()
++  requestType()
++  requestVersion()
++  clientId()
++  correlationId()
++  toString()
+} 
+@enduml

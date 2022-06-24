@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.TransactionDescription
+class org.apache.kafka.clients.admin.TransactionDescription {
++  TransactionDescription(int;TransactionState;long;int;long;OptionalLong;Set<TopicPartition>)
++  coordinatorId()
++  state()
++  producerId()
++  producerEpoch()
++  transactionTimeoutMs()
++  transactionStartTimeMs()
++  topicPartitions()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

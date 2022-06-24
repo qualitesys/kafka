@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+Callback <|-- org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback
+class org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback {
++  OAuthBearerExtensionsValidatorCallback(OAuthBearerToken;SaslExtensions)
++  token()
++  inputExtensions()
++  validatedExtensions()
++  invalidExtensions()
++  ignoredExtensions()
++  valid(String)
++  error(String;String)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.util.Table
+class org.apache.kafka.connect.util.Table {
++  put(R;C;V)
++  get(R;C)
++  remove(R)
++  remove(R;C)
++  row(R)
++  isEmpty()
+} 
+@enduml

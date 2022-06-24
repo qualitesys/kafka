@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.BrokerControlStates
+class org.apache.kafka.controller.BrokerControlStates {
++  BrokerControlStates(BrokerControlState;BrokerControlState)
++  current()
++  next()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

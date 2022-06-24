@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<ListConsumerGroupsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.ListConsumerGroupsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListConsumerGroupsOptions"
+ , "c2" : "inStates(Set<ConsumerGroupState>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<ConsumerGroupState>"
+ , "c2" : "states()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.ListConsumerGroupsOptions.inStates@POLYN158183 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.ListConsumerGroupsOptions.inStates@POLYN159895 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

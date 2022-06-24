@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse
+class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse {
++  OAuthBearerClientInitialResponse(byte[])
++  OAuthBearerClientInitialResponse(String;SaslExtensions)
++  OAuthBearerClientInitialResponse(String;String;SaslExtensions)
++  extensions()
++  toBytes()
++  tokenValue()
++  authorizationId()
++  validateExtensions(SaslExtensions)
++  extensionsMessage()
+} 
+@enduml

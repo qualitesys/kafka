@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+Comparable<Uuid> <|-- org.apache.kafka.common.Uuid
+class org.apache.kafka.common.Uuid {
++  Uuid(long;long)
++  unsafeRandomUuid()
++  randomUuid()
++  getMostSignificantBits()
++  getLeastSignificantBits()
++  equals(Object)
++  hashCode()
++  toString()
++  fromString(String)
++  getBytesFromUuid()
++  compareTo(Uuid)
+} 
+@enduml

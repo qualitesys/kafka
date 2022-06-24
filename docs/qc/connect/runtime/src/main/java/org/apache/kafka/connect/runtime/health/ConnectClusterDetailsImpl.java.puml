@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ConnectClusterDetails <|-- org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl
+class org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl {
++  ConnectClusterDetailsImpl(String)
++  kafkaClusterId()
+} 
+@enduml

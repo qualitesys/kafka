@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+NamedOperation<Branched<K,V>> <|-- org.apache.kafka.streams.kstream.Branched
+class org.apache.kafka.streams.kstream.Branched {
++  Branched(String;Function<?superKStream<K,V>,?extendsKStream<K,V>>;Consumer<?superKStream<K,V>>)
++  Branched(Branched<K,V>)
++  withName(String)
+} 
+@enduml

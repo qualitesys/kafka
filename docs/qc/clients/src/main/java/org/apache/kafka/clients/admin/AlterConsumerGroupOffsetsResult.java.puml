@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult
+class org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult {
++  AlterConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>)
++  partitionResult(TopicPartition)
++  all()
+} 
+@enduml

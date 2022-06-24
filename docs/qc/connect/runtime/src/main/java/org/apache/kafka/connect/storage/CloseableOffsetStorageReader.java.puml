@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.connect.storage.CloseableOffsetStorageReader
+class org.apache.kafka.connect.storage.CloseableOffsetStorageReader {
++  close()
+} 
+@enduml

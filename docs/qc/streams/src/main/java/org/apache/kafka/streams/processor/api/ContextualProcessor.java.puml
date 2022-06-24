@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Processor<KIn,VIn,KOut,VOut> <|-- org.apache.kafka.streams.processor.api.ContextualProcessor
+class org.apache.kafka.streams.processor.api.ContextualProcessor {
++  ContextualProcessor()
++  init(ProcessorContext<KOut,VOut>)
++  context()
+} 
+@enduml

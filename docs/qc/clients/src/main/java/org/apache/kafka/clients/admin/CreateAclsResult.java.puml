@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.CreateAclsResult
+class org.apache.kafka.clients.admin.CreateAclsResult {
++  CreateAclsResult(Map<AclBinding,KafkaFuture<Void>>)
++  values()
++  all()
+} 
+@enduml

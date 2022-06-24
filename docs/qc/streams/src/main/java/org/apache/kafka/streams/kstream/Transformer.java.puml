@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.Transformer
+class org.apache.kafka.streams.kstream.Transformer {
++  init(ProcessorContext)
++  transform(K;V)
++  close()
+} 
+@enduml

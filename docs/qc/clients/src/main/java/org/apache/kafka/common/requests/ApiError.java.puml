@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.requests.ApiError
+class org.apache.kafka.common.requests.ApiError {
++  fromThrowable(Throwable)
++  ApiError(Errors)
++  ApiError(Errors;String)
++  ApiError(short;String)
++  is(Errors)
++  isFailure()
++  isSuccess()
++  error()
++  message()
++  messageWithFallback()
++  exception()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

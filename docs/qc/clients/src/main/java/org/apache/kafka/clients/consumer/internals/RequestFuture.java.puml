@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+ConsumerNetworkClient.PollCondition <|-- org.apache.kafka.clients.consumer.internals.RequestFuture
+class org.apache.kafka.clients.consumer.internals.RequestFuture {
++  isDone()
++  awaitDone(long;TimeUnit)
++  value()
++  succeeded()
++  failed()
++  isRetriable()
++  exception()
++  complete(T)
++  raise(RuntimeException)
++  raise(Errors)
++  fireSuccess()
++  fireFailure()
++  addListener(RequestFutureListener<T>)
++  chain(RequestFuture<T>)
++  voidSuccess()
++  shouldBlock()
+} 
+@enduml

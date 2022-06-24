@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.internals.MetadataOperationContext
+class org.apache.kafka.clients.admin.internals.MetadataOperationContext {
++  MetadataOperationContext(Collection<String>;O;long;Map<TopicPartition,KafkaFutureImpl<T>>)
++  setResponse(Optional<MetadataResponse>)
++  response()
++  options()
++  deadline()
++  futures()
++  topics()
++  handleMetadataErrors(MetadataResponse)
++  shouldRefreshMetadata(Errors)
+} 
+@enduml

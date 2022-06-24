@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+WorkerConfig <|-- org.apache.kafka.connect.runtime.distributed.DistributedConfig
+class org.apache.kafka.connect.runtime.distributed.DistributedConfig {
++  getRebalanceTimeout()
++  exactlyOnceSourceEnabled()
++  transactionalLeaderEnabled()
++  transactionalProducerId()
++  transactionalProducerId(String)
++  offsetsTopic()
++  connectorOffsetsTopicsPermitted()
++  groupId()
++  DistributedConfig(Map<String,String>)
++  main(String[])
++  getInternalRequestKeyGenerator()
++  topicSettings(String)
++  configStorageTopicSettings()
++  offsetStorageTopicSettings()
++  statusStorageTopicSettings()
++  validateKeyAlgorithmAndVerificationAlgorithms()
++  validateSignatureAlgorithms(String;List<String>)
++  validateSignatureAlgorithm(String;String)
++  validateKeyAlgorithm(String;String)
+} 
+@enduml

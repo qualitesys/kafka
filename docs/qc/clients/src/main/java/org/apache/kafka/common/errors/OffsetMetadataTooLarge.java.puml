@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.OffsetMetadataTooLarge
+class org.apache.kafka.common.errors.OffsetMetadataTooLarge {
++  OffsetMetadataTooLarge()
++  OffsetMetadataTooLarge(String)
++  OffsetMetadataTooLarge(Throwable)
++  OffsetMetadataTooLarge(String;Throwable)
+} 
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractQueryResult<R>QueryResult<R> <|-- org.apache.kafka.streams.query.internals.SucceededQueryResult
+class org.apache.kafka.streams.query.internals.SucceededQueryResult {
++  SucceededQueryResult(R)
++  SucceededQueryResult(R;List<String>;Position)
++  isSuccess()
++  isFailure()
++  getFailureReason()
++  getFailureMessage()
++  getResult()
++  toString()
+} 
+@enduml

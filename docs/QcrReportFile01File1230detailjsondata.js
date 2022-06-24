@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConfigDef.Validator"
+ , "c2" : "org.apache.kafka.connect.transforms.util.RegexValidator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.util.RegexValidator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "ensureValid(String;Object)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +104,14 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.RegexValidator.ensureValid@POLYN154841 the MagicNumber/String  'Invalid regex: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.connect.transforms.util.RegexValidator.ensureValid@POLYN156553 the MagicNumber/String  'Invalid regex: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.transforms.util.RegexValidator.toString@POLYN155268 the MagicNumber/String  'valid regex' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.transforms.util.RegexValidator.toString@POLYN156980 the MagicNumber/String  'valid regex' should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.TxnPartitionMap
+class org.apache.kafka.clients.producer.internals.TxnPartitionMap {
++  get(TopicPartition)
++  getOrCreate(TopicPartition)
++  contains(TopicPartition)
++  reset()
++  lastAckedOffset(TopicPartition)
++  lastAckedSequence(TopicPartition)
++  startSequencesAtBeginning(TopicPartition;ProducerIdAndEpoch)
+} 
+@enduml

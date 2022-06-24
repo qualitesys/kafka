@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractApiMessageSerde"
+ , "c2" : "org.apache.kafka.metadata.MetadataRecordSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.MetadataRecordSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ApiMessage"
+ , "c2" : "apiMessageFor(short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/MetadataRecordSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/MetadataRecordSerde.java.svg" }
+
 ] 
 , 
 "data04" : [

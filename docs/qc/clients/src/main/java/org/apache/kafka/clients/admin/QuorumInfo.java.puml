@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.QuorumInfo
+class org.apache.kafka.clients.admin.QuorumInfo {
++  QuorumInfo(Integer;List<ReplicaState>;List<ReplicaState>)
++  leaderId()
++  voters()
++  observers()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

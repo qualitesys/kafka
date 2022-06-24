@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Serializer<Double> <|-- org.apache.kafka.common.serialization.DoubleSerializer
+class org.apache.kafka.common.serialization.DoubleSerializer {
++  serialize(String;Double)
+} 
+@enduml

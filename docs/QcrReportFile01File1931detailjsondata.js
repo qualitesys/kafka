@@ -8,12 +8,121 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.query.StateQueryRequest"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.query.StateQueryRequest" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StateQueryRequest"
+ , "c2" : "StateQueryRequest(String;PositionBound;Optional<Set<Integer>>;Query<R>;boolean;boolean)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "InStore"
+ , "c2" : "inStore(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StateQueryRequest<R>"
+ , "c2" : "withPositionBound(PositionBound)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StateQueryRequest<R>"
+ , "c2" : "withAllPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StateQueryRequest<R>"
+ , "c2" : "withPartitions(Set<Integer>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StateQueryRequest<R>"
+ , "c2" : "enableExecutionInfo()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StateQueryRequest<R>"
+ , "c2" : "requireActive()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "getStoreName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PositionBound"
+ , "c2" : "getPositionBound()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Query<R>"
+ , "c2" : "getQuery()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isAllPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<Integer>"
+ , "c2" : "getPartitions()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "executionInfoEnabled()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isRequireActive()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,21 +209,21 @@ var maDataBlocs = {
    "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.query.StateQueryRequest.enableExecutionInfo@POLYN179217 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.query.StateQueryRequest.enableExecutionInfo@POLYN180929 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.query.StateQueryRequest.requireActive@POLYN179636 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.query.StateQueryRequest.requireActive@POLYN181348 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.query.StateQueryRequest.getPartitions@POLYN180646 the MagicNumber/String  'Cannot list partitions of an 'all partitions' request' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.query.StateQueryRequest.getPartitions@POLYN182358 the MagicNumber/String  'Cannot list partitions of an 'all partitions' request' should be converted to const"
 }} 
 ,
 { "ligne" : {

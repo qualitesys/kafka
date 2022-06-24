@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+KTableProcessorSupplier<K,V,K,VOut> <|-- org.apache.kafka.streams.kstream.internals.KTableTransformValues
+class org.apache.kafka.streams.kstream.internals.KTableTransformValues {
++  KTableTransformValues(KTableImpl<K,?,V>;ValueTransformerWithKeySupplier<?superK,?superV,?extendsVOut>;String)
++  get()
++  view()
++  enableSendingOldValues(boolean)
+} 
+@enduml

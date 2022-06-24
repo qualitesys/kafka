@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaEntity
+class org.apache.kafka.common.quota.ClientQuotaEntity {
++  isValidEntityType(String)
++  ClientQuotaEntity(Map<String,String>)
++  entries()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

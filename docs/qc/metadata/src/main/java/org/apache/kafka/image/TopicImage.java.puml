@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.TopicImage
+class org.apache.kafka.image.TopicImage {
++  TopicImage(String;Uuid;Map<Integer,PartitionRegistration>)
++  name()
++  id()
++  partitions()
++  write(Consumer<List<ApiMessageAndVersion>>)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

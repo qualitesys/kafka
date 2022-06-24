@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.source.TransactionContext
+class org.apache.kafka.connect.source.TransactionContext {
++  commitTransaction()
++  commitTransaction(SourceRecord)
++  abortTransaction()
++  abortTransaction(SourceRecord)
+} 
+@enduml

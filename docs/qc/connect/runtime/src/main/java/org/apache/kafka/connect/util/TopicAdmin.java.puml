@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.util.TopicAdmin
+class org.apache.kafka.connect.util.TopicAdmin {
++  defineTopic(String)
++  TopicAdmin(Map<String,Object>)
++  TopicAdmin(Map<String,Object>;Admin)
++  TopicAdmin(Map<String,Object>;Admin;boolean)
++  admin()
++  createTopic(NewTopic)
++  createTopics(NewTopic...)
++  createOrFindTopic(NewTopic)
++  createOrFindTopics(NewTopic...)
++  describeTopics(String...)
++  verifyTopicCleanupPolicyOnlyCompact(String;String;String)
++  topicCleanupPolicy(String)
++  describeTopicConfig(String)
++  describeTopicConfigs(String...)
++  endOffsets(Set<TopicPartition>)
++  retryEndOffsets(Set<TopicPartition>;Duration;long)
++  close()
++  close(Duration)
++  bootstrapServers()
+} 
+@enduml

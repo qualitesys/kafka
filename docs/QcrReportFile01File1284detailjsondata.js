@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.jmh.producer.ProducerRequestBenchmark"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.jmh.producer.ProducerRequestBenchmark" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ProduceRequest"
+ , "c2" : "request()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProduceRequest"
+ , "c2" : "constructorProduceRequest()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProduceResponse"
+ , "c2" : "constructorErrorResponse()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.png" 
+
+ , "ligneplantuml" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00069"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.jmh.producer.ProducerRequestBenchmark.constructorErrorResponse@POLYN169374 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.jmh.producer.ProducerRequestBenchmark.constructorErrorResponse@POLYN171086 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

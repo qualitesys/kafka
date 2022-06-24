@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.InitProducerIdRequest
+class org.apache.kafka.common.requests.InitProducerIdRequest {
++  InitProducerIdRequest(InitProducerIdRequestData;short)
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  data()
+} 
+@enduml

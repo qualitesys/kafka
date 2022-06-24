@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+EmitStrategy <|-- org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy
+class org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy {
++  type()
+} 
+@enduml

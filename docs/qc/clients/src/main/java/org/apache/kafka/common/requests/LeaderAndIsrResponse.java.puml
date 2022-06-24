@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.LeaderAndIsrResponse
+class org.apache.kafka.common.requests.LeaderAndIsrResponse {
++  LeaderAndIsrResponse(LeaderAndIsrResponseData;short)
++  topics()
++  error()
++  errorCounts()
++  partitionErrors(Map<Uuid,String>)
++  throttleTimeMs()
++  parse(ByteBuffer;short)
++  data()
++  toString()
+} 
+@enduml

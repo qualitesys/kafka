@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.PunctuationQueue
+class org.apache.kafka.streams.processor.internals.PunctuationQueue {
++  schedule(PunctuationSchedule)
++  close()
++  mayPunctuate(long;PunctuationType;ProcessorNodePunctuator)
+} 
+@enduml

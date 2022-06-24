@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+ControllerMetrics <|-- org.apache.kafka.controller.QuorumControllerMetrics
+class org.apache.kafka.controller.QuorumControllerMetrics {
++  QuorumControllerMetrics(MetricsRegistry;Time)
++  setActive(boolean)
++  active()
++  updateEventQueueTime(long)
++  updateEventQueueProcessingTime(long)
++  setFencedBrokerCount(int)
++  fencedBrokerCount()
++  setActiveBrokerCount(int)
++  activeBrokerCount()
++  setGlobalTopicsCount(int)
++  globalTopicsCount()
++  setGlobalPartitionCount(int)
++  globalPartitionCount()
++  setOfflinePartitionCount(int)
++  offlinePartitionCount()
++  setPreferredReplicaImbalanceCount(int)
++  preferredReplicaImbalanceCount()
++  setLastAppliedRecordOffset(long)
++  lastAppliedRecordOffset()
++  setLastCommittedRecordOffset(long)
++  lastCommittedRecordOffset()
++  setLastAppliedRecordTimestamp(long)
++  lastAppliedRecordTimestamp()
++  close()
++  getMetricName(String;String)
+} 
+@enduml

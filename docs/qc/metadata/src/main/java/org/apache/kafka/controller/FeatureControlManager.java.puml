@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.FeatureControlManager
+class org.apache.kafka.controller.FeatureControlManager {
++  FeatureControlManager(LogContext;QuorumFeatures;SnapshotRegistry;MetadataVersion)
++  updateFeatures(Map<String,Short>;Map<String,FeatureUpdate.UpgradeType>;Map<Integer,Map<String,VersionRange>>;boolean)
++  metadataVersion()
++  updateFeature(String;short;FeatureUpdate.UpgradeType;Map<Integer,Map<String,VersionRange>>;List<ApiMessageAndVersion>)
++  invalidUpdateVersion(String;short;String)
++  updateMetadataVersion(short;boolean;Consumer<ApiMessageAndVersion>)
++  invalidMetadataVersion(short;String)
++  finalizedFeatures(long)
++  sawMetadataVersion()
++  replay(FeatureLevelRecord)
++  iterator(long)
+} 
+@enduml

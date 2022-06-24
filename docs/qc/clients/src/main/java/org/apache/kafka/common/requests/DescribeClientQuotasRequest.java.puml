@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DescribeClientQuotasRequest
+class org.apache.kafka.common.requests.DescribeClientQuotasRequest {
++  DescribeClientQuotasRequest(DescribeClientQuotasRequestData;short)
++  filter()
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

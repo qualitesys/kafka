@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<DeleteTopicsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DeleteTopicsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DeleteTopicsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DeleteTopicsOptions"
+ , "c2" : "timeoutMs(Integer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DeleteTopicsOptions"
+ , "c2" : "retryOnQuotaViolation(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldRetryOnQuotaViolation()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

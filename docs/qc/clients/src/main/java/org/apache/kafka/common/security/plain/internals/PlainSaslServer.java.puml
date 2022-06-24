@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+SaslServer <|-- org.apache.kafka.common.security.plain.internals.PlainSaslServer
+class org.apache.kafka.common.security.plain.internals.PlainSaslServer {
++  PlainSaslServer(CallbackHandler)
++  evaluateResponse(byte[])
++  extractTokens(String)
++  getAuthorizationID()
++  getMechanismName()
++  getNegotiatedProperty(String)
++  isComplete()
++  unwrap(byte[];int;int)
++  wrap(byte[];int;int)
++  dispose()
+} 
+@enduml

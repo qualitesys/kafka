@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark
+class org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark {
++  testAddEntriesInHashMap()
++  testAddEntriesInTimelineMap()
++  testAddEntriesWithSnapshots()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.tools.VerifiableLog4jAppender
+class org.apache.kafka.tools.VerifiableLog4jAppender {
++  argParser()
++  loadProps(String)
++  createFromArgs(String[])
++  VerifiableLog4jAppender(Properties;int)
++  main(String[])
++  append(String)
+} 
+@enduml

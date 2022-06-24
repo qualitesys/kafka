@@ -2,18 +2,148 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java 37 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java 42 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StatusBackingStore"
+ , "c2" : "org.apache.kafka.connect.storage.MemoryStatusBackingStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.MemoryStatusBackingStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MemoryStatusBackingStore"
+ , "c2" : "MemoryStatusBackingStore()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(WorkerConfig)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "start()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "stop()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(ConnectorStatus)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putSafe(ConnectorStatus)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(TaskStatus)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putSafe(TaskStatus)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(TopicStatus)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskStatus"
+ , "c2" : "get(ConnectorTaskId)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectorStatus"
+ , "c2" : "get(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<TaskStatus>"
+ , "c2" : "getAll(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicStatus"
+ , "c2" : "getTopic(String;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Collection<TopicStatus>"
+ , "c2" : "getAllTopics(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "deleteTopic(String;String)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "connectors()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "flush()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,7 +167,47 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN173932.status" }
+,
+{ "ligne" :  "R2:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN173553.status" }
+,
+{ "ligne" :  "R3:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN174620.status" }
+,
+{ "ligne" :  "R4:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN174077.status" }
+]
+,
+"data12b" : [
+{ "sequence" : { "noseq" : "0" , "pas" : [
+{ "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN173932 (R0 in line [00056],R1 in line [00056])" }
+,
+{ "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN173553 (R0 in line [00048],R2 in line [00048])" }
+,
+{ "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN174760" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "1" , "pas" : [
+{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN174620 (R0 in line [00069],R3 in line [00069])" }
+,
+{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN174077 (R0 in line [00061],R4 in line [00061])" }
+ ]
+ } }
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE833"
+ , "c3" : "Potential deadlock between at least two ressources"
+ , "c4" : "5"
+}}
+,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
@@ -247,14 +417,14 @@ var maDataBlocs = {
    "c1" : "00097"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.getTopic@POLYN174024 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.getTopic@POLYN175736 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.getTopic@POLYN174024 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.getTopic@POLYN175736 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -268,7 +438,7 @@ var maDataBlocs = {
    "c1" : "00103"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.getAllTopics@POLYN174510 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.getAllTopics@POLYN176222 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -282,7 +452,7 @@ var maDataBlocs = {
    "c1" : "00111"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.deleteTopic@POLYN174941 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.storage.MemoryStatusBackingStore.deleteTopic@POLYN176653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -346,6 +516,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#122"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00122] Void method flush is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.this"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN173932.status"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN173553.status"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN174620.status"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN174077.status"
 }} 
 ]
 };

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+PayloadGenerator <|-- org.apache.kafka.trogdor.workload.ConstantPayloadGenerator
+class org.apache.kafka.trogdor.workload.ConstantPayloadGenerator {
++  ConstantPayloadGenerator(int;byte[])
++  size()
++  value()
++  generate(long)
+} 
+@enduml

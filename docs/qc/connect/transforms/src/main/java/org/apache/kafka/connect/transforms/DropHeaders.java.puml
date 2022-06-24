@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.DropHeaders
+class org.apache.kafka.connect.transforms.DropHeaders {
++  apply(R)
++  config()
++  close()
++  configure(Map<String,?>)
+} 
+@enduml

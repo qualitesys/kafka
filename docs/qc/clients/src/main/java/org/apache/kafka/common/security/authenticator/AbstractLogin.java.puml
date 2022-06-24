@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Login <|-- org.apache.kafka.common.security.authenticator.AbstractLogin
+class org.apache.kafka.common.security.authenticator.AbstractLogin {
++  configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler)
++  login()
++  subject()
++  contextName()
++  configuration()
+} 
+@enduml

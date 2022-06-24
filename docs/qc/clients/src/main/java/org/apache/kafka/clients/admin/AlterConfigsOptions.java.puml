@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<AlterConfigsOptions> <|-- org.apache.kafka.clients.admin.AlterConfigsOptions
+class org.apache.kafka.clients.admin.AlterConfigsOptions {
++  timeoutMs(Integer)
++  shouldValidateOnly()
++  validateOnly(boolean)
+} 
+@enduml

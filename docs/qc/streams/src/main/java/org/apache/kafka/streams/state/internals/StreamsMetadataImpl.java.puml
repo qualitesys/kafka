@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+StreamsMetadata <|-- org.apache.kafka.streams.state.internals.StreamsMetadataImpl
+class org.apache.kafka.streams.state.internals.StreamsMetadataImpl {
++  StreamsMetadataImpl(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>)
++  StreamsMetadataImpl(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>;String)
++  hostInfo()
++  stateStoreNames()
++  topicPartitions()
++  standbyTopicPartitions()
++  standbyStateStoreNames()
++  host()
++  port()
++  topologyName()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

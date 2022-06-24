@@ -2,18 +2,71 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java 10 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java 15 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SinkTask"
+ , "c2" : "org.apache.kafka.connect.tools.MockSinkTask"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.tools.MockSinkTask" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "version()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "start(Map<String,String>)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(Collection<SinkRecord>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "flush(Map<TopicPartition,OffsetAndMetadata>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "stop()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setTimeout()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,7 +90,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000015"
@@ -50,6 +119,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -93,14 +169,14 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.MockSinkTask.start@POLYN161460 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.MockSinkTask.start@POLYN163172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.tools.MockSinkTask.start@POLYN161460 the MagicNumber/String  'Started MockSinkTask at {} with failure scheduled in {} ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.tools.MockSinkTask.start@POLYN163172 the MagicNumber/String  'Started MockSinkTask at {} with failure scheduled in {} ms' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +197,7 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.tools.MockSinkTask.put@POLYN162354 the MagicNumber/String  'Triggering sink task failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.tools.MockSinkTask.put@POLYN164066 the MagicNumber/String  'Triggering sink task failure' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +211,42 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.tools.MockSinkTask.setTimeout@POLYN163046 the MagicNumber/String  250 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.tools.MockSinkTask.setTimeout@POLYN164758 the MagicNumber/String  250 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.tools.MockSinkTask.start@POLYN163172"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.tools.MockSinkTask.put@POLYN164066"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00036"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#36"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.connect.tools.MockSinkTask.start@POLYN163172 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00039"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#39"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.connect.tools.MockSinkTask.start@POLYN163172 the MagicNumber/String 'Started MockSinkTask at {} with failure scheduled in {} ms' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.connect.tools.MockSinkTask.put@POLYN164066 the MagicNumber/String 'Triggering sink task failure' MUST BE CONVERTED to const"
 }} 
 ]
 };

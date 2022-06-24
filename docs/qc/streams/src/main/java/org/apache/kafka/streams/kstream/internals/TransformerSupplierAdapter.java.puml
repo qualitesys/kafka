@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+TransformerSupplier<KIn,VIn,Iterable<KeyValue<KOut,VOut>>> <|-- org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter
+class org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter {
++  TransformerSupplierAdapter(TransformerSupplier<KIn,VIn,KeyValue<KOut,VOut>>)
++  get()
++  stores()
+} 
+@enduml

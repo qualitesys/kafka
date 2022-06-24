@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidOffsetException <|-- org.apache.kafka.common.errors.OffsetOutOfRangeException
+class org.apache.kafka.common.errors.OffsetOutOfRangeException {
++  OffsetOutOfRangeException(String)
++  OffsetOutOfRangeException(String;Throwable)
+} 
+@enduml

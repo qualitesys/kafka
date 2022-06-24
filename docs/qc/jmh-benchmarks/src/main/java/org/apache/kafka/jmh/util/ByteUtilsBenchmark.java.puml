@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.util.ByteUtilsBenchmark
+class org.apache.kafka.jmh.util.ByteUtilsBenchmark {
++  setUp()
++  testSizeOfUnsignedVarint()
++  testSizeOfUnsignedVarintSimple()
++  testSizeOfVarlong()
++  testSizeOfVarlongSimple()
++  main(String[])
+} 
+@enduml

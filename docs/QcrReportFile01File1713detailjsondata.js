@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TimestampedKeyValueStoreMaterializer"
+ , "c2" : "TimestampedKeyValueStoreMaterializer(MaterializedInternal<K,V,KeyValueStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "StoreBuilder<TimestampedKeyValueStore<K,V>>"
+ , "c2" : "materialize()"
+ , "c3" : "7"
+ , "c4" : "11"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,14 +90,14 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer.materialize@POLYN160744 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer.materialize@POLYN162456 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer.materialize@POLYN160744 the MagicNumber/String  'Unknown store type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer.materialize@POLYN162456 the MagicNumber/String  'Unknown store type: ' should be converted to const"
 }} 
 ]
 };

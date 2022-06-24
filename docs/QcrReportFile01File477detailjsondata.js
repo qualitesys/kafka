@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "CompoundStat"
+ , "c2" : "org.apache.kafka.common.metrics.stats.Meter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.metrics.stats.Meter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Meter"
+ , "c2" : "Meter(MetricName;MetricName)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Meter"
+ , "c2" : "Meter(TimeUnit;MetricName;MetricName)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Meter"
+ , "c2" : "Meter(SampledStat;MetricName;MetricName)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Meter"
+ , "c2" : "Meter(TimeUnit;SampledStat;MetricName;MetricName)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<NamedMeasurable>"
+ , "c2" : "stats()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "record(MetricConfig;double;long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.stats.Meter.Meter@POLYN164021 the MagicNumber/String  'Meter is supported only for WindowedCount or WindowedSum.' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.stats.Meter.Meter@POLYN165733 the MagicNumber/String  'Meter is supported only for WindowedCount or WindowedSum.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -86,49 +146,49 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.metrics.stats.Meter.record@POLYN164982 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.metrics.stats.Meter.record@POLYN166694 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN165494 the MagicNumber/String  'Meter(' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN167206 the MagicNumber/String  'Meter(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN165494 the MagicNumber/String  'rate=' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN167206 the MagicNumber/String  'rate=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN165494 the MagicNumber/String  ', total=' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN167206 the MagicNumber/String  ', total=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN165494 the MagicNumber/String  ', rateMetricName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN167206 the MagicNumber/String  ', rateMetricName=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN165494 the MagicNumber/String  ', totalMetricName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN167206 the MagicNumber/String  ', totalMetricName=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN165494 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.metrics.stats.Meter.toString@POLYN167206 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

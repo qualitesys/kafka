@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Checksums
+class org.apache.kafka.common.utils.Checksums {
++  Checksums()
++  update(Checksum;ByteBuffer;int)
++  update(Checksum;ByteBuffer;int;int)
++  updateInt(Checksum;int)
++  updateLong(Checksum;long)
+} 
+@enduml

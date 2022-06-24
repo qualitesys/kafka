@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ReplicaInfo
+class org.apache.kafka.clients.admin.ReplicaInfo {
++  ReplicaInfo(long;long;boolean)
++  size()
++  offsetLag()
++  isFuture()
++  toString()
+} 
+@enduml

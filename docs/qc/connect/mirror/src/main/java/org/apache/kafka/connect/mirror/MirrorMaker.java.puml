@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.MirrorMaker
+class org.apache.kafka.connect.mirror.MirrorMaker {
++  MirrorMaker(MirrorMakerConfig;List<String>;Time)
++  MirrorMaker(Map<String,String>;List<String>;Time)
++  MirrorMaker(Map<String,String>;List<String>)
++  MirrorMaker(Map<String,String>)
++  start()
++  stop()
++  awaitStop()
++  configureConnector(SourceAndTarget;Class<?>)
++  checkHerder(SourceAndTarget)
++  configureConnectors(SourceAndTarget)
++  addHerder(SourceAndTarget)
++  main(String[])
+} 
+@enduml

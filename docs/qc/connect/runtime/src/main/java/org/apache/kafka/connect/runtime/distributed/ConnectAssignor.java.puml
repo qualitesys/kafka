@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.distributed.ConnectAssignor
+class org.apache.kafka.connect.runtime.distributed.ConnectAssignor {
++  performAssignment(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;WorkerCoordinator)
+} 
+@enduml

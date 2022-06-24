@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "EmitStrategy"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StrategyType"
+ , "c2" : "type()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.svg" }
+
 ] 
 , 
 "data04" : [

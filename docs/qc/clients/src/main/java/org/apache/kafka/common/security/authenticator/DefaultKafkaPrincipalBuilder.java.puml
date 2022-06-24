@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+KafkaPrincipalBuilder <|-- org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder {
++  DefaultKafkaPrincipalBuilder(KerberosShortNamer;SslPrincipalMapper)
++  build(AuthenticationContext)
++  applyKerberosShortNamer(String)
++  applySslPrincipalMapper(Principal)
++  serialize(KafkaPrincipal)
++  deserialize(byte[])
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.CompressionRatioEstimator
+class org.apache.kafka.common.record.CompressionRatioEstimator {
++  updateEstimation(String;CompressionType;float)
++  estimation(String;CompressionType)
++  resetEstimation(String)
++  removeEstimation(String)
++  setEstimation(String;CompressionType;float)
++  getAndCreateEstimationIfAbsent(String)
++  initialCompressionRatio()
+} 
+@enduml

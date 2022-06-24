@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache
+class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache {
++  remoteLogSegmentMetadata(int;long)
++  updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate)
++  handleSegmentWithCopySegmentFinishedState(RemoteLogSegmentMetadata)
++  handleSegmentWithDeleteSegmentStartedState(RemoteLogSegmentMetadata)
++  handleSegmentWithDeleteSegmentFinishedState(RemoteLogSegmentMetadata)
++  doHandleSegmentStateTransitionForLeaderEpochs(RemoteLogSegmentMetadata;RemoteLogLeaderEpochState.Action)
++  highestOffsetForEpoch(Integer;RemoteLogSegmentMetadata)
++  listAllRemoteLogSegments()
++  listRemoteLogSegments(int)
++  highestOffsetForEpoch(int)
++  addCopyInProgressSegment(RemoteLogSegmentMetadata)
++  checkStateTransition(RemoteLogSegmentState;RemoteLogSegmentState)
+} 
+@enduml

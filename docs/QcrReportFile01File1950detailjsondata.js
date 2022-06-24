@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StateStore"
+ , "c2" : "org.apache.kafka.streams.state.SessionStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.SessionStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,AGG>"
+ , "c2" : "findSessions(K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,AGG>"
+ , "c2" : "backwardFindSessions(K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,AGG>"
+ , "c2" : "findSessions(K;K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,AGG>"
+ , "c2" : "backwardFindSessions(K;K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AGG"
+ , "c2" : "fetchSession(K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "remove(Windowed<K>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(Windowed<K>;AGG)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.svg" }
+
 ] 
 , 
 "data04" : [

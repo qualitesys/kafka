@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TaskSpec"
+ , "c2" : "org.apache.kafka.trogdor.fault.ProcessStopFaultSpec"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.fault.ProcessStopFaultSpec" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ProcessStopFaultSpec"
+ , "c2" : "ProcessStopFaultSpec(long;long;List<String>;String)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "nodeNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "javaProcessName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,21 +104,21 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN159287 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN160999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN159287 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN160999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN159287 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN160999 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {

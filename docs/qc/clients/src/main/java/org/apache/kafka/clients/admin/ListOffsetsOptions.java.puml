@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<ListOffsetsOptions> <|-- org.apache.kafka.clients.admin.ListOffsetsOptions
+class org.apache.kafka.clients.admin.ListOffsetsOptions {
++  ListOffsetsOptions()
++  ListOffsetsOptions(IsolationLevel)
++  isolationLevel()
+} 
+@enduml

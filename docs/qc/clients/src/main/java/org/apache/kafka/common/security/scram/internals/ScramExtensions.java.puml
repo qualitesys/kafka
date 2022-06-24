@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+SaslExtensions <|-- org.apache.kafka.common.security.scram.internals.ScramExtensions
+class org.apache.kafka.common.security.scram.internals.ScramExtensions {
++  ScramExtensions()
++  ScramExtensions(String)
++  ScramExtensions(Map<String,String>)
++  tokenAuthenticated()
+} 
+@enduml

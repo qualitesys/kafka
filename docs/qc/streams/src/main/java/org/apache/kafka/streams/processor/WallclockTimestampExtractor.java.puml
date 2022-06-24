@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+TimestampExtractor <|-- org.apache.kafka.streams.processor.WallclockTimestampExtractor
+class org.apache.kafka.streams.processor.WallclockTimestampExtractor {
++  extract(ConsumerRecord<Object,Object>;long)
+} 
+@enduml

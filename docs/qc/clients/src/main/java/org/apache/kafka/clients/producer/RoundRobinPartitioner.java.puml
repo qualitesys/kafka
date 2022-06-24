@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Partitioner <|-- org.apache.kafka.clients.producer.RoundRobinPartitioner
+class org.apache.kafka.clients.producer.RoundRobinPartitioner {
++  configure(Map<String,?>)
++  partition(String;Object;byte[];Object;byte[];Cluster)
++  nextValue(String)
++  close()
+} 
+@enduml

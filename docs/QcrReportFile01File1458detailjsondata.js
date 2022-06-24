@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.common.serialization.RecordSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.common.serialization.RecordSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "recordSize(T;ObjectSerializationCache)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "write(T;ObjectSerializationCache;Writable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "read(Readable;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.svg" }
+
 ] 
 , 
 "data04" : [

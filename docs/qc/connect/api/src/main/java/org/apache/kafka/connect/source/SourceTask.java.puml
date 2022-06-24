@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Task <|-- org.apache.kafka.connect.source.SourceTask
+class org.apache.kafka.connect.source.SourceTask {
++  initialize(SourceTaskContext)
++  start(Map<String,String>)
++  poll()
++  commit()
++  stop()
++  commitRecord(SourceRecord)
++  commitRecord(SourceRecord;RecordMetadata)
+} 
+@enduml

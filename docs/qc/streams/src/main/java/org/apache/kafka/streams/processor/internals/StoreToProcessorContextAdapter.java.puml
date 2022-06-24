@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+ProcessorContext <|-- org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter
+class org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter {
++  adapt(StateStoreContext)
++  StoreToProcessorContextAdapter(StateStoreContext)
++  applicationId()
++  taskId()
++  keySerde()
++  valueSerde()
++  stateDir()
++  metrics()
++  register(StateStore;StateRestoreCallback)
++  schedule(Duration;PunctuationType;Punctuator)
++  commit()
++  topic()
++  partition()
++  offset()
++  headers()
++  timestamp()
++  appConfigs()
++  appConfigsWithPrefix(String)
++  currentSystemTimeMs()
++  currentStreamTimeMs()
+} 
+@enduml

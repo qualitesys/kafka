@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DeleteGroupsRequest
+class org.apache.kafka.common.requests.DeleteGroupsRequest {
++  DeleteGroupsRequest(DeleteGroupsRequestData;short)
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  data()
+} 
+@enduml

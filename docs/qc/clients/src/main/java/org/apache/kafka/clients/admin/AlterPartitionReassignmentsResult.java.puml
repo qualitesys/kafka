@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult
+class org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult {
++  AlterPartitionReassignmentsResult(Map<TopicPartition,KafkaFuture<Void>>)
++  values()
++  all()
+} 
+@enduml

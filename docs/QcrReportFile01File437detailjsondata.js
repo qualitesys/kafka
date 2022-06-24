@@ -8,12 +8,100 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.feature.Features"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.feature.Features" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Features"
+ , "c2" : "Features(Map<String,VersionRangeType>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Features<SupportedVersionRange>"
+ , "c2" : "supportedFeatures(Map<String,SupportedVersionRange>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Features<SupportedVersionRange>"
+ , "c2" : "emptySupportedFeatures()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,VersionRangeType>"
+ , "c2" : "features()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "empty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "VersionRangeType"
+ , "c2" : "get(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Map<String,Short>>"
+ , "c2" : "toMap()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Features<SupportedVersionRange>"
+ , "c2" : "fromSupportedFeaturesMap(Map<String,Map<String,Short>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.feature.Features.Features@POLYN174828 the MagicNumber/String  'Provided features can not be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.feature.Features.Features@POLYN176540 the MagicNumber/String  'Provided features can not be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,21 +195,21 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.feature.Features.toString@POLYN176084 the MagicNumber/String  'Features{%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.feature.Features.toString@POLYN177796 the MagicNumber/String  'Features{%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.feature.Features.toString@POLYN176084 the MagicNumber/String  '(%s -&amp;gt; %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.feature.Features.toString@POLYN177796 the MagicNumber/String  '(%s -&amp;gt; %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.feature.Features.toString@POLYN176084 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.feature.Features.toString@POLYN177796 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,14 +244,14 @@ var maDataBlocs = {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.feature.Features.equals@POLYN178454 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.feature.Features.equals@POLYN180166 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.feature.Features.equals@POLYN178454 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.feature.Features.equals@POLYN180166 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

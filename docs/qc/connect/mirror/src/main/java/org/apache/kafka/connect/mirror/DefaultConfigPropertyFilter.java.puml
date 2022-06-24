@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ConfigPropertyFilter <|-- org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter
+class org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter {
++  configure(Map<String,?>)
++  close()
++  excluded(String)
++  shouldReplicateConfigProperty(String)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.clients.producer.internals.ProducerInterceptors
+class org.apache.kafka.clients.producer.internals.ProducerInterceptors {
++  ProducerInterceptors(List<ProducerInterceptor<K,V>>)
++  onSend(ProducerRecord<K,V>)
++  onAcknowledgement(RecordMetadata;Exception)
++  onSendError(ProducerRecord<K,V>;TopicPartition;Exception)
++  close()
+} 
+@enduml

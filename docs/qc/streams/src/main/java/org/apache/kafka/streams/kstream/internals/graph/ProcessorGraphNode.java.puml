@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode
+class org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode {
++  ProcessorGraphNode(ProcessorParameters<K,V,?,?>)
++  ProcessorGraphNode(String;ProcessorParameters<K,V,?,?>)
++  processorParameters()
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

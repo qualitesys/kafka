@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Comparable <|-- org.apache.kafka.streams.processor.internals.Stamped
+class org.apache.kafka.streams.processor.internals.Stamped {
++  Stamped(V;long)
++  compareTo(Object)
++  equals(Object)
++  hashCode()
+} 
+@enduml

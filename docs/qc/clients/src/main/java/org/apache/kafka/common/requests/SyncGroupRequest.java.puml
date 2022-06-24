@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.SyncGroupRequest
+class org.apache.kafka.common.requests.SyncGroupRequest {
++  SyncGroupRequest(SyncGroupRequestData;short)
++  getErrorResponse(int;Throwable)
++  groupAssignments()
++  areMandatoryProtocolTypeAndNamePresent()
++  parse(ByteBuffer;short)
++  data()
+} 
+@enduml

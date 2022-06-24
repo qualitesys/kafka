@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform
+class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform {
++  toApiMessageAndVersion(T)
++  fromApiMessageAndVersion(ApiMessageAndVersion)
+} 
+@enduml

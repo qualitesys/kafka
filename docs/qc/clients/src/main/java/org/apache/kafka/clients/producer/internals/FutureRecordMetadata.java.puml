@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Future<RecordMetadata> <|-- org.apache.kafka.clients.producer.internals.FutureRecordMetadata
+class org.apache.kafka.clients.producer.internals.FutureRecordMetadata {
++  FutureRecordMetadata(ProduceRequestResult;int;long;int;int;Time)
++  cancel(boolean)
++  isCancelled()
++  get()
++  get(long;TimeUnit)
++  chain(FutureRecordMetadata)
++  valueOrError()
++  value()
++  timestamp()
++  isDone()
+} 
+@enduml

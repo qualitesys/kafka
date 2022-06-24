@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ConfigEntry
+class org.apache.kafka.clients.admin.ConfigEntry {
++  ConfigEntry(String;String)
++  ConfigEntry(String;String;ConfigSource;boolean;boolean;List<ConfigSynonym>;ConfigType;String)
++  name()
++  value()
++  source()
++  isDefault()
++  isSensitive()
++  isReadOnly()
++  synonyms()
++  type()
++  documentation()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.common.JsonUtil
+class org.apache.kafka.trogdor.common.JsonUtil {
++  toJsonString(Object)
++  toPrettyJsonString(Object)
++  openBraceComesFirst(String)
+} 
+@enduml

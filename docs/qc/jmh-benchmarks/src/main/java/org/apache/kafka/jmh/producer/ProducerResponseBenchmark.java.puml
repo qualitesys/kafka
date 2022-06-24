@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.producer.ProducerResponseBenchmark
+class org.apache.kafka.jmh.producer.ProducerResponseBenchmark {
++  response()
++  constructorProduceResponse()
+} 
+@enduml

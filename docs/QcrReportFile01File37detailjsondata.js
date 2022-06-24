@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AlterConsumerGroupOffsetsResult"
+ , "c2" : "AlterConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "partitionResult(TopicPartition)"
+ , "c3" : "7"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "all()"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,42 +111,42 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN164005 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN165717 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN164005 the MagicNumber/String  'Alter offset for partition \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN165717 the MagicNumber/String  'Alter offset for partition \'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN164005 the MagicNumber/String  '\' was not attempted' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN165717 the MagicNumber/String  '\' was not attempted' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN164005 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.partitionResult@POLYN165717 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.all@POLYN165191 the MagicNumber/String  'Failed altering consumer group offsets for the following partitions: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.all@POLYN166903 the MagicNumber/String  'Failed altering consumer group offsets for the following partitions: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.all@POLYN165191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.all@POLYN166903 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

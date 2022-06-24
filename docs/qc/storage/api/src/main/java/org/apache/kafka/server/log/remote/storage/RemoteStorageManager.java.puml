@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.server.log.remote.storage.RemoteStorageManager
+class org.apache.kafka.server.log.remote.storage.RemoteStorageManager {
++  copyLogSegmentData(RemoteLogSegmentMetadata;LogSegmentData)
++  fetchLogSegment(RemoteLogSegmentMetadata;int)
++  fetchLogSegment(RemoteLogSegmentMetadata;int;int)
++  fetchIndex(RemoteLogSegmentMetadata;IndexType)
++  deleteLogSegmentData(RemoteLogSegmentMetadata)
+} 
+@enduml

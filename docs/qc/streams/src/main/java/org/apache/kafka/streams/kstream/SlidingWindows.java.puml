@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.SlidingWindows
+class org.apache.kafka.streams.kstream.SlidingWindows {
++  SlidingWindows(long;long)
++  ofTimeDifferenceWithNoGrace(Duration)
++  ofTimeDifferenceAndGrace(Duration;Duration)
++  withTimeDifferenceAndGrace(Duration;Duration)
++  timeDifferenceMs()
++  gracePeriodMs()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

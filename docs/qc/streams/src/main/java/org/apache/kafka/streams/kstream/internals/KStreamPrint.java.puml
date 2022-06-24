@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ProcessorSupplier<K,V,Void,Void> <|-- org.apache.kafka.streams.kstream.internals.KStreamPrint
+class org.apache.kafka.streams.kstream.internals.KStreamPrint {
++  KStreamPrint(ForeachAction<K,V>)
++  get()
+} 
+@enduml

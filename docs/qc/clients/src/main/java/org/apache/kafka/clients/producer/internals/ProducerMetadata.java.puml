@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+Metadata <|-- org.apache.kafka.clients.producer.internals.ProducerMetadata
+class org.apache.kafka.clients.producer.internals.ProducerMetadata {
++  ProducerMetadata(long;long;long;LogContext;ClusterResourceListeners;Time)
++  newMetadataRequestBuilder()
++  newMetadataRequestBuilderForNewTopics()
++  add(String;long)
++  requestUpdateForTopic(String)
++  topics()
++  newTopics()
++  containsTopic(String)
++  retainTopic(String;boolean;long)
++  awaitUpdate(int;long)
++  update(int;MetadataResponse;boolean;long)
++  fatalError(KafkaException)
++  close()
+} 
+@enduml

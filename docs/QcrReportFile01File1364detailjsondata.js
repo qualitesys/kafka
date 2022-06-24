@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Authorizer"
+ , "c2" : "org.apache.kafka.metadata.authorizer.ClusterMetadataAuthorizer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.authorizer.ClusterMetadataAuthorizer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setAclMutator(AclMutator)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AclMutator"
+ , "c2" : "aclMutatorOrException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "completeInitialLoad()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "completeInitialLoad(Exception)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "loadSnapshot(Map<Uuid,StandardAcl>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addAcl(Uuid;StandardAcl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "removeAcl(Uuid)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
+ , "c2" : "createAcls(AuthorizableRequestContext;List<AclBinding>)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
+ , "c2" : "deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.svg" }
+
 ] 
 , 
 "data04" : [

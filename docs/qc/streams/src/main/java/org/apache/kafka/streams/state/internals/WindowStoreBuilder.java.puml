@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractStoreBuilder<K,V,WindowStore<K,V>> <|-- org.apache.kafka.streams.state.internals.WindowStoreBuilder
+class org.apache.kafka.streams.state.internals.WindowStoreBuilder {
++  WindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time)
++  build()
++  maybeWrapCaching(WindowStore<Bytes,byte[]>)
++  maybeWrapLogging(WindowStore<Bytes,byte[]>)
++  retentionPeriod()
+} 
+@enduml

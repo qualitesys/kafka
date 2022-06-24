@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+WindowBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier
+class org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier {
++  InMemoryWindowBytesStoreSupplier(String;long;long;boolean)
++  name()
++  get()
++  metricsScope()
++  retentionPeriod()
++  windowSize()
++  segmentIntervalMs()
++  retainDuplicates()
++  toString()
+} 
+@enduml

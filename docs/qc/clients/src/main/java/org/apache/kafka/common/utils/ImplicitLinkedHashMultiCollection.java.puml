@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ImplicitLinkedHashCollection<E> <|-- org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollection
+class org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollection {
++  ImplicitLinkedHashMultiCollection()
++  ImplicitLinkedHashMultiCollection(int)
++  ImplicitLinkedHashMultiCollection(Iterator<E>)
++  addInternal(Element;Element[])
++  findElementToRemove(Object)
++  findAll(E)
+} 
+@enduml

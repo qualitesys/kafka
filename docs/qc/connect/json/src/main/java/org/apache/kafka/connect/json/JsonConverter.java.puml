@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+Converter <|-- org.apache.kafka.connect.json.JsonConverter
+class org.apache.kafka.connect.json.JsonConverter {
++  JsonConverter()
++  sizeOfFromConnectSchemaCache()
++  sizeOfToConnectSchemaCache()
++  config()
++  configure(Map<String,?>)
++  configure(Map<String,?>;boolean)
++  close()
++  fromConnectHeader(String;String;Schema;Object)
++  toConnectHeader(String;String;byte[])
++  fromConnectData(String;Schema;Object)
++  toConnectData(String;byte[])
++  asJsonSchema(Schema)
++  asConnectSchema(JsonNode)
++  convertToJsonWithEnvelope(Schema;Object)
++  convertToJsonWithoutEnvelope(Schema;Object)
++  convertToJson(Schema;Object)
++  convertToConnect(Schema;JsonNode)
+} 
+@enduml

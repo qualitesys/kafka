@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+Readable <|-- org.apache.kafka.common.protocol.DataInputStreamReadable
+class org.apache.kafka.common.protocol.DataInputStreamReadable {
++  DataInputStreamReadable(DataInputStream)
++  readByte()
++  readShort()
++  readInt()
++  readLong()
++  readDouble()
++  readArray(byte[])
++  readUnsignedVarint()
++  readByteBuffer(int)
++  readVarint()
++  readVarlong()
++  remaining()
++  close()
+} 
+@enduml

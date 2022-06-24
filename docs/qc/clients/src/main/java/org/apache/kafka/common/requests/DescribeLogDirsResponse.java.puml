@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeLogDirsResponse
+class org.apache.kafka.common.requests.DescribeLogDirsResponse {
++  DescribeLogDirsResponse(DescribeLogDirsResponseData)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

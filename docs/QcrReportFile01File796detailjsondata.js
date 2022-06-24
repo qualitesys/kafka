@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isValidScopeItem(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<String>"
+ , "c2" : "parseScope(String)"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OAuthBearerScopeUtils"
+ , "c2" : "OAuthBearerScopeUtils()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils.parseScope@POLYN163821 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils.parseScope@POLYN165533 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils.parseScope@POLYN163821 the MagicNumber/String  'Invalid scope value: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils.parseScope@POLYN165533 the MagicNumber/String  'Invalid scope value: %s' should be converted to const"
 }} 
 ]
 };

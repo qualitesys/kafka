@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.common.errors.UnknownTopicOrPartitionException
+class org.apache.kafka.common.errors.UnknownTopicOrPartitionException {
++  UnknownTopicOrPartitionException()
++  UnknownTopicOrPartitionException(String)
++  UnknownTopicOrPartitionException(Throwable)
++  UnknownTopicOrPartitionException(String;Throwable)
+} 
+@enduml

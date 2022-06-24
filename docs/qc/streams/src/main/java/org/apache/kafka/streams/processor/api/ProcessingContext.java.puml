@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.api.ProcessingContext
+class org.apache.kafka.streams.processor.api.ProcessingContext {
++  applicationId()
++  taskId()
++  recordMetadata()
++  keySerde()
++  valueSerde()
++  stateDir()
++  metrics()
++  schedule(Duration;PunctuationType;Punctuator)
++  commit()
++  appConfigs()
++  appConfigsWithPrefix(String)
++  currentSystemTimeMs()
++  currentStreamTimeMs()
+} 
+@enduml

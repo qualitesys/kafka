@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ConnectedStoreProvider <|-- org.apache.kafka.streams.processor.ProcessorSupplier
+class org.apache.kafka.streams.processor.ProcessorSupplier {
++  get()
+} 
+@enduml

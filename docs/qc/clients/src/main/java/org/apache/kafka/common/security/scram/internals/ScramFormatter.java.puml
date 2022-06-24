@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.scram.internals.ScramFormatter
+class org.apache.kafka.common.security.scram.internals.ScramFormatter {
++  ScramFormatter(ScramMechanism)
++  hmac(byte[];byte[])
++  hash(byte[])
++  xor(byte[];byte[])
++  hi(byte[];byte[];int)
++  normalize(String)
++  saltedPassword(String;byte[];int)
++  clientKey(byte[])
++  storedKey(byte[])
++  saslName(String)
++  username(String)
++  authMessage(String;String;String)
++  clientSignature(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)
++  clientProof(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)
++  authMessage(ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)
++  storedKey(byte[];byte[])
++  serverKey(byte[])
++  serverSignature(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)
++  secureRandomString()
++  secureRandomString(SecureRandom)
++  secureRandomBytes()
++  secureRandomBytes(SecureRandom)
++  toBytes(String)
++  generateCredential(String;int)
++  generateCredential(byte[];byte[];int)
+} 
+@enduml

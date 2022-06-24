@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.common.security.auth.SslEngineFactory
+class org.apache.kafka.common.security.auth.SslEngineFactory {
++  createClientSslEngine(String;int;String)
++  createServerSslEngine(String;int)
++  shouldBeRebuilt(Map<String,Object>)
++  reconfigurableConfigs()
++  keystore()
++  truststore()
+} 
+@enduml

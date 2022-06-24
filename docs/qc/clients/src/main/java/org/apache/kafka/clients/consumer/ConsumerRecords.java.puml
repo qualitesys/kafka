@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Iterable<ConsumerRecord<K,V>> <|-- org.apache.kafka.clients.consumer.ConsumerRecords
+class org.apache.kafka.clients.consumer.ConsumerRecords {
++  ConsumerRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)
++  records(TopicPartition)
++  records(String)
++  partitions()
++  iterator()
++  count()
++  isEmpty()
+} 
+@enduml

@@ -2,18 +2,43 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java 10 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java 12 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.OrderedBytes"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.OrderedBytes" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "upperRange(Bytes;byte[])"
+ , "c3" : "4"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "lowerRange(Bytes;byte[])"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +90,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -85,6 +117,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00013"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#13"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00013] For method upperRange list of called methods Object monObjet|byte[] key_getN161889"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00013"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#13"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00013] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -93,35 +132,35 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN160032 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN161744 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN160032 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN161744 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN160032 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN161744 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN160032 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN161744 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN160032 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.OrderedBytes.upperRange@POLYN161744 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -129,6 +168,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#45"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00045] For method lowerRange arguments Bytes  key|byte[]  minSuffix"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#45"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00045] For method lowerRange list of called methods Object monObjet|byte[] key_getN163460"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ConnectException <|-- org.apache.kafka.connect.runtime.distributed.RequestTargetException
+class org.apache.kafka.connect.runtime.distributed.RequestTargetException {
++  RequestTargetException(String;String)
++  RequestTargetException(String;Throwable;String)
++  RequestTargetException(Throwable;String)
++  forwardUrl()
+} 
+@enduml

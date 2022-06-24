@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Iterable<ConsumerRecord<K,V>>"
+ , "c2" : "org.apache.kafka.clients.consumer.ConsumerRecords"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.ConsumerRecords" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConsumerRecords"
+ , "c2" : "ConsumerRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<ConsumerRecord<K,V>>"
+ , "c2" : "records(TopicPartition)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterable<ConsumerRecord<K,V>>"
+ , "c2" : "records(String)"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicPartition>"
+ , "c2" : "partitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterator<ConsumerRecord<K,V>>"
+ , "c2" : "iterator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "count()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.consumer.ConsumerRecords.records@POLYN173423 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.consumer.ConsumerRecords.records@POLYN175135 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,21 +153,21 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.consumer.ConsumerRecords.records@POLYN173946 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.consumer.ConsumerRecords.records@POLYN175658 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.consumer.ConsumerRecords.records@POLYN173946 the MagicNumber/String  'Topic must be non-null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.consumer.ConsumerRecords.records@POLYN175658 the MagicNumber/String  'Topic must be non-null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.ConsumerRecords.count@POLYN175381 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.ConsumerRecords.count@POLYN177093 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +181,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.ConsumerRecords.ConcatenatedIterable.iterator@POLYN176290 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.ConsumerRecords.ConcatenatedIterable.iterator@POLYN178002 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

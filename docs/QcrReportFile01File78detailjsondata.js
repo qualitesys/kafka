@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeDelegationTokenResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeDelegationTokenResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeDelegationTokenResult"
+ , "c2" : "DescribeDelegationTokenResult(KafkaFuture<List<DelegationToken>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<List<DelegationToken>>"
+ , "c2" : "delegationTokens()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.svg" }
+
 ] 
 , 
 "data04" : [

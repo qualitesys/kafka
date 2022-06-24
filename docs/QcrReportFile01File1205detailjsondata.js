@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.util.SinkUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.util.SinkUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SinkUtils"
+ , "c2" : "SinkUtils()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "consumerGroupId(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +104,7 @@ var maDataBlocs = {
    "c1" : "00009"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.connect.util.SinkUtils.consumerGroupId@POLYN152676 the MagicNumber/String  'connect-' should be converted to const"
+ , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.connect.util.SinkUtils.consumerGroupId@POLYN154388 the MagicNumber/String  'connect-' should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler
+class org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler {
++  configure(Map<String,?>;String;List<AppConfigurationEntry>)
++  handle(Callback[])
++  handleRealmCallback(RealmCallback)
++  handleAuthorizeCallback(AuthorizeCallback)
++  close()
+} 
+@enduml

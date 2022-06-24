@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RaftMessage <|-- org.apache.kafka.raft.RaftRequest
+class org.apache.kafka.raft.RaftRequest {
++  RaftRequest(int;ApiMessage;long)
++  correlationId()
++  data()
++  createdTimeMs()
+} 
+@enduml

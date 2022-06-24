@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<CreateDelegationTokenOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CreateDelegationTokenOptions"
+ , "c2" : "renewers(List<KafkaPrincipal>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<KafkaPrincipal>"
+ , "c2" : "renewers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreateDelegationTokenOptions"
+ , "c2" : "maxlifeTimeMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "maxlifeTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

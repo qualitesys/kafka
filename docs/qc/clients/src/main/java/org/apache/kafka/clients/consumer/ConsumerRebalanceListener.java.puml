@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerRebalanceListener
+class org.apache.kafka.clients.consumer.ConsumerRebalanceListener {
++  onPartitionsRevoked(Collection<TopicPartition>)
++  onPartitionsAssigned(Collection<TopicPartition>)
++  onPartitionsLost(Collection<TopicPartition>)
+} 
+@enduml

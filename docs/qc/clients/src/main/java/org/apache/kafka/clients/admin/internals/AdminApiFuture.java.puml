@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminApiFuture
+class org.apache.kafka.clients.admin.internals.AdminApiFuture {
++  lookupKeys()
++  complete(Map<K,V>)
++  completeLookup(Map<K,Integer>)
++  completeLookupExceptionally(Map<K,Throwable>)
++  completeExceptionally(Map<K,Throwable>)
+} 
+@enduml

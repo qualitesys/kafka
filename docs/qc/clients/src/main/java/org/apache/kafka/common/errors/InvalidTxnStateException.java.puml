@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidTxnStateException
+class org.apache.kafka.common.errors.InvalidTxnStateException {
++  InvalidTxnStateException(String)
+} 
+@enduml

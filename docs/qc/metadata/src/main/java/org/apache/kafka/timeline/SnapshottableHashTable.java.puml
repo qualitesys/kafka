@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+BaseHashTable<T>Revertable <|-- org.apache.kafka.timeline.SnapshottableHashTable
+class org.apache.kafka.timeline.SnapshottableHashTable {
++  SnapshottableHashTable(SnapshotRegistry;int)
++  snapshottableSize(long)
++  snapshottableGet(Object;long)
++  snapshottableAddUnlessPresent(T)
++  snapshottableAddOrReplace(T)
++  snapshottableRemove(Object)
++  updateTierData(int)
++  updateTierData(T;int)
++  snapshottableIterator(long)
++  snapshottableToDebugString()
++  executeRevert(long;Delta)
++  reset()
+} 
+@enduml

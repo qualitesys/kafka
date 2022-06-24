@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "CompletableFuture<T>"
+ , "c2" : "org.apache.kafka.common.internals.KafkaCompletableFuture"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.internals.KafkaCompletableFuture" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "kafkaComplete(T)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "kafkaCompleteExceptionally(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "complete(T)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "completeExceptionally(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "obtrudeValue(T)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "obtrudeException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CompletableFuture<T>"
+ , "c2" : "completeAsync(Supplier<?extendsT>;Executor)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CompletableFuture<T>"
+ , "c2" : "completeAsync(Supplier<?extendsT>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CompletableFuture<T>"
+ , "c2" : "completeOnTimeout(T;long;TimeUnit)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UnsupportedOperationException"
+ , "c2" : "erroneousCompletionException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -121,7 +202,7 @@ var maDataBlocs = {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.internals.KafkaCompletableFuture.erroneousCompletionException@POLYN164939 the MagicNumber/String  'User code should not complete futures returned from Kafka clients' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.internals.KafkaCompletableFuture.erroneousCompletionException@POLYN166651 the MagicNumber/String  'User code should not complete futures returned from Kafka clients' should be converted to const"
 }} 
 ]
 };

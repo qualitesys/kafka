@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+AbstractRequestResponse <|-- org.apache.kafka.common.requests.AbstractRequest
+class org.apache.kafka.common.requests.AbstractRequest {
++  AbstractRequest(ApiKeys;short)
++  version()
++  apiKey()
++  toSend(RequestHeader)
++  serializeWithHeader(RequestHeader)
++  serialize()
++  sizeInBytes()
++  toString(boolean)
++  toString()
++  getErrorResponse(Throwable)
++  getErrorResponse(int;Throwable)
++  errorCounts(Throwable)
++  parseRequest(ApiKeys;short;ByteBuffer)
++  doParseRequest(ApiKeys;short;ByteBuffer)
+} 
+@enduml

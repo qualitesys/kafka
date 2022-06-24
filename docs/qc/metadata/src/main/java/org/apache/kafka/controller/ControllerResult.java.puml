@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ControllerResult
+class org.apache.kafka.controller.ControllerResult {
++  ControllerResult(List<ApiMessageAndVersion>;T;boolean)
++  records()
++  response()
++  isAtomic()
++  equals(Object)
++  hashCode()
++  toString()
++  withoutRecords()
+} 
+@enduml

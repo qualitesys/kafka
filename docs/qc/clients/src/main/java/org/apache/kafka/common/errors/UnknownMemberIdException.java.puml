@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.UnknownMemberIdException
+class org.apache.kafka.common.errors.UnknownMemberIdException {
++  UnknownMemberIdException()
++  UnknownMemberIdException(String;Throwable)
++  UnknownMemberIdException(String)
++  UnknownMemberIdException(Throwable)
+} 
+@enduml

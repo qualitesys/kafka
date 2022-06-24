@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.TopicCollection
+class org.apache.kafka.common.TopicCollection {
++  TopicCollection()
++  ofTopicIds(Collection<Uuid>)
++  ofTopicNames(Collection<String>)
+} 
+@enduml

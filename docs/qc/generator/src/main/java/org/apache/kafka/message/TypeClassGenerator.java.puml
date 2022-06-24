@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.TypeClassGenerator
+class org.apache.kafka.message.TypeClassGenerator {
++  outputName()
++  registerMessageType(MessageSpec)
++  generateAndWrite(BufferedWriter)
+} 
+@enduml

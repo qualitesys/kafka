@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.UnknownMemberIdException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.UnknownMemberIdException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "UnknownMemberIdException"
+ , "c2" : "UnknownMemberIdException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UnknownMemberIdException"
+ , "c2" : "UnknownMemberIdException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UnknownMemberIdException"
+ , "c2" : "UnknownMemberIdException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UnknownMemberIdException"
+ , "c2" : "UnknownMemberIdException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.svg" }
+
 ] 
 , 
 "data04" : [

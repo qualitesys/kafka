@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+SampledStatCompoundStat <|-- org.apache.kafka.common.metrics.stats.Percentiles
+class org.apache.kafka.common.metrics.stats.Percentiles {
++  Percentiles(int;double;BucketSizing;Percentile...)
++  Percentiles(int;double;double;BucketSizing;Percentile...)
++  stats()
++  value(MetricConfig;long;double)
++  combine(List<Sample>;MetricConfig;long)
++  newSample(long)
++  update(Sample;MetricConfig;double;long)
+} 
+@enduml

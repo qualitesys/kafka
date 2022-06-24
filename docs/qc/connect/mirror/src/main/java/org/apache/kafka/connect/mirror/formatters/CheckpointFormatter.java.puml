@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+MessageFormatter <|-- org.apache.kafka.connect.mirror.formatters.CheckpointFormatter
+class org.apache.kafka.connect.mirror.formatters.CheckpointFormatter {
++  writeTo(ConsumerRecord<byte[],byte[]>;PrintStream)
+} 
+@enduml

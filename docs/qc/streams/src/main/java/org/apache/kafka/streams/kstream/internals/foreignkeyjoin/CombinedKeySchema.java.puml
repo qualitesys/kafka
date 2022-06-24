@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKeySchema
+class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKeySchema {
++  CombinedKeySchema(Supplier<String>;Serde<KO>;Supplier<String>;Serde<K>)
++  init(ProcessorContext<?,?>)
++  toBytes(KO;K)
++  fromBytes(Bytes)
++  prefixBytes(KO)
+} 
+@enduml

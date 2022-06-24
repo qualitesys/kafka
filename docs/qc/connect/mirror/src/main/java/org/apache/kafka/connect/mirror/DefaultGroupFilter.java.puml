@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+GroupFilter <|-- org.apache.kafka.connect.mirror.DefaultGroupFilter
+class org.apache.kafka.connect.mirror.DefaultGroupFilter {
++  configure(Map<String,?>)
++  close()
++  included(String)
++  excluded(String)
++  shouldReplicateGroup(String)
+} 
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.NewTopic
+class org.apache.kafka.clients.admin.NewTopic {
++  NewTopic(String;int;short)
++  NewTopic(String;Optional<Integer>;Optional<Short>)
++  NewTopic(String;Map<Integer,List<Integer>>)
++  name()
++  numPartitions()
++  replicationFactor()
++  replicasAssignments()
++  configs(Map<String,String>)
++  configs()
++  convertToCreatableTopic()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

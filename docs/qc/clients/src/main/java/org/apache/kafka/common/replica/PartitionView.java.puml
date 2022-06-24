@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.replica.PartitionView
+class org.apache.kafka.common.replica.PartitionView {
++  replicas()
++  leader()
+} 
+@enduml

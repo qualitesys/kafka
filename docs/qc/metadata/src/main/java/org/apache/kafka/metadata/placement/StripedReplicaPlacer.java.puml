@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ReplicaPlacer <|-- org.apache.kafka.metadata.placement.StripedReplicaPlacer
+class org.apache.kafka.metadata.placement.StripedReplicaPlacer {
++  throwInvalidReplicationFactorIfNonPositive(int)
++  throwInvalidReplicationFactorIfZero(int)
++  throwInvalidReplicationFactorIfTooFewBrokers(int;int)
++  StripedReplicaPlacer(Random)
++  place(PlacementSpec;ClusterDescriber)
+} 
+@enduml

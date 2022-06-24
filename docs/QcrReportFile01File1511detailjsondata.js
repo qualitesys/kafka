@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RemoteLogMetadataTransform<RemoteLogSegmentMetadataSnapshot>"
+ , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataSnapshotTransform"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataSnapshotTransform" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ApiMessageAndVersion"
+ , "c2" : "toApiMessageAndVersion(RemoteLogSegmentMetadataSnapshot)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<RemoteLogSegmentMetadataSnapshotRecord.SegmentLeaderEpochEntry>"
+ , "c2" : "createSegmentLeaderEpochsEntry(Map<Integer,Long>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteLogSegmentMetadataSnapshot"
+ , "c2" : "fromApiMessageAndVersion(ApiMessageAndVersion)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.png" 
+
+ , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.authenticator.LoginManager
+class org.apache.kafka.common.security.authenticator.LoginManager {
++  LoginManager(JaasContext;String;Map<String,?>;LoginMetadata<?>)
++  acquireLoginManager(JaasContext;String;Class<?extendsLogin>;Map<String,?>)
++  subject()
++  serviceName()
++  cacheKey()
++  acquire()
++  release()
++  toString()
++  closeAll()
+} 
+@enduml

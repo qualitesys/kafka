@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult
+class org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult {
++  RemoveMembersFromConsumerGroupResult(KafkaFuture<Map<MemberIdentity,Errors>>;Set<MemberToRemove>)
++  all()
++  memberResult(MemberToRemove)
++  maybeCompleteExceptionally(Map<MemberIdentity,Errors>;MemberIdentity;KafkaFutureImpl<Void>)
++  removeAll()
+} 
+@enduml

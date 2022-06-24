@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.AlterClientQuotasResult
+class org.apache.kafka.clients.admin.AlterClientQuotasResult {
++  AlterClientQuotasResult(Map<ClientQuotaEntity,KafkaFuture<Void>>)
++  values()
++  all()
+} 
+@enduml

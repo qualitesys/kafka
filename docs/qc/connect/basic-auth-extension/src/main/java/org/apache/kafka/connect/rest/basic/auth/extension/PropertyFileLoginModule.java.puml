@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+LoginModule <|-- org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule
+class org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule {
++  initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>)
++  login()
++  commit()
++  abort()
++  logout()
++  configureCallbacks()
+} 
+@enduml

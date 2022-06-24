@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.common.security.oauthbearer.secured.ValidateException
+class org.apache.kafka.common.security.oauthbearer.secured.ValidateException {
++  ValidateException(String)
++  ValidateException(Throwable)
++  ValidateException(String;Throwable)
+} 
+@enduml

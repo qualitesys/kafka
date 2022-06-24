@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.BaseRecords
+class org.apache.kafka.common.record.BaseRecords {
++  sizeInBytes()
++  toSend()
+} 
+@enduml

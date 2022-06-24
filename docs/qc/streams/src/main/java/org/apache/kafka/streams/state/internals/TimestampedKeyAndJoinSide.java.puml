@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSide
+class org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSide {
++  TimestampedKeyAndJoinSide(boolean;K;long)
++  isLeftSide()
++  getKey()
++  getTimestamp()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

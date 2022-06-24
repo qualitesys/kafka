@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.UpdateFeaturesResponse
+class org.apache.kafka.common.requests.UpdateFeaturesResponse {
++  UpdateFeaturesResponse(UpdateFeaturesResponseData)
++  topLevelError()
++  errorCounts()
++  throttleTimeMs()
++  toString()
++  data()
++  parse(ByteBuffer;short)
++  createWithErrors(ApiError;Map<String,ApiError>;int)
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.AclsDelta
+class org.apache.kafka.image.AclsDelta {
++  AclsDelta(AclsImage)
++  changes()
++  finishSnapshot()
++  handleMetadataVersionChange(MetadataVersion)
++  isSnapshotDelta()
++  replay(AccessControlEntryRecord)
++  replay(RemoveAccessControlEntryRecord)
++  apply()
++  toString()
+} 
+@enduml

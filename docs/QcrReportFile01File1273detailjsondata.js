@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setup()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ImplicitLinkedHashCollection<TestElement>"
+ , "c2" : "testCollectionSort()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.png" 
+
+ , "ligneplantuml" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00070"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN167984 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN169696 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.setup@POLYN168957 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.setup@POLYN170669 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

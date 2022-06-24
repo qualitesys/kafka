@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WrappingNullableSerde<TimestampedKeyAndJoinSide<K>,K,Void>"
+ , "c2" : "org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TimestampedKeyAndJoinSideSerde"
+ , "c2" : "TimestampedKeyAndJoinSideSerde(Serde<K>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,28 +69,28 @@ var maDataBlocs = {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN154640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN156352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN154640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN156352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00012"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN154640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN156352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00012"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN154640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde.TimestampedKeyAndJoinSideSerde@POLYN156352 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

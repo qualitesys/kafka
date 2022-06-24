@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.clients.producer.ProducerInterceptor
+class org.apache.kafka.clients.producer.ProducerInterceptor {
++  onSend(ProducerRecord<K,V>)
++  onAcknowledgement(RecordMetadata;Exception)
++  close()
+} 
+@enduml

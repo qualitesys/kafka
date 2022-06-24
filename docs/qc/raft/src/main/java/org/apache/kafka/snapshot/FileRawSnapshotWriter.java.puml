@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+RawSnapshotWriter <|-- org.apache.kafka.snapshot.FileRawSnapshotWriter
+class org.apache.kafka.snapshot.FileRawSnapshotWriter {
++  FileRawSnapshotWriter(Path;FileChannel;OffsetAndEpoch;Optional<ReplicatedLog>)
++  snapshotId()
++  sizeInBytes()
++  append(UnalignedMemoryRecords)
++  append(MemoryRecords)
++  isFrozen()
++  freeze()
++  close()
++  toString()
++  checkIfFrozen(String)
++  create(Path;OffsetAndEpoch;Optional<ReplicatedLog>)
+} 
+@enduml

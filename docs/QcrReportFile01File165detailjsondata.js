@@ -2,18 +2,92 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java 40 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java 44 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AdminApiHandler.Batched<CoordinatorKey,TransactionDescription>"
+ , "c2" : "org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeTransactionsHandler"
+ , "c2" : "DescribeTransactionsHandler(LogContext)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,TransactionDescription>"
+ , "c2" : "newFuture(Collection<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<CoordinatorKey>"
+ , "c2" : "buildKeySet(Collection<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "apiName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
+ , "c2" : "lookupStrategy()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DescribeTransactionsRequest.Builder"
+ , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiResult<CoordinatorKey,TransactionDescription>"
+ , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
+ , "c3" : "4"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TopicPartition>"
+ , "c2" : "collectTopicPartitions(DescribeTransactionsResponseData.TransactionState)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;List<CoordinatorKey>)"
+ , "c3" : "6"
+ , "c4" : "10"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,7 +111,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -49,6 +139,13 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -71,6 +168,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -107,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.apiName@POLYN179720 the MagicNumber/String  'describeTransactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.apiName@POLYN181432 the MagicNumber/String  'describeTransactions' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +232,14 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.buildBatchedRequest@POLYN179951 the MagicNumber/String  'Invalid group coordinator key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.buildBatchedRequest@POLYN181663 the MagicNumber/String  'Invalid group coordinator key ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.buildBatchedRequest@POLYN179951 the MagicNumber/String  ' when building `DescribeTransaction` request' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.buildBatchedRequest@POLYN181663 the MagicNumber/String  ' when building `DescribeTransaction` request' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -143,6 +247,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#82"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00082] For method handleResponse arguments Node  broker|Set&lt;CoordinatorKey &gt;  keys|AbstractResponse  abstractResponse"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#82"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00082] For method handleResponse list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byTransactionalIdN183229"
 }} 
 ,
 { "ligne" : {
@@ -184,14 +295,14 @@ var maDataBlocs = {
    "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleResponse@POLYN180806 the MagicNumber/String  'Response included transactionalId `{}`, which was not requested' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleResponse@POLYN182518 the MagicNumber/String  'Response included transactionalId `{}`, which was not requested' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleResponse@POLYN180806 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleResponse@POLYN182518 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -268,91 +379,112 @@ var maDataBlocs = {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'DescribeTransactions request for transactionalId `' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'DescribeTransactions request for transactionalId `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  '` ' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  '` ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'failed due to authorization failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'failed due to authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'DescribeTransactions request for transactionalId `' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'DescribeTransactions request for transactionalId `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  '` ' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  '` ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'failed because the ID could not be found' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'failed because the ID could not be found' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'DescribeTransactions request for transactionalId `{}` failed because the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'DescribeTransactions request for transactionalId `{}` failed because the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'coordinator is still in the process of loading state. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'coordinator is still in the process of loading state. Will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'DescribeTransactions request for transactionalId `{}` returned error {}. Will attempt ' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'DescribeTransactions request for transactionalId `{}` returned error {}. Will attempt ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'to find the coordinator again and retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'to find the coordinator again and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'DescribeTransactions request for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'DescribeTransactions request for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  'transactionalId `' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  'transactionalId `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN183602 the MagicNumber/String  '` failed due to unexpected error' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleError@POLYN185314 the MagicNumber/String  '` failed due to unexpected error' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleResponse@POLYN182518"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#96"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleResponse@POLYN182518 the MagicNumber/String 'Response included transactionalId `{}`, which was not requested' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler.handleResponse@POLYN182518 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.rest.ConnectRestExtensionContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.rest.ConnectRestExtensionContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Configurable<?extendsConfigurable<?>>"
+ , "c2" : "configurable()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectClusterState"
+ , "c2" : "clusterState()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtensionContext.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtensionContext.java.svg" }
+
 ] 
 , 
 "data04" : [

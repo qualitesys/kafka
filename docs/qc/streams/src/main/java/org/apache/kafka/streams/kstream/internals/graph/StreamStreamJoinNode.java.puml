@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+BaseJoinProcessorNode<K,V1,V2,VR> <|-- org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode
+class org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode {
++  StreamStreamJoinNode(String;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVR>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;ProcessorParameters<K,VR,?,?>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;StoreBuilder<WindowStore<K,V1>>;StoreBuilder<WindowStore<K,V2>>;Optional<StoreBuilder<KeyValueStore<TimestampedKeyAndJoinSide<K>,LeftOrRightValue<V1,V2>>>>;Joined<K,V1,V2>;boolean)
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.ValidOffsetAndEpoch
+class org.apache.kafka.raft.ValidOffsetAndEpoch {
++  ValidOffsetAndEpoch(Kind;OffsetAndEpoch)
++  kind()
++  offsetAndEpoch()
++  diverging(OffsetAndEpoch)
++  snapshot(OffsetAndEpoch)
++  valid(OffsetAndEpoch)
++  valid()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

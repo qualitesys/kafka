@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+DefaultReplicationPolicy <|-- org.apache.kafka.connect.mirror.IdentityReplicationPolicy
+class org.apache.kafka.connect.mirror.IdentityReplicationPolicy {
++  configure(Map<String,?>)
++  formatRemoteTopic(String;String)
++  topicSource(String)
++  upstreamTopic(String)
++  looksLikeHeartbeat(String)
+} 
+@enduml

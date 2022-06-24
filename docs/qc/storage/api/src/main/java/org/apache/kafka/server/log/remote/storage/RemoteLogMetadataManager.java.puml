@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager
+class org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager {
++  addRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)
++  updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate)
++  remoteLogSegmentMetadata(TopicIdPartition;int;long)
++  highestOffsetForEpoch(TopicIdPartition;int)
++  putRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)
++  listRemoteLogSegments(TopicIdPartition)
++  listRemoteLogSegments(TopicIdPartition;int)
++  onPartitionLeadershipChanges(Set<TopicIdPartition>;Set<TopicIdPartition>)
++  onStopPartitions(Set<TopicIdPartition>)
+} 
+@enduml

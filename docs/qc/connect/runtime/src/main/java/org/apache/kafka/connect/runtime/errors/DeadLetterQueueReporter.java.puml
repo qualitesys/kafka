@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+ErrorReporter <|-- org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter
+class org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter {
++  createAndSetup(Map<String,Object>;ConnectorTaskId;SinkConnectorConfig;Map<String,Object>;ErrorHandlingMetrics)
++  DeadLetterQueueReporter(KafkaProducer<byte[],byte[]>;SinkConnectorConfig;ConnectorTaskId;ErrorHandlingMetrics)
++  report(ProcessingContext)
++  populateContextHeaders(ProducerRecord<byte[],byte[]>;ProcessingContext)
++  stacktrace(Throwable)
++  toBytes(int)
++  toBytes(long)
++  toBytes(String)
++  close()
+} 
+@enduml

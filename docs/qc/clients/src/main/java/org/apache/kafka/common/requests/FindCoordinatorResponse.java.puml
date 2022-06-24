@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.FindCoordinatorResponse
+class org.apache.kafka.common.requests.FindCoordinatorResponse {
++  FindCoordinatorResponse(FindCoordinatorResponseData)
++  data()
++  node()
++  throttleTimeMs()
++  hasError()
++  error()
++  errorCounts()
++  parse(ByteBuffer;short)
++  toString()
++  shouldClientThrottle(short)
++  coordinators()
++  prepareOldResponse(Errors;Node)
++  prepareResponse(Errors;String;Node)
++  prepareErrorResponse(Errors;List<String>)
+} 
+@enduml

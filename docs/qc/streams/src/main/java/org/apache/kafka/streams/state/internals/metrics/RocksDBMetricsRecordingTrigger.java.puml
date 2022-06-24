@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Runnable <|-- org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger
+class org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger {
++  RocksDBMetricsRecordingTrigger(Time)
++  addMetricsRecorder(RocksDBMetricsRecorder)
++  removeMetricsRecorder(RocksDBMetricsRecorder)
++  metricsRecorderName(RocksDBMetricsRecorder)
++  run()
+} 
+@enduml

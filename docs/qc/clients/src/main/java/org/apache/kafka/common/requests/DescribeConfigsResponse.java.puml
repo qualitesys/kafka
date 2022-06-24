@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeConfigsResponse
+class org.apache.kafka.common.requests.DescribeConfigsResponse {
++  resultMap()
++  DescribeConfigsResponse(DescribeConfigsResponseData)
++  DescribeConfigsResponse(DescribeConfigsResponseData;short)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

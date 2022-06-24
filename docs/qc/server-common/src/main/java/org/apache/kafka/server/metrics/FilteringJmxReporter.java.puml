@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+JmxReporter <|-- org.apache.kafka.server.metrics.FilteringJmxReporter
+class org.apache.kafka.server.metrics.FilteringJmxReporter {
++  FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>)
++  onMetricAdded(MetricName;Metric)
++  updatePredicate(Predicate<MetricName>)
+} 
+@enduml

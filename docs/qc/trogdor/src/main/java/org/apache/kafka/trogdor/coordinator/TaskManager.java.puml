@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.coordinator.TaskManager
+class org.apache.kafka.trogdor.coordinator.TaskManager {
++  TaskManager(Platform;Scheduler;long)
++  createTask(String;TaskSpec)
++  stopTask(String)
++  destroyTask(String)
++  updateWorkerState(String;long;WorkerState)
++  handleWorkerCompletion(ManagedTask;String;WorkerDone)
++  tasks(TasksRequest)
++  task(TaskRequest)
++  beginShutdown(boolean)
++  waitForShutdown()
+} 
+@enduml

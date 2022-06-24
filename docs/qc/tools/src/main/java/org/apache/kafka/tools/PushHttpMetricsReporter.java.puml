@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+MetricsReporter <|-- org.apache.kafka.tools.PushHttpMetricsReporter
+class org.apache.kafka.tools.PushHttpMetricsReporter {
++  PushHttpMetricsReporter()
++  PushHttpMetricsReporter(Time;ScheduledExecutorService)
++  configure(Map<String,?>)
++  init(List<KafkaMetric>)
++  metricChange(KafkaMetric)
++  metricRemoval(KafkaMetric)
++  close()
++  newHttpConnection(URL)
++  readResponse(InputStream)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<ListConsumerGroupsOptions> <|-- org.apache.kafka.clients.admin.ListConsumerGroupsOptions
+class org.apache.kafka.clients.admin.ListConsumerGroupsOptions {
++  inStates(Set<ConsumerGroupState>)
++  states()
+} 
+@enduml

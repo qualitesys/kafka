@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.MetadataImage
+class org.apache.kafka.image.MetadataImage {
++  MetadataImage(OffsetAndEpoch;FeaturesImage;ClusterImage;TopicsImage;ConfigurationsImage;ClientQuotasImage;ProducerIdsImage;AclsImage)
++  isEmpty()
++  highestOffsetAndEpoch()
++  features()
++  cluster()
++  topics()
++  configs()
++  clientQuotas()
++  producerIds()
++  acls()
++  write(Consumer<List<ApiMessageAndVersion>>)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

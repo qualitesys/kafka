@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ErrorReporter <|-- org.apache.kafka.connect.runtime.errors.LogReporter
+class org.apache.kafka.connect.runtime.errors.LogReporter {
++  LogReporter(ConnectorTaskId;ConnectorConfig;ErrorHandlingMetrics)
++  report(ProcessingContext)
++  message(ProcessingContext)
+} 
+@enduml

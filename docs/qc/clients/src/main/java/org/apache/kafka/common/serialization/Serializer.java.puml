@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.common.serialization.Serializer
+class org.apache.kafka.common.serialization.Serializer {
++  configure(Map<String,?>;boolean)
++  serialize(String;T)
++  serialize(String;Headers;T)
++  close()
+} 
+@enduml

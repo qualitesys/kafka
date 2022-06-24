@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<CreateAclsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.CreateAclsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.CreateAclsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CreateAclsOptions"
+ , "c2" : "timeoutMs(Integer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

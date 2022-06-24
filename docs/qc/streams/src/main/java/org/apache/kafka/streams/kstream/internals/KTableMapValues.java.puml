@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+KTableProcessorSupplier<KIn,VIn,KIn,VOut> <|-- org.apache.kafka.streams.kstream.internals.KTableMapValues
+class org.apache.kafka.streams.kstream.internals.KTableMapValues {
++  KTableMapValues(KTableImpl<KIn,?,VIn>;ValueMapperWithKey<?superKIn,?superVIn,?extendsVOut>;String)
++  get()
++  view()
++  enableSendingOldValues(boolean)
++  computeValue(KIn;VIn)
++  computeValueAndTimestamp(KIn;ValueAndTimestamp<VIn>)
+} 
+@enduml

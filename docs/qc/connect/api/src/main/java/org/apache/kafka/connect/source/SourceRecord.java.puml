@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+ConnectRecord<SourceRecord> <|-- org.apache.kafka.connect.source.SourceRecord
+class org.apache.kafka.connect.source.SourceRecord {
++  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object)
++  SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object)
++  SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object;Schema;Object)
++  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object)
++  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long)
++  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
++  sourcePartition()
++  sourceOffset()
++  newRecord(String;Integer;Schema;Object;Schema;Object;Long)
++  newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

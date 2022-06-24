@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RemoteLogMetadataCache"
+ , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FileBasedRemoteLogMetadataCache"
+ , "c2" : "FileBasedRemoteLogMetadataCache(TopicIdPartition;Path)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "loadRemoteLogSegmentMetadata(RemoteLogMetadataSnapshotFile.Snapshot)"
+ , "c3" : "6"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteLogSegmentMetadata"
+ , "c2" : "createRemoteLogSegmentMetadata(RemoteLogSegmentMetadataSnapshot)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "flushToFile(int;Long)"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.png" 
+
+ , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN168976 the MagicNumber/String  'Given partition directory:' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN170688 the MagicNumber/String  'Given partition directory:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN168976 the MagicNumber/String  ' must be an existing directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN170688 the MagicNumber/String  ' must be an existing directory.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -121,14 +160,14 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN169788 the MagicNumber/String  'Loading snapshot for partition {} is: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN171500 the MagicNumber/String  'Loading snapshot for partition {} is: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN169788 the MagicNumber/String  'Given remoteLogSegmentMetadata has invalid state: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN171500 the MagicNumber/String  'Given remoteLogSegmentMetadata has invalid state: ' should be converted to const"
 }} 
 ,
 { "ligne" : {

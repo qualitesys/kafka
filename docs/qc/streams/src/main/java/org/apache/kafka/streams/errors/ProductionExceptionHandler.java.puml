@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.streams.errors.ProductionExceptionHandler
+class org.apache.kafka.streams.errors.ProductionExceptionHandler {
++  handle(ProducerRecord<byte[],byte[]>;Exception)
+} 
+@enduml

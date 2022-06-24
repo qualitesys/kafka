@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+Suppressed.BufferConfig<BC> <|-- org.apache.kafka.streams.kstream.internals.suppress.BufferConfigInternal
+class org.apache.kafka.streams.kstream.internals.suppress.BufferConfigInternal {
++  maxRecords()
++  maxBytes()
++  bufferFullStrategy()
++  withNoBound()
++  shutDownWhenFull()
++  emitEarlyWhenFull()
++  isLoggingEnabled()
++  getLogConfig()
+} 
+@enduml

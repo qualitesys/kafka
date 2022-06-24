@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Transformation<R> <|-- org.apache.kafka.connect.transforms.ExtractField
+class org.apache.kafka.connect.transforms.ExtractField {
++  configure(Map<String,?>)
++  apply(R)
++  close()
++  config()
++  operatingSchema(R)
++  operatingValue(R)
++  newRecord(R;Schema;Object)
+} 
+@enduml

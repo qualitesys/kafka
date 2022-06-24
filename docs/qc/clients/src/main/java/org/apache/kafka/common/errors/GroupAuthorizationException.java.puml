@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AuthorizationException <|-- org.apache.kafka.common.errors.GroupAuthorizationException
+class org.apache.kafka.common.errors.GroupAuthorizationException {
++  GroupAuthorizationException(String;String)
++  GroupAuthorizationException(String)
++  groupId()
++  forGroupId(String)
+} 
+@enduml

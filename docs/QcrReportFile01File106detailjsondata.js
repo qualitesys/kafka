@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListConsumerGroupOffsetsResult"
+ , "c2" : "ListConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>"
+ , "c2" : "partitionsToOffsetAndMetadata()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.svg" }
+
 ] 
 , 
 "data04" : [

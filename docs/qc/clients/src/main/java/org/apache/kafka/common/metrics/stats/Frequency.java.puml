@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.metrics.stats.Frequency
+class org.apache.kafka.common.metrics.stats.Frequency {
++  Frequency(MetricName;double)
++  name()
++  centerValue()
++  toString()
+} 
+@enduml

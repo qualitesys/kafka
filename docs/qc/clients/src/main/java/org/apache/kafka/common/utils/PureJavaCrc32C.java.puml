@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Checksum <|-- org.apache.kafka.common.utils.PureJavaCrc32C
+class org.apache.kafka.common.utils.PureJavaCrc32C {
++  PureJavaCrc32C()
++  getValue()
++  reset()
++  update(byte[];int;int)
++  update(int)
+} 
+@enduml

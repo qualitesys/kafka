@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Deserializer<Change<T>> <|-- org.apache.kafka.streams.kstream.internals.ChangedDeserializer
+class org.apache.kafka.streams.kstream.internals.ChangedDeserializer {
++  ChangedDeserializer(Deserializer<T>)
++  inner()
++  setIfUnset(SerdeGetter)
++  deserialize(String;Headers;byte[])
++  deserialize(String;byte[])
++  close()
+} 
+@enduml

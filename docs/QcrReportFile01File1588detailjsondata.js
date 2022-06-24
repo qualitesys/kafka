@@ -8,12 +8,107 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.Materialized"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.Materialized" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Materialized"
+ , "c2" : "Materialized(StoreSupplier<S>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized"
+ , "c2" : "Materialized(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized"
+ , "c2" : "Materialized(StoreType)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized"
+ , "c2" : "Materialized(Materialized<K,V,S>)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withValueSerde(Serde<V>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withKeySerde(Serde<K>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withLoggingEnabled(Map<String,String>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withLoggingDisabled()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withCachingEnabled()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withCachingDisabled()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withRetention(Duration)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Materialized<K,V,S>"
+ , "c2" : "withStoreType(StoreType)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -163,28 +258,28 @@ var maDataBlocs = {
    "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.Materialized.withLoggingEnabled@POLYN220968 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.Materialized.withLoggingEnabled@POLYN222680 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.Materialized.withLoggingDisabled@POLYN221358 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.Materialized.withLoggingDisabled@POLYN223070 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.Materialized.withCachingEnabled@POLYN221681 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.Materialized.withCachingEnabled@POLYN223393 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.Materialized.withCachingDisabled@POLYN221942 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.Materialized.withCachingDisabled@POLYN223654 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,21 +293,21 @@ var maDataBlocs = {
    "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.kstream.Materialized.withRetention@POLYN222638 the MagicNumber/String  'retention' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.kstream.Materialized.withRetention@POLYN224350 the MagicNumber/String  'retention' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.Materialized.withRetention@POLYN222638 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.Materialized.withRetention@POLYN224350 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.Materialized.withRetention@POLYN222638 the MagicNumber/String  'Retention must not be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.Materialized.withRetention@POLYN224350 the MagicNumber/String  'Retention must not be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -226,21 +321,21 @@ var maDataBlocs = {
    "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.kstream.Materialized.withStoreType@POLYN223417 the MagicNumber/String  'store type can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.kstream.Materialized.withStoreType@POLYN225129 the MagicNumber/String  'store type can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.Materialized.withStoreType@POLYN223417 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.Materialized.withStoreType@POLYN225129 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.kstream.Materialized.withStoreType@POLYN223417 the MagicNumber/String  'Cannot set store type when store supplier is pre-configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.kstream.Materialized.withStoreType@POLYN225129 the MagicNumber/String  'Cannot set store type when store supplier is pre-configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.metrics.MetricConfig
+class org.apache.kafka.common.metrics.MetricConfig {
++  MetricConfig()
++  quota()
++  quota(Quota)
++  eventWindow()
++  eventWindow(long)
++  timeWindowMs()
++  timeWindow(long;TimeUnit)
++  tags()
++  tags(Map<String,String>)
++  samples()
++  samples(int)
++  recordLevel()
++  recordLevel(Sensor.RecordingLevel)
+} 
+@enduml

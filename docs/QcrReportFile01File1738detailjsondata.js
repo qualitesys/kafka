@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StateStoreNode<S>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GlobalStoreNode"
+ , "c2" : "GlobalStoreNode(StoreBuilder<S>;String;String;ConsumedInternal<KIn,VIn>;String;ProcessorSupplier<KIn,VIn,Void,Void>)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeToTopology(InternalTopologyBuilder)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,56 +111,56 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  'GlobalStoreNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  'GlobalStoreNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  'sourceName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  'sourceName='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  ', topic='' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  ', topic='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  ', processorName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  ', processorName='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN161202 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode.toString@POLYN162914 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ]
 };

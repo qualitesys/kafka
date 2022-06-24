@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+InputStream <|-- org.apache.kafka.common.utils.ByteBufferInputStream
+class org.apache.kafka.common.utils.ByteBufferInputStream {
++  ByteBufferInputStream(ByteBuffer)
++  read()
++  read(byte[];int;int)
+} 
+@enduml

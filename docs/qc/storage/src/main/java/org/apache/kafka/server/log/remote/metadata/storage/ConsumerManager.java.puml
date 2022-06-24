@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager
+class org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager {
++  ConsumerManager(TopicBasedRemoteLogMetadataManagerConfig;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Time)
++  startConsumerThread()
++  waitTillConsumptionCatchesUp(RecordMetadata)
++  waitTillConsumptionCatchesUp(RecordMetadata;long)
++  close()
++  addAssignmentsForPartitions(Set<TopicIdPartition>)
++  removeAssignmentsForPartitions(Set<TopicIdPartition>)
++  receivedOffsetForPartition(int)
+} 
+@enduml

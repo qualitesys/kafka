@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+UnalignedRecords <|-- org.apache.kafka.common.record.UnalignedFileRecords
+class org.apache.kafka.common.record.UnalignedFileRecords {
++  UnalignedFileRecords(FileChannel;long;int)
++  sizeInBytes()
++  writeTo(TransferableChannel;long;int)
+} 
+@enduml

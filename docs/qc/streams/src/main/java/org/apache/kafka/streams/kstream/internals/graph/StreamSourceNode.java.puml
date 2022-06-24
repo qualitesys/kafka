@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+SourceGraphNode<K,V> <|-- org.apache.kafka.streams.kstream.internals.graph.StreamSourceNode
+class org.apache.kafka.streams.kstream.internals.graph.StreamSourceNode {
++  StreamSourceNode(String;Collection<String>;ConsumedInternal<K,V>)
++  StreamSourceNode(String;Pattern;ConsumedInternal<K,V>)
++  merge(StreamSourceNode<?,?>)
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

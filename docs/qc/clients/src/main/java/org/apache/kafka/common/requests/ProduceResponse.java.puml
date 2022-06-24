@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.ProduceResponse
+class org.apache.kafka.common.requests.ProduceResponse {
++  ProduceResponse(ProduceResponseData)
++  ProduceResponse(Map<TopicPartition,PartitionResponse>)
++  ProduceResponse(Map<TopicPartition,PartitionResponse>;int)
++  toData(Map<TopicPartition,PartitionResponse>;int)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Query<V> <|-- org.apache.kafka.streams.query.KeyQuery
+class org.apache.kafka.streams.query.KeyQuery {
++  KeyQuery(K;boolean)
++  skipCache()
++  getKey()
++  isSkipCache()
+} 
+@enduml

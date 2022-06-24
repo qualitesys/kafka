@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KTableProcessorSupplier<KIn,VIn,KIn,VIn>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KTablePassThrough"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTablePassThrough" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTablePassThrough"
+ , "c2" : "KTablePassThrough(Collection<KStreamAggProcessorSupplier>;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<KIn,Change<VIn>,KIn,Change<VIn>>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "enableSendingOldValues(boolean)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTableValueGetterSupplier<KIn,VIn>"
+ , "c2" : "view()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.KTablePassThrough.enableSendingOldValues@POLYN163498 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.KTablePassThrough.enableSendingOldValues@POLYN165210 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+ScatteringByteChannel <|-- org.apache.kafka.common.network.TransportLayer
+class org.apache.kafka.common.network.TransportLayer {
++  ready()
++  finishConnect()
++  disconnect()
++  isConnected()
++  socketChannel()
++  selectionKey()
++  handshake()
++  peerPrincipal()
++  addInterestOps(int)
++  removeInterestOps(int)
++  isMute()
++  hasBytesBuffered()
+} 
+@enduml

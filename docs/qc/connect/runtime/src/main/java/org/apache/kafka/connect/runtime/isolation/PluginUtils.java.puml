@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.isolation.PluginUtils
+class org.apache.kafka.connect.runtime.isolation.PluginUtils {
++  shouldLoadInIsolation(String)
++  isConcrete(Class<?>)
++  isArchive(Path)
++  isClassFile(Path)
++  pluginLocations(Path)
++  pluginUrls(Path)
++  simpleName(PluginDesc<?>)
++  prunedName(PluginDesc<?>)
++  prunePluginName(PluginDesc<?>;String)
+} 
+@enduml

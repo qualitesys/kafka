@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.common.errors.SerializationException
+class org.apache.kafka.common.errors.SerializationException {
++  SerializationException(String;Throwable)
++  SerializationException(String)
++  SerializationException(Throwable)
++  SerializationException()
+} 
+@enduml

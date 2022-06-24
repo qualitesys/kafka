@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.common.CheckpointFile
+class org.apache.kafka.server.common.CheckpointFile {
++  CheckpointFile(File;int;EntryFormatter<T>)
++  write(Collection<T>)
++  read()
+} 
+@enduml

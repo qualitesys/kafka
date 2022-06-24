@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.AlterPartitionResponse
+class org.apache.kafka.common.requests.AlterPartitionResponse {
++  AlterPartitionResponse(AlterPartitionResponseData)
++  data()
++  errorCounts()
++  throttleTimeMs()
++  parse(ByteBuffer;short)
+} 
+@enduml

@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "BaseJoinProcessorNode<K,Change<V1>,Change<V2>,Change<VR>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTableKTableJoinNode"
+ , "c2" : "KTableKTableJoinNode(String;ProcessorParameters<K,Change<V1>,?,?>;ProcessorParameters<K,Change<V2>,?,?>;ProcessorParameters<K,Change<VR>,?,?>;String;String;Serde<K>;Serde<VR>;String[];String[];StoreBuilder<TimestampedKeyValueStore<K,VR>>)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<K>"
+ , "c2" : "keySerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<VR>"
+ , "c2" : "valueSerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String[]"
+ , "c2" : "joinThisStoreNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String[]"
+ , "c2" : "joinOtherStoreNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "queryableStoreName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KTableKTableJoinMerger<K,VR>"
+ , "c2" : "joinMerger()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeToTopology(InternalTopologyBuilder)"
+ , "c3" : "2"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.KTableKTableJoinNode@POLYN183362 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.KTableKTableJoinNode@POLYN185074 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,35 +167,35 @@ var maDataBlocs = {
    "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.writeToTopology@POLYN185552 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.writeToTopology@POLYN187264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN186758 the MagicNumber/String  'KTableKTableJoinNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN188470 the MagicNumber/String  'KTableKTableJoinNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN186758 the MagicNumber/String  'joinThisStoreNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN188470 the MagicNumber/String  'joinThisStoreNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN186758 the MagicNumber/String  ', joinOtherStoreNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN188470 the MagicNumber/String  ', joinOtherStoreNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN186758 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN188470 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ,
 { "ligne" : {

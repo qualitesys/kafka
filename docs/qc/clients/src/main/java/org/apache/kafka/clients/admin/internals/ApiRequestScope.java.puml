@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.internals.ApiRequestScope
+class org.apache.kafka.clients.admin.internals.ApiRequestScope {
++  destinationBrokerId()
+} 
+@enduml

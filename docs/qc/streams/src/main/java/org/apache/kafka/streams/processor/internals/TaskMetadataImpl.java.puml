@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+TaskMetadata <|-- org.apache.kafka.streams.processor.internals.TaskMetadataImpl
+class org.apache.kafka.streams.processor.internals.TaskMetadataImpl {
++  TaskMetadataImpl(TaskId;Set<TopicPartition>;Map<TopicPartition,Long>;Map<TopicPartition,Long>;Optional<Long>)
++  taskId()
++  topicPartitions()
++  committedOffsets()
++  endOffsets()
++  timeCurrentIdlingStarted()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

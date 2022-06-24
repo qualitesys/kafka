@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+WrappingNullableSerializer<LeftOrRightValue<V1,V2>,Void,Object> <|-- org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer
+class org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer {
++  LeftOrRightValueSerializer(Serializer<V1>;Serializer<V2>)
++  setIfUnset(SerdeGetter)
++  configure(Map<String,?>;boolean)
++  serialize(String;LeftOrRightValue<V1,V2>)
++  close()
+} 
+@enduml

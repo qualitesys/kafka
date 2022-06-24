@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Exception <|-- org.apache.kafka.server.log.remote.storage.RemoteStorageException
+class org.apache.kafka.server.log.remote.storage.RemoteStorageException {
++  RemoteStorageException(String)
++  RemoteStorageException(String;Throwable)
++  RemoteStorageException(Throwable)
+} 
+@enduml

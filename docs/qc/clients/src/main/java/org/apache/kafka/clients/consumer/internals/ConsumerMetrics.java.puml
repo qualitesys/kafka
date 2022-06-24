@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.ConsumerMetrics
+class org.apache.kafka.clients.consumer.internals.ConsumerMetrics {
++  ConsumerMetrics(Set<String>;String)
++  ConsumerMetrics(String)
++  getAllTemplates()
++  main(String[])
+} 
+@enduml

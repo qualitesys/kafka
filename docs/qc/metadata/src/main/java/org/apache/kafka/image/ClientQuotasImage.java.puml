@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ClientQuotasImage
+class org.apache.kafka.image.ClientQuotasImage {
++  ClientQuotasImage(Map<ClientQuotaEntity,ClientQuotaImage>)
++  isEmpty()
++  entities()
++  write(Consumer<List<ApiMessageAndVersion>>)
++  describe(DescribeClientQuotasRequestData)
++  matches(ClientQuotaEntity;Map<String,String>;Set<String>;boolean)
++  toDescribeEntry(ClientQuotaEntity;ClientQuotaImage)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

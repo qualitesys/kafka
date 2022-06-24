@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Joined<K,V,VO> <|-- org.apache.kafka.streams.kstream.internals.JoinedInternal
+class org.apache.kafka.streams.kstream.internals.JoinedInternal {
++  JoinedInternal(Joined<K,V,VO>)
++  keySerde()
++  valueSerde()
++  otherValueSerde()
++  name()
+} 
+@enduml

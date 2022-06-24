@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "GraphNode"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.graph.StateStoreNode"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.StateStoreNode" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StateStoreNode"
+ , "c2" : "StateStoreNode(StoreBuilder<S>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeToTopology(InternalTopologyBuilder)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,49 +118,49 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN156432 the MagicNumber/String  'StateStoreNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN158144 the MagicNumber/String  'StateStoreNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN156432 the MagicNumber/String  ' name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN158144 the MagicNumber/String  ' name='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN156432 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN158144 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN156432 the MagicNumber/String  ', logConfig=' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN158144 the MagicNumber/String  ', logConfig=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN156432 the MagicNumber/String  ', loggingEnabled='' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN158144 the MagicNumber/String  ', loggingEnabled='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN156432 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN158144 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN156432 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.graph.StateStoreNode.toString@POLYN158144 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ]
 };

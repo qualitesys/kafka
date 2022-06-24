@@ -2,18 +2,99 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java 24 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java 27 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TransactionContext"
+ , "c2" : "org.apache.kafka.connect.runtime.WorkerTransactionContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerTransactionContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "commitTransaction()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "commitTransaction(SourceRecord)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "abortTransaction()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "abortTransaction(SourceRecord)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldCommitBatch()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldAbortBatch()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldCommitOn(SourceRecord)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldAbortOn(SourceRecord)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "checkBatchRequestsConsistency()"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "checkRecordRequestConsistency(SourceRecord)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,11 +118,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -93,7 +197,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.commitTransaction@POLYN163825 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.commitTransaction@POLYN165537 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +218,7 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.commitTransaction@POLYN163941 the MagicNumber/String  'Source record used to define transaction boundaries may not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.commitTransaction@POLYN165653 the MagicNumber/String  'Source record used to define transaction boundaries may not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +232,7 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.abortTransaction@POLYN164189 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.abortTransaction@POLYN165901 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +253,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.abortTransaction@POLYN164305 the MagicNumber/String  'Source record used to define transaction boundaries may not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.abortTransaction@POLYN166017 the MagicNumber/String  'Source record used to define transaction boundaries may not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -163,7 +267,7 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.shouldCommitBatch@POLYN164547 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.shouldCommitBatch@POLYN166259 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -177,7 +281,7 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.shouldAbortBatch@POLYN164793 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.shouldAbortBatch@POLYN166505 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -212,7 +316,7 @@ var maDataBlocs = {
    "c1" : "00076"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkBatchRequestsConsistency@POLYN165456 the MagicNumber/String  'Connector requested both commit and abort of same transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkBatchRequestsConsistency@POLYN167168 the MagicNumber/String  'Connector requested both commit and abort of same transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -233,14 +337,35 @@ var maDataBlocs = {
    "c1" : "00082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkRecordRequestConsistency@POLYN165644 the MagicNumber/String  'Connector will fail as it has requested both commit and abort of transaction for same record: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkRecordRequestConsistency@POLYN167356 the MagicNumber/String  'Connector will fail as it has requested both commit and abort of transaction for same record: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkRecordRequestConsistency@POLYN165644 the MagicNumber/String  'Connector requested both commit and abort of same record against topic/partition %s/%s' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkRecordRequestConsistency@POLYN167356 the MagicNumber/String  'Connector requested both commit and abort of same record against topic/partition %s/%s' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTransactionContext.checkRecordRequestConsistency@POLYN167356"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkRecordRequestConsistency@POLYN167356 the MagicNumber/String 'Connector will fail as it has requested both commit and abort of transaction for same record: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#84"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.connect.runtime.WorkerTransactionContext.checkRecordRequestConsistency@POLYN167356 the MagicNumber/String 'Connector requested both commit and abort of same record against topic/partition %s/%s' MUST BE CONVERTED to const"
 }} 
 ]
 };

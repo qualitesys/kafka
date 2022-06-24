@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AbstractControlRequest <|-- org.apache.kafka.common.requests.LeaderAndIsrRequest
+class org.apache.kafka.common.requests.LeaderAndIsrRequest {
++  LeaderAndIsrRequest(LeaderAndIsrRequestData;short)
++  normalize()
++  getErrorResponse(int;Throwable)
++  controllerId()
++  controllerEpoch()
++  brokerEpoch()
++  partitionStates()
++  topicIds()
++  liveLeaders()
++  data()
++  parse(ByteBuffer;short)
+} 
+@enduml

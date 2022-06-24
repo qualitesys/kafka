@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Callback<U> <|-- org.apache.kafka.connect.util.ConvertingFutureCallback
+class org.apache.kafka.connect.util.ConvertingFutureCallback {
++  ConvertingFutureCallback()
++  ConvertingFutureCallback(Callback<T>)
++  convert(U)
++  onCompletion(Throwable;U)
++  cancel(boolean)
++  isCancelled()
++  isDone()
++  get()
++  get(long;TimeUnit)
++  result()
+} 
+@enduml

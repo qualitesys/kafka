@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.Segments
+class org.apache.kafka.streams.state.internals.Segments {
++  segmentId(long)
++  segmentName(long)
++  getSegmentForTimestamp(long)
++  getOrCreateSegmentIfLive(long;ProcessorContext;long)
++  getOrCreateSegment(long;ProcessorContext)
++  openExisting(ProcessorContext;long)
++  segments(long;long;boolean)
++  allSegments(boolean)
++  flush()
++  close()
+} 
+@enduml

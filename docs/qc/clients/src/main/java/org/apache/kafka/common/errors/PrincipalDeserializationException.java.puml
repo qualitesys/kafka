@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.PrincipalDeserializationException
+class org.apache.kafka.common.errors.PrincipalDeserializationException {
++  PrincipalDeserializationException(String)
++  PrincipalDeserializationException(String;Throwable)
+} 
+@enduml

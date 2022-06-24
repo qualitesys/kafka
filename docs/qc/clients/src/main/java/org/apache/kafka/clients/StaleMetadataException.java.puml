@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+InvalidMetadataException <|-- org.apache.kafka.clients.StaleMetadataException
+class org.apache.kafka.clients.StaleMetadataException {
++  StaleMetadataException()
++  StaleMetadataException(String)
+} 
+@enduml

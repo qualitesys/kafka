@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo
+class org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo {
++  main(String[])
+} 
+@enduml

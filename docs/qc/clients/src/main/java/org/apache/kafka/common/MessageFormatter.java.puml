@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.common.MessageFormatter
+class org.apache.kafka.common.MessageFormatter {
++  configure(Map<String,?>)
++  writeTo(ConsumerRecord<byte[],byte[]>;PrintStream)
++  close()
+} 
+@enduml

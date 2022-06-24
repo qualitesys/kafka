@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Serializer<JsonNode>"
+ , "c2" : "org.apache.kafka.connect.json.JsonSerializer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.json.JsonSerializer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "JsonSerializer"
+ , "c2" : "JsonSerializer()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "JsonSerializer"
+ , "c2" : "JsonSerializer(Set<SerializationFeature>;JsonNodeFactory)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "serialize(String;JsonNode)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.json.JsonSerializer.JsonSerializer@POLYN160166 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.json.JsonSerializer.JsonSerializer@POLYN161878 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,21 +132,21 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160773 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN162485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160773 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN162485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160773 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN162485 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
 }} 
 ]
 };

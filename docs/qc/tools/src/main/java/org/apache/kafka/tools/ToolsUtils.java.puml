@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.tools.ToolsUtils
+class org.apache.kafka.tools.ToolsUtils {
++  printMetrics(Map<MetricName,?extendsMetric>)
+} 
+@enduml

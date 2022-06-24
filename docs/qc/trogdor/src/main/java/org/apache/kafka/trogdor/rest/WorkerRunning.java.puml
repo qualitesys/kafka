@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+WorkerState <|-- org.apache.kafka.trogdor.rest.WorkerRunning
+class org.apache.kafka.trogdor.rest.WorkerRunning {
++  WorkerRunning(String;TaskSpec;long;JsonNode)
++  startedMs()
++  status()
++  running()
+} 
+@enduml

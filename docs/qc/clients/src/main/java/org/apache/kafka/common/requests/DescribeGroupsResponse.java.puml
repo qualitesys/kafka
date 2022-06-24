@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeGroupsResponse
+class org.apache.kafka.common.requests.DescribeGroupsResponse {
++  DescribeGroupsResponse(DescribeGroupsResponseData)
++  groupMember(String;String;String;String;byte[];byte[])
++  groupMetadata(String;Errors;String;String;String;List<DescribedGroupMember>;Set<Byte>)
++  groupMetadata(String;Errors;String;String;String;List<DescribedGroupMember>;int)
++  data()
++  throttleTimeMs()
++  errorCounts()
++  forError(String;Errors)
++  fromError(int;Errors;List<String>)
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.rest.Message
+class org.apache.kafka.trogdor.rest.Message {
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

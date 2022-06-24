@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.FeatureMetadata"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.FeatureMetadata" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FeatureMetadata"
+ , "c2" : "FeatureMetadata(Map<String,FinalizedVersionRange>;Optional<Long>;Map<String,SupportedVersionRange>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,FinalizedVersionRange>"
+ , "c2" : "finalizedFeatures()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<Long>"
+ , "c2" : "finalizedFeaturesEpoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,SupportedVersionRange>"
+ , "c2" : "supportedFeatures()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +146,14 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN167850 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN169562 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN167850 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN169562 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN169279 the MagicNumber/String  'FeatureMetadata{finalizedFeatures:%s, finalizedFeaturesEpoch:%s, supportedFeatures:%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN170991 the MagicNumber/String  'FeatureMetadata{finalizedFeatures:%s, finalizedFeaturesEpoch:%s, supportedFeatures:%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN169279 the MagicNumber/String  '&amp;lt;none&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN170991 the MagicNumber/String  '&amp;lt;none&amp;gt;' should be converted to const"
 }} 
 ]
 };

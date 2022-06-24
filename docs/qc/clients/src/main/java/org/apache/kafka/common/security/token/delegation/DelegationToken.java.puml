@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.token.delegation.DelegationToken
+class org.apache.kafka.common.security.token.delegation.DelegationToken {
++  DelegationToken(TokenInformation;byte[])
++  tokenInfo()
++  hmac()
++  hmacAsBase64String()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

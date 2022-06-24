@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+AccessTokenRetriever <|-- org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever
+class org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever {
++  HttpAccessTokenRetriever(String;String;String;SSLSocketFactory;String;long;long;Integer;Integer)
++  retrieve()
++  post(HttpURLConnection;Map<String,String>;String;Integer;Integer)
++  handleInput(HttpURLConnection;Map<String,String>;String;Integer;Integer)
++  handleOutput(HttpURLConnection)
++  copy(InputStream;OutputStream)
++  parseAccessToken(String)
++  formatAuthorizationHeader(String;String)
++  formatRequestBody(String)
++  sanitizeString(String;String)
+} 
+@enduml

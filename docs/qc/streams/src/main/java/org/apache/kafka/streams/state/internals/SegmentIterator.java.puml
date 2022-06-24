@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+KeyValueIterator<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.SegmentIterator
+class org.apache.kafka.streams.state.internals.SegmentIterator {
++  SegmentIterator(Iterator<S>;HasNextCondition;Bytes;Bytes;boolean)
++  close()
++  peekNextKey()
++  hasNext()
++  hasNextConditionHasNext()
++  next()
+} 
+@enduml

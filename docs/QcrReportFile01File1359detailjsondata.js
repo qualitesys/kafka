@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Comparator<Optional<String>>"
+ , "c2" : "org.apache.kafka.metadata.OptionalStringComparator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.OptionalStringComparator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "compare(Optional<String>;Optional<String>)"
+ , "c3" : "6"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,21 +97,21 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.metadata.OptionalStringComparator.compare@POLYN155123 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.metadata.OptionalStringComparator.compare@POLYN156835 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00018"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.metadata.OptionalStringComparator.compare@POLYN155123 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.metadata.OptionalStringComparator.compare@POLYN156835 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.metadata.OptionalStringComparator.compare@POLYN155123 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.metadata.OptionalStringComparator.compare@POLYN156835 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

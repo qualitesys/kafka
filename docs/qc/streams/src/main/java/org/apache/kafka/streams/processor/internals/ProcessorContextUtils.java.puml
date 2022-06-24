@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorContextUtils
+class org.apache.kafka.streams.processor.internals.ProcessorContextUtils {
++  ProcessorContextUtils()
++  currentSystemTime(ProcessorContext)
++  getMetricsImpl(ProcessorContext)
++  getMetricsImpl(StateStoreContext)
++  changelogFor(ProcessorContext;String;Boolean)
++  changelogFor(StateStoreContext;String;Boolean)
++  getPrefix(Map<String,Object>;String)
++  asInternalProcessorContext(ProcessorContext)
++  asInternalProcessorContext(StateStoreContext)
+} 
+@enduml

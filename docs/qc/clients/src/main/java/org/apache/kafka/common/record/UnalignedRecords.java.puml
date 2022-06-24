@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+TransferableRecords <|-- org.apache.kafka.common.record.UnalignedRecords
+class org.apache.kafka.common.record.UnalignedRecords {
++  toSend()
+} 
+@enduml

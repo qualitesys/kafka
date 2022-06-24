@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.common.network.InvalidReceiveException
+class org.apache.kafka.common.network.InvalidReceiveException {
++  InvalidReceiveException(String)
++  InvalidReceiveException(String;Throwable)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.ObjectSerializationCache
+class org.apache.kafka.common.protocol.ObjectSerializationCache {
++  ObjectSerializationCache()
++  setArraySizeInBytes(Object;Integer)
++  getArraySizeInBytes(Object)
++  cacheSerializedValue(Object;byte[])
++  getSerializedValue(Object)
+} 
+@enduml

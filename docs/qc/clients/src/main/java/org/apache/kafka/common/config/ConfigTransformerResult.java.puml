@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.config.ConfigTransformerResult
+class org.apache.kafka.common.config.ConfigTransformerResult {
++  ConfigTransformerResult(Map<String,String>;Map<String,Long>)
++  data()
++  ttls()
+} 
+@enduml

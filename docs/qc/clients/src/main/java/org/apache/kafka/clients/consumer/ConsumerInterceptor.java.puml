@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.clients.consumer.ConsumerInterceptor
+class org.apache.kafka.clients.consumer.ConsumerInterceptor {
++  onConsume(ConsumerRecords<K,V>)
++  onCommit(Map<TopicPartition,OffsetAndMetadata>)
++  close()
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.transforms.util.Requirements
+class org.apache.kafka.connect.transforms.util.Requirements {
++  requireSchema(Schema;String)
++  requireMap(Object;String)
++  requireMapOrNull(Object;String)
++  requireStruct(Object;String)
++  requireStructOrNull(Object;String)
++  requireSinkRecord(ConnectRecord<?>;String)
++  nullSafeClassName(Object)
+} 
+@enduml

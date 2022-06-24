@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.replica.PartitionView"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.replica.PartitionView" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Set<ReplicaView>"
+ , "c2" : "replicas()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ReplicaView"
+ , "c2" : "leader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,49 +118,49 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN159123 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN160835 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN159123 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN160835 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN159123 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN160835 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  'DefaultPartitionView{' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN161610 the MagicNumber/String  'DefaultPartitionView{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  'replicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN161610 the MagicNumber/String  'replicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  ', leader=' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN161610 the MagicNumber/String  ', leader=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN159898 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN161610 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+TaskSpec <|-- org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec
+class org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec {
++  FilesUnreadableFaultSpec(long;long;Set<String>;String;String;int)
++  nodeNames()
++  mountPath()
++  prefix()
++  errorCode()
++  newController(String)
++  newTaskWorker(String)
+} 
+@enduml

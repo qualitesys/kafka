@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse
+class org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse {
++  AlterPartitionReassignmentsResponse(AlterPartitionReassignmentsResponseData)
++  parse(ByteBuffer;short)
++  data()
++  shouldClientThrottle(short)
++  throttleTimeMs()
++  errorCounts()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+RecordsSend<LazyDownConversionRecords> <|-- org.apache.kafka.common.record.LazyDownConversionRecordsSend
+class org.apache.kafka.common.record.LazyDownConversionRecordsSend {
++  LazyDownConversionRecordsSend(LazyDownConversionRecords)
++  buildOverflowBatch(int)
++  writeTo(TransferableChannel;long;int)
++  recordConversionStats()
++  topicPartition()
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RecordBatch <|-- org.apache.kafka.common.record.AbstractRecordBatch
+class org.apache.kafka.common.record.AbstractRecordBatch {
++  hasProducerId()
++  nextOffset()
++  isCompressed()
+} 
+@enduml

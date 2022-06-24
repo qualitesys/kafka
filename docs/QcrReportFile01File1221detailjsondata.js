@@ -8,12 +8,128 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Transformation<R>"
+ , "c2" : "org.apache.kafka.connect.transforms.ReplaceField"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.ReplaceField" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "parseRenameMappings(List<String>)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "invert(Map<String,String>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "filter(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "renamed(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "reverseRenamed(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "apply(R)"
+ , "c3" : "5"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applySchemaless(R)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "applyWithSchema(R)"
+ , "c3" : "3"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Schema"
+ , "c2" : "makeUpdatedSchema(Schema)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Schema"
+ , "c2" : "operatingSchema(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "operatingValue(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "R"
+ , "c2" : "newRecord(R;Schema;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,21 +209,21 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.transforms.ReplaceField.configure@POLYN195543 the MagicNumber/String  'whitelist' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.transforms.ReplaceField.configure@POLYN197255 the MagicNumber/String  'whitelist' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.transforms.ReplaceField.configure@POLYN195543 the MagicNumber/String  'blacklist' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.transforms.ReplaceField.configure@POLYN197255 the MagicNumber/String  'blacklist' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.transforms.ReplaceField.configure@POLYN195543 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.transforms.ReplaceField.configure@POLYN197255 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,35 +244,35 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN196613 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN198325 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN196613 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN198325 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN196613 the MagicNumber/String  'Invalid rename mapping: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN198325 the MagicNumber/String  'Invalid rename mapping: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN196613 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN198325 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN196613 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.ReplaceField.parseRenameMappings@POLYN198325 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -191,7 +307,7 @@ var maDataBlocs = {
    "c1" : "00116"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.transforms.ReplaceField.renamed@POLYN198292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.transforms.ReplaceField.renamed@POLYN200004 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -205,7 +321,7 @@ var maDataBlocs = {
    "c1" : "00121"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.transforms.ReplaceField.reverseRenamed@POLYN198562 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.transforms.ReplaceField.reverseRenamed@POLYN200274 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -219,14 +335,14 @@ var maDataBlocs = {
    "c1" : "00126"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.transforms.ReplaceField.apply@POLYN198851 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.transforms.ReplaceField.apply@POLYN200563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.ReplaceField.apply@POLYN198851 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.transforms.ReplaceField.apply@POLYN200563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -254,7 +370,7 @@ var maDataBlocs = {
    "c1" : "00148"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.transforms.ReplaceField.applySchemaless@POLYN199317 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.transforms.ReplaceField.applySchemaless@POLYN201029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -275,7 +391,7 @@ var maDataBlocs = {
    "c1" : "00155"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.transforms.ReplaceField.applyWithSchema@POLYN200357 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.transforms.ReplaceField.applyWithSchema@POLYN202069 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -296,7 +412,7 @@ var maDataBlocs = {
    "c1" : "00187"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.transforms.ReplaceField.close@POLYN202289 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.transforms.ReplaceField.close@POLYN204001 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

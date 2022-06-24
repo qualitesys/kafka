@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.UpdateFeaturesRequest
+class org.apache.kafka.common.requests.UpdateFeaturesRequest {
++  UpdateFeaturesRequest(UpdateFeaturesRequestData;short)
++  getFeature(String)
++  featureUpdates()
++  getErrorResponse(int;Throwable)
++  data()
++  parse(ByteBuffer;short)
+} 
+@enduml

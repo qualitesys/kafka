@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.ClientRequest
+class org.apache.kafka.clients.ClientRequest {
++  ClientRequest(String;AbstractRequest.Builder<?>;int;String;long;boolean;int;RequestCompletionHandler)
++  toString()
++  expectResponse()
++  apiKey()
++  makeHeader(short)
++  requestBuilder()
++  destination()
++  callback()
++  createdTimeMs()
++  correlationId()
++  requestTimeoutMs()
+} 
+@enduml

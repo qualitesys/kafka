@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ReplicaSelector <|-- org.apache.kafka.common.replica.RackAwareReplicaSelector
+class org.apache.kafka.common.replica.RackAwareReplicaSelector {
++  select(TopicPartition;ClientMetadata;PartitionView)
+} 
+@enduml

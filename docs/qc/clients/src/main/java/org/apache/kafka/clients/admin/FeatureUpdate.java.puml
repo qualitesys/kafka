@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.FeatureUpdate
+class org.apache.kafka.clients.admin.FeatureUpdate {
++  FeatureUpdate(short;boolean)
++  FeatureUpdate(short;UpgradeType)
++  maxVersionLevel()
++  allowDowngrade()
++  upgradeType()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

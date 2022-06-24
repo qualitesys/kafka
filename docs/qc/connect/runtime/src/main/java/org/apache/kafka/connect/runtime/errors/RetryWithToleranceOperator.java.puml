@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator
+class org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator {
++  RetryWithToleranceOperator(long;long;ToleranceType;Time)
++  RetryWithToleranceOperator(long;long;ToleranceType;Time;ProcessingContext)
++  executeFailed(Stage;Class<?>;ConsumerRecord<byte[],byte[]>;Throwable)
++  executeFailed(Stage;Class<?>;SourceRecord;Throwable)
++  markAsFailed()
++  withinToleranceLimits()
++  getErrorToleranceType()
++  checkRetry(long)
++  backoff(int;long)
++  metrics(ErrorHandlingMetrics)
++  toString()
++  reporters(List<ErrorReporter>)
++  sourceRecord(SourceRecord)
++  consumerRecord(ConsumerRecord<byte[],byte[]>)
++  failed()
++  error()
++  close()
+} 
+@enduml

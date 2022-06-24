@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteAclsResult
+class org.apache.kafka.clients.admin.DeleteAclsResult {
++  DeleteAclsResult(Map<AclBindingFilter,KafkaFuture<FilterResults>>)
++  values()
++  all()
++  getAclBindings(Map<AclBindingFilter,KafkaFuture<FilterResults>>)
+} 
+@enduml

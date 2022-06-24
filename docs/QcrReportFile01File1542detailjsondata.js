@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.BrokerNotFoundException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.BrokerNotFoundException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BrokerNotFoundException"
+ , "c2" : "BrokerNotFoundException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokerNotFoundException"
+ , "c2" : "BrokerNotFoundException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokerNotFoundException"
+ , "c2" : "BrokerNotFoundException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.svg" }
+
 ] 
 , 
 "data04" : [

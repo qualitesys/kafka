@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+KeyValueBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier
+class org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier {
++  RocksDbKeyValueBytesStoreSupplier(String;boolean)
++  name()
++  get()
++  metricsScope()
+} 
+@enduml

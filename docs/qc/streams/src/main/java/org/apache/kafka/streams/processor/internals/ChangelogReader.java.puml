@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+ChangelogRegister <|-- org.apache.kafka.streams.processor.internals.ChangelogReader
+class org.apache.kafka.streams.processor.internals.ChangelogReader {
++  restore(Map<TaskId,Task>)
++  enforceRestoreActive()
++  transitToUpdateStandby()
++  completedChangelogs()
++  allChangelogsCompleted()
++  clear()
++  isEmpty()
+} 
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+TaskSpec <|-- org.apache.kafka.trogdor.workload.ConfigurableProducerSpec
+class org.apache.kafka.trogdor.workload.ConfigurableProducerSpec {
++  ConfigurableProducerSpec(long;long;String;String;Optional<FlushGenerator>;ThroughputGenerator;PayloadGenerator;PayloadGenerator;Map<String,String>;Map<String,String>;Map<String,String>;TopicsSpec;int)
++  producerNode()
++  bootstrapServers()
++  flushGenerator()
++  keyGenerator()
++  valueGenerator()
++  throughputGenerator()
++  producerConf()
++  commonClientConf()
++  adminClientConf()
++  activeTopic()
++  activePartition()
++  newController(String)
++  newTaskWorker(String)
+} 
+@enduml

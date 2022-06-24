@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.WorkerInfo
+class org.apache.kafka.connect.runtime.WorkerInfo {
++  WorkerInfo()
++  logAll()
++  format(Object)
++  addRuntimeInfo()
++  addSystemInfo()
+} 
+@enduml

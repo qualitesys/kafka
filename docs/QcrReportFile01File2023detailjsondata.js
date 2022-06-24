@@ -8,12 +8,198 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WrappedStateStore<KeyValueStore<Bytes,byte[]>,K,V>KeyValueStore<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MeteredKeyValueStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredKeyValueStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MeteredKeyValueStore"
+ , "c2" : "MeteredKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<V>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(ProcessorContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(StateStoreContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "registerMetrics()"
+ , "c3" : "1"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<V>"
+ , "c2" : "prepareValueSerdeForStore(Serde<V>;SerdeGetter)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "initStoreSerde(ProcessorContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "initStoreSerde(StateStoreContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "setFlushListener(CacheFlushListener<K,V>;boolean)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Position"
+ , "c2" : "getPosition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "get(K)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(K;V)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "putIfAbsent(K;V)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putAll(List<KeyValue<K,V>>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "delete(K)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<K,V>"
+ , "c2" : "range(K;K)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<K,V>"
+ , "c2" : "reverseRange(K;K)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<K,V>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<K,V>"
+ , "c2" : "reverseAll()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "flush()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "approximateNumEntries()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "outerValue(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "keyBytes(K)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<KeyValue<Bytes,byte[]>>"
+ , "c2" : "innerEntries(List<KeyValue<K,V>>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeRecordE2ELatency()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,7 +258,7 @@ var maDataBlocs = {
    "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.MeteredKeyValueStore@POLYN250184 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.MeteredKeyValueStore@POLYN251896 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,7 +279,7 @@ var maDataBlocs = {
    "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.init@POLYN250868 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.init@POLYN252580 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +300,7 @@ var maDataBlocs = {
    "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.init@POLYN251777 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.init@POLYN253489 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,35 +342,35 @@ var maDataBlocs = {
    "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN256205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN257917 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN256205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN257917 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN256205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN257917 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN256205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN257917 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN256205 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.setFlushListener@POLYN257917 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -268,7 +454,7 @@ var maDataBlocs = {
    "c1" : "00293"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.get@POLYN263322 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.get@POLYN265034 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -282,7 +468,7 @@ var maDataBlocs = {
    "c1" : "00305"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.put@POLYN264046 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.put@POLYN265758 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -296,7 +482,7 @@ var maDataBlocs = {
    "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.putIfAbsent@POLYN264897 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.putIfAbsent@POLYN266609 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -317,7 +503,7 @@ var maDataBlocs = {
    "c1" : "00330"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.putAll@POLYN265509 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.putAll@POLYN267221 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -331,7 +517,7 @@ var maDataBlocs = {
    "c1" : "00336"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.delete@POLYN266021 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.delete@POLYN267733 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -359,28 +545,28 @@ var maDataBlocs = {
    "c1" : "00355"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN267363 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN269075 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00355"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN267363 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN269075 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00356"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN267363 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN269075 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00356"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN267363 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.range@POLYN269075 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -394,28 +580,28 @@ var maDataBlocs = {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN268114 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN269826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN268114 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN269826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN268114 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN269826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN268114 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.reverseRange@POLYN269826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -429,14 +615,14 @@ var maDataBlocs = {
    "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.outerValue@POLYN269854 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.outerValue@POLYN271566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.outerValue@POLYN269854 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.outerValue@POLYN271566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -457,7 +643,7 @@ var maDataBlocs = {
    "c1" : "00422"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.maybeRecordE2ELatency@POLYN271029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.maybeRecordE2ELatency@POLYN272741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

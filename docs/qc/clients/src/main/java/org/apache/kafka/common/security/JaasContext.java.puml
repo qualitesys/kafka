@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.JaasContext
+class org.apache.kafka.common.security.JaasContext {
++  loadServerContext(ListenerName;String;Map<String,?>)
++  loadClientContext(Map<String,?>)
++  load(JaasContext.Type;String;String;Password)
++  defaultContext(JaasContext.Type;String;String)
++  JaasContext(String;Type;Configuration;Password)
++  name()
++  type()
++  configuration()
++  configurationEntries()
++  dynamicJaasConfig()
++  configEntryOption(List<AppConfigurationEntry>;String;String)
+} 
+@enduml

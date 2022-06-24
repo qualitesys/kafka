@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RocksDBWindowStoreTimestampedBytesStore"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedWindowStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedWindowStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RocksDBTimestampedWindowStore"
+ , "c2" : "RocksDBTimestampedWindowStore(SegmentedBytesStore;boolean;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedWindowStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedWindowStore.java.svg" }
+
 ] 
 , 
 "data04" : [

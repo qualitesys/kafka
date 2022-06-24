@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.TransactionCoordinatorFencedException
+class org.apache.kafka.common.errors.TransactionCoordinatorFencedException {
++  TransactionCoordinatorFencedException(String)
++  TransactionCoordinatorFencedException(String;Throwable)
+} 
+@enduml

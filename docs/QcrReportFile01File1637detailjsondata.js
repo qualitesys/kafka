@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Serdes.WrapperSerde<Windowed<T>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FullTimeWindowedSerde"
+ , "c2" : "FullTimeWindowedSerde(Serde<T>;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullTimeWindowedSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullTimeWindowedSerde.java.svg" }
+
 ] 
 , 
 "data04" : [

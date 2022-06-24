@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+MessageClassGenerator <|-- org.apache.kafka.message.JsonConverterGenerator
+class org.apache.kafka.message.JsonConverterGenerator {
++  JsonConverterGenerator(String)
++  outputName(MessageSpec)
++  generateAndWrite(MessageSpec;BufferedWriter)
++  generateConverters(String;StructSpec;Versions)
++  generateRead(String;StructSpec;Versions)
++  generateTargetFromJson(Target;Versions)
++  generateVariableLengthTargetFromJson(Target;Versions)
++  generateOverloadWrite(String)
++  generateWrite(String;StructSpec;Versions)
++  generateTargetToJson(Target;Versions)
++  generateVariableLengthTargetToJson(Target;Versions)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.QueryableStoreType
+class org.apache.kafka.streams.state.QueryableStoreType {
++  accepts(StateStore)
++  create(StateStoreProvider;String)
+} 
+@enduml

@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.image.ConfigurationDelta"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.image.ConfigurationDelta" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConfigurationDelta"
+ , "c2" : "ConfigurationDelta(ConfigurationImage)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "finishSnapshot()"
+ , "c3" : "3"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(ConfigRecord)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "deleteAll()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigurationImage"
+ , "c2" : "apply()"
+ , "c3" : "8"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,28 +167,28 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.image.ConfigurationDelta.apply@POLYN164524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.image.ConfigurationDelta.apply@POLYN166236 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN166062 the MagicNumber/String  'ConfigurationDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN167774 the MagicNumber/String  'ConfigurationDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN166062 the MagicNumber/String  'changedKeys=' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN167774 the MagicNumber/String  'changedKeys=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN166062 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.image.ConfigurationDelta.toString@POLYN167774 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {

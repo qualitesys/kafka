@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Initable <|-- org.apache.kafka.common.security.oauthbearer.secured.CloseableVerificationKeyResolver
+class org.apache.kafka.common.security.oauthbearer.secured.CloseableVerificationKeyResolver {
++  close()
+} 
+@enduml

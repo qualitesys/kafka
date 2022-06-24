@@ -8,12 +8,100 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Revertable"
+ , "c2" : "org.apache.kafka.timeline.TimelineLong"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.timeline.TimelineLong" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TimelineLong"
+ , "c2" : "TimelineLong(SnapshotRegistry)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "get(long)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "set(long)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "increment()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "decrement()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "executeRevert(long;Delta)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "reset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -163,7 +251,7 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.timeline.TimelineLong.get@POLYN164913 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.timeline.TimelineLong.get@POLYN166625 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -177,21 +265,21 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.timeline.TimelineLong.set@POLYN165587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.timeline.TimelineLong.set@POLYN167299 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.timeline.TimelineLong.increment@POLYN166384 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.timeline.TimelineLong.increment@POLYN168096 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.timeline.TimelineLong.decrement@POLYN166524 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.timeline.TimelineLong.decrement@POLYN168236 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -205,7 +293,7 @@ var maDataBlocs = {
    "c1" : "00090"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.timeline.TimelineLong.hashCode@POLYN167109 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.timeline.TimelineLong.hashCode@POLYN168821 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -219,7 +307,7 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.TimelineLong.equals@POLYN167337 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.TimelineLong.equals@POLYN169049 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

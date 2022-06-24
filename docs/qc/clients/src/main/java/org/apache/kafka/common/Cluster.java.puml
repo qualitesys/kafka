@@ -1,0 +1,36 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.Cluster
+class org.apache.kafka.common.Cluster {
++  Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>)
++  Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Node)
++  Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node)
++  Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)
++  Cluster(String;boolean;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)
++  empty()
++  bootstrap(List<InetSocketAddress>)
++  withPartitions(Map<TopicPartition,PartitionInfo>)
++  nodes()
++  nodeById(int)
++  nodeIfOnline(TopicPartition;int)
++  leaderFor(TopicPartition)
++  partition(TopicPartition)
++  partitionsForTopic(String)
++  partitionCountForTopic(String)
++  availablePartitionsForTopic(String)
++  partitionsForNode(int)
++  topics()
++  unauthorizedTopics()
++  invalidTopics()
++  internalTopics()
++  isBootstrapConfigured()
++  clusterResource()
++  controller()
++  topicIds()
++  topicId(String)
++  topicName(Uuid)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

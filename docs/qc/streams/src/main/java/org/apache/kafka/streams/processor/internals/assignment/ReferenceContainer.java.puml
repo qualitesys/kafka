@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer
+class org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer {
+} 
+@enduml

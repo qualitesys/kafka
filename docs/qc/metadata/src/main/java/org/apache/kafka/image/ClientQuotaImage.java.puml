@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ClientQuotaImage
+class org.apache.kafka.image.ClientQuotaImage {
++  ClientQuotaImage(Map<String,Double>)
++  quotas()
++  write(ClientQuotaEntity;Consumer<List<ApiMessageAndVersion>>)
++  entityToData(ClientQuotaEntity)
++  dataToEntity(List<EntityData>)
++  toDescribeValues()
++  isEmpty()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

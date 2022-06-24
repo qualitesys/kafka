@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.FieldType
+class org.apache.kafka.message.FieldType {
++  parse(String)
++  getBoxedJavaType(HeaderGenerator)
++  isArray()
++  isStructArray()
++  serializationIsDifferentInFlexibleVersions()
++  isString()
++  isBytes()
++  isRecords()
++  isFloat()
++  isStruct()
++  canBeNullable()
++  fixedLength()
++  isVariableLength()
++  toString()
+} 
+@enduml

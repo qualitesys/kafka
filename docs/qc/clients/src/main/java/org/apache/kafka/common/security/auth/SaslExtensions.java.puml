@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.auth.SaslExtensions
+class org.apache.kafka.common.security.auth.SaslExtensions {
++  SaslExtensions(Map<String,String>)
++  map()
++  equals(Object)
++  toString()
++  hashCode()
+} 
+@enduml

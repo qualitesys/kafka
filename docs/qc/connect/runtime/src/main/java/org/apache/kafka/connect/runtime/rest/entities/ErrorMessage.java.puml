@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ErrorMessage
+class org.apache.kafka.connect.runtime.rest.entities.ErrorMessage {
++  ErrorMessage(int;String)
++  errorCode()
++  message()
++  equals(Object)
++  hashCode()
+} 
+@enduml

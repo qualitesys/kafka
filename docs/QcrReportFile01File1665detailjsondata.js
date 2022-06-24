@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessorSupplier<K,V,Void,Void>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamPrint"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamPrint" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamPrint"
+ , "c2" : "KStreamPrint(ForeachAction<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<K,V,Void,Void>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPrint.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPrint.java.svg" }
+
 ] 
 , 
 "data04" : [

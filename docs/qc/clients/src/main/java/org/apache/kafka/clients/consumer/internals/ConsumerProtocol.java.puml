@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.ConsumerProtocol
+class org.apache.kafka.clients.consumer.internals.ConsumerProtocol {
++  deserializeVersion(ByteBuffer)
++  serializeSubscription(Subscription)
++  serializeSubscription(Subscription;short)
++  deserializeSubscription(ByteBuffer;short)
++  deserializeSubscription(ByteBuffer)
++  serializeAssignment(Assignment)
++  serializeAssignment(Assignment;short)
++  deserializeAssignment(ByteBuffer;short)
++  deserializeAssignment(ByteBuffer)
++  checkSubscriptionVersion(short)
++  checkAssignmentVersion(short)
+} 
+@enduml

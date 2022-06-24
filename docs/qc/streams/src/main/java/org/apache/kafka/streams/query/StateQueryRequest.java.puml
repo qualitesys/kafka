@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.query.StateQueryRequest
+class org.apache.kafka.streams.query.StateQueryRequest {
++  StateQueryRequest(String;PositionBound;Optional<Set<Integer>>;Query<R>;boolean;boolean)
++  inStore(String)
++  withPositionBound(PositionBound)
++  withAllPartitions()
++  withPartitions(Set<Integer>)
++  enableExecutionInfo()
++  requireActive()
++  getStoreName()
++  getPositionBound()
++  getQuery()
++  isAllPartitions()
++  getPartitions()
++  executionInfoEnabled()
++  isRequireActive()
+} 
+@enduml

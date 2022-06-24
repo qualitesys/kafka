@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.RecordConversionStats
+class org.apache.kafka.common.record.RecordConversionStats {
++  RecordConversionStats(long;int;long)
++  RecordConversionStats()
++  add(RecordConversionStats)
++  temporaryMemoryBytes()
++  numRecordsConverted()
++  conversionTimeNanos()
++  toString()
+} 
+@enduml

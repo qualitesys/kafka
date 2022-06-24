@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.internals.BatchBuilder
+class org.apache.kafka.raft.internals.BatchBuilder {
++  BatchBuilder(ByteBuffer;RecordSerde<T>;CompressionType;long;long;boolean;int;int)
++  appendRecord(T;ObjectSerializationCache)
++  bytesNeeded(Collection<T>;ObjectSerializationCache)
++  flushedSizeInBytes()
++  approximateSizeInBytes()
++  baseOffset()
++  lastOffset()
++  numRecords()
++  nonEmpty()
++  initialBuffer()
++  records()
++  writeDefaultBatchHeader()
++  build()
++  writeRecord(long;T;ObjectSerializationCache)
++  batchHeaderSizeInBytes()
++  bytesNeededForRecords(Collection<T>;ObjectSerializationCache)
+} 
+@enduml

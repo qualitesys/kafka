@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+SnapshottableHashTable<TimelineHashMap.TimelineHashMapEntry<K,V>>Map<K,V> <|-- org.apache.kafka.timeline.TimelineHashMap
+class org.apache.kafka.timeline.TimelineHashMap {
++  TimelineHashMap(SnapshotRegistry;int)
++  size()
++  size(long)
++  isEmpty()
++  isEmpty(long)
++  containsKey(Object)
++  containsKey(Object;long)
++  containsValue(Object)
++  get(Object)
++  get(Object;long)
++  put(K;V)
++  remove(Object)
++  putAll(Map<?extendsK,?extendsV>)
++  clear()
++  keySet()
++  keySet(long)
++  values()
++  values(long)
++  entrySet()
++  entrySet(long)
++  hashCode()
++  equals(Object)
+} 
+@enduml

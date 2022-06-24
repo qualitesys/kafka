@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.SenderMetricsRegistry
+class org.apache.kafka.clients.producer.internals.SenderMetricsRegistry {
++  SenderMetricsRegistry(Metrics)
++  createMetricName(String;String)
++  createTopicTemplate(String;String)
++  topicRecordSendRate(Map<String,String>)
++  topicRecordSendTotal(Map<String,String>)
++  topicByteRate(Map<String,String>)
++  topicByteTotal(Map<String,String>)
++  topicCompressionRate(Map<String,String>)
++  topicRecordRetryRate(Map<String,String>)
++  topicRecordRetryTotal(Map<String,String>)
++  topicRecordErrorRate(Map<String,String>)
++  topicRecordErrorTotal(Map<String,String>)
++  allTemplates()
++  sensor(String)
++  addMetric(MetricName;Measurable)
++  getSensor(String)
++  createTemplate(String;String;String;Set<String>)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.ProducerIdControlManager
+class org.apache.kafka.controller.ProducerIdControlManager {
++  ProducerIdControlManager(ClusterControlManager;SnapshotRegistry)
++  generateNextProducerId(int;long)
++  replay(ProducerIdsRecord)
++  iterator(long)
+} 
+@enduml

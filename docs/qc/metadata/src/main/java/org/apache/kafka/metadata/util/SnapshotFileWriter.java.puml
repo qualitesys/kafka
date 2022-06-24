@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.metadata.util.SnapshotFileWriter
+class org.apache.kafka.metadata.util.SnapshotFileWriter {
++  SnapshotFileWriter(FileChannel;BatchAccumulator<ApiMessageAndVersion>)
++  append(ApiMessageAndVersion)
++  append(List<ApiMessageAndVersion>)
++  close()
++  open(Path)
+} 
+@enduml

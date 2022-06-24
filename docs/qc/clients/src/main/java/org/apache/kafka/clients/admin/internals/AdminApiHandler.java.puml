@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminApiHandler
+class org.apache.kafka.clients.admin.internals.AdminApiHandler {
++  apiName()
++  buildRequest(int;Set<K>)
++  handleResponse(Node;Set<K>;AbstractResponse)
++  lookupStrategy()
+} 
+@enduml

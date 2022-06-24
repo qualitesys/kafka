@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.SnapshotNotFoundException
+class org.apache.kafka.common.errors.SnapshotNotFoundException {
++  SnapshotNotFoundException(String)
++  SnapshotNotFoundException(String;Throwable)
+} 
+@enduml

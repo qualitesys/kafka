@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+ThroughputGenerator <|-- org.apache.kafka.trogdor.workload.GaussianThroughputGenerator
+class org.apache.kafka.trogdor.workload.GaussianThroughputGenerator {
++  GaussianThroughputGenerator(int;double;int;long)
++  messagesPerWindowAverage()
++  messagesPerWindowDeviation()
++  windowsUntilRateChange()
++  windowSizeMs()
++  calculateNextWindow(boolean)
++  throttle()
+} 
+@enduml

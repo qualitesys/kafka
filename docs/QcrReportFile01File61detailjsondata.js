@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DeleteConsumerGroupsResult"
+ , "c2" : "DeleteConsumerGroupsResult(Map<String,KafkaFuture<Void>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,KafkaFuture<Void>>"
+ , "c2" : "deletedGroups()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.DeleteConsumerGroupsResult.all@POLYN159864 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.DeleteConsumerGroupsResult.all@POLYN161576 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

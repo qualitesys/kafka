@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Stat"
+ , "c2" : "org.apache.kafka.common.metrics.CompoundStat"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.metrics.CompoundStat" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "List<NamedMeasurable>"
+ , "c2" : "stats()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/CompoundStat.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/CompoundStat.java.svg" }
+
 ] 
 , 
 "data04" : [

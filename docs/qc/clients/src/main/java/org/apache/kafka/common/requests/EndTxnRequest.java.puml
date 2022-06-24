@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.EndTxnRequest
+class org.apache.kafka.common.requests.EndTxnRequest {
++  EndTxnRequest(EndTxnRequestData;short)
++  result()
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

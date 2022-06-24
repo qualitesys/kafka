@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Processor<K,V,Void,Void> <|-- org.apache.kafka.streams.kstream.ForeachProcessor
+class org.apache.kafka.streams.kstream.ForeachProcessor {
++  ForeachProcessor(ForeachAction<K,V>)
++  process(Record<K,V>)
+} 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Query<KeyValueIterator<K,V>> <|-- org.apache.kafka.streams.query.RangeQuery
+class org.apache.kafka.streams.query.RangeQuery {
++  RangeQuery(Optional<K>;Optional<K>)
++  getLowerBound()
++  getUpperBound()
+} 
+@enduml

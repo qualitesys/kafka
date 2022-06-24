@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+AbstractControlRequest <|-- org.apache.kafka.common.requests.UpdateMetadataRequest
+class org.apache.kafka.common.requests.UpdateMetadataRequest {
++  UpdateMetadataRequest(UpdateMetadataRequestData;short)
++  normalize()
++  listenerNameFromSecurityProtocol(UpdateMetadataEndpoint)
++  controllerId()
++  controllerEpoch()
++  brokerEpoch()
++  getErrorResponse(int;Throwable)
++  partitionStates()
++  topicStates()
++  liveBrokers()
++  data()
++  parse(ByteBuffer;short)
+} 
+@enduml

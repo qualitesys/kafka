@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.protocol.types.Type
+class org.apache.kafka.common.protocol.types.Type {
++  write(ByteBuffer;Object)
++  read(ByteBuffer)
++  validate(Object)
++  sizeOf(Object)
++  isNullable()
++  arrayElementType()
++  isArray()
++  toHtml()
++  main(String[])
+} 
+@enduml

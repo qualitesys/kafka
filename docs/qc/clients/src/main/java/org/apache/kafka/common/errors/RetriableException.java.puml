@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.RetriableException
+class org.apache.kafka.common.errors.RetriableException {
++  RetriableException(String;Throwable)
++  RetriableException(String)
++  RetriableException(Throwable)
++  RetriableException()
+} 
+@enduml

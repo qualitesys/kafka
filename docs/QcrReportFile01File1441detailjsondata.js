@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SnapshotReader<T>"
+ , "c2" : "org.apache.kafka.snapshot.RecordsSnapshotReader"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.snapshot.RecordsSnapshotReader" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RecordsSnapshotReader"
+ , "c2" : "RecordsSnapshotReader(OffsetAndEpoch;RecordsIterator<T>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetAndEpoch"
+ , "c2" : "snapshotId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "lastContainedLogOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "lastContainedLogEpoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "lastContainedLogTimestamp()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Batch<T>"
+ , "c2" : "next()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<Batch<T>>"
+ , "c2" : "nextBatch()"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,21 +153,21 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN166040 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN167752 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN166280 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN167992 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN167047 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN168759 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
 }} 
 ,
 { "ligne" : {

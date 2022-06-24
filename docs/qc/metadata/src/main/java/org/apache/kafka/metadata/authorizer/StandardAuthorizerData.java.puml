@@ -1,0 +1,30 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.authorizer.StandardAuthorizerData
+class org.apache.kafka.metadata.authorizer.StandardAuthorizerData {
++  createLogger(int)
++  auditLogger()
++  createEmpty()
++  StandardAuthorizerData(Logger;AclMutator;boolean;Set<String>;AuthorizationResult;ConcurrentSkipListSet<StandardAcl>;ConcurrentHashMap<Uuid,StandardAcl>)
++  copyWithNewAclMutator(AclMutator)
++  copyWithNewLoadingComplete(boolean)
++  copyWithNewConfig(int;Set<String>;AuthorizationResult)
++  copyWithNewAcls(Collection<Entry<Uuid,StandardAcl>>)
++  addAcl(Uuid;StandardAcl)
++  removeAcl(Uuid)
++  superUsers()
++  defaultResult()
++  aclCount()
++  authorize(AuthorizableRequestContext;Action)
++  buildAuditMessage(KafkaPrincipal;AuthorizableRequestContext;Action;MatchingRule)
++  appendResourcePattern(ResourcePattern;StringBuilder)
++  logAuditMessage(KafkaPrincipal;AuthorizableRequestContext;Action;MatchingRule)
++  findAclRule(Set<KafkaPrincipal>;String;Action)
++  checkSection(Action;StandardAcl;Set<KafkaPrincipal>;String;MatchingAclBuilder)
++  findResult(Action;AuthorizableRequestContext;StandardAcl)
++  baseKafkaPrincipal(AuthorizableRequestContext)
++  matchingPrincipals(AuthorizableRequestContext)
++  findResult(Action;Set<KafkaPrincipal>;String;StandardAcl)
++  acls(AclBindingFilter)
+} 
+@enduml

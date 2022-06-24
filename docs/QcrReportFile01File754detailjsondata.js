@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthenticationContext"
+ , "c2" : "org.apache.kafka.common.security.auth.SaslAuthenticationContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.auth.SaslAuthenticationContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SaslAuthenticationContext"
+ , "c2" : "SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SaslAuthenticationContext"
+ , "c2" : "SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional<SSLSession>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SaslServer"
+ , "c2" : "server()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<SSLSession>"
+ , "c2" : "sslSession()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SecurityProtocol"
+ , "c2" : "securityProtocol()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "InetAddress"
+ , "c2" : "clientAddress()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "listenerName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.svg" }
+
 ] 
 , 
 "data04" : [

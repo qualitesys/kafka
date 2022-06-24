@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+TransactionGenerator <|-- org.apache.kafka.trogdor.workload.UniformTransactionsGenerator
+class org.apache.kafka.trogdor.workload.UniformTransactionsGenerator {
++  UniformTransactionsGenerator(int)
++  messagesPerTransaction()
++  nextAction()
+} 
+@enduml

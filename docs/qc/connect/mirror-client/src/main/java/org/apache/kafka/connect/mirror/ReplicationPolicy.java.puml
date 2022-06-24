@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.ReplicationPolicy
+class org.apache.kafka.connect.mirror.ReplicationPolicy {
++  formatRemoteTopic(String;String)
++  topicSource(String)
++  upstreamTopic(String)
++  originalTopic(String)
++  heartbeatsTopic()
++  offsetSyncsTopic(String)
++  checkpointsTopic(String)
++  isHeartbeatsTopic(String)
++  isCheckpointsTopic(String)
++  isMM2InternalTopic(String)
++  isInternalTopic(String)
+} 
+@enduml

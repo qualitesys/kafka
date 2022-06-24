@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark
+class org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark {
++  setup()
++  testHasAllFetchPositions()
++  testFetchablePartitions()
++  testPartitionsNeedingValidation()
+} 
+@enduml

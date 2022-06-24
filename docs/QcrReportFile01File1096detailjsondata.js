@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SourceTaskContext"
+ , "c2" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "WorkerSourceTaskContext"
+ , "c2" : "WorkerSourceTaskContext(OffsetStorageReader;ConnectorTaskId;ClusterConfigState;WorkerTransactionContext)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "configs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetStorageReader"
+ , "c2" : "offsetStorageReader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WorkerTransactionContext"
+ , "c2" : "transactionContext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.svg" }
+
 ] 
 , 
 "data04" : [

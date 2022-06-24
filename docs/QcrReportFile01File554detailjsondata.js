@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.record.ControlRecordUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.ControlRecordUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "LeaderChangeMessage"
+ , "c2" : "deserializeLeaderChangeMessage(Record)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "LeaderChangeMessage"
+ , "c2" : "deserializeLeaderChangeMessage(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SnapshotHeaderRecord"
+ , "c2" : "deserializedSnapshotHeaderRecord(Record)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SnapshotHeaderRecord"
+ , "c2" : "deserializedSnapshotHeaderRecord(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SnapshotFooterRecord"
+ , "c2" : "deserializedSnapshotFooterRecord(Record)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SnapshotFooterRecord"
+ , "c2" : "deserializedSnapshotFooterRecord(ByteBuffer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.record.ControlRecordUtils.deserializeLeaderChangeMessage@POLYN162083 the MagicNumber/String  'Expected LEADER_CHANGE control record type(2), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.record.ControlRecordUtils.deserializeLeaderChangeMessage@POLYN163795 the MagicNumber/String  'Expected LEADER_CHANGE control record type(2), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +181,7 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotHeaderRecord@POLYN162864 the MagicNumber/String  'Expected SNAPSHOT_HEADER control record type(3), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotHeaderRecord@POLYN164576 the MagicNumber/String  'Expected SNAPSHOT_HEADER control record type(3), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -163,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotFooterRecord@POLYN163645 the MagicNumber/String  'Expected SNAPSHOT_FOOTER control record type(4), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotFooterRecord@POLYN165357 the MagicNumber/String  'Expected SNAPSHOT_FOOTER control record type(4), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {

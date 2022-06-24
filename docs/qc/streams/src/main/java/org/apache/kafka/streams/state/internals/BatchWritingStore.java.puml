@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.BatchWritingStore
+class org.apache.kafka.streams.state.internals.BatchWritingStore {
++  addToBatch(KeyValue<byte[],byte[]>;WriteBatch)
++  write(WriteBatch)
+} 
+@enduml

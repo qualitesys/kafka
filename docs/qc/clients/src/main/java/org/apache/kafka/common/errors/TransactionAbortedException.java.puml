@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.TransactionAbortedException
+class org.apache.kafka.common.errors.TransactionAbortedException {
++  TransactionAbortedException(String;Throwable)
++  TransactionAbortedException(String)
++  TransactionAbortedException()
+} 
+@enduml

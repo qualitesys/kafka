@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Connector <|-- org.apache.kafka.connect.sink.SinkConnector
+class org.apache.kafka.connect.sink.SinkConnector {
++  context()
+} 
+@enduml

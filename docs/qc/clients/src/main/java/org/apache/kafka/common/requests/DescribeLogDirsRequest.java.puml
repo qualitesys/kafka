@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DescribeLogDirsRequest
+class org.apache.kafka.common.requests.DescribeLogDirsRequest {
++  DescribeLogDirsRequest(DescribeLogDirsRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  isAllTopicPartitions()
++  parse(ByteBuffer;short)
+} 
+@enduml

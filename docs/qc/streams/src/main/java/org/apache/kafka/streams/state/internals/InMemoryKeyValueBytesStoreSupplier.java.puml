@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+KeyValueBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier
+class org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier {
++  InMemoryKeyValueBytesStoreSupplier(String)
++  name()
++  get()
++  metricsScope()
+} 
+@enduml

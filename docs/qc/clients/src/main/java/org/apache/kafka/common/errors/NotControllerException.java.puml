@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.NotControllerException
+class org.apache.kafka.common.errors.NotControllerException {
++  NotControllerException(String)
++  NotControllerException(String;Throwable)
+} 
+@enduml

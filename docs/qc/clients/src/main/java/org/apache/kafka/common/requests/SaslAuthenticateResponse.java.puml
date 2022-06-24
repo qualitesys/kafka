@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.SaslAuthenticateResponse
+class org.apache.kafka.common.requests.SaslAuthenticateResponse {
++  SaslAuthenticateResponse(SaslAuthenticateResponseData)
++  error()
++  errorCounts()
++  errorMessage()
++  sessionLifetimeMs()
++  saslAuthBytes()
++  throttleTimeMs()
++  data()
++  parse(ByteBuffer;short)
+} 
+@enduml

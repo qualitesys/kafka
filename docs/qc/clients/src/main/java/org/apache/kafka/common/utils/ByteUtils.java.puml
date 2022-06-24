@@ -1,0 +1,36 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.ByteUtils
+class org.apache.kafka.common.utils.ByteUtils {
++  ByteUtils()
++  readUnsignedInt(ByteBuffer)
++  readUnsignedInt(ByteBuffer;int)
++  readUnsignedIntLE(InputStream)
++  readUnsignedIntLE(byte[];int)
++  writeUnsignedInt(ByteBuffer;int;long)
++  writeUnsignedInt(ByteBuffer;long)
++  writeUnsignedIntLE(OutputStream;int)
++  writeUnsignedIntLE(byte[];int;int)
++  readUnsignedVarint(ByteBuffer)
++  readUnsignedVarint(DataInput)
++  readVarint(ByteBuffer)
++  readVarint(DataInput)
++  readVarlong(DataInput)
++  readVarlong(ByteBuffer)
++  readDouble(DataInput)
++  readDouble(ByteBuffer)
++  writeUnsignedVarint(int;ByteBuffer)
++  writeUnsignedVarint(int;DataOutput)
++  writeVarint(int;DataOutput)
++  writeVarint(int;ByteBuffer)
++  writeVarlong(long;DataOutput)
++  writeVarlong(long;ByteBuffer)
++  writeDouble(double;DataOutput)
++  writeDouble(double;ByteBuffer)
++  sizeOfUnsignedVarint(int)
++  sizeOfVarint(int)
++  sizeOfVarlong(long)
++  illegalVarintException(int)
++  illegalVarlongException(long)
+} 
+@enduml

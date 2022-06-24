@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Admin <|-- org.apache.kafka.clients.admin.AdminClient
+class org.apache.kafka.clients.admin.AdminClient {
++  create(Properties)
++  create(Map<String,Object>)
+} 
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.clients.KafkaClient
+class org.apache.kafka.clients.KafkaClient {
++  isReady(Node;long)
++  ready(Node;long)
++  connectionDelay(Node;long)
++  pollDelayMs(Node;long)
++  connectionFailed(Node)
++  authenticationException(Node)
++  send(ClientRequest;long)
++  poll(long;long)
++  disconnect(String)
++  close(String)
++  leastLoadedNode(long)
++  inFlightRequestCount()
++  hasInFlightRequests()
++  inFlightRequestCount(String)
++  hasInFlightRequests(String)
++  hasReadyNodes(long)
++  wakeup()
++  newClientRequest(String;AbstractRequest.Builder<?>;long;boolean)
++  newClientRequest(String;AbstractRequest.Builder<?>;long;boolean;int;RequestCompletionHandler)
++  initiateClose()
++  active()
+} 
+@enduml

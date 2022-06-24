@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RaftMessage"
+ , "c2" : "org.apache.kafka.raft.RaftResponse"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.RaftResponse" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RaftResponse"
+ , "c2" : "RaftResponse(int;ApiMessage)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "correlationId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiMessage"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,63 +97,63 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN158044 the MagicNumber/String  'InboundResponse(' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN159756 the MagicNumber/String  'InboundResponse(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN158044 the MagicNumber/String  'correlationId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN159756 the MagicNumber/String  'correlationId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN158044 the MagicNumber/String  ', data=' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN159756 the MagicNumber/String  ', data=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN158044 the MagicNumber/String  ', sourceId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN159756 the MagicNumber/String  ', sourceId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN158044 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.raft.RaftResponse.Inbound.toString@POLYN159756 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN158528 the MagicNumber/String  'OutboundResponse(' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN160240 the MagicNumber/String  'OutboundResponse(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN158528 the MagicNumber/String  'correlationId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN160240 the MagicNumber/String  'correlationId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN158528 the MagicNumber/String  ', data=' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN160240 the MagicNumber/String  ', data=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN158528 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.raft.RaftResponse.Outbound.toString@POLYN160240 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

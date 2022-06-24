@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.metadata.placement.ReplicaPlacer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.metadata.placement.ReplicaPlacer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "List<List<Integer>>"
+ , "c2" : "place(PlacementSpec;ClusterDescriber)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/ReplicaPlacer.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/ReplicaPlacer.java.svg" }
+
 ] 
 , 
 "data04" : [

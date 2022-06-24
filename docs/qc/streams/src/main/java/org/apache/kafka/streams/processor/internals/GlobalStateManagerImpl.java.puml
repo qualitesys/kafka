@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+GlobalStateManager <|-- org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl
+class org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl {
++  GlobalStateManagerImpl(LogContext;Time;ProcessorTopology;Consumer<byte[],byte[]>;StateDirectory;StateRestoreListener;StreamsConfig)
++  setGlobalProcessorContext(InternalProcessorContext)
++  initialize()
++  getGlobalStore(String)
++  getStore(String)
++  baseDir()
++  registerStore(StateStore;StateRestoreCallback;CommitCallback)
++  topicPartitionsForStore(StateStore)
++  restoreState(StateRestoreCallback;List<TopicPartition>;Map<TopicPartition,Long>;String;RecordConverter)
++  getGlobalConsumerOffset(TopicPartition)
++  maybeUpdateDeadlineOrThrow(long)
++  flush()
++  close()
++  updateChangelogOffsets(Map<TopicPartition,Long>)
++  checkpoint()
++  taskType()
++  changelogOffsets()
++  changelogFor(String)
+} 
+@enduml

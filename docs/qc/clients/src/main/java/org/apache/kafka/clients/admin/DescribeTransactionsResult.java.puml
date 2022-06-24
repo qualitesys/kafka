@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeTransactionsResult
+class org.apache.kafka.clients.admin.DescribeTransactionsResult {
++  DescribeTransactionsResult(Map<CoordinatorKey,KafkaFuture<TransactionDescription>>)
++  description(String)
++  all()
+} 
+@enduml

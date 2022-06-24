@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+Converter <|-- org.apache.kafka.connect.converters.NumberConverter
+class org.apache.kafka.connect.converters.NumberConverter {
++  NumberConverter(String;Schema;Serializer<T>;Deserializer<T>)
++  config()
++  configure(Map<String,?>)
++  configure(Map<String,?>;boolean)
++  cast(Object)
++  fromConnectData(String;Schema;Object)
++  toConnectData(String;byte[])
++  fromConnectHeader(String;String;Schema;Object)
++  toConnectHeader(String;String;byte[])
++  close()
+} 
+@enduml

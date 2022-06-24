@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.FetchSessionHandler
+class org.apache.kafka.clients.FetchSessionHandler {
++  FetchSessionHandler(LogContext;int)
++  sessionTopicNames()
++  newBuilder()
++  newBuilder(int;boolean)
++  topicPartitionsToLogString(Collection<TopicPartition>)
++  topicIdPartitionsToLogString(Collection<TopicIdPartition>)
++  verifyFullFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)
++  verifyIncrementalFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)
++  responseDataToLogString(Set<TopicPartition>)
++  handleResponse(FetchResponse;short)
++  handleError(Throwable)
+} 
+@enduml

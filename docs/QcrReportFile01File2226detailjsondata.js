@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Message"
+ , "c2" : "org.apache.kafka.trogdor.workload.TopicsSpec"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TopicsSpec"
+ , "c2" : "TopicsSpec()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicsSpec"
+ , "c2" : "TopicsSpec(Map<String,PartitionsSpec>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,PartitionsSpec>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "set(String;PartitionsSpec)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicsSpec"
+ , "c2" : "immutableCopy()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,PartitionsSpec>"
+ , "c2" : "materialize()"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.svg" }
+
 ] 
 , 
 "data04" : [

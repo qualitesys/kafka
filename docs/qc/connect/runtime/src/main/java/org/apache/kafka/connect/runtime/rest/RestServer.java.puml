@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.RestServer
+class org.apache.kafka.connect.runtime.rest.RestServer {
++  RestServer(WorkerConfig)
++  createConnectors(List<String>;List<String>)
++  createConnector(String)
++  createConnector(String;boolean)
++  initializeServer()
++  initializeResources(Herder)
++  serverUrl()
++  stop()
++  advertisedUrl()
++  adminUrl()
++  determineAdvertisedProtocol()
++  findConnector(String)
++  registerRestExtensions(Herder;ResourceConfig)
++  configureHttpResponsHeaderFilter(ServletContextHandler)
+} 
+@enduml

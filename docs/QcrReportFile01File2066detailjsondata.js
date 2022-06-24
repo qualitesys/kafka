@@ -2,18 +2,92 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java 15 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java 17 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "CacheFunction"
+ , "c2" : "org.apache.kafka.streams.state.internals.SegmentedCacheFunction"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.SegmentedCacheFunction" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SegmentedCacheFunction"
+ , "c2" : "SegmentedCacheFunction(KeySchema;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "key(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "cacheKey(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "cacheKey(Bytes;long)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "bytesFromCacheKey(Bytes)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "segmentId(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "segmentId(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "getSegmentInterval()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "compareSegmentedKeys(Bytes;Bytes)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +139,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -99,6 +180,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#32"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00032] For method cacheKey list of called methods Object monObjet|byte[] key_getN165034"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#32"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00032] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -121,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.bytesFromCacheKey@POLYN163712 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.bytesFromCacheKey@POLYN165424 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -148,6 +236,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00057] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN166398|byte[] cacheKey_getN166828|byte[] storeKey_getN166914"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#57"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00057] The argument cacheKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -163,14 +258,14 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN164553 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN166265 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN164553 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN166265 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

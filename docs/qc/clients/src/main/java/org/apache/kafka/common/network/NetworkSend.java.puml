@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Send <|-- org.apache.kafka.common.network.NetworkSend
+class org.apache.kafka.common.network.NetworkSend {
++  NetworkSend(String;Send)
++  destinationId()
++  completed()
++  writeTo(TransferableChannel)
++  size()
+} 
+@enduml

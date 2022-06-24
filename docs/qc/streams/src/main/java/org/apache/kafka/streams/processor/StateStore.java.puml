@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.StateStore
+class org.apache.kafka.streams.processor.StateStore {
++  name()
++  init(org.apache.kafka.streams.processor.ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  flush()
++  close()
++  persistent()
++  isOpen()
++  getPosition()
+} 
+@enduml

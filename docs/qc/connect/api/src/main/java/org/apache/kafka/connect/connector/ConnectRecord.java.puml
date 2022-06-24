@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.connector.ConnectRecord
+class org.apache.kafka.connect.connector.ConnectRecord {
++  ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long)
++  ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
++  topic()
++  kafkaPartition()
++  key()
++  keySchema()
++  value()
++  valueSchema()
++  timestamp()
++  headers()
++  newRecord(String;Integer;Schema;Object;Schema;Object;Long)
++  newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

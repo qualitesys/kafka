@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+LogInputStream<MutableRecordBatch> <|-- org.apache.kafka.common.record.ByteBufferLogInputStream
+class org.apache.kafka.common.record.ByteBufferLogInputStream {
++  ByteBufferLogInputStream(ByteBuffer;int)
++  nextBatch()
++  nextBatchSize()
+} 
+@enduml

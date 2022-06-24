@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeClientQuotasResponse
+class org.apache.kafka.common.requests.DescribeClientQuotasResponse {
++  DescribeClientQuotasResponse(DescribeClientQuotasResponseData)
++  complete(KafkaFutureImpl<Map<ClientQuotaEntity,Map<String,Double>>>)
++  throttleTimeMs()
++  data()
++  errorCounts()
++  parse(ByteBuffer;short)
++  fromQuotaEntities(Map<ClientQuotaEntity,Map<String,Double>>;int)
+} 
+@enduml

@@ -2,18 +2,99 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java 28 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java 39 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.coordinator.CoordinatorRestResource"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.coordinator.CoordinatorRestResource" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setCoordinator(Coordinator)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CoordinatorStatusResponse"
+ , "c2" : "status()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UptimeResponse"
+ , "c2" : "uptime()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "createTask(CreateTaskRequest)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "stopTask(StopTaskRequest)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "destroyTask(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "tasks(List<String>;long;long;long;long;String)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TaskState"
+ , "c2" : "tasks(String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Empty"
+ , "c2" : "beginShutdown(CoordinatorShutdownRequest)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Coordinator"
+ , "c2" : "coordinator()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,6 +118,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -46,10 +136,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -71,6 +175,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -118,6 +229,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00084"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#84"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00084] For method tasks list of called methods Object monObjet|org.apache.kafka.trogdor.rest.TaskState coordinatorN183316"
+}} 
+,
+{ "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#89"
  , "c2" : "CRITICAL"
@@ -128,35 +246,35 @@ var maDataBlocs = {
    "c1" : "00090"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN180187 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN181899 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN180187 the MagicNumber/String  400 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN181899 the MagicNumber/String  400 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN180187 the MagicNumber/String  'State %s is invalid. Must be one of %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN181899 the MagicNumber/String  'State %s is invalid. Must be one of %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN180187 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN181899 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN180187 the MagicNumber/String  200 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN181899 the MagicNumber/String  200 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,14 +288,14 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN182028 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN183740 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN182028 the MagicNumber/String  'No task with ID \'%s\' exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.tasks@POLYN183740 the MagicNumber/String  'No task with ID \'%s\' exists.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,14 +316,14 @@ var maDataBlocs = {
    "c1" : "00123"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN182819 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN184531 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN182819 the MagicNumber/String  'CoordinatorRestResource has not been initialized yet.' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN184531 the MagicNumber/String  'CoordinatorRestResource has not been initialized yet.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -269,6 +387,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#45"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00045] Public method setCoordinator is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.beginShutdown@POLYN184300"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN184531"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.createTask@POLYN180963"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.destroyTask@POLYN181503"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.setCoordinator@POLYN180396"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.status@POLYN180597"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.stopTask@POLYN181233"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.uptime@POLYN180786"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN184531 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00124"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN184531 the MagicNumber/String 'CoordinatorRestResource has not been initialized yet.' MUST BE CONVERTED to const"
 }} 
 ]
 };

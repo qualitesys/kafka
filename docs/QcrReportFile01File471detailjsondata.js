@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "CumulativeSum"
+ , "c2" : "org.apache.kafka.common.metrics.stats.CumulativeCount"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.metrics.stats.CumulativeCount" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "record(MetricConfig;double;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +83,7 @@ var maDataBlocs = {
    "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.metrics.stats.CumulativeCount.record@POLYN155721 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.metrics.stats.CumulativeCount.record@POLYN157433 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

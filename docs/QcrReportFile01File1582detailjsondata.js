@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "NamedOperation<Joined<K,V,VO>>"
+ , "c2" : "org.apache.kafka.streams.kstream.Joined"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.Joined" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Joined"
+ , "c2" : "Joined(Serde<K>;Serde<V>;Serde<VO>;String)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Joined"
+ , "c2" : "Joined(Joined<K,V,VO>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Joined<K,V,VO>"
+ , "c2" : "withKeySerde(Serde<K>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Joined<K,V,VO>"
+ , "c2" : "withValueSerde(Serde<V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Joined<K,V,VO>"
+ , "c2" : "withOtherValueSerde(Serde<VO>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Joined<K,V,VO>"
+ , "c2" : "withName(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<K>"
+ , "c2" : "keySerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<V>"
+ , "c2" : "valueSerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serde<VO>"
+ , "c2" : "otherValueSerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.svg" }
+
 ] 
 , 
 "data04" : [

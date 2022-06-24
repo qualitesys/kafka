@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<CreatePartitionsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.CreatePartitionsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.CreatePartitionsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CreatePartitionsOptions"
+ , "c2" : "CreatePartitionsOptions()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "validateOnly()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreatePartitionsOptions"
+ , "c2" : "validateOnly(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreatePartitionsOptions"
+ , "c2" : "retryOnQuotaViolation(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "shouldRetryOnQuotaViolation()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Configurable"
+ , "c2" : "org.apache.kafka.server.authorizer.Authorizer"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.authorizer.Authorizer" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Map<Endpoint,?extendsCompletionStage<Void>>"
+ , "c2" : "start(AuthorizerServerInfo)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<AuthorizationResult>"
+ , "c2" : "authorize(AuthorizableRequestContext;List<Action>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
+ , "c2" : "createAcls(AuthorizableRequestContext;List<AclBinding>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
+ , "c2" : "deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterable<AclBinding>"
+ , "c2" : "acls(AclBindingFilter)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "aclCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AuthorizationResult"
+ , "c2" : "authorizeByResourceType(AuthorizableRequestContext;AclOperation;ResourceType)"
+ , "c3" : "21"
+ , "c4" : "38"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.svg" }
+
 ] 
 , 
 "data04" : [

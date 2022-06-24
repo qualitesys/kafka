@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.feature.BaseVersionRange
+class org.apache.kafka.common.feature.BaseVersionRange {
++  BaseVersionRange(String;short;String;short)
++  min()
++  max()
++  toString()
++  toMap()
++  mapToString(Map<String,Short>)
++  equals(Object)
++  hashCode()
++  valueOrThrow(String;Map<String,Short>)
+} 
+@enduml

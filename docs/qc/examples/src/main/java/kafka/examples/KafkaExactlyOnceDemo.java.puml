@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- kafka.examples.KafkaExactlyOnceDemo
+class kafka.examples.KafkaExactlyOnceDemo {
++  main(String[])
++  recreateTopics(int)
++  deleteTopic(Admin;List<String>)
+} 
+@enduml

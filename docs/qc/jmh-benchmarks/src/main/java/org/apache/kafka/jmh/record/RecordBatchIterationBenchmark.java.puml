@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+BaseRecordBatchBenchmark <|-- org.apache.kafka.jmh.record.RecordBatchIterationBenchmark
+class org.apache.kafka.jmh.record.RecordBatchIterationBenchmark {
++  compressionType()
++  measureIteratorForBatchWithSingleMessage(Blackhole)
++  measureStreamingIteratorForVariableBatchSize(Blackhole)
++  measureSkipIteratorForVariableBatchSize(Blackhole)
+} 
+@enduml

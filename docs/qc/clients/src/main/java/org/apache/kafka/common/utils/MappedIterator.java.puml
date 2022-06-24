@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Iterator<T> <|-- org.apache.kafka.common.utils.MappedIterator
+class org.apache.kafka.common.utils.MappedIterator {
++  MappedIterator(Iterator<?extendsF>;Function<F,T>)
++  hasNext()
++  next()
+} 
+@enduml

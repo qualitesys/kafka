@@ -1,0 +1,37 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.data.Values
+class org.apache.kafka.connect.data.Values {
++  convertToBoolean(Schema;Object)
++  convertToByte(Schema;Object)
++  convertToShort(Schema;Object)
++  convertToInteger(Schema;Object)
++  convertToLong(Schema;Object)
++  convertToFloat(Schema;Object)
++  convertToDouble(Schema;Object)
++  convertToString(Schema;Object)
++  convertToList(Schema;Object)
++  convertToMap(Schema;Object)
++  convertToStruct(Schema;Object)
++  convertToTime(Schema;Object)
++  convertToDate(Schema;Object)
++  convertToTimestamp(Schema;Object)
++  convertToDecimal(Schema;Object;int)
++  inferSchema(Object)
++  parseString(String)
++  convertTo(Schema;Schema;Object)
++  asLong(Object;Schema;Throwable)
++  asDouble(Object;Schema;Throwable)
++  append(StringBuilder;Object;boolean)
++  appendIterable(StringBuilder;Iterator<?>)
++  escape(String)
++  dateFormatFor(java.util.Date)
++  canParseSingleTokenLiteral(Parser;boolean;String)
++  parse(Parser;boolean)
++  parseAsTemporal(String)
++  commonSchemaFor(Schema;SchemaAndValue)
++  alignListEntriesWithSchema(Schema;List<Object>)
++  alignMapKeysAndValuesWithSchema(Schema;Map<Object,Object>)
++  alignMapKeysWithSchema(Schema;Map<Object,Object>)
+} 
+@enduml

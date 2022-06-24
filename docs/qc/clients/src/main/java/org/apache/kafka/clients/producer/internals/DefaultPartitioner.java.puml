@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Partitioner <|-- org.apache.kafka.clients.producer.internals.DefaultPartitioner
+class org.apache.kafka.clients.producer.internals.DefaultPartitioner {
++  configure(Map<String,?>)
++  partition(String;Object;byte[];Object;byte[];Cluster)
++  partition(String;Object;byte[];Object;byte[];Cluster;int)
++  close()
++  onNewBatch(String;Cluster;int)
+} 
+@enduml

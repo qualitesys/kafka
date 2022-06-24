@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.SerdeGetter
+class org.apache.kafka.streams.processor.internals.SerdeGetter {
++  SerdeGetter(org.apache.kafka.streams.processor.ProcessorContext)
++  SerdeGetter(org.apache.kafka.streams.processor.api.ProcessorContext)
++  SerdeGetter(StateStoreContext)
++  keySerde()
++  valueSerde()
+} 
+@enduml

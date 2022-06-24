@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<UpdateFeaturesOptions> <|-- org.apache.kafka.clients.admin.UpdateFeaturesOptions
+class org.apache.kafka.clients.admin.UpdateFeaturesOptions {
++  dryRun()
++  validateOnly()
++  dryRun(boolean)
++  validateOnly(boolean)
+} 
+@enduml

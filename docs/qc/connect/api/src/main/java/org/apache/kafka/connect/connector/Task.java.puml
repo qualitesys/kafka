@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.connector.Task
+class org.apache.kafka.connect.connector.Task {
++  version()
++  start(Map<String,String>)
++  stop()
+} 
+@enduml

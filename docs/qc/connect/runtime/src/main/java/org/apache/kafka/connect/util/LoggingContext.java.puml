@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.util.LoggingContext
+class org.apache.kafka.connect.util.LoggingContext {
++  clear()
++  forConnector(String)
++  forValidation(String)
++  forTask(ConnectorTaskId)
++  forOffsets(ConnectorTaskId)
++  prefixFor(String;Scope;Integer)
++  LoggingContext()
++  close()
+} 
+@enduml

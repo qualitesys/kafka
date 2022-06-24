@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TransformerSupplier<KIn,VIn,Iterable<KeyValue<KOut,VOut>>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TransformerSupplierAdapter"
+ , "c2" : "TransformerSupplierAdapter(TransformerSupplier<KIn,VIn,KeyValue<KOut,VOut>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Transformer<KIn,VIn,Iterable<KeyValue<KOut,VOut>>>"
+ , "c2" : "get()"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<StoreBuilder<?>>"
+ , "c2" : "stores()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter.get@POLYN161428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter.get@POLYN163140 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

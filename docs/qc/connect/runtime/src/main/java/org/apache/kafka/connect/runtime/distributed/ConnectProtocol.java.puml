@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.distributed.ConnectProtocol
+class org.apache.kafka.connect.runtime.distributed.ConnectProtocol {
++  serializeMetadata(WorkerState)
++  metadataRequest(WorkerState)
++  deserializeMetadata(ByteBuffer)
++  serializeAssignment(Assignment)
++  deserializeAssignment(ByteBuffer)
++  checkVersionCompatibility(short)
+} 
+@enduml

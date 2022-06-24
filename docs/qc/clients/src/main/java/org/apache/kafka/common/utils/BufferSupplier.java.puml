@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.common.utils.BufferSupplier
+class org.apache.kafka.common.utils.BufferSupplier {
++  create()
++  get(int)
++  release(ByteBuffer)
++  close()
+} 
+@enduml

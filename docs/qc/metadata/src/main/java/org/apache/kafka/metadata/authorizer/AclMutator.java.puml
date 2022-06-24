@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.authorizer.AclMutator
+class org.apache.kafka.metadata.authorizer.AclMutator {
++  createAcls(ControllerRequestContext;List<AclBinding>)
++  deleteAcls(ControllerRequestContext;List<AclBindingFilter>)
+} 
+@enduml

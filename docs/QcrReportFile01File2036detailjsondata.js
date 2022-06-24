@@ -2,18 +2,50 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java 20 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java 22 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.PositionSerde"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.PositionSerde" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "PositionSerde"
+ , "c2" : "PositionSerde()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Position"
+ , "c2" : "deserialize(ByteBuffer)"
+ , "c3" : "4"
+ , "c4" : "17"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "serialize(Position)"
+ , "c3" : "4"
+ , "c4" : "30"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -72,6 +104,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -87,6 +126,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#19"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00019] For method deserialize arguments ByteBuffer  buffer"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00019"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#19"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00019] For method deserialize list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes buffer_getIntN170094"
 }} 
 ,
 { "ligne" : {
@@ -114,35 +160,35 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN167675 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN169387 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN167675 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN169387 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN167675 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN169387 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN167675 the MagicNumber/String  'Unknown version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN169387 the MagicNumber/String  'Unknown version ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN167675 the MagicNumber/String  ' when deserializing Position' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.PositionSerde.deserialize@POLYN169387 the MagicNumber/String  ' when deserializing Position' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -150,6 +196,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#47"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00047] For method serialize arguments Position  position"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00047] For method serialize list of called methods Object monObjet|java.util.Set&lt;String&gt; position_getTopicsN171528|java.util.Map&lt;Integer,Long&gt; position_getPartitionPositionsN172590|java.util.Map&lt;Integer,Long&gt; position_getPartitionPositionsN173660"
 }} 
 ,
 { "ligne" : {
@@ -198,21 +251,21 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.PositionSerde.serialize@POLYN169567 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.PositionSerde.serialize@POLYN171279 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.PositionSerde.serialize@POLYN169567 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.PositionSerde.serialize@POLYN171279 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.PositionSerde.serialize@POLYN169567 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.PositionSerde.serialize@POLYN171279 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

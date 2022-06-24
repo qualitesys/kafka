@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.placement.PlacementSpec
+class org.apache.kafka.metadata.placement.PlacementSpec {
++  PlacementSpec(int;int;short)
++  startPartition()
++  numPartitions()
++  numReplicas()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

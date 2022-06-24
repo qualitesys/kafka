@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.TopicDescription
+class org.apache.kafka.clients.admin.TopicDescription {
++  equals(Object)
++  hashCode()
++  TopicDescription(String;boolean;List<TopicPartitionInfo>)
++  TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>)
++  TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>;Uuid)
++  name()
++  isInternal()
++  topicId()
++  partitions()
++  authorizedOperations()
++  toString()
+} 
+@enduml

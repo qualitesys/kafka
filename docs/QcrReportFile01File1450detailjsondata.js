@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.common.ApiMessageAndVersion"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.common.ApiMessageAndVersion" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ApiMessageAndVersion"
+ , "c2" : "ApiMessageAndVersion(ApiMessage;short)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiMessage"
+ , "c2" : "message()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "short"
+ , "c2" : "version()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.png" 
+
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,42 +146,42 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN157434 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN159146 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN157434 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN159146 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN157434 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN159146 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN158170 the MagicNumber/String  'ApiMessageAndVersion(' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN159882 the MagicNumber/String  'ApiMessageAndVersion(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN158170 the MagicNumber/String  ' at version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN159882 the MagicNumber/String  ' at version ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN158170 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN159882 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

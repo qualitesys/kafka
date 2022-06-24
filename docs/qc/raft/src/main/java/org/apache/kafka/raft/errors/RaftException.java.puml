@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.raft.errors.RaftException
+class org.apache.kafka.raft.errors.RaftException {
++  RaftException(String)
++  RaftException(String;Throwable)
++  RaftException(Throwable)
+} 
+@enduml

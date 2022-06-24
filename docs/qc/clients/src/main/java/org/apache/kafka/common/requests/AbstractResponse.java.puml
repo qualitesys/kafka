@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+AbstractRequestResponse <|-- org.apache.kafka.common.requests.AbstractResponse
+class org.apache.kafka.common.requests.AbstractResponse {
++  AbstractResponse(ApiKeys)
++  toSend(ResponseHeader;short)
++  serializeWithHeader(ResponseHeader;short)
++  serialize(short)
++  errorCounts()
++  errorCounts(Errors)
++  errorCounts(Stream<Errors>)
++  errorCounts(Collection<Errors>)
++  apiErrorCounts(Map<?,ApiError>)
++  updateErrorCounts(Map<Errors,Integer>;Errors)
++  parseResponse(ByteBuffer;RequestHeader)
++  parseResponse(ApiKeys;ByteBuffer;short)
++  shouldClientThrottle(short)
++  apiKey()
++  throttleTimeMs()
++  toString()
+} 
+@enduml

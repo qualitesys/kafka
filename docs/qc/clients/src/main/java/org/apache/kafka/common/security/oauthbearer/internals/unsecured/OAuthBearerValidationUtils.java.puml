@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationUtils
+class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationUtils {
++  validateClaimForExistenceAndType(OAuthBearerUnsecuredJws;boolean;String;Class<?>...)
++  validateIssuedAt(OAuthBearerUnsecuredJws;boolean;long;int)
++  validateExpirationTime(OAuthBearerUnsecuredJws;long;int)
++  validateTimeConsistency(OAuthBearerUnsecuredJws)
++  validateScope(OAuthBearerToken;List<String>)
++  confirmNonNegative(int)
++  doesNotExistResult(boolean;String)
++  OAuthBearerValidationUtils()
+} 
+@enduml

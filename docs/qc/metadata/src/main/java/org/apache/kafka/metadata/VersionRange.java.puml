@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.VersionRange
+class org.apache.kafka.metadata.VersionRange {
++  VersionRange(short;short)
++  of(short;short)
++  of(int;int)
++  min()
++  max()
++  contains(short)
++  intersects(VersionRange)
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

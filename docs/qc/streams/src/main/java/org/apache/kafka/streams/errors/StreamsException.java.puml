@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+KafkaException <|-- org.apache.kafka.streams.errors.StreamsException
+class org.apache.kafka.streams.errors.StreamsException {
++  StreamsException(String)
++  StreamsException(String;TaskId)
++  StreamsException(String;Throwable)
++  StreamsException(String;Throwable;TaskId)
++  StreamsException(Throwable)
++  StreamsException(Throwable;TaskId)
++  taskId()
++  setTaskId(TaskId)
+} 
+@enduml

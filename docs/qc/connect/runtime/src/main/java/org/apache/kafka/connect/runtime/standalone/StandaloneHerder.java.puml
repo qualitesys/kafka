@@ -1,0 +1,34 @@
+@startuml
+!pragma layout smetana
+AbstractHerder <|-- org.apache.kafka.connect.runtime.standalone.StandaloneHerder
+class org.apache.kafka.connect.runtime.standalone.StandaloneHerder {
++  StandaloneHerder(Worker;String;ConnectorClientConfigOverridePolicy)
++  StandaloneHerder(Worker;String;String;StatusBackingStore;MemoryConfigBackingStore;ConnectorClientConfigOverridePolicy)
++  start()
++  stop()
++  generation()
++  connectors(Callback<Collection<String>>)
++  connectorInfo(String;Callback<ConnectorInfo>)
++  createConnectorInfo(String)
++  rawConfig(String)
++  deleteConnectorConfig(String;Callback<Created<ConnectorInfo>>)
++  putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>)
++  putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>;ConfigInfos)
++  requestTaskReconfiguration(String)
++  taskConfigs(String;Callback<List<TaskInfo>>)
++  putTaskConfigs(String;List<Map<String,String>>;Callback<Void>;InternalRequestSignature)
++  fenceZombieSourceTasks(String;Callback<Void>;InternalRequestSignature)
++  restartTask(ConnectorTaskId;Callback<Void>)
++  restartConnector(String;Callback<Void>)
++  restartConnector(long;String;Callback<Void>)
++  restartConnectorAndTasks(RestartRequest;Callback<ConnectorStateInfo>)
++  startConnector(String;Callback<TargetState>)
++  recomputeTaskConfigs(String)
++  createConnectorTasks(String)
++  createConnectorTasks(String;Collection<ConnectorTaskId>)
++  startTask(ConnectorTaskId;Map<String,String>)
++  removeConnectorTasks(String)
++  updateConnectorTasks(String)
++  tasksConfig(String;Callback<Map<ConnectorTaskId,Map<String,String>>>)
+} 
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+Stat <|-- org.apache.kafka.common.metrics.MeasurableStat
+class org.apache.kafka.common.metrics.MeasurableStat {
+} 
+@enduml

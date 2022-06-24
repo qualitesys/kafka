@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.Target
+class org.apache.kafka.message.Target {
++  Target(FieldSpec;String;String;Function<String,String>)
++  assignmentStatement(String)
++  nonNullableCopy()
++  arrayElementTarget(Function<String,String>)
++  field()
++  sourceVariable()
++  humanReadableName()
+} 
+@enduml

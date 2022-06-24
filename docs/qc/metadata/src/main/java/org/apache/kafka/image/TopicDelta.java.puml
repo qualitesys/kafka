@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.TopicDelta
+class org.apache.kafka.image.TopicDelta {
++  TopicDelta(TopicImage)
++  image()
++  partitionChanges()
++  name()
++  id()
++  replay(PartitionRecord)
++  replay(PartitionChangeRecord)
++  apply()
++  localChanges(int)
++  toString()
+} 
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+SourceTask <|-- org.apache.kafka.connect.mirror.MirrorCheckpointTask
+class org.apache.kafka.connect.mirror.MirrorCheckpointTask {
++  MirrorCheckpointTask()
++  MirrorCheckpointTask(String;String;ReplicationPolicy;OffsetSyncStore;Map<String,Map<TopicPartition,OffsetAndMetadata>>;Map<String,List<Checkpoint>>)
++  start(Map<String,String>)
++  commit()
++  stop()
++  version()
++  poll()
++  sourceRecordsForGroup(String)
++  checkpointsForGroup(String)
++  listConsumerGroupOffsets(String)
++  checkpoint(String;TopicPartition;OffsetAndMetadata)
++  checkpointRecord(Checkpoint;long)
++  renameTopicPartition(TopicPartition)
++  shouldCheckpointTopic(String)
++  commitRecord(SourceRecord;RecordMetadata)
++  refreshIdleConsumerGroupOffset()
++  syncGroupOffset()
++  syncGroupOffset(String;Map<TopicPartition,OffsetAndMetadata>)
++  getConvertedUpstreamOffset()
+} 
+@enduml

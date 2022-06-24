@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<DescribeTransactionsOptions> <|-- org.apache.kafka.clients.admin.DescribeTransactionsOptions
+class org.apache.kafka.clients.admin.DescribeTransactionsOptions {
++  toString()
+} 
+@enduml

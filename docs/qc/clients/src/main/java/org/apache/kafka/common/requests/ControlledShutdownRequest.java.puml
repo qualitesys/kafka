@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.ControlledShutdownRequest
+class org.apache.kafka.common.requests.ControlledShutdownRequest {
++  ControlledShutdownRequest(ControlledShutdownRequestData;short)
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  data()
+} 
+@enduml

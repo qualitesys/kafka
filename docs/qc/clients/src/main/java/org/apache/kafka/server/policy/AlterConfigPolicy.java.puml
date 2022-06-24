@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.server.policy.AlterConfigPolicy
+class org.apache.kafka.server.policy.AlterConfigPolicy {
++  validate(RequestMetadata)
+} 
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+WindowStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter
+class org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter {
++  WindowToTimestampedWindowByteStoreAdapter(WindowStore<Bytes,byte[]>)
++  put(Bytes;byte[];long)
++  fetch(Bytes;long)
++  fetch(Bytes;long;long)
++  fetch(Bytes;Instant;Instant)
++  backwardFetch(Bytes;long;long)
++  backwardFetch(Bytes;Instant;Instant)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;Instant;Instant)
++  fetch(Bytes;Bytes;Instant;Instant)
++  backwardFetch(Bytes;Bytes;long;long)
++  all()
++  backwardAll()
++  fetchAll(long;long)
++  fetchAll(Instant;Instant)
++  backwardFetchAll(long;long)
++  backwardFetchAll(Instant;Instant)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  flush()
++  close()
++  persistent()
++  isOpen()
++  getPosition()
+} 
+@enduml

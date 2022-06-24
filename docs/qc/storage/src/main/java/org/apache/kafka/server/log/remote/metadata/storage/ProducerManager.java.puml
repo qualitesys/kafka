@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.server.log.remote.metadata.storage.ProducerManager
+class org.apache.kafka.server.log.remote.metadata.storage.ProducerManager {
++  ProducerManager(TopicBasedRemoteLogMetadataManagerConfig;RemoteLogMetadataTopicPartitioner)
++  publishMessage(RemoteLogMetadata)
++  close()
+} 
+@enduml

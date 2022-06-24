@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.ApiVersionsRequest
+class org.apache.kafka.common.requests.ApiVersionsRequest {
++  ApiVersionsRequest(ApiVersionsRequestData;short)
++  ApiVersionsRequest(ApiVersionsRequestData;short;Short)
++  hasUnsupportedRequestVersion()
++  isValid()
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

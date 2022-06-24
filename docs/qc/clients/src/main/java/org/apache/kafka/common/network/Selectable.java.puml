@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.network.Selectable
+class org.apache.kafka.common.network.Selectable {
++  connect(String;InetSocketAddress;int;int)
++  wakeup()
++  close()
++  close(String)
++  send(NetworkSend)
++  poll(long)
++  completedSends()
++  completedReceives()
++  disconnected()
++  connected()
++  mute(String)
++  unmute(String)
++  muteAll()
++  unmuteAll()
++  isChannelReady(String)
+} 
+@enduml

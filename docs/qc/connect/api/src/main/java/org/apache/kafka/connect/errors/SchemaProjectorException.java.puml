@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+DataException <|-- org.apache.kafka.connect.errors.SchemaProjectorException
+class org.apache.kafka.connect.errors.SchemaProjectorException {
++  SchemaProjectorException(String)
++  SchemaProjectorException(String;Throwable)
++  SchemaProjectorException(Throwable)
+} 
+@enduml

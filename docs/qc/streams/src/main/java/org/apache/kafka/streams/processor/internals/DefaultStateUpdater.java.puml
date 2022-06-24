@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+StateUpdater <|-- org.apache.kafka.streams.processor.internals.DefaultStateUpdater
+class org.apache.kafka.streams.processor.internals.DefaultStateUpdater {
++  DefaultStateUpdater(ChangelogReader;Consumer<Set<TopicPartition>>;Time)
++  add(Task)
++  verifyStateFor(Task)
++  remove(TaskId)
++  drainRestoredActiveTasks(Duration)
++  drainRemovedTasks()
++  drainExceptionsAndFailedTasks()
++  getUpdatingStandbyTasks()
++  getUpdatingTasks()
++  getRestoredActiveTasks()
++  getExceptionsAndFailedTasks()
++  getRemovedTasks()
++  shutdown(Duration)
+} 
+@enduml

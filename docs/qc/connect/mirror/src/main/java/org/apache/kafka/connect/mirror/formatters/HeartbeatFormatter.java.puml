@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+MessageFormatter <|-- org.apache.kafka.connect.mirror.formatters.HeartbeatFormatter
+class org.apache.kafka.connect.mirror.formatters.HeartbeatFormatter {
++  writeTo(ConsumerRecord<byte[],byte[]>;PrintStream)
+} 
+@enduml

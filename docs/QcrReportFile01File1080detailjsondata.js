@@ -2,18 +2,85 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java 41 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java 42 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.runtime.SubmittedRecords"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.SubmittedRecords" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SubmittedRecords"
+ , "c2" : "SubmittedRecords()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SubmittedRecord"
+ , "c2" : "submit(SourceRecord)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SubmittedRecord"
+ , "c2" : "submit(Map<String,Object>;Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CommittableOffsets"
+ , "c2" : "committableOffsets()"
+ , "c3" : "4"
+ , "c4" : "18"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "awaitAllMessages(long;TimeUnit)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "committableOffset(Deque<SubmittedRecord>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "canCommitHead(Deque<SubmittedRecord>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "messageAcked()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -88,6 +155,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -132,6 +206,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#49"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00049] For method committableOffsets list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; committableOffsetN217521"
+}} 
+,
+{ "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#56"
  , "c2" : "MAJOR"
@@ -156,28 +237,28 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN214677 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN216389 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN214677 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN216389 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN214677 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN216389 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN214677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffsets@POLYN216389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,7 +279,7 @@ var maDataBlocs = {
    "c1" : "00089"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.runtime.SubmittedRecords.awaitAllMessages@POLYN216975 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.runtime.SubmittedRecords.awaitAllMessages@POLYN218687 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -219,7 +300,7 @@ var maDataBlocs = {
    "c1" : "00096"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffset@POLYN217540 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.runtime.SubmittedRecords.committableOffset@POLYN219252 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -247,7 +328,7 @@ var maDataBlocs = {
    "c1" : "00104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.SubmittedRecords.canCommitHead@POLYN217940 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.SubmittedRecords.canCommitHead@POLYN219652 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -261,7 +342,7 @@ var maDataBlocs = {
    "c1" : "00112"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.runtime.SubmittedRecords.messageAcked@POLYN218172 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.runtime.SubmittedRecords.messageAcked@POLYN219884 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -275,49 +356,49 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.SubmittedRecord@POLYN218616 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.SubmittedRecord@POLYN220328 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.ack@POLYN219144 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.ack@POLYN220856 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.ack@POLYN219144 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.ack@POLYN220856 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN219723 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN221435 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN219723 the MagicNumber/String  'Attempted to remove record from submitted queue for partition {}, but no records with that partition appear to have been submitted' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN221435 the MagicNumber/String  'Attempted to remove record from submitted queue for partition {}, but no records with that partition appear to have been submitted' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00140"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN219723 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN221435 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00149"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN219723 the MagicNumber/String  'Attempted to remove record from submitted queue for partition {}, but the record has not been submitted or has already been removed' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN221435 the MagicNumber/String  'Attempted to remove record from submitted queue for partition {}, but the record has not been submitted or has already been removed' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -331,28 +412,28 @@ var maDataBlocs = {
    "c1" : "00188"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.CommittableOffsets@POLYN221829 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.CommittableOffsets@POLYN223541 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00228"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.hasPending@POLYN224124 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.hasPending@POLYN225836 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00233"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.isEmpty@POLYN224302 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.isEmpty@POLYN226014 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00233"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.isEmpty@POLYN224302 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets.isEmpty@POLYN226014 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

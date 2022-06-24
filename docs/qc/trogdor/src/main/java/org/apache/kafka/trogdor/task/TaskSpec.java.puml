@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.task.TaskSpec
+class org.apache.kafka.trogdor.task.TaskSpec {
++  TaskSpec(long;long)
++  startMs()
++  endMs()
++  durationMs()
++  newController(String)
++  newTaskWorker(String)
++  equals(Object)
++  hashCode()
++  toString()
++  configOrEmptyMap(Map<String,String>)
+} 
+@enduml

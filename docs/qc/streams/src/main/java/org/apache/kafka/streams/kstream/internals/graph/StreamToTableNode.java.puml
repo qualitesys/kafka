@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.StreamToTableNode
+class org.apache.kafka.streams.kstream.internals.graph.StreamToTableNode {
++  StreamToTableNode(String;ProcessorParameters<K,V,?,?>;MaterializedInternal<K,V,?>)
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

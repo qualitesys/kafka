@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AdminApiHandler.Batched<TopicPartition,Void> <|-- org.apache.kafka.clients.admin.internals.AbortTransactionHandler
+class org.apache.kafka.clients.admin.internals.AbortTransactionHandler {
++  AbortTransactionHandler(AbortTransactionSpec;LogContext)
++  newFuture(Set<TopicPartition>)
++  apiName()
++  lookupStrategy()
++  buildBatchedRequest(int;Set<TopicPartition>)
++  handleResponse(Node;Set<TopicPartition>;AbstractResponse)
++  handleError(Errors)
++  validateTopicPartitions(Set<TopicPartition>)
+} 
+@enduml

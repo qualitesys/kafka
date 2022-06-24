@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.connector.ConnectorContext
+class org.apache.kafka.connect.connector.ConnectorContext {
++  requestTaskReconfiguration()
++  raiseError(Exception)
+} 
+@enduml

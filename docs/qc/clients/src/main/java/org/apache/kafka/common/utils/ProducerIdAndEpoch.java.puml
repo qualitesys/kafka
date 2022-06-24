@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.ProducerIdAndEpoch
+class org.apache.kafka.common.utils.ProducerIdAndEpoch {
++  ProducerIdAndEpoch(long;short)
++  isValid()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Topology"
+ , "c2" : "org.apache.kafka.trogdor.basic.BasicTopology"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.basic.BasicTopology" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BasicTopology"
+ , "c2" : "BasicTopology(NavigableMap<String,Node>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BasicTopology"
+ , "c2" : "BasicTopology(JsonNode)"
+ , "c3" : "3"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Node"
+ , "c2" : "node(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "NavigableMap<String,Node>"
+ , "c2" : "nodes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,14 +153,14 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN158122 the MagicNumber/String  'Expected the 'nodes' element to be ' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN159834 the MagicNumber/String  'Expected the 'nodes' element to be ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN158122 the MagicNumber/String  'a JSON object.' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN159834 the MagicNumber/String  'a JSON object.' should be converted to const"
 }} 
 ,
 { "ligne" : {

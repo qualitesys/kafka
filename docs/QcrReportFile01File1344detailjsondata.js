@@ -8,12 +8,79 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.image.TopicImage"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.image.TopicImage" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TopicImage"
+ , "c2" : "TopicImage(String;Uuid;Map<Integer,PartitionRegistration>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "id()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Integer,PartitionRegistration>"
+ , "c2" : "partitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,49 +181,49 @@ var maDataBlocs = {
    "c1" : "00064"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.image.TopicImage.equals@POLYN166564 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.image.TopicImage.equals@POLYN168276 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.TopicImage.toString@POLYN167244 the MagicNumber/String  'TopicImage(name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.TopicImage.toString@POLYN168956 the MagicNumber/String  'TopicImage(name=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.TopicImage.toString@POLYN167244 the MagicNumber/String  ', id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.TopicImage.toString@POLYN168956 the MagicNumber/String  ', id=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.TopicImage.toString@POLYN167244 the MagicNumber/String  ', partitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.TopicImage.toString@POLYN168956 the MagicNumber/String  ', partitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.TopicImage.toString@POLYN167244 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.TopicImage.toString@POLYN168956 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.image.TopicImage.toString@POLYN167244 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.image.TopicImage.toString@POLYN168956 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.image.TopicImage.toString@POLYN167244 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.image.TopicImage.toString@POLYN168956 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

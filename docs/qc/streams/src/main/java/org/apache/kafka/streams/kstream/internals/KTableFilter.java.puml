@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+KTableProcessorSupplier<KIn,VIn,KIn,VIn> <|-- org.apache.kafka.streams.kstream.internals.KTableFilter
+class org.apache.kafka.streams.kstream.internals.KTableFilter {
++  KTableFilter(KTableImpl<KIn,?,VIn>;Predicate<?superKIn,?superVIn>;boolean;String)
++  get()
++  enableSendingOldValues(boolean)
++  computeValue(KIn;VIn)
++  computeValue(KIn;ValueAndTimestamp<VIn>)
++  view()
+} 
+@enduml

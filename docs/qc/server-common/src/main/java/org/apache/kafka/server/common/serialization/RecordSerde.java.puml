@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.common.serialization.RecordSerde
+class org.apache.kafka.server.common.serialization.RecordSerde {
++  recordSize(T;ObjectSerializationCache)
++  write(T;ObjectSerializationCache;Writable)
++  read(Readable;int)
+} 
+@enduml

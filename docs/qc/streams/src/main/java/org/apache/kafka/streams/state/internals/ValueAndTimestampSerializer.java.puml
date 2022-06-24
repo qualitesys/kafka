@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+WrappingNullableSerializer<ValueAndTimestamp<V>,Void,V> <|-- org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer
+class org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer {
++  ValueAndTimestampSerializer(Serializer<V>)
++  valuesAreSameAndTimeIsIncreasing(byte[];byte[])
++  configure(Map<String,?>;boolean)
++  serialize(String;ValueAndTimestamp<V>)
++  serialize(String;V;long)
++  close()
++  timeIsDecreasing(byte[];byte[])
++  extractTimestamp(byte[])
++  valuesAreSame(byte[];byte[])
++  setIfUnset(SerdeGetter)
+} 
+@enduml

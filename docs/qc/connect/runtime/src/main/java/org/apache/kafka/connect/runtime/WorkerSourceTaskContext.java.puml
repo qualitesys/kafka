@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+SourceTaskContext <|-- org.apache.kafka.connect.runtime.WorkerSourceTaskContext
+class org.apache.kafka.connect.runtime.WorkerSourceTaskContext {
++  WorkerSourceTaskContext(OffsetStorageReader;ConnectorTaskId;ClusterConfigState;WorkerTransactionContext)
++  configs()
++  offsetStorageReader()
++  transactionContext()
+} 
+@enduml

@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.TopicCollection"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.TopicCollection" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TopicCollection"
+ , "c2" : "TopicCollection()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicIdCollection"
+ , "c2" : "ofTopicIds(Collection<Uuid>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicNameCollection"
+ , "c2" : "ofTopicNames(Collection<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.svg" }
+
 ] 
 , 
 "data04" : [

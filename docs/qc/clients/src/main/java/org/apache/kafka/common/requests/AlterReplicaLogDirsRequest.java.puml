@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.AlterReplicaLogDirsRequest
+class org.apache.kafka.common.requests.AlterReplicaLogDirsRequest {
++  AlterReplicaLogDirsRequest(AlterReplicaLogDirsRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  partitionDirs()
++  parse(ByteBuffer;short)
+} 
+@enduml

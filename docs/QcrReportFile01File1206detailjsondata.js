@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.util.Table"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.util.Table" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "put(R;C;V)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "get(R;C)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<C,V>"
+ , "c2" : "remove(R)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "remove(R;C)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<C,V>"
+ , "c2" : "row(R)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.util.Table.get@POLYN160031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.util.Table.get@POLYN161743 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.util.Table.get@POLYN160031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.util.Table.get@POLYN161743 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,14 +167,14 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.util.Table.remove@POLYN160611 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.util.Table.remove@POLYN162323 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.util.Table.remove@POLYN160611 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.util.Table.remove@POLYN162323 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.Table.row@POLYN161224 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.Table.row@POLYN162936 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

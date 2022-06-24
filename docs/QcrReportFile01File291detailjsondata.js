@@ -2,18 +2,281 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java 122 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java 148 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.config.AbstractConfig"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.config.AbstractConfig" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AbstractConfig"
+ , "c2" : "AbstractConfig(ConfigDef;Map<?,?>;Map<String,?>;boolean)"
+ , "c3" : "5"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractConfig"
+ , "c2" : "AbstractConfig(ConfigDef;Map<?,?>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractConfig"
+ , "c2" : "AbstractConfig(ConfigDef;Map<?,?>;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "postProcessParsedConfig(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Object"
+ , "c2" : "get(String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "ignore(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Short"
+ , "c2" : "getShort(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Integer"
+ , "c2" : "getInt(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "getLong(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Double"
+ , "c2" : "getDouble(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<String>"
+ , "c2" : "getList(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Boolean"
+ , "c2" : "getBoolean(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "getString(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConfigDef.Type"
+ , "c2" : "typeOf(String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "documentationOf(String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Password"
+ , "c2" : "getPassword(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Class<?>"
+ , "c2" : "getClass(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "unused()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "originals()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "originals(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "originalsStrings()"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "originalsWithPrefix(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "originalsWithPrefix(String;boolean)"
+ , "c3" : "5"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "valuesWithPrefixOverride(String)"
+ , "c3" : "6"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "valuesWithPrefixAllOrNothing(String)"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,?>"
+ , "c2" : "values()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,?>"
+ , "c2" : "nonInternalValues()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "logAll()"
+ , "c3" : "2"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "logUnused()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "extractPotentialVariables(Map<?,?>)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,?>"
+ , "c2" : "resolveConfigVariables(Map<String,?>;Map<String,Object>)"
+ , "c3" : "5"
+ , "c4" : "15"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Object>"
+ , "c2" : "configProviderProperties(String;Map<String,?>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,ConfigProvider>"
+ , "c2" : "instantiateConfigProviders(Map<String,String>;Map<String,?>)"
+ , "c3" : "5"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "providerClassProperty(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,6 +300,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -46,10 +318,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "8"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -86,6 +372,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "27"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "8"
+}}
  ] 
 ,
 "data13b" : [
@@ -121,14 +414,14 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.config.AbstractConfig.AbstractConfig@POLYN290041 the MagicNumber/String  'Key must be a string.' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.config.AbstractConfig.AbstractConfig@POLYN291753 the MagicNumber/String  'Key must be a string.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.config.AbstractConfig.AbstractConfig@POLYN291836 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.config.AbstractConfig.AbstractConfig@POLYN293548 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +442,7 @@ var maDataBlocs = {
    "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.config.AbstractConfig.get@POLYN293078 the MagicNumber/String  'Unknown configuration '%s'' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.config.AbstractConfig.get@POLYN294790 the MagicNumber/String  'Unknown configuration '%s'' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,17 +509,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#118"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00118] For method typeOf list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN296664"
+}} 
+,
+{ "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.config.AbstractConfig.typeOf@POLYN294847 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.config.AbstractConfig.typeOf@POLYN296559 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.config.AbstractConfig.typeOf@POLYN294847 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.config.AbstractConfig.typeOf@POLYN296559 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -237,17 +537,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#125"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00125] For method documentationOf list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN296995"
+}} 
+,
+{ "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.config.AbstractConfig.documentationOf@POLYN295178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.config.AbstractConfig.documentationOf@POLYN296890 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.config.AbstractConfig.documentationOf@POLYN295178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.config.AbstractConfig.documentationOf@POLYN296890 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -289,28 +596,28 @@ var maDataBlocs = {
    "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN297099 the MagicNumber/String  'Non-string value found in original settings for key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN298811 the MagicNumber/String  'Non-string value found in original settings for key ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN297099 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN298811 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN297099 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN298811 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN297099 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.config.AbstractConfig.originalsStrings@POLYN298811 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -324,7 +631,7 @@ var maDataBlocs = {
    "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.config.AbstractConfig.originalsWithPrefix@POLYN298220 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.config.AbstractConfig.originalsWithPrefix@POLYN299932 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -352,7 +659,7 @@ var maDataBlocs = {
    "c1" : "00178"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.config.AbstractConfig.originalsWithPrefix@POLYN298593 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.config.AbstractConfig.originalsWithPrefix@POLYN300305 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -360,6 +667,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#191"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00191] For method valuesWithPrefixOverride arguments String  prefix"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00191"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#191"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00191] For method valuesWithPrefixOverride list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN302902|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN303446"
 }} 
 ,
 { "ligne" : {
@@ -401,49 +715,49 @@ var maDataBlocs = {
    "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN300408 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN302120 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN300408 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN302120 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN300408 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN302120 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN300408 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN302120 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN300408 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN302120 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN300408 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN302120 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN300408 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixOverride@POLYN302120 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -451,6 +765,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#211"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00211] For method valuesWithPrefixAllOrNothing arguments String  prefix"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00211"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00211] For method valuesWithPrefixAllOrNothing list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsWithPrefixN304273|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN304917"
 }} 
 ,
 { "ligne" : {
@@ -464,77 +785,91 @@ var maDataBlocs = {
    "c1" : "00212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN302427 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN304139 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN302427 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN304139 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN302427 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN304139 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN302427 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN304139 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN302427 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN304139 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN302427 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN304139 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00233"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#233"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00233] For method nonInternalValues list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN305829"
 }} 
 ,
 { "ligne" : {
    "c1" : "00237"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.common.config.AbstractConfig.nonInternalValues@POLYN303828 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.common.config.AbstractConfig.nonInternalValues@POLYN305540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN304451 the MagicNumber/String  ' values: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN306163 the MagicNumber/String  ' values: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00251"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN304451 the MagicNumber/String  '\t' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN306163 the MagicNumber/String  '\t' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00253"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN304451 the MagicNumber/String  ' = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN306163 the MagicNumber/String  ' = ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00261"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#261"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00261] For method logUnused list of called methods Object monObjet|java.util.Set&lt;String&gt; unusedN307361"
 }} 
 ,
 { "ligne" : {
    "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.config.AbstractConfig.logUnused@POLYN305557 the MagicNumber/String  'These configurations '{}' were supplied but are not used yet.' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.config.AbstractConfig.logUnused@POLYN307269 the MagicNumber/String  'These configurations '{}' were supplied but are not used yet.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -643,17 +978,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00341"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#341"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00341] For method resolveConfigVariables list of called methods Object monObjet|java.util.Map&lt;String,String&gt; extractPotentialVariablesN314184|java.util.Map&lt;String,String&gt; extractPotentialVariablesN314582|java.util.Map&lt;String,org.apache.kafka.common.config.provider.ConfigProvider&gt; instantiateConfigProvidersN314762"
+}} 
+,
+{ "ligne" : {
    "c1" : "00349"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.common.config.AbstractConfig.resolveConfigVariables@POLYN311998 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.common.config.AbstractConfig.resolveConfigVariables@POLYN313710 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00365"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.common.config.AbstractConfig.resolveConfigVariables@POLYN311998 the MagicNumber/String  'config provider' should be converted to const"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.common.config.AbstractConfig.resolveConfigVariables@POLYN313710 the MagicNumber/String  'config provider' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -689,6 +1031,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#382"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00382] For method instantiateConfigProviders arguments Map&lt;String ,String &gt;  indirectConfigs|Map&lt;String ,? &gt;  providerConfigProperties"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00382"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#382"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00382] For method instantiateConfigProviders list of called methods Object monObjet|String providerClassPropertyN317607"
 }} 
 ,
 { "ligne" : {
@@ -737,35 +1086,35 @@ var maDataBlocs = {
    "c1" : "00385"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN315199 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN316911 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00391"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN315199 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN316911 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00401"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN315199 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN316911 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00407"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN315199 the MagicNumber/String  'Could not load config provider class ' should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN316911 the MagicNumber/String  'Could not load config provider class ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00408"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#408"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN315199 the MagicNumber/String  'Could not load config provider class or one of its dependencies' should be converted to const"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.common.config.AbstractConfig.instantiateConfigProviders@POLYN316911 the MagicNumber/String  'Could not load config provider class or one of its dependencies' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -779,7 +1128,7 @@ var maDataBlocs = {
    "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.common.config.AbstractConfig.providerClassProperty@POLYN317473 the MagicNumber/String  '%s.%s.class' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.common.config.AbstractConfig.providerClassProperty@POLYN319185 the MagicNumber/String  '%s.%s.class' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -800,49 +1149,49 @@ var maDataBlocs = {
    "c1" : "00421"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.common.config.AbstractConfig.equals@POLYN317680 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.common.config.AbstractConfig.equals@POLYN319392 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00422"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.common.config.AbstractConfig.equals@POLYN317680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.common.config.AbstractConfig.equals@POLYN319392 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00422"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.common.config.AbstractConfig.equals@POLYN317680 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.common.config.AbstractConfig.equals@POLYN319392 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN318618 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN320330 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN318618 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN320330 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN318942 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN320654 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN318942 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.common.config.AbstractConfig.RecordingMap.RecordingMap@POLYN320654 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -941,6 +1290,132 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#261"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00261] Public method logUnused is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.get@POLYN294790"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.logAll@POLYN306163"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.equals@POLYN319392"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.getBoolean@POLYN296235"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.getDouble@POLYN295832"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.getInt@POLYN295516"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.getLong@POLYN295674"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.getPassword@POLYN297221"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.getShort@POLYN295358"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.getString@POLYN296393"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.hashCode@POLYN319893"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#80"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.common.config.AbstractConfig.get@POLYN294790 the MagicNumber/String 'Unknown configuration '%s'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00247"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#247"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN306163 the MagicNumber/String ' values: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00251"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#251"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00251] In the recursive method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN306163 the MagicNumber/String '\t' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00253"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#253"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN306163 the MagicNumber/String ' = ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00421"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.common.config.AbstractConfig.equals@POLYN319392 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00422"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#422"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.common.config.AbstractConfig.equals@POLYN319392 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00422"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#422"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.common.config.AbstractConfig.equals@POLYN319392 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

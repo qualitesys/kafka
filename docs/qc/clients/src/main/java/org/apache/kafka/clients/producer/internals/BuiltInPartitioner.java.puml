@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.producer.internals.BuiltInPartitioner
+class org.apache.kafka.clients.producer.internals.BuiltInPartitioner {
++  BuiltInPartitioner(LogContext;String;int)
++  nextPartition(Cluster)
++  loadStatsRangeEnd()
++  peekCurrentPartitionInfo(Cluster)
++  isPartitionChanged(StickyPartitionInfo)
++  updatePartitionInfo(StickyPartitionInfo;int;Cluster)
++  updatePartitionLoadStats(int[];int[];int)
+} 
+@enduml

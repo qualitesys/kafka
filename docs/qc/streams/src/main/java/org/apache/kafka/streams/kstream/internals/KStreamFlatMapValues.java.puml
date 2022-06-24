@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+FixedKeyProcessorSupplier<KIn,VIn,VOut> <|-- org.apache.kafka.streams.kstream.internals.KStreamFlatMapValues
+class org.apache.kafka.streams.kstream.internals.KStreamFlatMapValues {
++  KStreamFlatMapValues(ValueMapperWithKey<?superKIn,?superVIn,?extendsIterable<?extendsVOut>>)
++  get()
+} 
+@enduml

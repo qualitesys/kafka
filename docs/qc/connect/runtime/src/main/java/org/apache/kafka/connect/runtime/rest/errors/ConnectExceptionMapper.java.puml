@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ExceptionMapper<Exception> <|-- org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper
+class org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper {
++  toResponse(Exception)
+} 
+@enduml

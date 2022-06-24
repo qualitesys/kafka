@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.config.ConfigData
+class org.apache.kafka.common.config.ConfigData {
++  ConfigData(Map<String,String>;Long)
++  ConfigData(Map<String,String>)
++  data()
++  ttl()
+} 
+@enduml

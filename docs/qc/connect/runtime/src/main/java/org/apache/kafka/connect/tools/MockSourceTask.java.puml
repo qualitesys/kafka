@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+SourceTask <|-- org.apache.kafka.connect.tools.MockSourceTask
+class org.apache.kafka.connect.tools.MockSourceTask {
++  version()
++  start(Map<String,String>)
++  poll()
++  stop()
+} 
+@enduml

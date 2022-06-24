@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+SampledStat <|-- org.apache.kafka.common.metrics.stats.WindowedSum
+class org.apache.kafka.common.metrics.stats.WindowedSum {
++  WindowedSum()
++  update(Sample;MetricConfig;double;long)
++  combine(List<Sample>;MetricConfig;long)
+} 
+@enduml

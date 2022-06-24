@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.clients.MetadataUpdater
+class org.apache.kafka.clients.MetadataUpdater {
++  fetchNodes()
++  isUpdateDue(long)
++  maybeUpdate(long)
++  handleServerDisconnect(long;String;Optional<AuthenticationException>)
++  handleFailedRequest(long;Optional<KafkaException>)
++  handleSuccessfulResponse(RequestHeader;long;MetadataResponse)
++  close()
+} 
+@enduml

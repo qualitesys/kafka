@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessorSupplier<KIn,VIn,KOut,VOut>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamFlatTransform"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamFlatTransform" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamFlatTransform"
+ , "c2" : "KStreamFlatTransform(TransformerSupplier<?superKIn,?superVIn,Iterable<KeyValue<KOut,VOut>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<KIn,VIn,KOut,VOut>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<StoreBuilder<?>>"
+ , "c2" : "stores()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.KStreamFlatTransform.KStreamFlatTransformProcessor.process@POLYN167044 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.KStreamFlatTransform.KStreamFlatTransformProcessor.process@POLYN168756 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

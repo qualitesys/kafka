@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "KTableValueGetterSupplier<K,R>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KTableKTableAbstractJoinValueGetterSupplier"
+ , "c2" : "KTableKTableAbstractJoinValueGetterSupplier(KTableValueGetterSupplier<K,V1>;KTableValueGetterSupplier<K,V2>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String[]"
+ , "c2" : "storeNames()"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier.storeNames@POLYN157120 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier.storeNames@POLYN158832 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

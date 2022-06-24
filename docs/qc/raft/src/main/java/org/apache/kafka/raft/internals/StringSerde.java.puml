@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RecordSerde<String> <|-- org.apache.kafka.raft.internals.StringSerde
+class org.apache.kafka.raft.internals.StringSerde {
++  recordSize(String;ObjectSerializationCache)
++  recordSize(String)
++  write(String;ObjectSerializationCache;Writable)
++  read(Readable;int)
+} 
+@enduml

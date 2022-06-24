@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidTopicException
+class org.apache.kafka.common.errors.InvalidTopicException {
++  InvalidTopicException()
++  InvalidTopicException(String;Throwable)
++  InvalidTopicException(String)
++  InvalidTopicException(Throwable)
++  InvalidTopicException(Set<String>)
++  InvalidTopicException(String;Set<String>)
++  invalidTopics()
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.Change
+class org.apache.kafka.streams.kstream.internals.Change {
++  Change(T;T)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

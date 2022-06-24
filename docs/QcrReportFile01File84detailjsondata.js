@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DescribeMetadataQuorumResult"
+ , "c2" : "DescribeMetadataQuorumResult(KafkaFuture<QuorumInfo>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<QuorumInfo>"
+ , "c2" : "quorumInfo()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.svg" }
+
 ] 
 , 
 "data04" : [

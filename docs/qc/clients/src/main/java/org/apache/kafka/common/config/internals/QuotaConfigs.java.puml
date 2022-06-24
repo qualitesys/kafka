@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.config.internals.QuotaConfigs
+class org.apache.kafka.common.config.internals.QuotaConfigs {
++  buildUserClientQuotaConfigDef(ConfigDef)
++  isClientOrUserConfig(String)
++  userConfigs()
++  clientConfigs()
++  ipConfigs()
+} 
+@enduml

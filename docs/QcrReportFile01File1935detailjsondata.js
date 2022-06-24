@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "QueryResult<R>"
+ , "c2" : "org.apache.kafka.streams.query.internals.AbstractQueryResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.query.internals.AbstractQueryResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AbstractQueryResult"
+ , "c2" : "AbstractQueryResult()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractQueryResult"
+ , "c2" : "AbstractQueryResult(List<String>;Position)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addExecutionInfo(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setPosition(Position)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<String>"
+ , "c2" : "getExecutionInfo()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Position"
+ , "c2" : "getPosition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.svg" }
+
 ] 
 , 
 "data04" : [

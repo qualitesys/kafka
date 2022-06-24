@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+RaftClient.Listener<Integer> <|-- org.apache.kafka.raft.ReplicatedCounter
+class org.apache.kafka.raft.ReplicatedCounter {
++  ReplicatedCounter(int;RaftClient<Integer>;LogContext)
++  isWritable()
++  increment()
++  handleCommit(BatchReader<Integer>)
++  handleSnapshot(SnapshotReader<Integer>)
++  handleLeaderChange(LeaderAndEpoch)
++  handleSnapshotCalls()
+} 
+@enduml

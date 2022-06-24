@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractOptions<ListTransactionsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.ListTransactionsOptions"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ListTransactionsOptions" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ListTransactionsOptions"
+ , "c2" : "filterStates(Collection<TransactionState>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ListTransactionsOptions"
+ , "c2" : "filterProducerIds(Collection<Long>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<TransactionState>"
+ , "c2" : "filteredStates()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<Long>"
+ , "c2" : "filteredProducerIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,35 +139,35 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  'ListTransactionsOptions(' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN169439 the MagicNumber/String  'ListTransactionsOptions(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  'filteredStates=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN169439 the MagicNumber/String  'filteredStates=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  ', filteredProducerIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN169439 the MagicNumber/String  ', filteredProducerIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  ', timeoutMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN169439 the MagicNumber/String  ', timeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN167727 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.ListTransactionsOptions.toString@POLYN169439 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,21 +188,21 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN167991 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN169703 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN167991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN169703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN167991 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.ListTransactionsOptions.equals@POLYN169703 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

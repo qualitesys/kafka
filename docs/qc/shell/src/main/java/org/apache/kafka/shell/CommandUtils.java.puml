@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.shell.CommandUtils
+class org.apache.kafka.shell.CommandUtils {
++  getEffectivePaths(List<String>)
++  completeCommand(String;List<Candidate>)
++  splitPath(String)
++  stripDotPathComponents(List<String>)
++  completePath(MetadataNodeManager;String;List<Candidate>)
+} 
+@enduml

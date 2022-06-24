@@ -1,0 +1,33 @@
+@startuml
+!pragma layout smetana
+ProcessorContext<KForward,VForward> <|-- org.apache.kafka.streams.processor.api.MockProcessorContext
+class org.apache.kafka.streams.processor.api.MockProcessorContext {
++  MockProcessorContext()
++  MockProcessorContext(Properties)
++  MockProcessorContext(Properties;TaskId;File)
++  applicationId()
++  taskId()
++  appConfigs()
++  appConfigsWithPrefix(String)
++  currentSystemTimeMs()
++  currentStreamTimeMs()
++  keySerde()
++  valueSerde()
++  stateDir()
++  metrics()
++  setRecordMetadata(String;int;long)
++  setCurrentSystemTimeMs(long)
++  setCurrentStreamTimeMs(long)
++  recordMetadata()
++  schedule(Duration;PunctuationType;Punctuator)
++  scheduledPunctuators()
++  forwarded()
++  forwarded(String)
++  resetForwards()
++  commit()
++  committed()
++  resetCommit()
++  recordCollector()
++  getStateStoreContext()
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory
+class org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory {
++  create(Map<String,?>;Map<String,Object>)
++  create(Map<String,?>;String;Map<String,Object>)
+} 
+@enduml

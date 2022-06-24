@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Windows<UnlimitedWindow> <|-- org.apache.kafka.streams.kstream.UnlimitedWindows
+class org.apache.kafka.streams.kstream.UnlimitedWindows {
++  UnlimitedWindows(long)
++  of()
++  startOn(Instant)
++  windowsFor(long)
++  size()
++  gracePeriodMs()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

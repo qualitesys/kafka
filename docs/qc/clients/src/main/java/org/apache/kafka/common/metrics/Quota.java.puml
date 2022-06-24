@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.metrics.Quota
+class org.apache.kafka.common.metrics.Quota {
++  Quota(double;boolean)
++  upperBound(double)
++  lowerBound(double)
++  isUpperBound()
++  bound()
++  acceptable(double)
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

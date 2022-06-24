@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Serializer<Long> <|-- org.apache.kafka.common.serialization.LongSerializer
+class org.apache.kafka.common.serialization.LongSerializer {
++  serialize(String;Long)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+SourceConnector <|-- org.apache.kafka.connect.tools.VerifiableSourceConnector
+class org.apache.kafka.connect.tools.VerifiableSourceConnector {
++  version()
++  start(Map<String,String>)
++  taskClass()
++  taskConfigs(int)
++  stop()
++  config()
+} 
+@enduml

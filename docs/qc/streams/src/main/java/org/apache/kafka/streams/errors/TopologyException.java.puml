@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.TopologyException
+class org.apache.kafka.streams.errors.TopologyException {
++  TopologyException(String)
++  TopologyException(String;Throwable)
++  TopologyException(Throwable)
+} 
+@enduml

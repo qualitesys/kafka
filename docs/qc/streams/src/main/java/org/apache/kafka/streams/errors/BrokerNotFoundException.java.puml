@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.BrokerNotFoundException
+class org.apache.kafka.streams.errors.BrokerNotFoundException {
++  BrokerNotFoundException(String)
++  BrokerNotFoundException(String;Throwable)
++  BrokerNotFoundException(Throwable)
+} 
+@enduml

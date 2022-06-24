@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.StreamsMetadata
+class org.apache.kafka.streams.StreamsMetadata {
++  hostInfo()
++  stateStoreNames()
++  topicPartitions()
++  standbyTopicPartitions()
++  standbyStateStoreNames()
++  host()
++  port()
++  equals(Object)
++  hashCode()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig
+class org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig {
++  UnwindowedChangelogTopicConfig(String;Map<String,String>)
++  getProperties(Map<String,String>;long)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

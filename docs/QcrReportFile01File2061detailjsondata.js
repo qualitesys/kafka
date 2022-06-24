@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SessionBytesStoreSupplier"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RocksDbTimeOrderedSessionBytesStoreSupplier"
+ , "c2" : "RocksDbTimeOrderedSessionBytesStoreSupplier(String;long;boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SessionStore<Bytes,byte[]>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "metricsScope()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "segmentIntervalMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "retentionPeriod()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbTimeOrderedSessionBytesStoreSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbTimeOrderedSessionBytesStoreSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,21 +118,21 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbTimeOrderedSessionBytesStoreSupplier.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier.metricsScope@POLYN157930 the MagicNumber/String  'rocksdb-session' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier.metricsScope@POLYN159642 the MagicNumber/String  'rocksdb-session' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbTimeOrderedSessionBytesStoreSupplier.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier.segmentIntervalMs@POLYN158032 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier.segmentIntervalMs@POLYN159744 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbTimeOrderedSessionBytesStoreSupplier.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier.segmentIntervalMs@POLYN158032 the MagicNumber/String  60_000L should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier.segmentIntervalMs@POLYN159744 the MagicNumber/String  60_000L should be converted to const"
 }} 
 ]
 };

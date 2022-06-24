@@ -2,18 +2,162 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java 26 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java 31 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "StateStoreMetrics"
+ , "c2" : "StateStoreMetrics()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "putSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "putIfAbsentSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "putAllSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "getSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "fetchSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "allSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "rangeSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "prefixScanSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "flushSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "deleteSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "removeSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "restoreSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "expiredWindowRecordDropSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "suppressionBufferCountSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "suppressionBufferSizeSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "e2ELatencySensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "sizeOrCountSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "throughputAndLatencySensor(String;String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "7"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -64,6 +208,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "18"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -132,6 +283,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00260"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#260"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00260] For method prefixScanSensor list of called methods Object monObjet|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN219206|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN219349"
+}} 
+,
+{ "ligne" : {
    "c1" : "00263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#263"
  , "c2" : "CRITICAL"
@@ -174,6 +332,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00354"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#354"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00354] For method expiredWindowRecordDropSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN221706"
+}} 
+,
+{ "ligne" : {
    "c1" : "00357"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#357"
  , "c2" : "CRITICAL"
@@ -184,14 +349,14 @@ var maDataBlocs = {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN219805 the MagicNumber/String  'stream-' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN221517 the MagicNumber/String  'stream-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN219805 the MagicNumber/String  '-metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN221517 the MagicNumber/String  '-metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,6 +381,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00407"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#407"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00407] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN223169|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN223379"
+}} 
+,
+{ "ligne" : {
    "c1" : "00410"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#410"
  , "c2" : "CRITICAL"
@@ -230,6 +402,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00425"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#425"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00425] For method sizeOrCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN224029|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN224347"
+}} 
+,
+{ "ligne" : {
    "c1" : "00432"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#432"
  , "c2" : "CRITICAL"
@@ -241,6 +420,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#442"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00442] For method throughputAndLatencySensor arguments String  taskId|String  storeType|String  storeName|String  metricName|String  descriptionOfRate|String  descriptionOfAvg|String  descriptionOfMax|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00442"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#442"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00442] For method throughputAndLatencySensor list of called methods Object monObjet|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN225156|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN225293"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.ClientStateTask
+class org.apache.kafka.streams.processor.internals.assignment.ClientStateTask {
++  ClientStateTask(Set<TaskId>;Map<String,Set<TaskId>>)
++  taskIds(Set<TaskId>)
++  taskIds()
++  consumerToTaskIds()
+} 
+@enduml

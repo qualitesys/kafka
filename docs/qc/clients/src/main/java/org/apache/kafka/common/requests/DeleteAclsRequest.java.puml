@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DeleteAclsRequest
+class org.apache.kafka.common.requests.DeleteAclsRequest {
++  DeleteAclsRequest(DeleteAclsRequestData;short)
++  normalizeAndValidate()
++  filters()
++  data()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
++  deleteAclsFilter(AclBindingFilter)
++  aclBindingFilter(DeleteAclsFilter)
+} 
+@enduml

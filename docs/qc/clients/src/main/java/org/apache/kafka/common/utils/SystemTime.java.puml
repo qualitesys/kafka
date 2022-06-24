@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Time <|-- org.apache.kafka.common.utils.SystemTime
+class org.apache.kafka.common.utils.SystemTime {
++  milliseconds()
++  nanoseconds()
++  sleep(long)
++  waitObject(Object;Supplier<Boolean>;long)
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils
+class org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils {
++  JaasOptionsUtils(Map<String,Object>)
++  getOptions(String;List<AppConfigurationEntry>)
++  shouldCreateSSLSocketFactory(URL)
++  getSslClientConfig()
++  createSSLSocketFactory()
++  validateString(String)
++  validateString(String;boolean)
+} 
+@enduml

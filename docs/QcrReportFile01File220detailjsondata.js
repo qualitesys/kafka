@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "TimeoutException"
+ , "c2" : "org.apache.kafka.clients.producer.BufferExhaustedException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.producer.BufferExhaustedException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BufferExhaustedException"
+ , "c2" : "BufferExhaustedException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/BufferExhaustedException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/BufferExhaustedException.java.svg" }
+
 ] 
 , 
 "data04" : [

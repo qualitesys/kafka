@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractIterator<T>"
+ , "c2" : "org.apache.kafka.common.record.RecordBatchIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.RecordBatchIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RecordBatchIterator"
+ , "c2" : "RecordBatchIterator(LogInputStream<T>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "T"
+ , "c2" : "makeNext()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,14 +76,14 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.record.RecordBatchIterator.makeNext@POLYN156270 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.record.RecordBatchIterator.makeNext@POLYN157982 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.record.RecordBatchIterator.makeNext@POLYN156270 the MagicNumber/String  'Unexpected EOF while attempting to read the next batch' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.record.RecordBatchIterator.makeNext@POLYN157982 the MagicNumber/String  'Unexpected EOF while attempting to read the next batch' should be converted to const"
 }} 
 ]
 };

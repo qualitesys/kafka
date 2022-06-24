@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+SourceTask <|-- org.apache.kafka.connect.mirror.MirrorHeartbeatTask
+class org.apache.kafka.connect.mirror.MirrorHeartbeatTask {
++  start(Map<String,String>)
++  commit()
++  stop()
++  version()
++  poll()
++  commitRecord(SourceRecord;RecordMetadata)
+} 
+@enduml

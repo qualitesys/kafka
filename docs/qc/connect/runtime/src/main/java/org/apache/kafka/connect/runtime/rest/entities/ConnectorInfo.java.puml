@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ConnectorInfo
+class org.apache.kafka.connect.runtime.rest.entities.ConnectorInfo {
++  ConnectorInfo(String;Map<String,String>;List<ConnectorTaskId>;ConnectorType)
++  name()
++  type()
++  config()
++  tasks()
++  equals(Object)
++  hashCode()
+} 
+@enduml

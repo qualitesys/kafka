@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "HeaderConverter"
+ , "c2" : "org.apache.kafka.connect.storage.SimpleHeaderConverter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.SimpleHeaderConverter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SchemaAndValue"
+ , "c2" : "toConnectHeader(String;String;byte[])"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "fromConnectHeader(String;String;Schema;Object)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,35 +146,35 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN164198 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN165910 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN164198 the MagicNumber/String  'Failed to deserialize value for header '' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN165910 the MagicNumber/String  'Failed to deserialize value for header '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN164198 the MagicNumber/String  '' on topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN165910 the MagicNumber/String  '' on topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN164198 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN165910 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN164198 the MagicNumber/String  'Failed to deserialize value for header '{}' on topic '{}', so using byte array' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN165910 the MagicNumber/String  'Failed to deserialize value for header '{}' on topic '{}', so using byte array' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -142,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN165356 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN167068 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN165356 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN167068 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

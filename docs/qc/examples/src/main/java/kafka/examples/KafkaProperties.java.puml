@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- kafka.examples.KafkaProperties
+class kafka.examples.KafkaProperties {
++  KafkaProperties()
+} 
+@enduml

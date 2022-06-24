@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+OutOfOrderSequenceException <|-- org.apache.kafka.common.errors.UnknownProducerIdException
+class org.apache.kafka.common.errors.UnknownProducerIdException {
++  UnknownProducerIdException(String)
+} 
+@enduml

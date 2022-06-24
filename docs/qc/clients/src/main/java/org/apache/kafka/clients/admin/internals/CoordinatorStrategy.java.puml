@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AdminApiLookupStrategy<CoordinatorKey> <|-- org.apache.kafka.clients.admin.internals.CoordinatorStrategy
+class org.apache.kafka.clients.admin.internals.CoordinatorStrategy {
++  CoordinatorStrategy(FindCoordinatorRequest.CoordinatorType;LogContext)
++  lookupScope(CoordinatorKey)
++  buildRequest(Set<CoordinatorKey>)
++  handleResponse(Set<CoordinatorKey>;AbstractResponse)
++  disableBatch()
++  requireSingletonAndType(Set<CoordinatorKey>)
++  ensureSameType(Set<CoordinatorKey>)
++  isRepresentableKey(String)
++  handleError(Errors;CoordinatorKey;int;Map<CoordinatorKey,Integer>;Map<CoordinatorKey,Throwable>)
+} 
+@enduml

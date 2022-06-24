@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ListConsumerGroupsResult
+class org.apache.kafka.clients.admin.ListConsumerGroupsResult {
++  ListConsumerGroupsResult(KafkaFuture<Collection<Object>>)
++  all()
++  valid()
++  errors()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Commands.Handler <|-- org.apache.kafka.shell.ErroneousCommandHandler
+class org.apache.kafka.shell.ErroneousCommandHandler {
++  ErroneousCommandHandler(String)
++  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

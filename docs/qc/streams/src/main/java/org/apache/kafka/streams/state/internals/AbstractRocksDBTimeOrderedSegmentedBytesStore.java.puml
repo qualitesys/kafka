@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AbstractDualSchemaRocksDBSegmentedBytesStore<KeyValueSegment> <|-- org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore
+class org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore {
++  AbstractRocksDBTimeOrderedSegmentedBytesStore(String;String;long;long;KeySchema;Optional<KeySchema>)
++  fetch(Bytes;long;long)
++  backwardFetch(Bytes;long;long)
++  getIndexToBaseStoreIterator(SegmentIterator<KeyValueSegment>)
++  fetch(Bytes;long;long;boolean)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;long;long)
++  fetch(Bytes;Bytes;long;long;boolean)
++  remove(Bytes;long)
++  fetchAll(long;long)
++  backwardFetchAll(long;long)
+} 
+@enduml

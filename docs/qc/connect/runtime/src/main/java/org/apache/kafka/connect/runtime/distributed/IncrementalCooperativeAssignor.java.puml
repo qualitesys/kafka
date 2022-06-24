@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+ConnectAssignor <|-- org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor
+class org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor {
++  IncrementalCooperativeAssignor(LogContext;Time;int)
++  performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator)
++  ensureLeaderConfig(long;WorkerCoordinator)
++  performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator;short)
++  performTaskAssignment(ClusterConfigState;int;int;Map<String,ConnectorsAndTasks>)
++  computeDeleted(ConnectorsAndTasks;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>)
++  computePreviousAssignment(Map<String,ConnectorsAndTasks>;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>;ConnectorsAndTasks)
++  duplicatedAssignments(Map<String,ConnectorsAndTasks>)
++  computeDuplicatedAssignments(Map<String,ConnectorsAndTasks>;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>)
++  handleLostAssignments(ConnectorsAndTasks;ConnectorsAndTasks;List<WorkerLoad>)
++  resetDelay()
++  candidateWorkersForReassignment(List<WorkerLoad>)
++  pickCandidateWorkerForReassignment(List<WorkerLoad>)
++  performTaskRevocation(ConnectorsAndTasks;Collection<WorkerLoad>)
++  fillAssignments(Collection<String>;short;String;String;long;ClusterAssignment;int;short)
++  serializeAssignments(Map<String,ExtendedAssignment>;short)
++  diff(ConnectorsAndTasks;ConnectorsAndTasks...)
++  assignment(Map<String,ConnectorsAndTasks>)
++  calculateDelay(long)
++  assignConnectors(List<WorkerLoad>;Collection<String>)
++  assignTasks(List<WorkerLoad>;Collection<ConnectorTaskId>)
++  workerAssignment(Map<String,ConnectorsAndTasks>;ConnectorsAndTasks)
+} 
+@enduml

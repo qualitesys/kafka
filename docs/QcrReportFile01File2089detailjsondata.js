@@ -2,18 +2,141 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java 51 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java 54 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RocksDBSegmentedBytesStore.KeySchema"
+ , "c2" : "org.apache.kafka.streams.state.internals.WindowKeySchema"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.WindowKeySchema" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "upperRange(Bytes;long)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "lowerRange(Bytes;long)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "lowerRangeFixedSize(Bytes;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "upperRangeFixedSize(Bytes;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "segmentTimestamp(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "HasNextCondition"
+ , "c2" : "hasNextCondition(Bytes;Bytes;long;long;boolean)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TimeWindow"
+ , "c2" : "timeWindowForSize(long;long)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Window"
+ , "c2" : "extractWindow(byte[];long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "toStoreKeyBinary(Bytes;long;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "toStoreKeyBinary(Windowed<Bytes>;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Bytes"
+ , "c2" : "toStoreKeyBinary(byte[];long;int)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "extractStoreKeyBytes(byte[])"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "extractStoreTimestamp(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "extractStoreSequence(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Windowed<Bytes>"
+ , "c2" : "fromStoreBytesKey(byte[];long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Window"
+ , "c2" : "extractStoreWindow(byte[];long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +188,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "16"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -86,14 +216,14 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.state.internals.WindowKeySchema.upperRange@POLYN192758 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.state.internals.WindowKeySchema.upperRange@POLYN194470 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.WindowKeySchema.upperRange@POLYN192758 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.WindowKeySchema.upperRange@POLYN194470 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,14 +237,14 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRange@POLYN193294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRange@POLYN195006 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRange@POLYN193294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRange@POLYN195006 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +258,14 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRangeFixedSize@POLYN193619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRangeFixedSize@POLYN195331 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRangeFixedSize@POLYN193619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.WindowKeySchema.lowerRangeFixedSize@POLYN195331 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -167,45 +297,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN194348 the MagicNumber/String  null should be converted to const"
+   "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00064] For method hasNextCondition list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN196460|long WindowKeySchema_extractStoreTimestampN196618"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN194348 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN196060 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN196060 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN194348 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN196060 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN194348 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN196060 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN194348 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN196060 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN194348 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.WindowKeySchema.hasNextCondition@POLYN196060 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -226,14 +363,14 @@ var maDataBlocs = {
    "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.WindowKeySchema.timeWindowForSize@POLYN196005 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.WindowKeySchema.timeWindowForSize@POLYN197717 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.WindowKeySchema.timeWindowForSize@POLYN196005 the MagicNumber/String  'Warning: window end time was truncated to Long.MAX' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.WindowKeySchema.timeWindowForSize@POLYN197717 the MagicNumber/String  'Warning: window end time was truncated to Long.MAX' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -283,6 +420,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#139"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00139] For method toStoreKeyBinary arguments Bytes  key|long  timestamp|int  seqnum"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#139"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00139] For method toStoreKeyBinary list of called methods Object monObjet|byte[] key_getN200390"
 }} 
 ,
 { "ligne" : {
@@ -345,14 +489,14 @@ var maDataBlocs = {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.WindowKeySchema.extractStoreKeyBytes@POLYN200732 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.WindowKeySchema.extractStoreKeyBytes@POLYN202444 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.WindowKeySchema.extractStoreKeyBytes@POLYN200732 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.WindowKeySchema.extractStoreKeyBytes@POLYN202444 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -416,6 +560,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#216"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00216] For method fromStoreBytesKey arguments byte[]  binaryKey|long  windowSize"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#216"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00216] For method fromStoreBytesKey list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN205177|org.apache.kafka.streams.kstream.Window extractStoreWindowN205307"
 }} 
 ,
 { "ligne" : {

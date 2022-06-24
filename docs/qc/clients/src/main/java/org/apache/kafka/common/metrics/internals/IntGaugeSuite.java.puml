@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.common.metrics.internals.IntGaugeSuite
+class org.apache.kafka.common.metrics.internals.IntGaugeSuite {
++  IntGaugeSuite(Logger;String;Metrics;Function<K,MetricName>;int)
++  increment(K)
++  performPendingMetricsOperations()
++  decrement(K)
++  close()
++  maxEntries()
++  metrics()
++  values()
+} 
+@enduml

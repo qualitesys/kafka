@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.Window
+class org.apache.kafka.streams.kstream.Window {
++  Window(long;long)
++  start()
++  end()
++  startTime()
++  endTime()
++  overlap(Window)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

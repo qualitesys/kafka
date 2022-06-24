@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.replica.ReplicaView
+class org.apache.kafka.common.replica.ReplicaView {
++  endpoint()
++  logEndOffset()
++  timeSinceLastCaughtUpMs()
++  comparator()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+PeekingKeyValueIterator<Bytes,LRUCacheEntry> <|-- org.apache.kafka.streams.state.internals.FilteredCacheIterator
+class org.apache.kafka.streams.state.internals.FilteredCacheIterator {
++  FilteredCacheIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;HasNextCondition;CacheFunction)
++  close()
++  peekNextKey()
++  hasNext()
++  next()
++  peekNext()
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Configurable <|-- org.apache.kafka.server.quota.ClientQuotaCallback
+class org.apache.kafka.server.quota.ClientQuotaCallback {
++  quotaMetricTags(ClientQuotaType;KafkaPrincipal;String)
++  quotaLimit(ClientQuotaType;Map<String,String>)
++  updateQuota(ClientQuotaType;ClientQuotaEntity;double)
++  removeQuota(ClientQuotaType;ClientQuotaEntity)
++  quotaResetRequired(ClientQuotaType)
++  updateClusterMetadata(Cluster)
++  close()
+} 
+@enduml

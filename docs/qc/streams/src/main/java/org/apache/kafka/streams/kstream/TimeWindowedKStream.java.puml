@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.TimeWindowedKStream
+class org.apache.kafka.streams.kstream.TimeWindowedKStream {
++  count()
++  count(Named)
++  count(Materialized<K,Long,WindowStore<Bytes,byte[]>>)
++  count(Named;Materialized<K,Long,WindowStore<Bytes,byte[]>>)
++  reduce(Reducer<V>)
++  reduce(Reducer<V>;Named)
++  reduce(Reducer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>)
++  reduce(Reducer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>)
++  emitStrategy(EmitStrategy)
+} 
+@enduml

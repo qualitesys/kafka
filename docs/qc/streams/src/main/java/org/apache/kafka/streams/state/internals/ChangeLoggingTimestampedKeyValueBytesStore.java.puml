@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ChangeLoggingKeyValueBytesStore <|-- org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore
+class org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore {
++  ChangeLoggingTimestampedKeyValueBytesStore(KeyValueStore<Bytes,byte[]>)
++  log(Bytes;byte[])
+} 
+@enduml

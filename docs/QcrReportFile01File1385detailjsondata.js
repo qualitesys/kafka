@@ -8,12 +8,100 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Revertable"
+ , "c2" : "org.apache.kafka.timeline.TimelineInteger"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.timeline.TimelineInteger" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TimelineInteger"
+ , "c2" : "TimelineInteger(SnapshotRegistry)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "get(long)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "set(int)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "increment()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "decrement()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "executeRevert(long;Delta)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "reset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -163,7 +251,7 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.timeline.TimelineInteger.get@POLYN164529 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.timeline.TimelineInteger.get@POLYN166241 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -177,21 +265,21 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.timeline.TimelineInteger.set@POLYN165203 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.timeline.TimelineInteger.set@POLYN166915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.timeline.TimelineInteger.increment@POLYN166000 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.timeline.TimelineInteger.increment@POLYN167712 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.timeline.TimelineInteger.decrement@POLYN166140 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.timeline.TimelineInteger.decrement@POLYN167852 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -212,7 +300,7 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.TimelineInteger.equals@POLYN166813 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.TimelineInteger.equals@POLYN168525 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

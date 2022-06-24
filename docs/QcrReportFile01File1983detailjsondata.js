@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ChangeLoggingWindowBytesStore"
+ , "c2" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ChangeLoggingTimestampedWindowBytesStore"
+ , "c2" : "ChangeLoggingTimestampedWindowBytesStore(WindowStore<Bytes,byte[]>;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "log(Bytes;byte[])"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,14 +90,14 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore.log@POLYN156986 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore.log@POLYN158698 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore.log@POLYN156986 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore.log@POLYN158698 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

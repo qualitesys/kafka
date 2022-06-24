@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+ConsumerRebalanceListener <|-- org.apache.kafka.streams.processor.internals.StreamsRebalanceListener
+class org.apache.kafka.streams.processor.internals.StreamsRebalanceListener {
++  StreamsRebalanceListener(Time;TaskManager;StreamThread;Logger;AtomicInteger)
++  onPartitionsAssigned(Collection<TopicPartition>)
++  onPartitionsRevoked(Collection<TopicPartition>)
++  onPartitionsLost(Collection<TopicPartition>)
+} 
+@enduml

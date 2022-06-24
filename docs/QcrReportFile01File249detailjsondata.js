@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.producer.internals.TransactionalRequestResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.producer.internals.TransactionalRequestResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TransactionalRequestResult"
+ , "c2" : "TransactionalRequestResult(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TransactionalRequestResult"
+ , "c2" : "TransactionalRequestResult(CountDownLatch;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "fail(RuntimeException)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "done()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "await()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "await(long;TimeUnit)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RuntimeException"
+ , "c2" : "error()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isSuccessful()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isCompleted()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isAcked()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.TransactionalRequestResult@POLYN160198 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.TransactionalRequestResult@POLYN161910 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,49 +195,49 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN161033 the MagicNumber/String  'Timeout expired after ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN162745 the MagicNumber/String  'Timeout expired after ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN161033 the MagicNumber/String  'ms while awaiting ' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN162745 the MagicNumber/String  'ms while awaiting ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN161033 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN162745 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN161033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN162745 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN161033 the MagicNumber/String  'Received interrupt while awaiting ' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.await@POLYN162745 the MagicNumber/String  'Received interrupt while awaiting ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.isSuccessful@POLYN161922 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.isSuccessful@POLYN163634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.isCompleted@POLYN162066 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.TransactionalRequestResult.isCompleted@POLYN163778 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -2,18 +2,64 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java 22 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java 23 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.controller.QuorumFeatures"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.controller.QuorumFeatures" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "QuorumFeatures"
+ , "c2" : "QuorumFeatures(int;ApiVersions;Map<String,VersionRange>;List<Integer>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "QuorumFeatures"
+ , "c2" : "create(int;ApiVersions;Map<String,VersionRange>;Collection<Node>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,VersionRange>"
+ , "c2" : "defaultFeatureMap()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<String>"
+ , "c2" : "reasonNotSupported(String;short)"
+ , "c3" : "11"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : {
+   "c1" : "VersionRange"
+ , "c2" : "localSupportedFeature(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,6 +125,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -107,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.QuorumFeatures.defaultFeatureMap@POLYN173490 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.QuorumFeatures.defaultFeatureMap@POLYN175202 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -115,6 +168,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#65"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00065] For method reasonNotSupported arguments String  featureName|short  level"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#65"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00065] For method reasonNotSupported list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions apiVersions_getN176867|java.util.Map&lt;String,org.apache.kafka.common.feature.SupportedVersionRange&gt; nodeVersions_supportedFeaturesN177200"
 }} 
 ,
 { "ligne" : {
@@ -142,84 +202,84 @@ var maDataBlocs = {
    "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  'Local controller ' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  'Local controller ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  ' does not support this feature.' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  ' does not support this feature.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  'Local controller ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  'Local controller ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  ' only supports versions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  ' only supports versions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  'Controller ' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  'Controller ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  ' does not support this feature.' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  ' does not support this feature.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  'Controller ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  'Controller ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  ' only supports versions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  ' only supports versions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  'Unable to get feature level information for controller(s): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  'Unable to get feature level information for controller(s): ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN174178 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN175890 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {

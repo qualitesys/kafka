@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.record.RecordConversionStats"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.RecordConversionStats" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RecordConversionStats"
+ , "c2" : "RecordConversionStats(long;int;long)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RecordConversionStats"
+ , "c2" : "RecordConversionStats()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "add(RecordConversionStats)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "temporaryMemoryBytes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "numRecordsConverted()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "conversionTimeNanos()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,21 +139,21 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN159518 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN161230 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN159518 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN161230 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN159518 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN161230 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.record.RecordConversionStats.toString@POLYN160590 the MagicNumber/String  'RecordConversionStats(temporaryMemoryBytes=%d, numRecordsConverted=%d, conversionTimeNanos=%d)' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.record.RecordConversionStats.toString@POLYN162302 the MagicNumber/String  'RecordConversionStats(temporaryMemoryBytes=%d, numRecordsConverted=%d, conversionTimeNanos=%d)' should be converted to const"
 }} 
 ]
 };

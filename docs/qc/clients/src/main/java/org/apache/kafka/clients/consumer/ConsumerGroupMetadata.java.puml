@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerGroupMetadata
+class org.apache.kafka.clients.consumer.ConsumerGroupMetadata {
++  ConsumerGroupMetadata(String;int;String;Optional<String>)
++  ConsumerGroupMetadata(String)
++  groupId()
++  generationId()
++  memberId()
++  groupInstanceId()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

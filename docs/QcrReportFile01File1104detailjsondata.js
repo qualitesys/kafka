@@ -2,18 +2,71 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java 38 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java 55 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectAssignor"
+ , "c2" : "org.apache.kafka.connect.runtime.distributed.EagerAssignor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.EagerAssignor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "EagerAssignor"
+ , "c2" : "EagerAssignor(LogContext)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,ByteBuffer>"
+ , "c2" : "performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "ensureLeaderConfig(long;WorkerCoordinator)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,ByteBuffer>"
+ , "c2" : "performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator)"
+ , "c3" : "4"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,ByteBuffer>"
+ , "c2" : "fillAssignmentsAndSerialize(Collection<String>;short;String;String;long;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>)"
+ , "c3" : "4"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "findMaxMemberConfigOffset(Map<String,ExtendedWorkerState>;WorkerCoordinator)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +90,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "11"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "8"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -72,6 +148,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -97,17 +180,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#32"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00032] For method performAssignment list of called methods Object monObjet|long findMaxMemberConfigOffsetN183728|Long ensureLeaderConfigN183836"
+}} 
+,
+{ "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performAssignment@POLYN181359 the MagicNumber/String  'Performing task assignment' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performAssignment@POLYN183071 the MagicNumber/String  'Performing task assignment' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performAssignment@POLYN181359 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performAssignment@POLYN183071 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -115,6 +205,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#49"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00049] For method ensureLeaderConfig arguments long  maxOffset|WorkerCoordinator  coordinator"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#49"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00049] For method ensureLeaderConfig list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState coordinator_configFreshSnapshotN184684"
 }} 
 ,
 { "ligne" : {
@@ -128,21 +225,21 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.ensureLeaderConfig@POLYN182739 the MagicNumber/String  'Was selected to perform assignments, but do not have latest config found in sync request. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.ensureLeaderConfig@POLYN184451 the MagicNumber/String  'Was selected to perform assignments, but do not have latest config found in sync request. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.ensureLeaderConfig@POLYN182739 the MagicNumber/String  'Returning an empty configuration to trigger re-sync.' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.ensureLeaderConfig@POLYN184451 the MagicNumber/String  'Returning an empty configuration to trigger re-sync.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.ensureLeaderConfig@POLYN182739 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.ensureLeaderConfig@POLYN184451 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -219,14 +316,14 @@ var maDataBlocs = {
    "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performTaskAssignment@POLYN183467 the MagicNumber/String  'Assigning connector {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performTaskAssignment@POLYN185179 the MagicNumber/String  'Assigning connector {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performTaskAssignment@POLYN183467 the MagicNumber/String  'Assigning task {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performTaskAssignment@POLYN185179 the MagicNumber/String  'Assigning task {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -275,28 +372,28 @@ var maDataBlocs = {
    "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN185944 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN185944 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN185944 the MagicNumber/String  'Assignment: {} -&amp;gt; {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String  'Assignment: {} -&amp;gt; {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN185944 the MagicNumber/String  'Finished assignment' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String  'Finished assignment' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -324,21 +421,126 @@ var maDataBlocs = {
    "c1" : "00133"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN187592 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN189304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN187592 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN189304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN187592 the MagicNumber/String  'Max config offset root: {}, local snapshot config offsets root: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN189304 the MagicNumber/String  'Max config offset root: {}, local snapshot config offsets root: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.EagerAssignor.performAssignment@POLYN183071"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN189304"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.EagerAssignor.performTaskAssignment@POLYN185179"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00035"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#35"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performAssignment@POLYN183071 the MagicNumber/String 'Performing task assignment' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performAssignment@POLYN183071 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00133"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN189304 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00136"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN189304 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00142"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.findMaxMemberConfigOffset@POLYN189304 the MagicNumber/String 'Max config offset root: {}, local snapshot config offsets root: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performTaskAssignment@POLYN185179 the MagicNumber/String 'Assigning connector {} to {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.performTaskAssignment@POLYN185179 the MagicNumber/String 'Assigning task {} to {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00121"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String 'Assignment: {} -&amp;gt; {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00124"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN187656 the MagicNumber/String 'Finished assignment' MUST BE CONVERTED to const"
 }} 
 ]
 };

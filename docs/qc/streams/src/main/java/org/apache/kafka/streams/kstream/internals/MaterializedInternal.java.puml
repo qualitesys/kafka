@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+Materialized<K,V,S> <|-- org.apache.kafka.streams.kstream.internals.MaterializedInternal
+class org.apache.kafka.streams.kstream.internals.MaterializedInternal {
++  MaterializedInternal(Materialized<K,V,S>)
++  MaterializedInternal(Materialized<K,V,S>;InternalNameProvider;String)
++  queryableStoreName()
++  storeName()
++  storeType()
++  storeSupplier()
++  keySerde()
++  valueSerde()
++  loggingEnabled()
++  logConfig()
++  cachingEnabled()
++  retention()
+} 
+@enduml

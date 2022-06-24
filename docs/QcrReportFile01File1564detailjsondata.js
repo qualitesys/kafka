@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.TopologyException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.TopologyException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TopologyException"
+ , "c2" : "TopologyException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopologyException"
+ , "c2" : "TopologyException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopologyException"
+ , "c2" : "TopologyException(Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,56 +83,56 @@ var maDataBlocs = {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156312 the MagicNumber/String  'Invalid topology' should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158024 the MagicNumber/String  'Invalid topology' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156312 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158024 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156312 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158024 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156312 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158024 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156654 the MagicNumber/String  'Invalid topology' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158366 the MagicNumber/String  'Invalid topology' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158366 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156654 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158366 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN156654 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN158366 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ]
 };

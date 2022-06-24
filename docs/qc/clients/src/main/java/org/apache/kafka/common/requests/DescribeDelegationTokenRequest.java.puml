@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.DescribeDelegationTokenRequest
+class org.apache.kafka.common.requests.DescribeDelegationTokenRequest {
++  DescribeDelegationTokenRequest(DescribeDelegationTokenRequestData;short)
++  data()
++  ownersListEmpty()
++  getErrorResponse(int;Throwable)
++  parse(ByteBuffer;short)
+} 
+@enduml

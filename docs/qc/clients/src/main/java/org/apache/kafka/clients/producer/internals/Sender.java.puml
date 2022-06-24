@@ -1,0 +1,37 @@
+@startuml
+!pragma layout smetana
+Runnable <|-- org.apache.kafka.clients.producer.internals.Sender
+class org.apache.kafka.clients.producer.internals.Sender {
++  Sender(LogContext;KafkaClient;ProducerMetadata;RecordAccumulator;boolean;int;short;int;SenderMetricsRegistry;Time;int;long;TransactionManager;ApiVersions)
++  inFlightBatches(TopicPartition)
++  maybeRemoveFromInflightBatches(ProducerBatch)
++  maybeRemoveAndDeallocateBatch(ProducerBatch)
++  getExpiredInflightBatches(long)
++  addToInflightBatches(List<ProducerBatch>)
++  addToInflightBatches(Map<Integer,List<ProducerBatch>>)
++  hasPendingTransactionalRequests()
++  run()
++  runOnce()
++  sendProducerData(long)
++  maybeSendAndPollTransactionalRequest()
++  maybeFindCoordinatorAndRetry(TransactionManager.TxnRequestHandler)
++  maybeAbortBatches(RuntimeException)
++  initiateClose()
++  forceClose()
++  isRunning()
++  awaitNodeReady(Node;FindCoordinatorRequest.CoordinatorType)
++  handleProduceResponse(ClientResponse;Map<TopicPartition,ProducerBatch>;long)
++  completeBatch(ProducerBatch;ProduceResponse.PartitionResponse;long;long)
++  formatErrMsg(ProduceResponse.PartitionResponse)
++  reenqueueBatch(ProducerBatch;long)
++  completeBatch(ProducerBatch;ProduceResponse.PartitionResponse)
++  failBatch(ProducerBatch;ProduceResponse.PartitionResponse;boolean)
++  failBatch(ProducerBatch;RuntimeException;boolean)
++  failBatch(ProducerBatch;RuntimeException;Function<Integer,RuntimeException>;boolean)
++  canRetry(ProducerBatch;ProduceResponse.PartitionResponse;long)
++  sendProduceRequests(Map<Integer,List<ProducerBatch>>;long)
++  sendProduceRequest(long;int;short;int;List<ProducerBatch>)
++  wakeup()
++  throttleTimeSensor(SenderMetricsRegistry)
+} 
+@enduml

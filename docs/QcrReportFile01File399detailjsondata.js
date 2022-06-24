@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.ReassignmentInProgressException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.ReassignmentInProgressException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ReassignmentInProgressException"
+ , "c2" : "ReassignmentInProgressException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ReassignmentInProgressException"
+ , "c2" : "ReassignmentInProgressException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ReassignmentInProgressException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ReassignmentInProgressException.java.svg" }
+
 ] 
 , 
 "data04" : [

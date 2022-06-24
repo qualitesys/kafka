@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.StreamPartitioner
+class org.apache.kafka.streams.processor.StreamPartitioner {
++  partition(String;K;V;int)
+} 
+@enduml

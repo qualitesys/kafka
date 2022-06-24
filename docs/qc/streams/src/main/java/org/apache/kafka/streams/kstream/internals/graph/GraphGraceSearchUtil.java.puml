@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil
+class org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil {
++  GraphGraceSearchUtil()
++  findAndVerifyWindowGrace(GraphNode)
++  findAndVerifyWindowGrace(GraphNode;String)
++  extractGracePeriod(GraphNode)
+} 
+@enduml

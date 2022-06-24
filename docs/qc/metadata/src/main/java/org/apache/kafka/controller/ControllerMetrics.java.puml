@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.controller.ControllerMetrics
+class org.apache.kafka.controller.ControllerMetrics {
++  setActive(boolean)
++  active()
++  updateEventQueueTime(long)
++  updateEventQueueProcessingTime(long)
++  setFencedBrokerCount(int)
++  fencedBrokerCount()
++  setActiveBrokerCount(int)
++  activeBrokerCount()
++  setGlobalTopicsCount(int)
++  globalTopicsCount()
++  setGlobalPartitionCount(int)
++  globalPartitionCount()
++  setOfflinePartitionCount(int)
++  offlinePartitionCount()
++  setPreferredReplicaImbalanceCount(int)
++  preferredReplicaImbalanceCount()
++  setLastAppliedRecordOffset(long)
++  lastAppliedRecordOffset()
++  setLastCommittedRecordOffset(long)
++  lastCommittedRecordOffset()
++  setLastAppliedRecordTimestamp(long)
++  lastAppliedRecordTimestamp()
++  close()
+} 
+@enduml

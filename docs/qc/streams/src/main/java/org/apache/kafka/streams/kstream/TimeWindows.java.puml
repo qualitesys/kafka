@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+Windows<TimeWindow> <|-- org.apache.kafka.streams.kstream.TimeWindows
+class org.apache.kafka.streams.kstream.TimeWindows {
++  TimeWindows(long;long;long;boolean)
++  ofSizeWithNoGrace(Duration)
++  ofSizeAndGrace(Duration;Duration)
++  of(Duration)
++  advanceBy(Duration)
++  windowsFor(long)
++  size()
++  grace(Duration)
++  gracePeriodMs()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

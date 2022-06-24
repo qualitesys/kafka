@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.MemberToRemove
+class org.apache.kafka.clients.admin.MemberToRemove {
++  MemberToRemove(String)
++  equals(Object)
++  hashCode()
++  toMemberIdentity()
++  groupInstanceId()
+} 
+@enduml

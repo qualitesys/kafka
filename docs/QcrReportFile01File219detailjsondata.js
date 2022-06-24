@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.consumer.internals.Utils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.internals.Utils" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,14 +119,14 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN159578 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN161290 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN159578 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN161290 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.sink.ErrantRecordReporter
+class org.apache.kafka.connect.sink.ErrantRecordReporter {
++  report(SinkRecord;Throwable)
+} 
+@enduml

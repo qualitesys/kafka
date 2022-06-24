@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.Replicas
+class org.apache.kafka.metadata.Replicas {
++  toList(int[])
++  toArray(List<Integer>)
++  clone(int[])
++  validate(int[])
++  validateIsr(int[];int[])
++  contains(int[];int)
++  contains(List<Integer>;int[])
++  copyWithout(int[];int)
++  copyWithout(int[];int[])
++  copyWith(int[];int)
++  toSet(int[])
+} 
+@enduml

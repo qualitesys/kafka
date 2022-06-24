@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+KafkaStreams <|-- org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper
+class org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper {
++  KafkaStreamsNamedTopologyWrapper(Properties)
++  KafkaStreamsNamedTopologyWrapper(Properties;KafkaClientSupplier)
++  KafkaStreamsNamedTopologyWrapper(StreamsConfig;KafkaClientSupplier)
++  start(NamedTopology)
++  start(Collection<NamedTopology>)
++  newNamedTopologyBuilder(String;Properties)
++  newNamedTopologyBuilder(String)
++  getTopologyByName(String)
++  getAllTopologies()
++  addNamedTopology(NamedTopology)
++  removeNamedTopology(String;boolean)
++  pauseNamedTopology(String)
++  isNamedTopologyPaused(String)
++  resumeNamedTopology(String)
++  maybeCompleteFutureIfStillInCREATED(KafkaFutureImpl<Void>;String)
++  resetOffsets(Set<TopicPartition>)
++  removeNamedTopology(String)
++  cleanUpNamedTopology(String)
++  getFullTopologyDescription()
++  verifyTopologyStateStore(String;String)
++  streamsMetadataForStore(String;String)
++  allStreamsClientsMetadataForTopology(String)
++  allLocalStorePartitionLagsForTopology(String)
+} 
+@enduml

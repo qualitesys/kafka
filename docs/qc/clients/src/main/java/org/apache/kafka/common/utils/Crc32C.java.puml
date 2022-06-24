@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.utils.Crc32C
+class org.apache.kafka.common.utils.Crc32C {
++  Crc32C()
++  compute(byte[];int;int)
++  compute(ByteBuffer;int;int)
++  create()
+} 
+@enduml

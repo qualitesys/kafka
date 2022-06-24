@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessorSupplier<KIn,VIn,KOut,VOut>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamFlatMap"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamFlatMap" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamFlatMap"
+ , "c2" : "KStreamFlatMap(KeyValueMapper<?superKIn,?superVIn,?extendsIterable<?extendsKeyValue<?extendsKOut,?extendsVOut>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<KIn,VIn,KOut,VOut>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KStreamFlatMap.KStreamFlatMapProcessor.process@POLYN161374 the MagicNumber/String  'The provided KeyValueMapper returned null which is not allowed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KStreamFlatMap.KStreamFlatMapProcessor.process@POLYN163086 the MagicNumber/String  'The provided KeyValueMapper returned null which is not allowed.' should be converted to const"
 }} 
 ]
 };

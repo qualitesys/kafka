@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.InvalidProducerEpochException
+class org.apache.kafka.common.errors.InvalidProducerEpochException {
++  InvalidProducerEpochException(String)
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+SourceConnector <|-- org.apache.kafka.connect.tools.SchemaSourceConnector
+class org.apache.kafka.connect.tools.SchemaSourceConnector {
++  version()
++  start(Map<String,String>)
++  taskClass()
++  taskConfigs(int)
++  stop()
++  config()
+} 
+@enduml

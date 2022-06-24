@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.PartitionChangeBuilder
+class org.apache.kafka.controller.PartitionChangeBuilder {
++  changeRecordIsNoOp(PartitionChangeRecord)
++  PartitionChangeBuilder(PartitionRegistration;Uuid;int;Function<Integer,Boolean>;boolean)
++  setTargetIsr(List<Integer>)
++  setTargetReplicas(List<Integer>)
++  setElection(Election)
++  setTargetRemoving(List<Integer>)
++  setTargetAdding(List<Integer>)
++  setTargetLeaderRecoveryState(LeaderRecoveryState)
++  electLeader()
++  electPreferredLeader()
++  electAnyLeader()
++  isValidNewLeader(int)
++  tryElection(PartitionChangeRecord)
++  triggerLeaderEpochBumpIfNeeded(PartitionChangeRecord)
++  completeReassignmentIfNeeded()
++  build()
++  toString()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.SnapshotGenerator
+class org.apache.kafka.controller.SnapshotGenerator {
++  SnapshotGenerator(LogContext;SnapshotWriter<ApiMessageAndVersion>;int;List<Section>)
++  lastContainedLogOffset()
++  writer()
++  generateBatch()
++  generateBatches()
+} 
+@enduml

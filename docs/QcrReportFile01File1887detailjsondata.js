@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TopicPartitionMetadata"
+ , "c2" : "TopicPartitionMetadata(long;ProcessorMetadata)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "partitionTime()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ProcessorMetadata"
+ , "c2" : "processorMetadata()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "encode()"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TopicPartitionMetadata"
+ , "c2" : "decode(String)"
+ , "c3" : "5"
+ , "c4" : "15"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -114,28 +174,28 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN166037 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN167749 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN166037 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN167749 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN166037 the MagicNumber/String  'Unsupported offset metadata version found. Supported version &amp;lt;= {}. Found version {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN167749 the MagicNumber/String  'Unsupported offset metadata version found. Supported version &amp;lt;= {}. Found version {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN166037 the MagicNumber/String  'Unsupported offset metadata found' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN167749 the MagicNumber/String  'Unsupported offset metadata found' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,21 +209,21 @@ var maDataBlocs = {
    "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN167893 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN169605 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN167893 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN169605 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN167893 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN169605 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {

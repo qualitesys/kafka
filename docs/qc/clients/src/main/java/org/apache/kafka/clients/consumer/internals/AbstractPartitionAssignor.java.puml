@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ConsumerPartitionAssignor <|-- org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor
+class org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor {
++  assign(Map<String,Integer>;Map<String,Subscription>)
++  assign(Cluster;GroupSubscription)
++  partitions(String;int)
+} 
+@enduml

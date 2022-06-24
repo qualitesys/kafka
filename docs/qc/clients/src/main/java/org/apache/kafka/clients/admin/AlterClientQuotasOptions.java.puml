@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<AlterClientQuotasOptions> <|-- org.apache.kafka.clients.admin.AlterClientQuotasOptions
+class org.apache.kafka.clients.admin.AlterClientQuotasOptions {
++  validateOnly()
++  validateOnly(boolean)
+} 
+@enduml

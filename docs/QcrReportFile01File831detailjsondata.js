@@ -2,18 +2,57 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java 15 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java 17 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthenticateCallbackHandler"
+ , "c2" : "org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handle(Callback[])"
+ , "c3" : "6"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "authenticate(String;char[])"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,6 +118,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -101,6 +147,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#32"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00032] For method handle arguments Callback[]  callbacks"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#32"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00032] For method handle list of called methods Object monObjet|boolean authenticateN164612"
 }} 
 ,
 { "ligne" : {
@@ -142,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.handle@POLYN162347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.handle@POLYN164059 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,24 +206,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00046] For method authenticate list of called methods Object monObjet|String JaasContext_configEntryOptionN165116"
+}} 
+,
+{ "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.authenticate@POLYN163155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.authenticate@POLYN164867 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.authenticate@POLYN163155 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.authenticate@POLYN164867 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.authenticate@POLYN163155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler.authenticate@POLYN164867 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

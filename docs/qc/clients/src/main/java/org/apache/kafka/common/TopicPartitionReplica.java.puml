@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Serializable <|-- org.apache.kafka.common.TopicPartitionReplica
+class org.apache.kafka.common.TopicPartitionReplica {
++  TopicPartitionReplica(String;int;int)
++  topic()
++  partition()
++  brokerId()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

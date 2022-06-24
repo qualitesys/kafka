@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.controller.BrokerControlStates"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.controller.BrokerControlStates" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BrokerControlStates"
+ , "c2" : "BrokerControlStates(BrokerControlState;BrokerControlState)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokerControlState"
+ , "c2" : "current()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "BrokerControlState"
+ , "c2" : "next()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,28 +132,28 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.controller.BrokerControlStates.equals@POLYN156177 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.controller.BrokerControlStates.equals@POLYN157889 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.BrokerControlStates.toString@POLYN156571 the MagicNumber/String  'BrokerControlStates(current=' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.BrokerControlStates.toString@POLYN158283 the MagicNumber/String  'BrokerControlStates(current=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.BrokerControlStates.toString@POLYN156571 the MagicNumber/String  ', next=' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.BrokerControlStates.toString@POLYN158283 the MagicNumber/String  ', next=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.BrokerControlStates.toString@POLYN156571 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.BrokerControlStates.toString@POLYN158283 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.UnsupportedVersionException
+class org.apache.kafka.common.errors.UnsupportedVersionException {
++  UnsupportedVersionException(String;Throwable)
++  UnsupportedVersionException(String)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.shell.InteractiveShell
+class org.apache.kafka.shell.InteractiveShell {
++  InteractiveShell(MetadataNodeManager)
++  runMainLoop()
++  screenWidth()
++  history(int)
++  close()
+} 
+@enduml

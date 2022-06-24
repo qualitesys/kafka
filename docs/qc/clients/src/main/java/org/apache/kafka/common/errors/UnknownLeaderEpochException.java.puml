@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.UnknownLeaderEpochException
+class org.apache.kafka.common.errors.UnknownLeaderEpochException {
++  UnknownLeaderEpochException(String)
++  UnknownLeaderEpochException(String;Throwable)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.Windows
+class org.apache.kafka.streams.kstream.Windows {
++  Windows()
++  windowsFor(long)
++  size()
++  gracePeriodMs()
+} 
+@enduml

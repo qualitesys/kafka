@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ReadOnlyWindowStore<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ReadOnlyWindowStoreFacade"
+ , "c2" : "ReadOnlyWindowStoreFacade(TimestampedWindowStore<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "fetch(K;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<V>"
+ , "c2" : "fetch(K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<V>"
+ , "c2" : "backwardFetch(K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "fetch(K;K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "backwardFetch(K;K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "fetchAll(Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "backwardFetchAll(Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "backwardAll()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.svg" }
+
 ] 
 , 
 "data04" : [

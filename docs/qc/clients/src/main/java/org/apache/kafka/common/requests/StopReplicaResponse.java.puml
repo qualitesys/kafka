@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.StopReplicaResponse
+class org.apache.kafka.common.requests.StopReplicaResponse {
++  StopReplicaResponse(StopReplicaResponseData)
++  partitionErrors()
++  error()
++  errorCounts()
++  parse(ByteBuffer;short)
++  throttleTimeMs()
++  data()
++  toString()
+} 
+@enduml

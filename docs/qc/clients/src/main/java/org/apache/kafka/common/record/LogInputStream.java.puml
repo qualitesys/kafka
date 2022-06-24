@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.record.LogInputStream
+class org.apache.kafka.common.record.LogInputStream {
++  nextBatch()
+} 
+@enduml

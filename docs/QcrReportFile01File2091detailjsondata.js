@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "WindowStoreIteratorWrapper"
+ , "c2" : "WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIteratorWrapper"
+ , "c2" : "WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long;Function<byte[],Long>;BiFunction<byte[],Long,Windowed<Bytes>>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "valuesIterator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "keyValueIterator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.svg" }
+
 ] 
 , 
 "data04" : [

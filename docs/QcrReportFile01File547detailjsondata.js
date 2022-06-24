@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RecordBatch"
+ , "c2" : "org.apache.kafka.common.record.AbstractRecordBatch"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.record.AbstractRecordBatch" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasProducerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "nextOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isCompressed()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN153614 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN155326 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

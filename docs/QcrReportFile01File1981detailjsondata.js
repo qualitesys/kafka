@@ -8,12 +8,121 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WrappedStateStore<SessionStore<Bytes,byte[]>,byte[],byte[]>SessionStore<Bytes,byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ChangeLoggingSessionBytesStore"
+ , "c2" : "ChangeLoggingSessionBytesStore(SessionStore<Bytes,byte[]>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(ProcessorContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(StateStoreContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "findSessions(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFindSessions(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "findSessions(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFindSessions(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "remove(Windowed<Bytes>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(Windowed<Bytes>;byte[])"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "fetchSession(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetch(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetch(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetch(Bytes;Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetch(Bytes;Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore.remove@POLYN173710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore.remove@POLYN175422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

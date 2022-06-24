@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.coordinator.CoordinatorRestResource
+class org.apache.kafka.trogdor.coordinator.CoordinatorRestResource {
++  setCoordinator(Coordinator)
++  status()
++  uptime()
++  createTask(CreateTaskRequest)
++  stopTask(StopTaskRequest)
++  destroyTask(String)
++  tasks(List<String>;long;long;long;long;String)
++  tasks(String)
++  beginShutdown(CoordinatorShutdownRequest)
++  coordinator()
+} 
+@enduml

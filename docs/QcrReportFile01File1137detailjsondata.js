@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectRestExtensionContext"
+ , "c2" : "org.apache.kafka.connect.runtime.rest.ConnectRestExtensionContextImpl"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.rest.ConnectRestExtensionContextImpl" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConnectRestExtensionContextImpl"
+ , "c2" : "ConnectRestExtensionContextImpl(Configurable<?extendsConfigurable<?>>;ConnectClusterState)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Configurable<?extendsConfigurable<?>>"
+ , "c2" : "configurable()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectClusterState"
+ , "c2" : "clusterState()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.svg" }
+
 ] 
 , 
 "data04" : [

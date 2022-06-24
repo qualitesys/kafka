@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+Principal <|-- org.apache.kafka.common.security.auth.KafkaPrincipal
+class org.apache.kafka.common.security.auth.KafkaPrincipal {
++  KafkaPrincipal(String;String)
++  KafkaPrincipal(String;String;boolean)
++  toString()
++  equals(Object)
++  hashCode()
++  getName()
++  getPrincipalType()
++  tokenAuthenticated(boolean)
++  tokenAuthenticated()
+} 
+@enduml

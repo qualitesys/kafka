@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ClusterDelta
+class org.apache.kafka.image.ClusterDelta {
++  ClusterDelta(ClusterImage)
++  changedBrokers()
++  broker(int)
++  finishSnapshot()
++  handleMetadataVersionChange(MetadataVersion)
++  replay(RegisterBrokerRecord)
++  replay(UnregisterBrokerRecord)
++  getBrokerOrThrow(int;long;String)
++  replay(FenceBrokerRecord)
++  replay(UnfenceBrokerRecord)
++  replay(BrokerRegistrationChangeRecord)
++  apply()
++  toString()
+} 
+@enduml

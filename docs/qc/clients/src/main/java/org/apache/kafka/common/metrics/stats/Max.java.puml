@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+SampledStat <|-- org.apache.kafka.common.metrics.stats.Max
+class org.apache.kafka.common.metrics.stats.Max {
++  Max()
++  update(Sample;MetricConfig;double;long)
++  combine(List<Sample>;MetricConfig;long)
+} 
+@enduml

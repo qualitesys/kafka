@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.IncrementalAlterConfigsResponse
+class org.apache.kafka.common.requests.IncrementalAlterConfigsResponse {
++  IncrementalAlterConfigsResponse(int;Map<ConfigResource,ApiError>)
++  fromResponseData(IncrementalAlterConfigsResponseData)
++  IncrementalAlterConfigsResponse(IncrementalAlterConfigsResponseData)
++  data()
++  errorCounts()
++  shouldClientThrottle(short)
++  throttleTimeMs()
++  parse(ByteBuffer;short)
+} 
+@enduml

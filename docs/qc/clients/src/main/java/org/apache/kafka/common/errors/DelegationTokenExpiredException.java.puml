@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+ApiException <|-- org.apache.kafka.common.errors.DelegationTokenExpiredException
+class org.apache.kafka.common.errors.DelegationTokenExpiredException {
++  DelegationTokenExpiredException(String)
++  DelegationTokenExpiredException(String;Throwable)
+} 
+@enduml

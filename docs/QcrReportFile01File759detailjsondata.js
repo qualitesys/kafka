@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AuthenticationContext"
+ , "c2" : "org.apache.kafka.common.security.auth.SslAuthenticationContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.security.auth.SslAuthenticationContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "SslAuthenticationContext"
+ , "c2" : "SslAuthenticationContext(SSLSession;InetAddress;String)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SSLSession"
+ , "c2" : "session()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SecurityProtocol"
+ , "c2" : "securityProtocol()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "InetAddress"
+ , "c2" : "clientAddress()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "listenerName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.svg" }
+
 ] 
 , 
 "data04" : [

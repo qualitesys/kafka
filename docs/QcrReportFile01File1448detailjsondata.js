@@ -8,12 +8,100 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AutoCloseable"
+ , "c2" : "org.apache.kafka.queue.EventQueue"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.queue.EventQueue" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "prepend(Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "append(Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "appendWithDeadline(long;Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "scheduleDeferred(String;Function<OptionalLong,OptionalLong>;Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "cancelDeferred(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "beginShutdown(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "beginShutdown(String;Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "beginShutdown(String;Event;long;TimeUnit)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "wakeup()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.png" 
+
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN190846 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN192558 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN190846 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN192558 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
 }} 
 ,
 { "ligne" : {

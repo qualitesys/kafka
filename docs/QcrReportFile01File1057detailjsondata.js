@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "NumberConverter<Short>"
+ , "c2" : "org.apache.kafka.connect.converters.ShortConverter"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.converters.ShortConverter" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ShortConverter"
+ , "c2" : "ShortConverter()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -51,7 +69,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.ShortConverter.ShortConverter@POLYN156805 the MagicNumber/String  'short' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.ShortConverter.ShortConverter@POLYN158517 the MagicNumber/String  'short' should be converted to const"
 }} 
 ]
 };

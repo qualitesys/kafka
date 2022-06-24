@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Callback <|-- org.apache.kafka.common.security.plain.PlainAuthenticateCallback
+class org.apache.kafka.common.security.plain.PlainAuthenticateCallback {
++  PlainAuthenticateCallback(char[])
++  password()
++  authenticated()
++  authenticated(boolean)
+} 
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.SyncGroupResponse
+class org.apache.kafka.common.requests.SyncGroupResponse {
++  SyncGroupResponse(SyncGroupResponseData)
++  throttleTimeMs()
++  error()
++  errorCounts()
++  data()
++  toString()
++  parse(ByteBuffer;short)
++  shouldClientThrottle(short)
+} 
+@enduml

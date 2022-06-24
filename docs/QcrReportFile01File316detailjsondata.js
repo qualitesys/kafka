@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RetriableException"
+ , "c2" : "org.apache.kafka.common.errors.AuthorizerNotReadyException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.AuthorizerNotReadyException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "AuthorizerNotReadyException"
+ , "c2" : "AuthorizerNotReadyException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/AuthorizerNotReadyException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/AuthorizerNotReadyException.java.svg" }
+
 ] 
 , 
 "data04" : [

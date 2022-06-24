@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AccessTokenValidator <|-- org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator
+class org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator {
++  ValidatorAccessTokenValidator(Integer;Set<String>;String;VerificationKeyResolver;String;String)
++  validate(String)
+} 
+@enduml

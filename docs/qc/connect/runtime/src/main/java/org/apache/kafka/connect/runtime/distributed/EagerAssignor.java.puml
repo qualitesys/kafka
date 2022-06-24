@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ConnectAssignor <|-- org.apache.kafka.connect.runtime.distributed.EagerAssignor
+class org.apache.kafka.connect.runtime.distributed.EagerAssignor {
++  EagerAssignor(LogContext)
++  performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator)
++  ensureLeaderConfig(long;WorkerCoordinator)
++  performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator)
++  fillAssignmentsAndSerialize(Collection<String>;short;String;String;long;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>)
++  findMaxMemberConfigOffset(Map<String,ExtendedWorkerState>;WorkerCoordinator)
+} 
+@enduml

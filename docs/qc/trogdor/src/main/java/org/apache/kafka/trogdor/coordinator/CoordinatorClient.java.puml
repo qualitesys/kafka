@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.coordinator.CoordinatorClient
+class org.apache.kafka.trogdor.coordinator.CoordinatorClient {
++  CoordinatorClient(Logger;int;String)
++  maxTries()
++  url(String)
++  status()
++  uptime()
++  createTask(CreateTaskRequest)
++  stopTask(StopTaskRequest)
++  destroyTask(DestroyTaskRequest)
++  tasks(TasksRequest)
++  task(TaskRequest)
++  shutdown()
++  addTargetArgument(ArgumentParser)
++  addJsonArgument(ArgumentParser)
++  main(String[])
++  prettyPrintTasksResponse(TasksResponse;ZoneOffset)
++  prettyPrintTaskInfo(TaskState;ZoneOffset)
+} 
+@enduml

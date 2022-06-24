@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.raft.RaftClient
+class org.apache.kafka.raft.RaftClient {
++  initialize()
++  register(Listener<T>)
++  unregister(Listener<T>)
++  highWatermark()
++  leaderAndEpoch()
++  nodeId()
++  scheduleAppend(int;List<T>)
++  scheduleAtomicAppend(int;List<T>)
++  shutdown(int)
++  resign(int)
++  createSnapshot(long;int;long)
+} 
+@enduml

@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder
+class org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder {
++  RocksDBMetricsRecorder(String;String)
++  storeName()
++  taskId()
++  init(StreamsMetricsImpl;TaskId)
++  addValueProviders(String;RocksDB;Cache;Statistics)
++  verifyDbAndCacheAndStatistics(String;RocksDB;Cache;Statistics)
++  verifyConsistencyOfValueProvidersAcrossSegments(String;Object;Object;String)
++  initSensors(StreamsMetricsImpl;RocksDBMetricContext)
++  initGauges(StreamsMetricsImpl;RocksDBMetricContext)
++  gaugeToComputeSumOfProperties(String)
++  gaugeToComputeBlockCacheMetrics(String)
++  longToBytes(long)
++  removeValueProviders(String)
++  record(long)
++  computeHitRatio(long;long)
++  computeAvg(long;long)
+} 
+@enduml

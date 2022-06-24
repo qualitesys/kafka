@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+StampedRecord <|-- org.apache.kafka.streams.processor.internals.CorruptedRecord
+class org.apache.kafka.streams.processor.internals.CorruptedRecord {
++  CorruptedRecord(ConsumerRecord<byte[],byte[]>)
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

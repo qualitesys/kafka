@@ -8,12 +8,107 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.ClientResponse"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.ClientResponse" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ClientResponse"
+ , "c2" : "ClientResponse(RequestHeader;RequestCompletionHandler;String;long;long;boolean;UnsupportedVersionException;AuthenticationException;AbstractResponse)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "receivedTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "wasDisconnected()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "UnsupportedVersionException"
+ , "c2" : "versionMismatch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AuthenticationException"
+ , "c2" : "authenticationException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RequestHeader"
+ , "c2" : "requestHeader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "destination()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AbstractResponse"
+ , "c2" : "responseBody()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasResponse()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "requestLatencyMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "onComplete()"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,56 +160,56 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.ClientResponse.hasResponse@POLYN166785 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.ClientResponse.hasResponse@POLYN168497 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.ClientResponse.onComplete@POLYN166973 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.ClientResponse.onComplete@POLYN168685 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.ClientResponse.toString@POLYN167163 the MagicNumber/String  'ClientResponse(receivedTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.ClientResponse.toString@POLYN168875 the MagicNumber/String  'ClientResponse(receivedTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.ClientResponse.toString@POLYN167163 the MagicNumber/String  ', latencyMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.ClientResponse.toString@POLYN168875 the MagicNumber/String  ', latencyMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.ClientResponse.toString@POLYN167163 the MagicNumber/String  ', disconnected=' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.ClientResponse.toString@POLYN168875 the MagicNumber/String  ', disconnected=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.ClientResponse.toString@POLYN167163 the MagicNumber/String  ', requestHeader=' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.ClientResponse.toString@POLYN168875 the MagicNumber/String  ', requestHeader=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.ClientResponse.toString@POLYN167163 the MagicNumber/String  ', responseBody=' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.ClientResponse.toString@POLYN168875 the MagicNumber/String  ', responseBody=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.ClientResponse.toString@POLYN167163 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.ClientResponse.toString@POLYN168875 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

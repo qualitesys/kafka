@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Iterator<T> <|-- org.apache.kafka.common.utils.CircularIterator
+class org.apache.kafka.common.utils.CircularIterator {
++  CircularIterator(Collection<T>)
++  hasNext()
++  next()
++  advance()
++  peek()
++  remove()
+} 
+@enduml

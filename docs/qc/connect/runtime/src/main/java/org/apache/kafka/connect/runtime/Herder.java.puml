@@ -1,0 +1,37 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.Herder
+class org.apache.kafka.connect.runtime.Herder {
++  start()
++  stop()
++  isRunning()
++  connectors(Callback<Collection<String>>)
++  connectorInfo(String;Callback<ConnectorInfo>)
++  connectorConfig(String;Callback<Map<String,String>>)
++  tasksConfig(String;Callback<Map<ConnectorTaskId,Map<String,String>>>)
++  putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>)
++  deleteConnectorConfig(String;Callback<Created<ConnectorInfo>>)
++  requestTaskReconfiguration(String)
++  taskConfigs(String;Callback<List<TaskInfo>>)
++  putTaskConfigs(String;List<Map<String,String>>;Callback<Void>;InternalRequestSignature)
++  fenceZombieSourceTasks(String;Callback<Void>;InternalRequestSignature)
++  connectors()
++  connectorInfo(String)
++  connectorStatus(String)
++  connectorActiveTopics(String)
++  resetConnectorActiveTopics(String)
++  statusBackingStore()
++  taskStatus(ConnectorTaskId)
++  validateConnectorConfig(Map<String,String>;Callback<ConfigInfos>)
++  validateConnectorConfig(Map<String,String>;Callback<ConfigInfos>;boolean)
++  restartTask(ConnectorTaskId;Callback<Void>)
++  restartConnector(String;Callback<Void>)
++  restartConnector(long;String;Callback<Void>)
++  restartConnectorAndTasks(RestartRequest;Callback<ConnectorStateInfo>)
++  pauseConnector(String)
++  resumeConnector(String)
++  plugins()
++  kafkaClusterId()
++  connectorPluginConfig(String)
+} 
+@enduml

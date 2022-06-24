@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult
+class org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult {
++  ListConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>)
++  partitionsToOffsetAndMetadata()
+} 
+@enduml

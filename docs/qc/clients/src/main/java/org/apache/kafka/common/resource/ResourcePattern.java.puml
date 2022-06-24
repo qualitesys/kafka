@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.resource.ResourcePattern
+class org.apache.kafka.common.resource.ResourcePattern {
++  ResourcePattern(ResourceType;String;PatternType)
++  resourceType()
++  name()
++  patternType()
++  toFilter()
++  toString()
++  isUnknown()
++  equals(Object)
++  hashCode()
+} 
+@enduml

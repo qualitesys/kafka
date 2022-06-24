@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.GlobalStateMaintainer
+class org.apache.kafka.streams.processor.internals.GlobalStateMaintainer {
++  initialize()
++  flushState()
++  close(boolean)
++  update(ConsumerRecord<byte[],byte[]>)
+} 
+@enduml

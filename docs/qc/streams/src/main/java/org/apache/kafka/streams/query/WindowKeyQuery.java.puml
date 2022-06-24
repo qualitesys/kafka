@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Query<WindowStoreIterator<V>> <|-- org.apache.kafka.streams.query.WindowKeyQuery
+class org.apache.kafka.streams.query.WindowKeyQuery {
++  WindowKeyQuery(K;Optional<Instant>;Optional<Instant>)
++  getKey()
++  getTimeFrom()
++  getTimeTo()
++  toString()
+} 
+@enduml

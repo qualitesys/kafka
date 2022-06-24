@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.config.SaslConfigs
+class org.apache.kafka.common.config.SaslConfigs {
++  addClientSaslSupport(ConfigDef)
+} 
+@enduml

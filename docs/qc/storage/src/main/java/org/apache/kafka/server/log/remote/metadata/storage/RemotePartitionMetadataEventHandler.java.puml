@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler
+class org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler {
++  handleRemoteLogMetadata(RemoteLogMetadata)
++  handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)
++  handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate)
++  handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)
++  syncLogMetadataSnapshot(TopicIdPartition;int;Long)
++  clearTopicPartition(TopicIdPartition)
+} 
+@enduml

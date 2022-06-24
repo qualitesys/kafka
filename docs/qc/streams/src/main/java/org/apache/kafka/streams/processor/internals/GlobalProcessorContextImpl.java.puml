@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+AbstractProcessorContext<Object,Object> <|-- org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl
+class org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl {
++  GlobalProcessorContextImpl(StreamsConfig;GlobalStateManager;StreamsMetricsImpl;ThreadCache;Time)
++  stateManager()
++  commit()
++  currentSystemTimeMs()
++  currentStreamTimeMs()
++  schedule(Duration;PunctuationType;Punctuator)
++  logChange(String;Bytes;byte[];long;Position)
++  transitionToActive(StreamTask;RecordCollector;ThreadCache)
++  transitionToStandby(ThreadCache)
++  registerCacheFlushListener(String;DirtyEntryFlushListener)
+} 
+@enduml

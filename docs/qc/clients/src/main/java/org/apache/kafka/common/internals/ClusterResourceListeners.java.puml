@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.internals.ClusterResourceListeners
+class org.apache.kafka.common.internals.ClusterResourceListeners {
++  ClusterResourceListeners()
++  maybeAdd(Object)
++  maybeAddAll(List<?>)
++  onUpdate(ClusterResource)
+} 
+@enduml

@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.GroupedStreamAggregateBuilder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.GroupedStreamAggregateBuilder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GroupedStreamAggregateBuilder"
+ , "c2" : "GroupedStreamAggregateBuilder(InternalStreamsBuilder;GroupedInternal<K,V>;boolean;Set<String>;String;GraphNode)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "createRepartitionSource(String;OptimizableRepartitionNodeBuilder<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -135,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.GroupedStreamAggregateBuilder.createRepartitionSource@POLYN173416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.GroupedStreamAggregateBuilder.createRepartitionSource@POLYN175128 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

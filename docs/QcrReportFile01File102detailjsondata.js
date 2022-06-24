@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.FenceProducersResult"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.FenceProducersResult" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "FenceProducersResult"
+ , "c2" : "FenceProducersResult(Map<CoordinatorKey,KafkaFuture<ProducerIdAndEpoch>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,KafkaFuture<Void>>"
+ , "c2" : "fencedProducers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Long>"
+ , "c2" : "producerId(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Short>"
+ , "c2" : "epochId(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaFuture<Void>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.FenceProducersResult.fencedProducers@POLYN164413 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.FenceProducersResult.fencedProducers@POLYN166125 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.FenceProducersResult.all@POLYN165426 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.FenceProducersResult.all@POLYN167138 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

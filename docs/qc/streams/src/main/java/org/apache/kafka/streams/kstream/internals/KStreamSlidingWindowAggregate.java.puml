@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+KStreamAggProcessorSupplier<KIn,VIn,Windowed<KIn>,VAgg> <|-- org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate
+class org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate {
++  KStreamSlidingWindowAggregate(SlidingWindows;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)
++  get()
++  windows()
++  enableSendingOldValues()
++  view()
+} 
+@enduml

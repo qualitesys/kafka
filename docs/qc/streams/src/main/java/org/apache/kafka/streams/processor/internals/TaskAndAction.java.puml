@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskAndAction
+class org.apache.kafka.streams.processor.internals.TaskAndAction {
++  TaskAndAction(Task;TaskId;Action)
++  createAddTask(Task)
++  createRemoveTask(TaskId)
++  getTask()
++  getTaskId()
++  getAction()
+} 
+@enduml

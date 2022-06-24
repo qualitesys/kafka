@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Iterable<Header> <|-- org.apache.kafka.common.header.Headers
+class org.apache.kafka.common.header.Headers {
++  add(Header)
++  add(String;byte[])
++  remove(String)
++  lastHeader(String)
++  headers(String)
++  toArray()
+} 
+@enduml

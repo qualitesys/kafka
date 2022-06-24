@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.ListOffsetsResult
+class org.apache.kafka.clients.admin.ListOffsetsResult {
++  ListOffsetsResult(Map<TopicPartition,KafkaFuture<ListOffsetsResultInfo>>)
++  partitionResult(TopicPartition)
++  all()
+} 
+@enduml

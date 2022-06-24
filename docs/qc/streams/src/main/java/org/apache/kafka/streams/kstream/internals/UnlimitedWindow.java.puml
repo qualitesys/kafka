@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+Window <|-- org.apache.kafka.streams.kstream.internals.UnlimitedWindow
+class org.apache.kafka.streams.kstream.internals.UnlimitedWindow {
++  UnlimitedWindow(long)
++  overlap(Window)
+} 
+@enduml

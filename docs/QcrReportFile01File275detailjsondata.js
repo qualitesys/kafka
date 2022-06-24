@@ -2,18 +2,106 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/Uuid.java 26 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/Uuid.java 29 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "Comparable<Uuid>"
+ , "c2" : "org.apache.kafka.common.Uuid"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.Uuid" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "Uuid(long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "unsafeRandomUuid()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "randomUuid()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "getMostSignificantBits()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "getLeastSignificantBits()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Uuid"
+ , "c2" : "fromString(String)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "getBytesFromUuid()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "compareTo(Uuid)"
+ , "c3" : "9"
+ , "c4" : "5"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +125,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -65,6 +176,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -76,10 +194,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#31"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00031] For method randomUuid list of called methods Object monObjet|org.apache.kafka.common.Uuid unsafeRandomUuidN177302|org.apache.kafka.common.Uuid unsafeRandomUuidN177600"
+}} 
+,
+{ "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.Uuid.randomUuid@POLYN175515 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.Uuid.randomUuid@POLYN177227 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -93,21 +218,21 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.Uuid.equals@POLYN176352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.Uuid.equals@POLYN178064 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.Uuid.equals@POLYN176352 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.Uuid.equals@POLYN178064 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.Uuid.hashCode@POLYN176910 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.Uuid.hashCode@POLYN178622 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,77 +253,77 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  'Input string with prefix `' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  'Input string with prefix `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  '` is too long to be decoded as a base64 UUID' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  '` is too long to be decoded as a base64 UUID' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  'Input string `' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  'Input string `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  '` decoded as ' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  '` decoded as ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  ' bytes, which is not equal to the expected 16 bytes ' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  ' bytes, which is not equal to the expected 16 bytes ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.Uuid.fromString@POLYN177493 the MagicNumber/String  'of a base64-encoded UUID' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.Uuid.fromString@POLYN179205 the MagicNumber/String  'of a base64-encoded UUID' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.Uuid.getBytesFromUuid@POLYN178445 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.Uuid.getBytesFromUuid@POLYN180157 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -219,35 +344,49 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.Uuid.compareTo@POLYN178859 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.Uuid.compareTo@POLYN180571 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.Uuid.compareTo@POLYN178859 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.Uuid.compareTo@POLYN180571 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.Uuid.compareTo@POLYN178859 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.Uuid.compareTo@POLYN180571 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.Uuid.compareTo@POLYN178859 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.Uuid.compareTo@POLYN180571 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.Uuid.compareTo@POLYN178859 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.Uuid.compareTo@POLYN180571 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.Uuid.hashCode@POLYN178622"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.html#63"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.common.Uuid.hashCode@POLYN178622 the MagicNumber/String 32 MUST BE CONVERTED to const"
 }} 
 ]
 };

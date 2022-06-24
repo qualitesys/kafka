@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.common.network.ChannelMetadataRegistry
+class org.apache.kafka.common.network.ChannelMetadataRegistry {
++  registerCipherInformation(CipherInformation)
++  cipherInformation()
++  registerClientInformation(ClientInformation)
++  clientInformation()
++  close()
+} 
+@enduml

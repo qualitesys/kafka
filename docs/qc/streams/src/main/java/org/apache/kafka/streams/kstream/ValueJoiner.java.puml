@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.ValueJoiner
+class org.apache.kafka.streams.kstream.ValueJoiner {
++  apply(V1;V2)
+} 
+@enduml

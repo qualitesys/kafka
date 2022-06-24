@@ -2,18 +2,99 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java 19 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java 26 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ProcessorNodeMetrics"
+ , "c2" : "ProcessorNodeMetrics()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "suppressionEmitSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "skippedIdempotentUpdatesSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "processAtSourceSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "forwardSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "e2ELatencySensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "emitFinalLatencySensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "emittedRecordsSensor(String;String;String;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "throughputParentSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Sensor"
+ , "c2" : "throughputSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +146,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "7"
+}}
  ] 
 ,
 "data13b" : [
@@ -97,6 +185,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00098] For method processAtSourceSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN191293"
+}} 
+,
+{ "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#101"
  , "c2" : "CRITICAL"
@@ -111,10 +206,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00124"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00124] For method forwardSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor throughputParentSensorN192115"
+}} 
+,
+{ "ligne" : {
    "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method e2ELatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00150] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN192867|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN193099"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +237,7 @@ var maDataBlocs = {
    "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.e2ELatencySensor@POLYN190860 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.e2ELatencySensor@POLYN192572 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -136,6 +245,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00169] For method emitFinalLatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00169] For method emitFinalLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN193743|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN193975"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +265,7 @@ var maDataBlocs = {
    "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emitFinalLatencySensor@POLYN191736 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emitFinalLatencySensor@POLYN193448 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -157,6 +273,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00187] For method emittedRecordsSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00187] For method emittedRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN194597|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN194829"
 }} 
 ,
 { "ligne" : {
@@ -170,7 +293,7 @@ var maDataBlocs = {
    "c1" : "00191"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emittedRecordsSensor@POLYN192590 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emittedRecordsSensor@POLYN194302 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -178,6 +301,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00205] For method throughputParentSensor arguments String  threadId|String  taskId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00205] For method throughputParentSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN195429|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN195631"
 }} 
 ,
 { "ligne" : {
@@ -192,6 +322,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00225] For method throughputSensor arguments String  threadId|String  taskId|String  processorNodeId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics|Sensor  ...parentSensors"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00225] For method throughputSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN196290|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN196536"
 }} 
 ,
 { "ligne" : {

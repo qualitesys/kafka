@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.CorruptRecordException
+class org.apache.kafka.common.errors.CorruptRecordException {
++  CorruptRecordException()
++  CorruptRecordException(String)
++  CorruptRecordException(Throwable)
++  CorruptRecordException(String;Throwable)
+} 
+@enduml

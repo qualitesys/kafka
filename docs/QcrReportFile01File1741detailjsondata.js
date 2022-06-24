@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "BaseRepartitionNode<K,V>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "GroupedTableOperationRepartitionNode"
+ , "c2" : "GroupedTableOperationRepartitionNode(String;Serde<K>;Serde<V>;String;String;String;ProcessorParameters<K,V,?,?>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serializer<V>"
+ , "c2" : "valueSerializer()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Serializer<V>"
+ , "c2" : "unsafeCastChangedToValueSerializer(Serializer<V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Deserializer<V>"
+ , "c2" : "valueDeserializer()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Deserializer<V>"
+ , "c2" : "unsafeCastChangedToValueDeserializer(Deserializer<?extendsV>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "writeToTopology(InternalTopologyBuilder)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.GroupedTableOperationRepartitionNode@POLYN165367 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.GroupedTableOperationRepartitionNode@POLYN167079 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -86,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.toString@POLYN167057 the MagicNumber/String  'GroupedTableOperationRepartitionNode{} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.toString@POLYN168769 the MagicNumber/String  'GroupedTableOperationRepartitionNode{} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -107,14 +167,14 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.writeToTopology@POLYN167191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.writeToTopology@POLYN168903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.writeToTopology@POLYN167191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode.writeToTopology@POLYN168903 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

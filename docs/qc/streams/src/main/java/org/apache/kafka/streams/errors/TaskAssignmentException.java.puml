@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+StreamsException <|-- org.apache.kafka.streams.errors.TaskAssignmentException
+class org.apache.kafka.streams.errors.TaskAssignmentException {
++  TaskAssignmentException(String)
++  TaskAssignmentException(String;Throwable)
++  TaskAssignmentException(Throwable)
+} 
+@enduml

@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectedStoreProvider"
+ , "c2" : "org.apache.kafka.streams.kstream.ValueTransformerSupplier"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.ValueTransformerSupplier" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ValueTransformer<V,VR>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerSupplier.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerSupplier.java.svg" }
+
 ] 
 , 
 "data04" : [

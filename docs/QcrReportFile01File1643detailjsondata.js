@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "JoinWindows"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "JoinWindowsInternal"
+ , "c2" : "JoinWindowsInternal(JoinWindows)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "spuriousResultFixEnabled()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.svg" }
+
 ] 
 , 
 "data04" : [

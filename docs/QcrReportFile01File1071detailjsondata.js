@@ -8,12 +8,72 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "SinkRecord"
+ , "c2" : "org.apache.kafka.connect.runtime.InternalSinkRecord"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.InternalSinkRecord" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "InternalSinkRecord"
+ , "c2" : "InternalSinkRecord(ConsumerRecord<byte[],byte[]>;SinkRecord)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "InternalSinkRecord"
+ , "c2" : "InternalSinkRecord(ConsumerRecord<byte[],byte[]>;String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SinkRecord"
+ , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConsumerRecord<byte[],byte[]>"
+ , "c2" : "originalRecord()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.svg" }
+
 ] 
 , 
 "data04" : [

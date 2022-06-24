@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.ReadOnlyKeyValueStore
+class org.apache.kafka.streams.state.ReadOnlyKeyValueStore {
++  get(K)
++  range(K;K)
++  reverseRange(K;K)
++  all()
++  reverseAll()
++  approximateNumEntries()
+} 
+@enduml

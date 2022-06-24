@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.RestClient
+class org.apache.kafka.connect.runtime.rest.RestClient {
++  addHeadersToRequest(HttpHeaders;Request)
++  convertHttpFieldsToMap(HttpFields)
+} 
+@enduml

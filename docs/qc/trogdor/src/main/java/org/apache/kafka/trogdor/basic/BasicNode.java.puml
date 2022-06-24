@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+Node <|-- org.apache.kafka.trogdor.basic.BasicNode
+class org.apache.kafka.trogdor.basic.BasicNode {
++  BasicNode(String;String;Map<String,String>;Set<String>)
++  BasicNode(String;JsonNode)
++  name()
++  hostname()
++  getConfig(String)
++  tags()
++  hashCode()
++  equals(Object)
+} 
+@enduml

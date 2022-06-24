@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.controller.ControllerRequestContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.controller.ControllerRequestContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OptionalLong"
+ , "c2" : "requestTimeoutMsToDeadlineNs(Time;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerRequestContext"
+ , "c2" : "ControllerRequestContext(RequestHeaderData;KafkaPrincipal;OptionalLong)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerRequestContext"
+ , "c2" : "ControllerRequestContext(AuthorizableRequestContext;OptionalLong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RequestHeaderData"
+ , "c2" : "requestHeader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaPrincipal"
+ , "c2" : "principal()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OptionalLong"
+ , "c2" : "deadlineNs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.TestOutputTopic
+class org.apache.kafka.streams.TestOutputTopic {
++  TestOutputTopic(TopologyTestDriver;String;Deserializer<K>;Deserializer<V>)
++  readValue()
++  readKeyValue()
++  readRecord()
++  readRecordsToList()
++  readKeyValuesToMap()
++  readKeyValuesToList()
++  readValuesToList()
++  getQueueSize()
++  isEmpty()
++  toString()
+} 
+@enduml

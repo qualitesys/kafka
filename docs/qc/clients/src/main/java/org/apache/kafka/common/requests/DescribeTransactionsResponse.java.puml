@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.DescribeTransactionsResponse
+class org.apache.kafka.common.requests.DescribeTransactionsResponse {
++  DescribeTransactionsResponse(DescribeTransactionsResponseData)
++  data()
++  errorCounts()
++  parse(ByteBuffer;short)
++  toString()
++  throttleTimeMs()
+} 
+@enduml

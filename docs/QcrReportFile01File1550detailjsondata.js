@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.MissingSourceTopicException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.MissingSourceTopicException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MissingSourceTopicException"
+ , "c2" : "MissingSourceTopicException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -2,18 +2,78 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java 19 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java 21 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.image.ClientQuotasDelta"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.image.ClientQuotasDelta" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ClientQuotasDelta"
+ , "c2" : "ClientQuotasDelta(ClientQuotasImage)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<ClientQuotaEntity,ClientQuotaDelta>"
+ , "c2" : "changes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "finishSnapshot()"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleMetadataVersionChange(MetadataVersion)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(ClientQuotaRecord)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClientQuotasImage"
+ , "c2" : "apply()"
+ , "c3" : "8"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.png" 
+
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,6 +139,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -127,8 +194,22 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00040] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN166967"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00040"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00040] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00048] For method apply list of called methods Object monObjet|org.apache.kafka.image.ClientQuotaImage change_applyN168169"
 }} 
 ,
 { "ligne" : {
@@ -170,28 +251,28 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN165677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN167389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN167353 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN169065 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN167353 the MagicNumber/String  'changes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN169065 the MagicNumber/String  'changes=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN167353 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN169065 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {

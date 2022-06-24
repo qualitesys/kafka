@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+ConnectClusterState <|-- org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl
+class org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl {
++  ConnectClusterStateImpl(long;ConnectClusterDetails;Herder)
++  connectors()
++  connectorHealth(String)
++  connectorConfig(String)
++  clusterDetails()
++  taskStates(List<ConnectorStateInfo.TaskState>)
+} 
+@enduml

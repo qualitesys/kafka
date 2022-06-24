@@ -8,12 +8,114 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WrappedStateStore<RocksDBTimeOrderedSessionSegmentedBytesStore,Object,Object>SessionStore<Bytes,byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "RocksDBTimeOrderedSessionStore"
+ , "c2" : "RocksDBTimeOrderedSessionStore(RocksDBTimeOrderedSessionSegmentedBytesStore)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "init(StateStoreContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "findSessions(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFindSessions(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "findSessions(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFindSessions(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "byte[]"
+ , "c2" : "fetchSession(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetch(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetch(Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetch(Bytes;Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetch(Bytes;Bytes)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "remove(Windowed<Bytes>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "put(Windowed<Bytes>;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -58,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.RocksDBTimeOrderedSessionStore@POLYN172628 the MagicNumber/String  'store is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.RocksDBTimeOrderedSessionStore@POLYN174340 the MagicNumber/String  'store is null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -114,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN176052 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN177764 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +230,7 @@ var maDataBlocs = {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN176326 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN178038 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -142,7 +244,7 @@ var maDataBlocs = {
    "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN176600 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN178312 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,7 +258,7 @@ var maDataBlocs = {
    "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN176924 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN178636 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

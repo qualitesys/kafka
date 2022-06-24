@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.util.ConnectUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.util.ConnectUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "checkAndConvertTimestamp(Long)"
+ , "c3" : "5"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "lookupKafkaClusterId(WorkerConfig)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "lookupKafkaClusterId(Admin)"
+ , "c3" : "2"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "ensureProperty(Map<String,?superString>;String;String;String;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<String>"
+ , "c2" : "ensurePropertyAndGetWarning(Map<String,?superString>;String;String;String;boolean)"
+ , "c3" : "3"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "addMetricsContextProperties(Map<String,Object>;WorkerConfig;String)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isSinkConnector(Connector)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isSourceConnector(Connector)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectException"
+ , "c2" : "maybeWrap(Throwable;String)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,28 +160,28 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN187047 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN188759 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN187047 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN188759 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN187047 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN188759 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN187047 the MagicNumber/String  'Invalid record timestamp %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.util.ConnectUtils.checkAndConvertTimestamp@POLYN188759 the MagicNumber/String  'Invalid record timestamp %d' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,7 +202,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187495 the MagicNumber/String  'Creating Kafka admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189207 the MagicNumber/String  'Creating Kafka admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -149,63 +223,63 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  'Looking up Kafka cluster ID' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  'Looking up Kafka cluster ID' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  'Kafka cluster version is too old to return cluster ID' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  'Kafka cluster version is too old to return cluster ID' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  'Fetching Kafka cluster ID' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  'Fetching Kafka cluster ID' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  'Kafka cluster ID: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  'Kafka cluster ID: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  'Unexpectedly interrupted when looking up Kafka cluster info' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  'Unexpectedly interrupted when looking up Kafka cluster info' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  'Failed to connect to and describe Kafka cluster. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  'Failed to connect to and describe Kafka cluster. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN187843 the MagicNumber/String  'Check worker's broker connection and security properties.' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.util.ConnectUtils.lookupKafkaClusterId@POLYN189555 the MagicNumber/String  'Check worker's broker connection and security properties.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -240,35 +314,35 @@ var maDataBlocs = {
    "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN190305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN192017 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN190305 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN192017 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN190305 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN192017 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN190305 the MagicNumber/String  'The value '%s' for the '%s' property will be ignored as it cannot be overridden%s. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN192017 the MagicNumber/String  'The value '%s' for the '%s' property will be ignored as it cannot be overridden%s. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN190305 the MagicNumber/String  'The value '%s' will be used instead.' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.util.ConnectUtils.ensurePropertyAndGetWarning@POLYN192017 the MagicNumber/String  'The value '%s' will be used instead.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -296,14 +370,14 @@ var maDataBlocs = {
    "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.util.ConnectUtils.addMetricsContextProperties@POLYN191686 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.util.ConnectUtils.addMetricsContextProperties@POLYN193398 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.ConnectUtils.addMetricsContextProperties@POLYN191686 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.ConnectUtils.addMetricsContextProperties@POLYN193398 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -366,14 +440,14 @@ var maDataBlocs = {
    "c1" : "00157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.util.ConnectUtils.maybeWrap@POLYN194413 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.util.ConnectUtils.maybeWrap@POLYN196125 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00158"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.util.ConnectUtils.maybeWrap@POLYN194413 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.util.ConnectUtils.maybeWrap@POLYN196125 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

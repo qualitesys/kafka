@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Send <|-- org.apache.kafka.common.record.RecordsSend
+class org.apache.kafka.common.record.RecordsSend {
++  RecordsSend(T;int)
++  completed()
++  writeTo(TransferableChannel)
++  size()
++  records()
++  writeTo(TransferableChannel;long;int)
+} 
+@enduml

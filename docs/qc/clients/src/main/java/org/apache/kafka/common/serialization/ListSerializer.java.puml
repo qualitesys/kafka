@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+Serializer<List<Inner>> <|-- org.apache.kafka.common.serialization.ListSerializer
+class org.apache.kafka.common.serialization.ListSerializer {
++  ListSerializer()
++  ListSerializer(Serializer<Inner>)
++  getInnerSerializer()
++  configure(Map<String,?>;boolean)
++  serializeNullIndexList(DataOutputStream;List<Inner>)
++  serialize(String;List<Inner>)
++  close()
+} 
+@enduml

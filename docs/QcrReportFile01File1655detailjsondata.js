@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProcessorSupplier<K1,V1,K1,VOut>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KStreamGlobalKTableJoin"
+ , "c2" : "KStreamGlobalKTableJoin(KTableValueGetterSupplier<K2,V2>;ValueJoinerWithKey<?superK1,?superV1,?superV2,?extendsVOut>;KeyValueMapper<?superK1,?superV1,?extendsK2>;boolean)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Processor<K1,V1,K1,VOut>"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.svg" }
+
 ] 
 , 
 "data04" : [

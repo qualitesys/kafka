@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "MetricsContext"
+ , "c2" : "org.apache.kafka.common.metrics.KafkaMetricsContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.metrics.KafkaMetricsContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "KafkaMetricsContext"
+ , "c2" : "KafkaMetricsContext(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KafkaMetricsContext"
+ , "c2" : "KafkaMetricsContext(String;Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "contextLabels()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,14 +111,14 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.metrics.KafkaMetricsContext.KafkaMetricsContext@POLYN159103 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.metrics.KafkaMetricsContext.KafkaMetricsContext@POLYN160815 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.metrics.KafkaMetricsContext.KafkaMetricsContext@POLYN159103 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.metrics.KafkaMetricsContext.KafkaMetricsContext@POLYN160815 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

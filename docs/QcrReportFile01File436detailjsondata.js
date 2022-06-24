@@ -8,12 +8,86 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.feature.BaseVersionRange"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.feature.BaseVersionRange" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BaseVersionRange"
+ , "c2" : "BaseVersionRange(String;short;String;short)"
+ , "c3" : "4"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "short"
+ , "c2" : "min()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "short"
+ , "c2" : "max()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,Short>"
+ , "c2" : "toMap()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "mapToString(Map<String,Short>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "short"
+ , "c2" : "valueOrThrow(String;Map<String,Short>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -107,49 +181,49 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN171975 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN173687 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN171975 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN173687 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN171975 the MagicNumber/String  'Expected minValue &amp;gt;= 1, maxValue &amp;gt;= 1 and maxValue &amp;gt;= minValue, but received' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN173687 the MagicNumber/String  'Expected minValue &amp;gt;= 1, maxValue &amp;gt;= 1 and maxValue &amp;gt;= minValue, but received' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN171975 the MagicNumber/String  ' minValue: %d, maxValue: %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN173687 the MagicNumber/String  ' minValue: %d, maxValue: %d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN171975 the MagicNumber/String  'Expected minKeyLabel to be non-empty.' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN173687 the MagicNumber/String  'Expected minKeyLabel to be non-empty.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN171975 the MagicNumber/String  'Expected maxKeyLabel to be non-empty.' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN173687 the MagicNumber/String  'Expected maxKeyLabel to be non-empty.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.feature.BaseVersionRange.toString@POLYN173185 the MagicNumber/String  '%s[%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.feature.BaseVersionRange.toString@POLYN174897 the MagicNumber/String  '%s[%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,14 +244,14 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN173772 the MagicNumber/String  '%s:%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN175484 the MagicNumber/String  '%s:%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN173772 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN175484 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,21 +272,21 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN174226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN175938 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN174226 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN175938 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN174226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN175938 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -233,14 +307,14 @@ var maDataBlocs = {
    "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN175221 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN176933 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN175221 the MagicNumber/String  '%s absent in [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN176933 the MagicNumber/String  '%s absent in [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {

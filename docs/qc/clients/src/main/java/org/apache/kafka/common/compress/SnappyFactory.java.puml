@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.compress.SnappyFactory
+class org.apache.kafka.common.compress.SnappyFactory {
++  SnappyFactory()
++  wrapForOutput(ByteBufferOutputStream)
++  wrapForInput(ByteBuffer)
+} 
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+RetriableException <|-- org.apache.kafka.common.errors.UnstableOffsetCommitException
+class org.apache.kafka.common.errors.UnstableOffsetCommitException {
++  UnstableOffsetCommitException(String)
+} 
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.config.Config
+class org.apache.kafka.common.config.Config {
++  Config(List<ConfigValue>)
++  configValues()
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<CreatePartitionsOptions> <|-- org.apache.kafka.clients.admin.CreatePartitionsOptions
+class org.apache.kafka.clients.admin.CreatePartitionsOptions {
++  CreatePartitionsOptions()
++  validateOnly()
++  validateOnly(boolean)
++  retryOnQuotaViolation(boolean)
++  shouldRetryOnQuotaViolation()
+} 
+@enduml

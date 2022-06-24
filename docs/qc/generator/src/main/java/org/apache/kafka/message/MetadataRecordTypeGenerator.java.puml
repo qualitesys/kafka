@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+TypeClassGenerator <|-- org.apache.kafka.message.MetadataRecordTypeGenerator
+class org.apache.kafka.message.MetadataRecordTypeGenerator {
++  MetadataRecordTypeGenerator(String)
++  outputName()
++  registerMessageType(MessageSpec)
++  generateAndWrite(BufferedWriter)
++  generate()
++  generateEnumValues()
++  generateInstanceVariables()
++  generateEnumConstructor()
++  generateFromApiKey()
++  generateNewMetadataRecord()
++  generateAccessor(String;String)
++  generateToString()
++  write(BufferedWriter)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.HeaderGenerator
+class org.apache.kafka.message.HeaderGenerator {
++  HeaderGenerator(String)
++  addImport(String)
++  addStaticImport(String)
++  generate()
++  buffer()
+} 
+@enduml

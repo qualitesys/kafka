@@ -2,18 +2,85 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java 21 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java 28 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AdminApiHandler.Batched<CoordinatorKey,Map<TopicPartition,Errors>>"
+ , "c2" : "org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DeleteConsumerGroupOffsetsHandler"
+ , "c2" : "DeleteConsumerGroupOffsetsHandler(String;Set<TopicPartition>;LogContext)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "apiName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
+ , "c2" : "lookupStrategy()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<TopicPartition,Errors>>"
+ , "c2" : "newFuture(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "validateKeys(Set<CoordinatorKey>)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OffsetDeleteRequest.Builder"
+ , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ApiResult<CoordinatorKey,Map<TopicPartition,Errors>>"
+ , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
+ , "c3" : "3"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "handleGroupError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)"
+ , "c3" : "8"
+ , "c4" : "11"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +104,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -72,7 +162,7 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.apiName@POLYN177357 the MagicNumber/String  'offsetDelete' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.apiName@POLYN179069 the MagicNumber/String  'offsetDelete' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,21 +190,21 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.validateKeys@POLYN177870 the MagicNumber/String  'Received unexpected group ids ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.validateKeys@POLYN179582 the MagicNumber/String  'Received unexpected group ids ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.validateKeys@POLYN177870 the MagicNumber/String  ' (expected only ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.validateKeys@POLYN179582 the MagicNumber/String  ' (expected only ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.validateKeys@POLYN177870 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.validateKeys@POLYN179582 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -170,42 +260,91 @@ var maDataBlocs = {
    "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN181143 the MagicNumber/String  '`OffsetDelete` request for group id {} failed due to error {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String  '`OffsetDelete` request for group id {} failed due to error {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN181143 the MagicNumber/String  '`OffsetDelete` request for group id {} failed because the coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String  '`OffsetDelete` request for group id {} failed because the coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN181143 the MagicNumber/String  ' is still in the process of loading state. Will retry.' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String  ' is still in the process of loading state. Will retry.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN181143 the MagicNumber/String  '`OffsetDelete` request for group id {} returned error {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String  '`OffsetDelete` request for group id {} returned error {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN181143 the MagicNumber/String  'Will attempt to find the coordinator again and retry.' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String  'Will attempt to find the coordinator again and retry.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN181143 the MagicNumber/String  '`OffsetDelete` request for group id {} failed due to unexpected error {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String  '`OffsetDelete` request for group id {} failed due to unexpected error {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String '`OffsetDelete` request for group id {} failed due to error {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#138"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String '`OffsetDelete` request for group id {} failed because the coordinator' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String ' is still in the process of loading state. Will retry.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String '`OffsetDelete` request for group id {} returned error {}. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String 'Will attempt to find the coordinator again and retry.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN182855 the MagicNumber/String '`OffsetDelete` request for group id {} failed due to unexpected error {}.' MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.NodeApiVersions
+class org.apache.kafka.clients.NodeApiVersions {
++  create()
++  create(Collection<ApiVersion>)
++  create(short;short;short)
++  NodeApiVersions(Collection<ApiVersion>;Collection<SupportedFeatureKey>)
++  latestUsableVersion(ApiKeys)
++  latestUsableVersion(ApiKeys;short;short)
++  toString()
++  toString(boolean)
++  apiVersionToText(ApiVersion)
++  apiVersion(ApiKeys)
++  allSupportedApiVersions()
++  supportedFeatures()
+} 
+@enduml

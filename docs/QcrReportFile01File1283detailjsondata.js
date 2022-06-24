@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.jmh.producer.ProducerRecordBenchmark"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.jmh.producer.ProducerRecordBenchmark" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ProducerRecord<String,String>"
+ , "c2" : "constructorBenchmark()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.java.png" 
+
+ , "ligneplantuml" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,14 +83,14 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.jmh.producer.ProducerRecordBenchmark.constructorBenchmark@POLYN157803 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.jmh.producer.ProducerRecordBenchmark.constructorBenchmark@POLYN159515 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.jmh.producer.ProducerRecordBenchmark.constructorBenchmark@POLYN157803 the MagicNumber/String  'value' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.jmh.producer.ProducerRecordBenchmark.constructorBenchmark@POLYN159515 the MagicNumber/String  'value' should be converted to const"
 }} 
 ]
 };

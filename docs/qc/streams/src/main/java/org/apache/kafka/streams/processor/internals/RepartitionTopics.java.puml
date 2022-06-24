@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.RepartitionTopics
+class org.apache.kafka.streams.processor.internals.RepartitionTopics {
++  RepartitionTopics(TopologyMetadata;InternalTopicManager;CopartitionedTopicsEnforcer;Cluster;String)
++  setup()
++  topologiesWithMissingInputTopics()
++  missingSourceTopicExceptions()
++  topicPartitionsInfo()
++  computeRepartitionTopicConfig(Cluster)
++  ensureCopartitioning(Collection<Set<String>>;Map<String,InternalTopicConfig>;Cluster)
++  computeMissingExternalSourceTopics(TopicsInfo;Cluster)
++  setRepartitionSourceTopicPartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster)
++  computePartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster;String)
+} 
+@enduml

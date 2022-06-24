@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+Send <|-- org.apache.kafka.common.network.ByteBufferSend
+class org.apache.kafka.common.network.ByteBufferSend {
++  ByteBufferSend(ByteBuffer...)
++  ByteBufferSend(ByteBuffer[];long)
++  completed()
++  size()
++  writeTo(TransferableChannel)
++  remaining()
++  toString()
++  sizePrefixed(ByteBuffer)
+} 
+@enduml

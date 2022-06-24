@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+OutputStream <|-- org.apache.kafka.common.utils.ByteBufferOutputStream
+class org.apache.kafka.common.utils.ByteBufferOutputStream {
++  ByteBufferOutputStream(ByteBuffer)
++  ByteBufferOutputStream(int)
++  ByteBufferOutputStream(int;boolean)
++  write(int)
++  write(byte[];int;int)
++  write(ByteBuffer)
++  buffer()
++  position()
++  remaining()
++  limit()
++  position(int)
++  initialCapacity()
++  ensureRemaining(int)
++  expandBuffer(int)
+} 
+@enduml

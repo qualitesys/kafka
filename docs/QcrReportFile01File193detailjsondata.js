@@ -2,18 +2,50 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java 17 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java 18 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "AbstractPartitionAssignor"
+ , "c2" : "org.apache.kafka.clients.consumer.RangeAssignor"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.RangeAssignor" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,List<MemberInfo>>"
+ , "c2" : "consumersPerTopic(Map<String,Subscription>)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,List<TopicPartition>>"
+ , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
+ , "c3" : "5"
+ , "c4" : "17"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -65,6 +97,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -113,6 +152,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#35"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00035] For method assign list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; AbstractPartitionAssignor_partitionsN186410"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#35"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00035] The argument partitionsPerTopic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -156,35 +202,35 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN183232 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN184944 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN183232 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN184944 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN183232 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN184944 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN183232 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN184944 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN183232 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN184944 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

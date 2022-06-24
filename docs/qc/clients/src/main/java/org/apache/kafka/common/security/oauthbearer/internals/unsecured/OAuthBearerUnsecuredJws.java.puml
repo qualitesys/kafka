@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+OAuthBearerToken <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws
+class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws {
++  OAuthBearerUnsecuredJws(String;String;String)
++  value()
++  splits()
++  header()
++  principalName()
++  startTimeMs()
++  lifetimeMs()
++  scope()
++  claims()
++  principalClaimName()
++  scopeClaimName()
++  isClaimType(String;Class<?>)
++  rawClaim(String)
++  expirationTime()
++  issuedAt()
++  subject()
++  toMap(String)
++  extractCompactSerializationSplits()
++  convert(JsonNode)
++  calculateStartTimeMs()
++  convertClaimTimeInSecondsToMs(Number)
++  calculateScope()
+} 
+@enduml

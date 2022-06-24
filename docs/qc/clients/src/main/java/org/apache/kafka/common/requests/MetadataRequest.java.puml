@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+AbstractRequest <|-- org.apache.kafka.common.requests.MetadataRequest
+class org.apache.kafka.common.requests.MetadataRequest {
++  MetadataRequest(MetadataRequestData;short)
++  data()
++  getErrorResponse(int;Throwable)
++  isAllTopics()
++  topics()
++  topicIds()
++  allowAutoTopicCreation()
++  parse(ByteBuffer;short)
++  convertToMetadataRequestTopic(Collection<String>)
++  convertTopicIdsToMetadataRequestTopic(Collection<Uuid>)
+} 
+@enduml

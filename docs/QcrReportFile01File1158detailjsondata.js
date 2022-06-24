@@ -2,18 +2,183 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java 119 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java 151 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ConnectorsResource"
+ , "c2" : "ConnectorsResource(Herder;WorkerConfig)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setRequestTimeout(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "resetRequestTimeout()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "listConnectors(UriInfo;HttpHeaders)"
+ , "c3" : "7"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "createConnector(Boolean;HttpHeaders;CreateConnectorRequest)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectorInfo"
+ , "c2" : "getConnector(String;HttpHeaders;Boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<String,String>"
+ , "c2" : "getConnectorConfig(String;HttpHeaders;Boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<ConnectorTaskId,Map<String,String>>"
+ , "c2" : "getTasksConfig(String;HttpHeaders;Boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectorStateInfo"
+ , "c2" : "getConnectorStatus(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "getConnectorActiveTopics(String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "resetConnectorActiveTopics(String;HttpHeaders)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "putConnectorConfig(String;HttpHeaders;Boolean;Map<String,String>)"
+ , "c3" : "3"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "restartConnector(String;HttpHeaders;Boolean;Boolean;Boolean)"
+ , "c3" : "2"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "pauseConnector(String;HttpHeaders)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Response"
+ , "c2" : "resumeConnector(String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<TaskInfo>"
+ , "c2" : "getTaskConfigs(String;HttpHeaders;Boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putTaskConfigs(String;HttpHeaders;Boolean;byte[])"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "fenceZombies(String;HttpHeaders;Boolean;byte[])"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ConnectorStateInfo.TaskState"
+ , "c2" : "getTaskStatus(String;HttpHeaders;Integer)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "restartTask(String;Integer;HttpHeaders;Boolean)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "destroyConnector(String;HttpHeaders;Boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "checkAndPutConnectorConfigName(String;Map<String,String>)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -37,12 +202,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "26"
 }}
 ,
 { "ligne" : {
@@ -57,6 +238,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -85,6 +273,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "22"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -156,56 +351,56 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'expand' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'expand' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'expand' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'expand' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'status' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'status' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'status' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'status' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'info' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'info' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'info' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'info' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'Ignoring unknown expansion type {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'Ignoring unknown expansion type {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN247612 the MagicNumber/String  'Unable to get connector info for {} on this worker' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String  'Unable to get connector info for {} on this worker' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -213,6 +408,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#142"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00142] For method createConnector arguments Boolean  forward|HttpHeaders  headers|CreateConnectorRequest  createRequest"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00142"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#142"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00142] For method createConnector list of called methods Object monObjet|String createRequest_nameN251483|java.util.Map&lt;String,String&gt; createRequest_configN251744"
 }} 
 ,
 { "ligne" : {
@@ -226,42 +428,42 @@ var maDataBlocs = {
    "c1" : "00148"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN249491 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN251203 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN249491 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN251203 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00154"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN249491 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN251203 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN249491 the MagicNumber/String  '/connectors' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN251203 the MagicNumber/String  '/connectors' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN249491 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN251203 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00158"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN249491 the MagicNumber/String  '/connectors' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.createConnector@POLYN251203 the MagicNumber/String  '/connectors' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -275,21 +477,21 @@ var maDataBlocs = {
    "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnector@POLYN251201 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnector@POLYN252913 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnector@POLYN251201 the MagicNumber/String  'GET' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnector@POLYN252913 the MagicNumber/String  'GET' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnector@POLYN251201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnector@POLYN252913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -303,28 +505,28 @@ var maDataBlocs = {
    "c1" : "00181"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN252055 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN253767 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN252055 the MagicNumber/String  '/config' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN253767 the MagicNumber/String  '/config' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN252055 the MagicNumber/String  'GET' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN253767 the MagicNumber/String  'GET' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN252055 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorConfig@POLYN253767 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -338,28 +540,28 @@ var maDataBlocs = {
    "c1" : "00193"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN253007 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN254719 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN253007 the MagicNumber/String  '/tasks-config' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN254719 the MagicNumber/String  '/tasks-config' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN253007 the MagicNumber/String  'GET' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN254719 the MagicNumber/String  'GET' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN253007 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTasksConfig@POLYN254719 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -377,10 +579,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00206"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#206"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00206] For method getConnectorActiveTopics list of called methods Object monObjet|org.apache.kafka.connect.runtime.rest.entities.ActiveTopicsInfo herder_connectorActiveTopicsN256271"
+}} 
+,
+{ "ligne" : {
    "c1" : "00209"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorActiveTopics@POLYN254231 the MagicNumber/String  'Topic tracking is disabled.' should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getConnectorActiveTopics@POLYN255943 the MagicNumber/String  'Topic tracking is disabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -394,14 +603,14 @@ var maDataBlocs = {
    "c1" : "00221"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.resetConnectorActiveTopics@POLYN254918 the MagicNumber/String  'Topic tracking is disabled.' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.resetConnectorActiveTopics@POLYN256630 the MagicNumber/String  'Topic tracking is disabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.resetConnectorActiveTopics@POLYN254918 the MagicNumber/String  'Topic tracking reset is disabled.' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.resetConnectorActiveTopics@POLYN256630 the MagicNumber/String  'Topic tracking reset is disabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -415,35 +624,35 @@ var maDataBlocs = {
    "c1" : "00241"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN255707 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00242"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN255707 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00242"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN255707 the MagicNumber/String  '/config' should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String  '/config' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00243"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN255707 the MagicNumber/String  'PUT' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String  'PUT' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN255707 the MagicNumber/String  '/connectors' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String  '/connectors' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -471,56 +680,56 @@ var maDataBlocs = {
    "c1" : "00263"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00263"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  '/restart' should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  '/restart' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00268"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00268"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00276"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  'includeTasks' should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  'includeTasks' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00277"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  'onlyFailed' should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  'onlyFailed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00278"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00278"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN257493 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -548,28 +757,28 @@ var maDataBlocs = {
    "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN260905 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN262617 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN260905 the MagicNumber/String  '/tasks' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN262617 the MagicNumber/String  '/tasks' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN260905 the MagicNumber/String  'GET' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN262617 the MagicNumber/String  'GET' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN260905 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.getTaskConfigs@POLYN262617 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -583,21 +792,21 @@ var maDataBlocs = {
    "c1" : "00323"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putTaskConfigs@POLYN261886 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putTaskConfigs@POLYN263598 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00323"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putTaskConfigs@POLYN261886 the MagicNumber/String  '/tasks' should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putTaskConfigs@POLYN263598 the MagicNumber/String  '/tasks' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00323"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putTaskConfigs@POLYN261886 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putTaskConfigs@POLYN263598 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -611,21 +820,21 @@ var maDataBlocs = {
    "c1" : "00334"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.fenceZombies@POLYN262936 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.fenceZombies@POLYN264648 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00334"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.fenceZombies@POLYN262936 the MagicNumber/String  '/fence' should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.fenceZombies@POLYN264648 the MagicNumber/String  '/fence' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00334"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.fenceZombies@POLYN262936 the MagicNumber/String  'PUT' should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.fenceZombies@POLYN264648 the MagicNumber/String  'PUT' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -646,35 +855,35 @@ var maDataBlocs = {
    "c1" : "00356"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN264318 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00356"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN264318 the MagicNumber/String  '/tasks/' should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String  '/tasks/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00356"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN264318 the MagicNumber/String  '/restart' should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String  '/restart' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00356"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN264318 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00356"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN264318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -688,21 +897,21 @@ var maDataBlocs = {
    "c1" : "00367"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.destroyConnector@POLYN265380 the MagicNumber/String  '/connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.destroyConnector@POLYN267092 the MagicNumber/String  '/connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.destroyConnector@POLYN265380 the MagicNumber/String  'DELETE' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.destroyConnector@POLYN267092 the MagicNumber/String  'DELETE' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.destroyConnector@POLYN265380 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.destroyConnector@POLYN267092 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -723,28 +932,28 @@ var maDataBlocs = {
    "c1" : "00374"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN266099 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN267811 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00376"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN266099 the MagicNumber/String  'Connector name configuration (' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN267811 the MagicNumber/String  'Connector name configuration (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00376"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN266099 the MagicNumber/String  ') doesn't match connector name in the URL (' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN267811 the MagicNumber/String  ') doesn't match connector name in the URL (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00376"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN266099 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.checkAndPutConnectorConfigName@POLYN267811 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -905,7 +1114,7 @@ var maDataBlocs = {
    "c1" : "00471"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.CreatedConnectorInfoTranslator.translate@POLYN271845 the MagicNumber/String  201 should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.CreatedConnectorInfoTranslator.translate@POLYN273557 the MagicNumber/String  201 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -920,6 +1129,216 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#97"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00097] Public method resetRequestTimeout is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00241"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#241"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00241] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00242"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String '/config' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00242"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String '/connectors/' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00243"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#243"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String 'PUT' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00246"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#246"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.putConnectorConfig@POLYN257419 the MagicNumber/String '/connectors' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00108"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'expand' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'expand' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00115"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'status' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00116"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'status' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'info' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00119"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'info' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00122"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'Ignoring unknown expansion type {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00129"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.listConnectors@POLYN249324 the MagicNumber/String 'Unable to get connector info for {} on this worker' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String '/connectors/' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String '/restart' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00268"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String 'POST' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00268"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00276"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String 'includeTasks' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00277"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#277"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String 'onlyFailed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00278"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#278"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00278] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String 'POST' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00278"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#278"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00278] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartConnector@POLYN259205 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00356"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String '/connectors/' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00356"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String '/restart' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00356"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String '/tasks/' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00356"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String 'POST' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00356"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.restartTask@POLYN266030 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

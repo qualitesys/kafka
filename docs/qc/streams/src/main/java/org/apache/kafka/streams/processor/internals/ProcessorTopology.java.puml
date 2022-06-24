@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorTopology
+class org.apache.kafka.streams.processor.internals.ProcessorTopology {
++  ProcessorTopology(List<ProcessorNode<?,?,?,?>>;Map<String,SourceNode<?,?>>;Map<String,SinkNode<?,?>>;List<StateStore>;List<StateStore>;Map<String,String>;Set<String>)
++  sourceTopics()
++  source(String)
++  sources()
++  sinkTopics()
++  sink(String)
++  terminalNodes()
++  processors()
++  stateStores()
++  globalStateStores()
++  storeToChangelogTopic()
++  isRepartitionTopic(String)
++  hasStateWithChangelogs()
++  hasPersistentLocalStore()
++  hasPersistentGlobalStore()
++  updateSourceTopics(Map<String,List<String>>)
++  childrenToString(String;List<?extendsProcessorNode<?,?,?,?>>)
++  toString()
++  toString(String)
++  topicsToString(String;List<String>)
++  processorConnectedStateStores(String)
+} 
+@enduml

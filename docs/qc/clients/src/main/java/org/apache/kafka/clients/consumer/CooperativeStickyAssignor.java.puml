@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AbstractStickyAssignor <|-- org.apache.kafka.clients.consumer.CooperativeStickyAssignor
+class org.apache.kafka.clients.consumer.CooperativeStickyAssignor {
++  name()
++  supportedProtocols()
++  onAssignment(Assignment;ConsumerGroupMetadata)
++  subscriptionUserData(Set<String>)
++  memberData(Subscription)
++  assign(Map<String,Integer>;Map<String,Subscription>)
++  adjustAssignment(Map<String,List<TopicPartition>>;Map<TopicPartition,String>)
++  computePartitionsTransferringOwnership(Map<String,Subscription>;Map<String,List<TopicPartition>>)
+} 
+@enduml

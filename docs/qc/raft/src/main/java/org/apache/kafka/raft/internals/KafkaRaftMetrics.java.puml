@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.raft.internals.KafkaRaftMetrics
+class org.apache.kafka.raft.internals.KafkaRaftMetrics {
++  KafkaRaftMetrics(Metrics;String;QuorumState)
++  updatePollStart(long)
++  updatePollEnd(long)
++  updateLogEnd(OffsetAndEpoch)
++  updateNumUnknownVoterConnections(int)
++  updateAppendRecords(long)
++  updateFetchedRecords(long)
++  updateCommitLatency(double;long)
++  updateElectionStartMs(long)
++  maybeUpdateElectionLatency(long)
++  close()
+} 
+@enduml

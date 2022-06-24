@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.placement.ClusterDescriber
+class org.apache.kafka.metadata.placement.ClusterDescriber {
++  usableBrokers()
+} 
+@enduml

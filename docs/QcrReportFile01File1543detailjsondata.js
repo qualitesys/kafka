@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ProductionExceptionHandler"
+ , "c2" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ProductionExceptionHandlerResponse"
+ , "c2" : "handle(ProducerRecord<byte[],byte[]>;Exception)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.svg" }
+
 ] 
 , 
 "data04" : [

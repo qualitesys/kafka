@@ -1,0 +1,30 @@
+@startuml
+!pragma layout smetana
+Readable <|-- org.apache.kafka.common.protocol.ByteBufferAccessor
+class org.apache.kafka.common.protocol.ByteBufferAccessor {
++  ByteBufferAccessor(ByteBuffer)
++  readByte()
++  readShort()
++  readInt()
++  readLong()
++  readDouble()
++  readArray(byte[])
++  readUnsignedVarint()
++  readByteBuffer(int)
++  writeByte(byte)
++  writeShort(short)
++  writeInt(int)
++  writeLong(long)
++  writeDouble(double)
++  writeByteArray(byte[])
++  writeUnsignedVarint(int)
++  writeByteBuffer(ByteBuffer)
++  writeVarint(int)
++  writeVarlong(long)
++  readVarint()
++  readVarlong()
++  remaining()
++  flip()
++  buffer()
+} 
+@enduml

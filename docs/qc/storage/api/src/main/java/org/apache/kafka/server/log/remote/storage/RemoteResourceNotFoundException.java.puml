@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+RemoteStorageException <|-- org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException
+class org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException {
++  RemoteResourceNotFoundException(String)
++  RemoteResourceNotFoundException(Throwable)
++  RemoteResourceNotFoundException(String;Throwable)
+} 
+@enduml

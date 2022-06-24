@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+Query<KeyValueIterator<Windowed<K>,V>> <|-- org.apache.kafka.streams.query.WindowRangeQuery
+class org.apache.kafka.streams.query.WindowRangeQuery {
++  WindowRangeQuery(Optional<K>;Optional<Instant>;Optional<Instant>)
++  getKey()
++  getTimeFrom()
++  getTimeTo()
++  toString()
+} 
+@enduml

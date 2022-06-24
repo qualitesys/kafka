@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.mirror.Checkpoint
+class org.apache.kafka.connect.mirror.Checkpoint {
++  Checkpoint(String;TopicPartition;long;long;String)
++  consumerGroupId()
++  topicPartition()
++  upstreamOffset()
++  downstreamOffset()
++  metadata()
++  offsetAndMetadata()
++  toString()
++  serializeValue(short)
++  serializeKey()
++  deserializeRecord(ConsumerRecord<byte[],byte[]>)
++  valueSchema(short)
++  valueStruct(Schema)
++  keyStruct()
++  headerStruct(short)
++  connectPartition()
++  unwrapGroup(Map<String,?>)
++  recordKey()
++  recordValue()
+} 
+@enduml

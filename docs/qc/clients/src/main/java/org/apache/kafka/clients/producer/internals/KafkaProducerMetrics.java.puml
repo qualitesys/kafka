@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.clients.producer.internals.KafkaProducerMetrics
+class org.apache.kafka.clients.producer.internals.KafkaProducerMetrics {
++  KafkaProducerMetrics(Metrics)
++  close()
++  recordFlush(long)
++  recordInit(long)
++  recordBeginTxn(long)
++  recordSendOffsets(long)
++  recordCommitTxn(long)
++  recordAbortTxn(long)
++  recordMetadataWait(long)
++  newLatencySensor(String;String)
++  metricName(String;String)
++  removeMetric(String)
+} 
+@enduml

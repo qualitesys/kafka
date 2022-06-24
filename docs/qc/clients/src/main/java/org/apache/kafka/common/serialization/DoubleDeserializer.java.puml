@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+Deserializer<Double> <|-- org.apache.kafka.common.serialization.DoubleDeserializer
+class org.apache.kafka.common.serialization.DoubleDeserializer {
++  deserialize(String;byte[])
+} 
+@enduml

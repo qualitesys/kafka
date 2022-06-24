@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.metadata.BrokerHeartbeatReply
+class org.apache.kafka.metadata.BrokerHeartbeatReply {
++  BrokerHeartbeatReply(boolean;boolean;boolean;boolean)
++  isCaughtUp()
++  isFenced()
++  inControlledShutdown()
++  shouldShutDown()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

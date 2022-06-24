@@ -8,12 +8,51 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.common.Node"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.trogdor.common.Node" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "hostname()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "getConfig(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Set<String>"
+ , "c2" : "tags()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.png" 
+
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -93,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00015"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.trogdor.common.Node.Util.getIntConfig@POLYN158174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.trogdor.common.Node.Util.getIntConfig@POLYN159886 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

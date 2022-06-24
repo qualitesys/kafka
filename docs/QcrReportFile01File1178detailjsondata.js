@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.storage.OffsetUtils"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.storage.OffsetUtils" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "validateFormat(Object)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,14 +104,14 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN158528 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN160240 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00017"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN158528 the MagicNumber/String  'Offsets must be specified as a Map' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN160240 the MagicNumber/String  'Offsets must be specified as a Map' should be converted to const"
 }} 
 ,
 { "ligne" : {

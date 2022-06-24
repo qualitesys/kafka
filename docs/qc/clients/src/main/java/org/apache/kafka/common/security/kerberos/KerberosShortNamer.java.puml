@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.kerberos.KerberosShortNamer
+class org.apache.kafka.common.security.kerberos.KerberosShortNamer {
++  KerberosShortNamer(List<KerberosRule>)
++  fromUnparsedRules(String;List<String>)
++  parseRules(String;List<String>)
++  shortName(KerberosName)
++  toString()
+} 
+@enduml

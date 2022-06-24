@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ConnectorContext"
+ , "c2" : "org.apache.kafka.connect.source.SourceConnectorContext"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.connect.source.SourceConnectorContext" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "OffsetStorageReader"
+ , "c2" : "offsetStorageReader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.png" 
+
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.svg" }
+
 ] 
 , 
 "data04" : [

@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.controller.AclControlManager
+class org.apache.kafka.controller.AclControlManager {
++  AclControlManager(SnapshotRegistry;Optional<ClusterMetadataAuthorizer>)
++  createAcls(List<AclBinding>)
++  newAclId()
++  validateNewAcl(AclBinding)
++  deleteAcls(List<AclBindingFilter>)
++  deleteAclsForFilter(AclBindingFilter;Set<ApiMessageAndVersion>)
++  validateFilter(AclBindingFilter)
++  replay(AccessControlEntryRecord;Optional<OffsetAndEpoch>)
++  replay(RemoveAccessControlEntryRecord;Optional<OffsetAndEpoch>)
++  idToAcl()
++  iterator(long)
+} 
+@enduml

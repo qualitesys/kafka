@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils
+class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils {
++  isValidScopeItem(String)
++  parseScope(String)
++  OAuthBearerScopeUtils()
+} 
+@enduml

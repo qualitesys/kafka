@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.SourceGraphNode
+class org.apache.kafka.streams.kstream.internals.graph.SourceGraphNode {
++  SourceGraphNode(String;Collection<String>;ConsumedInternal<K,V>)
++  SourceGraphNode(String;Pattern;ConsumedInternal<K,V>)
++  topicNames()
++  topicPattern()
++  consumedInternal()
++  keySerde()
++  valueSerde()
+} 
+@enduml

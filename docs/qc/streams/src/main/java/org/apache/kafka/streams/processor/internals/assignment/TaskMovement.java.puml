@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.TaskMovement
+class org.apache.kafka.streams.processor.internals.assignment.TaskMovement {
++  TaskMovement(TaskId;UUID;SortedSet<UUID>)
++  task()
++  numCaughtUpClients()
++  taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist(TaskId;UUID;Map<UUID,ClientState>;Map<TaskId,SortedSet<UUID>>;Map<TaskId,SortedSet<UUID>>)
++  taskIsCaughtUpOnClient(TaskId;UUID;Map<TaskId,SortedSet<UUID>>)
++  assignActiveTaskMovements(Map<TaskId,SortedSet<UUID>>;Map<TaskId,SortedSet<UUID>>;Map<UUID,ClientState>;Map<UUID,Set<TaskId>>;AtomicInteger)
++  assignStandbyTaskMovements(Map<TaskId,SortedSet<UUID>>;Map<TaskId,SortedSet<UUID>>;Map<UUID,ClientState>;AtomicInteger;Map<UUID,Set<TaskId>>)
++  tryToSwapStandbyAndActiveOnCaughtUpClient(Map<UUID,ClientState>;ConstrainedPrioritySet;TaskMovement)
++  tryToMoveActiveToCaughtUpClientAndTryToWarmUp(Map<UUID,ClientState>;Map<UUID,Set<TaskId>>;AtomicInteger;ConstrainedPrioritySet;TaskMovement)
++  tryToMoveActiveToMostCaughtUpClient(Map<TaskId,SortedSet<UUID>>;Map<UUID,ClientState>;Map<UUID,Set<TaskId>>;AtomicInteger;ConstrainedPrioritySet;TaskMovement)
++  moveActiveAndTryToWarmUp(AtomicInteger;TaskId;ClientState;ClientState;Set<TaskId>)
++  moveStandbyAndTryToWarmUp(AtomicInteger;TaskId;ClientState;ClientState)
++  swapStandbyAndActive(TaskId;ClientState;ClientState)
++  mostCaughtUpEligibleClient(Map<TaskId,SortedSet<UUID>>;TaskId;UUID)
++  mostCaughtUpEligibleClient(Map<TaskId,SortedSet<UUID>>;Function<UUID,Boolean>;TaskId;UUID)
+} 
+@enduml

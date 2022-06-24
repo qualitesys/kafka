@@ -8,12 +8,44 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "TimestampedTupleForwarder"
+ , "c2" : "TimestampedTupleForwarder(StateStore;ProcessorContext<K,Change<V>>;TimestampedCacheFlushListener<K,V>;boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "TimestampedTupleForwarder"
+ , "c2" : "TimestampedTupleForwarder(ProcessorContext<K,Change<V>>;boolean)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "maybeForward(Record<K,Change<V>>)"
+ , "c3" : "4"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -79,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder.TimestampedTupleForwarder@POLYN162776 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder.TimestampedTupleForwarder@POLYN164488 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -100,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder.maybeForward@POLYN163189 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder.maybeForward@POLYN164901 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

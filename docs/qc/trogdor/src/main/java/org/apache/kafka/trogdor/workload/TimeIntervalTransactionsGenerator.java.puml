@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+TransactionGenerator <|-- org.apache.kafka.trogdor.workload.TimeIntervalTransactionsGenerator
+class org.apache.kafka.trogdor.workload.TimeIntervalTransactionsGenerator {
++  TimeIntervalTransactionsGenerator(int)
++  TimeIntervalTransactionsGenerator(int;Time)
++  transactionIntervalMs()
++  nextAction()
+} 
+@enduml

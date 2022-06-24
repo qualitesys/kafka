@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+EpochState <|-- org.apache.kafka.raft.FollowerState
+class org.apache.kafka.raft.FollowerState {
++  FollowerState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)
++  election()
++  epoch()
++  name()
++  remainingFetchTimeMs(long)
++  leaderId()
++  hasFetchTimeoutExpired(long)
++  resetFetchTimeout(long)
++  overrideFetchTimeout(long;long)
++  updateHighWatermark(OptionalLong)
++  highWatermark()
++  fetchingSnapshot()
++  setFetchingSnapshot(Optional<RawSnapshotWriter>)
++  canGrantVote(int;boolean)
++  toString()
++  close()
+} 
+@enduml

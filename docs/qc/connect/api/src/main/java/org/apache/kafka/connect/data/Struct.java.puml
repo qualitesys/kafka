@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.data.Struct
+class org.apache.kafka.connect.data.Struct {
++  Struct(Schema)
++  schema()
++  get(String)
++  get(Field)
++  getWithoutDefault(String)
++  getInt8(String)
++  getInt16(String)
++  getInt32(String)
++  getInt64(String)
++  getFloat32(String)
++  getFloat64(String)
++  getBoolean(String)
++  getString(String)
++  getBytes(String)
++  getStruct(String)
++  put(String;Object)
++  put(Field;Object)
++  validate()
++  equals(Object)
++  hashCode()
++  lookupField(String)
++  getCheckType(String;Schema.Type)
++  toString()
+} 
+@enduml

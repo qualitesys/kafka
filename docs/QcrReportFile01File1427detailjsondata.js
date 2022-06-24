@@ -8,12 +8,65 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "MemoryPool"
+ , "c2" : "org.apache.kafka.raft.internals.BatchMemoryPool"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.raft.internals.BatchMemoryPool" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "BatchMemoryPool"
+ , "c2" : "BatchMemoryPool(int;int)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ByteBuffer"
+ , "c2" : "tryAllocate(int)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "release(ByteBuffer)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "availableMemory()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isOutOfMemory()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.png" 
+
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -86,28 +139,28 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN162892 the MagicNumber/String  'Cannot allocate buffers larger than max ' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN164604 the MagicNumber/String  'Cannot allocate buffers larger than max ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN162892 the MagicNumber/String  'batch size of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN164604 the MagicNumber/String  'batch size of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN162892 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN164604 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN162892 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN164604 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -128,14 +181,14 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.internals.BatchMemoryPool.release@POLYN163683 the MagicNumber/String  'Released buffer with unexpected size ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.internals.BatchMemoryPool.release@POLYN165395 the MagicNumber/String  'Released buffer with unexpected size ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.internals.BatchMemoryPool.isOutOfMemory@POLYN164943 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.internals.BatchMemoryPool.isOutOfMemory@POLYN166655 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

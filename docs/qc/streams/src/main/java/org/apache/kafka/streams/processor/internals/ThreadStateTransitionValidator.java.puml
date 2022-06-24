@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ThreadStateTransitionValidator
+class org.apache.kafka.streams.processor.internals.ThreadStateTransitionValidator {
++  isValidTransition(ThreadStateTransitionValidator)
+} 
+@enduml

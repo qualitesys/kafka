@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark
+class org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark {
++  setUp()
++  tearDown()
++  createLogConfig()
++  updateFollowerFetchStateBench()
++  updateFollowerFetchStateBenchNoChange()
+} 
+@enduml

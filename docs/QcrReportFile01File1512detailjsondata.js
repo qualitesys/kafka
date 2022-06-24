@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "RemoteLogMetadataTransform<RemoteLogSegmentMetadata>"
+ , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataTransform"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataTransform" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "ApiMessageAndVersion"
+ , "c2" : "toApiMessageAndVersion(RemoteLogSegmentMetadata)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "List<RemoteLogSegmentMetadataRecord.SegmentLeaderEpochEntry>"
+ , "c2" : "createSegmentLeaderEpochsEntry(RemoteLogSegmentMetadata)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteLogSegmentMetadataRecord.RemoteLogSegmentIdEntry"
+ , "c2" : "createRemoteLogSegmentIdEntry(RemoteLogSegmentMetadata)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteLogSegmentMetadata"
+ , "c2" : "fromApiMessageAndVersion(ApiMessageAndVersion)"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "RemoteLogSegmentId"
+ , "c2" : "buildRemoteLogSegmentId(RemoteLogSegmentMetadataRecord.RemoteLogSegmentIdEntry)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.png" 
+
+ , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.svg" }
+
 ] 
 , 
 "data04" : [

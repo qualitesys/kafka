@@ -8,12 +8,37 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ApiException"
+ , "c2" : "org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "DelegationTokenOwnerMismatchException"
+ , "c2" : "DelegationTokenOwnerMismatchException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DelegationTokenOwnerMismatchException"
+ , "c2" : "DelegationTokenOwnerMismatchException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenOwnerMismatchException.java.png" 
+
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenOwnerMismatchException.java.svg" }
+
 ] 
 , 
 "data04" : [

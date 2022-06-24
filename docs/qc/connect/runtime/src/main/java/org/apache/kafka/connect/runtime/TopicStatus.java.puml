@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.TopicStatus
+class org.apache.kafka.connect.runtime.TopicStatus {
++  TopicStatus(String;ConnectorTaskId;long)
++  TopicStatus(String;String;int;long)
++  topic()
++  connector()
++  task()
++  discoverTimestamp()
++  toString()
++  equals(Object)
++  hashCode()
+} 
+@enduml

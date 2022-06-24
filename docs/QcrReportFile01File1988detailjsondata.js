@@ -8,12 +8,93 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "ReadOnlyWindowStore<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "CompositeReadOnlyWindowStore"
+ , "c2" : "CompositeReadOnlyWindowStore(StateStoreProvider;QueryableStoreType<ReadOnlyWindowStore<K,V>>;String)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "V"
+ , "c2" : "fetch(K;long)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<V>"
+ , "c2" : "fetch(K;Instant;Instant)"
+ , "c3" : "4"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<V>"
+ , "c2" : "backwardFetch(K;Instant;Instant)"
+ , "c3" : "4"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "fetch(K;K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "backwardFetch(K;K;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "backwardAll()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "fetchAll(Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,V>"
+ , "c2" : "backwardFetchAll(Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -100,35 +181,35 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN180629 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN182341 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN180629 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN182341 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN180629 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN182341 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN180629 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN182341 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN180629 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN182341 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -156,21 +237,21 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN181594 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN183306 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN181594 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN183306 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN181594 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN183306 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -198,21 +279,21 @@ var maDataBlocs = {
    "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN182724 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN184436 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN182724 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN184436 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN182724 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN184436 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {

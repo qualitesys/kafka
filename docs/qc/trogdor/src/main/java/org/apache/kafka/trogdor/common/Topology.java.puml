@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.common.Topology
+class org.apache.kafka.trogdor.common.Topology {
++  node(String)
++  nodes()
+} 
+@enduml

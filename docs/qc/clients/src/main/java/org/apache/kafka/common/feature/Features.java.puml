@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.feature.Features
+class org.apache.kafka.common.feature.Features {
++  Features(Map<String,VersionRangeType>)
++  supportedFeatures(Map<String,SupportedVersionRange>)
++  emptySupportedFeatures()
++  features()
++  empty()
++  get(String)
++  toString()
++  toMap()
++  fromSupportedFeaturesMap(Map<String,Map<String,Short>>)
++  equals(Object)
++  hashCode()
+} 
+@enduml

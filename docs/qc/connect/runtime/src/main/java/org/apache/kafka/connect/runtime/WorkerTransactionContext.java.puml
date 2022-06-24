@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+TransactionContext <|-- org.apache.kafka.connect.runtime.WorkerTransactionContext
+class org.apache.kafka.connect.runtime.WorkerTransactionContext {
++  commitTransaction()
++  commitTransaction(SourceRecord)
++  abortTransaction()
++  abortTransaction(SourceRecord)
++  shouldCommitBatch()
++  shouldAbortBatch()
++  shouldCommitOn(SourceRecord)
++  shouldAbortOn(SourceRecord)
++  checkBatchRequestsConsistency()
++  checkRecordRequestConsistency(SourceRecord)
+} 
+@enduml

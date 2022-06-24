@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.AddPartitionsToTxnResponse
+class org.apache.kafka.common.requests.AddPartitionsToTxnResponse {
++  AddPartitionsToTxnResponse(AddPartitionsToTxnResponseData)
++  AddPartitionsToTxnResponse(int;Map<TopicPartition,Errors>)
++  throttleTimeMs()
++  errors()
++  errorCounts()
++  data()
++  parse(ByteBuffer;short)
++  toString()
++  shouldClientThrottle(short)
+} 
+@enduml

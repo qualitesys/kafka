@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.CachedStateStore
+class org.apache.kafka.streams.state.internals.CachedStateStore {
++  setFlushListener(CacheFlushListener<K,V>;boolean)
++  flushCache()
+} 
+@enduml

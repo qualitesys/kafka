@@ -8,12 +8,30 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.ConnectedStoreProvider"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.processor.ConnectedStoreProvider" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "Set<StoreBuilder<?>>"
+ , "c2" : "stores()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ConnectedStoreProvider.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ConnectedStoreProvider.java.svg" }
+
 ] 
 , 
 "data04" : [

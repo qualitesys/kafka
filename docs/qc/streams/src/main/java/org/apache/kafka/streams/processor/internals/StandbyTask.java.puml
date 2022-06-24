@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+AbstractTaskTask <|-- org.apache.kafka.streams.processor.internals.StandbyTask
+class org.apache.kafka.streams.processor.internals.StandbyTask {
++  StandbyTask(TaskId;Set<TopicPartition>;ProcessorTopology;TaskConfig;StreamsMetricsImpl;ProcessorStateManager;StateDirectory;ThreadCache;InternalProcessorContext)
++  isActive()
++  initializeIfNeeded()
++  completeRestoration(java.util.function.Consumer<Set<TopicPartition>>)
++  suspend()
++  resume()
++  prepareCommit()
++  postCommit(boolean)
++  closeClean()
++  closeDirty()
++  closeCleanAndRecycleState()
++  close(boolean)
++  commitNeeded()
++  changelogOffsets()
++  committedOffsets()
++  highWaterMark()
++  timeCurrentIdlingStarted()
++  addRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)
++  processorContext()
++  toString()
++  toString(String)
+} 
+@enduml

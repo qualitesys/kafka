@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.ClientResponse
+class org.apache.kafka.clients.ClientResponse {
++  ClientResponse(RequestHeader;RequestCompletionHandler;String;long;long;boolean;UnsupportedVersionException;AuthenticationException;AbstractResponse)
++  receivedTimeMs()
++  wasDisconnected()
++  versionMismatch()
++  authenticationException()
++  requestHeader()
++  destination()
++  responseBody()
++  hasResponse()
++  requestLatencyMs()
++  onComplete()
++  toString()
+} 
+@enduml

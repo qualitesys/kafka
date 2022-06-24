@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.image.ConfigurationImage
+class org.apache.kafka.image.ConfigurationImage {
++  ConfigurationImage(Map<String,String>)
++  data()
++  isEmpty()
++  toProperties()
++  write(ConfigResource;Consumer<List<ApiMessageAndVersion>>)
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

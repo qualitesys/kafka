@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+Closeable <|-- org.apache.kafka.common.serialization.Serde
+class org.apache.kafka.common.serialization.Serde {
++  configure(Map<String,?>;boolean)
++  close()
++  serializer()
++  deserializer()
+} 
+@enduml

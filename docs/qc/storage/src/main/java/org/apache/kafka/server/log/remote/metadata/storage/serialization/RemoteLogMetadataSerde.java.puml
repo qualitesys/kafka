@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde
+class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde {
++  RemoteLogMetadataSerde()
++  newApiMessage(short)
++  createRemoteLogMetadataTransforms()
++  createRemoteLogStorageClassToApiKeyMap()
++  serialize(RemoteLogMetadata)
++  deserialize(byte[])
++  remoteLogMetadataTransform(short)
+} 
+@enduml

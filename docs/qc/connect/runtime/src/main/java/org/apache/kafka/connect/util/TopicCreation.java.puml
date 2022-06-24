@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.util.TopicCreation
+class org.apache.kafka.connect.util.TopicCreation {
++  TopicCreation(boolean;TopicCreationGroup;Map<String,TopicCreationGroup>;Set<String>)
++  newTopicCreation(WorkerConfig;Map<String,TopicCreationGroup>)
++  empty()
++  isTopicCreationEnabled()
++  isTopicCreationRequired(String)
++  defaultTopicGroup()
++  topicGroups()
++  addTopic(String)
++  findFirstGroup(String)
+} 
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.AsyncClient
+class org.apache.kafka.clients.consumer.internals.AsyncClient {
++  AsyncClient(ConsumerNetworkClient;LogContext)
++  sendAsyncRequest(Node;T1)
++  logger()
++  prepareRequest(Node;T1)
++  handleResponse(Node;T1;Resp)
+} 
+@enduml

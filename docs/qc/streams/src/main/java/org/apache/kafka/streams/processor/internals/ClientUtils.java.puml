@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ClientUtils
+class org.apache.kafka.streams.processor.internals.ClientUtils {
++  getSharedAdminClientId(String)
++  getConsumerClientId(String)
++  getRestoreConsumerClientId(String)
++  getThreadProducerClientId(String)
++  getTaskProducerClientId(String;TaskId)
++  consumerMetrics(Consumer<byte[],byte[]>;Consumer<byte[],byte[]>)
++  adminClientMetrics(Admin)
++  producerMetrics(Collection<StreamsProducer>)
++  fetchCommittedOffsets(Set<TopicPartition>;Consumer<byte[],byte[]>)
++  fetchEndOffsetsFuture(Collection<TopicPartition>;Admin)
++  getEndOffsets(KafkaFuture<Map<TopicPartition,ListOffsetsResultInfo>>)
++  fetchEndOffsets(Collection<TopicPartition>;Admin)
++  extractThreadId(String)
++  producerRecordSizeInBytes(ProducerRecord<byte[],byte[]>)
++  consumerRecordSizeInBytes(ConsumerRecord<byte[],byte[]>)
++  recordSizeInBytes(long;long;String;Headers)
+} 
+@enduml

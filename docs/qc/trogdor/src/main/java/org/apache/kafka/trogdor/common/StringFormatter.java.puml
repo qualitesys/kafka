@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.common.StringFormatter
+class org.apache.kafka.trogdor.common.StringFormatter {
++  dateString(long;ZoneOffset)
++  durationString(long)
++  prettyPrintGrid(List<List<String>>)
+} 
+@enduml

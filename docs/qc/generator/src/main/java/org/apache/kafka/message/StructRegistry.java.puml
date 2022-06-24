@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.message.StructRegistry
+class org.apache.kafka.message.StructRegistry {
++  StructRegistry()
++  register(MessageSpec)
++  addStructSpecs(Versions;List<FieldSpec>)
++  findStruct(FieldSpec)
++  isStructArrayWithKeys(FieldSpec)
++  commonStructNames()
++  commonStructs()
++  structs()
+} 
+@enduml

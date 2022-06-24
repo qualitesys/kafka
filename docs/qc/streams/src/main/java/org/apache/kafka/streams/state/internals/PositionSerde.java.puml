@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.state.internals.PositionSerde
+class org.apache.kafka.streams.state.internals.PositionSerde {
++  PositionSerde()
++  deserialize(ByteBuffer)
++  serialize(Position)
+} 
+@enduml

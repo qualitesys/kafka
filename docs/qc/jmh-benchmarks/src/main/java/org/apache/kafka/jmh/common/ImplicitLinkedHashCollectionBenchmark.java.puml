@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark
+class org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark {
++  setup()
++  testCollectionSort()
+} 
+@enduml

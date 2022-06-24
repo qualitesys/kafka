@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+StateStore <|-- org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBuffer
+class org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBuffer {
++  setSerdesIfNull(SerdeGetter)
++  evictWhile(Supplier<Boolean>;Consumer<Eviction<K,V>>)
++  priorValueForBuffered(K)
++  put(long;Record<K,Change<V>>;ProcessorRecordContext)
++  numRecords()
++  bufferSize()
++  minTimestamp()
+} 
+@enduml

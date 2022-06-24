@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+DataException <|-- org.apache.kafka.connect.errors.SchemaBuilderException
+class org.apache.kafka.connect.errors.SchemaBuilderException {
++  SchemaBuilderException(String)
++  SchemaBuilderException(String;Throwable)
++  SchemaBuilderException(Throwable)
+} 
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+AbstractRocksDBTimeOrderedSegmentedBytesStore <|-- org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore
+class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore {
++  RocksDBTimeOrderedSessionSegmentedBytesStore(String;String;long;long;boolean)
++  fetchSession(Bytes;long;long)
++  remove(Windowed<Bytes>)
++  put(Windowed<Bytes>;byte[])
++  getIndexKeyValue(Bytes;byte[])
++  getWriteBatches(Collection<ConsumerRecord<byte[],byte[]>>)
++  getIndexToBaseStoreIterator(SegmentIterator<KeyValueSegment>)
+} 
+@enduml

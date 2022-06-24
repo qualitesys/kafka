@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.common.acl.AccessControlEntryFilter
+class org.apache.kafka.common.acl.AccessControlEntryFilter {
++  AccessControlEntryFilter(String;String;AclOperation;AclPermissionType)
++  AccessControlEntryFilter(AccessControlEntryData)
++  principal()
++  host()
++  operation()
++  permissionType()
++  toString()
++  isUnknown()
++  matches(AccessControlEntry)
++  matchesAtMostOne()
++  findIndefiniteField()
++  equals(Object)
++  hashCode()
+} 
+@enduml

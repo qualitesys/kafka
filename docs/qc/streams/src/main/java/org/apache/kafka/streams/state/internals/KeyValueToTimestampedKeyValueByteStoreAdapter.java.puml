@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter
+class org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter {
++  KeyValueToTimestampedKeyValueByteStoreAdapter(KeyValueStore<Bytes,byte[]>)
++  put(Bytes;byte[])
++  putIfAbsent(Bytes;byte[])
++  putAll(List<KeyValue<Bytes,byte[]>>)
++  delete(Bytes)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  flush()
++  close()
++  persistent()
++  isOpen()
++  getPosition()
++  get(Bytes)
++  range(Bytes;Bytes)
++  reverseRange(Bytes;Bytes)
++  all()
++  reverseAll()
++  approximateNumEntries()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.StreamsMetrics
+class org.apache.kafka.streams.StreamsMetrics {
++  metrics()
++  addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)
++  addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)
++  addSensor(String;Sensor.RecordingLevel)
++  addSensor(String;Sensor.RecordingLevel;Sensor...)
++  removeSensor(Sensor)
+} 
+@enduml

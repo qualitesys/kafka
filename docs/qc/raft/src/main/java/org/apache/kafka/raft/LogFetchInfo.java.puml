@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.raft.LogFetchInfo
+class org.apache.kafka.raft.LogFetchInfo {
++  LogFetchInfo(Records;LogOffsetMetadata)
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.server.log.remote.storage.RemoteLogMetadata
+class org.apache.kafka.server.log.remote.storage.RemoteLogMetadata {
++  RemoteLogMetadata(int;long)
++  eventTimestampMs()
++  brokerId()
++  topicIdPartition()
+} 
+@enduml

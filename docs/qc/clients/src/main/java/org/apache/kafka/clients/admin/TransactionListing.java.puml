@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.TransactionListing
+class org.apache.kafka.clients.admin.TransactionListing {
++  TransactionListing(String;long;TransactionState)
++  transactionalId()
++  producerId()
++  state()
++  equals(Object)
++  hashCode()
++  toString()
+} 
+@enduml

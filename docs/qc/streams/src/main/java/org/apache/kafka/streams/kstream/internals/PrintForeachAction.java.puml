@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+ForeachAction<K,V> <|-- org.apache.kafka.streams.kstream.internals.PrintForeachAction
+class org.apache.kafka.streams.kstream.internals.PrintForeachAction {
++  PrintForeachAction(OutputStream;KeyValueMapper<?superK,?superV,String>;String)
++  apply(K;V)
++  close()
+} 
+@enduml

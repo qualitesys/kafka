@@ -8,12 +8,58 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : "WindowStoreIterator<V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "MeteredWindowStoreIterator"
+ , "c2" : "MeteredWindowStoreIterator(WindowStoreIterator<byte[]>;Sensor;StreamsMetrics;Function<byte[],V>;Time)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValue<Long,V>"
+ , "c2" : "next()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Long"
+ , "c2" : "peekNextKey()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreIterator.java.png" 
+
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreIterator.java.svg" }
+
 ] 
 , 
 "data04" : [

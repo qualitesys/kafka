@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+AbstractOptions<ListConsumerGroupOffsetsOptions> <|-- org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions
+class org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions {
++  topicPartitions(List<TopicPartition>)
++  topicPartitions()
+} 
+@enduml

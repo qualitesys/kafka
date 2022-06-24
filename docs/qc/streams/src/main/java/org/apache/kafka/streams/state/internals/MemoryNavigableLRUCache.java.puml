@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+MemoryLRUCache <|-- org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache
+class org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache {
++  MemoryNavigableLRUCache(String;int)
++  range(Bytes;Bytes)
++  reverseRange(Bytes;Bytes)
++  getIterator(TreeMap<Bytes,byte[]>;Bytes;Bytes;boolean)
++  all()
++  reverseAll()
++  toTreeMap()
+} 
+@enduml

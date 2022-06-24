@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.snapshot.SnapshotReader
+class org.apache.kafka.snapshot.SnapshotReader {
++  snapshotId()
++  lastContainedLogOffset()
++  lastContainedLogEpoch()
++  lastContainedLogTimestamp()
++  close()
+} 
+@enduml

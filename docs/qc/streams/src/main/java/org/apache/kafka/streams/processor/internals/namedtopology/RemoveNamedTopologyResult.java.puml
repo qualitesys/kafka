@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult
+class org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult {
++  RemoveNamedTopologyResult(KafkaFutureImpl<Void>)
++  RemoveNamedTopologyResult(KafkaFutureImpl<Void>;String;Runnable)
++  removeTopologyFuture()
++  resetOffsetsFuture()
++  all()
+} 
+@enduml

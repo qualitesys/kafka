@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- kafka.server.builders.ReplicaManagerBuilder
+class kafka.server.builders.ReplicaManagerBuilder {
++  setConfig(KafkaConfig)
++  setMetrics(Metrics)
++  setTime(Time)
++  setScheduler(Scheduler)
++  setLogManager(LogManager)
++  setQuotaManagers(QuotaManagers)
++  setMetadataCache(MetadataCache)
++  setLogDirFailureChannel(LogDirFailureChannel)
++  setAlterPartitionManager(AlterPartitionManager)
++  setBrokerTopicStats(BrokerTopicStats)
++  setIsShuttingDown(AtomicBoolean)
++  setZkClient(KafkaZkClient)
++  setDelayedProducePurgatory(DelayedOperationPurgatory<DelayedProduce>)
++  setDelayedFetchPurgatory(DelayedOperationPurgatory<DelayedFetch>)
++  setDelayedDeleteRecordsPurgatory(DelayedOperationPurgatory<DelayedDeleteRecords>)
++  setDelayedElectLeaderPurgatoryParam(DelayedOperationPurgatory<DelayedElectLeader>)
++  setThreadNamePrefix(String)
++  build()
+} 
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+Serializable <|-- org.apache.kafka.common.TopicPartition
+class org.apache.kafka.common.TopicPartition {
++  TopicPartition(String;int)
++  partition()
++  topic()
++  hashCode()
++  equals(Object)
++  toString()
+} 
+@enduml

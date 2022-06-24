@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+AutoCloseable <|-- org.apache.kafka.connect.mirror.Scheduler
+class org.apache.kafka.connect.mirror.Scheduler {
++  Scheduler(String;Duration)
++  Scheduler(Class<?>;Duration)
++  scheduleRepeating(Task;Duration;String)
++  scheduleRepeatingDelayed(Task;Duration;String)
++  execute(Task;String)
++  close()
++  run(Task;String)
++  executeThread(Task;String)
+} 
+@enduml
