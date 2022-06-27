@@ -148,7 +148,7 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.UpdateFeaturesRequest.FeatureUpdateItem.isDeleteRequest@POLYN170848 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.UpdateFeaturesRequest.FeatureUpdateItem.isDeleteRequest@POLYN172768 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -169,7 +169,7 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN171953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN173873 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -190,14 +190,14 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN171953"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN173873"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN171953 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN173873 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -132,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.Checksums.update@POLYN166819 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.Checksums.update@POLYN168739 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,21 +174,21 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN167894 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN169814 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN167894 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN169814 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN167894 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.Checksums.updateInt@POLYN169814 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,49 +209,49 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN168485 the MagicNumber/String  56 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN170405 the MagicNumber/String  56 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN168485 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN170405 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN168485 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN170405 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN168485 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN170405 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN168485 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN170405 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN168485 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN170405 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN168485 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN170405 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
 };

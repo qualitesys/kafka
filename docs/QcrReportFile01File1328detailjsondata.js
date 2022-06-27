@@ -195,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00040] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN169121"
+ , "c3" : "QC-JAV000007[00040] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN171041"
 }} 
 ,
 { "ligne" : {
@@ -209,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00048] For method apply list of called methods Object monObjet|org.apache.kafka.image.ClientQuotaImage change_applyN170333"
+ , "c3" : "QC-JAV000007[00048] For method apply list of called methods Object monObjet|org.apache.kafka.image.ClientQuotaImage change_applyN172253"
 }} 
 ,
 { "ligne" : {
@@ -251,28 +251,28 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN169553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN171473 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN171229 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN173149 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN171229 the MagicNumber/String  'changes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN173149 the MagicNumber/String  'changes=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN171229 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN173149 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {

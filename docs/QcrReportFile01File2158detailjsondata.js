@@ -155,21 +155,21 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.rest.JsonRestServer.JsonRestServer@POLYN205966 the MagicNumber/String  'JsonRestServerCleanupExecutor' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.rest.JsonRestServer.JsonRestServer@POLYN207886 the MagicNumber/String  'JsonRestServerCleanupExecutor' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.rest.JsonRestServer.JsonRestServer@POLYN205966 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.rest.JsonRestServer.JsonRestServer@POLYN207886 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.rest.JsonRestServer.JsonRestServer@POLYN205966 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.rest.JsonRestServer.JsonRestServer@POLYN207886 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -183,91 +183,91 @@ var maDataBlocs = {
    "c1" : "00064"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  'Starting REST server' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  'Starting REST server' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  'Registered resource {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  'Registered resource {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  '/*' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  '/*' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  ' %{ms}T' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  ' %{ms}T' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  'Unable to start REST server' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  'Unable to start REST server' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String  'REST server listening at ' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String  'REST server listening at ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String  'Stopping REST server' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String  'Stopping REST server' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String  'REST server stopped' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String  'REST server stopped' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String  'Unable to stop REST server' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String  'Unable to stop REST server' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.trogdor.rest.JsonRestServer.waitForShutdown@POLYN210291 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.trogdor.rest.JsonRestServer.waitForShutdown@POLYN212211 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -512,105 +512,105 @@ var maDataBlocs = {
    "c1" : "00225"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.trogdor.rest.JsonRestServer.HttpResponse.body@POLYN216968 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.trogdor.rest.JsonRestServer.HttpResponse.body@POLYN218888 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String 'Stopping REST server' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String 'Stopping REST server' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String 'REST server stopped' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String 'REST server stopped' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String 'Unable to stop REST server' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String 'Unable to stop REST server' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN209414 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.beginShutdown@POLYN211334 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String 'Starting REST server' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String 'Starting REST server' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String 'Registered resource {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String 'Registered resource {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String '/' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String '/' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String '/*' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String '/*' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String ' %{ms}T' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String ' %{ms}T' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#91"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#96"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String 'Unable to start REST server' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String 'Unable to start REST server' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN206722 the MagicNumber/String 'REST server listening at ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN208642 the MagicNumber/String 'REST server listening at ' MUST BE CONVERTED to const"
 }} 
 ]
 };

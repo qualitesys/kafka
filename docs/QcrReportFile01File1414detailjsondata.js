@@ -195,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.raft.RaftUtil.errorResponse@POLYN191423 the MagicNumber/String  'Received response for unexpected request type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.raft.RaftUtil.errorResponse@POLYN193343 the MagicNumber/String  'Received response for unexpected request type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -293,42 +293,42 @@ var maDataBlocs = {
    "c1" : "00086"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193912 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195832 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193912 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195832 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193912 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195832 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193912 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195832 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193912 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195832 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN193912 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195832 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -377,42 +377,42 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194629 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196549 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194629 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196549 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194629 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196549 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194629 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196549 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194629 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196549 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN194629 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196549 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -454,42 +454,42 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195346 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197266 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195346 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197266 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195346 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197266 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195346 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197266 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195346 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197266 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN195346 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197266 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -531,42 +531,42 @@ var maDataBlocs = {
    "c1" : "00107"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196058 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197978 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196058 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197978 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196058 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197978 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196058 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197978 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196058 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197978 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196058 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197978 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -608,42 +608,42 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196770 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198690 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196770 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198690 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196770 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198690 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196770 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198690 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196770 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198690 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN196770 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198690 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -685,42 +685,42 @@ var maDataBlocs = {
    "c1" : "00121"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197482 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199402 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197482 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199402 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197482 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199402 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197482 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199402 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197482 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199402 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN197482 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199402 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -762,42 +762,42 @@ var maDataBlocs = {
    "c1" : "00128"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198194 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200114 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198194 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200114 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198194 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200114 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198194 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200114 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198194 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200114 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198194 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200114 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -839,42 +839,42 @@ var maDataBlocs = {
    "c1" : "00135"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198906 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200826 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198906 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200826 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198906 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200826 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198906 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200826 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198906 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200826 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN198906 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN200826 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -916,42 +916,42 @@ var maDataBlocs = {
    "c1" : "00142"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199618 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN201538 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199618 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN201538 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199618 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN201538 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199618 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN201538 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199618 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN201538 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN199618 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.RaftUtil.hasValidTopicPartition@POLYN201538 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

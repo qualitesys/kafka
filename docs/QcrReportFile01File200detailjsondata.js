@@ -139,21 +139,21 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.consumer.internals.AsyncClient.sendAsyncRequest@POLYN165846 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.consumer.internals.AsyncClient.sendAsyncRequest@POLYN167766 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.consumer.internals.AsyncClient.sendAsyncRequest@POLYN165846 the MagicNumber/String  'Could not cast response body' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.consumer.internals.AsyncClient.sendAsyncRequest@POLYN167766 the MagicNumber/String  'Could not cast response body' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.consumer.internals.AsyncClient.sendAsyncRequest@POLYN165846 the MagicNumber/String  'Received {} {} from broker {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.consumer.internals.AsyncClient.sendAsyncRequest@POLYN167766 the MagicNumber/String  'Received {} {} from broker {}' should be converted to const"
 }} 
 ,
 { "ligne" : {

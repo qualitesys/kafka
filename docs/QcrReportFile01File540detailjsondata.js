@@ -202,56 +202,56 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN184918 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN186838 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN184918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN186838 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN184918 the MagicNumber/String  'TaggedFields#of takes an even ' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN186838 the MagicNumber/String  'TaggedFields#of takes an even ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN184918 the MagicNumber/String  'number of parameters.' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN186838 the MagicNumber/String  'number of parameters.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN184918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN186838 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN184918 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN186838 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN184918 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN186838 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.protocol.types.TaggedFields.isNullable@POLYN186082 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.protocol.types.TaggedFields.isNullable@POLYN188002 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -300,7 +300,7 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.types.TaggedFields.write@POLYN186221 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.types.TaggedFields.write@POLYN188141 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -314,7 +314,7 @@ var maDataBlocs = {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN187861|int ByteUtils_readUnsignedVarintN188432|int ByteUtils_readUnsignedVarintN188749"
+ , "c3" : "QC-JAV000007[00066] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN189781|int ByteUtils_readUnsignedVarintN190352|int ByteUtils_readUnsignedVarintN190669"
 }} 
 ,
 { "ligne" : {
@@ -335,35 +335,35 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN187764 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN189684 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN187764 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN189684 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN187764 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN189684 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN187764 the MagicNumber/String  'Invalid or out-of-order tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN189684 the MagicNumber/String  'Invalid or out-of-order tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN187764 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN189684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -377,7 +377,7 @@ var maDataBlocs = {
    "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN189867|int ByteUtils_sizeOfUnsignedVarintN190194|byte[] value_dataN190548"
+ , "c3" : "QC-JAV000007[00094] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN191787|int ByteUtils_sizeOfUnsignedVarintN192114|byte[] value_dataN192468"
 }} 
 ,
 { "ligne" : {
@@ -412,49 +412,49 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN189566 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN191486 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN189566 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN191486 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN191015 the MagicNumber/String  'TAGGED_FIELDS_TYPE_NAME(' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN192935 the MagicNumber/String  'TAGGED_FIELDS_TYPE_NAME(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN191015 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN192935 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN191015 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN192935 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN191015 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN192935 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN191015 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN192935 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -489,35 +489,35 @@ var maDataBlocs = {
    "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN191922 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN193842 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN191922 the MagicNumber/String  'The value associated with tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN193842 the MagicNumber/String  'The value associated with tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN191922 the MagicNumber/String  ' must be a RawTaggedField in this version of the software.' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN193842 the MagicNumber/String  ' must be a RawTaggedField in this version of the software.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN191922 the MagicNumber/String  'Not a NavigableMap.' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN193842 the MagicNumber/String  'Not a NavigableMap.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.protocol.types.TaggedFields.documentation@POLYN193176 the MagicNumber/String  'Represents a series of tagged fields.' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.protocol.types.TaggedFields.documentation@POLYN195096 the MagicNumber/String  'Represents a series of tagged fields.' should be converted to const"
 }} 
 ]
 };

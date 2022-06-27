@@ -232,21 +232,21 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN171366 the MagicNumber/String  'Heartbeat must be set lower than the session timeout' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN173286 the MagicNumber/String  'Heartbeat must be set lower than the session timeout' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN171366 the MagicNumber/String  '[Heartbeat groupID=' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN173286 the MagicNumber/String  '[Heartbeat groupID=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN171366 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN173286 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -274,35 +274,35 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN172942 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN174862 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN172942 the MagicNumber/String  'Sending heartbeat request with {}ms remaining on timer' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN174862 the MagicNumber/String  'Sending heartbeat request with {}ms remaining on timer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN173439 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN175359 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN173439 the MagicNumber/String  'Heartbeat failed, reset the timer to {}ms remaining' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN175359 the MagicNumber/String  'Heartbeat failed, reset the timer to {}ms remaining' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.consumer.internals.Heartbeat.receiveHeartbeat@POLYN173808 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.consumer.internals.Heartbeat.receiveHeartbeat@POLYN175728 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,42 +337,42 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN172942"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN174862"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN173439"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN175359"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN172942 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN174862 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN172942 the MagicNumber/String 'Sending heartbeat request with {}ms remaining on timer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.sentHeartbeat@POLYN174862 the MagicNumber/String 'Sending heartbeat request with {}ms remaining on timer' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN173439 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN175359 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN173439 the MagicNumber/String 'Heartbeat failed, reset the timer to {}ms remaining' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN175359 the MagicNumber/String 'Heartbeat failed, reset the timer to {}ms remaining' MUST BE CONVERTED to const"
 }} 
 ]
 };

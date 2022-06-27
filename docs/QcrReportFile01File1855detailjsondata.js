@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.processor.internals.SinkNode.addChild@POLYN172243 the MagicNumber/String  'sink node does not allow addChild' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.processor.internals.SinkNode.addChild@POLYN174163 the MagicNumber/String  'sink node does not allow addChild' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00084"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN174260 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN176180 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -167,14 +167,14 @@ var maDataBlocs = {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN174467 the MagicNumber/String  '\ttopic:\t\t' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN176387 the MagicNumber/String  '\ttopic:\t\t' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN174467 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN176387 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ]
 };

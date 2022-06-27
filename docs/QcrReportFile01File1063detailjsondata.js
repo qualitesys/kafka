@@ -188,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN232162 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN234082 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN232162 the MagicNumber/String  'Registering Connect metrics with JMX for worker '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN234082 the MagicNumber/String  'Registering Connect metrics with JMX for worker '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,14 +209,14 @@ var maDataBlocs = {
    "c1" : "00097"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN235435 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN237355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN235435 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN237355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -230,14 +230,14 @@ var maDataBlocs = {
    "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00106] For method groupId list of called methods Object monObjet|java.util.Map&lt;String,String&gt; MetricsUtils_getTagsN236331"
+ , "c3" : "QC-JAV000007[00106] For method groupId list of called methods Object monObjet|java.util.Map&lt;String,String&gt; MetricsUtils_getTagsN238251"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.ConnectMetrics.stop@POLYN236686 the MagicNumber/String  'Unregistering Connect metrics with JMX for worker '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.ConnectMetrics.stop@POLYN238606 the MagicNumber/String  'Unregistering Connect metrics with JMX for worker '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -258,14 +258,14 @@ var maDataBlocs = {
    "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN237240 the MagicNumber/String  ';' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN239160 the MagicNumber/String  ';' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN237240 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN239160 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -279,7 +279,7 @@ var maDataBlocs = {
    "c1" : "00154"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.includes@POLYN238961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.includes@POLYN240881 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -293,14 +293,14 @@ var maDataBlocs = {
    "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN239369 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN241289 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN239369 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN241289 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -314,14 +314,14 @@ var maDataBlocs = {
    "c1" : "00189"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN240640 the MagicNumber/String  'connect-sensor-group: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN242560 the MagicNumber/String  'connect-sensor-group: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN240640 the MagicNumber/String  ';' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN242560 the MagicNumber/String  ';' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -342,7 +342,7 @@ var maDataBlocs = {
    "c1" : "00204"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN241480 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN243400 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -377,7 +377,7 @@ var maDataBlocs = {
    "c1" : "00231"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN243777 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN245697 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -391,7 +391,7 @@ var maDataBlocs = {
    "c1" : "00236"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN244124 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN246044 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -405,7 +405,7 @@ var maDataBlocs = {
    "c1" : "00241"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN244602 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN246522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -433,7 +433,7 @@ var maDataBlocs = {
    "c1" : "00253"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN245708 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN247628 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

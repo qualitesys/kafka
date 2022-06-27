@@ -191,7 +191,7 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.mirror.OffsetSyncStore.OffsetSyncStore@POLYN168295 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.mirror.OffsetSyncStore.OffsetSyncStore@POLYN170215 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -205,14 +205,14 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00037] For method translateDownstream list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.connect.mirror.OffsetSync&gt; latestOffsetSyncN169211"
+ , "c3" : "QC-JAV000007[00037] For method translateDownstream list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.connect.mirror.OffsetSync&gt; latestOffsetSyncN171131"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.mirror.OffsetSyncStore.translateDownstream@POLYN169068 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.mirror.OffsetSyncStore.translateDownstream@POLYN170988 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -247,7 +247,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN170113 the MagicNumber/String  'offset sync store consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN172033 the MagicNumber/String  'offset sync store consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -261,7 +261,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method handleRecord list of called methods Object monObjet|org.apache.kafka.connect.mirror.OffsetSync OffsetSync_deserializeRecordN170443|org.apache.kafka.common.TopicPartition offsetSync_topicPartitionN170537"
+ , "c3" : "QC-JAV000007[00065] For method handleRecord list of called methods Object monObjet|org.apache.kafka.connect.mirror.OffsetSync OffsetSync_deserializeRecordN172363|org.apache.kafka.common.TopicPartition offsetSync_topicPartitionN172457"
 }} 
 ,
 { "ligne" : {
@@ -275,21 +275,21 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSyncStore.update@POLYN169859"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSyncStore.update@POLYN171779"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN170113"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN172033"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN170113 the MagicNumber/String 'offset sync store consumer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN172033 the MagicNumber/String 'offset sync store consumer' MUST BE CONVERTED to const"
 }} 
 ]
 };

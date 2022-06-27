@@ -167,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.quota.ClientQuotaFilter.contains@POLYN168294 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.quota.ClientQuotaFilter.contains@POLYN170214 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -181,14 +181,14 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.quota.ClientQuotaFilter.containsOnly@POLYN168654 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.quota.ClientQuotaFilter.containsOnly@POLYN170574 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.quota.ClientQuotaFilter.all@POLYN168906 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.quota.ClientQuotaFilter.all@POLYN170826 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,42 +209,42 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.quota.ClientQuotaFilter.equals@POLYN169407 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.quota.ClientQuotaFilter.equals@POLYN171327 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.quota.ClientQuotaFilter.equals@POLYN169407 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.quota.ClientQuotaFilter.equals@POLYN171327 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.quota.ClientQuotaFilter.equals@POLYN169407 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.quota.ClientQuotaFilter.equals@POLYN171327 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.quota.ClientQuotaFilter.toString@POLYN170182 the MagicNumber/String  'ClientQuotaFilter(components=' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.quota.ClientQuotaFilter.toString@POLYN172102 the MagicNumber/String  'ClientQuotaFilter(components=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.quota.ClientQuotaFilter.toString@POLYN170182 the MagicNumber/String  ', strict=' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.quota.ClientQuotaFilter.toString@POLYN172102 the MagicNumber/String  ', strict=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.quota.ClientQuotaFilter.toString@POLYN170182 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.quota.ClientQuotaFilter.toString@POLYN172102 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -120,63 +120,63 @@ var maDataBlocs = {
    "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994"
 }} 
 ,
 { "ligne" : {
    "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#8"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00008] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00008] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#9"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00009] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00009] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#15"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00015] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00015] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#21"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00021] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN159074 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00021] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN160994 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

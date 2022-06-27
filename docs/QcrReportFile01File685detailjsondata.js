@@ -118,28 +118,28 @@ var maDataBlocs = {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN169692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN171612 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN169692 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN171612 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN169692 the MagicNumber/String  'The broker join group protocol version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN171612 the MagicNumber/String  'The broker join group protocol version ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN169692 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN171612 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.JoinGroupRequest.validateGroupInstanceId@POLYN170636 the MagicNumber/String  'Group instance id' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.JoinGroupRequest.validateGroupInstanceId@POLYN172556 the MagicNumber/String  'Group instance id' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -167,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.JoinGroupRequest.maybeOverrideRebalanceTimeout@POLYN171207 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.JoinGroupRequest.maybeOverrideRebalanceTimeout@POLYN173127 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -181,14 +181,14 @@ var maDataBlocs = {
    "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.requests.JoinGroupRequest.getErrorResponse@POLYN171559 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.requests.JoinGroupRequest.getErrorResponse@POLYN173479 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.JoinGroupRequest.getErrorResponse@POLYN171559 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.JoinGroupRequest.getErrorResponse@POLYN173479 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

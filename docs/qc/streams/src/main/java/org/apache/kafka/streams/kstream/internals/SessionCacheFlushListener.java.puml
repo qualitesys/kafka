@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+CacheFlushListener<Windowed<KOut>,VOut> <|-- org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener
+class org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener {
++  SessionCacheFlushListener(ProcessorContext<Windowed<KOut>,Change<VOut>>)
++  apply(Record<Windowed<KOut>,Change<VOut>>)
+} 
+@enduml

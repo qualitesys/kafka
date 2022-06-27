@@ -104,7 +104,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN161730 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN163650 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

@@ -176,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method onAssignment list of called methods Object monObjet|int metadata_generationIdN182053"
+ , "c3" : "QC-JAV000007[00041] For method onAssignment list of called methods Object monObjet|int metadata_generationIdN183973"
 }} 
 ,
 { "ligne" : {
@@ -211,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.memberData@POLYN182727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.memberData@POLYN184647 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -225,7 +225,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN183668 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN185588 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -323,14 +323,14 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN183668"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN185588"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN183668 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN185588 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -1039,6 +1039,10 @@ class org.apache.kafka.common.config.ConfigResource {
 Nb methods :7
 Complexity :1.29
 }
+class org.apache.kafka.common.config.ConfigTransformer {
+Nb methods :4
+Complexity :4.50
+}
 class org.apache.kafka.common.config.ConfigTransformerResult {
 Nb methods :3
 Complexity :1.00
@@ -4773,6 +4777,10 @@ class org.apache.kafka.connect.runtime.ConnectMetricsRegistry {
 Nb methods :13
 Complexity :1.00
 }
+class org.apache.kafka.connect.runtime.ConnectorConfig {
+Nb methods :12
+Complexity :1.50
+}
 class org.apache.kafka.connect.runtime.ConnectorStatus {
 Nb methods :2
 Complexity :1.00
@@ -6556,6 +6564,10 @@ class org.apache.kafka.streams.kstream.internals.RepartitionedInternal {
 Nb methods :7
 Complexity :1.00
 }
+class org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener {
+Nb methods :2
+Complexity :1.00
+}
 class org.apache.kafka.streams.kstream.internals.SessionTupleForwarder {
 Nb methods :2
 Complexity :1.50
@@ -6599,6 +6611,10 @@ Complexity :2.17
 class org.apache.kafka.streams.kstream.internals.TimeWindowedKStreamImpl {
 Nb methods :12
 Complexity :1.50
+}
+class org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener {
+Nb methods :2
+Complexity :1.00
 }
 class org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer {
 Nb methods :2
@@ -7140,6 +7156,10 @@ class org.apache.kafka.streams.processor.internals.InternalTopicProperties {
 Nb methods :4
 Complexity :1.00
 }
+class org.apache.kafka.streams.processor.internals.InternalTopologyBuilder {
+Nb methods :75
+Complexity :2.91
+}
 class org.apache.kafka.streams.processor.internals.PartitionGroup {
 Nb methods :17
 Complexity :3.30
@@ -7163,6 +7183,10 @@ Complexity :2.12
 class org.apache.kafka.streams.processor.internals.ProcessorMetadata {
 Nb methods :11
 Complexity :1.82
+}
+class org.apache.kafka.streams.processor.internals.ProcessorNode {
+Nb methods :15
+Complexity :1.80
 }
 class org.apache.kafka.streams.processor.internals.ProcessorNodePunctuator {
 Nb methods :1

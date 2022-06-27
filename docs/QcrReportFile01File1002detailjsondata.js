@@ -155,7 +155,7 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.connect.file.FileStreamSinkTask.FileStreamSinkTask@POLYN168232 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.connect.file.FileStreamSinkTask.FileStreamSinkTask@POLYN170152 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -176,28 +176,28 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN168568 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN170488 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN168568 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN170488 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN168568 the MagicNumber/String  'Couldn't find or create file '' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN170488 the MagicNumber/String  'Couldn't find or create file '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN168568 the MagicNumber/String  '' for FileStreamSinkTask' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.file.FileStreamSinkTask.start@POLYN170488 the MagicNumber/String  '' for FileStreamSinkTask' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -211,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.file.FileStreamSinkTask.put@POLYN169453 the MagicNumber/String  'Writing line to {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.file.FileStreamSinkTask.put@POLYN171373 the MagicNumber/String  'Writing line to {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -225,42 +225,42 @@ var maDataBlocs = {
    "c1" : "00069"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.file.FileStreamSinkTask.flush@POLYN169868 the MagicNumber/String  'Flushing output stream for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.file.FileStreamSinkTask.flush@POLYN171788 the MagicNumber/String  'Flushing output stream for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.file.FileStreamSinkTask.stop@POLYN170141 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.file.FileStreamSinkTask.stop@POLYN172061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.file.FileStreamSinkTask.logFilename@POLYN170352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.file.FileStreamSinkTask.logFilename@POLYN172272 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.file.FileStreamSinkTask.logFilename@POLYN170352 the MagicNumber/String  'stdout' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.file.FileStreamSinkTask.logFilename@POLYN172272 the MagicNumber/String  'stdout' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.file.FileStreamSinkTask.flush@POLYN169868"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.file.FileStreamSinkTask.flush@POLYN171788"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.connect.file.FileStreamSinkTask.flush@POLYN169868 the MagicNumber/String 'Flushing output stream for {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.connect.file.FileStreamSinkTask.flush@POLYN171788 the MagicNumber/String 'Flushing output stream for {}' MUST BE CONVERTED to const"
 }} 
 ]
 };

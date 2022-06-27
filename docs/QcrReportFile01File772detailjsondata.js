@@ -146,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.configure@POLYN165745 the MagicNumber/String  'Kerberos callback handler should only be used with GSSAPI' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.configure@POLYN167665 the MagicNumber/String  'Kerberos callback handler should only be used with GSSAPI' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -251,49 +251,49 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN166087 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN168007 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN166087 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN168007 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN166087 the MagicNumber/String  ' Make sure -Djava.security.auth.login.config property passed to JVM and' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN168007 the MagicNumber/String  ' Make sure -Djava.security.auth.login.config property passed to JVM and' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN166087 the MagicNumber/String  ' the client is configured to use a ticket cache (using' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN168007 the MagicNumber/String  ' the client is configured to use a ticket cache (using' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN166087 the MagicNumber/String  ' the JAAS configuration setting 'useTicketCache=true)'. Make sure you are using' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN168007 the MagicNumber/String  ' the JAAS configuration setting 'useTicketCache=true)'. Make sure you are using' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN166087 the MagicNumber/String  ' FQDN of the Kafka broker you are trying to connect to.' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN168007 the MagicNumber/String  ' FQDN of the Kafka broker you are trying to connect to.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN166087 the MagicNumber/String  'Unrecognized SASL ClientCallback' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN168007 the MagicNumber/String  'Unrecognized SASL ClientCallback' should be converted to const"
 }} 
 ,
 { "ligne" : {

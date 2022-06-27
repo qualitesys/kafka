@@ -190,21 +190,21 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.ConfigurationUtils@POLYN188780 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.ConfigurationUtils@POLYN190700 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.ConfigurationUtils@POLYN188952 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.ConfigurationUtils@POLYN190872 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.ConfigurationUtils@POLYN188952 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.ConfigurationUtils@POLYN190872 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -218,35 +218,35 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method validateFile list of called methods Object monObjet|java.net.URL validateUrlN189885"
+ , "c3" : "QC-JAV000007[00038] For method validateFile list of called methods Object monObjet|java.net.URL validateUrlN191805"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN189788 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that is malformed: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN191708 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that is malformed: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN189788 the MagicNumber/String  'The OAuth configuration option %s contains a file (%s) that doesn't exist' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN191708 the MagicNumber/String  'The OAuth configuration option %s contains a file (%s) that doesn't exist' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN189788 the MagicNumber/String  'The OAuth configuration option %s contains a file (%s) that doesn't have read permission' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN191708 the MagicNumber/String  'The OAuth configuration option %s contains a file (%s) that doesn't have read permission' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN189788 the MagicNumber/String  'The OAuth configuration option %s references a directory (%s), not a file' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateFile@POLYN191708 the MagicNumber/String  'The OAuth configuration option %s references a directory (%s), not a file' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,28 +260,28 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN191610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN193530 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN191610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN193530 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN191610 the MagicNumber/String  'The OAuth configuration option %s must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN193530 the MagicNumber/String  'The OAuth configuration option %s must be non-null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN191610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateInteger@POLYN193530 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -295,7 +295,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192472 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194392 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -309,7 +309,7 @@ var maDataBlocs = {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192635 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194555 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -323,42 +323,42 @@ var maDataBlocs = {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192845 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194765 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192845 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194765 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192845 the MagicNumber/String  'The OAuth configuration option %s must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194765 the MagicNumber/String  'The OAuth configuration option %s must be non-null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192845 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194765 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192845 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194765 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN192845 the MagicNumber/String  'The OAuth configuration option %s value must be at least %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateLong@POLYN194765 the MagicNumber/String  'The OAuth configuration option %s value must be at least %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -372,56 +372,56 @@ var maDataBlocs = {
    "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00103] For method validateUrl list of called methods Object monObjet|String validateStringN194077|java.net.URL protocol_toLowerCaseN194988"
+ , "c3" : "QC-JAV000007[00103] For method validateUrl list of called methods Object monObjet|String validateStringN195997|java.net.URL protocol_toLowerCaseN196908"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that is malformed: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that is malformed: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that is missing the protocol' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that is missing the protocol' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String  'http' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String  'http' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String  'https' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String  'https' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String  'file' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String  'file' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that contains an invalid protocol (%s); only \'http\', \'https\', and \'file\' protocol are supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String  'The OAuth configuration option %s contains a URL (%s) that contains an invalid protocol (%s); only \'http\', \'https\', and \'file\' protocol are supported' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -435,7 +435,7 @@ var maDataBlocs = {
    "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN195555 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN197475 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -449,35 +449,35 @@ var maDataBlocs = {
    "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN195730 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN197650 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN195730 the MagicNumber/String  'The OAuth configuration option %s value must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN197650 the MagicNumber/String  'The OAuth configuration option %s value must be non-null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN195730 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN197650 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN195730 the MagicNumber/String  'The OAuth configuration option %s value must not contain only whitespace' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN197650 the MagicNumber/String  'The OAuth configuration option %s value must not contain only whitespace' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN195730 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateString@POLYN197650 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -547,56 +547,56 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String 'The OAuth configuration option %s contains a URL -%s- that is malformed: %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String 'The OAuth configuration option %s contains a URL -%s- that is malformed: %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String 'The OAuth configuration option %s contains a URL -%s- that is missing the protocol' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String 'The OAuth configuration option %s contains a URL -%s- that is missing the protocol' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String 'file' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String 'file' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String 'http' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String 'http' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String 'https' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String 'https' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN193980 the MagicNumber/String 'The OAuth configuration option %s contains a URL -%s- that contains an invalid protocol -%s-; only \'http\', \'https\', and \'file\' protocol are supported' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN195900 the MagicNumber/String 'The OAuth configuration option %s contains a URL -%s- that contains an invalid protocol -%s-; only \'http\', \'https\', and \'file\' protocol are supported' MUST BE CONVERTED to const"
 }} 
 ]
 };

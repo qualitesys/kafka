@@ -342,7 +342,7 @@ var maDataBlocs = {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method addSend list of called methods Object monObjet|long send_sizeN187554"
+ , "c3" : "QC-JAV000007[00092] For method addSend list of called methods Object monObjet|long send_sizeN189474"
 }} 
 ,
 { "ligne" : {
@@ -356,7 +356,7 @@ var maDataBlocs = {
    "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN187599 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN189519 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -377,14 +377,14 @@ var maDataBlocs = {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN188601 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN190521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.SendBuilder.build@POLYN189710 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.SendBuilder.build@POLYN191630 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -440,7 +440,7 @@ var maDataBlocs = {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.protocol.SendBuilder.buildSend@POLYN190668 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.protocol.SendBuilder.buildSend@POLYN192588 the MagicNumber/String  4 should be converted to const"
 }} 
 ]
 };

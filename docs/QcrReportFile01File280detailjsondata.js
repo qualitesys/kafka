@@ -197,35 +197,35 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN170461 the MagicNumber/String  'patternFilter' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN172381 the MagicNumber/String  'patternFilter' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN170461 the MagicNumber/String  'entryFilter' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN172381 the MagicNumber/String  'entryFilter' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN171300 the MagicNumber/String  '(patternFilter=' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN173220 the MagicNumber/String  '(patternFilter=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN171300 the MagicNumber/String  ', entryFilter=' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN173220 the MagicNumber/String  ', entryFilter=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN171300 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN173220 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,35 +246,35 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN171494 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN173414 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN171494 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN173414 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN171494 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN173414 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method findIndefiniteField list of called methods Object monObjet|String patternFilter_findIndefiniteFieldN172501"
+ , "c3" : "QC-JAV000007[00060] For method findIndefiniteField list of called methods Object monObjet|String patternFilter_findIndefiniteFieldN174421"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN172426 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN174346 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -295,14 +295,14 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN172426"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN174346"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN172426 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN174346 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

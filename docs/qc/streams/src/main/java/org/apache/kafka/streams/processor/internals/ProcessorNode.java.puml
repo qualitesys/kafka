@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorNode
+class org.apache.kafka.streams.processor.internals.ProcessorNode {
++  ProcessorNode(String)
++  ProcessorNode(String;Processor<KIn,VIn,KOut,VOut>;Set<String>)
++  ProcessorNode(String;FixedKeyProcessor<KIn,VIn,VOut>;Set<String>)
++  name()
++  children()
++  getChild(String)
++  addChild(ProcessorNode<KOut,VOut,?,?>)
++  init(InternalProcessorContext<KOut,VOut>)
++  close()
++  throwIfClosed()
++  process(Record<KIn,VIn>)
++  punctuate(long;Punctuator)
++  isTerminalNode()
++  toString()
++  toString(String)
+} 
+@enduml

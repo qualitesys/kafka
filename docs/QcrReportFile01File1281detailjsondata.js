@@ -141,7 +141,7 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method setup list of called methods Object monObjet|LogConfig createLogConfigN194165|org.apache.kafka.common.record.MemoryRecords MemoryRecords_withRecordsN197605"
+ , "c3" : "QC-JAV000007[00077] For method setup list of called methods Object monObjet|LogConfig createLogConfigN196085|org.apache.kafka.common.record.MemoryRecords MemoryRecords_withRecordsN199525"
 }} 
 ,
 { "ligne" : {
@@ -155,322 +155,322 @@ var maDataBlocs = {
    "c1" : "00079"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  'error creating test directory' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  'error creating test directory' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  'MD5' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  'MD5' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  10000L should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  10000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  10000L should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  10000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  60000 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  60000 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  'foo' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  'foo' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  '1' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  '1' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  2L should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  2L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  'bar' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  'bar' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  '2' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  '2' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN193894 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.setup@POLYN195814 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN198283 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN200203 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 };

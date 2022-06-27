@@ -118,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN165532 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN167452 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00018"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN165532 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN167452 the MagicNumber/String  '.' should be converted to const"
 }} 
 ]
 };

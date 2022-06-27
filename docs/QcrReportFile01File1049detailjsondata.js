@@ -97,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/PrincipalConnectorClientConfigOverridePolicy.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.policyName@POLYN163045 the MagicNumber/String  'Principal' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.policyName@POLYN164965 the MagicNumber/String  'Principal' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -125,14 +125,14 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/PrincipalConnectorClientConfigOverridePolicy.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN163320 the MagicNumber/String  'Setting up Principal policy for ConnectorClientConfigOverride. This will allow `sasl` client configuration to be ' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN165240 the MagicNumber/String  'Setting up Principal policy for ConnectorClientConfigOverride. This will allow `sasl` client configuration to be ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/PrincipalConnectorClientConfigOverridePolicy.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN163320 the MagicNumber/String  'overridden.' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN165240 the MagicNumber/String  'overridden.' should be converted to const"
 }} 
 ]
 };

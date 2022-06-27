@@ -239,14 +239,14 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN222055 the MagicNumber/String  '{} caught an exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN223975 the MagicNumber/String  '{} caught an exception' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN222055 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN223975 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,14 +260,14 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN222991 the MagicNumber/String  1000.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN224911 the MagicNumber/String  1000.0f should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN222991 the MagicNumber/String  1.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN224911 the MagicNumber/String  1.0f should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -316,7 +316,7 @@ var maDataBlocs = {
    "c1" : "00088"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN225061 the MagicNumber/String  'Failed to create or verify topics {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN226981 the MagicNumber/String  'Failed to create or verify topics {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -330,7 +330,7 @@ var maDataBlocs = {
    "c1" : "00094"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method createTopics list of called methods Object monObjet|java.util.Collection&lt;String&gt; createTopicsN226507"
+ , "c3" : "QC-JAV000007[00094] For method createTopics list of called methods Object monObjet|java.util.Collection&lt;String&gt; createTopicsN228427"
 }} 
 ,
 { "ligne" : {
@@ -351,35 +351,35 @@ var maDataBlocs = {
    "c1" : "00098"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN226110 the MagicNumber/String  'Request to create topics has an empty topic list.' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN228030 the MagicNumber/String  'Request to create topics has an empty topic list.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN226110 the MagicNumber/String  'Topic(s) {} already exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN228030 the MagicNumber/String  'Topic(s) {} already exist.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN226110 the MagicNumber/String  'One or more topics already exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN228030 the MagicNumber/String  'One or more topics already exist.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN226110 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN228030 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN226110 the MagicNumber/String  2500 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN228030 the MagicNumber/String  2500 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -393,7 +393,7 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method createTopics list of called methods Object monObjet|long Time_SYSTEM_millisecondsN227568"
+ , "c3" : "QC-JAV000007[00114] For method createTopics list of called methods Object monObjet|long Time_SYSTEM_millisecondsN229488"
 }} 
 ,
 { "ligne" : {
@@ -561,91 +561,91 @@ var maDataBlocs = {
    "c1" : "00117"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  'Attempting to create {} topics (try {})...' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  'Attempting to create {} topics (try {})...' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  'Successfully created {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  'Successfully created {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  'Attempt to create topic `{}` failed: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  'Attempt to create topic `{}` failed: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  'Topic {} already exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  'Topic {} already exists.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  'Failed to create {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  'Failed to create {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00164"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  'Unable to create topic(s): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  'Unable to create topic(s): ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  'after ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  'after ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN227388 the MagicNumber/String  ' attempt(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN229308 the MagicNumber/String  ' attempt(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -659,7 +659,7 @@ var maDataBlocs = {
    "c1" : "00174"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00174] For method verifyTopics list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.TopicDescription&gt; topicDescriptionsN232131"
+ , "c3" : "QC-JAV000007[00174] For method verifyTopics list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.TopicDescription&gt; topicDescriptionsN234051"
 }} 
 ,
 { "ligne" : {
@@ -687,28 +687,28 @@ var maDataBlocs = {
    "c1" : "00186"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String  'Topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String  'Topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String  '' exists, but has ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String  '' exists, but has ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String  ' partitions, while requested ' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String  ' partitions, while requested ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String  ' number of partitions is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String  ' number of partitions is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -757,14 +757,14 @@ var maDataBlocs = {
    "c1" : "00199"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN233097 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN235017 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00200"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN233097 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN235017 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -778,7 +778,7 @@ var maDataBlocs = {
    "c1" : "00218"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN234787|org.apache.kafka.common.KafkaFuture&lt;Map&lt;String,TopicListing&gt;&gt; res_namesToListingsN234976|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN235611|org.apache.kafka.common.KafkaFuture&lt;Map&lt;String,TopicDescription&gt;&gt; topicsResult_allTopicNamesN235822|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; desc_partitionsN236032"
+ , "c3" : "QC-JAV000007[00218] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN236707|org.apache.kafka.common.KafkaFuture&lt;Map&lt;String,TopicListing&gt;&gt; res_namesToListingsN236896|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN237531|org.apache.kafka.common.KafkaFuture&lt;Map&lt;String,TopicDescription&gt;&gt; topicsResult_allTopicNamesN237742|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; desc_partitionsN237952"
 }} 
 ,
 { "ligne" : {
@@ -820,77 +820,77 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN222055"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN223975"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN222991"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN224911"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String '' exists, but has ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String '' exists, but has ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String ' partitions, while requested ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String ' partitions, while requested ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN231806 the MagicNumber/String ' number of partitions is ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN233726 the MagicNumber/String ' number of partitions is ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN222055 the MagicNumber/String '{} caught an exception' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN223975 the MagicNumber/String '{} caught an exception' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#43"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN222055 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN223975 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN222991 the MagicNumber/String 1000.0f MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN224911 the MagicNumber/String 1000.0f MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN222991 the MagicNumber/String 1.0f MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN224911 the MagicNumber/String 1.0f MUST BE CONVERTED to const"
 }} 
 ]
 };

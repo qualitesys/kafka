@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+CacheFlushListener<KOut,ValueAndTimestamp<VOut>> <|-- org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener
+class org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener {
++  TimestampedCacheFlushListener(ProcessorContext<KOut,Change<VOut>>)
++  apply(Record<KOut,Change<ValueAndTimestamp<VOut>>>)
+} 
+@enduml
