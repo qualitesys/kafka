@@ -69,7 +69,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.FloatConverter.FloatConverter@POLYN158517 the MagicNumber/String  'float' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.FloatConverter.FloatConverter@POLYN160661 the MagicNumber/String  'float' should be converted to const"
 }} 
 ]
 };

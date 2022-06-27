@@ -139,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.VerifiableSinkConnector.taskConfigs@POLYN161599 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.VerifiableSinkConnector.taskConfigs@POLYN163743 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

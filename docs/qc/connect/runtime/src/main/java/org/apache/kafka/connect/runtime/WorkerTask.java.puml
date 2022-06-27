@@ -1,0 +1,35 @@
+@startuml
+!pragma layout smetana
+Runnable <|-- org.apache.kafka.connect.runtime.WorkerTask
+class org.apache.kafka.connect.runtime.WorkerTask {
++  WorkerTask(ConnectorTaskId;TaskStatus.Listener;TargetState;ClassLoader;ConnectMetrics;RetryWithToleranceOperator;Time;StatusBackingStore)
++  id()
++  loader()
++  initialize(TaskConfig)
++  triggerStop()
++  stop()
++  cancel()
++  awaitStop(long)
++  removeMetrics()
++  initializeAndStart()
++  execute()
++  close()
++  isStopping()
++  isCancelled()
++  doClose()
++  doRun()
++  onShutdown()
++  onFailure(Throwable)
++  onPause()
++  onResume()
++  run()
++  shouldPause()
++  awaitUnpause()
++  transitionTo(TargetState)
++  recordActiveTopic(String)
++  recordCommitSuccess(long)
++  recordCommitFailure(long;Throwable)
++  recordBatch(int)
++  taskMetricsGroup()
+} 
+@enduml

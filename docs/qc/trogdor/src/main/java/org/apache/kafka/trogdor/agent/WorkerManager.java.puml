@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.agent.WorkerManager
+class org.apache.kafka.trogdor.agent.WorkerManager {
++  WorkerManager(Platform;Scheduler)
++  createWorker(long;String;TaskSpec)
++  stopWorker(long;boolean)
++  workerStates()
++  beginShutdown()
++  waitForShutdown()
+} 
+@enduml

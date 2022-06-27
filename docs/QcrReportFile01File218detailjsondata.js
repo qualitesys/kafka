@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 397 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 399 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.xml" 
  , "fic3"  : "" 
 }
@@ -576,210 +576,223 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.clients.consumer.internals.SubscriptionState.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN348179.partition" }
+{ "ligne" :  "R1:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350343.partition" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN348179.offsetResetStrategy" }
+{ "ligne" :  "R2:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350343.offsetResetStrategy" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN335707.tp" }
+{ "ligne" :  "R3:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN337851.tp" }
 ,
-{ "ligne" :  "R4:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN335707.position" }
+{ "ligne" :  "R4:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN337851.position" }
 ,
-{ "ligne" :  "R5:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN343274.tp" }
+{ "ligne" :  "R5:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN345428.tp" }
 ,
-{ "ligne" :  "R6:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298.tp" }
+{ "ligne" :  "R6:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442.tp" }
 ,
-{ "ligne" :  "R7:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298.position" }
+{ "ligne" :  "R7:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442.position" }
 ,
-{ "ligne" :  "R8:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298.requestedResetStrategy" }
+{ "ligne" :  "R8:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442.requestedResetStrategy" }
 ,
-{ "ligne" :  "R9:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN327100.pattern" }
+{ "ligne" :  "R9:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN329244.pattern" }
 ,
-{ "ligne" :  "R10:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN327100.listener" }
+{ "ligne" :  "R10:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN329244.listener" }
 ,
-{ "ligne" :  "R11:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN338669.tp" }
+{ "ligne" :  "R11:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN340823.tp" }
 ,
-{ "ligne" :  "R12:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN338669.position" }
+{ "ligne" :  "R12:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN340823.position" }
 ,
-{ "ligne" :  "R13:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestPartitionEndOffset@POLYN344841.tp" }
+{ "ligne" :  "R13:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestPartitionEndOffset@POLYN346995.tp" }
 ,
-{ "ligne" :  "R14:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN345579.tp" }
+{ "ligne" :  "R14:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN347733.tp" }
 ,
-{ "ligne" :  "R15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN345579.highWatermark" }
+{ "ligne" :  "R15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN347733.highWatermark" }
 ,
-{ "ligne" :  "R16:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN345769.tp" }
+{ "ligne" :  "R16:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN347923.tp" }
 ,
-{ "ligne" :  "R17:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN345769.logStartOffset" }
+{ "ligne" :  "R17:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN347923.logStartOffset" }
 ,
-{ "ligne" :  "R18:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN345959.tp" }
+{ "ligne" :  "R18:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN348113.tp" }
 ,
-{ "ligne" :  "R19:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN345959.lastStableOffset" }
+{ "ligne" :  "R19:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN348113.lastStableOffset" }
 ,
-{ "ligne" :  "R20:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399.tp" }
+{ "ligne" :  "R20:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553.tp" }
 ,
-{ "ligne" :  "R21:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399.preferredReadReplicaId" }
+{ "ligne" :  "R21:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553.preferredReadReplicaId" }
 ,
-{ "ligne" :  "R22:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399.timeMs" }
+{ "ligne" :  "R22:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553.timeMs" }
 ,
-{ "ligne" :  "R23:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN348928.partitions" }
+{ "ligne" :  "R23:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350538.partitions" }
 ,
-{ "ligne" :  "R24:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN348928.nextAllowResetTimeMs" }
+{ "ligne" :  "R24:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350538.offsetResetStrategy" }
 ,
-{ "ligne" :  "R25:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN352956.tp" }
+{ "ligne" :  "R25:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN351102.partitions" }
 ,
-{ "ligne" :  "R26:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN353107.tp" }
+{ "ligne" :  "R26:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN351102.nextAllowResetTimeMs" }
 ,
-{ "ligne" :  "R27:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253.partitions" }
+{ "ligne" :  "R27:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN355180.tp" }
 ,
-{ "ligne" :  "R28:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253.nextRetryTimeMs" }
+{ "ligne" :  "R28:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN355331.tp" }
+,
+{ "ligne" :  "R29:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477.partitions" }
+,
+{ "ligne" :  "R30:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477.nextRetryTimeMs" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 (R0 in line [00381])" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 (R0 in line [00381])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 (R0 in line [00381])" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 (R0 in line [00381])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN348780" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350954" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN348179 (R0 in line [00522],R1 in line [00522],R2 in line [00522])" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350343 (R0 in line [00522],R1 in line [00522],R2 in line [00522])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 (R0 in line [00381])" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 (R0 in line [00381])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 (R0 in line [00381])" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 (R0 in line [00381])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN335707 (R0 in line [00300],R3 in line [00300],R4 in line [00300])" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN337851 (R0 in line [00300],R3 in line [00300],R4 in line [00300])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN335707 (R0 in line [00300],R3 in line [00300],R4 in line [00300])" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN337851 (R0 in line [00300],R3 in line [00300],R4 in line [00300])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 (R0 in line [00381])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 (R0 in line [00381])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 (R0 in line [00381])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 (R0 in line [00381])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN343274 (R0 in line [00433],R5 in line [00433])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN345428 (R0 in line [00433],R5 in line [00433])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN343274 (R0 in line [00433],R5 in line [00433])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN345428 (R0 in line [00433],R5 in line [00433])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 (R0 in line [00312],R6 in line [00312],R7 in line [00312],R8 in line [00312])" }
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 (R0 in line [00312],R6 in line [00312],R7 in line [00312],R8 in line [00312])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN335553" }
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN337697" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "4" , "pas" : [
-{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN327100 (R0 in line [00128],R9 in line [00128],R10 in line [00128])" }
+{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN329244 (R0 in line [00128],R9 in line [00128],R10 in line [00128])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.SubscriptionState.registerRebalanceListener@POLYN332144" }
+{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.SubscriptionState.registerRebalanceListener@POLYN334288" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "5" , "pas" : [
-{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN338669 (R0 in line [00358],R11 in line [00358],R12 in line [00358])" }
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN340823 (R0 in line [00358],R11 in line [00358],R12 in line [00358])" }
 ,
-{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "6" , "pas" : [
-{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestPartitionEndOffset@POLYN344841 (R0 in line [00465],R13 in line [00465])" }
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestPartitionEndOffset@POLYN346995 (R0 in line [00465],R13 in line [00465])" }
 ,
-{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "7" , "pas" : [
-{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN345579 (R0 in line [00480],R14 in line [00480],R15 in line [00480])" }
+{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN347733 (R0 in line [00480],R14 in line [00480],R15 in line [00480])" }
 ,
-{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "8" , "pas" : [
-{ "ligne" : "S8:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN345769 (R0 in line [00484],R16 in line [00484],R17 in line [00484])" }
+{ "ligne" : "S8:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN347923 (R0 in line [00484],R16 in line [00484],R17 in line [00484])" }
 ,
-{ "ligne" : "S8:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S8:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "9" , "pas" : [
-{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN345959 (R0 in line [00488],R18 in line [00488],R19 in line [00488])" }
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN348113 (R0 in line [00488],R18 in line [00488],R19 in line [00488])" }
 ,
-{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "10" , "pas" : [
-{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399 (R0 in line [00493],R20 in line [00493],R21 in line [00493],R22 in line [00493])" }
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553 (R0 in line [00493],R20 in line [00493],R21 in line [00493],R22 in line [00493])" }
 ,
-{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399 (R0 in line [00493],R20 in line [00493],R21 in line [00493],R22 in line [00493])" }
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553 (R0 in line [00493],R20 in line [00493],R21 in line [00493],R22 in line [00493])" }
 ,
-{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "11" , "pas" : [
-{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN348928 (R0 in line [00537],R23 in line [00537],R24 in line [00537])" }
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350538 (R0 in line [00526],R23 in line [00526],R24 in line [00526])" }
 ,
-{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN348928 (R0 in line [00537],R23 in line [00537],R24 in line [00537])" }
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350538 (R0 in line [00526],R23 in line [00526],R24 in line [00526])" }
 ,
-{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "12" , "pas" : [
-{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN352956 (R0 in line [00623],R25 in line [00623])" }
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN351102 (R0 in line [00537],R25 in line [00537],R26 in line [00537])" }
 ,
-{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN352956 (R0 in line [00623],R25 in line [00623])" }
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN351102 (R0 in line [00537],R25 in line [00537],R26 in line [00537])" }
 ,
-{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "13" , "pas" : [
-{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN353107 (R0 in line [00627],R26 in line [00627])" }
+{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN355180 (R0 in line [00623],R27 in line [00623])" }
 ,
-{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN353107 (R0 in line [00627],R26 in line [00627])" }
+{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN355180 (R0 in line [00623],R27 in line [00623])" }
 ,
-{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188" }
+{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "14" , "pas" : [
-{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253 (R0 in line [00631],R27 in line [00631],R28 in line [00631])" }
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN355331 (R0 in line [00627],R28 in line [00627])" }
 ,
-{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN335553" }
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN355331 (R0 in line [00627],R28 in line [00627])" }
+,
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "15" , "pas" : [
-{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 (R0 in line [00312],R6 in line [00312],R7 in line [00312],R8 in line [00312])" }
+{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477 (R0 in line [00631],R29 in line [00631],R30 in line [00631])" }
 ,
-{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 (R0 in line [00312],R6 in line [00312],R7 in line [00312],R8 in line [00312])" }
-,
-{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN335553" }
+{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN337697" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "16" , "pas" : [
-{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253 (R0 in line [00631],R27 in line [00631],R28 in line [00631])" }
+{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 (R0 in line [00312],R6 in line [00312],R7 in line [00312],R8 in line [00312])" }
 ,
-{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253 (R0 in line [00631],R27 in line [00631],R28 in line [00631])" }
+{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 (R0 in line [00312],R6 in line [00312],R7 in line [00312],R8 in line [00312])" }
 ,
-{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN335553" }
+{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN337697" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "17" , "pas" : [
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477 (R0 in line [00631],R29 in line [00631],R30 in line [00631])" }
+,
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477 (R0 in line [00631],R29 in line [00631],R30 in line [00631])" }
+,
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN337697" }
  ]
  } }
 ]
@@ -799,7 +812,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "29"
+ , "c4" : "31"
 }}
 ,
 { "ligne" : {
@@ -899,77 +912,77 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  'SubscriptionState{' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  'SubscriptionState{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  'type=' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  'type=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ', subscribedPattern=' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ', subscribedPattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ', subscription=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ', subscription=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ', groupSubscription=' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ', groupSubscription=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ', defaultResetStrategy=' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ', defaultResetStrategy=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ', assignment=' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ', assignment=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ' (id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ' (id=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN324005 the MagicNumber/String  ')}' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.toString@POLYN326149 the MagicNumber/String  ')}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -983,70 +996,70 @@ var maDataBlocs = {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  'None' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  'None' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  'Subscribe(' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  'Subscribe(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  'Subscribe(' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  'Subscribe(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  'Assign(' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  'Assign(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  ' , id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  ' , id=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN324590 the MagicNumber/String  'Unrecognized subscription type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.prettyString@POLYN326734 the MagicNumber/String  'Unrecognized subscription type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1060,7 +1073,7 @@ var maDataBlocs = {
    "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.SubscriptionState@POLYN325326 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.SubscriptionState@POLYN327470 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1123,7 +1136,7 @@ var maDataBlocs = {
    "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribeFromPattern@POLYN327399 the MagicNumber/String  'Attempt to subscribe from pattern while subscription type set to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribeFromPattern@POLYN329543 the MagicNumber/String  'Attempt to subscribe from pattern while subscription type set to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1137,14 +1150,14 @@ var maDataBlocs = {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.changeSubscription@POLYN327718 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.changeSubscription@POLYN329862 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.changeSubscription@POLYN327718 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.changeSubscription@POLYN329862 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1186,7 +1199,7 @@ var maDataBlocs = {
    "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00164] For method assignFromUser list of called methods Object monObjet|boolean assignment_stateValueN329611"
+ , "c3" : "QC-JAV000007[00164] For method assignFromUser list of called methods Object monObjet|boolean assignment_stateValueN331755"
 }} 
 ,
 { "ligne" : {
@@ -1200,14 +1213,14 @@ var maDataBlocs = {
    "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN328947 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN331091 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN328947 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN331091 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1228,42 +1241,42 @@ var maDataBlocs = {
    "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN330201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN332345 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN330201 the MagicNumber/String  'Assigned partition {} for non-subscribed topic regex pattern; subscription pattern is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN332345 the MagicNumber/String  'Assigned partition {} for non-subscribed topic regex pattern; subscription pattern is {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN330201 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN332345 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN330201 the MagicNumber/String  'Assigned partition {} for non-subscribed topic; subscription is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN332345 the MagicNumber/String  'Assigned partition {} for non-subscribed topic; subscription is {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN330201 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN332345 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN330201 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.checkAssignmentMatchedSubscription@POLYN332345 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1298,14 +1311,14 @@ var maDataBlocs = {
    "c1" : "00214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromSubscribed@POLYN331243 the MagicNumber/String  'Attempt to dynamically assign partitions while manual assignment in use' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromSubscribed@POLYN333387 the MagicNumber/String  'Attempt to dynamically assign partitions while manual assignment in use' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromSubscribed@POLYN331243 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromSubscribed@POLYN333387 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1319,14 +1332,14 @@ var maDataBlocs = {
    "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.registerRebalanceListener@POLYN332144 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.registerRebalanceListener@POLYN334288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.registerRebalanceListener@POLYN332144 the MagicNumber/String  'RebalanceListener cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.registerRebalanceListener@POLYN334288 the MagicNumber/String  'RebalanceListener cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1354,7 +1367,7 @@ var maDataBlocs = {
    "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.unsubscribe@POLYN332714 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.unsubscribe@POLYN334858 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1375,14 +1388,14 @@ var maDataBlocs = {
    "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.matchesSubscribedPattern@POLYN333294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.matchesSubscribedPattern@POLYN335438 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00257"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.matchesSubscribedPattern@POLYN333294 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.matchesSubscribedPattern@POLYN335438 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1431,14 +1444,14 @@ var maDataBlocs = {
    "c1" : "00291"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN335188 the MagicNumber/String  'No current assignment for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN337332 the MagicNumber/String  'No current assignment for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1494,42 +1507,42 @@ var maDataBlocs = {
    "c1" : "00312"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#312"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00312] For method maybeSeekUnvalidated list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN336441"
+ , "c3" : "QC-JAV000007[00312] For method maybeSeekUnvalidated list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN338585"
 }} 
 ,
 { "ligne" : {
    "c1" : "00314"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String  'Skipping reset of partition {} since it is no longer assigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String  'Skipping reset of partition {} since it is no longer assigned' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String  'Skipping reset of partition {} since reset is no longer needed' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String  'Skipping reset of partition {} since reset is no longer needed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00319"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String  'Skipping reset of partition {} since an alternative reset has been requested' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String  'Skipping reset of partition {} since an alternative reset has been requested' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00321"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String  'Resetting offset for partition {} to position {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String  'Resetting offset for partition {} to position {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1613,7 +1626,7 @@ var maDataBlocs = {
    "c1" : "00363"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#363"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00363] For method maybeValidatePositionForCurrentLeader list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions apiVersions_getN339373"
+ , "c3" : "QC-JAV000007[00363] For method maybeValidatePositionForCurrentLeader list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions apiVersions_getN341527"
 }} 
 ,
 { "ligne" : {
@@ -1634,14 +1647,14 @@ var maDataBlocs = {
    "c1" : "00368"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeValidatePositionForCurrentLeader@POLYN339141 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeValidatePositionForCurrentLeader@POLYN341295 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00373"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeValidatePositionForCurrentLeader@POLYN339141 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeValidatePositionForCurrentLeader@POLYN341295 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1662,7 +1675,7 @@ var maDataBlocs = {
    "c1" : "00381"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#381"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00381] For method maybeCompleteValidation list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN340289"
+ , "c3" : "QC-JAV000007[00381] For method maybeCompleteValidation list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN342443"
 }} 
 ,
 { "ligne" : {
@@ -1676,84 +1689,84 @@ var maDataBlocs = {
    "c1" : "00385"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#386"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'Skipping completed validation for partition {} which is not currently assigned.' should be converted to const"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'Skipping completed validation for partition {} which is not currently assigned.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'Skipping completed validation for partition {} which is no longer expecting validation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'Skipping completed validation for partition {} which is no longer expecting validation.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00392"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'Skipping completed validation for partition {} since the current position {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'Skipping completed validation for partition {} since the current position {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'no longer matches the position {} when the request was sent' should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'no longer matches the position {} when the request was sent' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00398"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'Truncation detected for partition {} at offset {}, resetting offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'Truncation detected for partition {} at offset {}, resetting offset' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00402"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'Truncation detected for partition {} at offset {}, but no reset policy is set' should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'Truncation detected for partition {} at offset {}, but no reset policy is set' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00411"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'Truncation detected for partition {} at offset {}, resetting offset to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'Truncation detected for partition {} at offset {}, resetting offset to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00412"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'the first offset known to diverge {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'the first offset known to diverge {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00417"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'Truncation detected for partition {} at offset {} (the end offset from the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'Truncation detected for partition {} at offset {} (the end offset from the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00418"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String  'broker is {}), but no reset policy is set' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String  'broker is {}), but no reset policy is set' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1830,49 +1843,49 @@ var maDataBlocs = {
    "c1" : "00445"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method partitionLag list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN343875"
+ , "c3" : "QC-JAV000007[00445] For method partitionLag list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN346029"
 }} 
 ,
 { "ligne" : {
    "c1" : "00447"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#447"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN343753 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN345907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN343753 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN345907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN343753 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN345907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN343753 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN345907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00452"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN343753 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN345907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00452"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN343753 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLag@POLYN345907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1893,7 +1906,7 @@ var maDataBlocs = {
    "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#456"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00456] For method partitionEndOffset list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN344597"
+ , "c3" : "QC-JAV000007[00456] For method partitionEndOffset list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN346751"
 }} 
 ,
 { "ligne" : {
@@ -1914,7 +1927,7 @@ var maDataBlocs = {
    "c1" : "00465"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#465"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00465] For method requestPartitionEndOffset list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN344934"
+ , "c3" : "QC-JAV000007[00465] For method requestPartitionEndOffset list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN347088"
 }} 
 ,
 { "ligne" : {
@@ -1935,7 +1948,7 @@ var maDataBlocs = {
    "c1" : "00470"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#470"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00470] For method partitionEndOffsetRequested list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN345152"
+ , "c3" : "QC-JAV000007[00470] For method partitionEndOffsetRequested list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN347306"
 }} 
 ,
 { "ligne" : {
@@ -1956,21 +1969,21 @@ var maDataBlocs = {
    "c1" : "00475"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#475"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00475] For method partitionLead list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN345366"
+ , "c3" : "QC-JAV000007[00475] For method partitionLead list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateN347520"
 }} 
 ,
 { "ligne" : {
    "c1" : "00477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLead@POLYN345269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLead@POLYN347423 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLead@POLYN345269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.partitionLead@POLYN347423 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2047,14 +2060,14 @@ var maDataBlocs = {
    "c1" : "00498"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#498"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00498] For method preferredReadReplica list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN346955"
+ , "c3" : "QC-JAV000007[00498] For method preferredReadReplica list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN349109"
 }} 
 ,
 { "ligne" : {
    "c1" : "00500"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.preferredReadReplica@POLYN346828 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.preferredReadReplica@POLYN348982 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2082,7 +2095,7 @@ var maDataBlocs = {
    "c1" : "00517"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.allConsumed@POLYN347618 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.allConsumed@POLYN349772 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2124,7 +2137,7 @@ var maDataBlocs = {
    "c1" : "00528"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#528"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN348374 the MagicNumber/String  'Seeking to {} offset of partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350538 the MagicNumber/String  'Seeking to {} offset of partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2187,14 +2200,14 @@ var maDataBlocs = {
    "c1" : "00560"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN349668 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN351842 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN349668 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN351842 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2285,14 +2298,14 @@ var maDataBlocs = {
    "c1" : "00608"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#608"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00608] For method isPaused list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN352271"
+ , "c3" : "QC-JAV000007[00608] For method isPaused list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN354495"
 }} 
 ,
 { "ligne" : {
    "c1" : "00610"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.isPaused@POLYN352174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.isPaused@POLYN354398 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2313,14 +2326,14 @@ var maDataBlocs = {
    "c1" : "00613"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#613"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00613] For method isFetchable list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN352531"
+ , "c3" : "QC-JAV000007[00613] For method isFetchable list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN354755"
 }} 
 ,
 { "ligne" : {
    "c1" : "00615"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.isFetchable@POLYN352434 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.isFetchable@POLYN354658 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2341,14 +2354,14 @@ var maDataBlocs = {
    "c1" : "00618"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#618"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00618] For method hasValidPosition list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN352796"
+ , "c3" : "QC-JAV000007[00618] For method hasValidPosition list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN355020"
 }} 
 ,
 { "ligne" : {
    "c1" : "00620"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#620"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasValidPosition@POLYN352699 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasValidPosition@POLYN354923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2397,7 +2410,7 @@ var maDataBlocs = {
    "c1" : "00631"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#631"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00631] For method requestFailed list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN353471"
+ , "c3" : "QC-JAV000007[00631] For method requestFailed list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState assignedStateOrNullN355695"
 }} 
 ,
 { "ligne" : {
@@ -2411,7 +2424,7 @@ var maDataBlocs = {
    "c1" : "00636"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#636"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2446,70 +2459,70 @@ var maDataBlocs = {
    "c1" : "00665"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#665"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00665] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00665] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00666"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#666"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00668"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#668"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00669"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00670"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#670"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00671"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#671"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00671] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00671] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00672"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#672"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00672] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00672] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00673"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#673"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00673] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00673] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00674"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#674"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN354353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.TopicPartitionState@POLYN356577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00682"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#682"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.requestEndOffset@POLYN355146 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.requestEndOffset@POLYN357370 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2537,28 +2550,28 @@ var maDataBlocs = {
    "c1" : "00690"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#690"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00690] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN355243 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00690] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN357467 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00691"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#691"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00691] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN355243 the MagicNumber/String  'Transitioned subscription state to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00691] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN357467 the MagicNumber/String  'Transitioned subscription state to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00691"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#691"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00691] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN355243 the MagicNumber/String  ', but position is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00691] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN357467 the MagicNumber/String  ', but position is null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00693"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#693"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN355243 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.transitionState@POLYN357467 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2572,14 +2585,14 @@ var maDataBlocs = {
    "c1" : "00699"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.preferredReadReplica@POLYN356062 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.preferredReadReplica@POLYN358286 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00700"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#700"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00700] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.preferredReadReplica@POLYN356062 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00700] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.preferredReadReplica@POLYN358286 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2600,28 +2613,28 @@ var maDataBlocs = {
    "c1" : "00708"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#708"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00708] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.updatePreferredReadReplica@POLYN356449 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00708] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.updatePreferredReadReplica@POLYN358673 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00715"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.clearPreferredReadReplica@POLYN356854 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.clearPreferredReadReplica@POLYN359078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00717"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#717"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00717] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.clearPreferredReadReplica@POLYN356854 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00717] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.clearPreferredReadReplica@POLYN359078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00718"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#718"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.clearPreferredReadReplica@POLYN356854 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.clearPreferredReadReplica@POLYN359078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2635,7 +2648,7 @@ var maDataBlocs = {
    "c1" : "00728"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#728"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.reset@POLYN357316 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.reset@POLYN359540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2656,28 +2669,28 @@ var maDataBlocs = {
    "c1" : "00735"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#735"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN357826 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN360060 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00739"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#739"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00739] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN357826 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00739] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN360060 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00742"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#742"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00742] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN357826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00742] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN360060 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00745"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#745"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN357826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.maybeValidatePosition@POLYN360060 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2691,14 +2704,14 @@ var maDataBlocs = {
    "c1" : "00752"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#752"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00752] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.updatePositionLeaderNoValidation@POLYN358762 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00752] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.updatePositionLeaderNoValidation@POLYN360996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00755"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#755"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.updatePositionLeaderNoValidation@POLYN358762 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.updatePositionLeaderNoValidation@POLYN360996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2719,21 +2732,21 @@ var maDataBlocs = {
    "c1" : "00764"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#764"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.validatePosition@POLYN359240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.validatePosition@POLYN361484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00770"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#770"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00770] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.validatePosition@POLYN359240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00770] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.validatePosition@POLYN361484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#778"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.completeValidation@POLYN359973 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.completeValidation@POLYN362237 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2747,7 +2760,7 @@ var maDataBlocs = {
    "c1" : "00787"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#787"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00787] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.awaitingRetryBackoff@POLYN360365 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00787] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.awaitingRetryBackoff@POLYN362639 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2768,7 +2781,7 @@ var maDataBlocs = {
    "c1" : "00807"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#807"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.hasPosition@POLYN361034 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.hasPosition@POLYN363308 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2782,14 +2795,14 @@ var maDataBlocs = {
    "c1" : "00817"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#817"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00817] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.seekValidated@POLYN361222 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00817] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.seekValidated@POLYN363496 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00818"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#818"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00818] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.seekValidated@POLYN361222 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00818] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.seekValidated@POLYN363496 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2810,28 +2823,28 @@ var maDataBlocs = {
    "c1" : "00829"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#829"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00829] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.position@POLYN361773 the MagicNumber/String  'Cannot set a new position without a valid current position' should be converted to const"
+ , "c3" : "QC-JAV000010[00829] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.position@POLYN364057 the MagicNumber/String  'Cannot set a new position without a valid current position' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00837"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#837"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00837] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.validPosition@POLYN362036 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00837] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.validPosition@POLYN364320 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00842"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#842"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00842] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.pause@POLYN362232 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00842] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.pause@POLYN364516 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00846"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#846"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.resume@POLYN362339 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.resume@POLYN364623 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2845,7 +2858,7 @@ var maDataBlocs = {
    "c1" : "00855"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#855"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00855] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.highWatermark@POLYN362575 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00855] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.highWatermark@POLYN364859 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2866,7 +2879,7 @@ var maDataBlocs = {
    "c1" : "00864"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#864"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00864] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.lastStableOffset@POLYN362895 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00864] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.lastStableOffset@POLYN365179 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2894,56 +2907,56 @@ var maDataBlocs = {
    "c1" : "00981"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#981"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00981] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.equals@POLYN366875 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00981] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.equals@POLYN369159 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00982"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.equals@POLYN366875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.equals@POLYN369159 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00982"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.equals@POLYN366875 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.equals@POLYN369159 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#996"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00996] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN367680 the MagicNumber/String  'FetchPosition{' should be converted to const"
+ , "c3" : "QC-JAV000010[00996] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN369964 the MagicNumber/String  'FetchPosition{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00997"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#997"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN367680 the MagicNumber/String  'offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN369964 the MagicNumber/String  'offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00998"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#998"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN367680 the MagicNumber/String  ', offsetEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN369964 the MagicNumber/String  ', offsetEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00999"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#999"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00999] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN367680 the MagicNumber/String  ', currentLeader=' should be converted to const"
+ , "c3" : "QC-JAV000010[00999] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN369964 the MagicNumber/String  ', currentLeader=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01000"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1000"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN367680 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN369964 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2957,56 +2970,56 @@ var maDataBlocs = {
    "c1" : "01020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1020"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01020] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  '(partition=' should be converted to const"
+ , "c3" : "QC-JAV000010[01020] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  '(partition=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1022"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  ', fetchOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  ', fetchOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1024"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01024] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  ', fetchEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[01024] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  ', fetchEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1029"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01029] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  ', divergentOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[01029] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  ', divergentOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1031"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  ', divergentEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  ', divergentEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1034"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  ', divergentOffset=unknown' should be converted to const"
+ , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  ', divergentOffset=unknown' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1035"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  ', divergentEpoch=unknown' should be converted to const"
+ , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  ', divergentEpoch=unknown' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1038"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN368463 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation.toString@POLYN370747 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3216,448 +3229,462 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN348179.partition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350343.partition"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN348179.offsetResetStrategy"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350343.offsetResetStrategy"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN335707.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN337851.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN335707.position"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN337851.position"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN343274.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN345428.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298.position"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442.position"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298.requestedResetStrategy"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442.requestedResetStrategy"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN327100.pattern"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN329244.pattern"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN327100.listener"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN329244.listener"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN338669.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN340823.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN338669.position"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN340823.position"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestPartitionEndOffset@POLYN344841.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestPartitionEndOffset@POLYN346995.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN345579.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN347733.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN345579.highWatermark"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN347733.highWatermark"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN345769.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN347923.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN345769.logStartOffset"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN347923.logStartOffset"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN345959.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN348113.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN345959.lastStableOffset"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN348113.lastStableOffset"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399.preferredReadReplicaId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553.preferredReadReplicaId"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399.timeMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553.timeMs"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN348928.partitions"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350538.partitions"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R24 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN348928.nextAllowResetTimeMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R24 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN350538.offsetResetStrategy"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R25 : org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN352956.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R25 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN351102.partitions"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R26 : org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN353107.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R26 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN351102.nextAllowResetTimeMs"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R27 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253.partitions"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R27 : org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN355180.tp"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R28 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253.nextRetryTimeMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R28 : org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN355331.tp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R29 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477.partitions"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R30 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477.nextRetryTimeMs"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN335707"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN337851"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN343274"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN345428"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.seekUnvalidated@POLYN336108"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.seekUnvalidated@POLYN338252"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN328947"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN331091"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN346399"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN348553"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN348928"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN351102"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN349668"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN351842"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.isAssigned@POLYN352022"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.isAssigned@POLYN354246"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN352956"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN355180"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN353107"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN355331"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.movePartitionToEnd@POLYN353659"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.movePartitionToEnd@POLYN355883"
 }} 
 ,
 { "ligne" : {
    "c1" : "00385"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00385] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00385] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'Skipping completed validation for partition {} which is not currently assigned.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'Skipping completed validation for partition {} which is not currently assigned.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'Skipping completed validation for partition {} which is no longer expecting validation.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'Skipping completed validation for partition {} which is no longer expecting validation.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00392"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00392] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'Skipping completed validation for partition {} since the current position {} ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00392] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'Skipping completed validation for partition {} since the current position {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'no longer matches the position {} when the request was sent' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'no longer matches the position {} when the request was sent' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00398"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'Truncation detected for partition {} at offset {}, resetting offset' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'Truncation detected for partition {} at offset {}, resetting offset' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00402"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#402"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'Truncation detected for partition {} at offset {}, but no reset policy is set' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'Truncation detected for partition {} at offset {}, but no reset policy is set' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00411"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'Truncation detected for partition {} at offset {}, resetting offset to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'Truncation detected for partition {} at offset {}, resetting offset to ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00412"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#412"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00412] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'the first offset known to diverge {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00412] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'the first offset known to diverge {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00417"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#417"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00417] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'Truncation detected for partition {} at offset {} -the end offset from the ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00417] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'Truncation detected for partition {} at offset {} -the end offset from the ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00418"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN340142 the MagicNumber/String 'broker is {}-, but no reset policy is set' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN342296 the MagicNumber/String 'broker is {}-, but no reset policy is set' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00314"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String 'Skipping reset of partition {} since it is no longer assigned' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String 'Skipping reset of partition {} since it is no longer assigned' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String 'Skipping reset of partition {} since reset is no longer needed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String 'Skipping reset of partition {} since reset is no longer needed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00319"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00319] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String 'Skipping reset of partition {} since an alternative reset has been requested' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00319] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String 'Skipping reset of partition {} since an alternative reset has been requested' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00321"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN336298 the MagicNumber/String 'Resetting offset for partition {} to position {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN338442 the MagicNumber/String 'Resetting offset for partition {} to position {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN328947 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN331091 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN328947 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN331091 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00560"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN349668 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN351842 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#563"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN349668 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN351842 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00636"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00636] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN353253 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00636] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN355477 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -146,49 +146,49 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.data.SchemaAndValue.equals@POLYN159084 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.data.SchemaAndValue.equals@POLYN161228 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.data.SchemaAndValue.equals@POLYN159084 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.data.SchemaAndValue.equals@POLYN161228 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.data.SchemaAndValue.equals@POLYN159084 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.data.SchemaAndValue.equals@POLYN161228 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN159859 the MagicNumber/String  'SchemaAndValue{' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN162003 the MagicNumber/String  'SchemaAndValue{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN159859 the MagicNumber/String  'schema=' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN162003 the MagicNumber/String  'schema=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN159859 the MagicNumber/String  ', value=' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN162003 the MagicNumber/String  ', value=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN159859 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.data.SchemaAndValue.toString@POLYN162003 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

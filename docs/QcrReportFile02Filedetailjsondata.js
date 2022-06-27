@@ -28,7 +28,9 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) KeyValueStore&lt;Bytes, byte[]&gt;" ,
 "children" : [
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.InMemoryKeyValueStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter" }, 
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.MemoryLRUCache" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDBStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.Segment" }, 
 ]
@@ -190,9 +192,21 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) SessionStore&lt;Bytes, byte[]&gt;" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.InMemorySessionStore" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) MirrorConnectorConfig" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.mirror.MirrorTaskConfig" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) KafkaFuture&lt;T&gt;" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.common.internals.KafkaFutureImpl" }, 
 ]
 }},
 {"ligne" : {
@@ -592,6 +606,7 @@ var maDataBlocs = {
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.producer.internals.Sender" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.WorkerConnector" }, 
+  { "child"  : "(1) org.apache.kafka.connect.runtime.WorkerTask" }, 
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger" }, 
 ]
@@ -986,6 +1001,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) RaftClient&lt;T&gt;" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.raft.KafkaRaftClient" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) SimpleMemoryPoolAutoCloseable" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.memory.GarbageCollectedMemoryPool" }, 
@@ -1049,6 +1070,12 @@ var maDataBlocs = {
    "classe"  : "(2) Comparable&lt;PluginDesc&lt;T&gt;&gt;" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.isolation.PluginDesc" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) AbstractHerderRunnable" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.connect.runtime.distributed.DistributedHerder" }, 
 ]
 }},
 {"ligne" : {
@@ -1338,6 +1365,7 @@ var maDataBlocs = {
    "classe"  : "(2) ConsumerPartitionAssignor" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor" }, 
+  { "child"  : "(1) org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor" }, 
 ]
 }},
 {"ligne" : {
@@ -1416,6 +1444,7 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) URLClassLoader" ,
 "children" : [
+  { "child"  : "(1) org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.isolation.PluginClassLoader" }, 
 ]
 }},
@@ -1490,6 +1519,12 @@ var maDataBlocs = {
    "classe"  : "(2) SnapshotReader&lt;T&gt;" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.snapshot.RecordsSnapshotReader" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) ProcessorGraphNode&lt;K, V&gt;" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode" }, 
 ]
 }},
 {"ligne" : {
@@ -1595,7 +1630,9 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) WrappedStateStore&lt;WindowStore&lt;Bytes, byte[]&gt;, byte[], byte[]&gt;WindowStore&lt;Bytes, byte[]&gt;" ,
 "children" : [
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.CachingWindowStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore" }, 
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore" }, 
 ]
 }},
 {"ligne" : {
@@ -1945,9 +1982,11 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.clients.admin.UpdateFeaturesResult" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.UserScramCredentialAlteration" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.UserScramCredentialsDescription" }, 
+  { "child"  : "(1) org.apache.kafka.clients.admin.internals.AdminApiDriver" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.AdminApiFuture" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.AdminApiHandler" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy" }, 
+  { "child"  : "(1) org.apache.kafka.clients.admin.internals.AdminMetadataManager" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.ApiRequestScope" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.CoordinatorKey" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.MetadataOperationContext" }, 
@@ -2146,6 +2185,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.common.utils.ThreadUtils" }, 
   { "child"  : "(1) org.apache.kafka.common.utils.Time" }, 
   { "child"  : "(1) org.apache.kafka.common.utils.Timer" }, 
+  { "child"  : "(1) org.apache.kafka.common.utils.Utils" }, 
   { "child"  : "(1) org.apache.kafka.server.authorizer.AclCreateResult" }, 
   { "child"  : "(1) org.apache.kafka.server.authorizer.AclDeleteResult" }, 
   { "child"  : "(1) org.apache.kafka.server.authorizer.Action" }, 
@@ -2193,6 +2233,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.connect.cli.ConnectStandalone" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.AbstractStatus" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.Connect" }, 
+  { "child"  : "(1) org.apache.kafka.connect.runtime.ConnectMetrics" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.ConnectMetricsRegistry" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.Herder" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.HerderRequest" }, 
@@ -2214,6 +2255,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.isolation.PluginScanResult" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.isolation.PluginUtils" }, 
+  { "child"  : "(1) org.apache.kafka.connect.runtime.isolation.Plugins" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.InternalRequestSignature" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.RestClient" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.RestServer" }, 
@@ -2244,6 +2286,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.connect.tools.TransformationDoc" }, 
   { "child"  : "(1) org.apache.kafka.connect.util.Callback" }, 
   { "child"  : "(1) org.apache.kafka.connect.util.ConnectUtils" }, 
+  { "child"  : "(1) org.apache.kafka.connect.util.KafkaBasedLog" }, 
   { "child"  : "(1) org.apache.kafka.connect.util.RetryUtil" }, 
   { "child"  : "(1) org.apache.kafka.connect.util.SinkUtils" }, 
   { "child"  : "(1) org.apache.kafka.connect.util.Table" }, 
@@ -2286,10 +2329,12 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark" }, 
+  { "child"  : "(1) org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.producer.ProducerRecordBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.producer.ProducerRequestBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.producer.ProducerResponseBenchmark" }, 
+  { "child"  : "(1) org.apache.kafka.jmh.record.BaseRecordBatchBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.server.CheckpointBench" }, 
   { "child"  : "(1) org.apache.kafka.jmh.server.PartitionCreationBench" }, 
   { "child"  : "(1) org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark" }, 
@@ -2483,6 +2528,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.GraphNode" }, 
+  { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions" }, 
   { "child"  : "(1) org.apache.kafka.streams.processor.Cancellable" }, 
   { "child"  : "(1) org.apache.kafka.streams.processor.CommitCallback" }, 
@@ -2639,6 +2685,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.trogdor.agent.Agent" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.agent.AgentClient" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.agent.AgentRestResource" }, 
+  { "child"  : "(1) org.apache.kafka.trogdor.agent.WorkerManager" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.common.JsonUtil" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.common.Node" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.common.Platform" }, 
@@ -2653,6 +2700,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.trogdor.coordinator.TaskManager" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.rest.Empty" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.rest.ErrorResponse" }, 
+  { "child"  : "(1) org.apache.kafka.trogdor.rest.JsonRestServer" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.rest.Message" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.rest.TaskRequest" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.task.TaskController" }, 
@@ -3260,6 +3308,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) NamedOperation&lt;Printed&lt;K, V&gt;&gt;" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.streams.kstream.Printed" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Task" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.sink.SinkTask" }, 
@@ -3352,6 +3406,12 @@ var maDataBlocs = {
    "classe"  : "(2) AbstractOptions&lt;DescribeFeaturesOptions&gt;" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeFeaturesOptions" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Future&lt;T&gt;" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.common.KafkaFuture" }, 
 ]
 }},
 {"ligne" : {
@@ -3483,6 +3543,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) AbstractStream&lt;K, V&gt;KTable&lt;K, V&gt;" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableImpl" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Consumer&lt;MetadataNodeManager.Data&gt;" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.shell.GlobVisitor" }, 
@@ -3503,6 +3569,7 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) WrappedStateStore&lt;SessionStore&lt;Bytes, byte[]&gt;, byte[], byte[]&gt;SessionStore&lt;Bytes, byte[]&gt;" ,
 "children" : [
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.CachingSessionStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore" }, 
 ]
 }},
@@ -3994,6 +4061,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) Selectable" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.common.network.Selector" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) KTableProcessorSupplier&lt;K, V, K, V&gt;" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger" }, 
@@ -4025,6 +4098,7 @@ var maDataBlocs = {
    "classe"  : "(2) ChannelBuilder" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.network.PlaintextChannelBuilder" }, 
+  { "child"  : "(1) org.apache.kafka.common.network.SaslChannelBuilder" }, 
   { "child"  : "(1) org.apache.kafka.common.network.SslChannelBuilder" }, 
 ]
 }},
@@ -4130,6 +4204,7 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) WrappedStateStore&lt;KeyValueStore&lt;Bytes, byte[]&gt;, byte[], byte[]&gt;KeyValueStore&lt;Bytes, byte[]&gt;" ,
 "children" : [
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.CachingKeyValueStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore" }, 
 ]
 }},
@@ -4256,6 +4331,7 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) WindowStore&lt;Bytes, byte[]&gt;" ,
 "children" : [
+  { "child"  : "(1) org.apache.kafka.streams.state.internals.InMemoryWindowStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter" }, 
 ]
 }},
@@ -4374,6 +4450,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.clients.consumer.internals.AbstractCoordinator" }, 
   { "child"  : "(1) org.apache.kafka.clients.consumer.internals.ConsumerInterceptors" }, 
   { "child"  : "(1) org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient" }, 
+  { "child"  : "(1) org.apache.kafka.clients.consumer.internals.Fetcher" }, 
   { "child"  : "(1) org.apache.kafka.clients.producer.Producer" }, 
   { "child"  : "(1) org.apache.kafka.clients.producer.internals.ProducerInterceptors" }, 
   { "child"  : "(1) org.apache.kafka.common.metrics.Metrics" }, 
@@ -4432,6 +4509,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.connect.runtime.WorkerConfig" }, 
   { "child"  : "(1) org.apache.kafka.connect.transforms.util.SimpleConfig" }, 
   { "child"  : "(1) org.apache.kafka.streams.StreamsConfig" }, 
+  { "child"  : "(1) org.apache.kafka.streams.TopologyConfig" }, 
 ]
 }},
 {"ligne" : {
@@ -4648,6 +4726,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.common.requests.ListOffsetsResponse" }, 
   { "child"  : "(1) org.apache.kafka.common.requests.ListPartitionReassignmentsResponse" }, 
   { "child"  : "(1) org.apache.kafka.common.requests.ListTransactionsResponse" }, 
+  { "child"  : "(1) org.apache.kafka.common.requests.MetadataResponse" }, 
   { "child"  : "(1) org.apache.kafka.common.requests.OffsetCommitResponse" }, 
   { "child"  : "(1) org.apache.kafka.common.requests.OffsetDeleteResponse" }, 
   { "child"  : "(1) org.apache.kafka.common.requests.OffsetFetchResponse" }, 
@@ -4715,6 +4794,13 @@ var maDataBlocs = {
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Authenticator" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.common.security.authenticator.SaslClientAuthenticator" }, 
+  { "child"  : "(1) org.apache.kafka.common.security.authenticator.SaslServerAuthenticator" }, 
 ]
 }},
 {"ligne" : {
@@ -5066,6 +5152,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.queue.EventQueue" }, 
   { "child"  : "(1) org.apache.kafka.shell.InteractiveShell" }, 
   { "child"  : "(1) org.apache.kafka.shell.MetadataNodeManager" }, 
+  { "child"  : "(1) org.apache.kafka.streams.KafkaStreams" }, 
   { "child"  : "(1) org.apache.kafka.tools.VerifiableProducer" }, 
 ]
 }},
@@ -5711,6 +5798,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.kstream.internals.KTableImpl" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.errors.OffsetMetadataTooLarge" ,
 "children" : [
 ]
@@ -5737,6 +5829,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.image.ClientQuotaDelta" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.kstream.Printed" ,
 "children" : [
 ]
 }},
@@ -6116,6 +6213,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.jmh.record.BaseRecordBatchBenchmark" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.ClientRequest" ,
 "children" : [
 ]
@@ -6341,6 +6443,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.utils.Utils" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.LogDirDescription" ,
 "children" : [
 ]
@@ -6447,6 +6554,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.runtime.SubmittedRecords" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.raft.KafkaRaftClient" ,
 "children" : [
 ]
 }},
@@ -7181,6 +7293,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.network.Selector" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.StopReplicaRequest" ,
 "children" : [
 ]
@@ -7276,6 +7393,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.connect.runtime.distributed.DistributedHerder" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier" ,
 "children" : [
 ]
@@ -7321,6 +7443,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.KafkaStreams" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.InitProducerIdRequest" ,
 "children" : [
 ]
@@ -7337,6 +7464,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.trogdor.rest.TaskState" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.clients.admin.internals.AdminApiDriver" ,
 "children" : [
 ]
 }},
@@ -7422,6 +7554,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.metrics.QuotaViolationException" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.KafkaFuture" ,
 "children" : [
 ]
 }},
@@ -8052,6 +8189,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.raft.FollowerState" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.security.authenticator.SaslClientAuthenticator" ,
 "children" : [
 ]
 }},
@@ -8756,6 +8898,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.trogdor.workload.ConstantThroughputGenerator" ,
 "children" : [
 ]
@@ -8786,6 +8933,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.transforms.ValueToKey" ,
 "children" : [
 ]
@@ -8811,6 +8963,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde" ,
 "children" : [
 ]
@@ -8827,6 +8984,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) kafka.examples.KafkaExactlyOnceDemo" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.connect.runtime.ConnectMetrics" ,
 "children" : [
 ]
 }},
@@ -8882,6 +9044,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.ConsumerGroupDescription" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.CachingSessionStore" ,
 "children" : [
 ]
 }},
@@ -9241,6 +9408,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.InMemoryKeyValueStore" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.errors.KafkaStorageException" ,
 "children" : [
 ]
@@ -9427,6 +9599,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.trogdor.task.NoOpTaskController" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.CachingKeyValueStore" ,
 "children" : [
 ]
 }},
@@ -9851,6 +10028,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.BufferValue" ,
 "children" : [
 ]
@@ -10076,6 +10258,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor" ,
 "children" : [
 ]
@@ -10102,6 +10289,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.kstream.SessionWindowedKStream" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.trogdor.rest.JsonRestServer" ,
 "children" : [
 ]
 }},
@@ -10486,6 +10678,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.TopologyConfig" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamJoinWindow" ,
 "children" : [
 ]
@@ -10522,6 +10719,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.HostInfo" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.InMemoryWindowStore" ,
 "children" : [
 ]
 }},
@@ -10841,6 +11043,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.CachingWindowStore" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.trogdor.rest.WorkerStopping" ,
 "children" : [
 ]
@@ -11042,6 +11249,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.errors.UnstableOffsetCommitException" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.connect.runtime.isolation.Plugins" ,
 "children" : [
 ]
 }},
@@ -12551,12 +12763,22 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.requests.MetadataResponse" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.AbstractRequestResponse" ,
 "children" : [
 ]
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.StreamsMetrics" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.connect.util.KafkaBasedLog" ,
 "children" : [
 ]
 }},
@@ -12731,6 +12953,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.clients.consumer.internals.Fetcher" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.metadata.VersionRange" ,
 "children" : [
 ]
@@ -12782,6 +13009,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.CreatePartitionsRequest" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.clients.admin.internals.AdminMetadataManager" ,
 "children" : [
 ]
 }},
@@ -12977,6 +13209,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.FinalizedVersionRange" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.trogdor.agent.WorkerManager" ,
 "children" : [
 ]
 }},
@@ -13206,6 +13443,16 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.security.authenticator.SaslServerAuthenticator" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.InMemorySessionStore" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.DeleteTopicsOptions" ,
 "children" : [
 ]
@@ -13311,6 +13558,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamPeek" ,
 "children" : [
 ]
@@ -13337,6 +13589,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.CompositeKeyValueIterator" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.streams.state.internals.MemoryLRUCache" ,
 "children" : [
 ]
 }},
@@ -14021,6 +14278,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.internals.KafkaFutureImpl" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.util.Callback" ,
 "children" : [
 ]
@@ -14291,6 +14553,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.common.network.SaslChannelBuilder" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.kstream.KStream" ,
 "children" : [
 ]
@@ -14512,6 +14779,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.KeyValueSegments" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.connect.runtime.WorkerTask" ,
 "children" : [
 ]
 }},

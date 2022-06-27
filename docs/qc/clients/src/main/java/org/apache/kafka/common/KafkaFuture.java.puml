@@ -1,0 +1,18 @@
+@startuml
+!pragma layout smetana
+Future<T> <|-- org.apache.kafka.common.KafkaFuture
+class org.apache.kafka.common.KafkaFuture {
++  allOf(KafkaFuture<?>...)
++  toCompletionStage()
++  whenComplete(BiConsumer<?superT,?superThrowable>)
++  complete(T)
++  completeExceptionally(Throwable)
++  cancel(boolean)
++  get()
++  get(long;TimeUnit)
++  getNow(T)
++  isCancelled()
++  isCompletedExceptionally()
++  isDone()
+} 
+@enduml

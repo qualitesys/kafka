@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+AbstractResponse <|-- org.apache.kafka.common.requests.MetadataResponse
+class org.apache.kafka.common.requests.MetadataResponse {
++  MetadataResponse(MetadataResponseData;short)
++  MetadataResponse(MetadataResponseData;boolean)
++  data()
++  throttleTimeMs()
++  errors()
++  errorsByTopicId()
++  errorCounts()
++  topicsByError(Errors)
++  buildCluster()
++  toPartitionInfo(PartitionMetadata;Map<Integer,Node>)
++  convertToNodeArray(List<Integer>;Map<Integer,Node>)
++  topicAuthorizedOperations(String)
++  clusterAuthorizedOperations()
++  holder()
++  brokers()
++  brokersById()
++  topicMetadata()
++  controller()
++  clusterId()
++  hasReliableLeaderEpochs()
++  hasReliableLeaderEpochs(short)
++  parse(ByteBuffer;short)
++  prepareResponse(short;int;Collection<Node>;String;int;List<MetadataResponseTopic>;int)
++  prepareResponse(boolean;int;Collection<Node>;String;int;List<MetadataResponseTopic>;int)
++  shouldClientThrottle(short)
+} 
+@enduml

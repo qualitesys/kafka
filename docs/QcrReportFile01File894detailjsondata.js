@@ -314,14 +314,14 @@ var maDataBlocs = {
    "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN174308 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN176452 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN174308 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN176452 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -342,14 +342,14 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN174754 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN176898 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN174754 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN176898 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -370,7 +370,7 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN175247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN177391 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

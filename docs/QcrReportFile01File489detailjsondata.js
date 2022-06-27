@@ -153,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.network.ByteBufferSend.completed@POLYN161961 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.network.ByteBufferSend.completed@POLYN164105 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -167,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00040] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN162613"
+ , "c3" : "QC-JAV000007[00040] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN164757"
 }} 
 ,
 { "ligne" : {
@@ -181,49 +181,49 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN162226 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN164370 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN162226 the MagicNumber/String  'Wrote negative bytes to channel. This shouldn't happen.' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN164370 the MagicNumber/String  'Wrote negative bytes to channel. This shouldn't happen.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN162799 the MagicNumber/String  'ByteBufferSend(' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN164943 the MagicNumber/String  'ByteBufferSend(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN162799 the MagicNumber/String  ', size=' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN164943 the MagicNumber/String  ', size=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN162799 the MagicNumber/String  ', remaining=' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN164943 the MagicNumber/String  ', remaining=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN162799 the MagicNumber/String  ', pending=' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN164943 the MagicNumber/String  ', pending=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN162799 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN164943 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,14 +244,14 @@ var maDataBlocs = {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN163054 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN165198 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN163054 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN165198 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

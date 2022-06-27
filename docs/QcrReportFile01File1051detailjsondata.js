@@ -69,7 +69,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/DoubleConverter.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.DoubleConverter.DoubleConverter@POLYN158517 the MagicNumber/String  'double' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.DoubleConverter.DoubleConverter@POLYN160661 the MagicNumber/String  'double' should be converted to const"
 }} 
 ]
 };

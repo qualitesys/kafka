@@ -1,0 +1,34 @@
+@startuml
+!pragma layout smetana
+Authenticator <|-- org.apache.kafka.common.security.authenticator.SaslServerAuthenticator
+class org.apache.kafka.common.security.authenticator.SaslServerAuthenticator {
++  SaslServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;Map<String,Subject>;KerberosShortNamer;ListenerName;SecurityProtocol;TransportLayer;Map<String,Long>;ChannelMetadataRegistry;Time;Supplier<ApiVersionsResponse>)
++  createSaslServer(String)
++  createSaslKerberosServer(AuthenticateCallbackHandler;Map<String,?>;Subject)
++  authenticate()
++  principal()
++  principalSerde()
++  complete()
++  handleAuthenticationFailure()
++  close()
++  reauthenticate(ReauthenticationContext)
++  serverSessionExpirationTimeNanos()
++  reauthenticationLatencyMs()
++  connectedClientSupportsReauthentication()
++  setSaslState(SaslState)
++  setSaslState(SaslState;AuthenticationException)
++  flushNetOutBufferAndUpdateInterestOps()
++  flushNetOutBuffer()
++  serverAddress()
++  clientAddress()
++  handleSaslToken(byte[])
++  handleKafkaRequest(byte[])
++  handleHandshakeRequest(RequestContext;SaslHandshakeRequest)
++  enableKafkaSaslAuthenticateHeaders(boolean)
++  handleApiVersionsRequest(RequestContext;ApiVersionsRequest)
++  buildResponseOnAuthenticateFailure(RequestContext;AbstractResponse)
++  sendAuthenticationFailureResponse()
++  sendKafkaResponse(RequestContext;AbstractResponse)
++  sendKafkaResponse(Send)
+} 
+@enduml

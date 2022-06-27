@@ -155,7 +155,7 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN166236 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN168380 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -183,14 +183,14 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN166236"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN168380"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#30"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN166236 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN168380 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 };

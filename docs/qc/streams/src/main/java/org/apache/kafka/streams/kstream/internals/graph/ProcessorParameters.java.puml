@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters
+class org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters {
++  ProcessorParameters(org.apache.kafka.streams.processor.ProcessorSupplier<KIn,VIn>;String)
++  ProcessorParameters(ProcessorSupplier<KIn,VIn,KOut,VOut>;String)
++  ProcessorParameters(FixedKeyProcessorSupplier<KIn,VIn,VOut>;String)
++  processorSupplier()
++  fixedKeyProcessorSupplier()
++  addProcessorTo(InternalTopologyBuilder;String[])
++  kTableSourceSupplier()
++  kTableKTableJoinMergerProcessorSupplier()
++  processorName()
++  toString()
+} 
+@enduml

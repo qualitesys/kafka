@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.util.KafkaBasedLog
+class org.apache.kafka.connect.util.KafkaBasedLog {
++  KafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<K,V>>;Time;Runnable)
++  KafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Supplier<TopicAdmin>;Callback<ConsumerRecord<K,V>>;Time;java.util.function.Consumer<TopicAdmin>)
++  start()
++  stop()
++  readToEnd(Callback<Void>)
++  flush()
++  readToEnd()
++  send(K;V)
++  send(K;V;org.apache.kafka.clients.producer.Callback)
++  partitionCount()
++  createProducer()
++  createConsumer()
++  poll(long)
++  readToLogEnd(boolean)
++  readEndOffsets(Set<TopicPartition>;boolean)
+} 
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.ConnectMetrics
+class org.apache.kafka.connect.runtime.ConnectMetrics {
++  ConnectMetrics(String;WorkerConfig;Time;String)
++  workerId()
++  metrics()
++  registry()
++  group(String;String...)
++  groupId(String;String...)
++  time()
++  stop()
++  main(String[])
+} 
+@enduml

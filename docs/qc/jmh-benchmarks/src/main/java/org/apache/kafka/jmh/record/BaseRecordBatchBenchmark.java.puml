@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.record.BaseRecordBatchBenchmark
+class org.apache.kafka.jmh.record.BaseRecordBatchBenchmark {
++  init()
++  createHeaders()
++  compressionType()
++  createBatch(int)
+} 
+@enduml

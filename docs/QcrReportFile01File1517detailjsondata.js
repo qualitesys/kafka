@@ -132,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN202609 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN204753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN202609 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN204753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,21 +153,21 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN203117 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN205261 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN203117 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN205261 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN203117 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN205261 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -328,119 +328,119 @@ var maDataBlocs = {
    "c1" : "00126"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'streams-pageview-typed' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'streams-pageview-typed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'localhost:9092' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'localhost:9092' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'earliest' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'earliest' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'streams-pageview-input' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'streams-pageview-input' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'streams-userprofile-input' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'streams-userprofile-input' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00154"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'UNKNOWN' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'UNKNOWN' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00176"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'streams-pageviewstats-typed-output' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'streams-pageviewstats-typed-output' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00179"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00182"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  'streams-pipe-shutdown-hook' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  'streams-pipe-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00195"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN205535 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN207679 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

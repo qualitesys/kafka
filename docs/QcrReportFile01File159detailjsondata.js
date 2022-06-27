@@ -153,56 +153,56 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.equals@POLYN159521 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.equals@POLYN161665 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.equals@POLYN159521 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.equals@POLYN161665 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.equals@POLYN159521 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.equals@POLYN161665 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN160257 the MagicNumber/String  'CoordinatorKey(' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN162401 the MagicNumber/String  'CoordinatorKey(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN160257 the MagicNumber/String  'idValue='' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN162401 the MagicNumber/String  'idValue='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN160257 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN162401 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN160257 the MagicNumber/String  ', type=' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN162401 the MagicNumber/String  ', type=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN160257 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.internals.CoordinatorKey.toString@POLYN162401 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {

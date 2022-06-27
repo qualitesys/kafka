@@ -148,7 +148,7 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN165722 the MagicNumber/String  'Using source cluster alias `{}`.' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN167866 the MagicNumber/String  'Using source cluster alias `{}`.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -183,21 +183,21 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.looksLikeHeartbeat@POLYN167549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.looksLikeHeartbeat@POLYN169693 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN165722"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN167866"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#22"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN165722 the MagicNumber/String 'Using source cluster alias `{}`.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN167866 the MagicNumber/String 'Using source cluster alias `{}`.' MUST BE CONVERTED to const"
 }} 
 ]
 };

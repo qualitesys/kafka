@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+AbstractStream<K,V>KTable<K,V> <|-- org.apache.kafka.streams.kstream.internals.KTableImpl
+class org.apache.kafka.streams.kstream.internals.KTableImpl {
++  KTableImpl(String;Serde<K>;Serde<V>;Set<String>;String;org.apache.kafka.streams.processor.ProcessorSupplier<?,?>;GraphNode;InternalStreamsBuilder)
++  KTableImpl(String;Serde<K>;Serde<V>;Set<String>;String;org.apache.kafka.streams.processor.api.ProcessorSupplier<?,?,?,?>;GraphNode;InternalStreamsBuilder)
++  queryableStoreName()
++  doFilter(Predicate<?superK,?superV>;Named;MaterializedInternal<K,V,KeyValueStore<Bytes,byte[]>>;boolean)
++  filter(Predicate<?superK,?superV>)
++  filter(Predicate<?superK,?superV>;Named)
++  filter(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  filter(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  filterNot(Predicate<?superK,?superV>)
++  filterNot(Predicate<?superK,?superV>;Named)
++  filterNot(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  filterNot(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
++  toStream()
++  toStream(Named)
++  suppress(Suppressed<?superK>)
++  buildSuppress(Suppressed<?superK>;String)
++  valueGetterSupplier()
++  enableSendingOldValues(boolean)
++  sendingOldValueEnabled()
+} 
+@enduml

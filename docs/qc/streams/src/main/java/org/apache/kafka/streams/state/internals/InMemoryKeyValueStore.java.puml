@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.InMemoryKeyValueStore
+class org.apache.kafka.streams.state.internals.InMemoryKeyValueStore {
++  InMemoryKeyValueStore(String)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  persistent()
++  isOpen()
++  getPosition()
++  get(Bytes)
++  put(Bytes;byte[])
++  putIfAbsent(Bytes;byte[])
++  putInternal(Bytes;byte[])
++  putAll(List<KeyValue<Bytes,byte[]>>)
++  delete(Bytes)
++  range(Bytes;Bytes)
++  reverseRange(Bytes;Bytes)
++  range(Bytes;Bytes;boolean)
++  getKeyValueIterator(Set<Bytes>;boolean)
++  all()
++  reverseAll()
++  approximateNumEntries()
++  flush()
++  close()
+} 
+@enduml

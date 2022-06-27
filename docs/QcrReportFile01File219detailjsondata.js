@@ -119,14 +119,14 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN161290 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN163434 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN161290 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.consumer.internals.Utils.PartitionComparator.compare@POLYN163434 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

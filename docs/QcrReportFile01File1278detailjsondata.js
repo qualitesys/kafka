@@ -155,7 +155,7 @@ var maDataBlocs = {
    "c1" : "00113"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method setup list of called methods Object monObjet|LogConfig createLogConfigN226871"
+ , "c3" : "QC-JAV000007[00113] For method setup list of called methods Object monObjet|LogConfig createLogConfigN229015"
 }} 
 ,
 { "ligne" : {
@@ -225,420 +225,420 @@ var maDataBlocs = {
    "c1" : "00115"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  'error creating test directory' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  'error creating test directory' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  'zookeeper.connect' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  'zookeeper.connect' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  '127.0.0.1:9999' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  '127.0.0.1:9999' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  'MD5' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  'MD5' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  10000L should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  10000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  10000L should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  10000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  60000 should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  60000 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00150"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00159"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00167"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  'host' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  'host' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  3000 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  3000 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00177"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00182"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00195"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00196"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00199"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00206"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00207"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00234"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00243"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00243"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String  999 should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String  999 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00249"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.tearDown@POLYN234530 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.tearDown@POLYN236674 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00264"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.DelayedOperationsMock@POLYN235136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.DelayedOperationsMock@POLYN237280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00264"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.DelayedOperationsMock@POLYN235136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.DelayedOperationsMock@POLYN237280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00264"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.DelayedOperationsMock@POLYN235136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.DelayedOperationsMock@POLYN237280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00269"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.numDelayedDelete@POLYN235354 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock.numDelayedDelete@POLYN237498 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -659,168 +659,168 @@ var maDataBlocs = {
    "c1" : "00297"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  'name' should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  'name' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00299"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00299"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00299"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00301"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00301"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  'host' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  'host' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00301"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3000 should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3000 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00305"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00306"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  'broker-%d-fetcher-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  'broker-%d-fetcher-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00306"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00306"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00307"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00307"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00307"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00310"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00310"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00310"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00310"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00318"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00330"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00331"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00345"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  '[ReplicaFetcher replicaId=%d, leaderId=%d, fetcherId=%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00345"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00345"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN237164 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.ReplicaFetcherBenchThread@POLYN239308 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -834,7 +834,7 @@ var maDataBlocs = {
    "c1" : "00354"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.latestEpoch@POLYN240239 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.latestEpoch@POLYN242383 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -855,7 +855,7 @@ var maDataBlocs = {
    "c1" : "00364"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.logEndOffset@POLYN240603 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.logEndOffset@POLYN242747 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -876,14 +876,14 @@ var maDataBlocs = {
    "c1" : "00374"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.endOffsetForEpoch@POLYN240850 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.endOffsetForEpoch@POLYN242994 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00374"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.endOffsetForEpoch@POLYN240850 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread.endOffsetForEpoch@POLYN242994 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -897,399 +897,399 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.testFetcher@POLYN234905"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.testFetcher@POLYN237049"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 'error creating test directory' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 'error creating test directory' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String '127.0.0.1:9999' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String '127.0.0.1:9999' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 'zookeeper.connect' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 'zookeeper.connect' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 'MD5' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 'MD5' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 1000L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 1000L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 10000L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 10000L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 10000L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 10000L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 1000L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 1000L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 60000 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 60000 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00150"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 'topic' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 'topic' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#156"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00159"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#159"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00167"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 100 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 100 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 'host' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 'host' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 3000 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 3000 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00177"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00182"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 'topic' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 'topic' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00195"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00196"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#197"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00199"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00206"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00207"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00225] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00225] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00234"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00243"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00243"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN226336 the MagicNumber/String 999 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.setup@POLYN228480 the MagicNumber/String 999 MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -125,21 +125,21 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.metadata.BrokerRegistrationReply.equals@POLYN156869 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.metadata.BrokerRegistrationReply.equals@POLYN159013 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN157211 the MagicNumber/String  'BrokerRegistrationReply(epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN159355 the MagicNumber/String  'BrokerRegistrationReply(epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN157211 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN159355 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

@@ -10,6 +10,10 @@ class org.apache.kafka.clients.admin.internals.AbortTransactionHandler {
 Nb methods :8
 Complexity :2.63
 }
+class org.apache.kafka.clients.admin.internals.AdminApiDriver {
+Nb methods :16
+Complexity :2.07
+}
 class org.apache.kafka.clients.admin.internals.AdminApiFuture {
 Nb methods :5
 Complexity :1.00
@@ -21,6 +25,10 @@ Complexity :1.00
 class org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy {
 Nb methods :3
 Complexity :1.00
+}
+class org.apache.kafka.clients.admin.internals.AdminMetadataManager {
+Nb methods :13
+Complexity :1.93
 }
 class org.apache.kafka.clients.admin.internals.AllBrokersStrategy {
 Nb methods :5
@@ -569,6 +577,10 @@ Complexity :2.37
 class org.apache.kafka.clients.consumer.internals.Fetch {
 Nb methods :7
 Complexity :1.29
+}
+class org.apache.kafka.clients.consumer.internals.Fetcher {
+Nb methods :43
+Complexity :5.28
 }
 class org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry {
 Nb methods :4
@@ -1581,6 +1593,10 @@ class org.apache.kafka.common.internals.KafkaCompletableFuture {
 Nb methods :10
 Complexity :1.00
 }
+class org.apache.kafka.common.internals.KafkaFutureImpl {
+Nb methods :15
+Complexity :1.34
+}
 class org.apache.kafka.common.internals.PartitionStates {
 Nb methods :17
 Complexity :1.24
@@ -1827,9 +1843,17 @@ class org.apache.kafka.common.network.Receive {
 Nb methods :5
 Complexity :1.00
 }
+class org.apache.kafka.common.network.SaslChannelBuilder {
+Nb methods :21
+Complexity :2.72
+}
 class org.apache.kafka.common.network.Selectable {
 Nb methods :15
 Complexity :1.00
+}
+class org.apache.kafka.common.network.Selector {
+Nb methods :58
+Complexity :2.66
 }
 class org.apache.kafka.common.network.Send {
 Nb methods :3
@@ -2571,6 +2595,10 @@ class org.apache.kafka.common.requests.MetadataRequest {
 Nb methods :10
 Complexity :1.80
 }
+class org.apache.kafka.common.requests.MetadataResponse {
+Nb methods :25
+Complexity :1.73
+}
 class org.apache.kafka.common.requests.OffsetCommitRequest {
 Nb methods :6
 Complexity :1.67
@@ -2806,6 +2834,10 @@ class org.apache.kafka.common.security.authenticator.LoginManager {
 Nb methods :9
 Complexity :2.23
 }
+class org.apache.kafka.common.security.authenticator.SaslClientAuthenticator {
+Nb methods :29
+Complexity :3.32
+}
 class org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler {
 Nb methods :3
 Complexity :7.67
@@ -2813,6 +2845,10 @@ Complexity :7.67
 class org.apache.kafka.common.security.authenticator.SaslInternalConfigs {
 Nb methods :1
 Complexity :1.00
+}
+class org.apache.kafka.common.security.authenticator.SaslServerAuthenticator {
+Nb methods :28
+Complexity :3.25
 }
 class org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler {
 Nb methods :5
@@ -3447,6 +3483,10 @@ class org.apache.kafka.common.utils.Timer {
 Nb methods :13
 Complexity :1.31
 }
+class org.apache.kafka.common.utils.Utils {
+Nb methods :63
+Complexity :2.29
+}
 }
 class org.apache.kafka.common.Cluster {
 Nb methods :30
@@ -3475,6 +3515,10 @@ Complexity :1.00
 class org.apache.kafka.common.KafkaException {
 Nb methods :4
 Complexity :1.00
+}
+class org.apache.kafka.common.KafkaFuture {
+Nb methods :12
+Complexity :1.17
 }
 class org.apache.kafka.common.MessageFormatter {
 Nb methods :3
@@ -4458,6 +4502,10 @@ class org.apache.kafka.connect.runtime.distributed.DistributedConfig {
 Nb methods :19
 Complexity :1.22
 }
+class org.apache.kafka.connect.runtime.distributed.DistributedHerder {
+Nb methods :77
+Complexity :3.88
+}
 class org.apache.kafka.connect.runtime.distributed.EagerAssignor {
 Nb methods :6
 Complexity :3.34
@@ -4548,6 +4596,10 @@ Complexity :1.17
 }
 }
 package org.apache.kafka.connect.runtime.isolation {
+class org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader {
+Nb methods :29
+Complexity :1.66
+}
 class org.apache.kafka.connect.runtime.isolation.LoaderSwap {
 Nb methods :2
 Complexity :1.00
@@ -4567,6 +4619,10 @@ Complexity :1.10
 class org.apache.kafka.connect.runtime.isolation.PluginUtils {
 Nb methods :9
 Complexity :3.12
+}
+class org.apache.kafka.connect.runtime.isolation.Plugins {
+Nb methods :22
+Complexity :1.82
 }
 }
 package org.apache.kafka.connect.runtime.rest {
@@ -4709,6 +4765,10 @@ class org.apache.kafka.connect.runtime.Connect {
 Nb methods :7
 Complexity :1.15
 }
+class org.apache.kafka.connect.runtime.ConnectMetrics {
+Nb methods :9
+Complexity :1.34
+}
 class org.apache.kafka.connect.runtime.ConnectMetricsRegistry {
 Nb methods :13
 Complexity :1.00
@@ -4833,6 +4893,10 @@ class org.apache.kafka.connect.runtime.WorkerSourceTaskContext {
 Nb methods :4
 Complexity :1.00
 }
+class org.apache.kafka.connect.runtime.WorkerTask {
+Nb methods :29
+Complexity :1.49
+}
 class org.apache.kafka.connect.runtime.WorkerTransactionContext {
 Nb methods :10
 Complexity :1.21
@@ -4912,6 +4976,10 @@ Complexity :1.90
 class org.apache.kafka.connect.util.FutureCallback {
 Nb methods :3
 Complexity :1.00
+}
+class org.apache.kafka.connect.util.KafkaBasedLog {
+Nb methods :15
+Complexity :1.67
 }
 class org.apache.kafka.connect.util.LoggingContext {
 Nb methods :8
@@ -5101,6 +5169,10 @@ Complexity :4.00
 }
 }
 package org.apache.kafka.jmh.partition {
+class org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark {
+Nb methods :4
+Complexity :1.50
+}
 class org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark {
 Nb methods :5
 Complexity :1.00
@@ -5121,6 +5193,10 @@ Complexity :1.00
 }
 }
 package org.apache.kafka.jmh.record {
+class org.apache.kafka.jmh.record.BaseRecordBatchBenchmark {
+Nb methods :4
+Complexity :3.00
+}
 class org.apache.kafka.jmh.record.RecordBatchIterationBenchmark {
 Nb methods :4
 Complexity :3.00
@@ -5614,6 +5690,10 @@ class org.apache.kafka.raft.FollowerState {
 Nb methods :16
 Complexity :1.44
 }
+class org.apache.kafka.raft.KafkaRaftClient {
+Nb methods :104
+Complexity :3.59
+}
 class org.apache.kafka.raft.LeaderAndEpoch {
 Nb methods :7
 Complexity :1.29
@@ -6097,6 +6177,10 @@ class org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode {
 Nb methods :5
 Complexity :1.00
 }
+class org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters {
+Nb methods :10
+Complexity :1.80
+}
 class org.apache.kafka.streams.kstream.internals.graph.SourceGraphNode {
 Nb methods :7
 Complexity :1.00
@@ -6104,6 +6188,10 @@ Complexity :1.00
 class org.apache.kafka.streams.kstream.internals.graph.StateStoreNode {
 Nb methods :3
 Complexity :1.00
+}
+class org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode {
+Nb methods :5
+Complexity :1.40
 }
 class org.apache.kafka.streams.kstream.internals.graph.StreamSinkNode {
 Nb methods :3
@@ -6359,6 +6447,10 @@ Complexity :1.00
 class org.apache.kafka.streams.kstream.internals.KTableFilter {
 Nb methods :6
 Complexity :2.17
+}
+class org.apache.kafka.streams.kstream.internals.KTableImpl {
+Nb methods :19
+Complexity :2.22
 }
 class org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin {
 Nb methods :2
@@ -6635,6 +6727,10 @@ Complexity :1.00
 }
 class org.apache.kafka.streams.kstream.Predicate {
 Nb methods :1
+Complexity :1.00
+}
+class org.apache.kafka.streams.kstream.Printed {
+Nb methods :5
 Complexity :1.00
 }
 class org.apache.kafka.streams.kstream.Produced {
@@ -7204,6 +7300,10 @@ class org.apache.kafka.streams.processor.internals.StreamsMetadataState {
 Nb methods :18
 Complexity :2.56
 }
+class org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor {
+Nb methods :41
+Complexity :3.93
+}
 class org.apache.kafka.streams.processor.internals.StreamsProducer {
 Nb methods :18
 Complexity :1.78
@@ -7518,6 +7618,18 @@ class org.apache.kafka.streams.state.internals.CachedStateStore {
 Nb methods :2
 Complexity :1.00
 }
+class org.apache.kafka.streams.state.internals.CachingKeyValueStore {
+Nb methods :23
+Complexity :1.70
+}
+class org.apache.kafka.streams.state.internals.CachingSessionStore {
+Nb methods :20
+Complexity :1.55
+}
+class org.apache.kafka.streams.state.internals.CachingWindowStore {
+Nb methods :19
+Complexity :1.74
+}
 class org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore {
 Nb methods :15
 Complexity :1.21
@@ -7586,9 +7698,17 @@ class org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplie
 Nb methods :4
 Complexity :1.00
 }
+class org.apache.kafka.streams.state.internals.InMemoryKeyValueStore {
+Nb methods :22
+Complexity :1.64
+}
 class org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier {
 Nb methods :6
 Complexity :1.00
+}
+class org.apache.kafka.streams.state.internals.InMemorySessionStore {
+Nb methods :22
+Complexity :1.96
 }
 class org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer {
 Nb methods :26
@@ -7597,6 +7717,10 @@ Complexity :2.43
 class org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier {
 Nb methods :9
 Complexity :1.00
+}
+class org.apache.kafka.streams.state.internals.InMemoryWindowStore {
+Nb methods :28
+Complexity :1.90
 }
 class org.apache.kafka.streams.state.internals.KeyValueIteratorFacade {
 Nb methods :5
@@ -7653,6 +7777,10 @@ Complexity :1.50
 class org.apache.kafka.streams.state.internals.Maybe {
 Nb methods :7
 Complexity :1.86
+}
+class org.apache.kafka.streams.state.internals.MemoryLRUCache {
+Nb methods :21
+Complexity :1.29
 }
 class org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache {
 Nb methods :7
@@ -7878,6 +8006,10 @@ class org.apache.kafka.streams.state.internals.ThreadCache {
 Nb methods :28
 Complexity :1.86
 }
+class org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore {
+Nb methods :26
+Complexity :2.08
+}
 class org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBuffer {
 Nb methods :7
 Complexity :1.00
@@ -8044,6 +8176,10 @@ class org.apache.kafka.streams.KafkaClientSupplier {
 Nb methods :5
 Complexity :1.00
 }
+class org.apache.kafka.streams.KafkaStreams {
+Nb methods :59
+Complexity :3.12
+}
 class org.apache.kafka.streams.KeyQueryMetadata {
 Nb methods :10
 Complexity :1.11
@@ -8087,6 +8223,10 @@ Complexity :1.00
 class org.apache.kafka.streams.Topology {
 Nb methods :22
 Complexity :1.00
+}
+class org.apache.kafka.streams.TopologyConfig {
+Nb methods :6
+Complexity :4.50
 }
 class org.apache.kafka.streams.TopologyDescription {
 Nb methods :2
@@ -8164,6 +8304,10 @@ Complexity :1.79
 class org.apache.kafka.trogdor.agent.AgentRestResource {
 Nb methods :8
 Complexity :1.13
+}
+class org.apache.kafka.trogdor.agent.WorkerManager {
+Nb methods :6
+Complexity :2.50
 }
 }
 package org.apache.kafka.trogdor.basic {
@@ -8314,6 +8458,10 @@ Complexity :1.50
 class org.apache.kafka.trogdor.rest.ErrorResponse {
 Nb methods :6
 Complexity :1.34
+}
+class org.apache.kafka.trogdor.rest.JsonRestServer {
+Nb methods :5
+Complexity :1.80
 }
 class org.apache.kafka.trogdor.rest.Message {
 Nb methods :3

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 880 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 881 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -713,7 +713,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "52"
+ , "c4" : "53"
 }}
 ,
 { "ligne" : {
@@ -764,7 +764,7 @@ var maDataBlocs = {
    "c1" : "00358"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#358"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00358] For method generateClientId list of called methods Object monObjet|String config_getStringN984870"
+ , "c3" : "QC-JAV000007[00358] For method generateClientId list of called methods Object monObjet|String config_getStringN987034"
 }} 
 ,
 { "ligne" : {
@@ -778,7 +778,7 @@ var maDataBlocs = {
    "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.clients.admin.KafkaAdminClient.generateClientId@POLYN984773 the MagicNumber/String  'adminclient-' should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.clients.admin.KafkaAdminClient.generateClientId@POLYN986937 the MagicNumber/String  'adminclient-' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -792,14 +792,14 @@ var maDataBlocs = {
    "c1" : "00367"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.clients.admin.KafkaAdminClient.calcDeadlineMs@POLYN985278 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.clients.admin.KafkaAdminClient.calcDeadlineMs@POLYN987442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00368"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.clients.admin.KafkaAdminClient.calcDeadlineMs@POLYN985278 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.clients.admin.KafkaAdminClient.calcDeadlineMs@POLYN987442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -813,28 +813,28 @@ var maDataBlocs = {
    "c1" : "00374"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN985716 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN987880 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00375"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN985716 the MagicNumber/String  'Null exception.' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN987880 the MagicNumber/String  'Null exception.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00376"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN985716 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN987880 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN985716 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.admin.KafkaAdminClient.prettyPrintException@POLYN987880 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -848,7 +848,7 @@ var maDataBlocs = {
    "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986192 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988356 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -862,7 +862,7 @@ var maDataBlocs = {
    "c1" : "00386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00386] For method createInternal list of called methods Object monObjet|String generateClientIdN986726|org.apache.kafka.common.utils.LogContext createLogContextN987000"
+ , "c3" : "QC-JAV000007[00386] For method createInternal list of called methods Object monObjet|String generateClientIdN988890|org.apache.kafka.common.utils.LogContext createLogContextN989164"
 }} 
 ,
 { "ligne" : {
@@ -876,119 +876,119 @@ var maDataBlocs = {
    "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00389"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#389"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00392"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00410"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  'client-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  'client-id' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00421"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  'admin-client' should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  'admin-client' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#427"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00435"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00447"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#447"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  'Metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  'Metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  'NetworkClient' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  'NetworkClient' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00449"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#449"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  'Selector' should be converted to const"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  'Selector' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  'ChannelBuilder' should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  'ChannelBuilder' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00451"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN986402 the MagicNumber/String  'Failed to create new KafkaAdminClient' should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN988566 the MagicNumber/String  'Failed to create new KafkaAdminClient' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1002,35 +1002,35 @@ var maDataBlocs = {
    "c1" : "00455"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#455"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00455] For method createInternal list of called methods Object monObjet|String generateClientIdN991444"
+ , "c3" : "QC-JAV000007[00455] For method createInternal list of called methods Object monObjet|String generateClientIdN993608"
 }} 
 ,
 { "ligne" : {
    "c1" : "00459"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN991215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN993379 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00466"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#466"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN991215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN993379 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00468"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN991215 the MagicNumber/String  'Metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN993379 the MagicNumber/String  'Metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN991215 the MagicNumber/String  'Failed to create new KafkaAdminClient' should be converted to const"
+ , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN993379 the MagicNumber/String  'Failed to create new KafkaAdminClient' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1044,14 +1044,14 @@ var maDataBlocs = {
    "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.admin.KafkaAdminClient.createLogContext@POLYN992255 the MagicNumber/String  '[AdminClient clientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.admin.KafkaAdminClient.createLogContext@POLYN994419 the MagicNumber/String  '[AdminClient clientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.admin.KafkaAdminClient.createLogContext@POLYN992255 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.admin.KafkaAdminClient.createLogContext@POLYN994419 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1079,28 +1079,28 @@ var maDataBlocs = {
    "c1" : "00495"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String  ' | ' should be converted to const"
+ , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String  ' | ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00496"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00497"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#497"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00503"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String  'Kafka admin client initialized' should be converted to const"
+ , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String  'Kafka admin client initialized' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1114,7 +1114,7 @@ var maDataBlocs = {
    "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#508"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00508] For method configureDefaultApiTimeoutMs list of called methods Object monObjet|int config_getIntN994829|int config_getIntN994931"
+ , "c3" : "QC-JAV000007[00508] For method configureDefaultApiTimeoutMs list of called methods Object monObjet|int config_getIntN996993|int config_getIntN997095"
 }} 
 ,
 { "ligne" : {
@@ -1128,28 +1128,28 @@ var maDataBlocs = {
    "c1" : "00514"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String  'The specified value of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String  'The specified value of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String  ' must be no smaller than the value of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String  ' must be no smaller than the value of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00517"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String  'Overriding the default value for {} ({}) with the explicitly configured request timeout {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String  'Overriding the default value for {} ({}) with the explicitly configured request timeout {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1170,77 +1170,77 @@ var maDataBlocs = {
    "c1" : "00529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  'The timeout cannot be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  'The timeout cannot be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  365 should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  365 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00535"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00538"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  'Initiating close operation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  'Initiating close operation.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00540"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  'Moving hard shutdown time forward.' should be converted to const"
+ , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  'Moving hard shutdown time forward.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00547"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  'Hard shutdown time is already earlier than requested.' should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  'Hard shutdown time is already earlier than requested.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00553"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#553"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00554"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  'Waiting for the I/O thread to exit. Hard shutdown in {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  'Waiting for the I/O thread to exit. Hard shutdown in {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  'Kafka admin client closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  'Kafka admin client closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00565"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#565"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String  'Interrupted while joining I/O thread' should be converted to const"
+ , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String  'Interrupted while joining I/O thread' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1261,14 +1261,14 @@ var maDataBlocs = {
    "c1" : "00592"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#592"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00592] In method org.apache.kafka.clients.admin.KafkaAdminClient.ConstantNodeIdProvider.provide@POLYN998398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00592] In method org.apache.kafka.clients.admin.KafkaAdminClient.ConstantNodeIdProvider.provide@POLYN1000562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00600"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.clients.admin.KafkaAdminClient.ConstantNodeIdProvider.provide@POLYN998398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.clients.admin.KafkaAdminClient.ConstantNodeIdProvider.provide@POLYN1000562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1282,14 +1282,14 @@ var maDataBlocs = {
    "c1" : "00609"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#609"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.clients.admin.KafkaAdminClient.ControllerNodeProvider.provide@POLYN998887 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.clients.admin.KafkaAdminClient.ControllerNodeProvider.provide@POLYN1001051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00613"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#613"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.clients.admin.KafkaAdminClient.ControllerNodeProvider.provide@POLYN998887 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.clients.admin.KafkaAdminClient.ControllerNodeProvider.provide@POLYN1001051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1303,7 +1303,7 @@ var maDataBlocs = {
    "c1" : "00627"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#627"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.clients.admin.KafkaAdminClient.LeastLoadedNodeProvider.provide@POLYN999341 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.clients.admin.KafkaAdminClient.LeastLoadedNodeProvider.provide@POLYN1001505 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1317,42 +1317,42 @@ var maDataBlocs = {
    "c1" : "00656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#656"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1000556 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1002720 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#656"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1000556 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1002720 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00660"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1000857 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1003021 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00660"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1000857 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1003021 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00660"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1000857 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1003021 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00664"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1001135 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.Call@POLYN1003299 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1366,42 +1366,42 @@ var maDataBlocs = {
    "c1" : "00673"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#673"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00673] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1001825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00673] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003989 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00675"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1001825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003989 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00687"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#687"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00687] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1001825 the MagicNumber/String  '{} attempting protocol downgrade and then retry.' should be converted to const"
+ , "c3" : "QC-JAV000010[00687] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003989 the MagicNumber/String  '{} attempting protocol downgrade and then retry.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00695"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#695"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1001825 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003989 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00702"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#702"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1001825 the MagicNumber/String  '{} failed with non-retriable exception after {} attempt(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003989 the MagicNumber/String  '{} failed with non-retriable exception after {} attempt(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00714"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#714"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1001825 the MagicNumber/String  '{} failed: {}. Beginning retry #{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003989 the MagicNumber/String  '{} failed: {}. Beginning retry #{}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1422,28 +1422,28 @@ var maDataBlocs = {
    "c1" : "00726"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#726"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00726] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1004060 the MagicNumber/String  '{} timed out at {} after {} attempt(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00726] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1006224 the MagicNumber/String  '{} timed out at {} after {} attempt(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00732"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#732"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1004060 the MagicNumber/String  ' timed out at ' should be converted to const"
+ , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1006224 the MagicNumber/String  ' timed out at ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00733"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#733"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1004060 the MagicNumber/String  ' after ' should be converted to const"
+ , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1006224 the MagicNumber/String  ' after ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00733"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#733"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1004060 the MagicNumber/String  ' attempt(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN1006224 the MagicNumber/String  ' attempt(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1478,42 +1478,42 @@ var maDataBlocs = {
    "c1" : "00748"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleUnsupportedVersionException@POLYN1005460 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleUnsupportedVersionException@POLYN1007624 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00753"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#753"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1005584 the MagicNumber/String  'Call(callName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1007748 the MagicNumber/String  'Call(callName=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00753"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#753"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1005584 the MagicNumber/String  ', deadlineMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1007748 the MagicNumber/String  ', deadlineMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1005584 the MagicNumber/String  ', tries=' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1007748 the MagicNumber/String  ', tries=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1005584 the MagicNumber/String  ', nextAllowedTryMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1007748 the MagicNumber/String  ', nextAllowedTryMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1005584 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.admin.KafkaAdminClient.Call.toString@POLYN1007748 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1548,7 +1548,7 @@ var maDataBlocs = {
    "c1" : "00782"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#782"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00782] For method handleTimeouts list of called methods Object monObjet|int calcTimeoutMsRemainingAsIntN1007235"
+ , "c3" : "QC-JAV000007[00782] For method handleTimeouts list of called methods Object monObjet|int calcTimeoutMsRemainingAsIntN1009399"
 }} 
 ,
 { "ligne" : {
@@ -1569,21 +1569,21 @@ var maDataBlocs = {
    "c1" : "00783"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.handleTimeouts@POLYN1006792 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.handleTimeouts@POLYN1008956 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00787"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#787"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00787] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.handleTimeouts@POLYN1006792 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00787] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.handleTimeouts@POLYN1008956 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00788"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#788"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.handleTimeouts@POLYN1006792 the MagicNumber/String  ' Call: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.handleTimeouts@POLYN1008956 the MagicNumber/String  ' Call: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1597,7 +1597,7 @@ var maDataBlocs = {
    "c1" : "00799"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#799"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00799] For method callHasExpired list of called methods Object monObjet|int calcTimeoutMsRemainingAsIntN1008102"
+ , "c3" : "QC-JAV000007[00799] For method callHasExpired list of called methods Object monObjet|int calcTimeoutMsRemainingAsIntN1010266"
 }} 
 ,
 { "ligne" : {
@@ -1611,21 +1611,21 @@ var maDataBlocs = {
    "c1" : "00801"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#801"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.callHasExpired@POLYN1008005 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.callHasExpired@POLYN1010169 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00802"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#802"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00802] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.callHasExpired@POLYN1008005 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00802] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.callHasExpired@POLYN1010169 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00804"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#804"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00804] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.callHasExpired@POLYN1008005 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00804] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.callHasExpired@POLYN1010169 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1646,7 +1646,7 @@ var maDataBlocs = {
    "c1" : "00835"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#835"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00835] For method timeoutPendingCalls list of called methods Object monObjet|int processor_handleTimeoutsN1010174"
+ , "c3" : "QC-JAV000007[00835] For method timeoutPendingCalls list of called methods Object monObjet|int processor_handleTimeoutsN1012338"
 }} 
 ,
 { "ligne" : {
@@ -1660,21 +1660,21 @@ var maDataBlocs = {
    "c1" : "00836"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#836"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00836] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1010081 the MagicNumber/String  'Timed out waiting for a node assignment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00836] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1012245 the MagicNumber/String  'Timed out waiting for a node assignment.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00837"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#837"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00837] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1010081 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00837] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1012245 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00838"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#838"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00838] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1010081 the MagicNumber/String  'Timed out {} pending calls.' should be converted to const"
+ , "c3" : "QC-JAV000010[00838] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1012245 the MagicNumber/String  'Timed out {} pending calls.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1688,7 +1688,7 @@ var maDataBlocs = {
    "c1" : "00842"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#842"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00842] For method timeoutCallsToSend list of called methods Object monObjet|int processor_handleTimeoutsN1010774"
+ , "c3" : "QC-JAV000007[00842] For method timeoutCallsToSend list of called methods Object monObjet|int processor_handleTimeoutsN1012938"
 }} 
 ,
 { "ligne" : {
@@ -1702,28 +1702,28 @@ var maDataBlocs = {
    "c1" : "00843"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#843"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00843] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1010506 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00843] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012670 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00846"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#846"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1010506 the MagicNumber/String  'Timed out waiting to send the call.' should be converted to const"
+ , "c3" : "QC-JAV000010[00846] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012670 the MagicNumber/String  'Timed out waiting to send the call.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00848"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#848"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00848] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1010506 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00848] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012670 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00849"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#849"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00849] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1010506 the MagicNumber/String  'Timed out {} call(s) with assigned nodes.' should be converted to const"
+ , "c3" : "QC-JAV000010[00849] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012670 the MagicNumber/String  'Timed out {} call(s) with assigned nodes.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1751,7 +1751,7 @@ var maDataBlocs = {
    "c1" : "00861"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#861"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00861] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.transitionToPendingAndClearList@POLYN1011428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00861] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.transitionToPendingAndClearList@POLYN1013592 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1772,7 +1772,7 @@ var maDataBlocs = {
    "c1" : "00870"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#870"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00870] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1011960 the MagicNumber/String  'Trying to choose nodes for {} at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00870] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1014124 the MagicNumber/String  'Trying to choose nodes for {} at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1793,49 +1793,49 @@ var maDataBlocs = {
    "c1" : "00889"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#889"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00889] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1013021 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00889] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1015185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00890"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#890"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00890] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1013021 the MagicNumber/String  'Assigned {} to node {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00890] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1015185 the MagicNumber/String  'Assigned {} to node {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00893"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#893"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00893] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1013021 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00893] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1015185 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00895"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#895"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00895] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1013021 the MagicNumber/String  'Unable to assign {} to a node.' should be converted to const"
+ , "c3" : "QC-JAV000010[00895] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1015185 the MagicNumber/String  'Unable to assign {} to a node.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00896"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#896"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00896] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1013021 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00896] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1015185 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00900"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#900"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00900] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1013021 the MagicNumber/String  'Unable to choose node for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00900] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1015185 the MagicNumber/String  'Unable to choose node for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00902"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#902"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00902] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1013021 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00902] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1015185 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1849,7 +1849,7 @@ var maDataBlocs = {
    "c1" : "00907"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#907"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00907] For method sendEligibleCalls list of called methods Object monObjet|long client_pollDelayMsN1016463"
+ , "c3" : "QC-JAV000007[00907] For method sendEligibleCalls list of called methods Object monObjet|long client_pollDelayMsN1018627"
 }} 
 ,
 { "ligne" : {
@@ -1947,77 +1947,77 @@ var maDataBlocs = {
    "c1" : "00918"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#918"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00918] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  'Still waiting for other calls to finish on node {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00918] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  'Still waiting for other calls to finish on node {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00924"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00926"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  'Disconnecting from {} and revoking {} node assignment(s) ' should be converted to const"
+ , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  'Disconnecting from {} and revoking {} node assignment(s) ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00927"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#927"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  'because the node is taking too long to become ready.' should be converted to const"
+ , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  'because the node is taking too long to become ready.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00941"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#941"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  'Client is not ready to send to {}. Must delay {} ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  'Client is not ready to send to {}. Must delay {} ms' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00948"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#948"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00948] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00948] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00954"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#954"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00954] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00954] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00962"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#962"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  'Internal error sending %s to %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  'Internal error sending %s to %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00966"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#966"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00966"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#966"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00967"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#967"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00967] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1014202 the MagicNumber/String  'Sending {} to {}. correlationId={}, timeoutMs={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00967] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1016366 the MagicNumber/String  'Sending {} to {}. correlationId={}, timeoutMs={}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2052,28 +2052,28 @@ var maDataBlocs = {
    "c1" : "00980"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#980"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1019033 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1021197 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00985"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#985"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00985] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1019033 the MagicNumber/String  'Disconnecting from {} due to timeout while awaiting {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00985] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1021197 the MagicNumber/String  'Disconnecting from {} due to timeout while awaiting {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00993"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#993"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1019033 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1021197 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00994"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#994"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1019033 the MagicNumber/String  'Timed out {} call(s) in flight.' should be converted to const"
+ , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1021197 the MagicNumber/String  'Timed out {} call(s) in flight.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2108,70 +2108,70 @@ var maDataBlocs = {
    "c1" : "01003"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1003"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1006"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  'Internal server error on {}: server returned information about unknown ' should be converted to const"
+ , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  'Internal server error on {}: server returned information about unknown ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1007"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  'correlation ID {}, requestHeader = {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  'correlation ID {}, requestHeader = {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1016"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01016] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  'Internal server error on {}: ignoring call {} in correlationIdToCall ' should be converted to const"
+ , "c3" : "QC-JAV000010[01016] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  'Internal server error on {}: ignoring call {} in correlationIdToCall ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1017"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  'that did not exist in callsInFlight' should be converted to const"
+ , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  'that did not exist in callsInFlight' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1023"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01023] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01023] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1027"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01027] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01027] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1031"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  'Cancelled %s request with correlation id %s due to node %s being disconnected' should be converted to const"
+ , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  'Cancelled %s request with correlation id %s due to node %s being disconnected' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1038"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  '{} got response {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  '{} got response {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1041"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1020027 the MagicNumber/String  '{} handleResponse failed with {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1022191 the MagicNumber/String  '{} handleResponse failed with {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2220,28 +2220,28 @@ var maDataBlocs = {
    "c1" : "01068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1068"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1023970 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1026134 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1071"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01071] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1023970 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01071] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1026134 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1077"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01077] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1024344 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01077] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1026508 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1081"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01081] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1024344 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01081] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1026508 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2255,42 +2255,42 @@ var maDataBlocs = {
    "c1" : "01089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1089"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01089] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1024835 the MagicNumber/String  'All work has been completed, and the I/O thread is now exiting.' should be converted to const"
+ , "c3" : "QC-JAV000010[01089] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1026999 the MagicNumber/String  'All work has been completed, and the I/O thread is now exiting.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1090"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1024835 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1026999 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1093"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01093] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1024835 the MagicNumber/String  'Forcing a hard I/O thread shutdown. Requests in progress will be aborted.' should be converted to const"
+ , "c3" : "QC-JAV000010[01093] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1026999 the MagicNumber/String  'Forcing a hard I/O thread shutdown. Requests in progress will be aborted.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1094"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01094] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1024835 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01094] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1026999 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1096"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01096] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1024835 the MagicNumber/String  'Hard shutdown in {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[01096] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1026999 the MagicNumber/String  'Hard shutdown in {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1097"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1024835 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.threadShouldExit@POLYN1026999 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2304,84 +2304,84 @@ var maDataBlocs = {
    "c1" : "01102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01102] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'Thread starting' should be converted to const"
+ , "c3" : "QC-JAV000010[01102] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'Thread starting' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
+ , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01114] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
+ , "c3" : "QC-JAV000010[01114] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
+ , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01119] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'Timed out {} remaining operation(s) during close.' should be converted to const"
+ , "c3" : "QC-JAV000010[01119] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'Timed out {} remaining operation(s) during close.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'KafkaClient' should be converted to const"
+ , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'KafkaClient' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01122] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'Metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[01122] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'Metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01123] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1025456 the MagicNumber/String  'Exiting AdminClientRunnable thread.' should be converted to const"
+ , "c3" : "QC-JAV000010[01123] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.run@POLYN1027620 the MagicNumber/String  'Exiting AdminClientRunnable thread.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01127] For method processRequests list of called methods Object monObjet|long time_millisecondsN1029653"
+ , "c3" : "QC-JAV000007[01127] For method processRequests list of called methods Object monObjet|long time_millisecondsN1031817"
 }} 
 ,
 { "ligne" : {
@@ -2409,49 +2409,49 @@ var maDataBlocs = {
    "c1" : "01129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1026899 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1029063 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01144] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1026899 the MagicNumber/String  1200000 should be converted to const"
+ , "c3" : "QC-JAV000010[01144] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1029063 the MagicNumber/String  1200000 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01152] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1026899 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01152] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1029063 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01163"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1026899 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1029063 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1026899 the MagicNumber/String  'Entering KafkaClient#poll(timeout={})' should be converted to const"
+ , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1029063 the MagicNumber/String  'Entering KafkaClient#poll(timeout={})' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1026899 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1029063 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1026899 the MagicNumber/String  'KafkaClient#poll retrieved {} response(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.processRequests@POLYN1029063 the MagicNumber/String  'KafkaClient#poll retrieved {} response(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2479,56 +2479,56 @@ var maDataBlocs = {
    "c1" : "01188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01188] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  'Max retries {} for {} reached' should be converted to const"
+ , "c3" : "QC-JAV000010[01188] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  'Max retries {} for {} reached' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  'Exceeded maxRetries after ' should be converted to const"
+ , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  'Exceeded maxRetries after ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  ' tries.' should be converted to const"
+ , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  ' tries.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01194] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  'Queueing {} with a timeout {} ms from now.' should be converted to const"
+ , "c3" : "QC-JAV000010[01194] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  'Queueing {} with a timeout {} ms from now.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01207] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  'The AdminClient thread has exited. Timing out {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01207] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  'The AdminClient thread has exited. Timing out {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1030020 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
+ , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1032184 the MagicNumber/String  'The AdminClient thread has exited.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2549,14 +2549,14 @@ var maDataBlocs = {
    "c1" : "01216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.call@POLYN1031617 the MagicNumber/String  'The AdminClient is not accepting new calls. Timing out {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.call@POLYN1033781 the MagicNumber/String  'The AdminClient is not accepting new calls. Timing out {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01218] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.call@POLYN1031617 the MagicNumber/String  'The AdminClient thread is not accepting new calls.' should be converted to const"
+ , "c3" : "QC-JAV000010[01218] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.call@POLYN1033781 the MagicNumber/String  'The AdminClient thread is not accepting new calls.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2570,28 +2570,28 @@ var maDataBlocs = {
    "c1" : "01226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01226] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1032197 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01226] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1034361 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01226] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1032197 the MagicNumber/String  'fetchMetadata' should be converted to const"
+ , "c3" : "QC-JAV000010[01226] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1034361 the MagicNumber/String  'fetchMetadata' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01235"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01235] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1032197 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01235] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1034361 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01246] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1032197 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01246] In method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.makeMetadataCall@POLYN1034361 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2605,7 +2605,7 @@ var maDataBlocs = {
    "c1" : "01259"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01259] In method org.apache.kafka.clients.admin.KafkaAdminClient.topicNameIsUnrepresentable@POLYN1033560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01259] In method org.apache.kafka.clients.admin.KafkaAdminClient.topicNameIsUnrepresentable@POLYN1035734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2619,7 +2619,7 @@ var maDataBlocs = {
    "c1" : "01263"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.clients.admin.KafkaAdminClient.topicIdIsUnrepresentable@POLYN1033739 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.clients.admin.KafkaAdminClient.topicIdIsUnrepresentable@POLYN1035913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2668,7 +2668,7 @@ var maDataBlocs = {
    "c1" : "01295"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1295"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01295] For method createTopics list of called methods Object monObjet|long calcDeadlineMsN1037116|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1037249"
+ , "c3" : "QC-JAV000007[01295] For method createTopics list of called methods Object monObjet|long calcDeadlineMsN1039320|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1039453"
 }} 
 ,
 { "ligne" : {
@@ -2696,14 +2696,14 @@ var maDataBlocs = {
    "c1" : "01302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01302] In method org.apache.kafka.clients.admin.KafkaAdminClient.createTopics@POLYN1035614 the MagicNumber/String  'The given topic name '' should be converted to const"
+ , "c3" : "QC-JAV000010[01302] In method org.apache.kafka.clients.admin.KafkaAdminClient.createTopics@POLYN1037818 the MagicNumber/String  'The given topic name '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01303"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01303] In method org.apache.kafka.clients.admin.KafkaAdminClient.createTopics@POLYN1035614 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[01303] In method org.apache.kafka.clients.admin.KafkaAdminClient.createTopics@POLYN1037818 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2717,7 +2717,7 @@ var maDataBlocs = {
    "c1" : "01320"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1320"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01320] For method getCreateTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1041817|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1041897"
+ , "c3" : "QC-JAV000007[01320] For method getCreateTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1044031|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1044111"
 }} 
 ,
 { "ligne" : {
@@ -2745,49 +2745,49 @@ var maDataBlocs = {
    "c1" : "01326"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01326] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1037658 the MagicNumber/String  'createTopics' should be converted to const"
+ , "c3" : "QC-JAV000010[01326] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1039862 the MagicNumber/String  'createTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01346"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01346] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1037658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01346] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1039862 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01347"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01347] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1037658 the MagicNumber/String  'Server response mentioned unknown topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01347] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1039862 the MagicNumber/String  'Server response mentioned unknown topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01370"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01370] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1037658 the MagicNumber/String  'Topic metadata and configs in CreateTopics response not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[01370] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1039862 the MagicNumber/String  'Topic metadata and configs in CreateTopics response not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01388] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1037658 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01388] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1039862 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01405"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01405] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1037658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01405] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1039862 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01406"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01406] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1037658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01406] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreateTopicsCall@POLYN1039862 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2801,14 +2801,14 @@ var maDataBlocs = {
    "c1" : "01429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01429] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteTopics@POLYN1043123 the MagicNumber/String  'The TopicCollection: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01429] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteTopics@POLYN1045337 the MagicNumber/String  'The TopicCollection: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01429] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteTopics@POLYN1043123 the MagicNumber/String  ' provided did not match any supported classes for deleteTopics.' should be converted to const"
+ , "c3" : "QC-JAV000010[01429] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteTopics@POLYN1045337 the MagicNumber/String  ' provided did not match any supported classes for deleteTopics.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2822,7 +2822,7 @@ var maDataBlocs = {
    "c1" : "01432"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1432"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01432] For method handleDeleteTopicsUsingNames list of called methods Object monObjet|long calcDeadlineMsN1045328|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1045461"
+ , "c3" : "QC-JAV000007[01432] For method handleDeleteTopicsUsingNames list of called methods Object monObjet|long calcDeadlineMsN1047542|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1047675"
 }} 
 ,
 { "ligne" : {
@@ -2850,14 +2850,14 @@ var maDataBlocs = {
    "c1" : "01439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01439] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingNames@POLYN1043876 the MagicNumber/String  'The given topic name '' should be converted to const"
+ , "c3" : "QC-JAV000010[01439] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingNames@POLYN1046090 the MagicNumber/String  'The given topic name '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01440"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1440"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01440] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingNames@POLYN1043876 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[01440] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingNames@POLYN1046090 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2871,7 +2871,7 @@ var maDataBlocs = {
    "c1" : "01457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1457"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01457] For method handleDeleteTopicsUsingIds list of called methods Object monObjet|long calcDeadlineMsN1047358|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1047491"
+ , "c3" : "QC-JAV000007[01457] For method handleDeleteTopicsUsingIds list of called methods Object monObjet|long calcDeadlineMsN1049572|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1049705"
 }} 
 ,
 { "ligne" : {
@@ -2899,14 +2899,14 @@ var maDataBlocs = {
    "c1" : "01464"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01464] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingIds@POLYN1045890 the MagicNumber/String  'The given topic ID '' should be converted to const"
+ , "c3" : "QC-JAV000010[01464] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingIds@POLYN1048104 the MagicNumber/String  'The given topic ID '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01465"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1465"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01465] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingIds@POLYN1045890 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[01465] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDeleteTopicsUsingIds@POLYN1048104 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2920,7 +2920,7 @@ var maDataBlocs = {
    "c1" : "01482"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1482"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01482] For method getDeleteTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1050842|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1050922"
+ , "c3" : "QC-JAV000007[01482] For method getDeleteTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1053066|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1053146"
 }} 
 ,
 { "ligne" : {
@@ -2941,35 +2941,35 @@ var maDataBlocs = {
    "c1" : "01488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1047862 the MagicNumber/String  'deleteTopics' should be converted to const"
+ , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1050076 the MagicNumber/String  'deleteTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01507] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1047862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01507] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1050076 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01508] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1047862 the MagicNumber/String  'Server response mentioned unknown topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01508] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1050076 the MagicNumber/String  'Server response mentioned unknown topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01525"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01525] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1047862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01525] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1050076 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01533"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01533] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1047862 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01533] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsCall@POLYN1050076 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2983,7 +2983,7 @@ var maDataBlocs = {
    "c1" : "01554"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1554"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01554] For method getDeleteTopicsWithIdsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1054804|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1054884"
+ , "c3" : "QC-JAV000007[01554] For method getDeleteTopicsWithIdsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1057048|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1057128"
 }} 
 ,
 { "ligne" : {
@@ -3011,35 +3011,35 @@ var maDataBlocs = {
    "c1" : "01560"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1051632 the MagicNumber/String  'deleteTopics' should be converted to const"
+ , "c3" : "QC-JAV000010[01560] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1053856 the MagicNumber/String  'deleteTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01580"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01580] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1051632 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01580] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1053856 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01581"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1581"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01581] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1051632 the MagicNumber/String  'Server response mentioned unknown topic ID {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01581] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1053856 the MagicNumber/String  'Server response mentioned unknown topic ID {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01598"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1598"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01598] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1051632 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01598] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1053856 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01606"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1606"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01606] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1051632 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01606] In method org.apache.kafka.clients.admin.KafkaAdminClient.getDeleteTopicsWithIdsCall@POLYN1053856 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3047,6 +3047,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1628"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01628] For method listTopics arguments ListTopicsOptions  options"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01628"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1628"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01628] For method listTopics list of called methods Object monObjet|String topicMetadata_topicN1058946"
 }} 
 ,
 { "ligne" : {
@@ -3060,7 +3067,7 @@ var maDataBlocs = {
    "c1" : "01631"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1631"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01631] In method org.apache.kafka.clients.admin.KafkaAdminClient.listTopics@POLYN1055608 the MagicNumber/String  'listTopics' should be converted to const"
+ , "c3" : "QC-JAV000010[01631] In method org.apache.kafka.clients.admin.KafkaAdminClient.listTopics@POLYN1057852 the MagicNumber/String  'listTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3074,14 +3081,14 @@ var maDataBlocs = {
    "c1" : "01667"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1667"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01667] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeTopics@POLYN1057466 the MagicNumber/String  'The TopicCollection: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01667] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeTopics@POLYN1059710 the MagicNumber/String  'The TopicCollection: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01667"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1667"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01667] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeTopics@POLYN1057466 the MagicNumber/String  ' provided did not match any supported classes for describeTopics.' should be converted to const"
+ , "c3" : "QC-JAV000010[01667] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeTopics@POLYN1059710 the MagicNumber/String  ' provided did not match any supported classes for describeTopics.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3095,7 +3102,7 @@ var maDataBlocs = {
    "c1" : "01670"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1670"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01670] For method handleDescribeTopicsByNames list of called methods Object monObjet|java.util.Map&lt;String,KafkaFuture&lt;TopicDescription&gt;&gt; errors_getN1060963|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1061737"
+ , "c3" : "QC-JAV000007[01670] For method handleDescribeTopicsByNames list of called methods Object monObjet|java.util.Map&lt;String,KafkaFuture&lt;TopicDescription&gt;&gt; errors_getN1063207|org.apache.kafka.common.Uuid cluster_topicIdN1063773|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1063981"
 }} 
 ,
 { "ligne" : {
@@ -3123,77 +3130,77 @@ var maDataBlocs = {
    "c1" : "01676"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01676] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  'The given topic name '' should be converted to const"
+ , "c3" : "QC-JAV000010[01676] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  'The given topic name '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01677"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1677"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01677] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[01677] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01685"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1685"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01685] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  'describeTopics' should be converted to const"
+ , "c3" : "QC-JAV000010[01685] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  'describeTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01688"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1688"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01688] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01688] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01695"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1695"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01695] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01695] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01711"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1711"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01711] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01711] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01716"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1716"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01716] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  'Topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[01716] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  'Topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01716"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1716"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01716] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  ' not found.' should be converted to const"
+ , "c3" : "QC-JAV000010[01716] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  ' not found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01729"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1729"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01729] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01729] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01730"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1730"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01730] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01730] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01732"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1732"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01732] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1058216 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01732] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByNames@POLYN1060460 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3207,7 +3214,7 @@ var maDataBlocs = {
    "c1" : "01746"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1746"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01746] For method handleDescribeTopicsByIds list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Uuid,KafkaFuture&lt;TopicDescription&gt;&gt; errors_getN1065623|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1066012"
+ , "c3" : "QC-JAV000007[01746] For method handleDescribeTopicsByIds list of called methods Object monObjet|String cluster_topicNameN1067526|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1068256"
 }} 
 ,
 { "ligne" : {
@@ -3235,56 +3242,56 @@ var maDataBlocs = {
    "c1" : "01753"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1753"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01753] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  'The given topic id '' should be converted to const"
+ , "c3" : "QC-JAV000010[01753] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  'The given topic id '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01754"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01754] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[01754] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01762"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1762"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01762] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  'describeTopicsWithIds' should be converted to const"
+ , "c3" : "QC-JAV000010[01762] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  'describeTopicsWithIds' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01769"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1769"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01769] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01769] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01784"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01785"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01785] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  'TopicId ' should be converted to const"
+ , "c3" : "QC-JAV000010[01785] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  'TopicId ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01785"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01785] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  ' not found.' should be converted to const"
+ , "c3" : "QC-JAV000010[01785] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  ' not found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01789"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1789"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01789] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1062702 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01789] In method org.apache.kafka.clients.admin.KafkaAdminClient.handleDescribeTopicsByIds@POLYN1064946 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3298,7 +3305,7 @@ var maDataBlocs = {
    "c1" : "01811"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1811"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01811] For method getTopicDescriptionFromCluster list of called methods Object monObjet|java.util.Set&lt;String&gt; cluster_internalTopicsN1066829|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN1066964"
+ , "c3" : "QC-JAV000007[01811] For method getTopicDescriptionFromCluster list of called methods Object monObjet|java.util.Set&lt;String&gt; cluster_internalTopicsN1069073|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN1069208"
 }} 
 ,
 { "ligne" : {
@@ -3340,14 +3347,14 @@ var maDataBlocs = {
    "c1" : "01827"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1827"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01827] In method org.apache.kafka.clients.admin.KafkaAdminClient.leader@POLYN1067968 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01827] In method org.apache.kafka.clients.admin.KafkaAdminClient.leader@POLYN1070212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01828"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1828"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01828] In method org.apache.kafka.clients.admin.KafkaAdminClient.leader@POLYN1067968 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01828] In method org.apache.kafka.clients.admin.KafkaAdminClient.leader@POLYN1070212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3368,56 +3375,56 @@ var maDataBlocs = {
    "c1" : "01840"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1840"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01840] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  'listNodes' should be converted to const"
+ , "c3" : "QC-JAV000010[01840] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  'listNodes' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01843"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1843"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01843] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01843] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01856"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1856"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01856] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01856] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01892"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1892"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01892] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01892] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01893"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1893"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01893] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01893] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01908"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1908"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01908] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01908] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01911"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1911"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01911] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01911] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01912"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1912"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01912] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1068347 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01912] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeCluster@POLYN1070591 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3445,21 +3452,21 @@ var maDataBlocs = {
    "c1" : "01924"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01924] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeAcls@POLYN1072802 the MagicNumber/String  'The AclBindingFilter ' should be converted to const"
+ , "c3" : "QC-JAV000010[01924] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeAcls@POLYN1075046 the MagicNumber/String  'The AclBindingFilter ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01925"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1925"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01925] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeAcls@POLYN1072802 the MagicNumber/String  'must not contain UNKNOWN elements.' should be converted to const"
+ , "c3" : "QC-JAV000010[01925] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeAcls@POLYN1075046 the MagicNumber/String  'must not contain UNKNOWN elements.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01930"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1930"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeAcls@POLYN1072802 the MagicNumber/String  'describeAcls' should be converted to const"
+ , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeAcls@POLYN1075046 the MagicNumber/String  'describeAcls' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3473,7 +3480,7 @@ var maDataBlocs = {
    "c1" : "01957"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1957"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01957] For method createAcls list of called methods Object monObjet|org.apache.kafka.clients.admin.CreateAclsResult acl_toFilterN1075670"
+ , "c3" : "QC-JAV000007[01957] For method createAcls list of called methods Object monObjet|org.apache.kafka.clients.admin.CreateAclsResult acl_toFilterN1077914"
 }} 
 ,
 { "ligne" : {
@@ -3501,42 +3508,42 @@ var maDataBlocs = {
    "c1" : "01963"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1963"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01963] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01963] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01967"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1967"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01967] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01967] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01971"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1971"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01971] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String  'Invalid ACL creation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01971] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String  'Invalid ACL creation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01977"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1977"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01977] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String  'createAcls' should be converted to const"
+ , "c3" : "QC-JAV000010[01977] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String  'createAcls' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01994"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1994"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01994] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String  'The broker reported no creation result for the given ACL: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01994] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String  'The broker reported no creation result for the given ACL: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02002"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2002"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02002] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02002] In method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3550,7 +3557,7 @@ var maDataBlocs = {
    "c1" : "02016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2016"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02016] For method deleteAcls list of called methods Object monObjet|org.apache.kafka.common.acl.AclBinding DeleteAclsResponse_aclBindingN1081553"
+ , "c3" : "QC-JAV000007[02016] For method deleteAcls list of called methods Object monObjet|org.apache.kafka.common.acl.AclBinding DeleteAclsResponse_aclBindingN1083797"
 }} 
 ,
 { "ligne" : {
@@ -3564,21 +3571,21 @@ var maDataBlocs = {
    "c1" : "02022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2022"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02022] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1078342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02022] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1080586 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2029"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02029] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1078342 the MagicNumber/String  'deleteAcls' should be converted to const"
+ , "c3" : "QC-JAV000010[02029] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1080586 the MagicNumber/String  'deleteAcls' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2046"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02046] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1078342 the MagicNumber/String  'The broker reported no deletion result for the given filter.' should be converted to const"
+ , "c3" : "QC-JAV000010[02046] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1080586 the MagicNumber/String  'The broker reported no deletion result for the given filter.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3592,7 +3599,7 @@ var maDataBlocs = {
    "c1" : "02075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2075"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02075] For method describeConfigs list of called methods Object monObjet|Integer nodeForN1082684"
+ , "c3" : "QC-JAV000007[02075] For method describeConfigs list of called methods Object monObjet|Integer nodeForN1084928"
 }} 
 ,
 { "ligne" : {
@@ -3697,63 +3704,63 @@ var maDataBlocs = {
    "c1" : "02083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2083"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02083] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02083] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2096"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02096] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  'describeConfigs' should be converted to const"
+ , "c3" : "QC-JAV000010[02096] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  'describeConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2097"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02097] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02097] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02107] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02107] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02120] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02120] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02121] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02121] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02122] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  'The config {} in the response from broker {} is not in the request' should be converted to const"
+ , "c3" : "QC-JAV000010[02122] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  'The config {} in the response from broker {} is not in the request' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02125] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  'The config {} in the response from the least loaded broker is not in the request' should be converted to const"
+ , "c3" : "QC-JAV000010[02125] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  'The config {} in the response from the least loaded broker is not in the request' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02139] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1082241 the MagicNumber/String  'The broker response did not contain a result for config resource ' should be converted to const"
+ , "c3" : "QC-JAV000010[02139] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeConfigs@POLYN1084485 the MagicNumber/String  'The broker response did not contain a result for config resource ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3781,7 +3788,7 @@ var maDataBlocs = {
    "c1" : "02190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02190] In method org.apache.kafka.clients.admin.KafkaAdminClient.configSource@POLYN1088115 the MagicNumber/String  'Unexpected config source ' should be converted to const"
+ , "c3" : "QC-JAV000010[02190] In method org.apache.kafka.clients.admin.KafkaAdminClient.configSource@POLYN1090419 the MagicNumber/String  'Unexpected config source ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3795,7 +3802,7 @@ var maDataBlocs = {
    "c1" : "02197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02197] For method alterConfigs list of called methods Object monObjet|Integer nodeForN1089678"
+ , "c3" : "QC-JAV000007[02197] For method alterConfigs list of called methods Object monObjet|Integer nodeForN1091982"
 }} 
 ,
 { "ligne" : {
@@ -3823,7 +3830,7 @@ var maDataBlocs = {
    "c1" : "02206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02206] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1089165 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02206] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1091469 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3872,21 +3879,21 @@ var maDataBlocs = {
    "c1" : "02232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02232] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1090620 the MagicNumber/String  'alterConfigs' should be converted to const"
+ , "c3" : "QC-JAV000010[02232] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1092924 the MagicNumber/String  'alterConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02245] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1090620 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02245] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1092924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02248"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02248] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1090620 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02248] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterConfigs@POLYN1092924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3900,7 +3907,7 @@ var maDataBlocs = {
    "c1" : "02262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02262] For method incrementalAlterConfigs list of called methods Object monObjet|Integer nodeForN1094018"
+ , "c3" : "QC-JAV000007[02262] For method incrementalAlterConfigs list of called methods Object monObjet|Integer nodeForN1096322"
 }} 
 ,
 { "ligne" : {
@@ -3928,7 +3935,7 @@ var maDataBlocs = {
    "c1" : "02272"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02272] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1093484 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02272] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1095788 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3942,7 +3949,7 @@ var maDataBlocs = {
    "c1" : "02284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2284"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02284] For method incrementalAlterConfigs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt; IncrementalAlterConfigsResponse_fromResponseDataN1096276|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,KafkaFutureImpl&lt;Void&gt;&gt; errors_getN1096646"
+ , "c3" : "QC-JAV000007[02284] For method incrementalAlterConfigs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt; IncrementalAlterConfigsResponse_fromResponseDataN1098580|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,KafkaFutureImpl&lt;Void&gt;&gt; errors_getN1098950"
 }} 
 ,
 { "ligne" : {
@@ -3956,21 +3963,21 @@ var maDataBlocs = {
    "c1" : "02293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02293] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1094960 the MagicNumber/String  'incrementalAlterConfigs' should be converted to const"
+ , "c3" : "QC-JAV000010[02293] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1097264 the MagicNumber/String  'incrementalAlterConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02307] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1094960 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02307] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1097264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02310] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1094960 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02310] In method org.apache.kafka.clients.admin.KafkaAdminClient.incrementalAlterConfigs@POLYN1097264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3984,7 +3991,7 @@ var maDataBlocs = {
    "c1" : "02324"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2324"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02324] For method alterReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult replica_brokerIdN1098217|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult time_millisecondsN1099420"
+ , "c3" : "QC-JAV000007[02324] For method alterReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult replica_brokerIdN1100521|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult time_millisecondsN1101734"
 }} 
 ,
 { "ligne" : {
@@ -4110,56 +4117,56 @@ var maDataBlocs = {
    "c1" : "02338"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02338] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02338] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02344] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02344] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02356"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02356] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  'alterReplicaLogDirs' should be converted to const"
+ , "c3" : "QC-JAV000010[02356] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  'alterReplicaLogDirs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02372"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02372] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02372] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02373"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02373] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  'The partition {} in the response from broker {} is not in the request' should be converted to const"
+ , "c3" : "QC-JAV000010[02373] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  'The partition {} in the response from broker {} is not in the request' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02377] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02377] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2386"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02386] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  'The response from broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[02386] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  'The response from broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02387"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02387] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1097258 the MagicNumber/String  ' did not contain a result for replica ' should be converted to const"
+ , "c3" : "QC-JAV000010[02387] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterReplicaLogDirs@POLYN1099562 the MagicNumber/String  ' did not contain a result for replica ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4173,7 +4180,7 @@ var maDataBlocs = {
    "c1" : "02405"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2405"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02405] For method describeLogDirs list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.LogDirDescription&gt; logDirDescriptionsN1103840"
+ , "c3" : "QC-JAV000007[02405] For method describeLogDirs list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.LogDirDescription&gt; logDirDescriptionsN1106184"
 }} 
 ,
 { "ligne" : {
@@ -4250,21 +4257,21 @@ var maDataBlocs = {
    "c1" : "02413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02413] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeLogDirs@POLYN1102394 the MagicNumber/String  'describeLogDirs' should be converted to const"
+ , "c3" : "QC-JAV000010[02413] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeLogDirs@POLYN1104738 the MagicNumber/String  'describeLogDirs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02419"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02419] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeLogDirs@POLYN1102394 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02419] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeLogDirs@POLYN1104738 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02426"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02426] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeLogDirs@POLYN1102394 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02426] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeLogDirs@POLYN1104738 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4320,7 +4327,7 @@ var maDataBlocs = {
    "c1" : "02467"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2467"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02467] For method describeReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult time_millisecondsN1107955"
+ , "c3" : "QC-JAV000007[02467] For method describeReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult time_millisecondsN1110309"
 }} 
 ,
 { "ligne" : {
@@ -4509,63 +4516,63 @@ var maDataBlocs = {
    "c1" : "02480"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2480"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02480] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02480] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02502"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02502] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  'describeReplicaLogDirs' should be converted to const"
+ , "c3" : "QC-JAV000010[02502] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  'describeReplicaLogDirs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02521"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2521"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02521] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02521] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02523"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  'The error ' should be converted to const"
+ , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  'The error ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02523"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  ' for log directory ' should be converted to const"
+ , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  ' for log directory ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02523"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  ' in the response from broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  ' in the response from broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02523"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  ' is illegal' should be converted to const"
+ , "c3" : "QC-JAV000010[02523] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  ' is illegal' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02529] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02529] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02530] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1106247 the MagicNumber/String  'Server response from broker {} mentioned unknown partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02530] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeReplicaLogDirs@POLYN1108591 the MagicNumber/String  'Server response from broker {} mentioned unknown partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4579,7 +4586,7 @@ var maDataBlocs = {
    "c1" : "02562"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2562"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02562] For method createPartitions list of called methods Object monObjet|java.util.List&lt;List&lt;Integer&gt;&gt; newPartition_assignmentsN1113099|org.apache.kafka.clients.admin.CreatePartitionsResult time_millisecondsN1113947|long calcDeadlineMsN1114027|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1114160"
+ , "c3" : "QC-JAV000007[02562] For method createPartitions list of called methods Object monObjet|java.util.List&lt;List&lt;Integer&gt;&gt; newPartition_assignmentsN1115453|org.apache.kafka.clients.admin.CreatePartitionsResult time_millisecondsN1116311|long calcDeadlineMsN1116391|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1116524"
 }} 
 ,
 { "ligne" : {
@@ -4628,14 +4635,14 @@ var maDataBlocs = {
    "c1" : "02570"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02570] In method org.apache.kafka.clients.admin.KafkaAdminClient.createPartitions@POLYN1112289 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02570] In method org.apache.kafka.clients.admin.KafkaAdminClient.createPartitions@POLYN1114643 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02570"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02570] In method org.apache.kafka.clients.admin.KafkaAdminClient.createPartitions@POLYN1112289 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02570] In method org.apache.kafka.clients.admin.KafkaAdminClient.createPartitions@POLYN1114643 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4649,7 +4656,7 @@ var maDataBlocs = {
    "c1" : "02590"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2590"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02590] For method getCreatePartitionsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1117625|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1117705"
+ , "c3" : "QC-JAV000007[02590] For method getCreatePartitionsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1119999|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1120079"
 }} 
 ,
 { "ligne" : {
@@ -4677,35 +4684,35 @@ var maDataBlocs = {
    "c1" : "02596"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02596] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1114569 the MagicNumber/String  'createPartitions' should be converted to const"
+ , "c3" : "QC-JAV000010[02596] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1116933 the MagicNumber/String  'createPartitions' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02616"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2616"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02616] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1114569 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02616] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1116933 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02617"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2617"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02617] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1114569 the MagicNumber/String  'Server response mentioned unknown topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02617] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1116933 the MagicNumber/String  'Server response mentioned unknown topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02634"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2634"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02634] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1114569 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02634] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1116933 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02642"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2642"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02642] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1114569 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[02642] In method org.apache.kafka.clients.admin.KafkaAdminClient.getCreatePartitionsCall@POLYN1116933 the MagicNumber/String  'The controller response did not contain a result for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4719,7 +4726,7 @@ var maDataBlocs = {
    "c1" : "02664"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2664"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02664] For method deleteRecords list of called methods Object monObjet|long calcDeadlineMsN1119382|org.apache.kafka.clients.admin.DeleteRecordsResult errors_getN1120803|org.apache.kafka.clients.admin.DeleteRecordsResult time_millisecondsN1122315"
+ , "c3" : "QC-JAV000007[02664] For method deleteRecords list of called methods Object monObjet|long calcDeadlineMsN1121756|org.apache.kafka.clients.admin.DeleteRecordsResult errors_getN1123177|org.apache.kafka.common.Node cluster_leaderForN1123509|org.apache.kafka.clients.admin.DeleteRecordsResult time_millisecondsN1124699"
 }} 
 ,
 { "ligne" : {
@@ -4740,35 +4747,35 @@ var maDataBlocs = {
    "c1" : "02684"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2684"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02684] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1118429 the MagicNumber/String  'topicsMetadata' should be converted to const"
+ , "c3" : "QC-JAV000010[02684] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1120803 the MagicNumber/String  'topicsMetadata' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02691"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2691"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02691] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1118429 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02691] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1120803 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02713"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2713"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02713] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1118429 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02713] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1120803 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02717"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2717"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02717] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1118429 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02717] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1120803 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02737"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2737"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02737] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1118429 the MagicNumber/String  'deleteRecords' should be converted to const"
+ , "c3" : "QC-JAV000010[02737] In method org.apache.kafka.clients.admin.KafkaAdminClient.deleteRecords@POLYN1120803 the MagicNumber/String  'deleteRecords' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4789,7 +4796,7 @@ var maDataBlocs = {
    "c1" : "02795"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2795"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02795] In method org.apache.kafka.clients.admin.KafkaAdminClient.createDelegationToken@POLYN1125270 the MagicNumber/String  'createDelegationToken' should be converted to const"
+ , "c3" : "QC-JAV000010[02795] In method org.apache.kafka.clients.admin.KafkaAdminClient.createDelegationToken@POLYN1127674 the MagicNumber/String  'createDelegationToken' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4810,7 +4817,7 @@ var maDataBlocs = {
    "c1" : "02833"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2833"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02833] In method org.apache.kafka.clients.admin.KafkaAdminClient.renewDelegationToken@POLYN1127775 the MagicNumber/String  'renewDelegationToken' should be converted to const"
+ , "c3" : "QC-JAV000010[02833] In method org.apache.kafka.clients.admin.KafkaAdminClient.renewDelegationToken@POLYN1130179 the MagicNumber/String  'renewDelegationToken' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4831,7 +4838,7 @@ var maDataBlocs = {
    "c1" : "02867"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2867"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02867] In method org.apache.kafka.clients.admin.KafkaAdminClient.expireDelegationToken@POLYN1129311 the MagicNumber/String  'expireDelegationToken' should be converted to const"
+ , "c3" : "QC-JAV000010[02867] In method org.apache.kafka.clients.admin.KafkaAdminClient.expireDelegationToken@POLYN1131715 the MagicNumber/String  'expireDelegationToken' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4852,7 +4859,7 @@ var maDataBlocs = {
    "c1" : "02901"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2901"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02901] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeDelegationToken@POLYN1130847 the MagicNumber/String  'describeDelegationToken' should be converted to const"
+ , "c3" : "QC-JAV000010[02901] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeDelegationToken@POLYN1133251 the MagicNumber/String  'describeDelegationToken' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4873,7 +4880,7 @@ var maDataBlocs = {
    "c1" : "02929"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2929"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02929] In method org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1132251 the MagicNumber/String  'Retrying to fetch metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[02929] In method org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1134655 the MagicNumber/String  'Retrying to fetch metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4887,7 +4894,7 @@ var maDataBlocs = {
    "c1" : "02937"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2937"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02937] For method describeConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.clients.admin.ConsumerGroupDescription&gt; DescribeConsumerGroupsHandler_newFutureN1132999"
+ , "c3" : "QC-JAV000007[02937] For method describeConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.clients.admin.ConsumerGroupDescription&gt; DescribeConsumerGroupsHandler_newFutureN1135403"
 }} 
 ,
 { "ligne" : {
@@ -4936,7 +4943,7 @@ var maDataBlocs = {
    "c1" : "02981"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2981"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02981] In method org.apache.kafka.clients.admin.KafkaAdminClient.validAclOperations@POLYN1135523 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02981] In method org.apache.kafka.clients.admin.KafkaAdminClient.validAclOperations@POLYN1137937 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -4964,7 +4971,7 @@ var maDataBlocs = {
    "c1" : "03007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3007"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03007] For method addError list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN1137111"
+ , "c3" : "QC-JAV000007[03007] For method addError list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN1139535"
 }} 
 ,
 { "ligne" : {
@@ -4978,28 +4985,28 @@ var maDataBlocs = {
    "c1" : "03009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3009"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03009] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1136993 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03009] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1139417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3010"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03010] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1136993 the MagicNumber/String  'Error listing groups on ' should be converted to const"
+ , "c3" : "QC-JAV000010[03010] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1139417 the MagicNumber/String  'Error listing groups on ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3012"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03012] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1136993 the MagicNumber/String  'Error listing groups on ' should be converted to const"
+ , "c3" : "QC-JAV000010[03012] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1139417 the MagicNumber/String  'Error listing groups on ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3012"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03012] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1136993 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[03012] In method org.apache.kafka.clients.admin.KafkaAdminClient.ListConsumerGroupsResults.addError@POLYN1139417 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5055,7 +5062,7 @@ var maDataBlocs = {
    "c1" : "03035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3035"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03035] For method listConsumerGroups list of called methods Object monObjet|long calcDeadlineMsN1138822|org.apache.kafka.clients.admin.ListConsumerGroupsResult time_millisecondsN1140107|java.util.Set&lt;ConsumerGroupState&gt; options_statesN1140506"
+ , "c3" : "QC-JAV000007[03035] For method listConsumerGroups list of called methods Object monObjet|long calcDeadlineMsN1141246|org.apache.kafka.clients.admin.ListConsumerGroupsResult time_millisecondsN1142531|java.util.Set&lt;ConsumerGroupState&gt; options_statesN1142930"
 }} 
 ,
 { "ligne" : {
@@ -5069,42 +5076,42 @@ var maDataBlocs = {
    "c1" : "03039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3039"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03039] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1138509 the MagicNumber/String  'findAllBrokers' should be converted to const"
+ , "c3" : "QC-JAV000010[03039] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1140933 the MagicNumber/String  'findAllBrokers' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3044"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03044] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1138509 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[03044] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1140933 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3052"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03052] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1138509 the MagicNumber/String  'Metadata fetch failed due to missing broker list' should be converted to const"
+ , "c3" : "QC-JAV000010[03052] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1140933 the MagicNumber/String  'Metadata fetch failed due to missing broker list' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3059"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03059] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1138509 the MagicNumber/String  'listConsumerGroups' should be converted to const"
+ , "c3" : "QC-JAV000010[03059] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1140933 the MagicNumber/String  'listConsumerGroups' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3073"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03073] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1138509 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[03073] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1140933 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03112] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1138509 the MagicNumber/String  'Failed to find brokers to send ListGroups' should be converted to const"
+ , "c3" : "QC-JAV000010[03112] In method org.apache.kafka.clients.admin.KafkaAdminClient.listConsumerGroups@POLYN1140933 the MagicNumber/String  'Failed to find brokers to send ListGroups' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5118,7 +5125,7 @@ var maDataBlocs = {
    "c1" : "03121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03121] For method listConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt; ListConsumerGroupOffsetsHandler_newFutureN1143685"
+ , "c3" : "QC-JAV000007[03121] For method listConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt; ListConsumerGroupOffsetsHandler_newFutureN1146119"
 }} 
 ,
 { "ligne" : {
@@ -5139,7 +5146,7 @@ var maDataBlocs = {
    "c1" : "03131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03131] For method deleteConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Void&gt; DeleteConsumerGroupsHandler_newFutureN1144372"
+ , "c3" : "QC-JAV000007[03131] For method deleteConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Void&gt; DeleteConsumerGroupsHandler_newFutureN1146806"
 }} 
 ,
 { "ligne" : {
@@ -5160,7 +5167,7 @@ var maDataBlocs = {
    "c1" : "03141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03141] For method deleteConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt; DeleteConsumerGroupOffsetsHandler_newFutureN1145207"
+ , "c3" : "QC-JAV000007[03141] For method deleteConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt; DeleteConsumerGroupOffsetsHandler_newFutureN1147651"
 }} 
 ,
 { "ligne" : {
@@ -5181,7 +5188,7 @@ var maDataBlocs = {
    "c1" : "03158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3158"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03158] For method electLeaders list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Optional&lt;Throwable&gt;&gt; ElectLeadersResponse_electLeadersResultN1147024"
+ , "c3" : "QC-JAV000007[03158] For method electLeaders list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Optional&lt;Throwable&gt;&gt; ElectLeadersResponse_electLeadersResultN1149468"
 }} 
 ,
 { "ligne" : {
@@ -5195,7 +5202,7 @@ var maDataBlocs = {
    "c1" : "03164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03164] In method org.apache.kafka.clients.admin.KafkaAdminClient.electLeaders@POLYN1145928 the MagicNumber/String  'electLeaders' should be converted to const"
+ , "c3" : "QC-JAV000010[03164] In method org.apache.kafka.clients.admin.KafkaAdminClient.electLeaders@POLYN1148372 the MagicNumber/String  'electLeaders' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5209,7 +5216,7 @@ var maDataBlocs = {
    "c1" : "03197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03197] For method alterPartitionReassignments list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult time_millisecondsN1150094"
+ , "c3" : "QC-JAV000007[03197] For method alterPartitionReassignments list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult time_millisecondsN1152538"
 }} 
 ,
 { "ligne" : {
@@ -5265,147 +5272,147 @@ var maDataBlocs = {
    "c1" : "03211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03211] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  'The given topic name '' should be converted to const"
+ , "c3" : "QC-JAV000010[03211] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  'The given topic name '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03212] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[03212] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03213] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03213] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03214] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  'The given partition index ' should be converted to const"
+ , "c3" : "QC-JAV000010[03214] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  'The given partition index ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03215] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  ' is not valid.' should be converted to const"
+ , "c3" : "QC-JAV000010[03215] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  ' is not valid.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03219] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03219] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03229] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  'alterPartitionReassignments' should be converted to const"
+ , "c3" : "QC-JAV000010[03229] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  'alterPartitionReassignments' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03249] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03249] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03266"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03266] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03266] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03284] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03284] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03293] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03293] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03294"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03294] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03294] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03303"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03303] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  'many' should be converted to const"
+ , "c3" : "QC-JAV000010[03303] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  'many' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03303"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03303] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  'less' should be converted to const"
+ , "c3" : "QC-JAV000010[03303] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  'less' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03304] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  'The server returned too ' should be converted to const"
+ , "c3" : "QC-JAV000010[03304] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  'The server returned too ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03304] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  ' results.' should be converted to const"
+ , "c3" : "QC-JAV000010[03304] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  ' results.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03305] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  'Expected ' should be converted to const"
+ , "c3" : "QC-JAV000010[03305] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  'Expected ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03305] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  ' but received ' should be converted to const"
+ , "c3" : "QC-JAV000010[03305] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  ' but received ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03311"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03311] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03311] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03320"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03320] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03320] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03324"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03324] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1147770 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03324] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterPartitionReassignments@POLYN1150214 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5419,7 +5426,7 @@ var maDataBlocs = {
    "c1" : "03345"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3345"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03345] For method listPartitionReassignments list of called methods Object monObjet|String tp_topicN1157345|int tp_partitionN1157420"
+ , "c3" : "QC-JAV000007[03345] For method listPartitionReassignments list of called methods Object monObjet|String tp_topicN1159789|int tp_partitionN1159864"
 }} 
 ,
 { "ligne" : {
@@ -5447,42 +5454,42 @@ var maDataBlocs = {
    "c1" : "03353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03353] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1156871 the MagicNumber/String  'The given topic name '' should be converted to const"
+ , "c3" : "QC-JAV000010[03353] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1159315 the MagicNumber/String  'The given topic name '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03354] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1156871 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[03354] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1159315 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03355"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03355] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1156871 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03355] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1159315 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03356"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03356] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1156871 the MagicNumber/String  'The given partition index ' should be converted to const"
+ , "c3" : "QC-JAV000010[03356] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1159315 the MagicNumber/String  'The given partition index ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03357"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03357] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1156871 the MagicNumber/String  ' is not valid.' should be converted to const"
+ , "c3" : "QC-JAV000010[03357] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1159315 the MagicNumber/String  ' is not valid.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03364"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03364] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1156871 the MagicNumber/String  'listPartitionReassignments' should be converted to const"
+ , "c3" : "QC-JAV000010[03364] In method org.apache.kafka.clients.admin.KafkaAdminClient.listPartitionReassignments@POLYN1159315 the MagicNumber/String  'listPartitionReassignments' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5531,7 +5538,7 @@ var maDataBlocs = {
    "c1" : "03443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03443] In method org.apache.kafka.clients.admin.KafkaAdminClient.nodeFor@POLYN1161949 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03443] In method org.apache.kafka.clients.admin.KafkaAdminClient.nodeFor@POLYN1164393 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5552,7 +5559,7 @@ var maDataBlocs = {
    "c1" : "03452"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03452] In method org.apache.kafka.clients.admin.KafkaAdminClient.getMembersFromGroup@POLYN1162454 the MagicNumber/String  'Encounter exception when trying to get members from group: ' should be converted to const"
+ , "c3" : "QC-JAV000010[03452] In method org.apache.kafka.clients.admin.KafkaAdminClient.getMembersFromGroup@POLYN1164898 the MagicNumber/String  'Encounter exception when trying to get members from group: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5566,7 +5573,7 @@ var maDataBlocs = {
    "c1" : "03471"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3471"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03471] For method removeMembersFromConsumerGroup list of called methods Object monObjet|java.util.List&lt;MemberIdentity&gt; getMembersFromGroupN1164206|java.util.Set&lt;org.apache.kafka.clients.admin.MemberToRemove&gt; options_membersN1164332|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;MemberIdentity,Errors&gt;&gt; RemoveMembersFromConsumerGroupHandler_newFutureN1164677"
+ , "c3" : "QC-JAV000007[03471] For method removeMembersFromConsumerGroup list of called methods Object monObjet|java.util.List&lt;MemberIdentity&gt; getMembersFromGroupN1166650|java.util.Set&lt;org.apache.kafka.clients.admin.MemberToRemove&gt; options_membersN1166776|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;MemberIdentity,Errors&gt;&gt; RemoveMembersFromConsumerGroupHandler_newFutureN1167131"
 }} 
 ,
 { "ligne" : {
@@ -5580,7 +5587,7 @@ var maDataBlocs = {
    "c1" : "03473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03473] In method org.apache.kafka.clients.admin.KafkaAdminClient.removeMembersFromConsumerGroup@POLYN1163741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03473] In method org.apache.kafka.clients.admin.KafkaAdminClient.removeMembersFromConsumerGroup@POLYN1166185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -5594,7 +5601,7 @@ var maDataBlocs = {
    "c1" : "03493"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3493"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03493] For method alterConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt; AlterConsumerGroupOffsetsHandler_newFutureN1165464"
+ , "c3" : "QC-JAV000007[03493] For method alterConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt; AlterConsumerGroupOffsetsHandler_newFutureN1167918"
 }} 
 ,
 { "ligne" : {
@@ -5615,7 +5622,7 @@ var maDataBlocs = {
    "c1" : "03506"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3506"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03506] For method listOffsets list of called methods Object monObjet|long calcDeadlineMsN1166801"
+ , "c3" : "QC-JAV000007[03506] For method listOffsets list of called methods Object monObjet|long calcDeadlineMsN1169255"
 }} 
 ,
 { "ligne" : {
@@ -5643,7 +5650,7 @@ var maDataBlocs = {
    "c1" : "03531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3531"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03531] For method getListOffsetsCalls list of called methods Object monObjet|long getOffsetFromOffsetSpecN1168755|org.apache.kafka.common.Node clusterSnapshot_leaderForN1168978"
+ , "c3" : "QC-JAV000007[03531] For method getListOffsetsCalls list of called methods Object monObjet|org.apache.kafka.common.Cluster mr_buildClusterN1170487|long getOffsetFromOffsetSpecN1171229|org.apache.kafka.common.Node clusterSnapshot_leaderForN1171452"
 }} 
 ,
 { "ligne" : {
@@ -5916,84 +5923,84 @@ var maDataBlocs = {
    "c1" : "03535"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03535] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  'No Metadata response' should be converted to const"
+ , "c3" : "QC-JAV000010[03535] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  'No Metadata response' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03550"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3550"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03550] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03550] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03565"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3565"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03565] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  'listOffsets on broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[03565] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  'listOffsets on broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03576"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3576"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03576] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[03576] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03591"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3591"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03591] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03591] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03592"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3592"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03592] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  'Server response mentioned unknown topic partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[03592] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  'Server response mentioned unknown topic partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03611"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3611"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03611] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  'The response from broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[03611] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  'The response from broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03612"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03612] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  ' did not contain a result for topic partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[03612] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  ' did not contain a result for topic partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03639"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3639"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03639] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[03639] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03651"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3651"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03651] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[03651] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03651"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3651"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03651] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  ' does not support MAX_TIMESTAMP offset spec' should be converted to const"
+ , "c3" : "QC-JAV000010[03651] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  ' does not support MAX_TIMESTAMP offset spec' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03661"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3661"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03661] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1167561 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[03661] In method org.apache.kafka.clients.admin.KafkaAdminClient.getListOffsetsCalls@POLYN1170025 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6014,7 +6021,7 @@ var maDataBlocs = {
    "c1" : "03673"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3673"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03673] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeClientQuotas@POLYN1176711 the MagicNumber/String  'describeClientQuotas' should be converted to const"
+ , "c3" : "QC-JAV000010[03673] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeClientQuotas@POLYN1179235 the MagicNumber/String  'describeClientQuotas' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6042,7 +6049,7 @@ var maDataBlocs = {
    "c1" : "03704"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3704"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03704] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterClientQuotas@POLYN1177965 the MagicNumber/String  'alterClientQuotas' should be converted to const"
+ , "c3" : "QC-JAV000010[03704] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterClientQuotas@POLYN1180489 the MagicNumber/String  'alterClientQuotas' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6056,7 +6063,7 @@ var maDataBlocs = {
    "c1" : "03728"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3728"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03728] For method describeUserScramCredentials list of called methods Object monObjet|DescribeUserScramCredentialsResult data_errorCodeN1181257"
+ , "c3" : "QC-JAV000007[03728] For method describeUserScramCredentials list of called methods Object monObjet|DescribeUserScramCredentialsResult data_errorCodeN1183781"
 }} 
 ,
 { "ligne" : {
@@ -6070,21 +6077,21 @@ var maDataBlocs = {
    "c1" : "03731"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3731"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03731] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeUserScramCredentials@POLYN1179576 the MagicNumber/String  'describeUserScramCredentials' should be converted to const"
+ , "c3" : "QC-JAV000010[03731] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeUserScramCredentials@POLYN1182100 the MagicNumber/String  'describeUserScramCredentials' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03737"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3737"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03737] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeUserScramCredentials@POLYN1179576 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03737] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeUserScramCredentials@POLYN1182100 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03741"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3741"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03741] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeUserScramCredentials@POLYN1179576 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03741] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeUserScramCredentials@POLYN1182100 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6098,7 +6105,7 @@ var maDataBlocs = {
    "c1" : "03774"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3774"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03774] For method alterUserScramCredentials list of called methods Object monObjet|String alteration_userN1183062|String alteration_userN1184301"
+ , "c3" : "QC-JAV000007[03774] For method alterUserScramCredentials list of called methods Object monObjet|String alteration_userN1185606|String alteration_userN1186875"
 }} 
 ,
 { "ligne" : {
@@ -6119,98 +6126,98 @@ var maDataBlocs = {
    "c1" : "03783"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03783] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  'Username must not be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[03783] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  'Username must not be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03784"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03784] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  'Password must not be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[03784] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  'Password must not be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03785"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03785] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  'Unknown SCRAM mechanism' should be converted to const"
+ , "c3" : "QC-JAV000010[03785] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  'Unknown SCRAM mechanism' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03788"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3788"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03788] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03788] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03793"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3793"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03793] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03793] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03805"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3805"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03805] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03805] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03811"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3811"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03811] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03811] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03811"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3811"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03811] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03811] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03815"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3815"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03815] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03815] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03836"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3836"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03836] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  'alterUserScramCredentials' should be converted to const"
+ , "c3" : "QC-JAV000010[03836] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  'alterUserScramCredentials' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03868"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3868"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03868] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03868] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03869"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3869"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03869] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  'Server response mentioned unknown user {}' should be converted to const"
+ , "c3" : "QC-JAV000010[03869] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  'Server response mentioned unknown user {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03875"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3875"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03875] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03875] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03881"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3881"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03881] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1182001 the MagicNumber/String  'The broker response did not contain a result for user ' should be converted to const"
+ , "c3" : "QC-JAV000010[03881] In method org.apache.kafka.clients.admin.KafkaAdminClient.alterUserScramCredentials@POLYN1184525 the MagicNumber/String  'The broker response did not contain a result for user ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6259,14 +6266,14 @@ var maDataBlocs = {
    "c1" : "03916"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3916"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03916] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeFeatures@POLYN1191393 the MagicNumber/String  'describeFeatures' should be converted to const"
+ , "c3" : "QC-JAV000010[03916] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeFeatures@POLYN1194057 the MagicNumber/String  'describeFeatures' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03925"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3925"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03925] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeFeatures@POLYN1191393 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[03925] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeFeatures@POLYN1194057 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6280,7 +6287,7 @@ var maDataBlocs = {
    "c1" : "03965"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3965"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03965] For method updateFeatures list of called methods Object monObjet|org.apache.kafka.clients.admin.UpdateFeaturesResult time_millisecondsN1195553"
+ , "c3" : "QC-JAV000007[03965] For method updateFeatures list of called methods Object monObjet|org.apache.kafka.clients.admin.UpdateFeaturesResult time_millisecondsN1198217"
 }} 
 ,
 { "ligne" : {
@@ -6308,49 +6315,49 @@ var maDataBlocs = {
    "c1" : "03968"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3968"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03968] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1194560 the MagicNumber/String  'Feature updates can not be null or empty.' should be converted to const"
+ , "c3" : "QC-JAV000010[03968] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1197224 the MagicNumber/String  'Feature updates can not be null or empty.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03975"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3975"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03975] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1194560 the MagicNumber/String  'Provided feature can not be empty.' should be converted to const"
+ , "c3" : "QC-JAV000010[03975] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1197224 the MagicNumber/String  'Provided feature can not be empty.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "03981"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3981"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03981] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1194560 the MagicNumber/String  'updateFeatures' should be converted to const"
+ , "c3" : "QC-JAV000010[03981] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1197224 the MagicNumber/String  'updateFeatures' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4015"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04015] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1194560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[04015] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1197224 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4016"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04016] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1194560 the MagicNumber/String  'Server response mentioned unknown feature {}' should be converted to const"
+ , "c3" : "QC-JAV000010[04016] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1197224 the MagicNumber/String  'Server response mentioned unknown feature {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4020"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04020] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1194560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[04020] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1197224 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4028"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04028] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1194560 the MagicNumber/String  'The controller response did not contain a result for feature ' should be converted to const"
+ , "c3" : "QC-JAV000010[04028] In method org.apache.kafka.clients.admin.KafkaAdminClient.updateFeatures@POLYN1197224 the MagicNumber/String  'The controller response did not contain a result for feature ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6371,77 +6378,77 @@ var maDataBlocs = {
    "c1" : "04058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4058"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04058] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  'describeMetadataQuorum' should be converted to const"
+ , "c3" : "QC-JAV000010[04058] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  'describeMetadataQuorum' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4064"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04064] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[04064] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4065"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04065] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[04065] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4087"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04087] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[04087] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4088"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04088] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  'DescribeMetadataQuorum received %d topics when 1 was expected' should be converted to const"
+ , "c3" : "QC-JAV000010[04088] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  'DescribeMetadataQuorum received %d topics when 1 was expected' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4093"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04093] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[04093] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4095"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04095] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  'DescribeMetadataQuorum received a topic with name %s when %s was expected' should be converted to const"
+ , "c3" : "QC-JAV000010[04095] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  'DescribeMetadataQuorum received a topic with name %s when %s was expected' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04100] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[04100] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04101] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  'DescribeMetadataQuorum received a topic %s with %d partitions when 1 was expected' should be converted to const"
+ , "c3" : "QC-JAV000010[04101] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  'DescribeMetadataQuorum received a topic %s with %d partitions when 1 was expected' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04106] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[04106] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04108] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1199254 the MagicNumber/String  'DescribeMetadataQuorum received a single partition with index %d when %d was expected' should be converted to const"
+ , "c3" : "QC-JAV000010[04108] In method org.apache.kafka.clients.admin.KafkaAdminClient.describeMetadataQuorum@POLYN1201928 the MagicNumber/String  'DescribeMetadataQuorum received a single partition with index %d when %d was expected' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6462,21 +6469,21 @@ var maDataBlocs = {
    "c1" : "04133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04133] In method org.apache.kafka.clients.admin.KafkaAdminClient.unregisterBroker@POLYN1204443 the MagicNumber/String  'unregisterBroker' should be converted to const"
+ , "c3" : "QC-JAV000010[04133] In method org.apache.kafka.clients.admin.KafkaAdminClient.unregisterBroker@POLYN1207137 the MagicNumber/String  'unregisterBroker' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04150] In method org.apache.kafka.clients.admin.KafkaAdminClient.unregisterBroker@POLYN1204443 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[04150] In method org.apache.kafka.clients.admin.KafkaAdminClient.unregisterBroker@POLYN1207137 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "04155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[04155] In method org.apache.kafka.clients.admin.KafkaAdminClient.unregisterBroker@POLYN1204443 the MagicNumber/String  'Unregister broker request for broker ID {} failed: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[04155] In method org.apache.kafka.clients.admin.KafkaAdminClient.unregisterBroker@POLYN1207137 the MagicNumber/String  'Unregister broker request for broker ID {} failed: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -6490,7 +6497,7 @@ var maDataBlocs = {
    "c1" : "04172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04172] For method describeProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState&gt; DescribeProducersHandler_newFutureN1206577"
+ , "c3" : "QC-JAV000007[04172] For method describeProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState&gt; DescribeProducersHandler_newFutureN1209271"
 }} 
 ,
 { "ligne" : {
@@ -6511,7 +6518,7 @@ var maDataBlocs = {
    "c1" : "04181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04181] For method describeTransactions list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.clients.admin.TransactionDescription&gt; DescribeTransactionsHandler_newFutureN1207172"
+ , "c3" : "QC-JAV000007[04181] For method describeTransactions list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.clients.admin.TransactionDescription&gt; DescribeTransactionsHandler_newFutureN1209866"
 }} 
 ,
 { "ligne" : {
@@ -6532,7 +6539,7 @@ var maDataBlocs = {
    "c1" : "04190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4190"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04190] For method abortTransaction list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.common.TopicPartition,Void&gt; AbortTransactionHandler_newFutureN1207724"
+ , "c3" : "QC-JAV000007[04190] For method abortTransaction list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.common.TopicPartition,Void&gt; AbortTransactionHandler_newFutureN1210418"
 }} 
 ,
 { "ligne" : {
@@ -6560,7 +6567,7 @@ var maDataBlocs = {
    "c1" : "04199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04199] For method listTransactions list of called methods Object monObjet|AllBrokersStrategy.AllBrokersFuture&lt;Collection&lt;TransactionListing&gt;&gt; ListTransactionsHandler_newFutureN1208337"
+ , "c3" : "QC-JAV000007[04199] For method listTransactions list of called methods Object monObjet|AllBrokersStrategy.AllBrokersFuture&lt;Collection&lt;TransactionListing&gt;&gt; ListTransactionsHandler_newFutureN1211031"
 }} 
 ,
 { "ligne" : {
@@ -6581,7 +6588,7 @@ var maDataBlocs = {
    "c1" : "04208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04208] For method fenceProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.common.utils.ProducerIdAndEpoch&gt; FenceProducersHandler_newFutureN1208913"
+ , "c3" : "QC-JAV000007[04208] For method fenceProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.common.utils.ProducerIdAndEpoch&gt; FenceProducersHandler_newFutureN1211607"
 }} 
 ,
 { "ligne" : {
@@ -6630,259 +6637,259 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.calcTimeoutMsRemainingAsInt@POLYN984194"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.calcTimeoutMsRemainingAsInt@POLYN986358"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.getOffsetFromOffsetSpec@POLYN1212427"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.getOffsetFromOffsetSpec@POLYN1215121"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1078342"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1080586"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1132251"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1134655"
 }} 
 ,
 { "ligne" : {
    "c1" : "00514"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String 'The specified value of ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String 'The specified value of ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00515] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String ' must be no smaller than the value of ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00515] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String ' must be no smaller than the value of ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00515] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String '.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00515] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String '.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00517"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00517] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN994732 the MagicNumber/String 'Overriding the default value for {} -{}- with the explicitly configured request timeout {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00517] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN996896 the MagicNumber/String 'Overriding the default value for {} -{}- with the explicitly configured request timeout {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00495"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#495"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00495] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String '  MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00495] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String '  MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00496"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#496"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00496] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00496] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00497"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#497"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00497] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00497] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00503"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#503"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00503] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN992438 the MagicNumber/String 'Kafka admin client initialized' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00503] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN994602 the MagicNumber/String 'Kafka admin client initialized' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 'The timeout cannot be negative.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 'The timeout cannot be negative.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 365 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 365 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00535"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#535"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00535] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00535] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00538"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#538"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00538] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 'Initiating close operation.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00538] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 'Initiating close operation.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00540"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00540] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 'Moving hard shutdown time forward.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00540] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 'Moving hard shutdown time forward.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00547"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00547] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 'Hard shutdown time is already earlier than requested.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00547] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 'Hard shutdown time is already earlier than requested.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00553"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00553] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00553] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00554"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#554"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00554] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 'Waiting for the I/O thread to exit. Hard shutdown in {} ms.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00554] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 'Waiting for the I/O thread to exit. Hard shutdown in {} ms.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#563"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 'Kafka admin client closed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 'Kafka admin client closed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00565"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#565"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00565] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN995633 the MagicNumber/String 'Interrupted while joining I/O thread' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00565] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997797 the MagicNumber/String 'Interrupted while joining I/O thread' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01963"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1963"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01963] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01963] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01967"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1967"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01967] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01967] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01971"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1971"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01971] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String 'Invalid ACL creation: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01971] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String 'Invalid ACL creation: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01977"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01977] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String 'createAcls' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01977] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String 'createAcls' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01994"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01994] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String 'The broker reported no creation result for the given ACL: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01994] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String 'The broker reported no creation result for the given ACL: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02002"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02002] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1074696 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02002] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createAcls@POLYN1076940 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02022] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1078342 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02022] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1080586 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2029"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02029] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1078342 the MagicNumber/String 'deleteAcls' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02029] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1080586 the MagicNumber/String 'deleteAcls' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2046"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02046] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1078342 the MagicNumber/String 'The broker reported no deletion result for the given filter.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02046] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.deleteAcls@POLYN1080586 the MagicNumber/String 'The broker reported no deletion result for the given filter.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "02929"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2929"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02929] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1132251 the MagicNumber/String 'Retrying to fetch metadata.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02929] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1134655 the MagicNumber/String 'Retrying to fetch metadata.' MUST BE CONVERTED to const"
 }} 
 ]
 };

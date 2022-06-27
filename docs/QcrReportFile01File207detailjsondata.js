@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.consumer.internals.Fetch.isEmpty@POLYN176600 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.consumer.internals.Fetch.isEmpty@POLYN178744 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -195,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.Fetch.addRecords@POLYN176733 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.Fetch.addRecords@POLYN178877 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

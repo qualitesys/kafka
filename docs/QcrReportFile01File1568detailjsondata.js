@@ -211,35 +211,35 @@ var maDataBlocs = {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN166971 the MagicNumber/String  'Both deprecated config {} and the new config {} are set, hence {} is ignored and {} is used instead.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN169115 the MagicNumber/String  'Both deprecated config {} and the new config {} are set, hence {} is ignored and {} is used instead.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN166971 the MagicNumber/String  'Deprecated config {} is set, and will be used; we suggest setting the new config {} instead as deprecated {} would be removed in the future.' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN169115 the MagicNumber/String  'Deprecated config {} is set, and will be used; we suggest setting the new config {} instead as deprecated {} would be removed in the future.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN166971"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN169115"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN166971 the MagicNumber/String 'Both deprecated config {} and the new config {} are set, hence {} is ignored and {} is used instead.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN169115 the MagicNumber/String 'Both deprecated config {} and the new config {} are set, hence {} is ignored and {} is used instead.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN166971 the MagicNumber/String 'Deprecated config {} is set, and will be used; we suggest setting the new config {} instead as deprecated {} would be removed in the future.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.streams.internals.StreamsConfigUtils.getTotalCacheSize@POLYN169115 the MagicNumber/String 'Deprecated config {} is set, and will be used; we suggest setting the new config {} instead as deprecated {} would be removed in the future.' MUST BE CONVERTED to const"
 }} 
 ]
 };

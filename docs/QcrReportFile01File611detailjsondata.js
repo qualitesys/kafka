@@ -134,7 +134,7 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsResponse.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.AlterUserScramCredentialsResponse.shouldClientThrottle@POLYN159642 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.AlterUserScramCredentialsResponse.shouldClientThrottle@POLYN161786 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -148,7 +148,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterUserScramCredentialsResponse.throttleTimeMs@POLYN159766"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterUserScramCredentialsResponse.throttleTimeMs@POLYN161910"
 }} 
 ]
 };

@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminMetadataManager
+class org.apache.kafka.clients.admin.internals.AdminMetadataManager {
++  AdminMetadataManager(LogContext;long;long)
++  updater()
++  isReady()
++  controller()
++  nodeById(int)
++  requestUpdate()
++  clearController()
++  metadataFetchDelayMs(long)
++  delayBeforeNextExpireMs(long)
++  delayBeforeNextAttemptMs(long)
++  transitionToUpdatePending(long)
++  updateFailed(Throwable)
++  update(Cluster;long)
+} 
+@enduml

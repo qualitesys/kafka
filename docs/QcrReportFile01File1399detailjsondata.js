@@ -314,7 +314,7 @@ var maDataBlocs = {
    "c1" : "00061"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.raft.LeaderState.LeaderState@POLYN203743 the MagicNumber/String  'accumulator must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.raft.LeaderState.LeaderState@POLYN205887 the MagicNumber/String  'accumulator must be non-null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -342,84 +342,84 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.LeaderState.requestResign@POLYN206219 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.LeaderState.requestResign@POLYN208373 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  'High watermark updated to {} based on indexOfHw {} and voters {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  'High watermark updated to {} based on indexOfHw {} and voters {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00162"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  'The latest computed high watermark {} is smaller than the current ' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  'The latest computed high watermark {} is smaller than the current ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00163"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  'value {}, which suggests that one of the voters has lost committed data. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  'value {}, which suggests that one of the voters has lost committed data. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00164"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  'Full voter replication state: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  'Full voter replication state: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  'High watermark set to {} based on indexOfHw {} and voters {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  'High watermark set to {} based on indexOfHw {} and voters {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00178"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00182"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN207400 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN209554 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -440,14 +440,14 @@ var maDataBlocs = {
    "c1" : "00196"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.raft.LeaderState.updateReplicaState@POLYN209806 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.raft.LeaderState.updateReplicaState@POLYN211960 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.raft.LeaderState.updateReplicaState@POLYN209806 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.raft.LeaderState.updateReplicaState@POLYN211960 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -475,35 +475,35 @@ var maDataBlocs = {
    "c1" : "00223"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN210915 the MagicNumber/String  'Detected non-monotonic update of local ' should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN213089 the MagicNumber/String  'Detected non-monotonic update of local ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00224"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN210915 the MagicNumber/String  'end offset: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN213089 the MagicNumber/String  'end offset: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00224"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN210915 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN213089 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00226"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN210915 the MagicNumber/String  'Detected non-monotonic update of fetch offset from nodeId {}: {} -&amp;gt; {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN213089 the MagicNumber/String  'Detected non-monotonic update of fetch offset from nodeId {}: {} -&amp;gt; {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00233"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN210915 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.raft.LeaderState.updateEndOffset@POLYN213089 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -517,7 +517,7 @@ var maDataBlocs = {
    "c1" : "00239"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.raft.LeaderState.addAcknowledgementFrom@POLYN211899 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.raft.LeaderState.addAcknowledgementFrom@POLYN214083 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -531,14 +531,14 @@ var maDataBlocs = {
    "c1" : "00244"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.raft.LeaderState.ensureValidVoter@POLYN212120 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.raft.LeaderState.ensureValidVoter@POLYN214304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.raft.LeaderState.ensureValidVoter@POLYN212120 the MagicNumber/String  'Unexpected acknowledgement from non-voter ' should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.raft.LeaderState.ensureValidVoter@POLYN214304 the MagicNumber/String  'Unexpected acknowledgement from non-voter ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -552,14 +552,14 @@ var maDataBlocs = {
    "c1" : "00255"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.raft.LeaderState.getReplicaState@POLYN212561 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.raft.LeaderState.getReplicaState@POLYN214745 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00256"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.raft.LeaderState.getReplicaState@POLYN212561 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.raft.LeaderState.getReplicaState@POLYN214745 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -594,7 +594,7 @@ var maDataBlocs = {
    "c1" : "00283"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.raft.LeaderState.clearInactiveObservers@POLYN213981 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.raft.LeaderState.clearInactiveObservers@POLYN216185 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -622,7 +622,7 @@ var maDataBlocs = {
    "c1" : "00307"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.raft.LeaderState.ReplicaState.updateFetchTimestamp@POLYN215041 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.raft.LeaderState.ReplicaState.updateFetchTimestamp@POLYN217255 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -643,21 +643,21 @@ var maDataBlocs = {
    "c1" : "00315"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.raft.LeaderState.ReplicaState.compareTo@POLYN215330 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.raft.LeaderState.ReplicaState.compareTo@POLYN217544 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00317"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.raft.LeaderState.ReplicaState.compareTo@POLYN215330 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.raft.LeaderState.ReplicaState.compareTo@POLYN217544 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00325"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.raft.LeaderState.ReplicaState.toString@POLYN216016 the MagicNumber/String  'ReplicaState(nodeId=%d, endOffset=%s, lastFetchTimestamp=%s, hasAcknowledgedLeader=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.raft.LeaderState.ReplicaState.toString@POLYN218230 the MagicNumber/String  'ReplicaState(nodeId=%d, endOffset=%s, lastFetchTimestamp=%s, hasAcknowledgedLeader=%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -671,28 +671,28 @@ var maDataBlocs = {
    "c1" : "00336"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN216248 the MagicNumber/String  'Rejecting vote request from candidate {} since we are already leader in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN218462 the MagicNumber/String  'Rejecting vote request from candidate {} since we are already leader in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00338"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN216248 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN218462 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00344"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.raft.LeaderState.toString@POLYN216514 the MagicNumber/String  'Leader(localId=%d, epoch=%d, epochStartOffset=%d, highWatermark=%s, voterStates=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.raft.LeaderState.toString@POLYN218728 the MagicNumber/String  'Leader(localId=%d, epoch=%d, epochStartOffset=%d, highWatermark=%s, voterStates=%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00355"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.raft.LeaderState.name@POLYN216765 the MagicNumber/String  'Leader' should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.raft.LeaderState.name@POLYN218979 the MagicNumber/String  'Leader' should be converted to const"
 }} 
 ]
 };

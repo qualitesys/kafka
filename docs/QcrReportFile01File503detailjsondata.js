@@ -195,56 +195,56 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN174163 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN176307 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN174578 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN176722 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN174578 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN176722 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN175009 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN177153 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN175009 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN177153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN175465 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN177609 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN175465 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.NetworkReceive.NetworkReceive@POLYN177609 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.network.NetworkReceive.complete@POLYN176158 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.network.NetworkReceive.complete@POLYN178302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -258,7 +258,7 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method readFrom list of called methods Object monObjet|java.nio.ByteBuffer memoryPool_tryAllocateN177827"
+ , "c3" : "QC-JAV000007[00075] For method readFrom list of called methods Object monObjet|java.nio.ByteBuffer memoryPool_tryAllocateN179971"
 }} 
 ,
 { "ligne" : {
@@ -272,140 +272,140 @@ var maDataBlocs = {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  'Invalid receive (size = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  'Invalid receive (size = ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  'Invalid receive (size = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  'Invalid receive (size = ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  ' larger than ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  ' larger than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  'Broker low on memory - could not allocate buffer of size {} for source {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  'Broker low on memory - could not allocate buffer of size {} for source {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN176370 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.network.NetworkReceive.readFrom@POLYN178514 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.network.NetworkReceive.requiredMemoryAmountKnown@POLYN178458 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.network.NetworkReceive.requiredMemoryAmountKnown@POLYN180602 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.network.NetworkReceive.memoryAllocated@POLYN178591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.network.NetworkReceive.memoryAllocated@POLYN180735 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.network.NetworkReceive.close@POLYN178707 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.network.NetworkReceive.close@POLYN180851 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.network.NetworkReceive.close@POLYN178707 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.network.NetworkReceive.close@POLYN180851 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.network.NetworkReceive.bytesRead@POLYN179111 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.network.NetworkReceive.bytesRead@POLYN181255 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

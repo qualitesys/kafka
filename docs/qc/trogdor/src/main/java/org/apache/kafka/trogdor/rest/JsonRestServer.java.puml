@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.rest.JsonRestServer
+class org.apache.kafka.trogdor.rest.JsonRestServer {
++  JsonRestServer(int)
++  start(Object...)
++  port()
++  beginShutdown()
++  waitForShutdown()
+} 
+@enduml

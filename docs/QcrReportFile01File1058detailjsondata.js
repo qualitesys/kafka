@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java 164 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java 168 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.xml" 
  , "fic3"  : "" 
 }
@@ -440,12 +440,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "21"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -608,7 +631,7 @@ var maDataBlocs = {
    "c1" : "00199"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.connect.runtime.AbstractHerder.pauseConnector@POLYN310282 the MagicNumber/String  'Unknown connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.connect.runtime.AbstractHerder.pauseConnector@POLYN312426 the MagicNumber/String  'Unknown connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -622,7 +645,7 @@ var maDataBlocs = {
    "c1" : "00206"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.connect.runtime.AbstractHerder.resumeConnector@POLYN310637 the MagicNumber/String  'Unknown connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.connect.runtime.AbstractHerder.resumeConnector@POLYN312781 the MagicNumber/String  'Unknown connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -650,21 +673,21 @@ var maDataBlocs = {
    "c1" : "00222"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN311261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN313405 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00223"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN311261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN313405 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN311261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN313405 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -678,14 +701,14 @@ var maDataBlocs = {
    "c1" : "00235"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#235"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00235] For method connectorInfo list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN312069|java.util.Map&lt;String,String&gt; configState_rawConnectorConfigN312298"
+ , "c3" : "QC-JAV000007[00235] For method connectorInfo list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN314223|java.util.Map&lt;String,String&gt; configState_rawConnectorConfigN314452"
 }} 
 ,
 { "ligne" : {
    "c1" : "00239"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorInfo@POLYN311967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorInfo@POLYN314121 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -699,7 +722,7 @@ var maDataBlocs = {
    "c1" : "00250"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#250"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00250] For method buildTasksConfig list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN312800"
+ , "c3" : "QC-JAV000007[00250] For method buildTasksConfig list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN314954"
 }} 
 ,
 { "ligne" : {
@@ -713,28 +736,28 @@ var maDataBlocs = {
    "c1" : "00265"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#265"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00265] For method connectorStatus list of called methods Object monObjet|org.apache.kafka.connect.runtime.TaskStatus statusBackingStore_getN313538|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN313806"
+ , "c3" : "QC-JAV000007[00265] For method connectorStatus list of called methods Object monObjet|Object statusBackingStore_getN315692|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN315960"
 }} 
 ,
 { "ligne" : {
    "c1" : "00267"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorStatus@POLYN313441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorStatus@POLYN315595 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00268"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorStatus@POLYN313441 the MagicNumber/String  'No status found for connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorStatus@POLYN315595 the MagicNumber/String  'No status found for connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00285"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorStatus@POLYN313441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorStatus@POLYN315595 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -748,7 +771,7 @@ var maDataBlocs = {
    "c1" : "00289"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#289"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00289] For method connectorActiveTopics list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.connect.runtime.TopicStatus&gt; statusBackingStore_getAllTopicsN315221"
+ , "c3" : "QC-JAV000007[00289] For method connectorActiveTopics list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.connect.runtime.TopicStatus&gt; statusBackingStore_getAllTopicsN317375"
 }} 
 ,
 { "ligne" : {
@@ -769,7 +792,7 @@ var maDataBlocs = {
    "c1" : "00308"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#308"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00308] For method taskStatus list of called methods Object monObjet|org.apache.kafka.connect.runtime.TaskStatus statusBackingStore_getN316059"
+ , "c3" : "QC-JAV000007[00308] For method taskStatus list of called methods Object monObjet|Object statusBackingStore_getN318223"
 }} 
 ,
 { "ligne" : {
@@ -783,14 +806,14 @@ var maDataBlocs = {
    "c1" : "00311"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.AbstractHerder.taskStatus@POLYN315962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.AbstractHerder.taskStatus@POLYN318126 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00312"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.AbstractHerder.taskStatus@POLYN315962 the MagicNumber/String  'No status found for task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.AbstractHerder.taskStatus@POLYN318126 the MagicNumber/String  'No status found for task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -832,7 +855,7 @@ var maDataBlocs = {
    "c1" : "00328"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN317077 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN319241 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -853,14 +876,14 @@ var maDataBlocs = {
    "c1" : "00336"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN317346 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN319510 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00338"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN317346 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN319510 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -874,7 +897,7 @@ var maDataBlocs = {
    "c1" : "00344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00344] For method buildRestartPlan list of called methods Object monObjet|String request_connectorNameN318350|org.apache.kafka.connect.runtime.TaskStatus statusBackingStore_getN318425|boolean request_shouldRestartConnectorN318656|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN319072|boolean request_shouldRestartTaskN319231"
+ , "c3" : "QC-JAV000007[00344] For method buildRestartPlan list of called methods Object monObjet|String request_connectorNameN320524|Object statusBackingStore_getN320599|boolean request_shouldRestartConnectorN320830|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN321246|boolean request_shouldRestartTaskN321415"
 }} 
 ,
 { "ligne" : {
@@ -888,14 +911,14 @@ var maDataBlocs = {
    "c1" : "00347"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.connect.runtime.AbstractHerder.buildRestartPlan@POLYN318253 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.connect.runtime.AbstractHerder.buildRestartPlan@POLYN320427 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00378"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.connect.runtime.AbstractHerder.buildRestartPlan@POLYN318253 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.connect.runtime.AbstractHerder.buildRestartPlan@POLYN320427 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -930,7 +953,7 @@ var maDataBlocs = {
    "c1" : "00400"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#400"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00400] For method validateConnectorConfig list of called methods Object monObjet|org.apache.kafka.connect.runtime.WorkerConfigTransformer worker_configTransformerN321593|org.apache.kafka.connect.connector.Connector getConnectorN321989|Plugins pluginsN322144"
+ , "c3" : "QC-JAV000007[00400] For method validateConnectorConfig list of called methods Object monObjet|org.apache.kafka.connect.runtime.WorkerConfigTransformer worker_configTransformerN323777|org.apache.kafka.connect.connector.Connector getConnectorN324173|org.apache.kafka.connect.runtime.isolation.Plugins pluginsN324328"
 }} 
 ,
 { "ligne" : {
@@ -944,105 +967,105 @@ var maDataBlocs = {
    "c1" : "00401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00405"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00406"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  'Connector config ' should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  'Connector config ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00406"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  ' contains no connector type' should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  ' contains no connector type' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00416"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00421"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00430"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  'Null value can not be supplied as the configuration value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  'Null value can not be supplied as the configuration value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00439"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00442"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00451"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  '%s.validate() must return a Config that is not null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  '%s.validate() must return a Config that is not null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00464"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00465"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#465"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN321342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN323526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1056,21 +1079,21 @@ var maDataBlocs = {
    "c1" : "00506"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#506"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00506] For method mergeConfigInfos list of called methods Object monObjet|int configInfos_errorCountN327809"
+ , "c3" : "QC-JAV000007[00506] For method mergeConfigInfos list of called methods Object monObjet|int configInfos_errorCountN330013"
 }} 
 ,
 { "ligne" : {
    "c1" : "00507"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.connect.runtime.AbstractHerder.mergeConfigInfos@POLYN327271 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.connect.runtime.AbstractHerder.mergeConfigInfos@POLYN329475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00511"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.runtime.AbstractHerder.mergeConfigInfos@POLYN327271 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.runtime.AbstractHerder.mergeConfigInfos@POLYN329475 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1084,7 +1107,7 @@ var maDataBlocs = {
    "c1" : "00520"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#520"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00520] For method validateClientOverrides list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN328786|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN329415|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN330041|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN330688|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN331213"
+ , "c3" : "QC-JAV000007[00520] For method validateClientOverrides list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN330990|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN331619|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN332245|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN332892|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN333417"
 }} 
 ,
 { "ligne" : {
@@ -1175,63 +1198,63 @@ var maDataBlocs = {
    "c1" : "00528"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#528"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00537"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00545"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#545"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00548"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00549"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00550"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#550"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00558"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00561"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#561"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00561"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#561"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN328240 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.connect.runtime.AbstractHerder.validateClientOverrides@POLYN330444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1245,7 +1268,7 @@ var maDataBlocs = {
    "c1" : "00569"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#569"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00569] For method generateResult list of called methods Object monObjet|String configValue_nameN332332|java.util.List&lt;String&gt; configValue_errorMessagesN332784|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN333099|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN333530|java.util.List&lt;String&gt; configValue_errorMessagesN333637"
+ , "c3" : "QC-JAV000007[00569] For method generateResult list of called methods Object monObjet|String configValue_nameN334536|java.util.List&lt;String&gt; configValue_errorMessagesN334988|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN335303|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN335734|java.util.List&lt;String&gt; configValue_errorMessagesN335841"
 }} 
 ,
 { "ligne" : {
@@ -1301,28 +1324,28 @@ var maDataBlocs = {
    "c1" : "00570"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN331724 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN333928 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00578"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN331724 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN333928 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00578"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN331724 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN333928 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00587"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN331724 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.connect.runtime.AbstractHerder.generateResult@POLYN333928 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1336,7 +1359,7 @@ var maDataBlocs = {
    "c1" : "00599"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#599"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00599] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN333989 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00599] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN336193 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1350,7 +1373,7 @@ var maDataBlocs = {
    "c1" : "00602"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#602"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00602] For method convertConfigKey list of called methods Object monObjet|String ConfigDef_convertToStringN334830"
+ , "c3" : "QC-JAV000007[00602] For method convertConfigKey list of called methods Object monObjet|String ConfigDef_convertToStringN337034"
 }} 
 ,
 { "ligne" : {
@@ -1364,21 +1387,21 @@ var maDataBlocs = {
    "c1" : "00607"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#607"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN334157 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN336361 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00610"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN334157 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN336361 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00611"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#611"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00611] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN334157 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00611] In method org.apache.kafka.connect.runtime.AbstractHerder.convertConfigKey@POLYN336361 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1392,7 +1415,7 @@ var maDataBlocs = {
    "c1" : "00625"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#625"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00625] For method convertConfigValue list of called methods Object monObjet|String ConfigDef_convertToStringN335855"
+ , "c3" : "QC-JAV000007[00625] For method convertConfigValue list of called methods Object monObjet|String ConfigDef_convertToStringN338059"
 }} 
 ,
 { "ligne" : {
@@ -1441,7 +1464,7 @@ var maDataBlocs = {
    "c1" : "00656"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#656"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00656] For method maybeAddConfigErrors list of called methods Object monObjet|int configInfos_errorCountN338103"
+ , "c3" : "QC-JAV000007[00656] For method maybeAddConfigErrors list of called methods Object monObjet|int configInfos_errorCountN340317"
 }} 
 ,
 { "ligne" : {
@@ -1469,42 +1492,42 @@ var maDataBlocs = {
    "c1" : "00661"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#661"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN337939 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN340153 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00664"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN337939 the MagicNumber/String  'Connector configuration is invalid and contains the following ' should be converted to const"
+ , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN340153 the MagicNumber/String  'Connector configuration is invalid and contains the following ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00665"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#665"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00665] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN337939 the MagicNumber/String  ' error(s):' should be converted to const"
+ , "c3" : "QC-JAV000010[00665] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN340153 the MagicNumber/String  ' error(s):' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00668"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#668"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN337939 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN340153 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00674"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#674"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN337939 the MagicNumber/String  '\nYou can also find the above list of errors at the endpoint `/connector-plugins/{connectorType}/config/validate`' should be converted to const"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN340153 the MagicNumber/String  '\nYou can also find the above list of errors at the endpoint `/connector-plugins/{connectorType}/config/validate`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00676"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN337939 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.connect.runtime.AbstractHerder.maybeAddConfigErrors@POLYN340153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1518,14 +1541,14 @@ var maDataBlocs = {
    "c1" : "00685"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#685"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.connect.runtime.AbstractHerder.trace@POLYN339067 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.connect.runtime.AbstractHerder.trace@POLYN341281 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00688"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#688"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.connect.runtime.AbstractHerder.trace@POLYN339067 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.connect.runtime.AbstractHerder.trace@POLYN341281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1539,7 +1562,7 @@ var maDataBlocs = {
    "c1" : "00693"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#693"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00693] For method reverseTransform list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_rawConnectorConfigN339978|java.util.Set&lt;String&gt; keysWithVariableValuesN340093"
+ , "c3" : "QC-JAV000007[00693] For method reverseTransform list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_rawConnectorConfigN342192|java.util.Set&lt;String&gt; keysWithVariableValuesN342307"
 }} 
 ,
 { "ligne" : {
@@ -1595,7 +1618,7 @@ var maDataBlocs = {
    "c1" : "00718"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#718"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.connect.runtime.AbstractHerder.keysWithVariableValues@POLYN341008 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.connect.runtime.AbstractHerder.keysWithVariableValues@POLYN343222 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1609,28 +1632,56 @@ var maDataBlocs = {
    "c1" : "00754"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN341833 the MagicNumber/String  'Invalid plugin type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN344047 the MagicNumber/String  'Invalid plugin type ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN341833 the MagicNumber/String  '. Valid types are sink, source, converter, header_converter, transformation, predicate.' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN344047 the MagicNumber/String  '. Valid types are sink, source, converter, header_converter, transformation, predicate.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00757"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#757"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00757] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN341833 the MagicNumber/String  'Unknown plugin ' should be converted to const"
+ , "c3" : "QC-JAV000010[00757] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN344047 the MagicNumber/String  'Unknown plugin ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00757"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#757"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00757] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN341833 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00757] In method org.apache.kafka.connect.runtime.AbstractHerder.connectorPluginConfig@POLYN344047 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN313405"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00222"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN313405 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00223"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN313405 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00225"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#225"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00225] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN313405 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

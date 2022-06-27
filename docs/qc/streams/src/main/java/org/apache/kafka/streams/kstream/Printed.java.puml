@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+NamedOperation<Printed<K,V>> <|-- org.apache.kafka.streams.kstream.Printed
+class org.apache.kafka.streams.kstream.Printed {
++  Printed(OutputStream)
++  Printed(Printed<K,V>)
++  withLabel(String)
++  withKeyValueMapper(KeyValueMapper<?superK,?superV,String>)
++  withName(String)
+} 
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+!pragma layout smetana
+WindowStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.InMemoryWindowStore
+class org.apache.kafka.streams.state.internals.InMemoryWindowStore {
++  InMemoryWindowStore(String;long;long;boolean;String)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  getPosition()
++  put(Bytes;byte[];long)
++  fetch(Bytes;long)
++  fetch(Bytes;long;long)
++  backwardFetch(Bytes;long;long)
++  fetch(Bytes;long;long;boolean)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;long;long)
++  fetch(Bytes;Bytes;long;long;boolean)
++  fetchAll(long;long)
++  backwardFetchAll(long;long)
++  fetchAll(long;long;boolean)
++  all()
++  backwardAll()
++  persistent()
++  isOpen()
++  flush()
++  close()
++  removeExpiredSegments()
++  maybeUpdateSeqnumForDups()
++  wrapForDups(Bytes;int)
++  getKey(Bytes)
++  registerNewWindowStoreIterator(Bytes;Iterator<Map.Entry<Long,ConcurrentNavigableMap<Bytes,byte[]>>>;boolean)
++  registerNewWindowedKeyValueIterator(Bytes;Bytes;Iterator<Map.Entry<Long,ConcurrentNavigableMap<Bytes,byte[]>>>;boolean)
+} 
+@enduml

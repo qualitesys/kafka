@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark
+class org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark {
++  setup()
++  tearDown()
++  testMakeFollower()
++  createLogConfig()
+} 
+@enduml

@@ -125,21 +125,21 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.name@POLYN160965 the MagicNumber/String  'exit' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.name@POLYN163109 the MagicNumber/String  'exit' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.description@POLYN161067 the MagicNumber/String  'Exit the metadata shell.' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.description@POLYN163211 the MagicNumber/String  'Exit the metadata shell.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.shellOnly@POLYN161169 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.shellOnly@POLYN163313 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -202,14 +202,14 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.ExitCommandHandler.run@POLYN161673 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.ExitCommandHandler.run@POLYN163817 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.ExitCommandHandler.hashCode@POLYN161902 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.ExitCommandHandler.hashCode@POLYN164046 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -223,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN162004 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN164148 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN162004 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN164148 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

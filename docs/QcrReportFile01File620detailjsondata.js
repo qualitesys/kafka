@@ -134,7 +134,7 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.errorCounts@POLYN160566 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.errorCounts@POLYN162710 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -155,21 +155,21 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.shouldClientThrottle@POLYN161215 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.shouldClientThrottle@POLYN163359 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.throttleTimeMs@POLYN160409"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.throttleTimeMs@POLYN162553"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.toString@POLYN161339"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.toString@POLYN163483"
 }} 
 ]
 };

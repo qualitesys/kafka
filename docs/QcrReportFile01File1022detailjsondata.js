@@ -162,7 +162,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.included@POLYN165637 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.included@POLYN167781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -176,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.excluded@POLYN165850 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.excluded@POLYN167994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -190,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.GroupFilterConfig.GroupFilterConfig@POLYN166875 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.GroupFilterConfig.GroupFilterConfig@POLYN169019 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -211,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.DefaultGroupFilter.configure@POLYN165239"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.DefaultGroupFilter.configure@POLYN167383"
 }} 
 ]
 };

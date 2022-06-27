@@ -111,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder.toString@POLYN163561 the MagicNumber/String  '(type=SaslAuthenticateRequest)' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder.toString@POLYN165705 the MagicNumber/String  '(type=SaslAuthenticateRequest)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN164173"
+ , "c3" : "QC-JAV000007[00047] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN166317"
 }} 
 ,
 { "ligne" : {

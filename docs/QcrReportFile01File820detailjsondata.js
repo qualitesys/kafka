@@ -118,35 +118,35 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN165560 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN167704 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN165560 the MagicNumber/String  'retryBackoffMs value (%d) must be non-negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN167704 the MagicNumber/String  'retryBackoffMs value (%d) must be non-negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN165560 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN167704 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN165560 the MagicNumber/String  'retryBackoffMaxMs value (%d) must be non-negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN167704 the MagicNumber/String  'retryBackoffMaxMs value (%d) must be non-negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN165560 the MagicNumber/String  'retryBackoffMaxMs value (%d) is less than retryBackoffMs value (%d)' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.Retry@POLYN167704 the MagicNumber/String  'retryBackoffMaxMs value (%d) is less than retryBackoffMs value (%d)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -188,77 +188,77 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  'Error during retry attempt {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  'Error during retry attempt {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  'Attempt %d to make call resulted in an error; sleeping %d ms before retrying' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  'Attempt %d to make call resulted in an error; sleeping %d ms before retrying' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN166509 the MagicNumber/String  'Exhausted all retry attempts but no attempt returned value or encountered exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN168653 the MagicNumber/String  'Exhausted all retry attempts but no attempt returned value or encountered exception' should be converted to const"
 }} 
 ]
 };

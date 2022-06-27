@@ -1,0 +1,22 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminApiDriver
+class org.apache.kafka.clients.admin.internals.AdminApiDriver {
++  AdminApiDriver(AdminApiHandler<K,V>;AdminApiFuture<K,V>;long;long;LogContext)
++  map(K;Integer)
++  unmap(K)
++  clear(Collection<K>)
++  keyToBrokerId(K)
++  completeExceptionally(Map<K,Throwable>)
++  completeLookupExceptionally(Map<K,Throwable>)
++  retryLookup(Collection<K>)
++  complete(Map<K,V>)
++  completeLookup(Map<K,Integer>)
++  poll()
++  onResponse(long;RequestSpec<K>;AbstractResponse;Node)
++  onFailure(long;RequestSpec<K>;Throwable)
++  clearInflightRequest(long;RequestSpec<K>)
++  collectLookupRequests(List<RequestSpec<K>>)
++  collectFulfillmentRequests(List<RequestSpec<K>>)
+} 
+@enduml

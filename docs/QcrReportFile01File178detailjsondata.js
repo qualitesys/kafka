@@ -132,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.Subscription@POLYN205818 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.Subscription@POLYN207962 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,63 +146,63 @@ var maDataBlocs = {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  'Subscription(' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  'Subscription(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  'topics=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  'topics=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  ', userDataSize=' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  ', userDataSize=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  ', ownedPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  ', ownedPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  ', groupInstanceId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  ', groupInstanceId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN206602 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription.toString@POLYN208746 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,49 +216,49 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.Assignment@POLYN207563 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.Assignment@POLYN209707 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN207943 the MagicNumber/String  'Assignment(' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN210087 the MagicNumber/String  'Assignment(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN207943 the MagicNumber/String  'partitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN210087 the MagicNumber/String  'partitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN207943 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN210087 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN207943 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN210087 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN207943 the MagicNumber/String  ', userDataSize=' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN210087 the MagicNumber/String  ', userDataSize=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN207943 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment.toString@POLYN210087 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -272,21 +272,21 @@ var maDataBlocs = {
    "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupSubscription.toString@POLYN208754 the MagicNumber/String  'GroupSubscription(' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupSubscription.toString@POLYN210898 the MagicNumber/String  'GroupSubscription(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupSubscription.toString@POLYN208754 the MagicNumber/String  'subscriptions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupSubscription.toString@POLYN210898 the MagicNumber/String  'subscriptions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupSubscription.toString@POLYN208754 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupSubscription.toString@POLYN210898 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -300,21 +300,21 @@ var maDataBlocs = {
    "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment.toString@POLYN209329 the MagicNumber/String  'GroupAssignment(' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment.toString@POLYN211473 the MagicNumber/String  'GroupAssignment(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment.toString@POLYN209329 the MagicNumber/String  'assignments=' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment.toString@POLYN211473 the MagicNumber/String  'assignments=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment.toString@POLYN209329 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment.toString@POLYN211473 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

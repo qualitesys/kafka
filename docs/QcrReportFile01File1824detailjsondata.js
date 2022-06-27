@@ -281,7 +281,7 @@ var maDataBlocs = {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN220351 the MagicNumber/String  'dummy' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN222495 the MagicNumber/String  'dummy' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -309,35 +309,35 @@ var maDataBlocs = {
    "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN222733 the MagicNumber/String  'Failed to read checkpoints for global state globalStores' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN224877 the MagicNumber/String  'Failed to read checkpoints for global state globalStores' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN222733 the MagicNumber/String  'Encountered a topic-partition in the global checkpoint file not associated with any global' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN224877 the MagicNumber/String  'Encountered a topic-partition in the global checkpoint file not associated with any global' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN222733 the MagicNumber/String  ' state store, topic-partition: {}, checkpoint file: {}. If this topic-partition is no longer valid,' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN224877 the MagicNumber/String  ' state store, topic-partition: {}, checkpoint file: {}. If this topic-partition is no longer valid,' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN222733 the MagicNumber/String  ' an application reset and state store directory cleanup will be required.' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN224877 the MagicNumber/String  ' an application reset and state store directory cleanup will be required.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN222733 the MagicNumber/String  'Encountered a topic-partition not associated with any global state store' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN224877 the MagicNumber/String  'Encountered a topic-partition not associated with any global state store' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -351,7 +351,7 @@ var maDataBlocs = {
    "c1" : "00140"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalStore@POLYN224123 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalStore@POLYN226277 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -372,7 +372,7 @@ var maDataBlocs = {
    "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00153] For method registerStore list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; topicPartitionsForStoreN225922"
+ , "c3" : "QC-JAV000007[00153] For method registerStore list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; topicPartitionsForStoreN228076"
 }} 
 ,
 { "ligne" : {
@@ -386,42 +386,42 @@ var maDataBlocs = {
    "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN224604 the MagicNumber/String  'Restoring state for global store {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN226758 the MagicNumber/String  'Restoring state for global store {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN224604 the MagicNumber/String  'Global Store %s has already been registered' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN226758 the MagicNumber/String  'Global Store %s has already been registered' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN224604 the MagicNumber/String  'Trying to register store %s that is not a known global store' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN226758 the MagicNumber/String  'Trying to register store %s that is not a known global store' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN224604 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN226758 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN224604 the MagicNumber/String  'The stateRestoreCallback provided for store %s was null' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN226758 the MagicNumber/String  'The stateRestoreCallback provided for store %s was null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN224604 the MagicNumber/String  'Failed to get offsets for partitions %s. The broker may be transiently unavailable at the moment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN226758 the MagicNumber/String  'Failed to get offsets for partitions %s. The broker may be transiently unavailable at the moment.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -442,21 +442,21 @@ var maDataBlocs = {
    "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN226568 the MagicNumber/String  'Failed to get partitions for topic %s. The broker may be transiently unavailable at the moment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN228732 the MagicNumber/String  'Failed to get partitions for topic %s. The broker may be transiently unavailable at the moment.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN226568 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN228732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN226568 the MagicNumber/String  'There are no partitions available for topic %s when initializing global store %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN228732 the MagicNumber/String  'There are no partitions available for topic %s when initializing global store %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -470,7 +470,7 @@ var maDataBlocs = {
    "c1" : "00222"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#222"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00222] For method restoreState list of called methods Object monObjet|long getGlobalConsumerOffsetN228684|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN228877|long maybeUpdateDeadlineOrThrowN229452|long getGlobalConsumerOffsetN230146"
+ , "c3" : "QC-JAV000007[00222] For method restoreState list of called methods Object monObjet|long getGlobalConsumerOffsetN230858|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN231051|long maybeUpdateDeadlineOrThrowN231626|long getGlobalConsumerOffsetN232320"
 }} 
 ,
 { "ligne" : {
@@ -554,21 +554,21 @@ var maDataBlocs = {
    "c1" : "00233"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN227700 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN229874 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN227700 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN229874 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00265"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN227700 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN229874 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -582,7 +582,7 @@ var maDataBlocs = {
    "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalConsumerOffset@POLYN230726 the MagicNumber/String  'Failed to get position for partition %s. The broker may be transiently unavailable at the moment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalConsumerOffset@POLYN232900 the MagicNumber/String  'Failed to get position for partition %s. The broker may be transiently unavailable at the moment.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -631,14 +631,14 @@ var maDataBlocs = {
    "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN231810 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN233994 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00324"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN231810 the MagicNumber/String  'Global task did not make progress to restore state within %d ms. Adjust `%s` if needed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN233994 the MagicNumber/String  'Global task did not make progress to restore state within %d ms. Adjust `%s` if needed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -659,35 +659,35 @@ var maDataBlocs = {
    "c1" : "00335"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String  'Flushing all global globalStores registered in the state manager' should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String  'Flushing all global globalStores registered in the state manager' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00340"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String  'Flushing global store={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String  'Flushing global store={}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00344"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String  'Failed to flush global state store %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String  'Failed to flush global state store %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00349"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String  'Expected ' should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String  'Expected ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00349"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String  ' to have been initialized' should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String  ' to have been initialized' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -701,56 +701,56 @@ var maDataBlocs = {
    "c1" : "00362"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  'Closing global storage engine {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  'Closing global storage engine {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  'Failed to close global state store {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  'Failed to close global state store {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  'Failed to close global state store:' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  'Failed to close global state store:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00369"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  '. Reason: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  '. Reason: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00371"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00375"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  'Skipping to close non-initialized store {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  'Skipping to close non-initialized store {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00380"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String  'Exceptions caught during close of 1 or more global state globalStores\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String  'Exceptions caught during close of 1 or more global state globalStores\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -771,21 +771,21 @@ var maDataBlocs = {
    "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN235401 the MagicNumber/String  'Failed to write offset checkpoint file to {} for global stores: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN237585 the MagicNumber/String  'Failed to write offset checkpoint file to {} for global stores: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00405"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN235401 the MagicNumber/String  ' This may occur if OS cleaned the state.dir in case when it is located in the (default) ${java.io.tmpdir}/kafka-streams directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN237585 the MagicNumber/String  ' This may occur if OS cleaned the state.dir in case when it is located in the (default) ${java.io.tmpdir}/kafka-streams directory.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00406"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN235401 the MagicNumber/String  ' Changing the location of state.dir may resolve the problem' should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN237585 the MagicNumber/String  ' Changing the location of state.dir may resolve the problem' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -799,105 +799,105 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735"
 }} 
 ,
 { "ligne" : {
    "c1" : "00362"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#362"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00362] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String 'Closing global storage engine {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00362] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String 'Closing global storage engine {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#366"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00366] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String 'Failed to close global state store {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00366] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String 'Failed to close global state store {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#367"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String 'Failed to close global state store:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String 'Failed to close global state store:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00369"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#369"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String '. Reason: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String '. Reason: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00371"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00371] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String '\n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00371] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String '\n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00375"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String 'Skipping to close non-initialized store {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String 'Skipping to close non-initialized store {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#379"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00380"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#380"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00380] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN233609 the MagicNumber/String 'Exceptions caught during close of 1 or more global state globalStores\n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00380] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN235793 the MagicNumber/String 'Exceptions caught during close of 1 or more global state globalStores\n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00335"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#335"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String 'Flushing all global globalStores registered in the state manager' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String 'Flushing all global globalStores registered in the state manager' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00340"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String 'Flushing global store={}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String 'Flushing global store={}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00344"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String 'Failed to flush global state store %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String 'Failed to flush global state store %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00349"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String ' to have been initialized' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String ' to have been initialized' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00349"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN232551 the MagicNumber/String 'Expected ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN234735 the MagicNumber/String 'Expected ' MUST BE CONVERTED to const"
 }} 
 ]
 };

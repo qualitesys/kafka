@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.MemoryLRUCache
+class org.apache.kafka.streams.state.internals.MemoryLRUCache {
++  MemoryLRUCache(String;int)
++  setWhenEldestRemoved(EldestEntryRemovalListener)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  persistent()
++  isOpen()
++  getPosition()
++  get(Bytes)
++  put(Bytes;byte[])
++  putIfAbsent(Bytes;byte[])
++  putAll(List<KeyValue<Bytes,byte[]>>)
++  delete(Bytes)
++  range(Bytes;Bytes)
++  reverseRange(Bytes;Bytes)
++  all()
++  reverseAll()
++  approximateNumEntries()
++  flush()
++  close()
++  size()
+} 
+@enduml

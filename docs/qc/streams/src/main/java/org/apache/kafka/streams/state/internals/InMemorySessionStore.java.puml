@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+SessionStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.InMemorySessionStore
+class org.apache.kafka.streams.state.internals.InMemorySessionStore {
++  InMemorySessionStore(String;long;String)
++  name()
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  getPosition()
++  put(Windowed<Bytes>;byte[])
++  remove(Windowed<Bytes>)
++  fetchSession(Bytes;long;long)
++  findSessions(Bytes;long;long)
++  backwardFindSessions(Bytes;long;long)
++  findSessions(Bytes;Bytes;long;long)
++  backwardFindSessions(Bytes;Bytes;long;long)
++  fetch(Bytes)
++  backwardFetch(Bytes)
++  fetch(Bytes;Bytes)
++  backwardFetch(Bytes;Bytes)
++  persistent()
++  isOpen()
++  flush()
++  close()
++  removeExpiredSegments()
++  registerNewIterator(Bytes;Bytes;long;Iterator<Entry<Long,ConcurrentNavigableMap<Bytes,ConcurrentNavigableMap<Long,byte[]>>>>;boolean)
+} 
+@enduml

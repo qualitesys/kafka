@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java 3 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java 4 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,6 +83,13 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -94,17 +101,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00022"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#22"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00022] For method init list of called methods Object monObjet|String Utils_readFileAsStringN160560"
+}} 
+,
+{ "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever.retrieve@POLYN158542 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever.retrieve@POLYN160686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever.retrieve@POLYN158542 the MagicNumber/String  'Access token is null; please call init() first' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever.retrieve@POLYN160686 the MagicNumber/String  'Access token is null; please call init() first' should be converted to const"
 }} 
 ]
 };

@@ -580,28 +580,28 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN843826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN845970 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN843826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN845970 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN844297 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846441 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN844297 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846441 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -615,168 +615,168 @@ var maDataBlocs = {
    "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  '[Consumer instanceId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  '[Consumer instanceId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  ', clientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  ', clientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  ', groupId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  ', groupId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  '[Consumer clientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  '[Consumer clientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  ', groupId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  ', groupId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  'Support for using the empty group id by consumers is deprecated and will be removed in the next major release.' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  'Support for using the empty group id by consumers is deprecated and will be removed in the next major release.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  'Initializing the Kafka consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  'Initializing the Kafka consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00178"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  'consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  'consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00289"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  'Kafka consumer initialized' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  'Kafka consumer initialized' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00294"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00294"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00297"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN846274 the MagicNumber/String  'Failed to construct kafka consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN848418 the MagicNumber/String  'Failed to construct kafka consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -790,7 +790,7 @@ var maDataBlocs = {
    "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN856119 the MagicNumber/String  'consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.consumer.KafkaConsumer.KafkaConsumer@POLYN858273 the MagicNumber/String  'consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -818,35 +818,35 @@ var maDataBlocs = {
    "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN862334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN864488 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN862334 the MagicNumber/String  'Topic collection to subscribe to cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN864488 the MagicNumber/String  'Topic collection to subscribe to cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00390"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#390"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN862334 the MagicNumber/String  'Topic collection to subscribe to cannot contain null or empty topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN864488 the MagicNumber/String  'Topic collection to subscribe to cannot contain null or empty topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN862334 the MagicNumber/String  'Subscribed to topic(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN864488 the MagicNumber/String  'Subscribed to topic(s): {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN862334 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN864488 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -867,49 +867,49 @@ var maDataBlocs = {
    "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN865472 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN867626 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN865472 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN867626 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00415"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN865472 the MagicNumber/String  'Topic pattern to subscribe to cannot be ' should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN867626 the MagicNumber/String  'Topic pattern to subscribe to cannot be ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00415"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN865472 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN867626 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN865472 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN867626 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN865472 the MagicNumber/String  'empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN867626 the MagicNumber/String  'empty' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00421"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN865472 the MagicNumber/String  'Subscribed to pattern: '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN867626 the MagicNumber/String  'Subscribed to pattern: '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -923,21 +923,21 @@ var maDataBlocs = {
    "c1" : "00441"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe@POLYN867614 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe@POLYN869768 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe@POLYN867614 the MagicNumber/String  'the consumer unsubscribed from all topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe@POLYN869768 the MagicNumber/String  'the consumer unsubscribed from all topics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00446"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#446"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe@POLYN867614 the MagicNumber/String  'Unsubscribed all topics or patterns and assigned partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe@POLYN869768 the MagicNumber/String  'Unsubscribed all topics or patterns and assigned partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -958,56 +958,56 @@ var maDataBlocs = {
    "c1" : "00457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00458"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  'Topic partition collection to assign to cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  'Topic partition collection to assign to cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00465"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#465"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  'Topic partitions to assign to cannot have null or empty topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  'Topic partitions to assign to cannot have null or empty topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00471"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  'Assigned to partition(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  'Assigned to partition(s): {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN869029 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.consumer.KafkaConsumer.assign@POLYN871183 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1021,7 +1021,7 @@ var maDataBlocs = {
    "c1" : "00487"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN872123 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874277 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1035,7 +1035,7 @@ var maDataBlocs = {
    "c1" : "00493"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874310 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876464 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1063,49 +1063,49 @@ var maDataBlocs = {
    "c1" : "00503"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874599 the MagicNumber/String  'Consumer is not subscribed to any topics or assigned any partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876753 the MagicNumber/String  'Consumer is not subscribed to any topics or assigned any partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00511"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874599 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876753 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874599 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876753 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00514"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874599 the MagicNumber/String  'Still waiting for metadata' should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876753 the MagicNumber/String  'Still waiting for metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00526"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874599 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876753 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874599 the MagicNumber/String  'Returning empty records from `poll()` ' should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876753 the MagicNumber/String  'Returning empty records from `poll()` ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00532"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN874599 the MagicNumber/String  'since the consumer's position has advanced for at least one topic partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.clients.consumer.KafkaConsumer.poll@POLYN876753 the MagicNumber/String  'since the consumer's position has advanced for at least one topic partition' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1119,14 +1119,14 @@ var maDataBlocs = {
    "c1" : "00547"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN876496 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN878650 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00548"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN876496 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN878650 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1147,14 +1147,14 @@ var maDataBlocs = {
    "c1" : "00556"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.consumer.KafkaConsumer.pollForFetches@POLYN876953 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.consumer.KafkaConsumer.pollForFetches@POLYN879107 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00577"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.clients.consumer.KafkaConsumer.pollForFetches@POLYN876953 the MagicNumber/String  'Polling for fetches with timeout {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.clients.consumer.KafkaConsumer.pollForFetches@POLYN879107 the MagicNumber/String  'Polling for fetches with timeout {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1196,28 +1196,28 @@ var maDataBlocs = {
    "c1" : "00617"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#617"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitSync@POLYN887464 the MagicNumber/String  'Timeout of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitSync@POLYN889628 the MagicNumber/String  'Timeout of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00617"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#617"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitSync@POLYN887464 the MagicNumber/String  'ms expired before successfully ' should be converted to const"
+ , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitSync@POLYN889628 the MagicNumber/String  'ms expired before successfully ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00618"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#618"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitSync@POLYN887464 the MagicNumber/String  'committing offsets ' should be converted to const"
+ , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitSync@POLYN889628 the MagicNumber/String  'committing offsets ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00629"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitAsync@POLYN888650 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitAsync@POLYN890814 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1245,7 +1245,7 @@ var maDataBlocs = {
    "c1" : "00644"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#644"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitAsync@POLYN890633 the MagicNumber/String  'Committing offsets: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.clients.consumer.KafkaConsumer.commitAsync@POLYN892797 the MagicNumber/String  'Committing offsets: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1259,21 +1259,21 @@ var maDataBlocs = {
    "c1" : "00655"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#655"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN891596 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN893760 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#656"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN891596 the MagicNumber/String  'seek offset must not be a negative number' should be converted to const"
+ , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN893760 the MagicNumber/String  'seek offset must not be a negative number' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00660"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN891596 the MagicNumber/String  'Seeking to offset {} for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN893760 the MagicNumber/String  'Seeking to offset {} for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1294,28 +1294,28 @@ var maDataBlocs = {
    "c1" : "00675"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN892781 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN894945 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00676"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN892781 the MagicNumber/String  'seek offset must not be a negative number' should be converted to const"
+ , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN894945 the MagicNumber/String  'seek offset must not be a negative number' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00682"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#682"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN892781 the MagicNumber/String  'Seeking to offset {} for partition {} with epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN894945 the MagicNumber/String  'Seeking to offset {} for partition {} with epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00685"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#685"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN892781 the MagicNumber/String  'Seeking to offset {} for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.clients.consumer.KafkaConsumer.seek@POLYN894945 the MagicNumber/String  'Seeking to offset {} for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1329,21 +1329,21 @@ var maDataBlocs = {
    "c1" : "00702"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#702"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToBeginning@POLYN894478 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToBeginning@POLYN896642 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00703"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToBeginning@POLYN894478 the MagicNumber/String  'Partitions collection cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToBeginning@POLYN896642 the MagicNumber/String  'Partitions collection cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00707"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#707"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00707] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToBeginning@POLYN894478 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00707] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToBeginning@POLYN896642 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1357,21 +1357,21 @@ var maDataBlocs = {
    "c1" : "00717"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#717"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00717] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToEnd@POLYN895605 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00717] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToEnd@POLYN897769 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00718"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#718"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToEnd@POLYN895605 the MagicNumber/String  'Partitions collection cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToEnd@POLYN897769 the MagicNumber/String  'Partitions collection cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00722"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#722"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToEnd@POLYN895605 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.clients.consumer.KafkaConsumer.seekToEnd@POLYN897769 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1406,42 +1406,42 @@ var maDataBlocs = {
    "c1" : "00741"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#741"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN898885 the MagicNumber/String  'You can only check the position for partitions assigned to this consumer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN901049 the MagicNumber/String  'You can only check the position for partitions assigned to this consumer.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00746"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#746"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00746] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN898885 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00746] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN901049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00753"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#753"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN898885 the MagicNumber/String  'Timeout of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN901049 the MagicNumber/String  'Timeout of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00753"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#753"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN898885 the MagicNumber/String  'ms expired before the position ' should be converted to const"
+ , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN901049 the MagicNumber/String  'ms expired before the position ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN898885 the MagicNumber/String  'for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN901049 the MagicNumber/String  'for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN898885 the MagicNumber/String  ' could be determined' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method org.apache.kafka.clients.consumer.KafkaConsumer.position@POLYN901049 the MagicNumber/String  ' could be determined' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1483,42 +1483,42 @@ var maDataBlocs = {
    "c1" : "00789"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#789"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN905261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN907425 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00790"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#790"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN905261 the MagicNumber/String  'Timeout of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN907425 the MagicNumber/String  'Timeout of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00790"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#790"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN905261 the MagicNumber/String  'ms expired before the last ' should be converted to const"
+ , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN907425 the MagicNumber/String  'ms expired before the last ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00791"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#791"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN905261 the MagicNumber/String  'committed offset for partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN907425 the MagicNumber/String  'committed offset for partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00791"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#791"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN905261 the MagicNumber/String  ' could be determined. Try tuning default.api.timeout.ms ' should be converted to const"
+ , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN907425 the MagicNumber/String  ' could be determined. Try tuning default.api.timeout.ms ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00792"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#792"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN905261 the MagicNumber/String  'larger to relax the threshold.' should be converted to const"
+ , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.clients.consumer.KafkaConsumer.committed@POLYN907425 the MagicNumber/String  'larger to relax the threshold.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1553,7 +1553,7 @@ var maDataBlocs = {
    "c1" : "00856"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#856"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00856] In method org.apache.kafka.clients.consumer.KafkaConsumer.pause@POLYN911563 the MagicNumber/String  'Pausing partitions {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00856] In method org.apache.kafka.clients.consumer.KafkaConsumer.pause@POLYN913727 the MagicNumber/String  'Pausing partitions {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1567,7 +1567,7 @@ var maDataBlocs = {
    "c1" : "00870"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#870"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00870] In method org.apache.kafka.clients.consumer.KafkaConsumer.resume@POLYN912321 the MagicNumber/String  'Resuming partitions {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00870] In method org.apache.kafka.clients.consumer.KafkaConsumer.resume@POLYN914485 the MagicNumber/String  'Resuming partitions {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1595,28 +1595,28 @@ var maDataBlocs = {
    "c1" : "00904"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#904"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00904] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN915424 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00904] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN917588 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00905"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#905"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00905] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN915424 the MagicNumber/String  'The target time for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00905] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN917588 the MagicNumber/String  'The target time for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00905"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#905"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00905] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN915424 the MagicNumber/String  ' is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00905] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN917588 the MagicNumber/String  ' is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00906"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#906"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00906] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN915424 the MagicNumber/String  '. The target time cannot be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00906] In method org.apache.kafka.clients.consumer.KafkaConsumer.offsetsForTimes@POLYN917588 the MagicNumber/String  '. The target time cannot be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1658,28 +1658,28 @@ var maDataBlocs = {
    "c1" : "00960"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#960"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00960] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN920720 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00960] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN922884 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00961"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#961"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00961] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN920720 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00961] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN922884 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00963"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#963"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00963] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN920720 the MagicNumber/String  'Requesting the log end offset for {} in order to compute lag' should be converted to const"
+ , "c3" : "QC-JAV000010[00963] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN922884 the MagicNumber/String  'Requesting the log end offset for {} in order to compute lag' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00965"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#965"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00965] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN920720 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00965] In method org.apache.kafka.clients.consumer.KafkaConsumer.currentLag@POLYN922884 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1693,28 +1693,28 @@ var maDataBlocs = {
    "c1" : "00994"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#994"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN923258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN925422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00995"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#995"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN923258 the MagicNumber/String  'Tried to force a rebalance but consumer does not have a group.' should be converted to const"
+ , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN925422 the MagicNumber/String  'Tried to force a rebalance but consumer does not have a group.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00997"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#997"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN923258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN925422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1006"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN923830 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.clients.consumer.KafkaConsumer.enforceRebalance@POLYN925994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1735,28 +1735,28 @@ var maDataBlocs = {
    "c1" : "01018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1018"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01018] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN925116 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01018] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN927280 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1019"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01019] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN925116 the MagicNumber/String  'The timeout cannot be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[01019] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN927280 the MagicNumber/String  'The timeout cannot be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1025"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01025] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN925116 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01025] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN927280 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1028"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN925116 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN927280 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1777,98 +1777,98 @@ var maDataBlocs = {
    "c1" : "01050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1050"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01050] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'Closing the Kafka consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[01050] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'Closing the Kafka consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1053"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01053] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01053] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1056"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1057"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01057] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'Failed to close coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[01057] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'Failed to close coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1059"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'fetcher' should be converted to const"
+ , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'fetcher' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1060"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01060] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'consumer interceptors' should be converted to const"
+ , "c3" : "QC-JAV000010[01060] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'consumer interceptors' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1061"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01061] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'kafka consumer metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[01061] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'kafka consumer metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1062"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'consumer metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'consumer metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1063"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'consumer network client' should be converted to const"
+ , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'consumer network client' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1064"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01064] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'consumer key deserializer' should be converted to const"
+ , "c3" : "QC-JAV000010[01064] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'consumer key deserializer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1065"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01065] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'consumer value deserializer' should be converted to const"
+ , "c3" : "QC-JAV000010[01065] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'consumer value deserializer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1067"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'Kafka consumer has been closed' should be converted to const"
+ , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'Kafka consumer has been closed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1069"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01069] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01069] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1073"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01073] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN926664 the MagicNumber/String  'Failed to close kafka consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[01073] In method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN928828 the MagicNumber/String  'Failed to close kafka consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1882,84 +1882,84 @@ var maDataBlocs = {
    "c1" : "01083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1083"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01083] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN929122 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01083] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN931286 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1090"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN929122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN931286 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1090"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN929122 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN931286 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01101] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN929122 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01101] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateFetchPositions@POLYN931286 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.consumer.KafkaConsumer.acquireAndEnsureOpen@POLYN929784 the MagicNumber/String  'This consumer has already been closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.consumer.KafkaConsumer.acquireAndEnsureOpen@POLYN931948 the MagicNumber/String  'This consumer has already been closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.consumer.KafkaConsumer.acquire@POLYN930239 the MagicNumber/String  'KafkaConsumer is not safe for multi-threaded access' should be converted to const"
+ , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.consumer.KafkaConsumer.acquire@POLYN932403 the MagicNumber/String  'KafkaConsumer is not safe for multi-threaded access' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01123] In method org.apache.kafka.clients.consumer.KafkaConsumer.release@POLYN930727 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01123] In method org.apache.kafka.clients.consumer.KafkaConsumer.release@POLYN932891 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.clients.consumer.KafkaConsumer.throwIfNoAssignorsConfigured@POLYN930917 the MagicNumber/String  'Must configure at least one partition assigner class name to ' should be converted to const"
+ , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.clients.consumer.KafkaConsumer.throwIfNoAssignorsConfigured@POLYN933081 the MagicNumber/String  'Must configure at least one partition assigner class name to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01130] In method org.apache.kafka.clients.consumer.KafkaConsumer.throwIfNoAssignorsConfigured@POLYN930917 the MagicNumber/String  ' configuration property' should be converted to const"
+ , "c3" : "QC-JAV000010[01130] In method org.apache.kafka.clients.consumer.KafkaConsumer.throwIfNoAssignorsConfigured@POLYN933081 the MagicNumber/String  ' configuration property' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01135] In method org.apache.kafka.clients.consumer.KafkaConsumer.maybeThrowInvalidGroupIdException@POLYN931139 the MagicNumber/String  'To use the group management or offset commit APIs, you must ' should be converted to const"
+ , "c3" : "QC-JAV000010[01135] In method org.apache.kafka.clients.consumer.KafkaConsumer.maybeThrowInvalidGroupIdException@POLYN933303 the MagicNumber/String  'To use the group management or offset commit APIs, you must ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.consumer.KafkaConsumer.maybeThrowInvalidGroupIdException@POLYN931139 the MagicNumber/String  'provide a valid ' should be converted to const"
+ , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.consumer.KafkaConsumer.maybeThrowInvalidGroupIdException@POLYN933303 the MagicNumber/String  'provide a valid ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.consumer.KafkaConsumer.maybeThrowInvalidGroupIdException@POLYN931139 the MagicNumber/String  ' in the consumer configuration.' should be converted to const"
+ , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.consumer.KafkaConsumer.maybeThrowInvalidGroupIdException@POLYN933303 the MagicNumber/String  ' in the consumer configuration.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1973,7 +1973,7 @@ var maDataBlocs = {
    "c1" : "01140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01140] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateLastSeenEpochIfNewer@POLYN931394 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01140] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateLastSeenEpochIfNewer@POLYN933558 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1987,7 +1987,7 @@ var maDataBlocs = {
    "c1" : "01150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01150] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN931792 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01150] In method org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN933966 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.isolation.Plugins
+class org.apache.kafka.connect.runtime.isolation.Plugins {
++  Plugins(Map<String,String>)
++  newDelegatingClassLoader(List<String>)
++  compareAndSwapLoaders(ClassLoader)
++  currentThreadLoader()
++  compareAndSwapWithDelegatingLoader()
++  compareAndSwapLoaders(Connector)
++  withClassLoader(ClassLoader)
++  delegatingLoader()
++  sinkConnectors()
++  sourceConnectors()
++  converters()
++  headerConverters()
++  transformations()
++  predicates()
++  newPlugin(String)
++  newConnector(String)
++  connectorClass(String)
++  newTask(Class<?extendsTask>)
++  newConverter(AbstractConfig;String;ClassLoaderUsage)
++  newInternalConverter(boolean;String;Map<String,String>)
++  newHeaderConverter(AbstractConfig;String;ClassLoaderUsage)
++  newConfigProvider(AbstractConfig;String;ClassLoaderUsage)
+} 
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+!pragma layout smetana
+URLClassLoader <|-- org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader
+class org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader {
++  DelegatingClassLoader(List<String>;ClassLoader)
++  DelegatingClassLoader(List<String>)
++  connectors()
++  sinkConnectors()
++  sourceConnectors()
++  converters()
++  headerConverters()
++  transformations()
++  predicates()
++  configProviders()
++  restExtensions()
++  connectorClientConfigPolicies()
++  pluginClassLoader(String)
++  connectorLoader(Connector)
++  connectorLoader(String)
++  newPluginClassLoader(URL;URL[];ClassLoader)
++  initLoaders()
++  initPluginLoader(String)
++  registerPlugin(Path)
++  scanUrlsAndAddPlugins(ClassLoader;URL[])
++  loadJdbcDrivers(ClassLoader)
++  scanPluginPath(ClassLoader;URL[])
++  getPredicatePluginDesc(ClassLoader;Reflections)
++  getTransformationPluginDesc(ClassLoader;Reflections)
++  loadClass(String;boolean)
++  addAllAliases()
++  getResource(String)
++  getResources(String)
++  serviceLoaderManifestForPlugin(String)
+} 
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+!pragma layout smetana
+Authenticator <|-- org.apache.kafka.common.security.authenticator.SaslClientAuthenticator
+class org.apache.kafka.common.security.authenticator.SaslClientAuthenticator {
++  isReserved(int)
++  SaslClientAuthenticator(Map<String,?>;AuthenticateCallbackHandler;String;Subject;String;String;String;boolean;TransportLayer;Time;LogContext)
++  createSaslClient()
++  authenticate()
++  sendHandshakeRequest(short)
++  sendInitialToken()
++  reauthenticate(ReauthenticationContext)
++  pollResponseReceivedDuringReauthentication()
++  clientSessionReauthenticationTimeNanos()
++  reauthenticationLatencyMs()
++  nextCorrelationId()
++  nextRequestHeader(ApiKeys;short)
++  createSaslHandshakeRequest(short)
++  setSaslAuthenticateAndHandshakeVersions(ApiVersionsResponse)
++  setSaslState(SaslState)
++  sendSaslClientToken(byte[];boolean)
++  send(Send)
++  flushNetOutBufferAndUpdateInterestOps()
++  receiveResponseOrToken()
++  principal()
++  principalSerde()
++  complete()
++  close()
++  receiveToken()
++  createSaslToken(byte[];boolean)
++  flushNetOutBuffer()
++  receiveKafkaResponse()
++  handleSaslHandshakeResponse(SaslHandshakeResponse)
++  firstPrincipal(Subject)
+} 
+@enduml

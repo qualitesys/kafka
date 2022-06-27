@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+ProcessorGraphNode<K,V> <|-- org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode
+class org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode {
++  StatefulProcessorNode(ProcessorParameters<K,V,?,?>;Set<StoreBuilder<?>>;Set<KTableValueGetterSupplier<?,?>>)
++  StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;String[])
++  StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<?>)
++  toString()
++  writeToTopology(InternalTopologyBuilder)
+} 
+@enduml

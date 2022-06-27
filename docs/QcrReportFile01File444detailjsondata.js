@@ -83,21 +83,21 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/FatalExitError.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN158176 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN160320 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/FatalExitError.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN158176 the MagicNumber/String  'statusCode must not be 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN160320 the MagicNumber/String  'statusCode must not be 0' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/FatalExitError.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN158431 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN160575 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

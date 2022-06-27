@@ -296,14 +296,14 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Sensor.StatAndConfig.toString@POLYN219080 the MagicNumber/String  'StatAndConfig(stat=' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Sensor.StatAndConfig.toString@POLYN221224 the MagicNumber/String  'StatAndConfig(stat=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Sensor.StatAndConfig.toString@POLYN219080 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Sensor.StatAndConfig.toString@POLYN221224 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -317,14 +317,14 @@ var maDataBlocs = {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.metrics.Sensor.Sensor@POLYN222011 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.metrics.Sensor.Sensor@POLYN224155 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.metrics.Sensor.Sensor@POLYN222011 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.metrics.Sensor.Sensor@POLYN224155 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -345,28 +345,28 @@ var maDataBlocs = {
    "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN223387 the MagicNumber/String  'Circular dependency in sensors: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN225531 the MagicNumber/String  'Circular dependency in sensors: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN223387 the MagicNumber/String  ' is its own parent.' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN225531 the MagicNumber/String  ' is its own parent.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.metrics.Sensor.record@POLYN224479 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.metrics.Sensor.record@POLYN226623 the MagicNumber/String  1.0d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.metrics.Sensor.record@POLYN224479 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.metrics.Sensor.record@POLYN226623 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -380,7 +380,7 @@ var maDataBlocs = {
    "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.metrics.Sensor.record@POLYN224843 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.metrics.Sensor.record@POLYN226987 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -394,7 +394,7 @@ var maDataBlocs = {
    "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.metrics.Sensor.record@POLYN225341 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.metrics.Sensor.record@POLYN227485 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -436,7 +436,7 @@ var maDataBlocs = {
    "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00206] For method checkQuotas list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_quotaN227485|double metric_measurableValueN227633"
+ , "c3" : "QC-JAV000007[00206] For method checkQuotas list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_quotaN229629|double metric_measurableValueN229777"
 }} 
 ,
 { "ligne" : {
@@ -464,21 +464,21 @@ var maDataBlocs = {
    "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.common.metrics.Sensor.checkQuotas@POLYN227140 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.common.metrics.Sensor.checkQuotas@POLYN229284 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.metrics.Sensor.checkQuotas@POLYN227140 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.metrics.Sensor.checkQuotas@POLYN229284 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.common.metrics.Sensor.checkQuotas@POLYN227140 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.common.metrics.Sensor.checkQuotas@POLYN229284 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -492,7 +492,7 @@ var maDataBlocs = {
    "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.metrics.Sensor.add@POLYN228398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230542 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -513,7 +513,7 @@ var maDataBlocs = {
    "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method add list of called methods Object monObjet|Object metricLockN229326|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN229830"
+ , "c3" : "QC-JAV000007[00233] For method add list of called methods Object monObjet|Object metricLockN231480|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN231984"
 }} 
 ,
 { "ligne" : {
@@ -541,42 +541,42 @@ var maDataBlocs = {
    "c1" : "00235"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.common.metrics.Sensor.add@POLYN228796 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230940 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00237"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.common.metrics.Sensor.add@POLYN228796 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230940 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00244"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.common.metrics.Sensor.add@POLYN228796 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230940 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.common.metrics.Sensor.add@POLYN228796 the MagicNumber/String  'A metric named '' should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230940 the MagicNumber/String  'A metric named '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.common.metrics.Sensor.add@POLYN228796 the MagicNumber/String  '' already exists, can't register another one.' should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230940 the MagicNumber/String  '' already exists, can't register another one.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00250"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.metrics.Sensor.add@POLYN228796 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230940 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -590,7 +590,7 @@ var maDataBlocs = {
    "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230417 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232571 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -611,56 +611,56 @@ var maDataBlocs = {
    "c1" : "00259"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method add list of called methods Object monObjet|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN231652"
+ , "c3" : "QC-JAV000007[00259] For method add list of called methods Object monObjet|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN233806"
 }} 
 ,
 { "ligne" : {
    "c1" : "00261"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230844 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232998 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00263"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230844 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232998 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230844 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00274"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230844 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00275"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230844 the MagicNumber/String  'A metric named '' should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232998 the MagicNumber/String  'A metric named '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00275"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230844 the MagicNumber/String  '' already exists, can't register another one.' should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232998 the MagicNumber/String  '' already exists, can't register another one.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00279"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.common.metrics.Sensor.add@POLYN230844 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.common.metrics.Sensor.add@POLYN232998 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -709,42 +709,42 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN226167 ending with method org.apache.kafka.common.metrics.Sensor.record@POLYN225883"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN228311 ending with method org.apache.kafka.common.metrics.Sensor.record@POLYN228027"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN226167"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN228311"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.Sensor.record@POLYN225883"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.Sensor.record@POLYN228027"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Sensor.checkForest@POLYN223387"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Sensor.checkForest@POLYN225531"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN223387 the MagicNumber/String ' is its own parent.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN225531 the MagicNumber/String ' is its own parent.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN223387 the MagicNumber/String 'Circular dependency in sensors: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN225531 the MagicNumber/String 'Circular dependency in sensors: ' MUST BE CONVERTED to const"
 }} 
 ]
 };

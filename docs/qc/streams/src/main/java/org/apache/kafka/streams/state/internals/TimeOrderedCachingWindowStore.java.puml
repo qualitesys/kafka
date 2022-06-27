@@ -1,0 +1,32 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<WindowStore<Bytes,byte[]>,byte[],byte[]>WindowStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore
+class org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore {
++  TimeOrderedCachingWindowStore(WindowStore<Bytes,byte[]>;long;long)
++  enforceWrappedStore(WindowStore<Bytes,byte[]>)
++  getWrappedStore(StateStore)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  initInternal(InternalProcessorContext<?,?>)
++  putAndMaybeForward(List<DirtyEntry>;InternalProcessorContext<?,?>)
++  putAndMaybeForward(InternalProcessorContext<?,?>;DirtyEntry;Bytes;long)
++  setFlushListener(CacheFlushListener<byte[],byte[]>;boolean)
++  indexKeyToBaseKey(Bytes)
++  put(Bytes;byte[];long)
++  fetch(Bytes;long)
++  fetch(Bytes;long;long)
++  backwardFetch(Bytes;long;long)
++  fetchInternal(WindowStoreIterator<byte[]>;Bytes;long;long;boolean)
++  fetch(Bytes;Bytes;long;long)
++  backwardFetch(Bytes;Bytes;long;long)
++  fetchKeyRange(KeyValueIterator<Windowed<Bytes>,byte[]>;Bytes;Bytes;long;long;boolean)
++  fetchAll(long;long)
++  backwardFetchAll(long;long)
++  fetchAllInternal(KeyValueIterator<Windowed<Bytes>,byte[]>;long;long;boolean)
++  all()
++  backwardAll()
++  flush()
++  flushCache()
++  close()
+} 
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+WrappedStateStore<SessionStore<Bytes,byte[]>,byte[],byte[]>SessionStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.CachingSessionStore
+class org.apache.kafka.streams.state.internals.CachingSessionStore {
++  CachingSessionStore(SessionStore<Bytes,byte[]>;long)
++  init(ProcessorContext;StateStore)
++  init(StateStoreContext;StateStore)
++  initInternal(InternalProcessorContext<?,?>)
++  putAndMaybeForward(ThreadCache.DirtyEntry;InternalProcessorContext<?,?>)
++  setFlushListener(CacheFlushListener<byte[],byte[]>;boolean)
++  put(Windowed<Bytes>;byte[])
++  remove(Windowed<Bytes>)
++  findSessions(Bytes;long;long)
++  backwardFindSessions(Bytes;long;long)
++  findSessions(Bytes;Bytes;long;long)
++  backwardFindSessions(Bytes;Bytes;long;long)
++  fetchSession(Bytes;long;long)
++  fetch(Bytes)
++  backwardFetch(Bytes)
++  fetch(Bytes;Bytes)
++  backwardFetch(Bytes;Bytes)
++  flush()
++  flushCache()
++  close()
+} 
+@enduml
