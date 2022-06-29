@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java 68 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java 97 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.xml" 
  , "fic3"  : "" 
 }
@@ -223,6 +223,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -232,10 +241,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "15"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -263,7 +286,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -304,17 +327,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#49"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00049] For method xor list of called methods Object monObjet|byte[] resultN194882"
+}} 
+,
+{ "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN193887 the MagicNumber/String  'Argument arrays must be of the same length' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN194367 the MagicNumber/String  'Argument arrays must be of the same length' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN193887 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN194367 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -328,42 +358,42 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00058] For method hi list of called methods Object monObjet|byte[] hmacN195562|byte[] xorN195669"
+ , "c3" : "QC-JAV000007[00058] For method hi list of called methods Object monObjet|byte[] hmacN196042|byte[] xorN196149"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN194646 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN194646 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN194646 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN194646 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN194646 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -391,7 +421,7 @@ var maDataBlocs = {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.clientKey@POLYN196289 the MagicNumber/String  'Client Key' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.clientKey@POLYN196769 the MagicNumber/String  'Client Key' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -412,14 +442,14 @@ var maDataBlocs = {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN196657 the MagicNumber/String  '=3D' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN197137 the MagicNumber/String  '=3D' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN196657 the MagicNumber/String  '=2C' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN197137 the MagicNumber/String  '=2C' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -433,42 +463,42 @@ var maDataBlocs = {
    "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197063 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197063 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197063 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197063 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197063 the MagicNumber/String  'Invalid username: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String  'Invalid username: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197063 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -482,14 +512,14 @@ var maDataBlocs = {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN197800 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN198280 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN197800 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN198280 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -497,6 +527,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#105"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00105] For method clientSignature arguments byte[]  storedKey|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#105"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00105] For method clientSignature list of called methods Object monObjet|byte[] authMessageN198732"
 }} 
 ,
 { "ligne" : {
@@ -510,7 +547,7 @@ var maDataBlocs = {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method clientProof list of called methods Object monObjet|byte[] hashN198740|byte[] hmacN198832"
+ , "c3" : "QC-JAV000007[00110] For method clientProof list of called methods Object monObjet|byte[] clientKeyN199128|byte[] hashN199220|byte[] hmacN199312"
 }} 
 ,
 { "ligne" : {
@@ -559,7 +596,7 @@ var maDataBlocs = {
    "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.serverKey@POLYN199650 the MagicNumber/String  'Server Key' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.serverKey@POLYN200130 the MagicNumber/String  'Server Key' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -567,6 +604,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#131"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00131] For method serverSignature arguments byte[]  serverKey|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00131] For method serverSignature list of called methods Object monObjet|byte[] authMessageN200544"
 }} 
 ,
 { "ligne" : {
@@ -580,7 +624,7 @@ var maDataBlocs = {
    "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.secureRandomString@POLYN200380 the MagicNumber/String  130 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.secureRandomString@POLYN200860 the MagicNumber/String  130 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -615,7 +659,7 @@ var maDataBlocs = {
    "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN201067 the MagicNumber/String  'Could not create credential' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN201547 the MagicNumber/String  'Could not create credential' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -629,7 +673,7 @@ var maDataBlocs = {
    "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN201647 the MagicNumber/String  'Could not create credential' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN202127 the MagicNumber/String  'Could not create credential' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -742,6 +786,188 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#166"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00166] Public method generateCredential is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.ScramFormatter@POLYN193432"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.clientKey@POLYN196769"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.clientProof@POLYN198932"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.clientSignature@POLYN198536"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.normalize@POLYN196336"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.saltedPassword@POLYN196481"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN197137"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.serverKey@POLYN200130"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.serverSignature@POLYN200348"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.clientKey@POLYN196769 the MagicNumber/String 'Client Key' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#64"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN195126 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#89"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN197137 the MagicNumber/String '=3D' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN197137 the MagicNumber/String '=2C' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00128"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.serverKey@POLYN200130 the MagicNumber/String 'Server Key' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String ',' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String '=' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#96"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String 'Invalid username: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN197543 the MagicNumber/String '=' MUST BE CONVERTED to const"
 }} 
 ]
 };

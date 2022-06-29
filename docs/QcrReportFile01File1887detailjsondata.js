@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java 13 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java 19 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -97,12 +97,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -117,6 +133,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -174,28 +197,28 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN171813 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN171813 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN171813 the MagicNumber/String  'Unsupported offset metadata version found. Supported version &amp;lt;= {}. Found version {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String  'Unsupported offset metadata version found. Supported version &amp;lt;= {}. Found version {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN171813 the MagicNumber/String  'Unsupported offset metadata found' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String  'Unsupported offset metadata found' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,21 +232,21 @@ var maDataBlocs = {
    "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN173669 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN174149 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN173669 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN174149 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN173669 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN174149 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -231,6 +254,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#45"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00045] Public method decode is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.encode@POLYN171657"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00056"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#69"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String 'Unsupported offset metadata version found. Supported version &amp;lt;= {}. Found version {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#73"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN172293 the MagicNumber/String 'Unsupported offset metadata found' MUST BE CONVERTED to const"
 }} 
 ]
 };

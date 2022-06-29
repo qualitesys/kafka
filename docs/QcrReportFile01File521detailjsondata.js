@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java 19 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java 21 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.xml" 
  , "fic3"  : "" 
 }
@@ -160,7 +160,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "7"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -267,49 +267,63 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.close@POLYN175555"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.close@POLYN176035"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.flush@POLYN175309"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.flush@POLYN175789"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeByte@POLYN172015"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeByte@POLYN172495"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeDouble@POLYN173163"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeByteArray@POLYN173930"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeInt@POLYN172589"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeByteBuffer@POLYN174532"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeLong@POLYN172876"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeDouble@POLYN173643"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeShort@POLYN172302"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeInt@POLYN173069"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeLong@POLYN173356"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeShort@POLYN172782"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java 6 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java 8 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,7 +111,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -134,7 +134,7 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.errorCounts@POLYN164630 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.errorCounts@POLYN165110 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -155,21 +155,35 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.shouldClientThrottle@POLYN165279 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.BrokerRegistrationResponse.shouldClientThrottle@POLYN165759 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.throttleTimeMs@POLYN164473"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.BrokerRegistrationResponse@POLYN164635"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.toString@POLYN165403"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.parse@POLYN165476"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.throttleTimeMs@POLYN164953"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationResponse.toString@POLYN165883"
 }} 
 ]
 };

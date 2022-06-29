@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java 5 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java 7 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,7 +104,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -141,21 +141,35 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.shouldClientThrottle@POLYN163626 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.shouldClientThrottle@POLYN164106 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.errorCounts@POLYN163907"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.ListPartitionReassignmentsResponse@POLYN163514"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.throttleTimeMs@POLYN163750"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.errorCounts@POLYN164387"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.parse@POLYN163723"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsResponse.throttleTimeMs@POLYN164230"
 }} 
 ]
 };

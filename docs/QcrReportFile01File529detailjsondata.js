@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java 30 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java 49 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -195,12 +195,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "8"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -342,7 +365,7 @@ var maDataBlocs = {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method addSend list of called methods Object monObjet|long send_sizeN189474"
+ , "c3" : "QC-JAV000007[00092] For method addSend list of called methods Object monObjet|long send_sizeN189954"
 }} 
 ,
 { "ligne" : {
@@ -356,7 +379,7 @@ var maDataBlocs = {
    "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN189519 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN189999 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -377,14 +400,14 @@ var maDataBlocs = {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN190521 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN191001 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.SendBuilder.build@POLYN191630 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.SendBuilder.build@POLYN192110 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -440,7 +463,140 @@ var maDataBlocs = {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.protocol.SendBuilder.buildSend@POLYN192588 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.protocol.SendBuilder.buildSend@POLYN193068 the MagicNumber/String  4 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.flushPendingBuffer@POLYN191472"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeRecords@POLYN190323"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN191001"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN189999"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeInt@POLYN188148"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.build@POLYN192110"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeByteBuffer@POLYN189053"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.addBuffer@POLYN189583"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.addSend@POLYN189791"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.buildRequestSend@POLYN192473"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.buildResponseSend@POLYN192768"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeByte@POLYN187852"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeByteArray@POLYN188592"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeDouble@POLYN188444"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeLong@POLYN188296"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.SendBuilder.writeShort@POLYN188000"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.protocol.SendBuilder.flushPendingSend@POLYN191001 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#99"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.common.protocol.SendBuilder.clearBuffers@POLYN189999 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.common.protocol.SendBuilder.build@POLYN192110 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 };

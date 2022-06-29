@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java 15 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java 24 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,11 +76,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "7"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "2"
 }}
 ,
@@ -139,7 +162,7 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.forFields@POLYN166296 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.forFields@POLYN166776 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.RawTaggedFieldWriter@POLYN166561 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.RawTaggedFieldWriter@POLYN167041 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -167,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00037] For method writeRawTags list of called methods Object monObjet|int field_tagN167246"
+ , "c3" : "QC-JAV000007[00037] For method writeRawTags list of called methods Object monObjet|int field_tagN167726"
 }} 
 ,
 { "ligne" : {
@@ -188,42 +211,105 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN166984 the MagicNumber/String  'Attempted to use tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String  'Attempted to use tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN166984 the MagicNumber/String  ' as an ' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String  ' as an ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN166984 the MagicNumber/String  'undefined tag.' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String  'undefined tag.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN166984 the MagicNumber/String  'Invalid raw tag field list: tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String  'Invalid raw tag field list: tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN166984 the MagicNumber/String  ' comes after tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String  ' comes after tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN166984 the MagicNumber/String  ', but is not higher than it.' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String  ', but is not higher than it.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.forFields@POLYN166776"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00021"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#21"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00021] In the recursive method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.forFields@POLYN166776 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#44"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String ' as an ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#44"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String 'Attempted to use tag ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String 'undefined tag.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String 'Invalid raw tag field list: tag ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String ' comes after tag ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN167464 the MagicNumber/String ', but is not higher than it.' MUST BE CONVERTED to const"
 }} 
 ]
 };

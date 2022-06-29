@@ -580,63 +580,63 @@ var maDataBlocs = {
    "c1" : "00210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  'Sending {} {} to broker {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  'Sending {} {} to broker {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00239"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00240"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  'Unable to find FetchSessionHandler for node {}. Ignoring fetch response.' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  'Unable to find FetchSessionHandler for node {}. Ignoring fetch response.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00258"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  'Response for missing full request partition: partition={}; metadata={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  'Response for missing full request partition: partition={}; metadata={}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00266"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  'Response for missing session request partition: partition={}; metadata={}; toSend={}; toForget={}; toReplace={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  'Response for missing session request partition: partition={}; metadata={}; toSend={}; toForget={}; toReplace={}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  'Fetch {} at offset {} for partition {} returned fetch data {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  'Fetch {} at offset {} for partition {} returned fetch data {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN495801 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -776,49 +776,49 @@ var maDataBlocs = {
    "c1" : "00339"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502060 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502540 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00345"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502060 the MagicNumber/String  'Topic metadata fetch included errors: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502540 the MagicNumber/String  'Topic metadata fetch included errors: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00352"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502060 the MagicNumber/String  'Topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502540 the MagicNumber/String  'Topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00352"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502060 the MagicNumber/String  '' is invalid' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502540 the MagicNumber/String  '' is invalid' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00358"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502060 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502540 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00360"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502060 the MagicNumber/String  'Unexpected error fetching metadata for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502540 the MagicNumber/String  'Unexpected error fetching metadata for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00376"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502060 the MagicNumber/String  'Timeout expired while fetching topic metadata' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN502540 the MagicNumber/String  'Timeout expired while fetching topic metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -832,7 +832,7 @@ var maDataBlocs = {
    "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendMetadataRequest@POLYN505113 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendMetadataRequest@POLYN505593 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -846,7 +846,7 @@ var maDataBlocs = {
    "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.consumer.internals.Fetcher.offsetResetStrategyTimestamp@POLYN505482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.consumer.internals.Fetcher.offsetResetStrategyTimestamp@POLYN505962 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -860,7 +860,7 @@ var maDataBlocs = {
    "c1" : "00404"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.clients.consumer.internals.Fetcher.timestampToOffsetResetStrategy@POLYN505897 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.clients.consumer.internals.Fetcher.timestampToOffsetResetStrategy@POLYN506377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -874,42 +874,42 @@ var maDataBlocs = {
    "c1" : "00410"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsIfNeeded@POLYN506386 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsIfNeeded@POLYN506866 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00411"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsIfNeeded@POLYN506386 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsIfNeeded@POLYN506866 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00421"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsIfNeeded@POLYN506386 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsIfNeeded@POLYN506866 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsIfNeeded@POLYN507388 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsIfNeeded@POLYN507868 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00431"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsIfNeeded@POLYN507388 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsIfNeeded@POLYN507868 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsIfNeeded@POLYN507388 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsIfNeeded@POLYN507868 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -937,14 +937,14 @@ var maDataBlocs = {
    "c1" : "00454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.clients.consumer.internals.Fetcher.offsetsForTimes@POLYN508199 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.clients.consumer.internals.Fetcher.offsetsForTimes@POLYN508679 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00458"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.clients.consumer.internals.Fetcher.offsetsForTimes@POLYN508199 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.clients.consumer.internals.Fetcher.offsetsForTimes@POLYN508679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1021,35 +1021,35 @@ var maDataBlocs = {
    "c1" : "00502"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN509595 the MagicNumber/String  'Updating last stable offset for partition {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN510075 the MagicNumber/String  'Updating last stable offset for partition {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00505"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#505"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00505] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN509595 the MagicNumber/String  'Updating high watermark for partition {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00505] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN510075 the MagicNumber/String  'Updating high watermark for partition {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00524"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN509595 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN510075 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00538"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN509595 the MagicNumber/String  'Failed to get offsets by times in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN510075 the MagicNumber/String  'Failed to get offsets by times in ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00538"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN509595 the MagicNumber/String  'ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchOffsetsByTimes@POLYN510075 the MagicNumber/String  'ms' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1084,7 +1084,7 @@ var maDataBlocs = {
    "c1" : "00558"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.internals.Fetcher.beginningOrEndOffset@POLYN513076 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.internals.Fetcher.beginningOrEndOffset@POLYN513556 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1119,42 +1119,42 @@ var maDataBlocs = {
    "c1" : "00574"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#574"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514399 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514879 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00575"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#575"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514399 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00577"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514399 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00589"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#589"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00589] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514399 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00589] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514879 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00601"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#601"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00601] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514399 the MagicNumber/String  'Skipping fetching records for assigned partition {} because it is paused' should be converted to const"
+ , "c3" : "QC-JAV000010[00601] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514879 the MagicNumber/String  'Skipping fetching records for assigned partition {} because it is paused' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00603"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#603"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00603] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514399 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00603] In method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN514879 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1175,84 +1175,84 @@ var maDataBlocs = {
    "c1" : "00625"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  'Not returning fetched records for partition {} since it is no longer assigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  'Not returning fetched records for partition {} since it is no longer assigned' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00630"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#630"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  'Not returning fetched records for assigned partition {} since it is no longer fetchable' should be converted to const"
+ , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  'Not returning fetched records for assigned partition {} since it is no longer fetchable' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00634"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#634"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00634] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00634] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00635"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#635"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  'Missing position for fetchable partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  'Missing position for fetchable partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00641"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#641"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  'Returning {} fetched records at offset {} for assigned partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  'Returning {} fetched records at offset {} for assigned partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00644"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#644"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00651"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#651"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00651] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  'Updating fetch position from {} to {} for partition {} and returning {} records from `poll()`' should be converted to const"
+ , "c3" : "QC-JAV000010[00651] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  'Updating fetch position from {} to {} for partition {} and returning {} records from `poll()`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00654"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#654"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00658"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#658"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00662"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#662"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00662] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00662] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00670"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#670"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  'Ignoring fetched records for {} at offset {} since the current position is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  'Ignoring fetched records for {} at offset {} since the current position is {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00675"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN516680 the MagicNumber/String  'Draining fetched records for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN517160 the MagicNumber/String  'Draining fetched records for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1357,21 +1357,21 @@ var maDataBlocs = {
    "c1" : "00699"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsAsync@POLYN520235 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsAsync@POLYN520715 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00721"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#721"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsAsync@POLYN520235 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsAsync@POLYN520715 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00722"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#722"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsAsync@POLYN520235 the MagicNumber/String  'Discarding error in ListOffsetResponse because another error is pending' should be converted to const"
+ , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsAsync@POLYN520715 the MagicNumber/String  'Discarding error in ListOffsetResponse because another error is pending' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1392,14 +1392,14 @@ var maDataBlocs = {
    "c1" : "00730"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#730"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00730] In method org.apache.kafka.clients.consumer.internals.Fetcher.hasUsableOffsetForLeaderEpochVersion@POLYN522819 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00730] In method org.apache.kafka.clients.consumer.internals.Fetcher.hasUsableOffsetForLeaderEpochVersion@POLYN523299 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00731"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#731"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00731] In method org.apache.kafka.clients.consumer.internals.Fetcher.hasUsableOffsetForLeaderEpochVersion@POLYN522819 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00731] In method org.apache.kafka.clients.consumer.internals.Fetcher.hasUsableOffsetForLeaderEpochVersion@POLYN523299 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1413,21 +1413,21 @@ var maDataBlocs = {
    "c1" : "00749"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#749"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00749] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsAsync@POLYN523340 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00749] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsAsync@POLYN523820 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00755"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#755"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsAsync@POLYN523340 the MagicNumber/String  'Skipping validation of fetch offsets for partitions {} since the broker does not ' should be converted to const"
+ , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsAsync@POLYN523820 the MagicNumber/String  'Skipping validation of fetch offsets for partitions {} since the broker does not ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00756"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#756"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00756] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsAsync@POLYN523340 the MagicNumber/String  'support the required protocol version (introduced in Kafka 2.3)' should be converted to const"
+ , "c3" : "QC-JAV000010[00756] In method org.apache.kafka.clients.consumer.internals.Fetcher.validateOffsetsAsync@POLYN523820 the MagicNumber/String  'support the required protocol version (introduced in Kafka 2.3)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1441,7 +1441,7 @@ var maDataBlocs = {
    "c1" : "00817"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#817"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00817] In method org.apache.kafka.clients.consumer.internals.Fetcher.buildLogTruncationException@POLYN526596 the MagicNumber/String  'Detected truncated partitions: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00817] In method org.apache.kafka.clients.consumer.internals.Fetcher.buildLogTruncationException@POLYN527076 the MagicNumber/String  'Detected truncated partitions: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1455,14 +1455,14 @@ var maDataBlocs = {
    "c1" : "00822"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#822"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00822] In method org.apache.kafka.clients.consumer.internals.Fetcher.maybeSetOffsetForLeaderException@POLYN527449 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00822] In method org.apache.kafka.clients.consumer.internals.Fetcher.maybeSetOffsetForLeaderException@POLYN527929 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00823"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#823"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00823] In method org.apache.kafka.clients.consumer.internals.Fetcher.maybeSetOffsetForLeaderException@POLYN527449 the MagicNumber/String  'Discarding error in OffsetsForLeaderEpoch because another error is pending' should be converted to const"
+ , "c3" : "QC-JAV000010[00823] In method org.apache.kafka.clients.consumer.internals.Fetcher.maybeSetOffsetForLeaderException@POLYN527929 the MagicNumber/String  'Discarding error in OffsetsForLeaderEpoch because another error is pending' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1511,7 +1511,7 @@ var maDataBlocs = {
    "c1" : "00849"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#849"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00849] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetsRequests@POLYN527987 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00849] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetsRequests@POLYN528467 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1567,14 +1567,14 @@ var maDataBlocs = {
    "c1" : "00879"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#879"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00879] In method org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN530664 the MagicNumber/String  'Leader for partition {} is unknown for fetching offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00879] In method org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN531144 the MagicNumber/String  'Leader for partition {} is unknown for fetching offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00890"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#890"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00890] In method org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN530664 the MagicNumber/String  'Leader {} for partition {} is unavailable for fetching offset until reconnect backoff expires' should be converted to const"
+ , "c3" : "QC-JAV000010[00890] In method org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN531144 the MagicNumber/String  'Leader {} for partition {} is unavailable for fetching offset until reconnect backoff expires' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1588,21 +1588,21 @@ var maDataBlocs = {
    "c1" : "00910"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#910"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00910] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN532834 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00910] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN533314 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00913"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#913"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN532834 the MagicNumber/String  'Sending ListOffsetRequest {} to broker {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN533314 the MagicNumber/String  'Sending ListOffsetRequest {} to broker {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00919"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#919"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN532834 the MagicNumber/String  'Received ListOffsetResponse {} from broker {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN533314 the MagicNumber/String  'Received ListOffsetResponse {} from broker {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1714,77 +1714,77 @@ var maDataBlocs = {
    "c1" : "00941"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#941"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00942"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#942"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'Unexpected partitionData response of length ' should be converted to const"
+ , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'Unexpected partitionData response of length ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00946"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#946"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00946] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00946] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00948"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#948"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00948] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'Handling v0 ListOffsetResponse response for {}. Fetched offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00948] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'Handling v0 ListOffsetResponse response for {}. Fetched offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00951"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#951"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00951] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00951] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00956"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#956"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'Handling ListOffsetResponse response for {}. Fetched offset {}, timestamp {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'Handling ListOffsetResponse response for {}. Fetched offset {}, timestamp {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00972"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'Cannot search by timestamp for partition {} because the message format version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'Cannot search by timestamp for partition {} because the message format version ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00973"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#973"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'is before 0.10.0' should be converted to const"
+ , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'is before 0.10.0' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00982"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to {}, retrying.' should be converted to const"
+ , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to {}, retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00987"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#987"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00987] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'Received unknown topic or partition error in ListOffset request for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00987] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'Received unknown topic or partition error in ListOffset request for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00994"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#994"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534376 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to unexpected exception: {}, retrying.' should be converted to const"
+ , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN534856 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to unexpected exception: {}, retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1798,7 +1798,7 @@ var maDataBlocs = {
    "c1" : "01024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1024"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01024] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchablePartitions@POLYN539426 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01024] In method org.apache.kafka.clients.consumer.internals.Fetcher.fetchablePartitions@POLYN539906 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1812,14 +1812,14 @@ var maDataBlocs = {
    "c1" : "01041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1041"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN540116 the MagicNumber/String  'Not fetching from {} for partition {} since it is marked offline or is missing from our metadata,' should be converted to const"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN540596 the MagicNumber/String  'Not fetching from {} for partition {} since it is marked offline or is missing from our metadata,' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1042"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01042] In method org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN540116 the MagicNumber/String  ' using the leader instead.' should be converted to const"
+ , "c3" : "QC-JAV000010[01042] In method org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN540596 the MagicNumber/String  ' using the leader instead.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1861,56 +1861,56 @@ var maDataBlocs = {
    "c1" : "01073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1073"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01073] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01073] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1074"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01074] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  'Missing position for fetchable partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01074] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  'Missing position for fetchable partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1079"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01079] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  'Requesting metadata update for partition {} since the position {} is missing the current leader node' should be converted to const"
+ , "c3" : "QC-JAV000010[01079] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  'Requesting metadata update for partition {} since the position {} is missing the current leader node' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1091"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  'Skipping fetch for partition {} because node {} is awaiting reconnect backoff' should be converted to const"
+ , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  'Skipping fetch for partition {} because node {} is awaiting reconnect backoff' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1093"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01093] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  'Skipping fetch for partition {} because previous request to {} has not been processed' should be converted to const"
+ , "c3" : "QC-JAV000010[01093] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  'Skipping fetch for partition {} because previous request to {} has not been processed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1097"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01100] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01100] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN541950 the MagicNumber/String  'Added {} fetch request for partition {} at position {} to node {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN542430 the MagicNumber/String  'Added {} fetch request for partition {} at position {} to node {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1952,315 +1952,315 @@ var maDataBlocs = {
    "c1" : "01145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01145] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01145] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01151] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Ignoring fetched records for partition {} since it no longer has valid position' should be converted to const"
+ , "c3" : "QC-JAV000010[01151] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Ignoring fetched records for partition {} since it no longer has valid position' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01156] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01156] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01157] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Discarding stale fetch response for partition {} since its offset {} does not match ' should be converted to const"
+ , "c3" : "QC-JAV000010[01157] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Discarding stale fetch response for partition {} since its offset {} does not match ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01158] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'the expected offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01158] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'the expected offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01159] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01159] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01162] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Preparing to read {} bytes of data for partition {} with offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01162] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Preparing to read {} bytes of data for partition {} with offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01167] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01167] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01168] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[01168] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01171] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'There are some messages at [Partition=Offset]: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01171] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'There are some messages at [Partition=Offset]: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  ' whose size is larger than the fetch size ' should be converted to const"
+ , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  ' whose size is larger than the fetch size ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  ' and hence cannot be returned. Please considering upgrading your broker to 0.10.1.0 or ' should be converted to const"
+ , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  ' and hence cannot be returned. Please considering upgrading your broker to 0.10.1.0 or ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'newer to avoid this issue. Alternately, increase the fetch size on the client (using ' should be converted to const"
+ , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'newer to avoid this issue. Alternately, increase the fetch size on the client (using ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01175] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[01175] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Failed to make progress reading messages at ' should be converted to const"
+ , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Failed to make progress reading messages at ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01180] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  '. Received a non-empty fetch response from the server, but no ' should be converted to const"
+ , "c3" : "QC-JAV000010[01180] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  '. Received a non-empty fetch response from the server, but no ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'complete records were found.' should be converted to const"
+ , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'complete records were found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01186] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Updating high watermark for partition {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01186] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Updating high watermark for partition {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01191] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Updating log start offset for partition {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01191] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Updating log start offset for partition {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01195] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01195] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01196] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Updating last stable offset for partition {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01196] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Updating last stable offset for partition {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01203] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Updating preferred read replica for partition {} to {}, set to expire at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01203] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Updating preferred read replica for partition {} to {}, set to expire at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01215] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Error in fetch for partition {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01215] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Error in fetch for partition {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01218] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Received unknown topic or partition error in fetch for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01218] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Received unknown topic or partition error in fetch for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01221] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Received unknown topic ID error in fetch for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01221] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Received unknown topic ID error in fetch for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01224] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Received inconsistent topic ID error in fetch for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01224] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Received inconsistent topic ID error in fetch for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01231] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01231] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01232] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Discarding stale fetch response for partition {} since the fetched offset {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[01232] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Discarding stale fetch response for partition {} since the fetched offset {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01233] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'does not match the current offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01233] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'does not match the current offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01238"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01238] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Unset the preferred read replica {} for partition {} since we got {} when fetching {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01238] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Unset the preferred read replica {} for partition {} since we got {} when fetching {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01243] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Not authorized to read from partition {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01243] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Not authorized to read from partition {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01246] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Received unknown leader epoch error in fetch for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01246] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Received unknown leader epoch error in fetch for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01248"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01248] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Unknown server error while fetching offset {} for topic-partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01248] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Unknown server error while fetching offset {} for topic-partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01251"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01251] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Encountered corrupt message when fetching offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[01251] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Encountered corrupt message when fetching offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01253"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01253] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  ' for topic-partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01253] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  ' for topic-partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01256] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  'Unexpected error code ' should be converted to const"
+ , "c3" : "QC-JAV000010[01256] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  'Unexpected error code ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01258"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01258] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  ' while fetching at offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[01258] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  ' while fetching at offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01260"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01260] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  ' from topic-partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01260] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  ' from topic-partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01263"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN546875 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN547355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2281,28 +2281,28 @@ var maDataBlocs = {
    "c1" : "01276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01276] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN554615 the MagicNumber/String  'Fetch position ' should be converted to const"
+ , "c3" : "QC-JAV000010[01276] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN555095 the MagicNumber/String  'Fetch position ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01276] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN554615 the MagicNumber/String  ' is out of range for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01276] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN555095 the MagicNumber/String  ' is out of range for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01278"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01278] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN554615 the MagicNumber/String  '{}, resetting offset' should be converted to const"
+ , "c3" : "QC-JAV000010[01278] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN555095 the MagicNumber/String  '{}, resetting offset' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01281"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01281] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN554615 the MagicNumber/String  '{}, raising error to the application since no reset policy is configured' should be converted to const"
+ , "c3" : "QC-JAV000010[01281] In method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN555095 the MagicNumber/String  '{}, raising error to the application since no reset policy is configured' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2337,91 +2337,91 @@ var maDataBlocs = {
    "c1" : "01298"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01298] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01298] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01298"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01298] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01298] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01299] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01299] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01299] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01299] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01301"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01301] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01301] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01301"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01301] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01301] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01302] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01302] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01302] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01302] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01306] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01306] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01310] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  'Error deserializing key/value for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01310] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  'Error deserializing key/value for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01311"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01311] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  ' at offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[01311] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  ' at offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01311"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01311] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555446 the MagicNumber/String  '. If needed, please seek past the record to continue consumption.' should be converted to const"
+ , "c3" : "QC-JAV000010[01311] In method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN555926 the MagicNumber/String  '. If needed, please seek past the record to continue consumption.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2463,14 +2463,14 @@ var maDataBlocs = {
    "c1" : "01331"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01331] In method org.apache.kafka.clients.consumer.internals.Fetcher.clearBufferedDataForUnassignedPartitions@POLYN558205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01331] In method org.apache.kafka.clients.consumer.internals.Fetcher.clearBufferedDataForUnassignedPartitions@POLYN558685 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01333] In method org.apache.kafka.clients.consumer.internals.Fetcher.clearBufferedDataForUnassignedPartitions@POLYN558205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01333] In method org.apache.kafka.clients.consumer.internals.Fetcher.clearBufferedDataForUnassignedPartitions@POLYN558685 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2519,7 +2519,7 @@ var maDataBlocs = {
    "c1" : "01354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01354] In method org.apache.kafka.clients.consumer.internals.Fetcher.throttleTimeSensor@POLYN559841 the MagicNumber/String  'fetch-throttle-time' should be converted to const"
+ , "c3" : "QC-JAV000010[01354] In method org.apache.kafka.clients.consumer.internals.Fetcher.throttleTimeSensor@POLYN560321 the MagicNumber/String  'fetch-throttle-time' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2533,21 +2533,21 @@ var maDataBlocs = {
    "c1" : "01403"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01403] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.drain@POLYN562282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01403] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.drain@POLYN562762 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01404"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01404] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.drain@POLYN562282 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01404] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.drain@POLYN562762 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01409"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01409] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.drain@POLYN562282 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01409] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.drain@POLYN562762 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2568,21 +2568,21 @@ var maDataBlocs = {
    "c1" : "01419"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN562804 the MagicNumber/String  'Record batch for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563284 the MagicNumber/String  'Record batch for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01419"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN562804 the MagicNumber/String  ' at offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563284 the MagicNumber/String  ' at offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01420"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01420] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN562804 the MagicNumber/String  ' is invalid, cause: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01420] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563284 the MagicNumber/String  ' is invalid, cause: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2603,35 +2603,35 @@ var maDataBlocs = {
    "c1" : "01430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01430] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563338 the MagicNumber/String  'Record for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01430] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563818 the MagicNumber/String  'Record for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01430] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563338 the MagicNumber/String  ' at offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[01430] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563818 the MagicNumber/String  ' at offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01431"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01431] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563338 the MagicNumber/String  ' is invalid, cause: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01431] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN563818 the MagicNumber/String  ' is invalid, cause: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01437"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01437] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeCloseRecordStream@POLYN563800 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01437] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeCloseRecordStream@POLYN564280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01439] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeCloseRecordStream@POLYN563800 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01439] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeCloseRecordStream@POLYN564280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2645,49 +2645,49 @@ var maDataBlocs = {
    "c1" : "01444"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01444] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564033 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01444] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564513 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01445"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1445"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01445] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01445] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564513 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564513 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01457] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01457] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564513 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01476"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01476] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564033 the MagicNumber/String  'Skipping aborted record batch from partition {} with producerId {} and ' should be converted to const"
+ , "c3" : "QC-JAV000010[01476] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564513 the MagicNumber/String  'Skipping aborted record batch from partition {} with producerId {} and ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01477] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564033 the MagicNumber/String  'offsets {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01477] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564513 the MagicNumber/String  'offsets {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01497"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1497"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01497] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564033 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01497] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.nextFetchedRecord@POLYN564513 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2701,91 +2701,91 @@ var maDataBlocs = {
    "c1" : "01507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01507] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  'Received exception when fetching the next record from ' should be converted to const"
+ , "c3" : "QC-JAV000010[01507] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  'Received exception when fetching the next record from ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01508] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  '. If needed, please seek past the record to ' should be converted to const"
+ , "c3" : "QC-JAV000010[01508] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  '. If needed, please seek past the record to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01509] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  'continue consumption.' should be converted to const"
+ , "c3" : "QC-JAV000010[01509] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  'continue consumption.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01516"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01516] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01516] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01519"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01519] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01519] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01520"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1520"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01520] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01520] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01522"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1522"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01522] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01522] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01524"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01524] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01524] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01529] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01529] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01532"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01532] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01532] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01541"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1541"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01541] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  'Received exception when fetching the next record from ' should be converted to const"
+ , "c3" : "QC-JAV000010[01541] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  'Received exception when fetching the next record from ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01542"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1542"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01542] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  '. If needed, please seek past the record to ' should be converted to const"
+ , "c3" : "QC-JAV000010[01542] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  '. If needed, please seek past the record to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01543"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01543] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566429 the MagicNumber/String  'continue consumption.' should be converted to const"
+ , "c3" : "QC-JAV000010[01543] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.fetchRecords@POLYN566909 the MagicNumber/String  'continue consumption.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2806,7 +2806,7 @@ var maDataBlocs = {
    "c1" : "01549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01549] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.consumeAbortedTransactionsUpTo@POLYN568383 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01549] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.consumeAbortedTransactionsUpTo@POLYN568863 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2848,14 +2848,14 @@ var maDataBlocs = {
    "c1" : "01563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01563] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.abortedTransactions@POLYN569103 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01563] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.abortedTransactions@POLYN569583 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01564"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1564"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01564] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.abortedTransactions@POLYN569103 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01564] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.abortedTransactions@POLYN569583 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2876,14 +2876,14 @@ var maDataBlocs = {
    "c1" : "01575"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1575"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01575] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.containsAbortMarker@POLYN569738 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01575] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.containsAbortMarker@POLYN570218 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01579"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1579"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01579] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.containsAbortMarker@POLYN569738 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01579] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.containsAbortMarker@POLYN570218 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2918,7 +2918,7 @@ var maDataBlocs = {
    "c1" : "01612"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01612] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchResponseMetricAggregator.record@POLYN571294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01612] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchResponseMetricAggregator.record@POLYN571774 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2960,35 +2960,35 @@ var maDataBlocs = {
    "c1" : "01658"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1658"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01658] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN573673 the MagicNumber/String  'bytes-fetched' should be converted to const"
+ , "c3" : "QC-JAV000010[01658] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN574153 the MagicNumber/String  'bytes-fetched' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01664"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01664] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN573673 the MagicNumber/String  'records-fetched' should be converted to const"
+ , "c3" : "QC-JAV000010[01664] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN574153 the MagicNumber/String  'records-fetched' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01669"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01669] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN573673 the MagicNumber/String  'fetch-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[01669] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN574153 the MagicNumber/String  'fetch-latency' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01675"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01675] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN573673 the MagicNumber/String  'records-lag' should be converted to const"
+ , "c3" : "QC-JAV000010[01675] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN574153 the MagicNumber/String  'records-lag' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01678"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1678"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01678] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN573673 the MagicNumber/String  'records-lead' should be converted to const"
+ , "c3" : "QC-JAV000010[01678] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.FetchManagerMetrics@POLYN574153 the MagicNumber/String  'records-lead' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3009,91 +3009,91 @@ var maDataBlocs = {
    "c1" : "01684"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1684"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01684] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  'topic.' should be converted to const"
+ , "c3" : "QC-JAV000010[01684] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  'topic.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01684"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1684"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01684] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  '.bytes-fetched' should be converted to const"
+ , "c3" : "QC-JAV000010[01684] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  '.bytes-fetched' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01686"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01686] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01686] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01687"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1687"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01687"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1687"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01687"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1687"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01700"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1700"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01700] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  'topic.' should be converted to const"
+ , "c3" : "QC-JAV000010[01700] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  'topic.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01700"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1700"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01700] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  '.records-fetched' should be converted to const"
+ , "c3" : "QC-JAV000010[01700] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  '.records-fetched' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01702"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1702"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01702] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01702] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01703"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01704"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1704"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01704] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[01704] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01704"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1704"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01704] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01704] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01704"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1704"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01704] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576343 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[01704] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordTopicFetchMetrics@POLYN576823 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3128,21 +3128,21 @@ var maDataBlocs = {
    "c1" : "01732"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1732"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01732] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN579042 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01732] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN579522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01733"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1733"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01733] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN579042 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[01733] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN579522 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01733"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1733"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01733] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN579042 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01733] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN579522 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3156,7 +3156,7 @@ var maDataBlocs = {
    "c1" : "01748"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01748] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordPartitionLead@POLYN580566 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01748] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordPartitionLead@POLYN581046 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3170,7 +3170,7 @@ var maDataBlocs = {
    "c1" : "01765"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1765"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01765] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordPartitionLag@POLYN581871 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01765] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.recordPartitionLag@POLYN582351 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3184,7 +3184,7 @@ var maDataBlocs = {
    "c1" : "01777"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1777"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01777] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.partitionLagMetricName@POLYN583189 the MagicNumber/String  '.records-lag' should be converted to const"
+ , "c3" : "QC-JAV000010[01777] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.partitionLagMetricName@POLYN583669 the MagicNumber/String  '.records-lag' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3198,7 +3198,7 @@ var maDataBlocs = {
    "c1" : "01781"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1781"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01781] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.partitionLeadMetricName@POLYN583326 the MagicNumber/String  '.records-lead' should be converted to const"
+ , "c3" : "QC-JAV000010[01781] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.partitionLeadMetricName@POLYN583806 the MagicNumber/String  '.records-lead' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3226,42 +3226,42 @@ var maDataBlocs = {
    "c1" : "01790"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1790"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01790] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN583805 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[01790] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN584285 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01791"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1791"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01791] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN583805 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[01791] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN584285 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01791"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1791"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01791] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN583805 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01791] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN584285 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01791"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1791"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01791] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN583805 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[01791] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN584285 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01792"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1792"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01792] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN583805 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[01792] In method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.topicPartitionTags@POLYN584285 the MagicNumber/String  'partition' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01799"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1799"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01799] In method org.apache.kafka.clients.consumer.internals.Fetcher.close@POLYN584398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01799] In method org.apache.kafka.clients.consumer.internals.Fetcher.close@POLYN584878 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

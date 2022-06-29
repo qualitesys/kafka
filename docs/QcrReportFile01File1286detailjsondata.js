@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java 21 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java 40 rule violations " 
  , "fic2"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,7 +76,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "17"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -102,7 +125,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -115,94 +138,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00066"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#66"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method init list of called methods Object monObjet|java.nio.ByteBuffer createBatchN180391|java.nio.ByteBuffer createBatchN180880"
+   "c1" : "00070"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  42 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  42 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  'NO_CACHING' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  'NO_CACHING' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  'CREATE' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  'CREATE' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  'Unsupported buffer supplier ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  'Unsupported buffer supplier ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN179750 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN180958 the MagicNumber/String  'a' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN181438 the MagicNumber/String  'a' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN180958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN181438 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN180958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN181438 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,42 +232,182 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method createBatch list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecordsBuilder MemoryRecords_builderN182542"
+ , "c3" : "QC-JAV000007[00108] For method createBatch list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecordsBuilder MemoryRecords_builderN183022"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN181890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN181890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN181890 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN181890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN181890 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN181438"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 42 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#72"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 'NO_CACHING' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 'CREATE' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00077"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#77"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 'Unsupported buffer supplier ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00079"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00083"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.init@POLYN180230 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00130"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00130"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN182370 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN181438 the MagicNumber/String 'a' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#92"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN181438 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createHeaders@POLYN181438 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

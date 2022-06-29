@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/StructRegistry.java 41 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/StructRegistry.java 56 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.xml" 
  , "fic3"  : "" 
 }
@@ -118,7 +118,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "6"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -132,7 +132,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -197,28 +197,28 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.StructRegistry.register@POLYN184145 the MagicNumber/String  'Can't process structure ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String  'Can't process structure ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.message.StructRegistry.register@POLYN184145 the MagicNumber/String  ': the first letter of structure names must be capitalized.' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String  ': the first letter of structure names must be capitalized.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.StructRegistry.register@POLYN184145 the MagicNumber/String  'Common struct ' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String  'Common struct ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.StructRegistry.register@POLYN184145 the MagicNumber/String  ' was specified twice.' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String  ' was specified twice.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,42 +281,42 @@ var maDataBlocs = {
    "c1" : "00064"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String  'Can't re-specify the common struct ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String  'Can't re-specify the common struct ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String  ' as an inline struct.' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String  ' as an inline struct.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String  'Struct ' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String  'Struct ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String  ' was specified twice.' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String  ' was specified twice.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,28 +337,28 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187291 the MagicNumber/String  'Field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String  'Field ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187291 the MagicNumber/String  ' cannot be treated as a structure.' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String  ' cannot be treated as a structure.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187291 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187291 the MagicNumber/String  'Unable to locate a specification for the structure ' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String  'Unable to locate a specification for the structure ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -379,77 +379,182 @@ var maDataBlocs = {
    "c1" : "00123"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188504 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188504 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188504 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188504 the MagicNumber/String  'Unable to locate a specification for the structure ' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String  'Unable to locate a specification for the structure ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.StructRegistry.findStruct@POLYN187771"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.StructRegistry.register@POLYN184625"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String 'Can't re-specify the common struct ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String 'Can't re-specify the common struct ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String ' as an inline struct.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String ' as an inline struct.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String 'Struct ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String 'Struct ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#83"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185280 the MagicNumber/String ' was specified twice.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN185760 the MagicNumber/String ' was specified twice.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00108"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String 'Field ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String ' cannot be treated as a structure.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00112"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.message.StructRegistry.findStruct@POLYN187771 the MagicNumber/String 'Unable to locate a specification for the structure ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00127"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00130"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00131"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.message.StructRegistry.isStructArrayWithKeys@POLYN188984 the MagicNumber/String 'Unable to locate a specification for the structure ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String 'Can't process structure ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String ': the first letter of structure names must be capitalized.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00052"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String ' was specified twice.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00052"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.message.StructRegistry.register@POLYN184625 the MagicNumber/String 'Common struct ' MUST BE CONVERTED to const"
 }} 
 ]
 };

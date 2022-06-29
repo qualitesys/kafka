@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java 3 rule violations " 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java 11 rule violations " 
  , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -90,7 +90,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "6"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -111,7 +134,7 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.mirror.MirrorClientConfig.MirrorClientConfig@POLYN177635 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.mirror.MirrorClientConfig.MirrorClientConfig@POLYN178115 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -125,7 +148,63 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.mirror.MirrorClientConfig.clientConfig@POLYN178486 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.mirror.MirrorClientConfig.clientConfig@POLYN178966 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClientConfig.MirrorClientConfig@POLYN178115"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClientConfig.adminConfig@POLYN178504"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClientConfig.clientConfig@POLYN178966"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClientConfig.consumerConfig@POLYN178658"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClientConfig.producerConfig@POLYN178812"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClientConfig.replicationPolicy@POLYN178318"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#32"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.connect.mirror.MirrorClientConfig.MirrorClientConfig@POLYN178115 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00058"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.mirror.MirrorClientConfig.clientConfig@POLYN178966 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

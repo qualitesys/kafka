@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java 22 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java 29 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,12 +111,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -146,13 +169,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -173,13 +189,6 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00028] For method addToRequest list of called methods Object monObjet|byte[] signN180065"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#28"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00028] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -195,35 +204,35 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN180610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN180610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN180610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN180610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN180610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -279,35 +288,91 @@ var maDataBlocs = {
    "c1" : "00104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.equals@POLYN183133 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.equals@POLYN183613 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.equals@POLYN183133 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.equals@POLYN183613 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.equals@POLYN183133 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.equals@POLYN183613 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.hashCode@POLYN184057 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.hashCode@POLYN184537 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.hashCode@POLYN184057 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.hashCode@POLYN184537 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.InternalRequestSignature.addToRequest@POLYN180112"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.InternalRequestSignature.sign@POLYN183186"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00043"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#43"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.connect.runtime.rest.InternalRequestSignature.fromHeaders@POLYN181090 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

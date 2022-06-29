@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java 30 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java 51 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.xml" 
  , "fic3"  : "" 
 }
@@ -125,7 +125,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "18"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -146,6 +169,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -164,199 +194,346 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00026] For method create list of called methods Object monObjet|org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier prepareMillisCheckFailMsgPrefixN175220|org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier validateMillisecondDurationN175335|org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier prepareMillisCheckFailMsgPrefixN175448|org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier validateMillisecondDurationN175563"
+}} 
+,
+{ "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  'retentionPeriod' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  'retentionPeriod' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  'windowSize' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  'windowSize' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  60_000L should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  60_000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  'retentionPeriod cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  'windowSize cannot be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  'windowSize cannot be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  'segmentInterval cannot be zero or negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  'segmentInterval cannot be zero or negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  'The retention period of the window store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  'The retention period of the window store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  ' must be no smaller than its window size. Got size=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  ' must be no smaller than its window size. Got size=[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  '], retention=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  '], retention=[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174428 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177403 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177883 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177403 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177883 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177403 the MagicNumber/String  'invalid window store type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177883 the MagicNumber/String  'invalid window store type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.metricsScope@POLYN178205 the MagicNumber/String  'rocksdb-window' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.metricsScope@POLYN178685 the MagicNumber/String  'rocksdb-window' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  'RocksDbIndexedTimeOrderedWindowBytesStoreSupplier{' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  'RocksDbIndexedTimeOrderedWindowBytesStoreSupplier{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  'name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  ', retentionPeriod=' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  ', retentionPeriod=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  ', segmentInterval=' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  ', segmentInterval=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  ', windowSize=' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  ', windowSize=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  ', retainDuplicates=' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  ', retainDuplicates=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  ', windowStoreType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  ', windowStoreType=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN178707 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.toString@POLYN179187 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177883"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#31"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00031] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 'name cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#32"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 'retentionPeriod' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#34"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 'windowSize' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 60_000L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#39"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#40"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 'retentionPeriod cannot be negative' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#43"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 'windowSize cannot be negative' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 1L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#46"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 'segmentInterval cannot be zero or negative' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String 'The retention period of the window store ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#50"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String ' must be no smaller than its window size. Got size=[' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String ']' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.create@POLYN174908 the MagicNumber/String '], retention=[' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#99"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177883 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177883 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.get@POLYN177883 the MagicNumber/String 'invalid window store type: ' MUST BE CONVERTED to const"
 }} 
 ]
 };

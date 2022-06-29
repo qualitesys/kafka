@@ -132,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.SourceNode.SourceNode@POLYN171425 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.SourceNode.SourceNode@POLYN171905 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,14 +174,14 @@ var maDataBlocs = {
    "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.SourceNode.process@POLYN173061 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.SourceNode.process@POLYN173541 the MagicNumber/String  1.0d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.processor.internals.SourceNode.toString@POLYN173431 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.processor.internals.SourceNode.toString@POLYN173911 the MagicNumber/String  '' should be converted to const"
 }} 
 ]
 };

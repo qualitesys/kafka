@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java 4 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java 6 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,7 +104,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -141,14 +141,28 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.DeleteTopicsResponse.shouldClientThrottle@POLYN166526 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.DeleteTopicsResponse.shouldClientThrottle@POLYN167006 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsResponse.throttleTimeMs@POLYN165545"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsResponse.DeleteTopicsResponse@POLYN165807"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsResponse.parse@POLYN166723"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsResponse.throttleTimeMs@POLYN166025"
 }} 
 ]
 };

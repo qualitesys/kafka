@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java 14 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java 19 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,7 +76,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -90,7 +90,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -141,7 +141,7 @@ var maDataBlocs = {
    "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00169] For method postProcessReconnectBackoffConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; config_originalsN192583"
+ , "c3" : "QC-JAV000007[00169] For method postProcessReconnectBackoffConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; config_originalsN193063"
 }} 
 ,
 { "ligne" : {
@@ -162,7 +162,7 @@ var maDataBlocs = {
    "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.CommonClientConfigs.postProcessReconnectBackoffConfigs@POLYN192266 the MagicNumber/String  'Disabling exponential reconnect backoff because {} is set, but {} is not.' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.CommonClientConfigs.postProcessReconnectBackoffConfigs@POLYN192746 the MagicNumber/String  'Disabling exponential reconnect backoff because {} is set, but {} is not.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -183,42 +183,77 @@ var maDataBlocs = {
    "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193098 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193098 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193098 the MagicNumber/String  'When the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String  'When the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193098 the MagicNumber/String  ' configuration enables SASL, mechanism must be non-null and non-empty string.' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String  ' configuration enables SASL, mechanism must be non-null and non-empty string.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.CommonClientConfigs.postProcessReconnectBackoffConfigs@POLYN192266"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.CommonClientConfigs.postProcessReconnectBackoffConfigs@POLYN192746"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.clients.CommonClientConfigs.postProcessReconnectBackoffConfigs@POLYN192266 the MagicNumber/String 'Disabling exponential reconnect backoff because {} is set, but {} is not.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.clients.CommonClientConfigs.postProcessReconnectBackoffConfigs@POLYN192746 the MagicNumber/String 'Disabling exponential reconnect backoff because {} is set, but {} is not.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String 'When the ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00188"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.clients.CommonClientConfigs.postValidateSaslMechanismConfig@POLYN193578 the MagicNumber/String ' configuration enables SASL, mechanism must be non-null and non-empty string.' MUST BE CONVERTED to const"
 }} 
 ]
 };

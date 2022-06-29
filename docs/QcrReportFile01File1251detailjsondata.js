@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/IsNullConditional.java 33 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/IsNullConditional.java 49 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.xml" 
  , "fic3"  : "" 
 }
@@ -118,6 +118,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -127,10 +136,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "13"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -181,14 +204,14 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.message.IsNullConditional.PrimitiveConditionalGenerator.generate@POLYN171217 the MagicNumber/String  '%s != null' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.message.IsNullConditional.PrimitiveConditionalGenerator.generate@POLYN171697 the MagicNumber/String  '%s != null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.message.IsNullConditional.PrimitiveConditionalGenerator.generate@POLYN171217 the MagicNumber/String  '%s == null' should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.message.IsNullConditional.PrimitiveConditionalGenerator.generate@POLYN171697 the MagicNumber/String  '%s == null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -300,91 +323,203 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  '{%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  '{%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  'if (%s) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  'if (%s) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  '} else {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  '} else {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  'if (%s) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  'if (%s) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.message.IsNullConditional.generate@POLYN173613 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String  '}%n' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.IsNullConditional.forField@POLYN172209"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.IsNullConditional.forName@POLYN172063"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.IsNullConditional.generate@POLYN174093"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#80"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String '{%n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00086"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#86"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String 'if -%s- {%n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00096"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#96"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String '} else {%n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00101"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00102"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00103"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String 'if -%s- {%n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00103"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.message.IsNullConditional.generate@POLYN174093 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ]
 };

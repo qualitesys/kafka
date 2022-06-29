@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Quota.java 17 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Quota.java 21 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,11 +111,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "2"
 }}
 ,
@@ -160,7 +183,7 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.metrics.Quota.upperBound@POLYN165208 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.metrics.Quota.upperBound@POLYN165688 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,7 +197,7 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.Quota.lowerBound@POLYN165383 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.Quota.lowerBound@POLYN165863 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -188,28 +211,28 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166030 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166510 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166030 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166510 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166030 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166510 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166030 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN166510 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -223,28 +246,28 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.Quota.equals@POLYN166554 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.Quota.equals@POLYN167034 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.metrics.Quota.equals@POLYN166554 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.metrics.Quota.equals@POLYN167034 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN167101 the MagicNumber/String  'upper=' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN167581 the MagicNumber/String  'upper=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN167101 the MagicNumber/String  'lower=' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN167581 the MagicNumber/String  'lower=' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -259,6 +282,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#19"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00019] Public method lowerBound is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Quota.lowerBound@POLYN165863"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Quota.upperBound@POLYN165688"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#20"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00020] In the recursive method org.apache.kafka.common.metrics.Quota.lowerBound@POLYN165863 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#16"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00016] In the recursive method org.apache.kafka.common.metrics.Quota.upperBound@POLYN165688 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 };

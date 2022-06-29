@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java 11 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java 17 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,7 +104,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -160,56 +183,98 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.equals@POLYN169583 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.equals@POLYN170063 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.equals@POLYN169583 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.equals@POLYN170063 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.equals@POLYN169583 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.equals@POLYN170063 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN170584 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN170584 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN170584 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN170584 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN170584 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String '[' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00076"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#76"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String ',' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String ',' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#80"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String ',' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN171064 the MagicNumber/String ']' MUST BE CONVERTED to const"
 }} 
 ]
 };

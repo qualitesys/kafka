@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java 13 rule violations " 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java 21 rule violations " 
  , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.xml" 
  , "fic3"  : "" 
 }
@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -218,7 +218,7 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.Heartbeat.toString@POLYN178679 the MagicNumber/String  'Heartbeat{sourceClusterAlias=%s, targetClusterAlias=%s, timestamp=%d}' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.Heartbeat.toString@POLYN179159 the MagicNumber/String  'Heartbeat{sourceClusterAlias=%s, targetClusterAlias=%s, timestamp=%d}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -232,14 +232,14 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN179050|org.apache.kafka.common.protocol.types.Struct valueStructN179136"
+ , "c3" : "QC-JAV000007[00060] For method serializeValue list of called methods Object monObjet|java.nio.ByteBuffer valueSchemaN179444|java.nio.ByteBuffer headerStructN179530|java.nio.ByteBuffer valueStructN179616"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN179735"
+ , "c3" : "QC-JAV000007[00071] For method serializeKey list of called methods Object monObjet|java.nio.ByteBuffer keyStructN180215"
 }} 
 ,
 { "ligne" : {
@@ -253,7 +253,7 @@ var maDataBlocs = {
    "c1" : "00079"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00079] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN180356|Short headerStruct_getShortN180450|org.apache.kafka.common.protocol.types.Schema valueSchemaN180544|Long valueStruct_getLongN180669|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN180763|String keyStruct_getStringN180916|String keyStruct_getStringN181010"
+ , "c3" : "QC-JAV000007[00079] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN180836|Short headerStruct_getShortN180930|org.apache.kafka.connect.mirror.Heartbeat valueSchemaN181024|Long valueStruct_getLongN181149|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN181243|String keyStruct_getStringN181396|String keyStruct_getStringN181490"
 }} 
 ,
 { "ligne" : {
@@ -288,14 +288,70 @@ var maDataBlocs = {
    "c1" : "00126"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.mirror.Heartbeat.valueSchema@POLYN182831 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.mirror.Heartbeat.valueSchema@POLYN183311 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.connectPartition@POLYN182176"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.keyStruct@POLYN182265"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.serializeKey@POLYN180140"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.connectPartition@POLYN182656"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.deserializeRecord@POLYN180576"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.headerStruct@POLYN181677"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.recordKey@POLYN183050"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.recordValue@POLYN183169"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.serializeValue@POLYN179347"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.valueStruct@POLYN181971"
 }} 
 ]
 };

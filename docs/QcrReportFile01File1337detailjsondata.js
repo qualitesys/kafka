@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java 14 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java 15 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.xml" 
  , "fic3"  : "" 
 }
@@ -139,7 +139,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -204,63 +204,70 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.image.FeaturesImage.equals@POLYN172857 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.image.FeaturesImage.equals@POLYN173337 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173216 the MagicNumber/String  'FeaturesImage{' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173696 the MagicNumber/String  'FeaturesImage{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173216 the MagicNumber/String  'finalizedVersions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173696 the MagicNumber/String  'finalizedVersions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173216 the MagicNumber/String  ', metadataVersion=' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173696 the MagicNumber/String  ', metadataVersion=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173216 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.image.FeaturesImage.toString@POLYN173696 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.equals@POLYN172857"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.equals@POLYN173337"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.hashCode@POLYN172737"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.hashCode@POLYN173217"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.isEmpty@POLYN171089"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.isEmpty@POLYN171569"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.write@POLYN172083"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.image.FeaturesImage.equals@POLYN172857 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.image.FeaturesImage.equals@POLYN173337 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

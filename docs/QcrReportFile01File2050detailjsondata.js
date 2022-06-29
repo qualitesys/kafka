@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java 17 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java 27 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -139,7 +139,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "5"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -153,6 +176,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -160,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.RocksDBTimeOrderedSessionStore@POLYN178404 the MagicNumber/String  'store is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.RocksDBTimeOrderedSessionStore@POLYN178884 the MagicNumber/String  'store is null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -178,10 +208,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00050] For method findSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN180070"
+}} 
+,
+{ "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#62"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00062] For method backwardFindSessions arguments Bytes  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#62"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00062] For method backwardFindSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN180585"
 }} 
 ,
 { "ligne" : {
@@ -192,10 +236,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#74"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00074] For method findSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN181128"
+}} 
+,
+{ "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method backwardFindSessions arguments Bytes  keyFrom|Bytes  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00088] For method backwardFindSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN181693"
 }} 
 ,
 { "ligne" : {
@@ -216,7 +274,7 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN181828 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN182308 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -230,7 +288,7 @@ var maDataBlocs = {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN182102 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN182582 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,7 +302,7 @@ var maDataBlocs = {
    "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN182376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetch@POLYN182856 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -258,7 +316,7 @@ var maDataBlocs = {
    "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN182700 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.backwardFetch@POLYN183180 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -273,6 +331,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#138"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00138] For method put arguments Windowed&lt;Bytes &gt;  sessionKey|byte[]  aggregate"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.RocksDBTimeOrderedSessionStore@POLYN178884"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.fetchSession@POLYN181968"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.init@POLYN179120"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.put@POLYN183616"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.remove@POLYN183432"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00025"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#25"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore.RocksDBTimeOrderedSessionStore@POLYN178884 the MagicNumber/String 'store is null' MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java 55 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java 75 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -167,6 +167,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -179,6 +188,20 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "15"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "6"
 }}
 ,
@@ -208,13 +231,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "12"
-}}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -272,7 +288,7 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.snapshot@POLYN183058 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.snapshot@POLYN183538 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -307,14 +323,14 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putConnectorConfig@POLYN184921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putConnectorConfig@POLYN185401 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putConnectorConfig@POLYN184921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putConnectorConfig@POLYN185401 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -335,14 +351,14 @@ var maDataBlocs = {
    "c1" : "00091"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeConnectorConfig@POLYN185540 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeConnectorConfig@POLYN186020 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeConnectorConfig@POLYN185540 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeConnectorConfig@POLYN186020 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -363,21 +379,21 @@ var maDataBlocs = {
    "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN185891 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN186371 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN185891 the MagicNumber/String  'Cannot remove tasks for non-existing connector' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN186371 the MagicNumber/String  'Cannot remove tasks for non-existing connector' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN185891 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN186371 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -395,31 +411,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00109"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#109"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00109] For method putTaskConfigs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.connect.util.ConnectorTaskId,Map&lt;String,String&gt;&gt; taskConfigListAsMapN187014"
-}} 
-,
-{ "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN186539 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN187019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN186539 the MagicNumber/String  'Cannot put tasks for non-existing connector' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN187019 the MagicNumber/String  'Cannot put tasks for non-existing connector' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN186539 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN187019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -447,28 +456,28 @@ var maDataBlocs = {
    "c1" : "00128"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187424 the MagicNumber/String  'No connector `' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String  'No connector `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187424 the MagicNumber/String  '` configured' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String  '` configured' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -524,7 +533,7 @@ var maDataBlocs = {
    "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.taskConfigListAsMap@POLYN189060 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.storage.MemoryConfigBackingStore.taskConfigListAsMap@POLYN189540 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -609,6 +618,153 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#148"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00148] Void method putTaskCountRecord is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.MemoryConfigBackingStore.snapshot@POLYN183538"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.MemoryConfigBackingStore.putConnectorConfig@POLYN185401"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeConnectorConfig@POLYN186020"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN186371"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN187019"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#57"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.snapshot@POLYN183538 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putConnectorConfig@POLYN185401 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putConnectorConfig@POLYN185401 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeConnectorConfig@POLYN186020 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeConnectorConfig@POLYN186020 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN186371 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#99"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN186371 the MagicNumber/String 'Cannot remove tasks for non-existing connector' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00104"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.removeTaskConfigs@POLYN186371 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00111"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN187019 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00112"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN187019 the MagicNumber/String 'Cannot put tasks for non-existing connector' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN187019 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00128"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00129"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String 'No connector `' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00129"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String '` configured' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00133"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTargetState@POLYN187904 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

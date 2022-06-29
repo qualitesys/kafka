@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java 34 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java 36 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,7 +111,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -162,49 +162,49 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187482 the MagicNumber/String  'TxnMarkerEntry{' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187962 the MagicNumber/String  'TxnMarkerEntry{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187482 the MagicNumber/String  'producerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187962 the MagicNumber/String  'producerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187482 the MagicNumber/String  ', producerEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187962 the MagicNumber/String  ', producerEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187482 the MagicNumber/String  ', coordinatorEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187962 the MagicNumber/String  ', coordinatorEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187482 the MagicNumber/String  ', result=' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187962 the MagicNumber/String  ', result=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187482 the MagicNumber/String  ', partitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187962 the MagicNumber/String  ', partitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187482 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN187962 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -225,21 +225,21 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN187838 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN188318 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN187838 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN188318 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN187838 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN188318 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -365,28 +365,42 @@ var maDataBlocs = {
    "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN193825 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN194305 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN193825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN194305 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN193825 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN194305 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.WriteTxnMarkersRequest.getErrorResponse@POLYN191255"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.WriteTxnMarkersRequest.WriteTxnMarkersRequest@POLYN191370"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.WriteTxnMarkersRequest.getErrorResponse@POLYN191735"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.WriteTxnMarkersRequest.parse@POLYN194000"
 }} 
 ]
 };

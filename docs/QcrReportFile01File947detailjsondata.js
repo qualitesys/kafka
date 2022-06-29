@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java 90 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java 71 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.xml" 
  , "fic3"  : "" 
 }
@@ -116,16 +116,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "24"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "11"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -139,7 +132,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -218,35 +211,35 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String  'Writer schema is optional, however, target schema does not provide a default value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String  'Writer schema is optional, however, target schema does not provide a default value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -267,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193865 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,7 +274,7 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method projectStruct list of called methods Object monObjet|String targetField_nameN194845|Object source_fieldN194920|Object sourceStruct_getN195087"
+ , "c3" : "QC-JAV000007[00075] For method projectStruct list of called methods Object monObjet|String targetField_nameN195325|Object source_fieldN195400|Object sourceStruct_getN195567"
 }} 
 ,
 { "ligne" : {
@@ -344,35 +337,35 @@ var maDataBlocs = {
    "c1" : "00080"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String  'Error projecting ' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String  'Error projecting ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String  'Required field `' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String  'Required field `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String  '` is missing from source schema: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String  '` is missing from source schema: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -414,42 +407,42 @@ var maDataBlocs = {
    "c1" : "00102"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196158 the MagicNumber/String  'Schema type mismatch. source type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196638 the MagicNumber/String  'Schema type mismatch. source type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196158 the MagicNumber/String  ' and target type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196638 the MagicNumber/String  ' and target type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196158 the MagicNumber/String  'Schema name mismatch. source name: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196638 the MagicNumber/String  'Schema name mismatch. source name: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196158 the MagicNumber/String  ' and target name: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196638 the MagicNumber/String  ' and target name: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196158 the MagicNumber/String  'Schema parameters not equal. source parameters: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196638 the MagicNumber/String  'Schema parameters not equal. source parameters: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196158 the MagicNumber/String  ' and target parameters: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN196638 the MagicNumber/String  ' and target parameters: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -484,7 +477,7 @@ var maDataBlocs = {
    "c1" : "00119"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00119] For method projectMap list of called methods Object monObjet|Object projectN198686|Object projectN198856"
+ , "c3" : "QC-JAV000007[00119] For method projectMap list of called methods Object monObjet|Object projectN199166|Object projectN199336"
 }} 
 ,
 { "ligne" : {
@@ -554,7 +547,7 @@ var maDataBlocs = {
    "c1" : "00158"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.data.SchemaProjector.projectPrimitive@POLYN199138 the MagicNumber/String  'Not promotable type.' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.data.SchemaProjector.projectPrimitive@POLYN199618 the MagicNumber/String  'Not promotable type.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -568,252 +561,119 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 ending with method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN198485"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.SchemaProjector.projectPrimitive@POLYN199618"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193865"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN198005 ending with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN198005"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 ending with method org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN198005"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN198005"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385 ending with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385 ending with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN198005"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 ending with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00080"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#80"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00086"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#86"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String 'Error projecting ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#90"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String 'Required field `' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194499 the MagicNumber/String '` is missing from source schema: ' MUST BE CONVERTED to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#35"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#36"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String 'Writer schema is optional, however, target schema does not provide a default value.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String 'Writer schema is optional, however, target schema does not provide a default value.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192334 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN192814 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00158"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectPrimitive@POLYN199618 the MagicNumber/String 'Not promotable type.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193385 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN193865 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00080"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#80"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00086"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#86"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String 'Error projecting ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String 'Required field `' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN194979 the MagicNumber/String '` is missing from source schema: ' MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java 71 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java 72 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.xml" 
  , "fic3"  : "" 
 }
@@ -209,7 +209,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -232,7 +232,7 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.OAuthBearerSaslServer@POLYN199138 the MagicNumber/String  'Callback handler must be castable to %s: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.OAuthBearerSaslServer@POLYN199618 the MagicNumber/String  'Callback handler must be castable to %s: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,42 +246,42 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String  'Received %x01 response from client after it received our error' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String  'Received %x01 response from client after it received our error' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.getAuthorizationID@POLYN201019 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.getAuthorizationID@POLYN201499 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -295,7 +295,7 @@ var maDataBlocs = {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.getNegotiatedProperty@POLYN201363 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.getNegotiatedProperty@POLYN201843 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -309,7 +309,7 @@ var maDataBlocs = {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.unwrap@POLYN202006 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.unwrap@POLYN202486 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -323,28 +323,28 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.wrap@POLYN202411 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.wrap@POLYN202891 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.dispose@POLYN202802 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.dispose@POLYN203282 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.dispose@POLYN202802 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.dispose@POLYN203282 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.dispose@POLYN202802 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.dispose@POLYN203282 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,7 +358,7 @@ var maDataBlocs = {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method process list of called methods Object monObjet|String jsonErrorResponseN203686|java.util.Map&lt;String,String&gt; processExtensionsN204503"
+ , "c3" : "QC-JAV000007[00120] For method process list of called methods Object monObjet|byte[] jsonErrorResponseN204166|byte[] processExtensionsN204983"
 }} 
 ,
 { "ligne" : {
@@ -372,35 +372,35 @@ var maDataBlocs = {
    "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String  'Authentication failed: Client requested an authorization id (%s) that is different from the token's principal name (%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String  'Authentication failed: Client requested an authorization id (%s) that is different from the token's principal name (%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String  'Successfully authenticate User={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String  'Successfully authenticate User={}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -421,35 +421,35 @@ var maDataBlocs = {
    "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String  'Authentication failed: %d extensions are invalid! They are: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String  'Authentication failed: %d extensions are invalid! They are: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String  '; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String  '; ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -463,42 +463,42 @@ var maDataBlocs = {
    "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206180 the MagicNumber/String  '{\'status\':\'%s\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206660 the MagicNumber/String  '{\'status\':\'%s\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206180 the MagicNumber/String  '%s, \'scope\':\'%s\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206660 the MagicNumber/String  '%s, \'scope\':\'%s\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206180 the MagicNumber/String  '%s, \'openid-configuration\':\'%s\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206660 the MagicNumber/String  '%s, \'openid-configuration\':\'%s\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206180 the MagicNumber/String  '%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.jsonErrorResponse@POLYN206660 the MagicNumber/String  '%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -512,7 +512,7 @@ var maDataBlocs = {
    "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.handleCallbackError@POLYN206959 the MagicNumber/String  '%s: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.handleCallbackError@POLYN207439 the MagicNumber/String  '%s: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -526,14 +526,14 @@ var maDataBlocs = {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.mechanismNamesCompatibleWithPolicy@POLYN207377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.mechanismNamesCompatibleWithPolicy@POLYN207857 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.mechanismNamesCompatibleWithPolicy@POLYN207377 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.mechanismNamesCompatibleWithPolicy@POLYN207857 the MagicNumber/String  'true' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -551,17 +551,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00193"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#193"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00193] For method createSaslServer list of called methods Object monObjet|String[] getMechanismNamesN208632"
+}} 
+,
+{ "ligne" : {
    "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.OAuthBearerSaslServerFactory.createSaslServer@POLYN207918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.OAuthBearerSaslServerFactory.createSaslServer@POLYN208398 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.OAuthBearerSaslServerFactory.createSaslServer@POLYN207918 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.OAuthBearerSaslServerFactory.createSaslServer@POLYN208398 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -575,140 +582,140 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.handleCallbackError@POLYN206959"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.handleCallbackError@POLYN207439"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#55"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String 'Received %x01 response from client after it received our error' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#58"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200008 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#181"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.handleCallbackError@POLYN206959 the MagicNumber/String '%s: %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String 'Authentication failed: Client requested an authorization id -%s- that is different from the token's principal name -%s-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String 'Authentication failed: Client requested an authorization id -%s- that is different from the token's principal name -%s-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String 'Successfully authenticate User={}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String 'Successfully authenticate User={}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203025 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.process@POLYN203505 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00181"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.handleCallbackError@POLYN207439 the MagicNumber/String '%s: %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#159"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String 'Authentication failed: %d extensions are invalid! They are: %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String 'Authentication failed: %d extensions are invalid! They are: %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String ': ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String ': ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205024 the MagicNumber/String '; ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN205504 the MagicNumber/String '; ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String 'Received %x01 response from client after it received our error' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.evaluateResponse@POLYN200488 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

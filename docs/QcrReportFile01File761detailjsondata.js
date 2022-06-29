@@ -169,14 +169,14 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN172895 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN173375 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN172895 the MagicNumber/String  'Successfully logged in.' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN173375 the MagicNumber/String  'Successfully logged in.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,21 +260,21 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.authenticator.AbstractLogin.DefaultLoginCallbackHandler.handle@POLYN173967 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.authenticator.AbstractLogin.DefaultLoginCallbackHandler.handle@POLYN174447 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.authenticator.AbstractLogin.DefaultLoginCallbackHandler.handle@POLYN173967 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.authenticator.AbstractLogin.DefaultLoginCallbackHandler.handle@POLYN174447 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.security.authenticator.AbstractLogin.DefaultLoginCallbackHandler.handle@POLYN173967 the MagicNumber/String  'Unrecognized SASL Login callback' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.security.authenticator.AbstractLogin.DefaultLoginCallbackHandler.handle@POLYN174447 the MagicNumber/String  'Unrecognized SASL Login callback' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -309,21 +309,21 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN172895"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN173375"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN172895 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN173375 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN172895 the MagicNumber/String 'Successfully logged in.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN173375 the MagicNumber/String 'Successfully logged in.' MUST BE CONVERTED to const"
 }} 
 ]
 };

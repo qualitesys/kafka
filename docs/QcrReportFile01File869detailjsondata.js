@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java 11 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java 21 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.xml" 
  , "fic3"  : "" 
 }
@@ -55,7 +55,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -97,63 +120,133 @@ var maDataBlocs = {
    "c1" : "00006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#6"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00006] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00006] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#7"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  56 should be converted to const"
+ , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  56 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00011"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160473 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00006"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#6"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00006] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00007"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#7"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00007] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#10"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00010] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String 56 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00011"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#11"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00011] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String 48 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00012"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#12"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00012] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String 40 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00013"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#13"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00013] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String 32 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#14"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00014] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String 24 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#15"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00015] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String 16 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#16"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00016] In the recursive method org.apache.kafka.common.serialization.LongSerializer.serialize@POLYN160953 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ]
 };

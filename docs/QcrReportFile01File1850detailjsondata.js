@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -188,7 +188,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -223,7 +223,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -267,14 +267,14 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.RecordQueue.RecordQueue@POLYN191230 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.RecordQueue.RecordQueue@POLYN191710 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.processor.internals.RecordQueue.RecordQueue@POLYN191230 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.processor.internals.RecordQueue.RecordQueue@POLYN191710 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -292,6 +292,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#93"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00093] For method addRawRecords list of called methods Object monObjet|int consumerRecordSizeInBytesN194243"
+}} 
+,
+{ "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#105"
  , "c2" : "MINOR"
@@ -302,84 +309,84 @@ var maDataBlocs = {
    "c1" : "00111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.processor.internals.RecordQueue.poll@POLYN193993 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.processor.internals.RecordQueue.poll@POLYN194473 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.RecordQueue.poll@POLYN193993 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.RecordQueue.poll@POLYN194473 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.RecordQueue.size@POLYN194664 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.RecordQueue.size@POLYN195144 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.RecordQueue.size@POLYN194664 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.RecordQueue.size@POLYN195144 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.RecordQueue.size@POLYN194664 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.RecordQueue.size@POLYN195144 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.RecordQueue.isEmpty@POLYN194969 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.RecordQueue.isEmpty@POLYN195449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.RecordQueue.headRecordTimestamp@POLYN195180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.RecordQueue.headRecordTimestamp@POLYN195660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.RecordQueue.headRecordOffset@POLYN195342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.RecordQueue.headRecordOffset@POLYN195822 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.RecordQueue.headRecordOffset@POLYN195342 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.RecordQueue.headRecordOffset@POLYN195822 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN195551 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN196031 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN195551 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN196031 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00152] For method updateHead list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecord&lt;Object,Object&gt; recordDeserializer_deserializeN196414"
+ , "c3" : "QC-JAV000007[00152] For method updateHead list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecord&lt;Object,Object&gt; recordDeserializer_deserializeN196894"
 }} 
 ,
 { "ligne" : {
@@ -414,63 +421,63 @@ var maDataBlocs = {
    "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  'Fatal user code error in TimestampExtractor callback for record %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  'Fatal user code error in TimestampExtractor callback for record %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  'Source node {} extracted timestamp {} for record {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  'Source node {} extracted timestamp {} for record {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  'Skipping record due to negative extracted timestamp. topic=[{}] partition=[{}] offset=[{}] extractedTimestamp=[{}] extractor=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  'Skipping record due to negative extracted timestamp. topic=[{}] partition=[{}] offset=[{}] extractedTimestamp=[{}] extractor=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -491,112 +498,105 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.poll@POLYN193993"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.addRawRecords@POLYN193867"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN195551"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN196031"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.poll@POLYN193993 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.poll@POLYN193993 the MagicNumber/String 0L MUST BE CONVERTED to const"
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.close@POLYN196290"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String 'Fatal user code error in TimestampExtractor callback for record %s.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String 'Fatal user code error in TimestampExtractor callback for record %s.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String 'Source node {} extracted timestamp {} for record {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String 'Source node {} extracted timestamp {} for record {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#181"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String 'Skipping record due to negative extracted timestamp. topic=[{}] partition=[{}] offset=[{}] extractedTimestamp=[{}] extractor=[{}]' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String 'Skipping record due to negative extracted timestamp. topic=[{}] partition=[{}] offset=[{}] extractedTimestamp=[{}] extractor=[{}]' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN195942 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN196422 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN195551 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN196031 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN195551 the MagicNumber/String 0L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN196031 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ]
 };

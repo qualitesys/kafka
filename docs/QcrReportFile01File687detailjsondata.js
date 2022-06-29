@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java 27 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java 31 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -136,6 +136,13 @@ var maDataBlocs = {
 ,
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -146,7 +153,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -183,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.build@POLYN191224 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.build@POLYN191704 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -211,70 +218,70 @@ var maDataBlocs = {
    "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  '(type=LeaderAndIsRequest' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  '(type=LeaderAndIsRequest' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ', controllerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ', controllerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ', controllerEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ', controllerEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ', brokerEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ', brokerEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ', partitionStates=' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ', partitionStates=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ', topicIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ', topicIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ', liveLeaders=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ', liveLeaders=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193392 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder.toString@POLYN193872 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -288,7 +295,7 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.normalize@POLYN194589 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.normalize@POLYN195069 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -316,14 +323,14 @@ var maDataBlocs = {
    "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.getErrorResponse@POLYN195025 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.getErrorResponse@POLYN195505 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.partitionStates@POLYN197283 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.requests.LeaderAndIsrRequest.partitionStates@POLYN197763 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,28 +344,56 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.brokerEpoch@POLYN197156"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.LeaderAndIsrRequest@POLYN194782"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.controllerEpoch@POLYN197036"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.brokerEpoch@POLYN197636"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.controllerId@POLYN196916"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.controllerEpoch@POLYN197516"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.topicIds@POLYN197734"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.controllerId@POLYN197396"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.getErrorResponse@POLYN195505"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.parse@POLYN198735"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrRequest.topicIds@POLYN198214"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.common.requests.LeaderAndIsrRequest.getErrorResponse@POLYN195505 the MagicNumber/String 5 MUST BE CONVERTED to const"
 }} 
 ]
 };

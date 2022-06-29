@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageSpecType.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageSpecType.java 1 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageSpecType.java 0 rule violation " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageSpecType.java.xml" 
  , "fic3"  : "" 
 }
@@ -12,7 +12,7 @@ var maDataBlocs = {
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.message." , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
@@ -41,22 +41,5 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {
-   "c1" : "00003"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageSpecType.java.html#3"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00003] syntax analysis failed on file /home/runner/work/kafka/kafka/generator/src/main/java/org/apache/kafka/message/MessageSpecType.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . message ; import com "
-}} 
-]
 };
 console.log('leListeStr 99 main end');

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java 5 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java 7 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -162,21 +162,35 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.ExpireDelegationTokenResponse.shouldClientThrottle@POLYN165415 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.ExpireDelegationTokenResponse.shouldClientThrottle@POLYN165895 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ExpireDelegationTokenResponse.errorCounts@POLYN164924"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ExpireDelegationTokenResponse.ExpireDelegationTokenResponse@POLYN164624"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ExpireDelegationTokenResponse.throttleTimeMs@POLYN165167"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ExpireDelegationTokenResponse.errorCounts@POLYN165404"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ExpireDelegationTokenResponse.parse@POLYN164833"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ExpireDelegationTokenResponse.throttleTimeMs@POLYN165647"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java 41 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java 50 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.xml" 
  , "fic3"  : "" 
 }
@@ -188,7 +188,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -223,6 +246,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -237,28 +267,28 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN193591 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN194071 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN193591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN194071 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN193591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN194071 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN193591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.reset@POLYN194071 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -300,21 +330,21 @@ var maDataBlocs = {
    "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.report@POLYN195946 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.report@POLYN196426 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.report@POLYN195946 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.report@POLYN196426 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN196885 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197365 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -322,6 +352,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#111"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00111] For method toString arguments boolean  includeMessage"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00111"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#111"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00111] For method toString list of called methods Object monObjet|String consumerRecordN198620"
 }} 
 ,
 { "ligne" : {
@@ -335,119 +372,119 @@ var maDataBlocs = {
    "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  'Executing stage '' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  'Executing stage '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  '' with class '' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  '' with class '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  ', where source record is = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  ', where source record is = ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  ', where consumed record is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  ', where consumed record is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  '{topic='' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  '{topic='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  ', partition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  ', partition=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  ', offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  ', offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  ', timestamp=' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  ', timestamp=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  ', timestampType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  ', timestampType=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197004 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.toString@POLYN197484 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -468,7 +505,7 @@ var maDataBlocs = {
    "c1" : "00159"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.failed@POLYN200107 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.failed@POLYN200587 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -489,28 +526,84 @@ var maDataBlocs = {
    "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN200549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN200549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN200549 the MagicNumber/String  'Failed to close all reporters' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String  'Failed to close all reporters' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00179"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN200549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.ProcessingContext.report@POLYN196426"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00170"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String 'Failed to close all reporters' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00179"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.connect.runtime.errors.ProcessingContext.close@POLYN201029 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#92"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.runtime.errors.ProcessingContext.report@POLYN196426 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.runtime.errors.ProcessingContext.report@POLYN196426 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

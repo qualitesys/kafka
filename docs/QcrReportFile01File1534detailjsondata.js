@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 127 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 182 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -286,7 +286,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "10"
+ , "c4" : "50"
 }}
 ,
 { "ligne" : {
@@ -300,7 +300,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : {
@@ -328,7 +328,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -358,21 +358,21 @@ var maDataBlocs = {
    "c1" : "00914"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN466053 the MagicNumber/String  'Invalid value (' should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN466533 the MagicNumber/String  'Invalid value (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00914"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN466053 the MagicNumber/String  ') on internal configuration '' should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN466533 the MagicNumber/String  ') on internal configuration '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00914"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN466053 the MagicNumber/String  ''. Please specify a true/false value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN466533 the MagicNumber/String  ''. Please specify a true/false value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -393,21 +393,21 @@ var maDataBlocs = {
    "c1" : "00926"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN466843 the MagicNumber/String  'Invalid value (' should be converted to const"
+ , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN467323 the MagicNumber/String  'Invalid value (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00926"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN466843 the MagicNumber/String  ') on internal configuration '' should be converted to const"
+ , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN467323 the MagicNumber/String  ') on internal configuration '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00926"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN466843 the MagicNumber/String  ''. Please specify a numeric value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN467323 the MagicNumber/String  ''. Please specify a numeric value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -428,21 +428,21 @@ var maDataBlocs = {
    "c1" : "00936"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN467675 the MagicNumber/String  'Invalid value (' should be converted to const"
+ , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN468155 the MagicNumber/String  'Invalid value (' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00936"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN467675 the MagicNumber/String  ') on internal configuration '' should be converted to const"
+ , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN468155 the MagicNumber/String  ') on internal configuration '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00936"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN467675 the MagicNumber/String  ''. Please specify a String value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN468155 the MagicNumber/String  ''. Please specify a String value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -505,7 +505,7 @@ var maDataBlocs = {
    "c1" : "00997"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#997"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471514 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471994 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -519,84 +519,77 @@ var maDataBlocs = {
    "c1" : "01007"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1007"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471683 the MagicNumber/String  'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release. ' should be converted to const"
+ , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN472163 the MagicNumber/String  'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1008"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471683 the MagicNumber/String  'Please use `{}` instead. Note that this requires broker version 2.5+ so you should prepare ' should be converted to const"
+ , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN472163 the MagicNumber/String  'Please use `{}` instead. Note that this requires broker version 2.5+ so you should prepare ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01009"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1009"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01009] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471683 the MagicNumber/String  'to upgrade your brokers if necessary.' should be converted to const"
+ , "c3" : "QC-JAV000010[01009] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN472163 the MagicNumber/String  'to upgrade your brokers if necessary.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01012"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1012"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01012] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471683 the MagicNumber/String  'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release. ' should be converted to const"
+ , "c3" : "QC-JAV000010[01012] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN472163 the MagicNumber/String  'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01013"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1013"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01013] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471683 the MagicNumber/String  'Please use `{}` instead.' should be converted to const"
+ , "c3" : "QC-JAV000010[01013] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN472163 the MagicNumber/String  'Please use `{}` instead.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01017"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1017"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN471683 the MagicNumber/String  'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1025"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01025] For method verifyEOSTransactionTimeoutCompatibility list of called methods Object monObjet|Long getLongN472943|String producerPrefixN473034|java.util.Map&lt;String,Object&gt; originalsN473133"
+ , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN472163 the MagicNumber/String  'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN472867 the MagicNumber/String  'Transaction timeout %d was set lower than ' should be converted to const"
+ , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String  'Transaction timeout %d was set lower than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1033"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN472867 the MagicNumber/String  'streams commit interval %d. This will cause ongoing transaction always timeout due to inactivity ' should be converted to const"
+ , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String  'streams commit interval %d. This will cause ongoing transaction always timeout due to inactivity ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1034"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN472867 the MagicNumber/String  'caused by long commit interval. Consider reconfiguring commit interval to match ' should be converted to const"
+ , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String  'caused by long commit interval. Consider reconfiguring commit interval to match ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1035"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN472867 the MagicNumber/String  'transaction timeout by tuning 'commit.interval.ms' config, or increase the transaction timeout to match ' should be converted to const"
+ , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String  'transaction timeout by tuning 'commit.interval.ms' config, or increase the transaction timeout to match ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01036"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1036"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01036] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN472867 the MagicNumber/String  'commit interval by tuning `producer.transaction.timeout.ms` config.' should be converted to const"
+ , "c3" : "QC-JAV000010[01036] In method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String  'commit interval by tuning `producer.transaction.timeout.ms` config.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -610,126 +603,119 @@ var maDataBlocs = {
    "c1" : "01042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1042"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01042] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN473970"
+ , "c3" : "QC-JAV000007[01042] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN474450"
 }} 
 ,
 { "ligne" : {
    "c1" : "01047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1047"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN473791 the MagicNumber/String  'Using {} default value of {} as exactly once is enabled.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1057"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01057] For method validateRackAwarenessConfiguration list of called methods Object monObjet|java.util.List&lt;String&gt; getListN474609|java.util.Map&lt;String,String&gt; getClientTagsN474737"
+ , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN474271 the MagicNumber/String  'Using {} default value of {} as exactly once is enabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1062"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  'At most ' should be converted to const"
+ , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  'At most ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1062"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  ' client tags ' should be converted to const"
+ , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  ' client tags ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1063"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  'can be specified using ' should be converted to const"
+ , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  'can be specified using ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1063"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  ' prefix.' should be converted to const"
+ , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  ' prefix.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1070"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  'Contains invalid value [' should be converted to const"
+ , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  'Contains invalid value [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1070"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1071"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01071] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  'which doesn't have corresponding tag set via [' should be converted to const"
+ , "c3" : "QC-JAV000010[01071] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  'which doesn't have corresponding tag set via [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1071"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01071] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  '] prefix.' should be converted to const"
+ , "c3" : "QC-JAV000010[01071] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  '] prefix.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1079"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01079] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  'Tag key exceeds maximum length of ' should be converted to const"
+ , "c3" : "QC-JAV000010[01079] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  'Tag key exceeds maximum length of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1079"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01079] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01079] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01084"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1084"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01084] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  'Tag value exceeds maximum length of ' should be converted to const"
+ , "c3" : "QC-JAV000010[01084] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  'Tag value exceeds maximum length of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01084"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1084"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01084] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474512 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[01084] In method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1089"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01089] For method getCommonConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN476250"
+ , "c3" : "QC-JAV000007[01089] For method getCommonConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN476730"
 }} 
 ,
 { "ligne" : {
    "c1" : "01097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1097"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.streams.StreamsConfig.getCommonConsumerConfigs@POLYN476133 the MagicNumber/String  'internal.throw.on.fetch.stable.offset.unsupported' should be converted to const"
+ , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.streams.StreamsConfig.getCommonConsumerConfigs@POLYN476613 the MagicNumber/String  'internal.throw.on.fetch.stable.offset.unsupported' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1097"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.streams.StreamsConfig.getCommonConsumerConfigs@POLYN476133 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01097] In method org.apache.kafka.streams.StreamsConfig.getCommonConsumerConfigs@POLYN476613 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -750,63 +736,63 @@ var maDataBlocs = {
    "c1" : "01116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01116] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  'Unexpected user-specified %s config: %s found. %sUser setting (%s) will be ignored and the Streams default setting (%s) will be used ' should be converted to const"
+ , "c3" : "QC-JAV000010[01116] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  'Unexpected user-specified %s config: %s found. %sUser setting (%s) will be ignored and the Streams default setting (%s) will be used ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  ' is set to ' should be converted to const"
+ , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  ' is set to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  '. Hence, ' should be converted to const"
+ , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  '. Hence, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  'consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  'consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  'consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  'consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01137] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  'producer' should be converted to const"
+ , "c3" : "QC-JAV000010[01137] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  'producer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01142] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  'producer' should be converted to const"
+ , "c3" : "QC-JAV000010[01142] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  'producer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01142] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String  '&amp;lt;appId&amp;gt;-&amp;lt;generatedSuffix&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01142] In method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String  '&amp;lt;appId&amp;gt;-&amp;lt;generatedSuffix&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -820,35 +806,35 @@ var maDataBlocs = {
    "c1" : "01155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480361 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480361 the MagicNumber/String  'String value could not be parsed as 32-bit integer' should be converted to const"
+ , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480841 the MagicNumber/String  'String value could not be parsed as 32-bit integer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01166] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480361 the MagicNumber/String  'Expected value to be a 32-bit integer, but it was a ' should be converted to const"
+ , "c3" : "QC-JAV000010[01166] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480841 the MagicNumber/String  'Expected value to be a 32-bit integer, but it was a ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01169] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480361 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[01169] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480841 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01170] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480361 the MagicNumber/String  'Can't exceed 5 when exactly-once processing is enabled' should be converted to const"
+ , "c3" : "QC-JAV000010[01170] In method org.apache.kafka.streams.StreamsConfig.verifyMaxInFlightRequestPerConnection@POLYN480841 the MagicNumber/String  'Can't exceed 5 when exactly-once processing is enabled' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -862,42 +848,42 @@ var maDataBlocs = {
    "c1" : "01177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01177] For method getMainConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getCommonConsumerConfigsN482297|java.util.Map&lt;String,Object&gt; originalsWithPrefixN482406|java.util.Map&lt;String,Object&gt; originalsWithPrefixN484806|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN484958"
+ , "c3" : "QC-JAV000007[01177] For method getMainConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getCommonConsumerConfigsN482777|java.util.Map&lt;String,Object&gt; originalsWithPrefixN482886|java.util.Map&lt;String,Object&gt; originalsWithPrefixN485286|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN485438"
 }} 
 ,
 { "ligne" : {
    "c1" : "01194"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01194] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482099 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01194] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01195"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01195] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482099 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[01195] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01211] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482099 the MagicNumber/String  'false' should be converted to const"
+ , "c3" : "QC-JAV000010[01211] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String  'false' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01214] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482099 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01214] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01223"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01223] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482099 the MagicNumber/String  'Specified topic segment size %d is is smaller than the configured producer batch size %d, this will cause produced batch not able to be appended to the topic' should be converted to const"
+ , "c3" : "QC-JAV000010[01223] In method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String  'Specified topic segment size %d is is smaller than the configured producer batch size %d, this will cause produced batch not able to be appended to the topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -911,14 +897,14 @@ var maDataBlocs = {
    "c1" : "01236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01236] For method getRestoreConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getCommonConsumerConfigsN486654|java.util.Map&lt;String,Object&gt; originalsWithPrefixN486763"
+ , "c3" : "QC-JAV000007[01236] For method getRestoreConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getCommonConsumerConfigsN487134|java.util.Map&lt;String,Object&gt; originalsWithPrefixN487243"
 }} 
 ,
 { "ligne" : {
    "c1" : "01252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01252] In method org.apache.kafka.streams.StreamsConfig.getRestoreConsumerConfigs@POLYN486512 the MagicNumber/String  'none' should be converted to const"
+ , "c3" : "QC-JAV000010[01252] In method org.apache.kafka.streams.StreamsConfig.getRestoreConsumerConfigs@POLYN486992 the MagicNumber/String  'none' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -932,21 +918,21 @@ var maDataBlocs = {
    "c1" : "01259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01259] For method getGlobalConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getCommonConsumerConfigsN488191|java.util.Map&lt;String,Object&gt; originalsWithPrefixN488300"
+ , "c3" : "QC-JAV000007[01259] For method getGlobalConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getCommonConsumerConfigsN488671|java.util.Map&lt;String,Object&gt; originalsWithPrefixN488780"
 }} 
 ,
 { "ligne" : {
    "c1" : "01274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01274] In method org.apache.kafka.streams.StreamsConfig.getGlobalConsumerConfigs@POLYN488049 the MagicNumber/String  '-global-consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[01274] In method org.apache.kafka.streams.StreamsConfig.getGlobalConsumerConfigs@POLYN488529 the MagicNumber/String  '-global-consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01275] In method org.apache.kafka.streams.StreamsConfig.getGlobalConsumerConfigs@POLYN488049 the MagicNumber/String  'none' should be converted to const"
+ , "c3" : "QC-JAV000010[01275] In method org.apache.kafka.streams.StreamsConfig.getGlobalConsumerConfigs@POLYN488529 the MagicNumber/String  'none' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -960,21 +946,21 @@ var maDataBlocs = {
    "c1" : "01282"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1282"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01282] For method getProducerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN489578"
+ , "c3" : "QC-JAV000007[01282] For method getProducerConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN490058"
 }} 
 ,
 { "ligne" : {
    "c1" : "01294"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01294] In method org.apache.kafka.streams.StreamsConfig.getProducerConfigs@POLYN489436 the MagicNumber/String  'internal.auto.downgrade.txn.commit' should be converted to const"
+ , "c3" : "QC-JAV000010[01294] In method org.apache.kafka.streams.StreamsConfig.getProducerConfigs@POLYN489916 the MagicNumber/String  'internal.auto.downgrade.txn.commit' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01294"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01294] In method org.apache.kafka.streams.StreamsConfig.getProducerConfigs@POLYN489436 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01294] In method org.apache.kafka.streams.StreamsConfig.getProducerConfigs@POLYN489916 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -988,7 +974,7 @@ var maDataBlocs = {
    "c1" : "01306"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01306] For method getAdminConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN490956"
+ , "c3" : "QC-JAV000007[01306] For method getAdminConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; getClientPropsWithPrefixN491436"
 }} 
 ,
 { "ligne" : {
@@ -1002,105 +988,105 @@ var maDataBlocs = {
    "c1" : "01330"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1330"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01330] For method getClientPropsWithPrefix list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; clientPropsN492246"
+ , "c3" : "QC-JAV000007[01330] For method getClientPropsWithPrefix list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; clientPropsN492726"
 }} 
 ,
 { "ligne" : {
    "c1" : "01338"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1338"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01338] For method getClientCustomProps list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsN492923"
+ , "c3" : "QC-JAV000007[01338] For method getClientCustomProps list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsN493403"
 }} 
 ,
 { "ligne" : {
    "c1" : "01344"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN492806 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN493286 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01345] In method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN492806 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01345] In method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN493286 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01346"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01346] In method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN492806 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01346] In method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN493286 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1352"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01352] For method defaultKeySerde list of called methods Object monObjet|Object getN494208"
+ , "c3" : "QC-JAV000007[01352] For method defaultKeySerde list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde getN494688"
 }} 
 ,
 { "ligne" : {
    "c1" : "01354"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01354] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494128 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01354] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01355"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01355] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494128 the MagicNumber/String  'Please specify a key serde or set one through StreamsConfig#DEFAULT_KEY_SERDE_CLASS_CONFIG' should be converted to const"
+ , "c3" : "QC-JAV000010[01355] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String  'Please specify a key serde or set one through StreamsConfig#DEFAULT_KEY_SERDE_CLASS_CONFIG' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01359"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1359"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01359] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494128 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01359] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01363"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01363] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494128 the MagicNumber/String  'Failed to configure key serde %s' should be converted to const"
+ , "c3" : "QC-JAV000010[01363] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String  'Failed to configure key serde %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01369"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1369"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01369] For method defaultValueSerde list of called methods Object monObjet|Object getN495191"
+ , "c3" : "QC-JAV000007[01369] For method defaultValueSerde list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde getN495671"
 }} 
 ,
 { "ligne" : {
    "c1" : "01371"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01371] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495111 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01371] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01372"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01372] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495111 the MagicNumber/String  'Please specify a value serde or set one through StreamsConfig#DEFAULT_VALUE_SERDE_CLASS_CONFIG' should be converted to const"
+ , "c3" : "QC-JAV000010[01372] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String  'Please specify a value serde or set one through StreamsConfig#DEFAULT_VALUE_SERDE_CLASS_CONFIG' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01376"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495111 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01380"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01380] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495111 the MagicNumber/String  'Failed to configure value serde %s' should be converted to const"
+ , "c3" : "QC-JAV000010[01380] In method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String  'Failed to configure value serde %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1128,98 +1114,497 @@ var maDataBlocs = {
    "c1" : "01415"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01415] In method org.apache.kafka.streams.StreamsConfig.main@POLYN497306 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[01415] In method org.apache.kafka.streams.StreamsConfig.main@POLYN497786 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01415"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01415] In method org.apache.kafka.streams.StreamsConfig.main@POLYN497306 the MagicNumber/String  'streamsconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[01415] In method org.apache.kafka.streams.StreamsConfig.main@POLYN497786 the MagicNumber/String  'streamsconfigs_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getCommonConsumerConfigs@POLYN476613"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN473791"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getGlobalConsumerConfigs@POLYN488529"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getRestoreConsumerConfigs@POLYN486992"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getProducerConfigs@POLYN489916"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN474271"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.clientProps@POLYN497163"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.configDef@POLYN471768"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.defaultDeserializationExceptionHandler@POLYN496628"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.defaultProductionExceptionHandler@POLYN496822"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.defaultTimestampExtractor@POLYN496434"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getAdminConfigs@POLYN491294"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN493286"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.getClientPropsWithPrefix@POLYN492535"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01097] In the recursive method org.apache.kafka.streams.StreamsConfig.getCommonConsumerConfigs@POLYN476613 the MagicNumber/String 'internal.throw.on.fetch.stable.offset.unsupported' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01097] In the recursive method org.apache.kafka.streams.StreamsConfig.getCommonConsumerConfigs@POLYN476613 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01116] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String 'Unexpected user-specified %s config: %s found. %sUser setting -%s- will be ignored and the Streams default setting -%s- will be used ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01116] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String 'Unexpected user-specified %s config: %s found. %sUser setting -%s- will be ignored and the Streams default setting -%s- will be used ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01117] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String ' is set to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01117] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String ' is set to ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01117] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String '. Hence, ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01117] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String '. Hence, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01124] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01124] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01124] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String 'consumer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01124] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String 'consumer' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01131] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String 'consumer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01131] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String 'consumer' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01137] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String 'producer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01137] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String 'producer' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01142] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String '&amp;lt;appId&amp;gt;-&amp;lt;generatedSuffix&amp;gt;' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01142] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String '&amp;lt;appId&amp;gt;-&amp;lt;generatedSuffix&amp;gt;' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01142] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477270 the MagicNumber/String 'producer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01142] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN477750 the MagicNumber/String 'producer' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01274] In the recursive method org.apache.kafka.streams.StreamsConfig.getGlobalConsumerConfigs@POLYN488529 the MagicNumber/String '-global-consumer' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01275] In the recursive method org.apache.kafka.streams.StreamsConfig.getGlobalConsumerConfigs@POLYN488529 the MagicNumber/String 'none' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1194"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01194] In the recursive method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01195"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01195] In the recursive method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01211"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01211] In the recursive method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String 'false' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01214] In the recursive method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01223] In the recursive method org.apache.kafka.streams.StreamsConfig.getMainConsumerConfigs@POLYN482579 the MagicNumber/String 'Specified topic segment size %d is is smaller than the configured producer batch size %d, this will cause produced batch not able to be appended to the topic' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1252"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01252] In the recursive method org.apache.kafka.streams.StreamsConfig.getRestoreConsumerConfigs@POLYN486992 the MagicNumber/String 'none' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01294"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01294] In the recursive method org.apache.kafka.streams.StreamsConfig.getProducerConfigs@POLYN489916 the MagicNumber/String 'internal.auto.downgrade.txn.commit' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01294"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01294] In the recursive method org.apache.kafka.streams.StreamsConfig.getProducerConfigs@POLYN489916 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1032"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01032] In the recursive method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String 'Transaction timeout %d was set lower than ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1033"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01033] In the recursive method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String 'streams commit interval %d. This will cause ongoing transaction always timeout due to inactivity ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1034"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01034] In the recursive method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String 'caused by long commit interval. Consider reconfiguring commit interval to match ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01035] In the recursive method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String 'transaction timeout by tuning 'commit.interval.ms' config, or increase the transaction timeout to match ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01036] In the recursive method org.apache.kafka.streams.StreamsConfig.verifyEOSTransactionTimeoutCompatibility@POLYN473347 the MagicNumber/String 'commit interval by tuning `producer.transaction.timeout.ms` config.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1047"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01047] In the recursive method org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN473791 the MagicNumber/String 'Using {} default value of {} as exactly once is enabled.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01047] In the recursive method org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN474271 the MagicNumber/String 'Using {} default value of {} as exactly once is enabled.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01062] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String ' client tags ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01062] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String 'At most ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1063"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01063] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String ' prefix.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1063"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01063] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String 'can be specified using ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01070] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String 'Contains invalid value [' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01070] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String '] ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01071] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String '] prefix.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01071] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String 'which doesn't have corresponding tag set via [' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01079] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String '.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01079] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String 'Tag key exceeds maximum length of ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1084"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01084] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String '.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1084"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01084] In the recursive method org.apache.kafka.streams.StreamsConfig.validateRackAwarenessConfiguration@POLYN474992 the MagicNumber/String 'Tag value exceeds maximum length of ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01354"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01354] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01355"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1355"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01355] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String 'Please specify a key serde or set one through StreamsConfig#DEFAULT_KEY_SERDE_CLASS_CONFIG' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01359"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1359"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01359] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01363"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1363"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01363] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN494608 the MagicNumber/String 'Failed to configure key serde %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01371"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1371"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01371] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01372"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01372] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String 'Please specify a value serde or set one through StreamsConfig#DEFAULT_VALUE_SERDE_CLASS_CONFIG' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01376"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01376] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01380"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1380"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01380] In the recursive method org.apache.kafka.streams.StreamsConfig.defaultValueSerde@POLYN495591 the MagicNumber/String 'Failed to configure value serde %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01344"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01344] In the recursive method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN493286 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01345"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1345"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01345] In the recursive method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN493286 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1346"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01346] In the recursive method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN493286 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java 47 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java 57 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -199,6 +199,13 @@ var maDataBlocs = {
 ,
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -209,7 +216,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -260,7 +267,7 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.ApiVersionsResponse.shouldClientThrottle@POLYN198694 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.ApiVersionsResponse.shouldClientThrottle@POLYN199174 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,14 +288,14 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.ApiVersionsResponse.parse@POLYN198831 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.ApiVersionsResponse.parse@POLYN199311 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.requests.ApiVersionsResponse.parse@POLYN198831 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.requests.ApiVersionsResponse.parse@POLYN199311 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -302,7 +309,7 @@ var maDataBlocs = {
    "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.requests.ApiVersionsResponse.defaultApiVersionsResponse@POLYN199601 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.requests.ApiVersionsResponse.defaultApiVersionsResponse@POLYN200081 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -330,14 +337,14 @@ var maDataBlocs = {
    "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00106] For method createApiVersionsResponse list of called methods Object monObjet|ApiVersionCollection intersectForwardableApisN200752|ApiVersionCollection filterApisN200920"
+ , "c3" : "QC-JAV000007[00106] For method createApiVersionsResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiVersionsResponse intersectForwardableApisN201232|org.apache.kafka.common.requests.ApiVersionsResponse filterApisN201400"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.requests.ApiVersionsResponse.createApiVersionsResponse@POLYN200346 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.requests.ApiVersionsResponse.createApiVersionsResponse@POLYN200826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -379,7 +386,7 @@ var maDataBlocs = {
    "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method intersectForwardableApis list of called methods Object monObjet|ApiVersion toApiVersionN203236|java.util.Optional&lt;ApiVersion&gt; intersectN203516"
+ , "c3" : "QC-JAV000007[00173] For method intersectForwardableApis list of called methods Object monObjet|ApiVersionCollection toApiVersionN203716|ApiVersionCollection intersectN203996"
 }} 
 ,
 { "ligne" : {
@@ -421,7 +428,7 @@ var maDataBlocs = {
    "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersectForwardableApis@POLYN202761 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersectForwardableApis@POLYN203241 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -498,28 +505,28 @@ var maDataBlocs = {
    "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN206606 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN207086 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN206606 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN207086 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN206606 the MagicNumber/String  'thisVersion.apiKey: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN207086 the MagicNumber/String  'thisVersion.apiKey: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00257"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN206606 the MagicNumber/String  ' must be equal to other.apiKey: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.common.requests.ApiVersionsResponse.intersect@POLYN207086 the MagicNumber/String  ' must be equal to other.apiKey: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -540,35 +547,105 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.apiVersion@POLYN198146"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.filterApis@POLYN202104"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.createFinalizedFeatureKeys@POLYN205756"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.ApiVersionsResponse@POLYN198322"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.createSupportedFeatureKeys@POLYN204883"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.apiVersion@POLYN198626"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.errorCounts@POLYN198364"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.collectApis@POLYN202640"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.throttleTimeMs@POLYN198564"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.createApiVersionsResponseData@POLYN204462"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.createFinalizedFeatureKeys@POLYN206236"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.createSupportedFeatureKeys@POLYN205363"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.errorCounts@POLYN198844"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.intersectForwardableApis@POLYN203241"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.parse@POLYN199311"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.throttleTimeMs@POLYN199044"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiVersionsResponse.toApiVersion@POLYN208289"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00188"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.common.requests.ApiVersionsResponse.intersectForwardableApis@POLYN203241 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.requests.ApiVersionsResponse.parse@POLYN199311 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#75"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.requests.ApiVersionsResponse.parse@POLYN199311 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

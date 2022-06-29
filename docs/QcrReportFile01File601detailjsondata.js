@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java 21 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java 24 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -132,7 +132,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -211,21 +211,21 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN175563 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN176043 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN175563 the MagicNumber/String  'Future map must contain entity ' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN176043 the MagicNumber/String  'Future map must contain entity ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN175563 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN176043 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -274,35 +274,56 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN175563"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterClientQuotasResponse.AlterClientQuotasResponse@POLYN175847"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterClientQuotasResponse.throttleTimeMs@POLYN177010"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN176043"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterClientQuotasResponse.fromQuotaEntities@POLYN179146"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterClientQuotasResponse.parse@POLYN178872"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterClientQuotasResponse.throttleTimeMs@POLYN177490"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN175563 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN176043 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#38"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN175563 the MagicNumber/String 'Future map must contain entity ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN176043 the MagicNumber/String 'Future map must contain entity ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#43"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN175563 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.common.requests.AlterClientQuotasResponse.complete@POLYN176043 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

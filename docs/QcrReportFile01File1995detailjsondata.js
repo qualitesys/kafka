@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java 2 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java 3 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,7 +76,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -104,7 +120,14 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.metricsScope@POLYN161254 the MagicNumber/String  'in-memory' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.metricsScope@POLYN161734 the MagicNumber/String  'in-memory' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN161596"
 }} 
 ]
 };

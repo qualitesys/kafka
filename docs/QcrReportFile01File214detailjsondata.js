@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java 18 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java 27 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -69,7 +69,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -82,6 +98,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -132,7 +155,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.prepareRequest@POLYN180018 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.prepareRequest@POLYN180498 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -202,35 +225,35 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181250 the MagicNumber/String  'Received unrequested topic or partition {} from response, ignoring.' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String  'Received unrequested topic or partition {} from response, ignoring.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181250 the MagicNumber/String  'Handling OffsetsForLeaderEpoch response for {}. Got offset {} for epoch {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String  'Handling OffsetsForLeaderEpoch response for {}. Got offset {} for epoch {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181250 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to {}, retrying.' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to {}, retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181250 the MagicNumber/String  'Received unknown topic or partition error in OffsetsForLeaderEpoch request for partition {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String  'Received unknown topic or partition error in OffsetsForLeaderEpoch request for partition {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181250 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to: {}, retrying.' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String  'Attempt to fetch offsets for partition {} failed due to: {}, retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -238,6 +261,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#115"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00115] The class OffsetForEpochResult contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.OffsetsForLeaderEpochClient@POLYN180276"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.prepareRequest@POLYN180498"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#72"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String 'Received unrequested topic or partition {} from response, ignoring.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String 'Handling OffsetsForLeaderEpoch response for {}. Got offset {} for epoch {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String 'Attempt to fetch offsets for partition {} failed due to {}, retrying.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String 'Received unknown topic or partition error in OffsetsForLeaderEpoch request for partition {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.handleResponse@POLYN181730 the MagicNumber/String 'Attempt to fetch offsets for partition {} failed due to: {}, retrying.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.prepareRequest@POLYN180498 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

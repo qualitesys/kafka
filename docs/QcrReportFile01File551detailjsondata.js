@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java 20 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java 26 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.xml" 
  , "fic3"  : "" 
 }
@@ -97,12 +97,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -130,7 +153,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -160,7 +183,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00018] For method updateEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN172795"
+ , "c3" : "QC-JAV000007[00018] For method updateEstimation list of called methods Object monObjet|float getAndCreateEstimationIfAbsentN173275"
 }} 
 ,
 { "ligne" : {
@@ -188,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method estimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN173733"
+ , "c3" : "QC-JAV000007[00032] For method estimation list of called methods Object monObjet|float getAndCreateEstimationIfAbsentN174213"
 }} 
 ,
 { "ligne" : {
@@ -203,13 +226,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00038] For method resetEstimation arguments String  topic"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method resetEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN174022"
 }} 
 ,
 { "ligne" : {
@@ -231,13 +247,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00053] For method setEstimation arguments String  topic|CompressionType  type|float  ratio"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method setEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN174739"
 }} 
 ,
 { "ligne" : {
@@ -265,21 +274,77 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|float[] initialCompressionRatioN175222"
+ , "c3" : "QC-JAV000007[00060] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|float[] initialCompressionRatioN175702"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN174953 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN175433 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN174953 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN175433 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.CompressionRatioEstimator.updateEstimation@POLYN173122"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.CompressionRatioEstimator.resetEstimation@POLYN174403"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.CompressionRatioEstimator.setEstimation@POLYN175070"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.CompressionRatioEstimator.estimation@POLYN174085"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN175433"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.CompressionRatioEstimator.removeEstimation@POLYN174854"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#62"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN175433 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN175433 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

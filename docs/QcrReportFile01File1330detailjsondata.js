@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java 52 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java 63 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.xml" 
  , "fic3"  : "" 
 }
@@ -160,7 +160,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -209,7 +209,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -232,14 +232,14 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.image.ClusterDelta.broker@POLYN183157 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.image.ClusterDelta.broker@POLYN183637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.image.ClusterDelta.broker@POLYN183157 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.image.ClusterDelta.broker@POLYN183637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration BrokerRegistration_fromRecordN184088"
+ , "c3" : "QC-JAV000007[00054] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration BrokerRegistration_fromRecordN184568"
 }} 
 ,
 { "ligne" : {
@@ -285,66 +285,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00063"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00063] For method getBrokerOrThrow list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration brokerN185135"
+}} 
+,
+{ "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  'Tried to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  'Tried to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  ' broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  ' broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  ', but that broker was not registered.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  ', but that broker was not registered.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  'Tried to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  'Tried to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  ' broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  ' broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  ', but the given epoch, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  ', but the given epoch, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  ', did not match the current broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  ', did not match the current broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184508 the MagicNumber/String  'epoch, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String  'epoch, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -352,13 +359,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#77"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00077] For method replay arguments FenceBrokerRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN185449"
 }} 
 ,
 { "ligne" : {
@@ -372,7 +372,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ClusterDelta.replay@POLYN185356 the MagicNumber/String  'fence' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ClusterDelta.replay@POLYN185836 the MagicNumber/String  'fence' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -380,13 +380,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#85"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00085] For method replay arguments UnfenceBrokerRecord  record"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN185945"
 }} 
 ,
 { "ligne" : {
@@ -400,7 +393,7 @@ var maDataBlocs = {
    "c1" : "00086"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.image.ClusterDelta.replay@POLYN185852 the MagicNumber/String  'unfence' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186332 the MagicNumber/String  'unfence' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -414,7 +407,7 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN186441|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN187311"
+ , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN187791"
 }} 
 ,
 { "ligne" : {
@@ -428,35 +421,35 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186348 the MagicNumber/String  'change' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186828 the MagicNumber/String  'change' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186348 the MagicNumber/String  'Unable to replay %s: unknown ' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186828 the MagicNumber/String  'Unable to replay %s: unknown ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186348 the MagicNumber/String  'value for fenced field: %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186828 the MagicNumber/String  'value for fenced field: %d' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186348 the MagicNumber/String  'Unable to replay %s: unknown ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186828 the MagicNumber/String  'Unable to replay %s: unknown ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186348 the MagicNumber/String  'value for inControlledShutdown field: %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.image.ClusterDelta.replay@POLYN186828 the MagicNumber/String  'value for inControlledShutdown field: %d' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -477,28 +470,28 @@ var maDataBlocs = {
    "c1" : "00118"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.image.ClusterDelta.apply@POLYN187697 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.image.ClusterDelta.apply@POLYN188177 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.image.ClusterDelta.toString@POLYN189341 the MagicNumber/String  'ClusterDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.image.ClusterDelta.toString@POLYN189821 the MagicNumber/String  'ClusterDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.image.ClusterDelta.toString@POLYN189341 the MagicNumber/String  'changedBrokers=' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.image.ClusterDelta.toString@POLYN189821 the MagicNumber/String  'changedBrokers=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00140"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.image.ClusterDelta.toString@POLYN189341 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.image.ClusterDelta.toString@POLYN189821 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -561,21 +554,105 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterDelta.broker@POLYN183157"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterDelta.apply@POLYN188177"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterDelta.broker@POLYN183637"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.image.ClusterDelta.apply@POLYN188177 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#36"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.image.ClusterDelta.broker@POLYN183157 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.image.ClusterDelta.broker@POLYN183637 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.image.ClusterDelta.broker@POLYN183157 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.image.ClusterDelta.broker@POLYN183637 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#65"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00066"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#66"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String ' broker ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00066"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#66"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String 'Tried to ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00067"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#67"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String ', but that broker was not registered.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String ' broker ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String 'Tried to ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String ', but the given epoch, ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String ', did not match the current broker ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#72"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.image.ClusterDelta.getBrokerOrThrow@POLYN184988 the MagicNumber/String 'epoch, ' MUST BE CONVERTED to const"
 }} 
 ]
 };

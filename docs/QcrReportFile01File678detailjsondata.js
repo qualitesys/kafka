@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java 18 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java 25 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -218,14 +218,14 @@ var maDataBlocs = {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.FindCoordinatorResponse.shouldClientThrottle@POLYN181744 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.FindCoordinatorResponse.shouldClientThrottle@POLYN182224 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN181905 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN182385 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -302,28 +302,77 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN181905"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.FindCoordinatorResponse@POLYN180196"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.throttleTimeMs@POLYN180262"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN182385"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.toString@POLYN181624"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.errorCounts@POLYN181172"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.node@POLYN180500"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.parse@POLYN181821"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.prepareErrorResponse@POLYN184411"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.prepareOldResponse@POLYN183088"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.prepareResponse@POLYN183665"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.throttleTimeMs@POLYN180742"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.toString@POLYN182104"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN181905 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN182385 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

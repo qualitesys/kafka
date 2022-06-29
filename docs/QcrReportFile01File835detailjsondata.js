@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java 12 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java 17 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,12 +83,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -146,56 +169,91 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166452 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166452 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166452 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String  'true' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166452 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String  'true' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.scram.ScramLoginModule.login@POLYN167689 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.scram.ScramLoginModule.login@POLYN168169 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.scram.ScramLoginModule.logout@POLYN167791 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.scram.ScramLoginModule.logout@POLYN168271 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.scram.ScramLoginModule.commit@POLYN167893 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.scram.ScramLoginModule.commit@POLYN168373 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.scram.ScramLoginModule.abort@POLYN167995 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.scram.ScramLoginModule.abort@POLYN168475 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#28"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#31"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00031] In the recursive method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#34"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String 'true' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#36"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN166932 the MagicNumber/String 'true' MUST BE CONVERTED to const"
 }} 
 ]
 };

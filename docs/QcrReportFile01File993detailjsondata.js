@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java 16 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java 20 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,6 +111,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -124,6 +133,20 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -174,21 +197,21 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00030] For method configure list of called methods Object monObjet|String conf_encodingN175964|org.apache.kafka.connect.storage.ConverterType conf_typeN176509"
+ , "c3" : "QC-JAV000007[00030] For method configure list of called methods Object monObjet|String conf_encodingN176444|org.apache.kafka.connect.storage.ConverterType conf_typeN176989"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.storage.StringConverter.configure@POLYN175747 the MagicNumber/String  'serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.storage.StringConverter.configure@POLYN176227 the MagicNumber/String  'serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.storage.StringConverter.configure@POLYN175747 the MagicNumber/String  'deserializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.storage.StringConverter.configure@POLYN176227 the MagicNumber/String  'deserializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,21 +232,21 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.storage.StringConverter.fromConnectData@POLYN177335 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.storage.StringConverter.fromConnectData@POLYN177815 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.storage.StringConverter.fromConnectData@POLYN177335 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.storage.StringConverter.fromConnectData@POLYN177815 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.storage.StringConverter.fromConnectData@POLYN177335 the MagicNumber/String  'Failed to serialize to a string: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.storage.StringConverter.fromConnectData@POLYN177815 the MagicNumber/String  'Failed to serialize to a string: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -237,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.storage.StringConverter.toConnectData@POLYN177821 the MagicNumber/String  'Failed to deserialize string: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.storage.StringConverter.toConnectData@POLYN178301 the MagicNumber/String  'Failed to deserialize string: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -266,6 +289,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#80"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00080] Void method close is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.StringConverter.fromConnectHeader@POLYN178752"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.StringConverter.toConnectData@POLYN178301"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.StringConverter.toConnectHeader@POLYN179024"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00065"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#65"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.connect.storage.StringConverter.toConnectData@POLYN178301 the MagicNumber/String 'Failed to deserialize string: ' MUST BE CONVERTED to const"
 }} 
 ]
 };

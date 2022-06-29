@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java 10 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java 12 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -80,6 +80,13 @@ var maDataBlocs = {
 ,
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -90,7 +97,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -134,7 +141,7 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#21"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00021] For method assign list of called methods Object monObjet|String partition_topicN205851"
+ , "c3" : "QC-JAV000007[00021] For method assign list of called methods Object monObjet|String partition_topicN206331"
 }} 
 ,
 { "ligne" : {
@@ -183,14 +190,28 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.consumer.RoundRobinAssignor.allPartitionsSorted@POLYN206328 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.consumer.RoundRobinAssignor.allPartitionsSorted@POLYN206808 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.RoundRobinAssignor.assign@POLYN204638"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.RoundRobinAssignor.allPartitionsSorted@POLYN206808"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.RoundRobinAssignor.assign@POLYN205118"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.clients.consumer.RoundRobinAssignor.allPartitionsSorted@POLYN206808 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

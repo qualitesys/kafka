@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java 23 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java 24 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.xml" 
  , "fic3"  : "" 
 }
@@ -155,6 +155,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -201,31 +208,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00047] For method get list of called methods Object monObjet|org.apache.kafka.common.config.ConfigData emptyMapN177730"
+}} 
+,
+{ "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177070 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177550 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177070 the MagicNumber/String  'The path {} is not a directory' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177550 the MagicNumber/String  'The path {} is not a directory' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177070 the MagicNumber/String  'Could not list directory {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177550 the MagicNumber/String  'Could not list directory {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177070 the MagicNumber/String  'Could not list directory ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.get@POLYN177550 the MagicNumber/String  'Could not list directory ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,21 +260,21 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN178537 the MagicNumber/String  'Could not read file {} for property {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN179017 the MagicNumber/String  'Could not read file {} for property {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN178537 the MagicNumber/String  'Could not read file ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN179017 the MagicNumber/String  'Could not read file ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN178537 the MagicNumber/String  ' for property ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN179017 the MagicNumber/String  ' for property ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -295,28 +309,28 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN178537"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN179017"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN178537 the MagicNumber/String 'Could not read file {} for property {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN179017 the MagicNumber/String 'Could not read file {} for property {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN178537 the MagicNumber/String ' for property ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN179017 the MagicNumber/String ' for property ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN178537 the MagicNumber/String 'Could not read file ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN179017 the MagicNumber/String 'Could not read file ' MUST BE CONVERTED to const"
 }} 
 ]
 };

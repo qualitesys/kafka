@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java 30 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java 31 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.xml" 
  , "fic3"  : "" 
 }
@@ -118,7 +118,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -169,7 +169,7 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method setup list of called methods Object monObjet|java.util.Set&lt;String&gt; internalTopicManager_makeReadyN183185"
+ , "c3" : "QC-JAV000007[00044] For method setup list of called methods Object monObjet|java.util.Set&lt;String&gt; internalTopicManager_makeReadyN183665"
 }} 
 ,
 { "ligne" : {
@@ -260,35 +260,35 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String  'No tasks found for subtopology {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String  'No tasks found for subtopology {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String  'Created state changelog topics {} from the parsed topology.' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String  'Created state changelog topics {} from the parsed topology.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -330,42 +330,49 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ChangelogTopics.ChangelogTopics@POLYN180869"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String 'No tasks found for subtopology {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String 'No tasks found for subtopology {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#83"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181029 the MagicNumber/String 'Created state changelog topics {} from the parsed topology.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN181509 the MagicNumber/String 'Created state changelog topics {} from the parsed topology.' MUST BE CONVERTED to const"
 }} 
 ]
 };

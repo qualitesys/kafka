@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java 56 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java 66 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.xml" 
  , "fic3"  : "" 
 }
@@ -160,12 +160,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "13"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -207,7 +230,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -237,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.internals.SessionKeySchema.keyByteLength@POLYN191337 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.internals.SessionKeySchema.keyByteLength@POLYN191817 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -248,10 +271,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#27"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00027] For method upperRangeFixedSize list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes upperRangeFixedWindowN192174"
+}} 
+,
+{ "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#37"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00037] For method lowerRangeFixedSize arguments Bytes  key|long  from"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#37"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00037] For method lowerRangeFixedSize list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes lowerRangeFixedWindowN192827"
 }} 
 ,
 { "ligne" : {
@@ -279,14 +316,14 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.SessionKeySchema.upperRange@POLYN192903 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.SessionKeySchema.upperRange@POLYN193383 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.SessionKeySchema.upperRange@POLYN192903 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.SessionKeySchema.upperRange@POLYN193383 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -300,14 +337,14 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.SessionKeySchema.lowerRange@POLYN193439 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.SessionKeySchema.lowerRange@POLYN193919 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.SessionKeySchema.lowerRange@POLYN193439 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.SessionKeySchema.lowerRange@POLYN193919 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -335,7 +372,7 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method hasNextCondition list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN194379"
+ , "c3" : "QC-JAV000007[00074] For method hasNextCondition list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN194859"
 }} 
 ,
 { "ligne" : {
@@ -384,42 +421,42 @@ var maDataBlocs = {
    "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN193948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN194428 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN193948 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN194428 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN193948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN194428 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN193948 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN194428 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN193948 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN194428 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN193948 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.SessionKeySchema.hasNextCondition@POLYN194428 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -447,21 +484,21 @@ var maDataBlocs = {
    "c1" : "00106"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN195809 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN196289 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN195809 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN196289 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN195809 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN196289 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -475,7 +512,7 @@ var maDataBlocs = {
    "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractEndTimestamp@POLYN196253 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractEndTimestamp@POLYN196733 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -496,7 +533,7 @@ var maDataBlocs = {
    "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractWindow@POLYN196727 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.internals.SessionKeySchema.extractWindow@POLYN197207 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -510,7 +547,7 @@ var maDataBlocs = {
    "c1" : "00134"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00134] For method from list of called methods Object monObjet|byte[] bytesKey_getN197953|org.apache.kafka.streams.kstream.Window extractWindowN198033"
+ , "c3" : "QC-JAV000007[00134] For method from list of called methods Object monObjet|byte[] bytesKey_getN198433|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; extractWindowN198513"
 }} 
 ,
 { "ligne" : {
@@ -602,6 +639,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#171"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00171] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN196289"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.SessionKeySchema.extractWindow@POLYN197207"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.SessionKeySchema.lowerRangeFixedSize@POLYN192673"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.SessionKeySchema.upperRangeFixedSize@POLYN192020"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN196289 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN196289 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.state.internals.SessionKeySchema.extractKeyBytes@POLYN196289 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.streams.state.internals.SessionKeySchema.extractWindow@POLYN197207 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ]
 };

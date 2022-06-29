@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java 45 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java 62 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.xml" 
  , "fic3"  : "" 
 }
@@ -188,12 +188,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "14"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -272,7 +288,7 @@ var maDataBlocs = {
    "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00151] For method processLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN211667|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN211877"
+ , "c3" : "QC-JAV000007[00151] For method processLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN212147|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN212357"
 }} 
 ,
 { "ligne" : {
@@ -293,7 +309,7 @@ var maDataBlocs = {
    "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00167] For method pollRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN212315|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN212525"
+ , "c3" : "QC-JAV000007[00167] For method pollRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN212795|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN213005"
 }} 
 ,
 { "ligne" : {
@@ -314,7 +330,7 @@ var maDataBlocs = {
    "c1" : "00183"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00183] For method processRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN212963|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN213173"
+ , "c3" : "QC-JAV000007[00183] For method processRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN213443|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN213653"
 }} 
 ,
 { "ligne" : {
@@ -335,7 +351,7 @@ var maDataBlocs = {
    "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00199] For method processRateSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN213611|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN213821"
+ , "c3" : "QC-JAV000007[00199] For method processRateSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN214091|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN214301"
 }} 
 ,
 { "ligne" : {
@@ -363,7 +379,7 @@ var maDataBlocs = {
    "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00229] For method commitOverTasksSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN214582|java.util.Map&lt;String,String&gt; streamsMetrics_taskLevelTagMapN214778"
+ , "c3" : "QC-JAV000007[00229] For method commitOverTasksSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN215062|java.util.Map&lt;String,String&gt; streamsMetrics_taskLevelTagMapN215258"
 }} 
 ,
 { "ligne" : {
@@ -384,7 +400,7 @@ var maDataBlocs = {
    "c1" : "00245"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00245] For method processRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN215216|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN215434"
+ , "c3" : "QC-JAV000007[00245] For method processRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN215696|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN215914"
 }} 
 ,
 { "ligne" : {
@@ -405,7 +421,7 @@ var maDataBlocs = {
    "c1" : "00260"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#260"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00260] For method punctuateRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN215850|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN216068"
+ , "c3" : "QC-JAV000007[00260] For method punctuateRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN216330|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN216548"
 }} 
 ,
 { "ligne" : {
@@ -426,7 +442,7 @@ var maDataBlocs = {
    "c1" : "00275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00275] For method pollRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN216484|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN216702"
+ , "c3" : "QC-JAV000007[00275] For method pollRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN216964|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN217182"
 }} 
 ,
 { "ligne" : {
@@ -447,7 +463,7 @@ var maDataBlocs = {
    "c1" : "00290"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#290"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00290] For method commitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN217118|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN217336"
+ , "c3" : "QC-JAV000007[00290] For method commitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN217598|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN217816"
 }} 
 ,
 { "ligne" : {
@@ -503,7 +519,7 @@ var maDataBlocs = {
    "c1" : "00327"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#327"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00327] For method invocationRateAndCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN218454"
+ , "c3" : "QC-JAV000007[00327] For method invocationRateAndCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN218934"
 }} 
 ,
 { "ligne" : {
@@ -524,7 +540,7 @@ var maDataBlocs = {
    "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#345"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00345] For method invocationRateAndCountAndAvgAndMaxLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN219121|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN219301"
+ , "c3" : "QC-JAV000007[00345] For method invocationRateAndCountAndAvgAndMaxLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_threadLevelSensorN219601|java.util.Map&lt;String,String&gt; streamsMetrics_threadLevelTagMapN219781"
 }} 
 ,
 { "ligne" : {
@@ -532,6 +548,125 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#352"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00352] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.closeTaskSensor@POLYN210738"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.commitOverTasksSensor@POLYN214929"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.commitRatioSensor@POLYN217465"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.commitSensor@POLYN211324"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.createTaskSensor@POLYN210445"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.invocationRateAndCountAndAvgAndMaxLatencySensor@POLYN219300"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.invocationRateAndCountSensor@POLYN218689"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.pollRatioSensor@POLYN216831"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.pollRecordsSensor@POLYN212662"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.pollSensor@POLYN211669"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.processLatencySensor@POLYN212014"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.processRateSensor@POLYN213958"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.processRatioSensor@POLYN215563"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.processRecordsSensor@POLYN213310"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.punctuateRatioSensor@POLYN216197"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.punctuateSensor@POLYN214584"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics.skipRecordSensor@POLYN211031"
 }} 
 ]
 };

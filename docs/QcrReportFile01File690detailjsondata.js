@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java 12 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java 15 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -167,7 +167,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -204,14 +204,14 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.LeaveGroupResponse.LeaveGroupResponse@POLYN177432 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.LeaveGroupResponse.LeaveGroupResponse@POLYN177912 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.LeaveGroupResponse.LeaveGroupResponse@POLYN177432 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.LeaveGroupResponse.LeaveGroupResponse@POLYN177912 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,7 +246,7 @@ var maDataBlocs = {
    "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.requests.LeaveGroupResponse.shouldClientThrottle@POLYN180621 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.requests.LeaveGroupResponse.shouldClientThrottle@POLYN181101 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,21 +260,42 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.memberResponses@POLYN178503"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.error@POLYN179089"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.throttleTimeMs@POLYN178376"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.errorCounts@POLYN180110"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.toString@POLYN181168"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.memberResponses@POLYN178983"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.parse@POLYN180818"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.throttleTimeMs@POLYN178856"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.toString@POLYN181648"
 }} 
 ]
 };

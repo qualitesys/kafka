@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java 23 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java 30 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -90,12 +90,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -160,14 +183,14 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN233970 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN234450 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN233970 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN234450 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -188,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN234336 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN234816 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -223,7 +246,7 @@ var maDataBlocs = {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00090] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.MemberData assignment_getStringN237282|boolean struct_hasFieldN237721"
+ , "c3" : "QC-JAV000007[00090] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|MemberData assignment_getStringN237762|boolean struct_hasFieldN238201"
 }} 
 ,
 { "ligne" : {
@@ -287,6 +310,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#110"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.StickyAssignor.deserializeTopicPartitionAssignment@POLYN236795"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN234816"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.StickyAssignor.serializeTopicPartitionAssignment@POLYN235290"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN234450"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#65"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN234816 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN234450 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#57"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN234450 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

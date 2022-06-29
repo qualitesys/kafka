@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java 29 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java 50 rule violations " 
  , "fic2"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.xml" 
  , "fic3"  : "" 
 }
@@ -69,7 +69,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "19"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -111,7 +134,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method setup list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN186392"
+ , "c3" : "QC-JAV000007[00065] For method setup list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN186872"
 }} 
 ,
 { "ligne" : {
@@ -174,133 +197,280 @@ var maDataBlocs = {
    "c1" : "00070"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  'topic-' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  'topic-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN185876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189263 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189263 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189263 the MagicNumber/String  'localhost' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String  'localhost' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189263 the MagicNumber/String  8121 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String  8121 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189263 the MagicNumber/String  'mockClusterId' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String  'mockClusterId' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00121"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00122"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String 'localhost' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00122"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String 8121 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN189743 the MagicNumber/String 'mockClusterId' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00070"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#72"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 'topic-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00076"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#76"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00077"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#77"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00081"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00090"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00091"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00103"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00104"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.setup@POLYN186356 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

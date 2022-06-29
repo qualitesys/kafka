@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.clients.admin.MemberAssignment.MemberAssignment@POLYN165043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.clients.admin.MemberAssignment.MemberAssignment@POLYN165523 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,56 +146,56 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.clients.admin.MemberAssignment.equals@POLYN165413 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.clients.admin.MemberAssignment.equals@POLYN165893 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.MemberAssignment.equals@POLYN165413 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.MemberAssignment.equals@POLYN165893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.MemberAssignment.equals@POLYN165413 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.MemberAssignment.equals@POLYN165893 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.MemberAssignment.hashCode@POLYN165936 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.MemberAssignment.hashCode@POLYN166416 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.MemberAssignment.hashCode@POLYN165936 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.MemberAssignment.hashCode@POLYN166416 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.MemberAssignment.toString@POLYN166280 the MagicNumber/String  '(topicPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.MemberAssignment.toString@POLYN166760 the MagicNumber/String  '(topicPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.MemberAssignment.toString@POLYN166280 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.MemberAssignment.toString@POLYN166760 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.MemberAssignment.toString@POLYN166280 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.MemberAssignment.toString@POLYN166760 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java 26 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java 28 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.xml" 
  , "fic3"  : "" 
 }
@@ -202,7 +202,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -246,7 +246,7 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.KeyValueToTimestampedKeyValueByteStoreAdapter@POLYN185126 the MagicNumber/String  'Provided store must be a persistent store, but it is not.' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.KeyValueToTimestampedKeyValueByteStoreAdapter@POLYN185606 the MagicNumber/String  'Provided store must be a persistent store, but it is not.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,14 +260,14 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.put@POLYN185467 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.put@POLYN185947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.put@POLYN185467 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.put@POLYN185947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,14 +281,14 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putIfAbsent@POLYN185789 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putIfAbsent@POLYN186269 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putIfAbsent@POLYN185789 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putIfAbsent@POLYN186269 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -302,14 +302,14 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putAll@POLYN186133 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putAll@POLYN186613 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putAll@POLYN186133 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.putAll@POLYN186613 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,7 +337,7 @@ var maDataBlocs = {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.persistent@POLYN187635 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.persistent@POLYN188115 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -400,14 +400,28 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.close@POLYN187520"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.close@POLYN188000"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.flush@POLYN187413"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.delete@POLYN187170"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.flush@POLYN187893"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter.get@POLYN189393"
 }} 
 ]
 };

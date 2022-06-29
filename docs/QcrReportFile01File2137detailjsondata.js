@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java 16 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java 19 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,7 +76,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -111,91 +134,91 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN167716 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN168196 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN167716 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN168196 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN167716 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN168196 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN167716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN168196 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN167716 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN168196 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN167716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.NodeDegradeSpec@POLYN168196 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN168820 the MagicNumber/String  'NodeDegradeSpec{' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN169300 the MagicNumber/String  'NodeDegradeSpec{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN168820 the MagicNumber/String  'networkDevice='' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN169300 the MagicNumber/String  'networkDevice='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN168820 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN169300 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN168820 the MagicNumber/String  ', latencyMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN169300 the MagicNumber/String  ', latencyMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN168820 the MagicNumber/String  ', rateLimitKbit=' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN169300 the MagicNumber/String  ', rateLimitKbit=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN168820 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.NodeDegradeSpec.toString@POLYN169300 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.DegradedNetworkFaultSpec@POLYN169182 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.DegradedNetworkFaultSpec@POLYN169662 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -210,6 +233,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method newTaskWorker arguments String  id"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.DegradedNetworkFaultSpec@POLYN169662"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.newTaskWorker@POLYN170411"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00062"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#62"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec.DegradedNetworkFaultSpec@POLYN169662 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

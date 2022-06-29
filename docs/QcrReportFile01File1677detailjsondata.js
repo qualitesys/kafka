@@ -125,14 +125,14 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.view@POLYN179279 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.view@POLYN179759 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.view@POLYN179279 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.view@POLYN179759 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,28 +146,28 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN180526 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN181006 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN180526 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN181006 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN180526 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN181006 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN180526 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.enableSendingOldValues@POLYN181006 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -195,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.KTableKTableJoinMergeProcessor.init@POLYN182062 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.KTableKTableJoinMergeProcessor.init@POLYN182542 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,14 +216,14 @@ var maDataBlocs = {
    "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.KTableKTableJoinMergeProcessor.process@POLYN182710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.KTableKTableJoinMergeProcessor.process@POLYN183190 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.KTableKTableJoinMergeProcessor.process@POLYN182710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger.KTableKTableJoinMergeProcessor.process@POLYN183190 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

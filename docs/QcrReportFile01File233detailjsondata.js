@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java 75 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java 80 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.xml" 
  , "fic3"  : "" 
 }
@@ -118,7 +118,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "26"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : {
@@ -132,7 +132,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -218,7 +218,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00037] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN198161|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN198543"
+ , "c3" : "QC-JAV000007[00037] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN198641|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN199023"
 }} 
 ,
 { "ligne" : {
@@ -232,77 +232,77 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String  'Switching to partition {} in topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String  'Switching to partition {} in topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.loadStatsRangeEnd@POLYN199692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.loadStatsRangeEnd@POLYN200172 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.loadStatsRangeEnd@POLYN199692 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.loadStatsRangeEnd@POLYN200172 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.loadStatsRangeEnd@POLYN199692 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.loadStatsRangeEnd@POLYN200172 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -316,14 +316,14 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.peekCurrentPartitionInfo@POLYN200398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.peekCurrentPartitionInfo@POLYN200878 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.peekCurrentPartitionInfo@POLYN200398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.peekCurrentPartitionInfo@POLYN200878 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,7 +337,7 @@ var maDataBlocs = {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.isPartitionChanged@POLYN201131 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.isPartitionChanged@POLYN201611 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -351,7 +351,7 @@ var maDataBlocs = {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionInfo@POLYN201535 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionInfo@POLYN202015 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -365,126 +365,126 @@ var maDataBlocs = {
    "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  'No load stats for topic {}, not using adaptive' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  'No load stats for topic {}, not using adaptive' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  'The number of partitions is too small: available={}, all={}, not using adaptive for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  'The number of partitions is too small: available={}, all={}, not using adaptive for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  'All queue lengths are the same, not using adaptive for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  'All queue lengths are the same, not using adaptive for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String  'Partition load stats for topic {}: CFT={}, IDs={}, length={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String  'Partition load stats for topic {}: CFT={}, IDs={}, length={}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -512,196 +512,231 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.BuiltInPartitioner.peekCurrentPartitionInfo@POLYN200878"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionInfo@POLYN202015"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#38"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN197654 the MagicNumber/String 'Switching to partition {} in topic {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.nextPartition@POLYN198134 the MagicNumber/String 'Switching to partition {} in topic {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.peekCurrentPartitionInfo@POLYN200878 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.peekCurrentPartitionInfo@POLYN200878 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionInfo@POLYN202015 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 'No load stats for topic {}, not using adaptive' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 'No load stats for topic {}, not using adaptive' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 'The number of partitions is too small: available={}, all={}, not using adaptive for topic {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 'The number of partitions is too small: available={}, all={}, not using adaptive for topic {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00183] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 'All queue lengths are the same, not using adaptive for topic {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00183] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 'All queue lengths are the same, not using adaptive for topic {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#189"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#189"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#190"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202498 the MagicNumber/String 'Partition load stats for topic {}: CFT={}, IDs={}, length={}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.clients.producer.internals.BuiltInPartitioner.updatePartitionLoadStats@POLYN202978 the MagicNumber/String 'Partition load stats for topic {}: CFT={}, IDs={}, length={}' MUST BE CONVERTED to const"
 }} 
 ]
 };

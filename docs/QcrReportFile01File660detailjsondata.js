@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java 4 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java 7 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,7 +76,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
@@ -118,7 +134,28 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN168130"
+ , "c3" : "QC-JAV000007[00052] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN168610"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest.DescribeUserScramCredentialsRequest@POLYN167763"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest.getErrorResponse@POLYN168488"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest.parse@POLYN168083"
 }} 
 ]
 };

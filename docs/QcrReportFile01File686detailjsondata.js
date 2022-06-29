@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java 7 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java 9 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -162,35 +162,49 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.JoinGroupResponse.shouldClientThrottle@POLYN165897 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.JoinGroupResponse.shouldClientThrottle@POLYN166377 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.errorCounts@POLYN165313"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.JoinGroupResponse@POLYN165008"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.isLeader@POLYN164832"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.errorCounts@POLYN165793"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.throttleTimeMs@POLYN165011"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.isLeader@POLYN165312"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.toString@POLYN165777"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.parse@POLYN165974"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.throttleTimeMs@POLYN165491"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.toString@POLYN166257"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java 16 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java 25 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -139,7 +139,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "5"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -152,6 +168,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "12"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -171,10 +194,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00048] For method findSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN179043"
+}} 
+,
+{ "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#60"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00060] For method backwardFindSessions arguments Bytes  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#60"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00060] For method backwardFindSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN179524"
 }} 
 ,
 { "ligne" : {
@@ -185,10 +222,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00072] For method findSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN180033"
+}} 
+,
+{ "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#86"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00086] For method backwardFindSessions arguments Bytes  keyFrom|Bytes  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#86"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00086] For method backwardFindSessions list of called methods Object monObjet|KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt; wrappedN180564"
 }} 
 ,
 { "ligne" : {
@@ -209,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.fetch@POLYN180704 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.fetch@POLYN181184 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -223,7 +274,7 @@ var maDataBlocs = {
    "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.backwardFetch@POLYN180978 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.backwardFetch@POLYN181458 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -237,7 +288,7 @@ var maDataBlocs = {
    "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.fetch@POLYN181252 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.fetch@POLYN181732 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -251,7 +302,7 @@ var maDataBlocs = {
    "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.backwardFetch@POLYN181576 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.RocksDBSessionStore.backwardFetch@POLYN182056 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -266,6 +317,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#136"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00136] For method put arguments Windowed&lt;Bytes &gt;  sessionKey|byte[]  aggregate"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBSessionStore.RocksDBSessionStore@POLYN177952"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBSessionStore.fetchSession@POLYN180805"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBSessionStore.init@POLYN178093"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBSessionStore.put@POLYN182531"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBSessionStore.remove@POLYN182308"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java 103 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java 118 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.xml" 
  , "fic3"  : "" 
 }
@@ -212,20 +212,16 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238590.initialTopologies" }
+{ "ligne" :  "R1:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN239070.initialTopologies" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238292" }
+{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN239070 (R0 in line [00072],R1 in line [00072])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238590 (R0 in line [00072],R1 in line [00072])" }
+{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN239070 (R0 in line [00072],R1 in line [00072])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238590 (R0 in line [00072],R1 in line [00072])" }
-,
-{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241430" }
-,
-{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.hasStartedOrFinishedShuttingDown@POLYN528962" }
+{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult.exceptionNow@POLYN165342" }
  ]
  } }
 ]
@@ -245,7 +241,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "16"
+ , "c4" : "28"
 }}
 ,
 { "ligne" : {
@@ -259,7 +255,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -303,7 +299,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.KafkaStreamsNamedTopologyWrapper@POLYN237684 the MagicNumber/String  'stream-client [%s] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.KafkaStreamsNamedTopologyWrapper@POLYN238164 the MagicNumber/String  'stream-client [%s] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -331,7 +327,7 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method start list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult addNamedTopologyN238884|org.apache.kafka.streams.errors.StreamsException addNamedTopologyResult_exceptionNowN239064"
+ , "c3" : "QC-JAV000007[00072] For method start list of called methods Object monObjet|org.apache.kafka.streams.errors.StreamsException addNamedTopologyResult_exceptionNowN239544"
 }} 
 ,
 { "ligne" : {
@@ -352,21 +348,21 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238590 the MagicNumber/String  'Starting Streams with topologies: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN239070 the MagicNumber/String  'Starting Streams with topologies: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238590 the MagicNumber/String  'Failed to start Streams when adding topology ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN239070 the MagicNumber/String  'Failed to start Streams when adding topology ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238590 the MagicNumber/String  ' due to' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN239070 the MagicNumber/String  ' due to' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -387,7 +383,7 @@ var maDataBlocs = {
    "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.newNamedTopologyBuilder@POLYN239615 the MagicNumber/String  'The character sequence '__' is not allowed in a NamedTopology, please select a new name' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.newNamedTopologyBuilder@POLYN240095 the MagicNumber/String  'The character sequence '__' is not allowed in a NamedTopology, please select a new name' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -429,35 +425,35 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241430 the MagicNumber/String  'Adding new NamedTopology: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String  'Adding new NamedTopology: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241430 the MagicNumber/String  'Cannot add a NamedTopology while the state is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String  'Cannot add a NamedTopology while the state is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241430 the MagicNumber/String  'Unable to add the new NamedTopology ' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String  'Unable to add the new NamedTopology ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241430 the MagicNumber/String  ' as another of the same name already exists' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String  ' as another of the same name already exists' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241430 the MagicNumber/String  'adding topology ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String  'adding topology ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -471,84 +467,84 @@ var maDataBlocs = {
    "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00130] For method removeNamedTopology list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.ThreadMetadata&gt; metadataForLocalThreadsN244129|boolean maybeCompleteFutureIfStillInCREATEDN244899"
+ , "c3" : "QC-JAV000007[00130] For method removeNamedTopology list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult metadataForLocalThreadsN244609|org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult maybeCompleteFutureIfStillInCREATEDN245379"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'Informed to remove topology {} with resetOffsets={} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'Informed to remove topology {} with resetOffsets={} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'Attempted to remove topology {} from while the Kafka Streams was in state {}, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'Attempted to remove topology {} from while the Kafka Streams was in state {}, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'topologies cannot be modified if the application has begun or completed shutting down.' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'topologies cannot be modified if the application has begun or completed shutting down.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'Cannot remove a NamedTopology while the state is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'Cannot remove a NamedTopology while the state is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'Attempted to remove unknown topology {}. This application currently contains the' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'Attempted to remove unknown topology {}. This application currently contains the' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'following topologies: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'following topologies: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'Unable to remove topology' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'Unable to remove topology' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'removing topology ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'removing topology ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'Resetting offsets for the following partitions of {} removed NamedTopology {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'Resetting offsets for the following partitions of {} removed NamedTopology {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'unsuccessfully' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'unsuccessfully' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN242997 the MagicNumber/String  'successfully' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN243477 the MagicNumber/String  'successfully' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -590,28 +586,28 @@ var maDataBlocs = {
    "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String  'Completed {} since application has not been started' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String  'Completed {} since application has not been started' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00205"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -674,84 +670,84 @@ var maDataBlocs = {
    "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  'Successfully completed resetting offsets.' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  'Successfully completed resetting offsets.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00222"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  'Offset reset failed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  'Offset reset failed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  'Deleting offsets of a topic is forbidden while the consumer group is actively subscribed to it.' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  'Deleting offsets of a topic is forbidden while the consumer group is actively subscribed to it.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00230"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  'Offset reset failed, there may be other nodes which have not yet finished removing this topology' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  'Offset reset failed, there may be other nodes which have not yet finished removing this topology' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  'The offsets have been reset by another client or the group has been deleted, no need to retry further.' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  'The offsets have been reset by another client or the group has been deleted, no need to retry further.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  'Offset reset failed, retries remaining: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  'Offset reset failed, retries remaining: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  'Offset reset failed, no retries remaining.' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  'Offset reset failed, no retries remaining.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -765,7 +761,7 @@ var maDataBlocs = {
    "c1" : "00253"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN249401 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.removeNamedTopology@POLYN249881 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -779,7 +775,7 @@ var maDataBlocs = {
    "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.cleanUpNamedTopology@POLYN250047 the MagicNumber/String  'Can't clean up local state for an active NamedTopology: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.cleanUpNamedTopology@POLYN250527 the MagicNumber/String  'Can't clean up local state for an active NamedTopology: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -793,42 +789,42 @@ var maDataBlocs = {
    "c1" : "00268"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#268"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00268] For method verifyTopologyStateStore list of called methods Object monObjet|InternalTopologyBuilder topologyMetadata_lookupBuilderForNamedTopologyN250617"
+ , "c3" : "QC-JAV000007[00268] For method verifyTopologyStateStore list of called methods Object monObjet|InternalTopologyBuilder topologyMetadata_lookupBuilderForNamedTopologyN251097"
 }} 
 ,
 { "ligne" : {
    "c1" : "00270"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250488 the MagicNumber/String  'Cannot get state store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String  'Cannot get state store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250488 the MagicNumber/String  'Cannot get state store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String  'Cannot get state store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250488 the MagicNumber/String  ' from NamedTopology ' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String  ' from NamedTopology ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250488 the MagicNumber/String  ' because no such state store exists in this topology.' should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String  ' because no such state store exists in this topology.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -870,14 +866,14 @@ var maDataBlocs = {
    "c1" : "00314"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.allLocalStorePartitionLagsForTopology@POLYN252921 the MagicNumber/String  'Can't get local store partition lags since topology {} does not exist in this application' should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.allLocalStorePartitionLagsForTopology@POLYN253401 the MagicNumber/String  'Can't get local store partition lags since topology {} does not exist in this application' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00316"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.allLocalStorePartitionLagsForTopology@POLYN252921 the MagicNumber/String  'Can't get local store partition lags' should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.allLocalStorePartitionLagsForTopology@POLYN253401 the MagicNumber/String  'Can't get local store partition lags' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -891,133 +887,238 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN238590.initialTopologies"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN239070.initialTopologies"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.allLocalStorePartitionLagsForTopology@POLYN253401"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00270"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00271"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String 'Cannot get state store ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String ' from NamedTopology ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String 'Cannot get state store ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00275] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.verifyTopologyStateStore@POLYN250968 the MagicNumber/String ' because no such state store exists in this topology.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String 'Adding new NamedTopology: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String 'Cannot add a NamedTopology while the state is ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String 'Unable to add the new NamedTopology ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00119"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String ' as another of the same name already exists' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.addNamedTopology@POLYN241910 the MagicNumber/String 'adding topology ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#314"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.allLocalStorePartitionLagsForTopology@POLYN253401 the MagicNumber/String 'Can't get local store partition lags since topology {} does not exist in this application' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00316"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.allLocalStorePartitionLagsForTopology@POLYN253401 the MagicNumber/String 'Can't get local store partition lags' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#201"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#202"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String 'Completed {} since application has not been started' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String 'Completed {} since application has not been started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00203"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00205"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246455 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.maybeCompleteFutureIfStillInCREATED@POLYN246935 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 100 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 100 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 'Successfully completed resetting offsets.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 'Successfully completed resetting offsets.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00222"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 'Offset reset failed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 'Offset reset failed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00225] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00225] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 'Deleting offsets of a topic is forbidden while the consumer group is actively subscribed to it.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 'Deleting offsets of a topic is forbidden while the consumer group is actively subscribed to it.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00230"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 'Offset reset failed, there may be other nodes which have not yet finished removing this topology' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 'Offset reset failed, there may be other nodes which have not yet finished removing this topology' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 'The offsets have been reset by another client or the group has been deleted, no need to retry further.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 'The offsets have been reset by another client or the group has been deleted, no need to retry further.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 'Offset reset failed, retries remaining: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 'Offset reset failed, retries remaining: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 'Offset reset failed, no retries remaining.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 'Offset reset failed, no retries remaining.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN246964 the MagicNumber/String 100 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.resetOffsets@POLYN247444 the MagicNumber/String 100 MUST BE CONVERTED to const"
 }} 
 ]
 };

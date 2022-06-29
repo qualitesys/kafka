@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java 8 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java 10 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -90,7 +90,26 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.clients.consumer.internals.ConsumerMetadata.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.clients.consumer.internals.ConsumerMetadata.addTransientTopics@POLYN169166.topics" }
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -160,14 +179,28 @@ var maDataBlocs = {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN169139 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN169619 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN169139 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN169619 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerMetadata.newMetadataRequestBuilder@POLYN168638"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerMetadata.ConsumerMetadata@POLYN167892"
 }} 
 ]
 };

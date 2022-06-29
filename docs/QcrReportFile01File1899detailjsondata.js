@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java 39 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java 48 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,7 +111,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -160,7 +160,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -177,13 +177,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#29"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00029] For method enforce arguments Set&lt;String &gt;  copartitionGroup|Map&lt;String ,InternalTopicConfig &gt;  allRepartitionTopicsNumPartitions|Cluster  metadata"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00029] For method enforce list of called methods Object monObjet|int validateAndGetNumOfPartitionsN184395|int getMaxPartitionsN184521|int getSamePartitionsN184628|java.util.Optional&lt;Integer&gt; config_numberOfPartitionsN184884"
 }} 
 ,
 { "ligne" : {
@@ -218,28 +211,28 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String  '%sTopic not found: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String  '%sTopic not found: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String  '%sNumber of partitions [%s] of repartition topic [%s] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String  '%sNumber of partitions [%s] of repartition topic [%s] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String  'doesn't match number of partitions [%s] of the source topic.' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String  'doesn't match number of partitions [%s] of the source topic.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -267,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method validateAndGetNumOfPartitions list of called methods Object monObjet|java.util.Optional&lt;Integer&gt; firstInternalTopicConfig_numberOfPartitionsN185950|java.util.Optional&lt;Integer&gt; internalTopicConfig_numberOfPartitionsN186197"
+ , "c3" : "QC-JAV000007[00107] For method validateAndGetNumOfPartitions list of called methods Object monObjet|java.util.Optional&lt;Integer&gt; firstInternalTopicConfig_numberOfPartitionsN186430|java.util.Optional&lt;Integer&gt; internalTopicConfig_numberOfPartitionsN186677"
 }} 
 ,
 { "ligne" : {
@@ -309,7 +302,7 @@ var maDataBlocs = {
    "c1" : "00126"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.validateAndGetNumOfPartitions@POLYN185659 the MagicNumber/String  '%sFollowing topics do not have the same number of partitions: [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.validateAndGetNumOfPartitions@POLYN186139 the MagicNumber/String  '%sFollowing topics do not have the same number of partitions: [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -323,7 +316,7 @@ var maDataBlocs = {
    "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.emptyNumberOfPartitionsExceptionSupplier@POLYN187075 the MagicNumber/String  'Number of partitions is not set for topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.emptyNumberOfPartitionsExceptionSupplier@POLYN187555 the MagicNumber/String  'Number of partitions is not set for topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -351,7 +344,7 @@ var maDataBlocs = {
    "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getSamePartitions@POLYN187277 the MagicNumber/String  '%sTopics not co-partitioned: [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getSamePartitions@POLYN187757 the MagicNumber/String  '%sTopics not co-partitioned: [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -365,7 +358,7 @@ var maDataBlocs = {
    "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method getMaxPartitions list of called methods Object monObjet|java.util.Optional&lt;Integer&gt; config_numberOfPartitionsN188394"
+ , "c3" : "QC-JAV000007[00154] For method getMaxPartitions list of called methods Object monObjet|java.util.Optional&lt;Integer&gt; config_numberOfPartitionsN188874"
 }} 
 ,
 { "ligne" : {
@@ -386,56 +379,126 @@ var maDataBlocs = {
    "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188557 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188557 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188077 the MagicNumber/String  'Could not validate the copartitioning of topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188557 the MagicNumber/String  'Could not validate the copartitioning of topics: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.validateAndGetNumOfPartitions@POLYN186139"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188557"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getSamePartitions@POLYN187757"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.maybeSetNumberOfPartitionsForInternalTopic@POLYN185885"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.CopartitionedTopicsEnforcer@POLYN182522"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String '%sTopic not found: %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String '%sTopic not found: %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#89"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String '%sNumber of partitions [%s] of repartition topic [%s] ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String '%sNumber of partitions [%s] of repartition topic [%s] ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#90"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182375 the MagicNumber/String 'doesn't match number of partitions [%s] of the source topic.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN182855 the MagicNumber/String 'doesn't match number of partitions [%s] of the source topic.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.validateAndGetNumOfPartitions@POLYN186139 the MagicNumber/String '%sFollowing topics do not have the same number of partitions: [%s]' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188557 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188557 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getMaxPartitions@POLYN188557 the MagicNumber/String 'Could not validate the copartitioning of topics: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00146"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.getSamePartitions@POLYN187757 the MagicNumber/String '%sTopics not co-partitioned: [%s]' MUST BE CONVERTED to const"
 }} 
 ]
 };

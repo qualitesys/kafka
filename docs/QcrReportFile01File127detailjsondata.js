@@ -153,56 +153,56 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.QuorumInfo.equals@POLYN174440 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.QuorumInfo.equals@POLYN174920 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.QuorumInfo.equals@POLYN174440 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.QuorumInfo.equals@POLYN174920 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.QuorumInfo.equals@POLYN174440 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.QuorumInfo.equals@POLYN174920 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175262 the MagicNumber/String  'QuorumInfo(' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175742 the MagicNumber/String  'QuorumInfo(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175262 the MagicNumber/String  'leaderId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175742 the MagicNumber/String  'leaderId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175262 the MagicNumber/String  ', voters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175742 the MagicNumber/String  ', voters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175262 the MagicNumber/String  ', observers=' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175742 the MagicNumber/String  ', observers=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175262 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.QuorumInfo.toString@POLYN175742 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,14 +216,14 @@ var maDataBlocs = {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.ReplicaState@POLYN175713 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.ReplicaState@POLYN176193 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.ReplicaState@POLYN175713 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.ReplicaState@POLYN176193 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,63 +244,63 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.equals@POLYN176999 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.equals@POLYN177479 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.equals@POLYN176999 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.equals@POLYN177479 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.equals@POLYN176999 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.equals@POLYN177479 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN177878 the MagicNumber/String  'ReplicaState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN178358 the MagicNumber/String  'ReplicaState(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN177878 the MagicNumber/String  'replicaId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN178358 the MagicNumber/String  'replicaId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN177878 the MagicNumber/String  ', logEndOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN178358 the MagicNumber/String  ', logEndOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN177878 the MagicNumber/String  ', lastFetchTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN178358 the MagicNumber/String  ', lastFetchTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN177878 the MagicNumber/String  ', lastCaughtUpTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN178358 the MagicNumber/String  ', lastCaughtUpTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN177878 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.admin.QuorumInfo.ReplicaState.toString@POLYN178358 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

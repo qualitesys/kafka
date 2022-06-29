@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/PartitionInfo.java 12 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/PartitionInfo.java 19 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.xml" 
  , "fic3"  : "" 
 }
@@ -118,7 +118,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -153,28 +176,28 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.PartitionInfo.PartitionInfo@POLYN170474 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.PartitionInfo.PartitionInfo@POLYN170954 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.PartitionInfo.toString@POLYN172378 the MagicNumber/String  'Partition(topic = %s, partition = %d, leader = %s, replicas = %s, isr = %s, offlineReplicas = %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.PartitionInfo.toString@POLYN172858 the MagicNumber/String  'Partition(topic = %s, partition = %d, leader = %s, replicas = %s, isr = %s, offlineReplicas = %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN172378 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN172858 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN172378 the MagicNumber/String  'none' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN172858 the MagicNumber/String  'none' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -188,42 +211,91 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN172859 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN172859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN172859 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN172859 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN172859 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN172859 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String '[' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#75"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#76"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String ',' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN173339 the MagicNumber/String ']' MUST BE CONVERTED to const"
 }} 
 ]
 };

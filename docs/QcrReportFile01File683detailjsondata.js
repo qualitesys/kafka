@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java 13 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,7 +76,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -118,28 +141,28 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167199 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167679 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167199 the MagicNumber/String  'transaction timeout value is not positive: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167679 the MagicNumber/String  'transaction timeout value is not positive: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167199 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167199 the MagicNumber/String  'Must set either a null or a non-empty transactional id.' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN167679 the MagicNumber/String  'Must set either a null or a non-empty transactional id.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.InitProducerIdRequest.getErrorResponse@POLYN168195 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.InitProducerIdRequest.getErrorResponse@POLYN168675 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -161,6 +184,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#56"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00056] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.InitProducerIdRequest.InitProducerIdRequest@POLYN168410"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.InitProducerIdRequest.getErrorResponse@POLYN168675"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.InitProducerIdRequest.parse@POLYN169158"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.requests.InitProducerIdRequest.getErrorResponse@POLYN168675 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

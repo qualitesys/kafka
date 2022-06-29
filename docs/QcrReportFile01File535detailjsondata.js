@@ -132,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedField.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.RawTaggedField.equals@POLYN162618 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.RawTaggedField.equals@POLYN163098 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedField.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.protocol.types.RawTaggedField.equals@POLYN162618 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.protocol.types.RawTaggedField.equals@POLYN163098 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

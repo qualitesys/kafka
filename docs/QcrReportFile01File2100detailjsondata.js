@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java 31 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java 51 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.xml" 
  , "fic3"  : "" 
 }
@@ -181,12 +181,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -286,7 +309,7 @@ var maDataBlocs = {
    "c1" : "00260"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#260"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00260] For method prefixScanSensor list of called methods Object monObjet|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN223270|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN223413"
+ , "c3" : "QC-JAV000007[00260] For method prefixScanSensor list of called methods Object monObjet|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN223750|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN223893"
 }} 
 ,
 { "ligne" : {
@@ -335,7 +358,7 @@ var maDataBlocs = {
    "c1" : "00354"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#354"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00354] For method expiredWindowRecordDropSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN225770"
+ , "c3" : "QC-JAV000007[00354] For method expiredWindowRecordDropSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN226250"
 }} 
 ,
 { "ligne" : {
@@ -349,14 +372,14 @@ var maDataBlocs = {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN225581 the MagicNumber/String  'stream-' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN226061 the MagicNumber/String  'stream-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN225581 the MagicNumber/String  '-metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN226061 the MagicNumber/String  '-metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -384,7 +407,7 @@ var maDataBlocs = {
    "c1" : "00407"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#407"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00407] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN227233|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN227443"
+ , "c3" : "QC-JAV000007[00407] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN227713|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN227923"
 }} 
 ,
 { "ligne" : {
@@ -405,7 +428,7 @@ var maDataBlocs = {
    "c1" : "00425"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#425"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00425] For method sizeOrCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN228093|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN228411"
+ , "c3" : "QC-JAV000007[00425] For method sizeOrCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN228573|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN228891"
 }} 
 ,
 { "ligne" : {
@@ -426,7 +449,7 @@ var maDataBlocs = {
    "c1" : "00442"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#442"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00442] For method throughputAndLatencySensor list of called methods Object monObjet|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN229220|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN229357"
+ , "c3" : "QC-JAV000007[00442] For method throughputAndLatencySensor list of called methods Object monObjet|java.util.Map&lt;String,String&gt; streamsMetrics_storeLevelTagMapN229700|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN229837"
 }} 
 ,
 { "ligne" : {
@@ -434,6 +457,146 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#450"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00450] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.allSensor@POLYN222612"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.deleteSensor@POLYN224816"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.e2ELatencySensor@POLYN227524"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN226061"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.fetchSensor@POLYN222197"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.flushSensor@POLYN224401"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.getSensor@POLYN221782"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.prefixScanSensor@POLYN223442"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.putAllSensor@POLYN221367"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.putIfAbsentSensor@POLYN220952"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.putSensor@POLYN220537"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.rangeSensor@POLYN223027"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.removeSensor@POLYN225231"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.restoreSensor@POLYN225646"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.sizeOrCountSensor@POLYN228272"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.suppressionBufferCountSensor@POLYN226738"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.suppressionBufferSizeSensor@POLYN227131"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.throughputAndLatencySensor@POLYN229218"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00366"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00366] In the recursive method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN226061 the MagicNumber/String '-metrics' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00366"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00366] In the recursive method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN226061 the MagicNumber/String 'stream-' MUST BE CONVERTED to const"
 }} 
 ]
 };

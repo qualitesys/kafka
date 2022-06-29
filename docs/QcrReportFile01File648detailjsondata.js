@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java 7 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java 10 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,7 +83,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -111,14 +127,14 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.Builder.Builder@POLYN167182 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.Builder.Builder@POLYN167662 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.Builder.Builder@POLYN167182 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.Builder.Builder@POLYN167662 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -139,7 +155,7 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.ownersListEmpty@POLYN168514 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.ownersListEmpty@POLYN168994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -154,6 +170,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#62"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00062] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeDelegationTokenRequest.DescribeDelegationTokenRequest@POLYN168643"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeDelegationTokenRequest.getErrorResponse@POLYN169200"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeDelegationTokenRequest.parse@POLYN169437"
 }} 
 ]
 };

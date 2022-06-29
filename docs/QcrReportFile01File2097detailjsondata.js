@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java 108 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java 127 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.xml" 
  , "fic3"  : "" 
 }
@@ -349,12 +349,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "40"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -426,21 +449,21 @@ var maDataBlocs = {
    "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN248179 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN248659 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN248179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN248659 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN248179 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN248659 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -454,7 +477,7 @@ var maDataBlocs = {
    "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method bytesWrittenToDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN249238"
+ , "c3" : "QC-JAV000007[00188] For method bytesWrittenToDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN249718"
 }} 
 ,
 { "ligne" : {
@@ -482,7 +505,7 @@ var maDataBlocs = {
    "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00206] For method bytesReadFromDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN249833"
+ , "c3" : "QC-JAV000007[00206] For method bytesReadFromDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN250313"
 }} 
 ,
 { "ligne" : {
@@ -510,7 +533,7 @@ var maDataBlocs = {
    "c1" : "00224"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#224"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00224] For method memtableBytesFlushedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN250428"
+ , "c3" : "QC-JAV000007[00224] For method memtableBytesFlushedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN250908"
 }} 
 ,
 { "ligne" : {
@@ -538,7 +561,7 @@ var maDataBlocs = {
    "c1" : "00242"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00242] For method memtableHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN251023"
+ , "c3" : "QC-JAV000007[00242] For method memtableHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN251503"
 }} 
 ,
 { "ligne" : {
@@ -566,7 +589,7 @@ var maDataBlocs = {
    "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method memtableAvgFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN251596"
+ , "c3" : "QC-JAV000007[00259] For method memtableAvgFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN252076"
 }} 
 ,
 { "ligne" : {
@@ -594,7 +617,7 @@ var maDataBlocs = {
    "c1" : "00276"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#276"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00276] For method memtableMinFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN252169"
+ , "c3" : "QC-JAV000007[00276] For method memtableMinFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN252649"
 }} 
 ,
 { "ligne" : {
@@ -622,7 +645,7 @@ var maDataBlocs = {
    "c1" : "00293"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#293"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00293] For method memtableMaxFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN252742"
+ , "c3" : "QC-JAV000007[00293] For method memtableMaxFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN253222"
 }} 
 ,
 { "ligne" : {
@@ -650,7 +673,7 @@ var maDataBlocs = {
    "c1" : "00310"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00310] For method writeStallDurationSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN253315"
+ , "c3" : "QC-JAV000007[00310] For method writeStallDurationSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN253795"
 }} 
 ,
 { "ligne" : {
@@ -678,7 +701,7 @@ var maDataBlocs = {
    "c1" : "00328"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#328"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00328] For method blockCacheDataHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN253910"
+ , "c3" : "QC-JAV000007[00328] For method blockCacheDataHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN254390"
 }} 
 ,
 { "ligne" : {
@@ -706,7 +729,7 @@ var maDataBlocs = {
    "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#345"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00345] For method blockCacheIndexHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN254483"
+ , "c3" : "QC-JAV000007[00345] For method blockCacheIndexHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN254963"
 }} 
 ,
 { "ligne" : {
@@ -734,7 +757,7 @@ var maDataBlocs = {
    "c1" : "00362"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#362"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00362] For method blockCacheFilterHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN255056"
+ , "c3" : "QC-JAV000007[00362] For method blockCacheFilterHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN255536"
 }} 
 ,
 { "ligne" : {
@@ -762,7 +785,7 @@ var maDataBlocs = {
    "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#379"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00379] For method bytesReadDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN255629"
+ , "c3" : "QC-JAV000007[00379] For method bytesReadDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN256109"
 }} 
 ,
 { "ligne" : {
@@ -790,7 +813,7 @@ var maDataBlocs = {
    "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00396] For method bytesWrittenDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN256202"
+ , "c3" : "QC-JAV000007[00396] For method bytesWrittenDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN256682"
 }} 
 ,
 { "ligne" : {
@@ -818,7 +841,7 @@ var maDataBlocs = {
    "c1" : "00413"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00413] For method compactionTimeAvgSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN256775"
+ , "c3" : "QC-JAV000007[00413] For method compactionTimeAvgSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN257255"
 }} 
 ,
 { "ligne" : {
@@ -846,7 +869,7 @@ var maDataBlocs = {
    "c1" : "00430"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#430"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00430] For method compactionTimeMinSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN257348"
+ , "c3" : "QC-JAV000007[00430] For method compactionTimeMinSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN257828"
 }} 
 ,
 { "ligne" : {
@@ -874,7 +897,7 @@ var maDataBlocs = {
    "c1" : "00447"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#447"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00447] For method compactionTimeMaxSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN257921"
+ , "c3" : "QC-JAV000007[00447] For method compactionTimeMaxSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN258401"
 }} 
 ,
 { "ligne" : {
@@ -902,7 +925,7 @@ var maDataBlocs = {
    "c1" : "00464"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#464"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00464] For method numberOfOpenFilesSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN258494"
+ , "c3" : "QC-JAV000007[00464] For method numberOfOpenFilesSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN258974"
 }} 
 ,
 { "ligne" : {
@@ -923,7 +946,7 @@ var maDataBlocs = {
    "c1" : "00476"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfOpenFilesSensor@POLYN258361 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfOpenFilesSensor@POLYN258841 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -937,7 +960,7 @@ var maDataBlocs = {
    "c1" : "00482"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#482"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00482] For method numberOfFileErrorsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN259091"
+ , "c3" : "QC-JAV000007[00482] For method numberOfFileErrorsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN259571"
 }} 
 ,
 { "ligne" : {
@@ -1148,6 +1171,139 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#780"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00780] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.blockCacheDataHitRatioSensor@POLYN254257"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.blockCacheFilterHitRatioSensor@POLYN255403"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.blockCacheIndexHitRatioSensor@POLYN254830"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.bytesReadDuringCompactionSensor@POLYN255976"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.bytesReadFromDatabaseSensor@POLYN250180"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.bytesWrittenDuringCompactionSensor@POLYN256549"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.bytesWrittenToDatabaseSensor@POLYN249585"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.compactionTimeAvgSensor@POLYN257122"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.compactionTimeMaxSensor@POLYN258268"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.compactionTimeMinSensor@POLYN257695"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.memtableAvgFlushTimeSensor@POLYN251943"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.memtableBytesFlushedSensor@POLYN250775"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.memtableHitRatioSensor@POLYN251370"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.memtableMaxFlushTimeSensor@POLYN253089"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.memtableMinFlushTimeSensor@POLYN252516"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfFileErrorsSensor@POLYN259438"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfOpenFilesSensor@POLYN258841"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.writeStallDurationSensor@POLYN253662"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00476"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#476"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00476] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfOpenFilesSensor@POLYN258841 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

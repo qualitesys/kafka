@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java 26 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java 27 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -160,7 +160,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -183,13 +183,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -211,7 +204,7 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.requests.DescribeAclsResponse.shouldClientThrottle@POLYN187231 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.requests.DescribeAclsResponse.shouldClientThrottle@POLYN187711 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -219,13 +212,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#81"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00081] For method validate arguments Optional&lt;Short &gt;  version"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method validate list of called methods Object monObjet|java.util.List&lt;DescribeAclsResource&gt; aclsN187609"
 }} 
 ,
 { "ligne" : {
@@ -246,28 +232,28 @@ var maDataBlocs = {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187355 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187835 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187355 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187835 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187355 the MagicNumber/String  'Contain UNKNOWN elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187835 the MagicNumber/String  'Contain UNKNOWN elements' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187355 the MagicNumber/String  'Contain UNKNOWN elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.requests.DescribeAclsResponse.validate@POLYN187835 the MagicNumber/String  'Contain UNKNOWN elements' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -351,28 +337,42 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.acls@POLYN186815"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.acls@POLYN187295"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.aclsResources@POLYN189905"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.aclsResources@POLYN190385"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.errorCounts@POLYN186618"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.error@POLYN186822"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.throttleTimeMs@POLYN186236"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.errorCounts@POLYN187098"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.parse@POLYN187406"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.throttleTimeMs@POLYN186716"
 }} 
 ]
 };

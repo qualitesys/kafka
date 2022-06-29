@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java 16 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java 20 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.xml" 
  , "fic3"  : "" 
 }
@@ -118,12 +118,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -167,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.task.TaskSpec.TaskSpec@POLYN172100 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.task.TaskSpec.TaskSpec@POLYN172580 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -202,21 +225,21 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173317 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173797 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173317 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173797 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173317 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173797 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -230,7 +253,7 @@ var maDataBlocs = {
    "c1" : "00075"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.task.TaskSpec.configOrEmptyMap@POLYN174084 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.task.TaskSpec.configOrEmptyMap@POLYN174564 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -266,6 +289,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#70"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00070] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173797"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00059"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#59"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173797 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00060"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173797 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00060"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN173797 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

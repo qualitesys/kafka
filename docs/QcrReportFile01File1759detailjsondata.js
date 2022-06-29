@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java 14 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java 20 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.xml" 
  , "fic3"  : "" 
 }
@@ -139,7 +139,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "5"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -181,7 +204,7 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withLoggingDisabled@POLYN169875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withLoggingDisabled@POLYN170355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -195,7 +218,7 @@ var maDataBlocs = {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.isLoggingEnabled@POLYN170311 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.isLoggingEnabled@POLYN170791 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,49 +239,91 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN170648 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN171128 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN170648 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN171128 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN170648 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN171128 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN171538 the MagicNumber/String  'EagerBufferConfigImpl{maxRecords=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN172018 the MagicNumber/String  'EagerBufferConfigImpl{maxRecords=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN171538 the MagicNumber/String  ', maxBytes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN172018 the MagicNumber/String  ', maxBytes=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN171538 the MagicNumber/String  ', logConfig=' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN172018 the MagicNumber/String  ', logConfig=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN171538 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN172018 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.getLogConfig@POLYN170952"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withLoggingDisabled@POLYN170355"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withLoggingEnabled@POLYN170547"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withMaxBytes@POLYN169832"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withMaxRecords@POLYN169617"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withLoggingDisabled@POLYN170355 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

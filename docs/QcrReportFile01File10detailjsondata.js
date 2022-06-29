@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 149 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 189 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -146,7 +146,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "23"
+ , "c4" : "58"
 }}
 ,
 { "ligne" : {
@@ -160,7 +160,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -195,7 +195,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -225,126 +225,126 @@ var maDataBlocs = {
    "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  'FullFetchRequest(toSend=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  'FullFetchRequest(toSend=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  'IncrementalFetchRequest(toSend=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  'IncrementalFetchRequest(toSend=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '), toForget=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '), toForget=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '), toReplace=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '), toReplace=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '), implied=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '), implied=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '), canUseTopicIds=True' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '), canUseTopicIds=True' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00163"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  '), canUseTopicIds=False' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  '), canUseTopicIds=False' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259078 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN259558 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,7 +358,7 @@ var maDataBlocs = {
    "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.FetchSessionHandler.Builder.Builder@POLYN262460 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.FetchSessionHandler.Builder.Builder@POLYN262940 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -428,56 +428,56 @@ var maDataBlocs = {
    "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  'Built full fetch {} for node {} with {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  'Built full fetch {} for node {} with {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00282"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  'Built incremental fetch {} for node {}. Added {}, altered {}, removed {}, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  'Built incremental fetch {} for node {}. Added {}, altered {}, removed {}, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00283"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  'replaced {} out of {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  'replaced {} out of {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00291"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN263634 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN264114 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -505,28 +505,28 @@ var maDataBlocs = {
    "c1" : "00313"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN269820 the MagicNumber/String  '%d partition(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN270300 the MagicNumber/String  '%d partition(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN269820 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN270300 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN269820 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN270300 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN269820 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.FetchSessionHandler.topicPartitionsToLogString@POLYN270300 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -547,28 +547,28 @@ var maDataBlocs = {
    "c1" : "00320"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270257 the MagicNumber/String  '%d partition(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270737 the MagicNumber/String  '%d partition(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00322"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270257 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270737 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00322"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270257 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270737 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00322"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270257 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.clients.FetchSessionHandler.topicIdPartitionsToLogString@POLYN270737 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -586,101 +586,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00337"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#337"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00337] For method verifyFullFetchResponsePartitions list of called methods Object monObjet|String findMissingN272474|String findMissingN272623|String findMissingN272928"
+}} 
+,
+{ "ligne" : {
    "c1" : "00344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00348"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  'omittedPartitions=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  'omittedPartitions=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00348"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00348"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00351"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  'extraPartitions=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  'extraPartitions=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00351"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00351"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  'extraIds=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  'extraIds=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00357"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  'response=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  'response=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00357"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00357"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00360"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN271710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -691,80 +698,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00364"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#364"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00364] For method verifyIncrementalFetchResponsePartitions list of called methods Object monObjet|String findMissingN275078|String findMissingN275230"
+}} 
+,
+{ "ligne" : {
    "c1" : "00366"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00373"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  'extraPartitions=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  'extraPartitions=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00373"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00373"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  '), ' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  '), ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00375"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  'extraIds=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  'extraIds=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00375"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00375"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  '), ' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  '), ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  'response=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  'response=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00380"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274232 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -785,70 +799,70 @@ var maDataBlocs = {
    "c1" : "00387"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ' with %d response partition(s), %d implied partition(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ' with %d response partition(s), %d implied partition(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00391"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ' with %d response partition(s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ' with %d response partition(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00396"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ' with response=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ' with response=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00397"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00398"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00399"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#399"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ', implied=(' should be converted to const"
+ , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ', implied=(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00400"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00405"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00406"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276084 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -862,7 +876,7 @@ var maDataBlocs = {
    "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#414"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00414] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN278450|java.util.LinkedHashMap&lt;org.apache.kafka.common.TopicPartition,FetchResponseData.PartitionData&gt; response_responseDataN278587|String verifyFullFetchResponsePartitionsN279260|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN280373|String verifyIncrementalFetchResponsePartitionsN280544|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN280883|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextIncrementalN281753"
+ , "c3" : "QC-JAV000007[00414] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN278930|java.util.LinkedHashMap&lt;org.apache.kafka.common.TopicPartition,FetchResponseData.PartitionData&gt; response_responseDataN279067|boolean verifyFullFetchResponsePartitionsN279740|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN280853|boolean verifyIncrementalFetchResponsePartitionsN281024|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN281363|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextIncrementalN282233"
 }} 
 ,
 { "ligne" : {
@@ -876,154 +890,154 @@ var maDataBlocs = {
    "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} was unable to process the fetch request with {}: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} was unable to process the fetch request with {}: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00423"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#427"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00435"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} sent a empty full fetch response to indicate that this ' should be converted to const"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} sent a empty full fetch response to indicate that this ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00436"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'client should be throttled for {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'client should be throttled for {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} sent an invalid full fetch response with {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} sent an invalid full fetch response with {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00445"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#445"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} sent a full fetch response{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} sent a full fetch response{}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} sent a full fetch response that created a new incremental ' should be converted to const"
+ , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} sent a full fetch response that created a new incremental ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00455"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'fetch session {}{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'fetch session {}{}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00462"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#462"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} sent an invalid incremental fetch response with {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} sent an invalid incremental fetch response with {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00464"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00468"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} sent an incremental fetch response closing session {}{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} sent an incremental fetch response closing session {}{}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00471"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'Node {} sent an incremental fetch response with throttleTimeMs = {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'Node {} sent an incremental fetch response with throttleTimeMs = {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00478"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  'for session {}{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  'for session {}{}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1037,14 +1051,14 @@ var maDataBlocs = {
    "c1" : "00487"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#487"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00487] For method handleError list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN282237"
+ , "c3" : "QC-JAV000007[00487] For method handleError list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN282717"
 }} 
 ,
 { "ligne" : {
    "c1" : "00488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN282006 the MagicNumber/String  'Error sending fetch request {} to node {}:' should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN282486 the MagicNumber/String  'Error sending fetch request {} to node {}:' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1072,175 +1086,441 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN282006"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN282486"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712"
 }} 
 ,
 { "ligne" : {
    "c1" : "00488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#488"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00488] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN282006 the MagicNumber/String 'Error sending fetch request {} to node {}:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00488] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN282486 the MagicNumber/String 'Error sending fetch request {} to node {}:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} was unable to process the fetch request with {}: {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} was unable to process the fetch request with {}: {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00423"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#423"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00423] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00423] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#427"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00427] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00427] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00435"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00435] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} sent a empty full fetch response to indicate that this ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00435] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} sent a empty full fetch response to indicate that this ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00436"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#436"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'client should be throttled for {} ms.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'client should be throttled for {} ms.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#439"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#442"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00442] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00442] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#443"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00443] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} sent an invalid full fetch response with {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00443] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} sent an invalid full fetch response with {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00445"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#445"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00445] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00445] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00448] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} sent a full fetch response{}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00448] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} sent a full fetch response{}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#450"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00450] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00450] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#454"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00454] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} sent a full fetch response that created a new incremental ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00454] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} sent a full fetch response that created a new incremental ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00455"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00455] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'fetch session {}{}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00455] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'fetch session {}{}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00461] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00461] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00462"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} sent an invalid incremental fetch response with {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} sent an invalid incremental fetch response with {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00464"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#464"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00464] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00464] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00468"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00468] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} sent an incremental fetch response closing session {}{}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00468] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} sent an incremental fetch response closing session {}{}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00471"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#471"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00471] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00471] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#477"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00477] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'Node {} sent an incremental fetch response with throttleTimeMs = {} ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00477] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'Node {} sent an incremental fetch response with throttleTimeMs = {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00478"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00478] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String 'for session {}{}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00478] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String 'for session {}{}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN277891 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN278371 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00387"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00388"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#388"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String ' with %d response partition-s-, %d implied partition-s-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00391"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#391"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String ' with %d response partition-s-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00396"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#396"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00396] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String ' with response=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00397"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#397"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00398"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#398"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00399"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String ', implied=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00400"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#400"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00405"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00405] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00406"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00406] In the recursive method org.apache.kafka.clients.FetchSessionHandler.responseDataToLogString@POLYN276564 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00344"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String 13 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00348"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00348] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00348"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00348] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00348"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00348] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String 'omittedPartitions=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00351"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00351] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00351"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00351] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00351"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00351] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String 'extraPartitions=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00354"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00354"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00354"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String 'extraIds=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00357"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#357"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00357] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00357"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#357"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00357] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00357"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#357"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00357] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String 'response=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00360"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#360"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00360] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyFullFetchResponsePartitions@POLYN272190 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00366"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00366] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String 13 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00373"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String '-, ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00373"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00373"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String 'extraPartitions=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00375"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String '-, ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00375"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00375"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String 'extraIds=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00377"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#377"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00377"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#377"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00377"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#377"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String 'response=-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00380"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#380"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00380] In the recursive method org.apache.kafka.clients.FetchSessionHandler.verifyIncrementalFetchResponsePartitions@POLYN274712 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java 9 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java 14 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,14 +83,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -106,6 +106,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -120,14 +127,14 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162232 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162712 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162232 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162712 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -138,38 +145,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#27"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00027] For method putIfAbsent list of called methods Object monObjet|byte[] wrappedN163408"
+}} 
+,
+{ "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.putIfAbsent@POLYN162783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.putIfAbsent@POLYN163263 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.putIfAbsent@POLYN162783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.putIfAbsent@POLYN163263 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162232"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.putIfAbsent@POLYN163263"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162712"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.ChangeLoggingListValueBytesStore@POLYN162528"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.putIfAbsent@POLYN163263 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#34"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.putIfAbsent@POLYN163263 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#19"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00019] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162232 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00019] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162712 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#20"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00020] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162232 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00020] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN162712 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java 5 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java 6 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,7 +104,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -148,21 +148,28 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.admin.MemberToRemove.equals@POLYN162413 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.admin.MemberToRemove.equals@POLYN162893 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.MemberToRemove.equals@POLYN162413"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.MemberToRemove.equals@POLYN162893"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.MemberToRemove.toMemberIdentity@POLYN163388"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.html#23"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00023] In the recursive method org.apache.kafka.clients.admin.MemberToRemove.equals@POLYN162413 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00023] In the recursive method org.apache.kafka.clients.admin.MemberToRemove.equals@POLYN162893 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

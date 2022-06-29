@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Named.java 31 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Named.java 47 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.xml" 
  , "fic3"  : "" 
 }
@@ -90,12 +90,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "13"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -132,14 +155,14 @@ var maDataBlocs = {
    "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.kstream.Named.Named@POLYN168888 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.kstream.Named.Named@POLYN169368 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.kstream.Named.Named@POLYN169083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.kstream.Named.Named@POLYN169563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.Named.as@POLYN169616 the MagicNumber/String  'name can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.Named.as@POLYN170096 the MagicNumber/String  'name can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -181,63 +204,63 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  'Name is illegal, it can't be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  'Name is illegal, it can't be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  '..' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  '..' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  'Name cannot be \'.\' or \'..\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  'Name cannot be \'.\' or \'..\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  'Name is illegal, it can't be longer than ' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  'Name is illegal, it can't be longer than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  ' characters, name: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  ' characters, name: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  'Name \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  'Name \'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  '\' is illegal, it contains a character other than ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  '\' is illegal, it contains a character other than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170020 the MagicNumber/String  'ASCII alphanumerics, '.', '_' and '-'' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.Named.validate@POLYN170500 the MagicNumber/String  'ASCII alphanumerics, '.', '_' and '-'' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -258,84 +281,196 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  'a' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  'a' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  'z' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  'z' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  '0' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  '0' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  '9' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  '9' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  'A' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  'A' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  'Z' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  'Z' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN170939 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.Named.as@POLYN170096"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.Named.withName@POLYN170354"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#27"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.streams.kstream.Named.as@POLYN170096 the MagicNumber/String 'name can't be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String '0' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String '9' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String 'A' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String 'Z' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String 'a' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String 'z' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00056"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00056"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String '.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00056"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String '_' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.streams.kstream.Named.containsValidPattern@POLYN171419 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 };

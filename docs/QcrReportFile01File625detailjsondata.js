@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java 5 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java 7 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,7 +111,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -148,21 +148,35 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.CreateAclsResponse.shouldClientThrottle@POLYN165236 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.CreateAclsResponse.shouldClientThrottle@POLYN165716 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsResponse.results@POLYN164518"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsResponse.CreateAclsResponse@POLYN164545"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsResponse.throttleTimeMs@POLYN164383"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsResponse.parse@POLYN165433"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsResponse.results@POLYN164998"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsResponse.throttleTimeMs@POLYN164863"
 }} 
 ]
 };

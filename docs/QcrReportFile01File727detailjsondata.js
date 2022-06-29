@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java 27 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java 31 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -97,12 +97,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -153,7 +169,7 @@ var maDataBlocs = {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.Builder@POLYN190346 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.Builder@POLYN190826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -167,28 +183,28 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.build@POLYN191224 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.build@POLYN191704 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.build@POLYN191224 the MagicNumber/String  'Broker doesn't support group metadata commit API on version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.build@POLYN191704 the MagicNumber/String  'Broker doesn't support group metadata commit API on version ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.build@POLYN191224 the MagicNumber/String  ', minimum supported request version is 3 which requires brokers to be on version 2.5 or above.' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.build@POLYN191704 the MagicNumber/String  ', minimum supported request version is 3 which requires brokers to be on version 2.5 or above.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.groupMetadataSet@POLYN191621 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.Builder.groupMetadataSet@POLYN192101 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -265,7 +281,7 @@ var maDataBlocs = {
    "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#158"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00158] For method getErrorResponse list of called methods Object monObjet|java.util.List&lt;TxnOffsetCommitResponseTopic&gt; getErrorResponseTopicsN195921"
+ , "c3" : "QC-JAV000007[00158] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.TxnOffsetCommitResponse getErrorResponseTopicsN196401"
 }} 
 ,
 { "ligne" : {
@@ -286,35 +302,35 @@ var maDataBlocs = {
    "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197060 the MagicNumber/String  'CommittedOffset(' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197540 the MagicNumber/String  'CommittedOffset(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197060 the MagicNumber/String  'offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197540 the MagicNumber/String  'offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197060 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197540 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197060 the MagicNumber/String  ', metadata='' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197540 the MagicNumber/String  ', metadata='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197060 the MagicNumber/String  '')' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.toString@POLYN197540 the MagicNumber/String  '')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -328,7 +344,35 @@ var maDataBlocs = {
    "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.equals@POLYN197324 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.requests.TxnOffsetCommitRequest.CommittedOffset.equals@POLYN197804 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitRequest.TxnOffsetCommitRequest@POLYN192513"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitRequest.getErrorResponse@POLYN196258"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitRequest.getTopics@POLYN193673"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitRequest.parse@POLYN196719"
 }} 
 ]
 };

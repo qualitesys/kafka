@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java 15 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java 21 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -164,10 +164,17 @@ var maDataBlocs = {
 ,
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -190,7 +197,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.ChangeLoggingWindowBytesStore@POLYN179250 the MagicNumber/String  'keySerializer' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.ChangeLoggingWindowBytesStore@POLYN179730 the MagicNumber/String  'keySerializer' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -274,21 +281,63 @@ var maDataBlocs = {
    "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.maybeUpdateSeqnumForDups@POLYN183626 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.maybeUpdateSeqnumForDups@POLYN184106 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.maybeUpdateSeqnumForDups@POLYN183626 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.maybeUpdateSeqnumForDups@POLYN184106 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.put@POLYN182865"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.ChangeLoggingWindowBytesStore@POLYN179730"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.all@POLYN182445"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.backwardAll@POLYN182641"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.backwardFetchAll@POLYN183127"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.fetchAll@POLYN182837"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.put@POLYN183345"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.ChangeLoggingWindowBytesStore@POLYN179730 the MagicNumber/String 'keySerializer' MUST BE CONVERTED to const"
 }} 
 ]
 };

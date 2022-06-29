@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 427 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 440 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.xml" 
  , "fic3"  : "" 
 }
@@ -457,84 +457,57 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615.isDisconnected" }
+{ "ligne" :  "R1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095.isDisconnected" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615.cause" }
+{ "ligne" :  "R2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095.cause" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433261.error" }
+{ "ligne" :  "R3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433741.error" }
 ,
-{ "ligne" :  "R4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534.api" }
+{ "ligne" :  "R4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433940.cause" }
 ,
-{ "ligne" :  "R5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534.error" }
-,
-{ "ligne" :  "R6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534.shouldResetMemberId" }
-,
-{ "ligne" :  "R7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN436236.reason" }
-,
-{ "ligne" :  "R8:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN436236.shouldResetMemberId" }
-,
-{ "ligne" :  "R9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537.reason" }
-,
-{ "ligne" :  "R10:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537.shouldResetMemberId" }
-,
-{ "ligne" :  "R11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433460.cause" }
-,
-{ "ligne" :  "R12:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN406731.now" }
+{ "ligne" :  "R5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211.now" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 (R0 in line [00271])" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438852 (R0 in line [00908])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438180" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN433286 (R0 in line [00776])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372 (R0 in line [00908])" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN432806 (R0 in line [00776])" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
-,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
-,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.disconnectAsync@POLYN279269" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.disconnectAsync@POLYN279749" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 (R0 in line [00150])" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 (R0 in line [00150])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 (R0 in line [00150])" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 (R0 in line [00150])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433261 (R0 in line [00789],R3 in line [00789])" }
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433741 (R0 in line [00789],R3 in line [00789])" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433940 (R0 in line [00793],R4 in line [00793])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534 (R0 in line [00863],R4 in line [00863],R5 in line [00863],R6 in line [00863])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN436236 (R0 in line [00857],R7 in line [00857],R8 in line [00857])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537 (R0 in line [00844],R9 in line [00844],R10 in line [00844])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.disconnectAsync@POLYN279749" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433460 (R0 in line [00793],R11 in line [00793])" }
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211 (R0 in line [00218],R5 in line [00218])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211 (R0 in line [00218],R5 in line [00218])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 (R0 in line [00797],R1 in line [00797],R2 in line [00797])" }
-,
-{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.disconnectAsync@POLYN279269" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "4" , "pas" : [
-{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN406731 (R0 in line [00218],R12 in line [00218])" }
-,
-{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.Heartbeat.poll@POLYN174589" }
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.Heartbeat.poll@POLYN175069" }
  ]
  } }
 ]
@@ -547,14 +520,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "13"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -575,7 +541,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "29"
+ , "c4" : "47"
 }}
 ,
 { "ligne" : {
@@ -589,7 +555,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : {
@@ -668,7 +634,7 @@ var maDataBlocs = {
    "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.AbstractCoordinator@POLYN400438 the MagicNumber/String  'Expected a non-null group id for coordinator construction' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.AbstractCoordinator@POLYN400918 the MagicNumber/String  'Expected a non-null group id for coordinator construction' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -710,7 +676,7 @@ var maDataBlocs = {
    "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method ensureCoordinatorReady list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Void&gt; lookupCoordinatorN404061"
+ , "c3" : "QC-JAV000007[00150] For method ensureCoordinatorReady list of called methods Object monObjet|boolean lookupCoordinatorN404541"
 }} 
 ,
 { "ligne" : {
@@ -745,63 +711,63 @@ var maDataBlocs = {
    "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  'Coordinator discovery failed, refreshing metadata' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  'Coordinator discovery failed, refreshing metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  'FindCoordinator request hit fatal exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  'FindCoordinator request hit fatal exception' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00178"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  'coordinator unavailable' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  'coordinator unavailable' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -815,28 +781,28 @@ var maDataBlocs = {
    "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00193] For method lookupCoordinator list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Void&gt; sendFindCoordinatorRequestN405902"
+ , "c3" : "QC-JAV000007[00193] For method lookupCoordinator list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Void&gt; sendFindCoordinatorRequestN406382"
 }} 
 ,
 { "ligne" : {
    "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405452 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405452 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405452 the MagicNumber/String  'No broker available to send FindCoordinator request' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405932 the MagicNumber/String  'No broker available to send FindCoordinator request' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -850,7 +816,7 @@ var maDataBlocs = {
    "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.clearFindCoordinatorFuture@POLYN406002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.clearFindCoordinatorFuture@POLYN406482 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -864,7 +830,7 @@ var maDataBlocs = {
    "c1" : "00214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.rejoinNeededOrPending@POLYN406270 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.rejoinNeededOrPending@POLYN406750 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -885,14 +851,14 @@ var maDataBlocs = {
    "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN406731 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN406731 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -913,7 +879,7 @@ var maDataBlocs = {
    "c1" : "00246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup@POLYN407624 the MagicNumber/String  'still waiting to ensure active group' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup@POLYN408104 the MagicNumber/String  'still waiting to ensure active group' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -927,7 +893,7 @@ var maDataBlocs = {
    "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup@POLYN408050 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup@POLYN408530 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -941,7 +907,7 @@ var maDataBlocs = {
    "c1" : "00263"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.startHeartbeatThreadIfNeeded@POLYN408360 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.startHeartbeatThreadIfNeeded@POLYN408840 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -955,21 +921,21 @@ var maDataBlocs = {
    "c1" : "00272"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN409082 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN409082 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00281"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 the MagicNumber/String  'Interrupted while waiting for consumer heartbeat thread to close' should be converted to const"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN409082 the MagicNumber/String  'Interrupted while waiting for consumer heartbeat thread to close' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -983,7 +949,7 @@ var maDataBlocs = {
    "c1" : "00287"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#287"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00287] For method joinGroupIfNeeded list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.nio.ByteBuffer&gt; initiateJoinGroupN410317"
+ , "c3" : "QC-JAV000007[00287] For method joinGroupIfNeeded list of called methods Object monObjet|boolean initiateJoinGroupN410797"
 }} 
 ,
 { "ligne" : {
@@ -1081,84 +1047,84 @@ var maDataBlocs = {
    "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00301"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00314"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00343"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  'rebalance failed since the generation/state was ' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  'rebalance failed since the generation/state was ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  'modified by heartbeat thread to %s/%s before the rebalance callback triggered' should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  'modified by heartbeat thread to %s/%s before the rebalance callback triggered' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00347"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00355"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  'rebalance failed due to '%s' (%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  'rebalance failed due to '%s' (%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00356"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00370"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN409674 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1172,7 +1138,7 @@ var maDataBlocs = {
    "c1" : "00374"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetJoinGroupFuture@POLYN412539 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetJoinGroupFuture@POLYN413019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1186,42 +1152,42 @@ var maDataBlocs = {
    "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00377] For method initiateJoinGroup list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.nio.ByteBuffer&gt; sendJoinGroupRequestN413030"
+ , "c3" : "QC-JAV000007[00377] For method initiateJoinGroup list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.nio.ByteBuffer&gt; sendJoinGroupRequestN413510"
 }} 
 ,
 { "ligne" : {
    "c1" : "00381"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.initiateJoinGroup@POLYN412680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.initiateJoinGroup@POLYN413160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00385"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.initiateJoinGroup@POLYN412680 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.initiateJoinGroup@POLYN413160 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN413769 the MagicNumber/String  '(Re-)joining group' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN414249 the MagicNumber/String  '(Re-)joining group' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00420"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN413769 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN414249 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#427"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN413769 the MagicNumber/String  'Sending JoinGroup ({}) to coordinator {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN414249 the MagicNumber/String  'Sending JoinGroup ({}) to coordinator {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1263,175 +1229,175 @@ var maDataBlocs = {
    "c1" : "00451"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed: Inconsistent Protocol Type, received {} but expected {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed: Inconsistent Protocol Type, received {} but expected {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00455"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'Received successful JoinGroup response: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'Received successful JoinGroup response: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00468"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00475"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'Successfully joined group with generation {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'Successfully joined group with generation {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00486"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#486"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed: Coordinator {} is loading the group.' should be converted to const"
+ , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed: Coordinator {} is loading the group.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00490"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed: {} Need to re-join the group. Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed: {} Need to re-join the group. Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00495"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00502"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed: {} Marking coordinator unknown. Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed: {} Marking coordinator unknown. Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed: The group instance id {} has been fenced by another instance. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed: The group instance id {} has been fenced by another instance. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00517"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed due to fatal error: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed due to fatal error: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00519"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'Consumer group ' should be converted to const"
+ , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'Consumer group ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00520"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#520"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  ' already has the configured maximum number of members.' should be converted to const"
+ , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  ' already has the configured maximum number of members.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00527"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#527"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed due to unsupported version error. Please unset field group.instance.id ' should be converted to const"
+ , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed due to unsupported version error. Please unset field group.instance.id ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00528"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#528"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'and retry to see if the problem resolves' should be converted to const"
+ , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'and retry to see if the problem resolves' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00534"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#534"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00534] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed due to non-fatal error: {}. Will set the member id as {} and then rejoin. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00534] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed due to non-fatal error: {}. Will set the member id as {} and then rejoin. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00535"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00537"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00539"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'need to re-join with the given member-id: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'need to re-join with the given member-id: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00543"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed due to non-fatal error: REBALANCE_IN_PROGRESS, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed due to non-fatal error: REBALANCE_IN_PROGRESS, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00544"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'which could indicate a replication timeout on the broker. Will retry.' should be converted to const"
+ , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'which could indicate a replication timeout on the broker. Will retry.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00548"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'JoinGroup failed due to unexpected error: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'JoinGroup failed due to unexpected error: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415371 the MagicNumber/String  'Unexpected error in join group response: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN415851 the MagicNumber/String  'Unexpected error in join group response: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421191 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421671 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00567"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#567"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421191 the MagicNumber/String  'Sending follower SyncGroup to coordinator {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421671 the MagicNumber/String  'Sending follower SyncGroup to coordinator {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1452,14 +1418,14 @@ var maDataBlocs = {
    "c1" : "00596"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onLeaderElected@POLYN421984 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onLeaderElected@POLYN422464 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00600"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onLeaderElected@POLYN421984 the MagicNumber/String  'Sending leader SyncGroup to coordinator {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onLeaderElected@POLYN422464 the MagicNumber/String  'Sending leader SyncGroup to coordinator {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1487,7 +1453,7 @@ var maDataBlocs = {
    "c1" : "00616"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#616"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00616] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.hasGenerationReset@POLYN424131 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00616] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.hasGenerationReset@POLYN424611 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1501,7 +1467,7 @@ var maDataBlocs = {
    "c1" : "00625"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#625"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00625] For method handle list of called methods Object monObjet|boolean time_millisecondsN426422"
+ , "c3" : "QC-JAV000007[00625] For method handle list of called methods Object monObjet|boolean time_millisecondsN426902"
 }} 
 ,
 { "ligne" : {
@@ -1529,126 +1495,126 @@ var maDataBlocs = {
    "c1" : "00630"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#630"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'SyncGroup failed due to inconsistent Protocol Type, received {} but expected {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'SyncGroup failed due to inconsistent Protocol Type, received {} but expected {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00634"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#634"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00634] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'Received successful SyncGroup response: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00634] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'Received successful SyncGroup response: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00641"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#641"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00645"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#645"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00645] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'SyncGroup failed due to inconsistent Protocol Name, received {} but expected {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00645] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'SyncGroup failed due to inconsistent Protocol Name, received {} but expected {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00650"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#650"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00650] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'Successfully synced group in generation {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00650] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'Successfully synced group in generation {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00652"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#652"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00652] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00652] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00653"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#653"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00657"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#657"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00662"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#662"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00662] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'Generation data was cleared by heartbeat thread to {} and state is now {} before ' should be converted to const"
+ , "c3" : "QC-JAV000010[00662] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'Generation data was cleared by heartbeat thread to {} and state is now {} before ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00663"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#663"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00663] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'receiving SyncGroup response, marking this rebalance as failed and retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00663] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'receiving SyncGroup response, marking this rebalance as failed and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00674"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#674"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'SyncGroup failed: The group began another rebalance. Need to re-join the group. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'SyncGroup failed: The group began another rebalance. Need to re-join the group. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00675"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00678"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#678"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00678] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00678] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00683"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#683"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00683] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'SyncGroup failed: The group instance id {} has been fenced by another instance. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00683] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'SyncGroup failed: The group instance id {} has been fenced by another instance. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00684"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#684"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00684] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00684] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00688"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#688"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'SyncGroup failed: {} Need to re-join the group. Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'SyncGroup failed: {} Need to re-join the group. Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00698"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#698"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00698] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'SyncGroup failed: {} Marking coordinator unknown. Sent generation was {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00698] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'SyncGroup failed: {} Marking coordinator unknown. Sent generation was {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00703"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN424550 the MagicNumber/String  'Unexpected error from SyncGroup: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN425030 the MagicNumber/String  'Unexpected error from SyncGroup: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1662,7 +1628,7 @@ var maDataBlocs = {
    "c1" : "00712"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#712"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendFindCoordinatorRequest@POLYN429262 the MagicNumber/String  'Sending FindCoordinator request to broker {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendFindCoordinatorRequest@POLYN429742 the MagicNumber/String  'Sending FindCoordinator request to broker {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1697,56 +1663,56 @@ var maDataBlocs = {
    "c1" : "00725"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#725"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00725] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  'Received FindCoordinator response {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00725] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  'Received FindCoordinator response {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00728"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#728"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00729"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#729"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00729] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[00729] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00730"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#730"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00730] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[00730] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00732"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#732"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00744"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#744"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00744] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  'Discovered group coordinator {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00744] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  'Discovered group coordinator {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00748"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00752"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#752"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00752] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN429982 the MagicNumber/String  'Group coordinator lookup failed: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00752] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN430462 the MagicNumber/String  'Group coordinator lookup failed: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1760,14 +1726,14 @@ var maDataBlocs = {
    "c1" : "00759"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#759"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00759] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onFailure@POLYN431983 the MagicNumber/String  'FindCoordinator request failed due to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00759] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onFailure@POLYN432463 the MagicNumber/String  'FindCoordinator request failed due to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00772"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#772"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00772] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorUnknown@POLYN432554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00772] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorUnknown@POLYN433034 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1781,28 +1747,28 @@ var maDataBlocs = {
    "c1" : "00777"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#777"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00777] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN432806 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00777] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN433286 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#778"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN432806 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN433286 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#778"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN432806 the MagicNumber/String  'coordinator unavailable' should be converted to const"
+ , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN433286 the MagicNumber/String  'coordinator unavailable' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00779"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#779"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00779] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN432806 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00779] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN433286 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1837,14 +1803,14 @@ var maDataBlocs = {
    "c1" : "00790"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#790"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433261 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433741 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00790"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#790"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433261 the MagicNumber/String  'error response ' should be converted to const"
+ , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433741 the MagicNumber/String  'error response ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1865,7 +1831,7 @@ var maDataBlocs = {
    "c1" : "00794"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#794"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00794] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433460 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00794] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433940 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1886,42 +1852,42 @@ var maDataBlocs = {
    "c1" : "00798"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#798"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00799"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#799"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 the MagicNumber/String  'Group coordinator {} is unavailable or invalid due to cause: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 the MagicNumber/String  'Group coordinator {} is unavailable or invalid due to cause: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00800"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#800"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00800] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 the MagicNumber/String  'isDisconnected: {}. Rediscovery will be attempted.' should be converted to const"
+ , "c3" : "QC-JAV000010[00800] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 the MagicNumber/String  'isDisconnected: {}. Rediscovery will be attempted.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00807"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#807"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00812"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#812"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 the MagicNumber/String  'Requesting disconnect from last known coordinator {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 the MagicNumber/String  'Requesting disconnect from last known coordinator {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00820"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#820"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00820] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615 the MagicNumber/String  'Consumer has been disconnected from the group coordinator for {}ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00820] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095 the MagicNumber/String  'Consumer has been disconnected from the group coordinator for {}ms' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1942,7 +1908,7 @@ var maDataBlocs = {
    "c1" : "00832"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#832"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.generationIfStable@POLYN435053 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.generationIfStable@POLYN435533 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1977,28 +1943,28 @@ var maDataBlocs = {
    "c1" : "00845"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537 the MagicNumber/String  'Resetting generation {}due to: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String  'Resetting generation {}due to: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00845"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537 the MagicNumber/String  'and member id ' should be converted to const"
+ , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String  'and member id ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00845"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00853"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#853"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00853] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00853] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2019,7 +1985,7 @@ var maDataBlocs = {
    "c1" : "00860"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#860"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00860] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN436236 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00860] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN436716 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2040,7 +2006,7 @@ var maDataBlocs = {
    "c1" : "00864"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#864"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00864] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534 the MagicNumber/String  'encountered %s from %s response' should be converted to const"
+ , "c3" : "QC-JAV000010[00864] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN437014 the MagicNumber/String  'encountered %s from %s response' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2054,14 +2020,14 @@ var maDataBlocs = {
    "c1" : "00869"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#869"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00869] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetGenerationOnLeaveGroup@POLYN436877 the MagicNumber/String  'consumer pro-actively leaving the group' should be converted to const"
+ , "c3" : "QC-JAV000010[00869] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetGenerationOnLeaveGroup@POLYN437357 the MagicNumber/String  'consumer pro-actively leaving the group' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00869"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#869"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00869] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetGenerationOnLeaveGroup@POLYN436877 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00869] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetGenerationOnLeaveGroup@POLYN437357 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2110,14 +2076,14 @@ var maDataBlocs = {
    "c1" : "00886"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#886"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN437575 the MagicNumber/String  'Request joining group due to: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN438055 the MagicNumber/String  'Request joining group due to: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00888"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#888"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00888] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN437575 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00888] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN438055 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2131,14 +2097,14 @@ var maDataBlocs = {
    "c1" : "00892"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#892"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00892] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.isProtocolTypeInconsistent@POLYN437902 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00892] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.isProtocolTypeInconsistent@POLYN438382 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00898"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#898"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00898] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438180 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00898] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438660 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2159,21 +2125,21 @@ var maDataBlocs = {
    "c1" : "00911"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#911"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00911] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372 the MagicNumber/String  'the consumer is being closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00911] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438852 the MagicNumber/String  'the consumer is being closed' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00919"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#919"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438852 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00920"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#920"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00920] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372 the MagicNumber/String  'Close timed out with {} pending requests to coordinator, terminating client connections' should be converted to const"
+ , "c3" : "QC-JAV000010[00920] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438852 the MagicNumber/String  'Close timed out with {} pending requests to coordinator, terminating client connections' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2194,21 +2160,21 @@ var maDataBlocs = {
    "c1" : "00927"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#927"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00927] For method maybeLeaveGroup list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; client_sendN440168"
+ , "c3" : "QC-JAV000007[00927] For method maybeLeaveGroup list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; client_sendN440648"
 }} 
 ,
 { "ligne" : {
    "c1" : "00928"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#928"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00928] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439366 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00928] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439846 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00937"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#937"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00937] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439366 the MagicNumber/String  'Member {} sending LeaveGroup request to coordinator {} due to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00937] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439846 the MagicNumber/String  'Member {} sending LeaveGroup request to coordinator {} due to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2236,42 +2202,42 @@ var maDataBlocs = {
    "c1" : "00965"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#965"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00965] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN440805 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00965] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN441285 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00966"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#966"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN440805 the MagicNumber/String  'The expected leave group response ' should be converted to const"
+ , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN441285 the MagicNumber/String  'The expected leave group response ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00967"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#967"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00967] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN440805 the MagicNumber/String  'should only contain no more than one member info, however get ' should be converted to const"
+ , "c3" : "QC-JAV000010[00967] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN441285 the MagicNumber/String  'should only contain no more than one member info, however get ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00972"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN440805 the MagicNumber/String  'LeaveGroup response with {} returned successfully: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN441285 the MagicNumber/String  'LeaveGroup response with {} returned successfully: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00973"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#973"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN440805 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN441285 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00975"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#975"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00975] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN440805 the MagicNumber/String  'LeaveGroup request with {} failed with error: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00975] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.LeaveGroupResponseHandler.handle@POLYN441285 the MagicNumber/String  'LeaveGroup request with {} failed with error: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2285,14 +2251,14 @@ var maDataBlocs = {
    "c1" : "00983"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#983"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN441879 the MagicNumber/String  'Sending Heartbeat request with generation {} and member id {} to coordinator {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN442359 the MagicNumber/String  'Sending Heartbeat request with generation {} and member id {} to coordinator {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00989"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#989"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00989] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN441879 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00989] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN442359 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2327,70 +2293,70 @@ var maDataBlocs = {
    "c1" : "01006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1006"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  'Received successful Heartbeat response' should be converted to const"
+ , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  'Received successful Heartbeat response' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1007"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1010"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01010] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  'Attempt to heartbeat failed since coordinator {} is either not started or not valid' should be converted to const"
+ , "c3" : "QC-JAV000010[01010] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  'Attempt to heartbeat failed since coordinator {} is either not started or not valid' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1019"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01019] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  'group is already rebalancing' should be converted to const"
+ , "c3" : "QC-JAV000010[01019] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  'group is already rebalancing' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1022"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  'Ignoring heartbeat response with error {} during {} state' should be converted to const"
+ , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  'Ignoring heartbeat response with error {} during {} state' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1023"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01023] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01023] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1030"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01030] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  'Attempt to heartbeat with {} and group instance id {} failed due to {}, resetting generation' should be converted to const"
+ , "c3" : "QC-JAV000010[01030] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  'Attempt to heartbeat with {} and group instance id {} failed due to {}, resetting generation' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1037"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01037] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  'Attempt to heartbeat with stale {} and group instance id {} failed due to {}, ignoring the error' should be converted to const"
+ , "c3" : "QC-JAV000010[01037] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  'Attempt to heartbeat with stale {} and group instance id {} failed due to {}, ignoring the error' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1039"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01039] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01039] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1044"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01044] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN442868 the MagicNumber/String  'Unexpected error in heartbeat response: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01044] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN443348 the MagicNumber/String  'Unexpected error in heartbeat response: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2418,7 +2384,7 @@ var maDataBlocs = {
    "c1" : "01063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1063"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.CoordinatorResponseHandler.onFailure@POLYN445963 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01063] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.CoordinatorResponseHandler.onFailure@POLYN446443 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2467,28 +2433,28 @@ var maDataBlocs = {
    "c1" : "01090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1090"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447120 the MagicNumber/String  '-rate' should be converted to const"
+ , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447600 the MagicNumber/String  '-rate' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1091"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447120 the MagicNumber/String  'The number of %s per second' should be converted to const"
+ , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447600 the MagicNumber/String  'The number of %s per second' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1092"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01092] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447120 the MagicNumber/String  '-total' should be converted to const"
+ , "c3" : "QC-JAV000010[01092] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447600 the MagicNumber/String  '-total' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1093"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01093] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447120 the MagicNumber/String  'The total number of %s' should be converted to const"
+ , "c3" : "QC-JAV000010[01093] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.createMeter@POLYN447600 the MagicNumber/String  'The total number of %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2509,357 +2475,357 @@ var maDataBlocs = {
    "c1" : "01106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  '-coordinator-metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  '-coordinator-metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01108] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'heartbeat-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[01108] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'heartbeat-latency' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'heartbeat-response-time-max' should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'heartbeat-response-time-max' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01111] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The max time taken to receive a response to a heartbeat request' should be converted to const"
+ , "c3" : "QC-JAV000010[01111] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The max time taken to receive a response to a heartbeat request' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'heartbeat' should be converted to const"
+ , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'heartbeat' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'heartbeats' should be converted to const"
+ , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'heartbeats' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01114] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'join-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[01114] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'join-latency' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01115] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'join-time-avg' should be converted to const"
+ , "c3" : "QC-JAV000010[01115] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'join-time-avg' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The average time taken for a group rejoin' should be converted to const"
+ , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The average time taken for a group rejoin' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'join-time-max' should be converted to const"
+ , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'join-time-max' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01120] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The max time taken for a group rejoin' should be converted to const"
+ , "c3" : "QC-JAV000010[01120] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The max time taken for a group rejoin' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'join' should be converted to const"
+ , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'join' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'group joins' should be converted to const"
+ , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'group joins' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01123] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'sync-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[01123] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'sync-latency' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'sync-time-avg' should be converted to const"
+ , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'sync-time-avg' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01126] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The average time taken for a group sync' should be converted to const"
+ , "c3" : "QC-JAV000010[01126] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The average time taken for a group sync' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01127] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'sync-time-max' should be converted to const"
+ , "c3" : "QC-JAV000010[01127] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'sync-time-max' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The max time taken for a group sync' should be converted to const"
+ , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The max time taken for a group sync' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01130] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'sync' should be converted to const"
+ , "c3" : "QC-JAV000010[01130] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'sync' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01130] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'group syncs' should be converted to const"
+ , "c3" : "QC-JAV000010[01130] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'group syncs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01132] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'rebalance-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[01132] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'rebalance-latency' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01133] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'rebalance-latency-avg' should be converted to const"
+ , "c3" : "QC-JAV000010[01133] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'rebalance-latency-avg' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01135] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The average time taken for a group to complete a successful rebalance, which may be composed of ' should be converted to const"
+ , "c3" : "QC-JAV000010[01135] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The average time taken for a group to complete a successful rebalance, which may be composed of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
+ , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01137] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'rebalance-latency-max' should be converted to const"
+ , "c3" : "QC-JAV000010[01137] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'rebalance-latency-max' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01139] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The max time taken for a group to complete a successful rebalance, which may be composed of ' should be converted to const"
+ , "c3" : "QC-JAV000010[01139] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The max time taken for a group to complete a successful rebalance, which may be composed of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01140] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
+ , "c3" : "QC-JAV000010[01140] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'rebalance-latency-total' should be converted to const"
+ , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'rebalance-latency-total' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01143] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The total number of milliseconds this consumer has spent in successful rebalances since creation' should be converted to const"
+ , "c3" : "QC-JAV000010[01143] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The total number of milliseconds this consumer has spent in successful rebalances since creation' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01146] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'rebalance-total' should be converted to const"
+ , "c3" : "QC-JAV000010[01146] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'rebalance-total' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01148] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The total number of successful rebalance events, each event is composed of ' should be converted to const"
+ , "c3" : "QC-JAV000010[01148] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The total number of successful rebalance events, each event is composed of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01149"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01149] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
+ , "c3" : "QC-JAV000010[01149] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01154] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'rebalance-rate-per-hour' should be converted to const"
+ , "c3" : "QC-JAV000010[01154] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'rebalance-rate-per-hour' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01156] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The number of successful rebalance events per hour, each event is composed of ' should be converted to const"
+ , "c3" : "QC-JAV000010[01156] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The number of successful rebalance events per hour, each event is composed of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01157] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
+ , "c3" : "QC-JAV000010[01157] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'several failed re-trials until it succeeded' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01161] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'failed-rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[01161] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'failed-rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01163"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'failed-rebalance-total' should be converted to const"
+ , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'failed-rebalance-total' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The total number of failed rebalance events' should be converted to const"
+ , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The total number of failed rebalance events' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01170] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'failed-rebalance-rate-per-hour' should be converted to const"
+ , "c3" : "QC-JAV000010[01170] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'failed-rebalance-rate-per-hour' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The number of failed rebalance events per hour' should be converted to const"
+ , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The number of failed rebalance events per hour' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  1d should be converted to const"
+ , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  1d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'last-rebalance-seconds-ago' should be converted to const"
+ , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'last-rebalance-seconds-ago' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The number of seconds since the last successful rebalance event' should be converted to const"
+ , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The number of seconds since the last successful rebalance event' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01189] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[01189] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01191] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  1d should be converted to const"
+ , "c3" : "QC-JAV000010[01191] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  1d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01195] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'last-heartbeat-seconds-ago' should be converted to const"
+ , "c3" : "QC-JAV000010[01195] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'last-heartbeat-seconds-ago' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448035 the MagicNumber/String  'The number of seconds since the last coordinator heartbeat was sent' should be converted to const"
+ , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.GroupCoordinatorMetrics.GroupCoordinatorMetrics@POLYN448515 the MagicNumber/String  'The number of seconds since the last coordinator heartbeat was sent' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.HeartbeatThread@POLYN453553 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.HeartbeatThread@POLYN454033 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.HeartbeatThread@POLYN453553 the MagicNumber/String  ' | ' should be converted to const"
+ , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.HeartbeatThread@POLYN454033 the MagicNumber/String  ' | ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.HeartbeatThread@POLYN453553 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.HeartbeatThread@POLYN454033 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2873,14 +2839,14 @@ var maDataBlocs = {
    "c1" : "01213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01213] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.enable@POLYN453907 the MagicNumber/String  'Enabling heartbeat thread' should be converted to const"
+ , "c3" : "QC-JAV000010[01213] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.enable@POLYN454387 the MagicNumber/String  'Enabling heartbeat thread' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01214] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.enable@POLYN453907 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01214] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.enable@POLYN454387 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2894,14 +2860,14 @@ var maDataBlocs = {
    "c1" : "01222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01222] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.disable@POLYN454259 the MagicNumber/String  'Disabling heartbeat thread' should be converted to const"
+ , "c3" : "QC-JAV000010[01222] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.disable@POLYN454739 the MagicNumber/String  'Disabling heartbeat thread' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01223] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.disable@POLYN454259 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01223] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.disable@POLYN454739 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2915,14 +2881,14 @@ var maDataBlocs = {
    "c1" : "01229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01229] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.close@POLYN454497 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01229] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.close@POLYN454977 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01235"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01235] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.hasFailed@POLYN454732 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01235] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.hasFailed@POLYN455212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2978,119 +2944,119 @@ var maDataBlocs = {
    "c1" : "01245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01245] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'Heartbeat thread started' should be converted to const"
+ , "c3" : "QC-JAV000010[01245] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'Heartbeat thread started' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01246] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01246] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01268"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01268] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01268] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01280"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01280] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'session timed out without receiving a ' should be converted to const"
+ , "c3" : "QC-JAV000010[01280] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'session timed out without receiving a ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01281"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01281] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'heartbeat response' should be converted to const"
+ , "c3" : "QC-JAV000010[01281] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'heartbeat response' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01285] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'consumer poll timeout has expired. This means the time between subsequent calls to poll() ' should be converted to const"
+ , "c3" : "QC-JAV000010[01285] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'consumer poll timeout has expired. This means the time between subsequent calls to poll() ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01286"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01286] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'was longer than the configured max.poll.interval.ms, which typically implies that ' should be converted to const"
+ , "c3" : "QC-JAV000010[01286] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'was longer than the configured max.poll.interval.ms, which typically implies that ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01287"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01287] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'the poll loop is spending too much time processing messages. You can address this ' should be converted to const"
+ , "c3" : "QC-JAV000010[01287] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'the poll loop is spending too much time processing messages. You can address this ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01288] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'either by increasing max.poll.interval.ms or by reducing the maximum size of batches ' should be converted to const"
+ , "c3" : "QC-JAV000010[01288] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'either by increasing max.poll.interval.ms or by reducing the maximum size of batches ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01289"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01289] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'returned in poll() with max.poll.records.' should be converted to const"
+ , "c3" : "QC-JAV000010[01289] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'returned in poll() with max.poll.records.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01291"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01291] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'consumer poll timeout has expired.' should be converted to const"
+ , "c3" : "QC-JAV000010[01291] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'consumer poll timeout has expired.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01317] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'Caught fenced group.instance.id {} error in heartbeat thread' should be converted to const"
+ , "c3" : "QC-JAV000010[01317] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'Caught fenced group.instance.id {} error in heartbeat thread' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01331"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01331] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'An authentication error occurred in the heartbeat thread' should be converted to const"
+ , "c3" : "QC-JAV000010[01331] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'An authentication error occurred in the heartbeat thread' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01334"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01334] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'A group authorization error occurred in the heartbeat thread' should be converted to const"
+ , "c3" : "QC-JAV000010[01334] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'A group authorization error occurred in the heartbeat thread' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01338"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01338] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'Unexpected interrupt received in heartbeat thread' should be converted to const"
+ , "c3" : "QC-JAV000010[01338] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'Unexpected interrupt received in heartbeat thread' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01341] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'Heartbeat thread failed due to unexpected error' should be converted to const"
+ , "c3" : "QC-JAV000010[01341] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'Heartbeat thread failed due to unexpected error' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01347"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01347] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN454974 the MagicNumber/String  'Heartbeat thread has closed' should be converted to const"
+ , "c3" : "QC-JAV000010[01347] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.run@POLYN455454 the MagicNumber/String  'Heartbeat thread has closed' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3118,70 +3084,70 @@ var maDataBlocs = {
    "c1" : "01376"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.equals@POLYN460005 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.equals@POLYN460485 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01377] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.equals@POLYN460005 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01377] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.equals@POLYN460485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01377] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.equals@POLYN460005 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01377] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.equals@POLYN460485 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01391"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01391] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN460862 the MagicNumber/String  'Generation{' should be converted to const"
+ , "c3" : "QC-JAV000010[01391] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN461342 the MagicNumber/String  'Generation{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01392"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01392] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN460862 the MagicNumber/String  'generationId=' should be converted to const"
+ , "c3" : "QC-JAV000010[01392] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN461342 the MagicNumber/String  'generationId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01393] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN460862 the MagicNumber/String  ', memberId='' should be converted to const"
+ , "c3" : "QC-JAV000010[01393] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN461342 the MagicNumber/String  ', memberId='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01393] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN460862 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[01393] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN461342 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01394"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01394] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN460862 the MagicNumber/String  ', protocol='' should be converted to const"
+ , "c3" : "QC-JAV000010[01394] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN461342 the MagicNumber/String  ', protocol='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01394"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01394] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN460862 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[01394] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN461342 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01395] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN460862 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[01395] In method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation.toString@POLYN461342 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -3258,378 +3224,469 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615.isDisconnected"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095.isDisconnected"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433615.cause"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN434095.cause"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433261.error"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433741.error"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534.api"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433940.cause"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534.error"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN436534.shouldResetMemberId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN436236.reason"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN436236.shouldResetMemberId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537.reason"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN435537.shouldResetMemberId"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN433460.cause"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN406731.now"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 ending with method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438180"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211.now"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439366"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN409082"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439846"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405452"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendFindCoordinatorRequest@POLYN429262"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.initiateJoinGroup@POLYN413160"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN414249"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN413769"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421191"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405932"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN441879"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendFindCoordinatorRequest@POLYN429742"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.timeToNextHeartbeat@POLYN407325"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN442359"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.startHeartbeatThreadIfNeeded@POLYN408840"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.timeToNextHeartbeat@POLYN407805"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.AbstractCoordinator@POLYN400918"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421671"
 }} 
 ,
 { "ligne" : {
    "c1" : "00272"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN409082 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN409082 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00281"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#281"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00281] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN408602 the MagicNumber/String 'Interrupted while waiting for consumer heartbeat thread to close' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00898"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#898"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00898] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438180 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00911"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#911"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00911] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372 the MagicNumber/String 'the consumer is being closed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00919"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#919"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00919] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00920"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#920"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00920] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN438372 the MagicNumber/String 'Close timed out with {} pending requests to coordinator, terminating client connections' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00281] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN409082 the MagicNumber/String 'Interrupted while waiting for consumer heartbeat thread to close' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00928"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00928] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439366 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00928] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439846 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00937"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00937] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439366 the MagicNumber/String 'Member {} sending LeaveGroup request to coordinator {} due to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00937] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup@POLYN439846 the MagicNumber/String 'Member {} sending LeaveGroup request to coordinator {} due to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00194"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#194"
+   "c1" : "00290"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405452 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00197"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#197"
+   "c1" : "00301"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405452 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00198"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#198"
+   "c1" : "00304"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#304"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405452 the MagicNumber/String 'No broker available to send FindCoordinator request' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00712"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#712"
+   "c1" : "00306"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00712] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendFindCoordinatorRequest@POLYN429262 the MagicNumber/String 'Sending FindCoordinator request to broker {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#152"
+   "c1" : "00314"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00155"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#155"
+   "c1" : "00341"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00341] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00157"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#157"
+   "c1" : "00343"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String 'rebalance failed since the generation/state was ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#168"
+   "c1" : "00344"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String 'modified by heartbeat thread to %s/%s before the rebalance callback triggered' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#172"
+   "c1" : "00347"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String 'Coordinator discovery failed, refreshing metadata' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#176"
+   "c1" : "00355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String 'FindCoordinator request hit fatal exception' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00355] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String 'rebalance failed due to '%s' -%s-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00178"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#178"
+   "c1" : "00356"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#356"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#181"
+   "c1" : "00370"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#370"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String 'coordinator unavailable' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00370] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN410154 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00186"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#186"
+   "c1" : "00381"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#381"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN403598 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.initiateJoinGroup@POLYN413160 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00385"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#385"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00385] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.initiateJoinGroup@POLYN413160 the MagicNumber/String 1L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN413769 the MagicNumber/String '-Re--joining group' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN414249 the MagicNumber/String '-Re--joining group' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00420"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN413769 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN414249 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#427"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00427] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN413769 the MagicNumber/String 'Sending JoinGroup -{}- to coordinator {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00427] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest@POLYN414249 the MagicNumber/String 'Sending JoinGroup -{}- to coordinator {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00563"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#563"
+   "c1" : "00845"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421191 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00845] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00567"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#567"
+   "c1" : "00845"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00567] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421191 the MagicNumber/String 'Sending follower SyncGroup to coordinator {}: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00845] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String 'Resetting generation {}due to: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00845"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#845"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00845] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String 'and member id ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00853"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#853"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00853] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN436017 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#194"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405932 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00197"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405932 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00198"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.lookupCoordinator@POLYN405932 the MagicNumber/String 'No broker available to send FindCoordinator request' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00712"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00712] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendFindCoordinatorRequest@POLYN429742 the MagicNumber/String 'Sending FindCoordinator request to broker {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String 'Coordinator discovery failed, refreshing metadata' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String 'FindCoordinator request hit fatal exception' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00178"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00181"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String 'coordinator unavailable' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady@POLYN404078 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00983"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#983"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00983] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN441879 the MagicNumber/String 'Sending Heartbeat request with generation {} and member id {} to coordinator {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00983] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN442359 the MagicNumber/String 'Sending Heartbeat request with generation {} and member id {} to coordinator {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00989"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00989] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN441879 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00989] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendHeartbeatRequest@POLYN442359 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00263"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.startHeartbeatThreadIfNeeded@POLYN408840 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00219"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00224"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#224"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00224] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN407211 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.AbstractCoordinator@POLYN400918 the MagicNumber/String 'Expected a non-null group id for coordinator construction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00563"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421671 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00567"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00567] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN421671 the MagicNumber/String 'Sending follower SyncGroup to coordinator {}: {}' MUST BE CONVERTED to const"
 }} 
 ]
 };

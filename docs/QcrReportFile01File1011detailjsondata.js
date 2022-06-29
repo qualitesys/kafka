@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java 16 rule violations " 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java 25 rule violations " 
  , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.xml" 
  , "fic3"  : "" 
 }
@@ -202,7 +202,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -246,14 +246,14 @@ var maDataBlocs = {
    "c1" : "00081"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN186581 the MagicNumber/String  'Checkpoint{consumerGroupId=%s, topicPartition=%s, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN187061 the MagicNumber/String  'Checkpoint{consumerGroupId=%s, topicPartition=%s, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN186581 the MagicNumber/String  'upstreamOffset=%d, downstreamOffset=%d, metatadata=%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN187061 the MagicNumber/String  'upstreamOffset=%d, downstreamOffset=%d, metatadata=%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -267,14 +267,14 @@ var maDataBlocs = {
    "c1" : "00086"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN186934"
+ , "c3" : "QC-JAV000007[00086] For method serializeValue list of called methods Object monObjet|java.nio.ByteBuffer headerStructN187414|java.nio.ByteBuffer valueSchemaN187500|java.nio.ByteBuffer valueStructN187586"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN187705"
+ , "c3" : "QC-JAV000007[00097] For method serializeKey list of called methods Object monObjet|java.nio.ByteBuffer keyStructN188185"
 }} 
 ,
 { "ligne" : {
@@ -288,7 +288,7 @@ var maDataBlocs = {
    "c1" : "00105"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN188326|org.apache.kafka.connect.mirror.Checkpoint header_getShortN188420|org.apache.kafka.common.protocol.types.Struct valueSchema_readN188600|Long valueStruct_getLongN188694|Long valueStruct_getLongN188788|String valueStruct_getStringN188882|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN188976|String keyStruct_getStringN189129|String keyStruct_getStringN189223|Integer keyStruct_getIntN189317"
+ , "c3" : "QC-JAV000007[00105] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN188806|org.apache.kafka.connect.mirror.Checkpoint header_getShortN188900|org.apache.kafka.connect.mirror.Checkpoint valueSchemaN188994|org.apache.kafka.common.protocol.types.Struct valueSchema_readN189080|Long valueStruct_getLongN189174|Long valueStruct_getLongN189268|String valueStruct_getStringN189362|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN189456|String keyStruct_getStringN189609|String keyStruct_getStringN189703|Integer keyStruct_getIntN189797"
 }} 
 ,
 { "ligne" : {
@@ -309,7 +309,7 @@ var maDataBlocs = {
    "c1" : "00123"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.mirror.Checkpoint.valueSchema@POLYN189613 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.mirror.Checkpoint.valueSchema@POLYN190093 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -344,7 +344,70 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.connectPartition@POLYN191076"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.keyStruct@POLYN190738"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.serializeKey@POLYN188110"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.connectPartition@POLYN191556"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.deserializeRecord@POLYN188546"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.headerStruct@POLYN191236"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.offsetAndMetadata@POLYN186901"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.recordKey@POLYN192281"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.recordValue@POLYN192400"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.serializeValue@POLYN187317"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.valueStruct@POLYN190258"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java 327 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java 328 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.xml" 
  , "fic3"  : "" 
 }
@@ -244,7 +244,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -281,14 +281,14 @@ var maDataBlocs = {
    "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00463] For method hash32 list of called methods Object monObjet|int mix32N250365|int mix32N250491"
+ , "c3" : "QC-JAV000007[00463] For method hash32 list of called methods Object monObjet|int mix32N250845|int mix32N250971"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN250090 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN250570 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -302,28 +302,28 @@ var maDataBlocs = {
    "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00463] For method hash32 list of called methods Object monObjet|int mix32N251178|int mix32N251304|int mix32N251476|int mix32N251624"
+ , "c3" : "QC-JAV000007[00463] For method hash32 list of called methods Object monObjet|int mix32N251658|int mix32N251784|int mix32N251956|int mix32N252104"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN250779 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN251259 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN250779 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN251259 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN250779 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN251259 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,7 +337,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN251987 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN252467 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -351,7 +351,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN252329 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN252809 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -365,7 +365,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN252724 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253204 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -379,7 +379,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash32 list of called methods Object monObjet|int mix32N254446"
+ , "c3" : "QC-JAV000007[00001] For method hash32 list of called methods Object monObjet|int mix32N254926|int dataN255274|int dataN255464|int dataN255654"
 }} 
 ,
 { "ligne" : {
@@ -407,154 +407,154 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253171 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN253651 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -575,35 +575,35 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256149 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256629 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256149 the MagicNumber/String  0x85ebca6b should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256629 the MagicNumber/String  0x85ebca6b should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256149 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256629 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256149 the MagicNumber/String  0xc2b2ae35 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256629 the MagicNumber/String  0xc2b2ae35 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256149 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix32@POLYN256629 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -617,7 +617,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN256881 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN257361 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -631,7 +631,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N257905"
+ , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N258385"
 }} 
 ,
 { "ligne" : {
@@ -645,21 +645,21 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N258725"
+ , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N259205"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258007 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258487 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258007 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258487 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -673,49 +673,49 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N259728"
+ , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N260208"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258827 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN259307 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258827 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN259307 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258827 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN259307 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258827 the MagicNumber/String  0xFF00 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN259307 the MagicNumber/String  0xFF00 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258827 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN259307 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN258827 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN259307 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -736,7 +736,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N265189"
+ , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long fmix64N265669"
 }} 
 ,
 { "ligne" : {
@@ -792,371 +792,371 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  56 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  56 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260290 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash64@POLYN260770 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1170,7 +1170,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265398 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265878 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1184,7 +1184,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash128 list of called methods Object monObjet|long fmix64N275599|long fmix64N275684"
+ , "c3" : "QC-JAV000007[00001] For method hash128 list of called methods Object monObjet|long[] fmix64N276079|long[] fmix64N276164"
 }} 
 ,
 { "ligne" : {
@@ -1296,756 +1296,756 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  56 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  56 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  9 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  9 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  11 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  14 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  14 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  15 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  15 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  56 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  56 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  15 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  15 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  14 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  14 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  14 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  14 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  11 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  11 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  9 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  9 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  9 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  9 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  56 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  56 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  48 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  48 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  40 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  40 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN265830 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.hash128@POLYN266310 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2059,35 +2059,35 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN275968 the MagicNumber/String  33 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN276448 the MagicNumber/String  33 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN275968 the MagicNumber/String  0xff51afd7ed558ccdL should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN276448 the MagicNumber/String  0xff51afd7ed558ccdL should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN275968 the MagicNumber/String  33 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN276448 the MagicNumber/String  33 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN275968 the MagicNumber/String  0xc4ceb9fe1a85ec53L should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN276448 the MagicNumber/String  0xc4ceb9fe1a85ec53L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN275968 the MagicNumber/String  33 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.fmix64@POLYN276448 the MagicNumber/String  33 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2108,7 +2108,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.start@POLYN276732 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.start@POLYN277212 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2122,189 +2122,196 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method add list of called methods Object monObjet|int orBytesN278285|int orBytesN279945"
+ , "c3" : "QC-JAV000007[00001] For method add list of called methods Object monObjet|long orBytesN278397|long orBytesN278765|long orBytesN279111|long orBytesN280425"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN276942 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN277422 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00001] For method end list of called methods Object monObjet|long tailN281974|long tailN282120"
 }} 
 ,
 { "ligne" : {
@@ -2332,98 +2339,98 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  0x85ebca6b should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  0x85ebca6b should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  0xc2b2ae35 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  0xc2b2ae35 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281137 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.end@POLYN281617 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2437,105 +2444,105 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String 0xff MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String 0xff MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String 0xff MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String 0xff MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String 0xff MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String 0xff MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String 0xff MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String 0xff MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String 16 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String 16 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String 24 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String 24 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282491 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.state.internals.Murmur3.orBytes@POLYN282971 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ]
 };

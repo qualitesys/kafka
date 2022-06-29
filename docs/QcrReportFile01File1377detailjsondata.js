@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java 85 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java 88 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.xml" 
  , "fic3"  : "" 
 }
@@ -160,6 +160,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -188,56 +195,56 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  62 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  62 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  'There are no 63-bit powers of 2 higher than ' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  'There are no 63-bit powers of 2 higher than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  'or equal to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  'or equal to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200156 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.timeline.BaseHashTable.roundUpToPowerOfTwo@POLYN200636 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -251,28 +258,28 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN200906 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN201386 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN200906 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN201386 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN200906 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN201386 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN200906 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.timeline.BaseHashTable.baseGet@POLYN201386 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -280,6 +287,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#73"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00073] For method baseAddOrReplace arguments T  newObject"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00073"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#73"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00073] For method baseAddOrReplace list of called methods Object monObjet|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN203139|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN204330|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN204536|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN204727"
 }} 
 ,
 { "ligne" : {
@@ -293,70 +307,70 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN201879 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.timeline.BaseHashTable.baseAddOrReplace@POLYN202359 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -364,6 +378,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#110"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00110] For method baseRemove arguments Object  key"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00110"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#110"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00110] For method baseRemove list of called methods Object monObjet|org.apache.kafka.metadata.util.SnapshotFileWriter findSlotN205020|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN205136|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN205993|org.apache.kafka.metadata.util.SnapshotFileWriter curArrayN206044|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN206653|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN206986"
 }} 
 ,
 { "ligne" : {
@@ -384,105 +405,105 @@ var maDataBlocs = {
    "c1" : "00113"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204443 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.timeline.BaseHashTable.baseRemove@POLYN204923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -490,6 +511,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#143"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00143] For method rehash arguments int  newSize"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00143"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#143"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00143] For method rehash list of called methods Object monObjet|org.apache.kafka.metadata.util.SnapshotFileWriter findSlotN207951|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN208067|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN208201|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN208832|org.apache.kafka.metadata.util.SnapshotFileWriter elementsN208934"
 }} 
 ,
 { "ligne" : {
@@ -573,35 +601,35 @@ var maDataBlocs = {
    "c1" : "00147"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN206772 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN207252 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN206772 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN207252 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN206772 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN207252 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN206772 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN207252 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN206772 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.timeline.BaseHashTable.rehash@POLYN207252 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -622,21 +650,21 @@ var maDataBlocs = {
    "c1" : "00175"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.timeline.BaseHashTable.findSlot@POLYN208732 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.timeline.BaseHashTable.findSlot@POLYN209212 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00176"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.timeline.BaseHashTable.findSlot@POLYN208732 the MagicNumber/String  65 should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.timeline.BaseHashTable.findSlot@POLYN209212 the MagicNumber/String  65 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00177"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.timeline.BaseHashTable.findSlot@POLYN208732 the MagicNumber/String  7046029254386353131L should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.timeline.BaseHashTable.findSlot@POLYN209212 the MagicNumber/String  7046029254386353131L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -706,56 +734,56 @@ var maDataBlocs = {
    "c1" : "00197"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  'BaseHashTable{' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  'BaseHashTable{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00200"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  '%n%d: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  '%n%d: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00201"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00202"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00205"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00208"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00215"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210074 the MagicNumber/String  '%n}' should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.timeline.BaseHashTable.baseToDebugString@POLYN210554 the MagicNumber/String  '%n}' should be converted to const"
 }} 
 ]
 };

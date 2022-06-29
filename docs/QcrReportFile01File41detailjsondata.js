@@ -97,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.AlterReplicaLogDirsResult.all@POLYN176921 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.AlterReplicaLogDirsResult.all@POLYN177401 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java 61 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java 63 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,12 +83,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -174,35 +197,35 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236325 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236805 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236325 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236805 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236325 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236805 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236325 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236805 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236325 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN236805 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,7 +267,7 @@ var maDataBlocs = {
    "c1" : "00104"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.Rack.next@POLYN238711 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.Rack.next@POLYN239191 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -286,28 +309,28 @@ var maDataBlocs = {
    "c1" : "00134"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240107 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240587 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240107 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240587 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240107 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240587 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240107 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN240587 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -363,77 +386,77 @@ var maDataBlocs = {
    "c1" : "00181"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00183"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00194"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00200"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00204"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00205"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00208"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00216"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00218"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242261 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN242741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -447,21 +470,21 @@ var maDataBlocs = {
    "c1" : "00235"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN245314 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN245794 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN245314 the MagicNumber/String  'Invalid replication factor ' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN245794 the MagicNumber/String  'Invalid replication factor ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00237"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN245314 the MagicNumber/String  ': the replication factor must be positive.' should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN245794 the MagicNumber/String  ': the replication factor must be positive.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -475,14 +498,14 @@ var maDataBlocs = {
    "c1" : "00242"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN245577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN246057 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00243"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN245577 the MagicNumber/String  'All brokers are currently fenced.' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN246057 the MagicNumber/String  'All brokers are currently fenced.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -496,28 +519,28 @@ var maDataBlocs = {
    "c1" : "00249"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN245794 the MagicNumber/String  'The target replication factor ' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN246274 the MagicNumber/String  'The target replication factor ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00250"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN245794 the MagicNumber/String  'of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN246274 the MagicNumber/String  'of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00250"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN245794 the MagicNumber/String  ' cannot be reached because only ' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN246274 the MagicNumber/String  ' cannot be reached because only ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00251"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN245794 the MagicNumber/String  ' broker(s) are registered.' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN246274 the MagicNumber/String  ' broker(s) are registered.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -545,7 +568,21 @@ var maDataBlocs = {
    "c1" : "00272"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.place@POLYN246378 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.place@POLYN246858 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.placement.StripedReplicaPlacer.place@POLYN246858"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00272"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.metadata.placement.StripedReplicaPlacer.place@POLYN246858 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java 34 rule violations " 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java 36 rule violations " 
  , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -151,7 +151,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -174,21 +174,21 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN187206 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN187686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN187206 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN187686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN187206 the MagicNumber/String  'Neither schema name nor version configured' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN187686 the MagicNumber/String  'Neither schema name nor version configured' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -202,63 +202,63 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00050] For method apply list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.connect.source.SourceRecord&gt; schema_typeN188483"
+ , "c3" : "QC-JAV000007[00050] For method apply list of called methods Object monObjet|String schema_typeN188963"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  'updating schema metadata' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  'updating schema metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN187839 the MagicNumber/String  'Applying SetSchemaMetadata SMT. Original schema: {}, updated schema: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN188319 the MagicNumber/String  'Applying SetSchemaMetadata SMT. Original schema: {}, updated schema: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -320,6 +320,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#104"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00104] For method newRecord list of called methods Object monObjet|String updateSchemaInN191001"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00104"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#104"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00104] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -357,6 +364,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#123"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00123] For method newRecord arguments R  record|Schema  updatedSchema"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00123"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#123"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00123] For method newRecord list of called methods Object monObjet|String updateSchemaInN192019"
 }} 
 ,
 { "ligne" : {

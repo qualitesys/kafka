@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java 7 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java 14 rule violations " 
  , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.xml" 
  , "fic3"  : "" 
 }
@@ -132,12 +132,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -181,21 +197,21 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN174788 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN175268 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct valueStructN175051"
+ , "c3" : "QC-JAV000007[00055] For method serializeValue list of called methods Object monObjet|java.nio.ByteBuffer valueStructN175531"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN175477"
+ , "c3" : "QC-JAV000007[00063] For method serializeKey list of called methods Object monObjet|java.nio.ByteBuffer keyStructN175957"
 }} 
 ,
 { "ligne" : {
@@ -209,7 +225,7 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN175984|String keyStruct_getStringN176137|Integer keyStruct_getIntN176231|org.apache.kafka.common.protocol.types.Struct VALUE_SCHEMA_readN176325|Long valueStruct_getLongN176478|Long valueStruct_getLongN176572"
+ , "c3" : "QC-JAV000007[00071] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN176464|String keyStruct_getStringN176617|Integer keyStruct_getIntN176711|org.apache.kafka.common.protocol.types.Struct VALUE_SCHEMA_readN176805|Long valueStruct_getLongN176958|Long valueStruct_getLongN177052"
 }} 
 ,
 { "ligne" : {
@@ -217,6 +233,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#71"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00071] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSync.keyStruct@POLYN177664"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSync.serializeKey@POLYN175882"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSync.valueStruct@POLYN177299"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSync.serializeValue@POLYN175456"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSync.deserializeRecord@POLYN176318"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSync.recordKey@POLYN178070"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.OffsetSync.recordValue@POLYN178189"
 }} 
 ]
 };

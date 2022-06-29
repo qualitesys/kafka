@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java 14 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java 15 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,7 +104,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -153,14 +169,14 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ContextualRecord.residentMemorySizeEstimate@POLYN166285 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ContextualRecord.residentMemorySizeEstimate@POLYN166765 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ContextualRecord.residentMemorySizeEstimate@POLYN166285 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ContextualRecord.residentMemorySizeEstimate@POLYN166765 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00033] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN166618|byte[] getNullableSizePrefixedArrayN166723"
+ , "c3" : "QC-JAV000007[00033] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN167098|org.apache.kafka.streams.state.internals.ContextualRecord getNullableSizePrefixedArrayN167203"
 }} 
 ,
 { "ligne" : {
@@ -195,49 +211,56 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN166894 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN167374 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN166894 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN167374 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN166894 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN167374 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN167713 the MagicNumber/String  'ContextualRecord{' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN168193 the MagicNumber/String  'ContextualRecord{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN167713 the MagicNumber/String  'recordContext=' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN168193 the MagicNumber/String  'recordContext=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN167713 the MagicNumber/String  ', value=' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN168193 the MagicNumber/String  ', value=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN167713 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN168193 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ContextualRecord.deserialize@POLYN166993"
 }} 
 ]
 };

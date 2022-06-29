@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java 5 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java 7 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.xml" 
  , "fic3"  : "" 
 }
@@ -62,11 +62,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -118,7 +141,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.processor.ExtractRecordMetadataTimestamp.extract@POLYN171590 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.processor.ExtractRecordMetadataTimestamp.extract@POLYN172070 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -126,6 +149,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00022] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  recordTimestamp|long  partitionTime"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.ExtractRecordMetadataTimestamp.extract@POLYN172070"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00014"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#14"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00014] In the recursive method org.apache.kafka.streams.processor.ExtractRecordMetadataTimestamp.extract@POLYN172070 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

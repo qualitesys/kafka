@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java 10 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java 12 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,7 +104,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -141,7 +141,7 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.AddPartitionsToTxnRequest.Builder.Builder@POLYN175246 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.AddPartitionsToTxnRequest.Builder.Builder@POLYN175726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -176,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.AddPartitionsToTxnRequest.partitions@POLYN178029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.AddPartitionsToTxnRequest.partitions@POLYN178509 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -197,7 +197,21 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddPartitionsToTxnRequest.getErrorResponse@POLYN178431"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddPartitionsToTxnRequest.AddPartitionsToTxnRequest@POLYN178234"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddPartitionsToTxnRequest.getErrorResponse@POLYN178911"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddPartitionsToTxnRequest.parse@POLYN179456"
 }} 
 ]
 };

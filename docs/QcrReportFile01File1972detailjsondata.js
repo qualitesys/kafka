@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java 36 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java 47 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.xml" 
  , "fic3"  : "" 
 }
@@ -132,12 +132,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "8"
+}}
+,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -195,7 +218,7 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN179672|byte[] getNullableSizePrefixedArrayN179777|byte[] getNullableArrayN180126|byte[] getNullableSizePrefixedArrayN180248"
+ , "c3" : "QC-JAV000007[00055] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN180152|org.apache.kafka.streams.state.internals.BufferValue getNullableSizePrefixedArrayN180257|org.apache.kafka.streams.state.internals.BufferValue getNullableArrayN180606|org.apache.kafka.streams.state.internals.BufferValue getNullableSizePrefixedArrayN180728"
 }} 
 ,
 { "ligne" : {
@@ -216,56 +239,56 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00073] For method serialize list of called methods Object monObjet|byte[] recordContext_serializeN181081"
+ , "c3" : "QC-JAV000007[00073] For method serialize list of called methods Object monObjet|byte[] recordContext_serializeN181561"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180444 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180444 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180444 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180444 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180444 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180444 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180444 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -286,49 +309,49 @@ var maDataBlocs = {
    "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.BufferValue.addValue@POLYN182155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.BufferValue.addValue@POLYN182635 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN182574 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN183054 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN182574 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN183054 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN182574 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN183054 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN182574 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN183054 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN182574 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN183054 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN182574 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.BufferValue.residentMemorySizeEstimate@POLYN183054 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -349,84 +372,161 @@ var maDataBlocs = {
    "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.BufferValue.equals@POLYN183104 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.BufferValue.equals@POLYN183584 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.BufferValue.equals@POLYN183104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.BufferValue.equals@POLYN183584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.BufferValue.equals@POLYN183104 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.BufferValue.equals@POLYN183584 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.internals.BufferValue.hashCode@POLYN183908 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.internals.BufferValue.hashCode@POLYN184388 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00140"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.BufferValue.hashCode@POLYN183908 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.BufferValue.hashCode@POLYN184388 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.BufferValue.hashCode@POLYN183908 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.BufferValue.hashCode@POLYN184388 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184519 the MagicNumber/String  'BufferValue{' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184999 the MagicNumber/String  'BufferValue{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184519 the MagicNumber/String  'priorValue=' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184999 the MagicNumber/String  'priorValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184519 the MagicNumber/String  ', oldValue=' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184999 the MagicNumber/String  ', oldValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184519 the MagicNumber/String  ', newValue=' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184999 the MagicNumber/String  ', newValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184519 the MagicNumber/String  ', recordContext=' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184999 the MagicNumber/String  ', recordContext=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184519 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.BufferValue.toString@POLYN184999 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.BufferValue.addValue@POLYN182635"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.BufferValue.deserialize@POLYN180047"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#77"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#77"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.serialize@POLYN180924 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.streams.state.internals.BufferValue.addValue@POLYN182635 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };
