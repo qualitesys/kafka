@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java 7 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java 4 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,30 +83,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -148,35 +125,14 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.metadata.ConfigSynonym.valueToInt@POLYN168222 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.metadata.ConfigSynonym.valueToInt@POLYN169262 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.metadata.ConfigSynonym.valueToInt@POLYN168222 the MagicNumber/String  '{} failed: unable to parse '{}' as an integer.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.ConfigSynonym.valueToInt@POLYN168222"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00026"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#26"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.metadata.ConfigSynonym.valueToInt@POLYN168222 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00034"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#34"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.metadata.ConfigSynonym.valueToInt@POLYN168222 the MagicNumber/String '{} failed: unable to parse '{}' as an integer.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.metadata.ConfigSynonym.valueToInt@POLYN169262 the MagicNumber/String  '{} failed: unable to parse '{}' as an integer.' should be converted to const"
 }} 
 ]
 };

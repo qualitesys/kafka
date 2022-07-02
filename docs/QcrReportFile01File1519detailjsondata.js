@@ -120,133 +120,133 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  'streams-pipe' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  'streams-pipe' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  'localhost:9092' should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  'localhost:9092' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  'earliest' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  'earliest' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  'streams-plaintext-input' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  'streams-plaintext-input' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  'streams-pipe-output' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  'streams-pipe-output' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  'streams-pipe-shutdown-hook' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  'streams-pipe-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458"
 }} 
 ,
 { "ligne" : {
    "c1" : "00018"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#18"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00018] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 'streams-pipe' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00018] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 'streams-pipe' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#19"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00019] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 'localhost:9092' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00019] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 'localhost:9092' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#24"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00024] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 'earliest' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00024] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 'earliest' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 'streams-pipe-output' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 'streams-pipe-output' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 'streams-plaintext-input' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 'streams-plaintext-input' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00031] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00031] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#34"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 'streams-pipe-shutdown-hook' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 'streams-pipe-shutdown-hook' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN170418 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.streams.examples.pipe.PipeDemo.main@POLYN171458 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

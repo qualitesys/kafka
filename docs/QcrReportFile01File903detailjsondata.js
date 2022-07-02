@@ -134,7 +134,7 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.utils.KafkaThread.daemon@POLYN163172 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.utils.KafkaThread.daemon@POLYN164212 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -148,7 +148,7 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN163397 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN164437 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -162,49 +162,49 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN164124 the MagicNumber/String  'Uncaught exception in thread '{}':' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN165164 the MagicNumber/String  'Uncaught exception in thread '{}':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN164124"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN165164"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.KafkaThread.daemon@POLYN163172"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.KafkaThread.daemon@POLYN164212"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN163397"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN164437"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#32"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN164124 the MagicNumber/String 'Uncaught exception in thread '{}':' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN165164 the MagicNumber/String 'Uncaught exception in thread '{}':' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#13"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00013] In the recursive method org.apache.kafka.common.utils.KafkaThread.daemon@POLYN163172 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00013] In the recursive method org.apache.kafka.common.utils.KafkaThread.daemon@POLYN164212 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#17"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00017] In the recursive method org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN163397 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00017] In the recursive method org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN164437 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

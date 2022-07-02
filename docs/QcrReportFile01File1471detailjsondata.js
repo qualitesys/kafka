@@ -155,21 +155,21 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.name@POLYN165504 the MagicNumber/String  'help' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.name@POLYN166544 the MagicNumber/String  'help' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.description@POLYN165606 the MagicNumber/String  'Display this help message.' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.description@POLYN166646 the MagicNumber/String  'Display this help message.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.shellOnly@POLYN165708 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.shellOnly@POLYN166748 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,21 +246,21 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN166212 the MagicNumber/String  'Welcome to the Apache Kafka metadata shell.%n%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN167252 the MagicNumber/String  'Welcome to the Apache Kafka metadata shell.%n%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN166212 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN167252 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.HelpCommandHandler.hashCode@POLYN166572 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.HelpCommandHandler.hashCode@POLYN167612 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -274,35 +274,35 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN166674 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN167714 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN166674 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN167714 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.HelpCommandHandler.run@POLYN166212"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.HelpCommandHandler.run@POLYN167252"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.shell.HelpCommandHandler.run@POLYN166212 the MagicNumber/String 'Welcome to the Apache Kafka metadata shell.%n%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.shell.HelpCommandHandler.run@POLYN167252 the MagicNumber/String 'Welcome to the Apache Kafka metadata shell.%n%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.shell.HelpCommandHandler.run@POLYN166212 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.shell.HelpCommandHandler.run@POLYN167252 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 };

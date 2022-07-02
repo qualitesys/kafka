@@ -5176,6 +5176,12 @@ Nb methods :2
 Complexity :4.00
 }
 }
+package org.apache.kafka.jmh.metadata {
+class org.apache.kafka.jmh.metadata.MetadataRequestBenchmark {
+Nb methods :9
+Complexity :1.00
+}
+}
 package org.apache.kafka.jmh.partition {
 class org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark {
 Nb methods :4
@@ -5205,9 +5211,17 @@ class org.apache.kafka.jmh.record.BaseRecordBatchBenchmark {
 Nb methods :4
 Complexity :3.00
 }
+class org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark {
+Nb methods :2
+Complexity :1.00
+}
 class org.apache.kafka.jmh.record.RecordBatchIterationBenchmark {
 Nb methods :4
 Complexity :3.00
+}
+class org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark {
+Nb methods :2
+Complexity :1.00
 }
 }
 package org.apache.kafka.jmh.server {

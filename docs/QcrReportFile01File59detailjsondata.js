@@ -148,42 +148,42 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN171528 the MagicNumber/String  'Partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN172568 the MagicNumber/String  'Partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN171528 the MagicNumber/String  ' was not included in the original request' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN172568 the MagicNumber/String  ' was not included in the original request' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN171528 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN172568 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN171528 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.partitionResult@POLYN172568 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.all@POLYN172551 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.all@POLYN173591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.all@POLYN172551 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.all@POLYN173591 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -204,77 +204,77 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String  'Offset deletion result for partition \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String  'Offset deletion result for partition \'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String  '\' was not included in the response' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String  '\' was not included in the response' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String 'Offset deletion result for partition \'' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String 'Offset deletion result for partition \'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String '\' was not included in the response' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String '\' was not included in the response' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN173318 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult.maybeCompleteExceptionally@POLYN174358 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

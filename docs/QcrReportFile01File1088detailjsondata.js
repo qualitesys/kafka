@@ -225,77 +225,77 @@ var maDataBlocs = {
    "c1" : "00234"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00235"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00249"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  30000 should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  30000 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00249"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00260"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00272"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -316,70 +316,70 @@ var maDataBlocs = {
    "c1" : "00290"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'internal.key.converter' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'internal.key.converter' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00290"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'internal.value.converter' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'internal.value.converter' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00294"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00298"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'The worker has been configured with one or more internal converter properties ({}). ' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'The worker has been configured with one or more internal converter properties ({}). ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'Support for these properties was deprecated in version 2.0 and removed in version 3.0, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'Support for these properties was deprecated in version 2.0 and removed in version 3.0, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00300"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'and specifying them will have no effect. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'and specifying them will have no effect. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00301"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'Instead, an instance of the JsonConverter with schemas.enable ' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'Instead, an instance of the JsonConverter with schemas.enable ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00302"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'set to false will be used. For more information, please visit ' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'set to false will be used. For more information, please visit ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00303"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'http://kafka.apache.org/documentation/#upgrade and consult the upgrade notes' should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'http://kafka.apache.org/documentation/#upgrade and consult the upgrade notes' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00304"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String  'for the 3.0 release.' should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String  'for the 3.0 release.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -400,70 +400,70 @@ var maDataBlocs = {
    "c1" : "00316"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String  'Variables cannot be used in the 'plugin.path' property, since the property is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String  'Variables cannot be used in the 'plugin.path' property, since the property is ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00317"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String  'used by plugin scanning before the config providers that replace the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String  'used by plugin scanning before the config providers that replace the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00318"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String  'variables are initialized. The raw value '{}' was used for plugin scanning, as ' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String  'variables are initialized. The raw value '{}' was used for plugin scanning, as ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String  'opposed to the transformed value '{}', and this may cause unexpected results.' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String  'opposed to the transformed value '{}', and this may cause unexpected results.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00328"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.WorkerConfig.bootstrapServers@POLYN249928 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.WorkerConfig.bootstrapServers@POLYN250968 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00332"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.connect.runtime.WorkerConfig.getRebalanceTimeout@POLYN250108 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.connect.runtime.WorkerConfig.getRebalanceTimeout@POLYN251148 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00341"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.WorkerConfig.exactlyOnceSourceEnabled@POLYN250531 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.WorkerConfig.exactlyOnceSourceEnabled@POLYN251571 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00346"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.connect.runtime.WorkerConfig.offsetsTopic@POLYN250867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.connect.runtime.WorkerConfig.offsetsTopic@POLYN251907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00351"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.connect.runtime.WorkerConfig.connectorOffsetsTopicsPermitted@POLYN251149 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.connect.runtime.WorkerConfig.connectorOffsetsTopicsPermitted@POLYN252189 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00361"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.connect.runtime.WorkerConfig.groupId@POLYN251694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.connect.runtime.WorkerConfig.groupId@POLYN252734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -491,14 +491,14 @@ var maDataBlocs = {
    "c1" : "00371"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN252066 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN253106 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00373"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN252066 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN253106 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -519,112 +519,112 @@ var maDataBlocs = {
    "c1" : "00386"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#386"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  '\\s+' should be converted to const"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  '\\s+' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00386"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#386"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00387"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00388"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  'Invalid format of header config '%s'. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  'Invalid format of header config '%s'. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00389"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#389"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  'Expected: '[ation] [header name]:[header value]'' should be converted to const"
+ , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  'Expected: '[ation] [header name]:[header value]'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00393"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00397"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00398"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00399"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#399"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  'Invalid format of header name and header value pair '%s'. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  'Invalid format of header name and header value pair '%s'. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00402"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  'Expected: '[header name]:[header value]'' should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  'Expected: '[header name]:[header value]'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00406"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00407"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  '.*\\s+.*' should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  '.*\\s+.*' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#408"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  'Invalid header name '%s'. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  'Invalid header name '%s'. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00409"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  'The '[header name]' cannot contain whitespace' should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  'The '[header name]' cannot contain whitespace' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00412"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String  'Invalid header config '%s'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String  'Invalid header config '%s'.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -638,14 +638,14 @@ var maDataBlocs = {
    "c1" : "00419"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHeaderConfigAction@POLYN254557 the MagicNumber/String  'Invalid header config action: '%s'. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHeaderConfigAction@POLYN255597 the MagicNumber/String  'Invalid header config action: '%s'. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00420"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHeaderConfigAction@POLYN254557 the MagicNumber/String  'Expected one of %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.connect.runtime.WorkerConfig.validateHeaderConfigAction@POLYN255597 the MagicNumber/String  'Expected one of %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -680,35 +680,35 @@ var maDataBlocs = {
    "c1" : "00428"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN254996 the MagicNumber/String  'Invalid value type for listeners (expected list of URLs , ex: http://localhost:8080,https://localhost:8443).' should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN256036 the MagicNumber/String  'Invalid value type for listeners (expected list of URLs , ex: http://localhost:8080,https://localhost:8443).' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00433"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#433"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN254996 the MagicNumber/String  'Invalid value for listeners, at least one URL is expected, ex: http://localhost:8080,https://localhost:8443.' should be converted to const"
+ , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN256036 the MagicNumber/String  'Invalid value for listeners, at least one URL is expected, ex: http://localhost:8080,https://localhost:8443.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00438"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#438"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN254996 the MagicNumber/String  'Invalid type for listeners (expected String).' should be converted to const"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN256036 the MagicNumber/String  'Invalid type for listeners (expected String).' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN254996 the MagicNumber/String  'Empty URL found when parsing listeners list.' should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.ensureValid@POLYN256036 the MagicNumber/String  'Empty URL found when parsing listeners list.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.toString@POLYN255959 the MagicNumber/String  'List of comma-separated URLs, ex: http://localhost:8080,https://localhost:8443.' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.WorkerConfig.ListenersValidator.toString@POLYN256999 the MagicNumber/String  'List of comma-separated URLs, ex: http://localhost:8080,https://localhost:8443.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -743,35 +743,35 @@ var maDataBlocs = {
    "c1" : "00455"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN256115 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN257155 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00460"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN256115 the MagicNumber/String  'Invalid value type for admin.listeners (expected list).' should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN257155 the MagicNumber/String  'Invalid value type for admin.listeners (expected list).' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00470"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#470"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN256115 the MagicNumber/String  'Invalid type for admin.listeners (expected String).' should be converted to const"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN257155 the MagicNumber/String  'Invalid type for admin.listeners (expected String).' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00473"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN256115 the MagicNumber/String  'Empty URL found when parsing admin.listeners list.' should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.ensureValid@POLYN257155 the MagicNumber/String  'Empty URL found when parsing admin.listeners list.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00480"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#480"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.toString@POLYN257109 the MagicNumber/String  'List of comma-separated URLs, ex: http://localhost:8080,https://localhost:8443.' should be converted to const"
+ , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.toString@POLYN258149 the MagicNumber/String  'List of comma-separated URLs, ex: http://localhost:8080,https://localhost:8443.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -792,378 +792,378 @@ var maDataBlocs = {
    "c1" : "00498"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.WorkerConfig.ResponseHttpHeadersValidator.toString@POLYN257776 the MagicNumber/String  'Comma-separated header rules, where each header rule is of the form ' should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.WorkerConfig.ResponseHttpHeadersValidator.toString@POLYN258816 the MagicNumber/String  'Comma-separated header rules, where each header rule is of the form ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00499"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.connect.runtime.WorkerConfig.ResponseHttpHeadersValidator.toString@POLYN257776 the MagicNumber/String  ''[action] [header name]:[header value]' and optionally surrounded by double quotes ' should be converted to const"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.connect.runtime.WorkerConfig.ResponseHttpHeadersValidator.toString@POLYN258816 the MagicNumber/String  ''[action] [header name]:[header value]' and optionally surrounded by double quotes ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00500"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.WorkerConfig.ResponseHttpHeadersValidator.toString@POLYN257776 the MagicNumber/String  'if any part of a header rule contains a comma' should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.WorkerConfig.ResponseHttpHeadersValidator.toString@POLYN258816 the MagicNumber/String  'if any part of a header rule contains a comma' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.WorkerConfig@POLYN252530"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.WorkerConfig@POLYN253570"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.offsetCommitInterval@POLYN251293"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.offsetCommitInterval@POLYN252333"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN252066"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN253106"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.topicCreationEnable@POLYN250196"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.topicCreationEnable@POLYN251236"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904"
 }} 
 ,
 { "ligne" : {
    "c1" : "00290"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'internal.key.converter' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'internal.key.converter' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00290"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'internal.value.converter' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'internal.value.converter' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00294"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#294"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00294] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String '.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00294] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String '.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00298"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#298"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'The worker has been configured with one or more internal converter properties -{}-. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'The worker has been configured with one or more internal converter properties -{}-. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'Support for these properties was deprecated in version 2.0 and removed in version 3.0, ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'Support for these properties was deprecated in version 2.0 and removed in version 3.0, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00300"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00300] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'and specifying them will have no effect. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00300] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'and specifying them will have no effect. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00301"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'Instead, an instance of the JsonConverter with schemas.enable ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'Instead, an instance of the JsonConverter with schemas.enable ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00302"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#302"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00302] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'set to false will be used. For more information, please visit ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00302] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'set to false will be used. For more information, please visit ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00303"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'http://kafka.apache.org/documentation/#upgrade and consult the upgrade notes' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'http://kafka.apache.org/documentation/#upgrade and consult the upgrade notes' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00304"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#304"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN248146 the MagicNumber/String 'for the 3.0 release.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logInternalConverterRemovalWarnings@POLYN249186 the MagicNumber/String 'for the 3.0 release.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00316"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String 'Variables cannot be used in the 'plugin.path' property, since the property is ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String 'Variables cannot be used in the 'plugin.path' property, since the property is ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00317"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String 'used by plugin scanning before the config providers that replace the ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String 'used by plugin scanning before the config providers that replace the ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00318"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00318] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String 'variables are initialized. The raw value '{}' was used for plugin scanning, as ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00318] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String 'variables are initialized. The raw value '{}' was used for plugin scanning, as ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00319] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN249121 the MagicNumber/String 'opposed to the transformed value '{}', and this may cause unexpected results.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00319] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.logPluginPathConfigProviderWarning@POLYN250161 the MagicNumber/String 'opposed to the transformed value '{}', and this may cause unexpected results.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00234"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00235"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#245"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00245] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00245] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00249"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00249"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String 30000 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String 30000 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00260"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#260"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00272"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN243262 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.baseConfigDef@POLYN244302 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00371"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00371] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN252066 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00371] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN253106 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00373"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN252066 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.pluginLocations@POLYN253106 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00386"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String '\\s+' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String '\\s+' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00386"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00387"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00388"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 'Invalid format of header config '%s'. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 'Invalid format of header config '%s'. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00389"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00389] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 'Expected: '[ation] [header name]:[header value]'' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00389] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 'Expected: '[ation] [header name]:[header value]'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00393"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00397"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00398"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String ':' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String ':' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00399"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#399"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 'Invalid format of header name and header value pair '%s'. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 'Invalid format of header name and header value pair '%s'. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00402"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#402"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 'Expected: '[header name]:[header value]'' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 'Expected: '[header name]:[header value]'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00406"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#406"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00406] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00406] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00407"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00407] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String '.*\\s+.*' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00407] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String '.*\\s+.*' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#408"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00408] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 'Invalid header name '%s'. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00408] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 'Invalid header name '%s'. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00409"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#409"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00409] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 'The '[header name]' cannot contain whitespace' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00409] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 'The '[header name]' cannot contain whitespace' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00412"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#412"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00412] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN252864 the MagicNumber/String 'Invalid header config '%s'.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00412] In the recursive method org.apache.kafka.connect.runtime.WorkerConfig.validateHttpResponseHeaderConfig@POLYN253904 the MagicNumber/String 'Invalid header config '%s'.' MUST BE CONVERTED to const"
 }} 
 ]
 };

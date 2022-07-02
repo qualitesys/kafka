@@ -162,7 +162,7 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.apiName@POLYN178582 the MagicNumber/String  'listTransactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.apiName@POLYN179622 the MagicNumber/String  'listTransactions' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -183,7 +183,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method handleResponse list of called methods Object monObjet|int broker_idN179719|ApiResult&lt;AllBrokersStrategy.BrokerKey,Collection&lt;TransactionListing&gt;&gt; requireSingletonN179802|ListTransactionsResponseData response_dataN181236"
+ , "c3" : "QC-JAV000007[00065] For method handleResponse list of called methods Object monObjet|int broker_idN180759|ApiResult&lt;AllBrokersStrategy.BrokerKey,Collection&lt;TransactionListing&gt;&gt; requireSingletonN180842|ListTransactionsResponseData response_dataN182276"
 }} 
 ,
 { "ligne" : {
@@ -197,84 +197,84 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'The `ListTransactions` request sent to broker {} failed because the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'The `ListTransactions` request sent to broker {} failed because the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'coordinator is still loading state. Will try again after backing off' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'coordinator is still loading state. Will try again after backing off' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'The `ListTransactions` request sent to broker {} failed because the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'The `ListTransactions` request sent to broker {} failed because the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'coordinator is shutting down' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'coordinator is shutting down' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'ListTransactions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'ListTransactions ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'request sent to broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'request sent to broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  ' failed because the coordinator is shutting down' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  ' failed because the coordinator is shutting down' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'The `ListTransactions` request sent to broker {} failed because of an ' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'The `ListTransactions` request sent to broker {} failed because of an ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'unexpected error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'unexpected error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'ListTransactions request ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'ListTransactions request ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  'sent to broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  'sent to broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String  ' failed with an unexpected exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String  ' failed with an unexpected exception' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -295,147 +295,147 @@ var maDataBlocs = {
    "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN181739 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN182779 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN181739 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN182779 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN181739 the MagicNumber/String  'Unexpected broker key: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN182779 the MagicNumber/String  'Unexpected broker key: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListTransactionsHandler.buildBatchedRequest@POLYN178821"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListTransactionsHandler.buildBatchedRequest@POLYN179861"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN181739"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN182779"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'The `ListTransactions` request sent to broker {} failed because the ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'The `ListTransactions` request sent to broker {} failed because the ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'coordinator is still loading state. Will try again after backing off' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'coordinator is still loading state. Will try again after backing off' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'The `ListTransactions` request sent to broker {} failed because the ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'The `ListTransactions` request sent to broker {} failed because the ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'coordinator is shutting down' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'coordinator is shutting down' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#83"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'ListTransactions ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'ListTransactions ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String ' failed because the coordinator is shutting down' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String ' failed because the coordinator is shutting down' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'request sent to broker ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'request sent to broker ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'The `ListTransactions` request sent to broker {} failed because of an ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'The `ListTransactions` request sent to broker {} failed because of an ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'unexpected error {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'unexpected error {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'ListTransactions request ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'ListTransactions request ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#89"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String ' failed with an unexpected exception' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String ' failed with an unexpected exception' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#89"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN179543 the MagicNumber/String 'sent to broker ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.handleResponse@POLYN180583 the MagicNumber/String 'sent to broker ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN181739 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN182779 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN181739 the MagicNumber/String 'Unexpected key set: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN182779 the MagicNumber/String 'Unexpected key set: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN181739 the MagicNumber/String 'Unexpected broker key: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN182779 the MagicNumber/String 'Unexpected broker key: ' MUST BE CONVERTED to const"
 }} 
 ]
 };

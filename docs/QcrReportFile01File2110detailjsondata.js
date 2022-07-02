@@ -174,28 +174,28 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN205779 the MagicNumber/String  'Malformed metrics.url' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN206819 the MagicNumber/String  'Malformed metrics.url' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN205779 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN206819 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN205779 the MagicNumber/String  'Failed to get canonical hostname' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN206819 the MagicNumber/String  'Failed to get canonical hostname' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN205779 the MagicNumber/String  'Configured PushHttpMetricsReporter for {} to report every {} seconds' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.tools.PushHttpMetricsReporter.configure@POLYN206819 the MagicNumber/String  'Configured PushHttpMetricsReporter for {} to report every {} seconds' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -216,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00116"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.tools.PushHttpMetricsReporter.init@POLYN207232 the MagicNumber/String  'Adding metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.tools.PushHttpMetricsReporter.init@POLYN208272 the MagicNumber/String  'Adding metric {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,7 +244,7 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.PushHttpMetricsReporter.metricChange@POLYN207683 the MagicNumber/String  'Updating metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.PushHttpMetricsReporter.metricChange@POLYN208723 the MagicNumber/String  'Updating metric {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -272,21 +272,21 @@ var maDataBlocs = {
    "c1" : "00133"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.tools.PushHttpMetricsReporter.metricRemoval@POLYN208036 the MagicNumber/String  'Removing metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.tools.PushHttpMetricsReporter.metricRemoval@POLYN209076 the MagicNumber/String  'Removing metric {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.tools.PushHttpMetricsReporter.close@POLYN208367 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.tools.PushHttpMetricsReporter.close@POLYN209407 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.tools.PushHttpMetricsReporter.close@POLYN208367 the MagicNumber/String  'Interrupted when shutting down PushHttpMetricsReporter' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.tools.PushHttpMetricsReporter.close@POLYN209407 the MagicNumber/String  'Interrupted when shutting down PushHttpMetricsReporter' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -314,126 +314,126 @@ var maDataBlocs = {
    "c1" : "00163"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'Reporting {} metrics to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'Reporting {} metrics to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00164"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00167"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'Content-Type' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'Content-Type' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'application/json' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'application/json' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'Content-Length' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'Content-Length' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'Accept' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'Accept' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  '*/*' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  '*/*' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00177"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00185"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  400 should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  400 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'Error reporting metrics, {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'Error reporting metrics, {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  300 should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  300 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'PushHttpMetricsReporter does not currently support redirects, saw {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'PushHttpMetricsReporter does not currently support redirects, saw {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00192"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'Finished reporting metrics with response code {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'Finished reporting metrics with response code {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00195"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  'Error reporting metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  'Error reporting metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN208786 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter.run@POLYN209826 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -461,14 +461,14 @@ var maDataBlocs = {
    "c1" : "00211"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.tools.PushHttpMetricsReporter.readResponse@POLYN212163 the MagicNumber/String  '\\A' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.tools.PushHttpMetricsReporter.readResponse@POLYN213203 the MagicNumber/String  '\\A' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00212"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.tools.PushHttpMetricsReporter.readResponse@POLYN212163 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.tools.PushHttpMetricsReporter.readResponse@POLYN213203 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -134,42 +134,42 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String  '*' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String  '*' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String  '%2A' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String  '%2A' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String  '+' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String  '+' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String  '%20' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String  '%20' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -190,49 +190,49 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#22"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#26"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String '*' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String '*' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#29"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String '%2A' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String '%2A' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#30"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String '+' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String '+' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00031] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN173539 the MagicNumber/String '%20' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00031] In the recursive method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN174579 the MagicNumber/String '%20' MUST BE CONVERTED to const"
 }} 
 ]
 };

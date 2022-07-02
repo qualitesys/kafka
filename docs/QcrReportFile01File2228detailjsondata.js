@@ -148,35 +148,35 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String  'Invalid value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String  'Invalid value ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String  ' for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String  ' for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String  'padding: the number of padding bytes must not be smaller than ' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String  'padding: the number of padding bytes must not be smaller than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String  '0 or greater than the total payload size.' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String  '0 or greater than the total payload size.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -197,119 +197,119 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN171339 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.generate@POLYN172379 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#26"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#27"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String ' for ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String ' for ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#27"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String 'Invalid value ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String 'Invalid value ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String 'padding: the number of padding bytes must not be smaller than ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String 'padding: the number of padding bytes must not be smaller than ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#29"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN169915 the MagicNumber/String '0 or greater than the total payload size.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator.UniformRandomPayloadGenerator@POLYN170955 the MagicNumber/String '0 or greater than the total payload size.' MUST BE CONVERTED to const"
 }} 
 ]
 };

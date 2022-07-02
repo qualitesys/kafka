@@ -104,7 +104,7 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.security.auth.SaslExtensionsCallback.extensions@POLYN163629 the MagicNumber/String  'extensions must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.security.auth.SaslExtensionsCallback.extensions@POLYN164669 the MagicNumber/String  'extensions must not be null' should be converted to const"
 }} 
 ]
 };

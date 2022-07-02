@@ -813,28 +813,28 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN250294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN251334 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN250294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN251334 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN250294 the MagicNumber/String  'Missing value for field '' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN251334 the MagicNumber/String  'Missing value for field '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN250294 the MagicNumber/String  '' which has no default value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.Struct.getFieldOrDefault@POLYN251334 the MagicNumber/String  '' which has no default value.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1170,7 +1170,7 @@ var maDataBlocs = {
    "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.protocol.types.Struct.getOrEmpty@POLYN255896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.protocol.types.Struct.getOrEmpty@POLYN256936 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1191,7 +1191,7 @@ var maDataBlocs = {
    "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.protocol.types.Struct.getOrEmpty@POLYN256201 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.protocol.types.Struct.getOrEmpty@POLYN257241 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1205,21 +1205,21 @@ var maDataBlocs = {
    "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00172] For method get list of called methods Object monObjet|Object schema_getN256773"
+ , "c3" : "QC-JAV000007[00172] For method get list of called methods Object monObjet|Object schema_getN257813"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.protocol.types.Struct.get@POLYN256676 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.protocol.types.Struct.get@POLYN257716 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.protocol.types.Struct.get@POLYN256676 the MagicNumber/String  'No such field: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.protocol.types.Struct.get@POLYN257716 the MagicNumber/String  'No such field: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1233,7 +1233,7 @@ var maDataBlocs = {
    "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.protocol.types.Struct.hasField@POLYN257148 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.protocol.types.Struct.hasField@POLYN258188 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1254,7 +1254,7 @@ var maDataBlocs = {
    "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.protocol.types.Struct.hasField@POLYN257319 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.protocol.types.Struct.hasField@POLYN258359 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1275,7 +1275,7 @@ var maDataBlocs = {
    "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.protocol.types.Struct.hasField@POLYN257498 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.protocol.types.Struct.hasField@POLYN258538 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1464,7 +1464,7 @@ var maDataBlocs = {
    "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00292] For method getBytes list of called methods Object monObjet|java.nio.ByteBuffer getN261756"
+ , "c3" : "QC-JAV000007[00292] For method getBytes list of called methods Object monObjet|java.nio.ByteBuffer getN262796"
 }} 
 ,
 { "ligne" : {
@@ -1478,7 +1478,7 @@ var maDataBlocs = {
    "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#299"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00299] For method getBytes list of called methods Object monObjet|java.nio.ByteBuffer getN262122"
+ , "c3" : "QC-JAV000007[00299] For method getBytes list of called methods Object monObjet|java.nio.ByteBuffer getN263162"
 }} 
 ,
 { "ligne" : {
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
    "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00306] For method getByteArray list of called methods Object monObjet|byte[] getN262494"
+ , "c3" : "QC-JAV000007[00306] For method getByteArray list of called methods Object monObjet|byte[] getN263534"
 }} 
 ,
 { "ligne" : {
@@ -1520,14 +1520,14 @@ var maDataBlocs = {
    "c1" : "00327"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN263591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN264631 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00328"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN263591 the MagicNumber/String  'Unknown field: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN264631 the MagicNumber/String  'Unknown field: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1646,21 +1646,21 @@ var maDataBlocs = {
    "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN265494 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN266534 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00363"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN265494 the MagicNumber/String  'Invalid value for unsigned short for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN266534 the MagicNumber/String  'Invalid value for unsigned short for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00364"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN265494 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN266534 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1681,21 +1681,21 @@ var maDataBlocs = {
    "c1" : "00370"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN265965 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN267005 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00371"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN265965 the MagicNumber/String  'Invalid value for unsigned int for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN267005 the MagicNumber/String  'Invalid value for unsigned int for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00372"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN265965 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.common.protocol.types.Struct.set@POLYN267005 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1765,14 +1765,14 @@ var maDataBlocs = {
    "c1" : "00394"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN267256 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN268296 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00394"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN267256 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN268296 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1828,7 +1828,7 @@ var maDataBlocs = {
    "c1" : "00412"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.common.protocol.types.Struct.setIfExists@POLYN268222 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.common.protocol.types.Struct.setIfExists@POLYN269262 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1849,14 +1849,14 @@ var maDataBlocs = {
    "c1" : "00425"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.common.protocol.types.Struct.instance@POLYN268909 the MagicNumber/String  'Field '' should be converted to const"
+ , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.common.protocol.types.Struct.instance@POLYN269949 the MagicNumber/String  'Field '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00425"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.common.protocol.types.Struct.instance@POLYN268909 the MagicNumber/String  '' is not a container type, it is of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.common.protocol.types.Struct.instance@POLYN269949 the MagicNumber/String  '' is not a container type, it is of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1898,7 +1898,7 @@ var maDataBlocs = {
    "c1" : "00444"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.common.protocol.types.Struct.clear@POLYN270454 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.common.protocol.types.Struct.clear@POLYN271494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1926,28 +1926,28 @@ var maDataBlocs = {
    "c1" : "00459"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN271065 the MagicNumber/String  '`field` must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN272105 the MagicNumber/String  '`field` must be non-null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN271065 the MagicNumber/String  'Attempt to access field '' should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN272105 the MagicNumber/String  'Attempt to access field '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN271065 the MagicNumber/String  '' from a different schema instance.' should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN272105 the MagicNumber/String  '' from a different schema instance.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN271065 the MagicNumber/String  'Invalid field index: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.common.protocol.types.Struct.validateField@POLYN272105 the MagicNumber/String  'Invalid field index: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1975,84 +1975,84 @@ var maDataBlocs = {
    "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00475"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00478"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00479"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00482"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#482"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00484"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#484"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00484] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00484] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00485"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#485"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00487"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00490"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00491"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#491"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00493"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2094,35 +2094,35 @@ var maDataBlocs = {
    "c1" : "00499"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00500"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00501"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00504"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00511"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2136,7 +2136,7 @@ var maDataBlocs = {
    "c1" : "00520"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#520"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00520] For method equals list of called methods Object monObjet|Object other_getN276422"
+ , "c3" : "QC-JAV000007[00520] For method equals list of called methods Object monObjet|Object other_getN277462"
 }} 
 ,
 { "ligne" : {
@@ -2185,56 +2185,56 @@ var maDataBlocs = {
    "c1" : "00522"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#522"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00523"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00524"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00526"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00541"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#541"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00543"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2738,245 +2738,245 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.getByteArray@POLYN262397"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.getByteArray@POLYN263437"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.getRecords@POLYN258317"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.getRecords@POLYN259357"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN267256"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN268296"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.sizeOf@POLYN270649"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.sizeOf@POLYN271689"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.validate@POLYN271684"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.validate@POLYN272724"
 }} 
 ,
 { "ligne" : {
    "c1" : "00499"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#499"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00499] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String 31 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00499] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String 31 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00500"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#500"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00500] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00500] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00501"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00504"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00504] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00504] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00511"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN273779 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.common.protocol.types.Struct.hashCode@POLYN274819 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#474"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00474] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String '{' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00474] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String '{' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00475"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#475"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00478"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00478] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String '=' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00478] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String '=' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00479"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String '[' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String '[' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00482"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00482] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00482] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00484"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00485"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00485] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String ',' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00485] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String ',' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00487"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String ']' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String ']' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00490"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00491"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00491] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String ',' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00491] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String ',' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00493"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#493"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN271826 the MagicNumber/String '}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.common.protocol.types.Struct.toString@POLYN272866 the MagicNumber/String '}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00522"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00522] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00522] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00523"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#523"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00524"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00526"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#526"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00526] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00526] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00541"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#541"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00541] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00541] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00543"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#543"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN275094 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.common.protocol.types.Struct.equals@POLYN276134 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00394"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN267256 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN268296 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00394"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN267256 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.common.protocol.types.Struct.setByteArray@POLYN268296 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

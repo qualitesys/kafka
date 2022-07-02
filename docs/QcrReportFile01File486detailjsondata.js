@@ -106,21 +106,21 @@ var maDataBlocs = {
    "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN162646 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN163686 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN162646"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN163686"
 }} 
 ,
 { "ligne" : {
    "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#10"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00010] In the recursive method org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN162646 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00010] In the recursive method org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN163686 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
 }} 
 ]
 };

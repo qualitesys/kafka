@@ -127,133 +127,133 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#23"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00023] For method nextBatch list of called methods Object monObjet|org.apache.kafka.common.record.MutableRecordBatch nextBatchSizeN170373"
+ , "c3" : "QC-JAV000007[00023] For method nextBatch list of called methods Object monObjet|org.apache.kafka.common.record.MutableRecordBatch nextBatchSizeN171413"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN170223 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN171263 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN170223 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN171263 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String  'Record size %d is less than the minimum record overhead (%d)' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String  'Record size %d is less than the minimum record overhead (%d)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String  'Record size %d exceeds the largest allowable message size (%d).' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String  'Record size %d exceeds the largest allowable message size (%d).' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String  'Invalid magic found in record: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String  'Invalid magic found in record: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN170223"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN171263"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#27"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN170223 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN171263 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN170223 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN171263 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String 'Record size %d is less than the minimum record overhead -%d-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String 'Record size %d is less than the minimum record overhead -%d-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String 'Record size %d exceeds the largest allowable message size -%d-.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String 'Record size %d exceeds the largest allowable message size -%d-.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN171318 the MagicNumber/String 'Invalid magic found in record: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatchSize@POLYN172358 the MagicNumber/String 'Invalid magic found in record: ' MUST BE CONVERTED to const"
 }} 
 ]
 };

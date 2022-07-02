@@ -1206,13 +1206,16 @@ var mavar =
 ' { "namespace":"org.apache.kafka.jmh.consumer" , "classe":"SubscriptionStateBenchmark" , "nbMethodes":"4" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.fetcher" , "classe":"ReplicaFetcherThreadBenchmark" , "nbMethodes":"4" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.fetchsession" , "classe":"FetchSessionBenchmark" , "nbMethodes":"2" , "nbComplexite":"4.00"} ,' + 
+' { "namespace":"org.apache.kafka.jmh.metadata" , "classe":"MetadataRequestBenchmark" , "nbMethodes":"9" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.partition" , "classe":"PartitionMakeFollowerBenchmark" , "nbMethodes":"4" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.partition" , "classe":"UpdateFollowerFetchStateBenchmark" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.producer" , "classe":"ProducerRecordBenchmark" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.producer" , "classe":"ProducerRequestBenchmark" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.producer" , "classe":"ProducerResponseBenchmark" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.record" , "classe":"BaseRecordBatchBenchmark" , "nbMethodes":"4" , "nbComplexite":"3.00"} ,' + 
+' { "namespace":"org.apache.kafka.jmh.record" , "classe":"CompressedRecordBatchValidationBenchmark" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.record" , "classe":"RecordBatchIterationBenchmark" , "nbMethodes":"4" , "nbComplexite":"3.00"} ,' + 
+' { "namespace":"org.apache.kafka.jmh.record" , "classe":"UncompressedRecordBatchValidationBenchmark" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.server" , "classe":"CheckpointBench" , "nbMethodes":"4" , "nbComplexite":"2.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.server" , "classe":"PartitionCreationBench" , "nbMethodes":"4" , "nbComplexite":"2.25"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.timeline" , "classe":"TimelineHashMapBenchmark" , "nbMethodes":"3" , "nbComplexite":"2.67"} ,' + 

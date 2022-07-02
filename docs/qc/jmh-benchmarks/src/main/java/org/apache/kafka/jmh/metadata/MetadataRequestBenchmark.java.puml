@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.jmh.metadata.MetadataRequestBenchmark
+class org.apache.kafka.jmh.metadata.MetadataRequestBenchmark {
++  setup()
++  initializeMetadataCache()
++  endpoints(int)
++  createKafkaApis()
++  tearDown()
++  buildAllTopicMetadataRequest()
++  testMetadataRequestForAllTopics()
++  testRequestToJson()
++  testTopicIdInfo()
+} 
+@enduml

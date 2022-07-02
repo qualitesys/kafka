@@ -302,77 +302,77 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -470,126 +470,126 @@ var maDataBlocs = {
    "c1" : "00278"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN202600 the MagicNumber/String  'kafka.controller' should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN203640 the MagicNumber/String  'kafka.controller' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.setLastAppliedRecordOffset@POLYN201400"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.setLastAppliedRecordOffset@POLYN202440"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.setLastAppliedRecordTimestamp@POLYN201936"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.setLastAppliedRecordTimestamp@POLYN202976"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.setLastCommittedRecordOffset@POLYN201668"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.setLastCommittedRecordOffset@POLYN202708"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.updateEventQueueProcessingTime@POLYN199760"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.updateEventQueueProcessingTime@POLYN200800"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.updateEventQueueTime@POLYN199612"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumControllerMetrics.updateEventQueueTime@POLYN200652"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN195307 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN196347 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -155,119 +155,119 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  '%s%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  '%s%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  'package %s;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  'package %s;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  'import %s;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  'import %s;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  'import static %s;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  'import static %s;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.HeaderGenerator.generate@POLYN167855"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.HeaderGenerator.generate@POLYN168895"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String '%s%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String '%s%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String 'package %s;%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String 'package %s;%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String '%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String '%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String 'import %s;%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String 'import %s;%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String '%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String '%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String 'import static %s;%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String 'import static %s;%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN167855 the MagicNumber/String '%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.message.HeaderGenerator.generate@POLYN168895 the MagicNumber/String '%n' MUST BE CONVERTED to const"
 }} 
 ]
 };

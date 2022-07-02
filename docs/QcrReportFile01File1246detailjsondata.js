@@ -176,21 +176,21 @@ var maDataBlocs = {
    "c1" : "00015"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.message.CodeBuffer.CodeBuffer@POLYN165622 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.message.CodeBuffer.CodeBuffer@POLYN166662 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN165900 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN166940 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN165900 the MagicNumber/String  'Indent &amp;lt; 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN166940 the MagicNumber/String  'Indent &amp;lt; 0' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -232,14 +232,14 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN166876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN167916 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN166876 the MagicNumber/String  '    ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN167916 the MagicNumber/String  '    ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -253,28 +253,28 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.CodeBuffer.equals@POLYN167307 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.CodeBuffer.equals@POLYN168347 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN166876"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN167916"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN166876 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN167916 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN166876 the MagicNumber/String '    ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN167916 the MagicNumber/String '    ' MUST BE CONVERTED to const"
 }} 
 ]
 };

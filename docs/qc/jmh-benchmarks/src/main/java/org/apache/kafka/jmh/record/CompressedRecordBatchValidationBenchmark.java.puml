@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+BaseRecordBatchBenchmark <|-- org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark
+class org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark {
++  compressionType()
++  measureValidateMessagesAndAssignOffsetsCompressed(Blackhole)
+} 
+@enduml

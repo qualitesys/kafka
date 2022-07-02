@@ -253,56 +253,56 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  'if ((_version &amp;gt;= %d) &amp;&amp; (_version &amp;lt;= %d)) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  'if ((_version &amp;gt;= %d) &amp;&amp; (_version &amp;lt;= %d)) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  '} else {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  '} else {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  'if ((_version &amp;lt; %d) || (_version &amp;gt; %d)) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  'if ((_version &amp;lt; %d) || (_version &amp;gt; %d)) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -323,56 +323,56 @@ var maDataBlocs = {
    "c1" : "00076"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  'if (_version &amp;gt;= %d) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  'if (_version &amp;gt;= %d) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  '} else {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  '} else {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  'if (_version &amp;lt; %d) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  'if (_version &amp;lt; %d) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -393,56 +393,56 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  'if (_version &amp;lt;= %d) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  'if (_version &amp;lt;= %d) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  '} else {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  '} else {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  'if (_version &amp;gt; %d) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  'if (_version &amp;gt; %d) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -463,21 +463,21 @@ var maDataBlocs = {
    "c1" : "00122"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN193666 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN194706 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN193666 the MagicNumber/String  '{%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN194706 the MagicNumber/String  '{%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN193666 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN194706 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -498,42 +498,42 @@ var maDataBlocs = {
    "c1" : "00137"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String  'Version ranges ' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String  'Version ranges ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String  ' and ' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String  ' and ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String  ' have no versions in common.' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String  ' have no versions in common.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00140"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String  '{%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String  '{%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -547,301 +547,301 @@ var maDataBlocs = {
    "c1" : "00153"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00153] For method generate list of called methods Object monObjet|org.apache.kafka.message.Versions possibleVersions_intersectN195158|org.apache.kafka.message.Versions possibleVersions_subtractN195252"
+ , "c3" : "QC-JAV000007[00153] For method generate list of called methods Object monObjet|org.apache.kafka.message.Versions possibleVersions_intersectN196198|org.apache.kafka.message.Versions possibleVersions_subtractN196292"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.message.VersionConditional.generate@POLYN195065 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.message.VersionConditional.generate@POLYN196105 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generate@POLYN195065"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generate@POLYN196105"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN193666"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN194706"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.forVersions@POLYN187715"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.VersionConditional.forVersions@POLYN188755"
 }} 
 ,
 { "ligne" : {
    "c1" : "00160"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.message.VersionConditional.generate@POLYN195065 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.message.VersionConditional.generate@POLYN196105 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String 'if --_version &amp;gt;= %d- &amp;&amp; -_version &amp;lt;= %d-- {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String 'if --_version &amp;gt;= %d- &amp;&amp; -_version &amp;lt;= %d-- {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String '} else {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String '} else {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String 'if --_version &amp;lt; %d-  MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String 'if --_version &amp;lt; %d-  MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN189646 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.message.VersionConditional.generateFullRangeCheck@POLYN190686 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String 'if -_version &amp;gt;= %d- {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String 'if -_version &amp;gt;= %d- {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String '} else {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String '} else {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#89"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String 'if -_version &amp;lt; %d- {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String 'if -_version &amp;lt; %d- {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN191042 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.message.VersionConditional.generateLowerRangeCheck@POLYN192082 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String 'Version ranges ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String 'Version ranges ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String ' and ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String ' and ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String ' have no versions in common.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String ' have no versions in common.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00140"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00142"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String '{%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String '{%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN194255 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysFalseCheck@POLYN195295 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String 'if -_version &amp;lt;= %d- {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String 'if -_version &amp;lt;= %d- {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String '} else {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String '} else {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String 'if -_version &amp;gt; %d- {%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String 'if -_version &amp;gt; %d- {%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00117"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN192354 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.message.VersionConditional.generateUpperRangeCheck@POLYN193394 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#122"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN193666 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN194706 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN193666 the MagicNumber/String '{%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN194706 the MagicNumber/String '{%n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN193666 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.message.VersionConditional.generateAlwaysTrueCheck@POLYN194706 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ]
 };

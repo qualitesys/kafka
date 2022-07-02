@@ -148,21 +148,21 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN170839 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN171879 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN170839 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN171879 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method testCachePerformance list of called methods Object monObjet|String keysN171614"
+ , "c3" : "QC-JAV000007[00065] For method testCachePerformance list of called methods Object monObjet|String keysN172654"
 }} 
 ,
 { "ligne" : {
@@ -183,7 +183,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN171867 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN172907 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -197,21 +197,21 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN171867"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN172907"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.cache.LRUCacheBenchmark.testCachePerformance@POLYN171384"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.cache.LRUCacheBenchmark.testCachePerformance@POLYN172424"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN171867 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN172907 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ]
 };

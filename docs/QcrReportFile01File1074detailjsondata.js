@@ -211,7 +211,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.connect.runtime.RestartRequest.RestartRequest@POLYN179141 the MagicNumber/String  'Connector name may not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.connect.runtime.RestartRequest.RestartRequest@POLYN180181 the MagicNumber/String  'Connector name may not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -253,7 +253,7 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method compareTo list of called methods Object monObjet|int connectorName_compareToN181302"
+ , "c3" : "QC-JAV000007[00054] For method compareTo list of called methods Object monObjet|int connectorName_compareToN182342"
 }} 
 ,
 { "ligne" : {
@@ -267,35 +267,35 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.RestartRequest.compareTo@POLYN181205 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.RestartRequest.compareTo@POLYN182245 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN181537 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN182577 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN181537 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN182577 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN181537 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN182577 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN181537 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.RestartRequest.impactRank@POLYN182577 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -316,70 +316,70 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.RestartRequest.equals@POLYN181987 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.RestartRequest.equals@POLYN183027 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.RestartRequest.equals@POLYN181987 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.RestartRequest.equals@POLYN183027 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.runtime.RestartRequest.equals@POLYN181987 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.runtime.RestartRequest.equals@POLYN183027 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN182833 the MagicNumber/String  'restart request for {' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN183873 the MagicNumber/String  'restart request for {' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN182833 the MagicNumber/String  'connectorName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN183873 the MagicNumber/String  'connectorName='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN182833 the MagicNumber/String  '', onlyFailed=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN183873 the MagicNumber/String  '', onlyFailed=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN182833 the MagicNumber/String  ', includeTasks=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN183873 the MagicNumber/String  ', includeTasks=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN182833 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.RestartRequest.toString@POLYN183873 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.RestartRequest.compareTo@POLYN181205"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.RestartRequest.compareTo@POLYN182245"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.connect.runtime.RestartRequest.compareTo@POLYN181205 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.connect.runtime.RestartRequest.compareTo@POLYN182245 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

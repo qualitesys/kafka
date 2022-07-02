@@ -169,14 +169,14 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN174125 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN175165 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN174125 the MagicNumber/String  'DEFAULT' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN175165 the MagicNumber/String  'DEFAULT' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -197,119 +197,119 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  'Invalid rule: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  'Invalid rule: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  'Invalid rule: `' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  'Invalid rule: `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  '`, unmatched substring: `' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  '`, unmatched substring: `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  '`' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  '`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  11 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  'g' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  'g' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  'L' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  'L' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  'U' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  'U' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -323,7 +323,7 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method shortName list of called methods Object monObjet|String r_applyN177594"
+ , "c3" : "QC-JAV000007[00057] For method shortName list of called methods Object monObjet|String r_applyN178634"
 }} 
 ,
 { "ligne" : {
@@ -344,238 +344,238 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String  'No rules apply to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String  'No rules apply to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String  ', rules ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String  ', rules ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.toString@POLYN177915 the MagicNumber/String  'KerberosShortNamer(principalToLocalRules = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.toString@POLYN178955 the MagicNumber/String  'KerberosShortNamer(principalToLocalRules = ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.toString@POLYN177915 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.kerberos.KerberosShortNamer.toString@POLYN178955 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN174125"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN175165"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#25"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN174125 the MagicNumber/String 'DEFAULT' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN175165 the MagicNumber/String 'DEFAULT' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#25"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN174125 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.fromUnparsedRules@POLYN175165 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#34"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 'Invalid rule: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 'Invalid rule: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 'Invalid rule: `' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 'Invalid rule: `' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String '`' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String '`' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String '`, unmatched substring: `' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String '`, unmatched substring: `' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#38"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#38"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 5 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 5 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#43"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 6 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 6 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 10 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 10 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 11 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 11 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 'g' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 'g' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 12 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 12 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 'L' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 'L' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 13 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 13 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 'U' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 'U' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN174581 the MagicNumber/String 13 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.parseRules@POLYN175621 the MagicNumber/String 13 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String ', rules ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String ', rules ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN176748 the MagicNumber/String 'No rules apply to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.common.security.kerberos.KerberosShortNamer.shortName@POLYN177788 the MagicNumber/String 'No rules apply to ' MUST BE CONVERTED to const"
 }} 
 ]
 };

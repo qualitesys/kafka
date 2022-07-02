@@ -120,7 +120,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.AllocateProducerIdsResponse.errorCounts@POLYN165436 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.AllocateProducerIdsResponse.errorCounts@POLYN166476 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -134,21 +134,21 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.AllocateProducerIdsResponse@POLYN164899"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.AllocateProducerIdsResponse@POLYN165939"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.parse@POLYN165769"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.parse@POLYN166809"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.throttleTimeMs@POLYN165658"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.throttleTimeMs@POLYN166698"
 }} 
 ]
 };

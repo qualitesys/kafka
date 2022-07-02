@@ -232,35 +232,35 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String  'Illegal voted Id ' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String  'Illegal voted Id ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String  ': must be non-negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String  ': must be non-negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String  'Voted candidate with id ' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String  'Voted candidate with id ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String  ' is not among the valid voters' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String  ' is not among the valid voters' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,35 +281,35 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String  'Illegal leader Id ' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String  'Illegal leader Id ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String  ': must be non-negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String  ': must be non-negative' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String  'Leader with id ' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String  'Leader with id ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String  ' is not among the valid voters' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String  ' is not among the valid voters' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -330,21 +330,21 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.ElectionState.isLeader@POLYN175922 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.ElectionState.isLeader@POLYN176962 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ElectionState.isLeader@POLYN175922 the MagicNumber/String  'Invalid negative nodeId: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ElectionState.isLeader@POLYN176962 the MagicNumber/String  'Invalid negative nodeId: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.ElectionState.isLeader@POLYN175922 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.ElectionState.isLeader@POLYN176962 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,63 +358,63 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.raft.ElectionState.isVotedCandidate@POLYN176255 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.raft.ElectionState.isVotedCandidate@POLYN177295 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.raft.ElectionState.isVotedCandidate@POLYN176255 the MagicNumber/String  'Invalid negative nodeId: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.raft.ElectionState.isVotedCandidate@POLYN177295 the MagicNumber/String  'Invalid negative nodeId: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.raft.ElectionState.isVotedCandidate@POLYN176255 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.raft.ElectionState.isVotedCandidate@POLYN177295 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.raft.ElectionState.leaderId@POLYN176588 the MagicNumber/String  'Attempt to access nil leaderId' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.raft.ElectionState.leaderId@POLYN177628 the MagicNumber/String  'Attempt to access nil leaderId' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.ElectionState.votedId@POLYN176830 the MagicNumber/String  'Attempt to access nil votedId' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.ElectionState.votedId@POLYN177870 the MagicNumber/String  'Attempt to access nil votedId' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.raft.ElectionState.toString@POLYN177405 the MagicNumber/String  'Election(epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.raft.ElectionState.toString@POLYN178445 the MagicNumber/String  'Election(epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.raft.ElectionState.toString@POLYN177405 the MagicNumber/String  ', leaderIdOpt=' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.raft.ElectionState.toString@POLYN178445 the MagicNumber/String  ', leaderIdOpt=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.raft.ElectionState.toString@POLYN177405 the MagicNumber/String  ', votedIdOpt=' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.raft.ElectionState.toString@POLYN178445 the MagicNumber/String  ', votedIdOpt=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00086"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ElectionState.toString@POLYN177405 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ElectionState.toString@POLYN178445 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -435,140 +435,140 @@ var maDataBlocs = {
    "c1" : "00091"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.ElectionState.equals@POLYN177645 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.ElectionState.equals@POLYN178685 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.raft.ElectionState.equals@POLYN177645 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.raft.ElectionState.equals@POLYN178685 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.raft.ElectionState.equals@POLYN177645 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.raft.ElectionState.equals@POLYN178685 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.ElectionState.equals@POLYN177645 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.raft.ElectionState.equals@POLYN178685 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.raft.ElectionState.equals@POLYN177645 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.raft.ElectionState.equals@POLYN178685 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.ElectionState.hashCode@POLYN178370 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.ElectionState.hashCode@POLYN179410 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.ElectionState.hashCode@POLYN178370 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.ElectionState.hashCode@POLYN179410 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ElectionState.withUnknownLeader@POLYN175624"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ElectionState.withUnknownLeader@POLYN176664"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#33"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#34"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String ': must be non-negative' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String ': must be non-negative' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#34"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String 'Illegal leader Id ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String 'Illegal leader Id ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#36"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String ' is not among the valid voters' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String ' is not among the valid voters' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#36"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN174899 the MagicNumber/String 'Leader with id ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.raft.ElectionState.withElectedLeader@POLYN175939 the MagicNumber/String 'Leader with id ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#25"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#26"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String ': must be non-negative' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String ': must be non-negative' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#26"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String 'Illegal voted Id ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00026] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String 'Illegal voted Id ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String ' is not among the valid voters' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String ' is not among the valid voters' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN174174 the MagicNumber/String 'Voted candidate with id ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.raft.ElectionState.withVotedCandidate@POLYN175214 the MagicNumber/String 'Voted candidate with id ' MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -225,7 +225,7 @@ var maDataBlocs = {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method buildRequest list of called methods Object monObjet|org.apache.kafka.common.requests.FindCoordinatorRequest.Builder requireSingletonAndTypeN189333"
+ , "c3" : "QC-JAV000007[00054] For method buildRequest list of called methods Object monObjet|org.apache.kafka.common.requests.FindCoordinatorRequest.Builder requireSingletonAndTypeN190373"
 }} 
 ,
 { "ligne" : {
@@ -239,14 +239,14 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN188084 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN189124 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN188084 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN189124 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method handleResponse list of called methods Object monObjet|LookupResult&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey&gt; requireSingletonAndTypeN190537"
+ , "c3" : "QC-JAV000007[00074] For method handleResponse list of called methods Object monObjet|LookupResult&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey&gt; requireSingletonAndTypeN191577"
 }} 
 ,
 { "ligne" : {
@@ -274,28 +274,28 @@ var maDataBlocs = {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN189647 the MagicNumber/String  'The given group id '' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN190687 the MagicNumber/String  'The given group id '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN189647 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN190687 the MagicNumber/String  '' cannot be represented in a request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN189647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN190687 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.disableBatch@POLYN191216 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.disableBatch@POLYN192256 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -316,28 +316,28 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String  'Unexpected size of key set: expected 1, but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String  'Unexpected size of key set: expected 1, but got ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String  'Unexpected key type: expected key to be of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String  'Unexpected key type: expected key to be of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String  ', but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String  ', but got ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,28 +358,28 @@ var maDataBlocs = {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN191979 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN193019 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN191979 the MagicNumber/String  'Unexpected size of key set: expected &amp;gt;= 1, but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN193019 the MagicNumber/String  'Unexpected size of key set: expected &amp;gt;= 1, but got ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN191979 the MagicNumber/String  'Unexpected key set: expected all key to be of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN193019 the MagicNumber/String  'Unexpected key set: expected all key to be of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN191979 the MagicNumber/String  ', but some key were not' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.ensureSameType@POLYN193019 the MagicNumber/String  ', but some key were not' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -393,7 +393,7 @@ var maDataBlocs = {
    "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.isRepresentableKey@POLYN192694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.isRepresentableKey@POLYN193734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -442,70 +442,70 @@ var maDataBlocs = {
    "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  'FindCoordinator request for key {} returned topic-level error {}. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  'FindCoordinator request for key {} returned topic-level error {}. Will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  'FindCoordinator request for groupId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  'FindCoordinator request for groupId ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  '`' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  '`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  '` failed due to authorization failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  '` failed due to authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  'FindCoordinator request for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  'FindCoordinator request for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  'transactionalId `' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  'transactionalId `' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  '` failed due to authorization failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  '` failed due to authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  'FindCoordinator request for key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  'FindCoordinator request for key ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  '`' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  '`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String  '` failed due to an unexpected error' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String  '` failed due to an unexpected error' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -533,189 +533,189 @@ var maDataBlocs = {
    "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.LookupRequestScope.equals@POLYN194433 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.LookupRequestScope.equals@POLYN195473 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.LookupRequestScope.equals@POLYN194433 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.LookupRequestScope.equals@POLYN195473 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.LookupRequestScope.equals@POLYN194433 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.LookupRequestScope.equals@POLYN195473 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN189647"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN190687"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN188084"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN189124"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.lookupScope@POLYN187812"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.CoordinatorStrategy.lookupScope@POLYN188852"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String 'Unexpected size of key set: expected 1, but got ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String 'Unexpected size of key set: expected 1, but got ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#114"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String ', but got ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String ', but got ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#114"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN191321 the MagicNumber/String 'Unexpected key type: expected key to be of type ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.requireSingletonAndType@POLYN192361 the MagicNumber/String 'Unexpected key type: expected key to be of type ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN189647 the MagicNumber/String 'The given group id '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN190687 the MagicNumber/String 'The given group id '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#83"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN189647 the MagicNumber/String '' cannot be represented in a request.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN190687 the MagicNumber/String '' cannot be represented in a request.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN189647 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleResponse@POLYN190687 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN188084 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN189124 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN188084 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN189124 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String 'FindCoordinator request for key {} returned topic-level error {}. Will retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String 'FindCoordinator request for key {} returned topic-level error {}. Will retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String 'FindCoordinator request for groupId ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String 'FindCoordinator request for groupId ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String '` failed due to authorization failure' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String '` failed due to authorization failure' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String '`' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String '`' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String 'FindCoordinator request for ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String 'FindCoordinator request for ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String '` failed due to authorization failure' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String '` failed due to authorization failure' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String 'transactionalId `' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String 'transactionalId `' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String 'FindCoordinator request for key ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String 'FindCoordinator request for key ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String '` failed due to an unexpected error' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String '` failed due to an unexpected error' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN192818 the MagicNumber/String '`' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.handleError@POLYN193858 the MagicNumber/String '`' MUST BE CONVERTED to const"
 }} 
 ]
 };

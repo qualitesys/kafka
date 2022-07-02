@@ -2336,6 +2336,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark" }, 
+  { "child"  : "(1) org.apache.kafka.jmh.metadata.MetadataRequestBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.producer.ProducerRecordBenchmark" }, 
@@ -3920,7 +3921,9 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) BaseRecordBatchBenchmark" ,
 "children" : [
+  { "child"  : "(1) org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark" }, 
   { "child"  : "(1) org.apache.kafka.jmh.record.RecordBatchIterationBenchmark" }, 
+  { "child"  : "(1) org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark" }, 
 ]
 }},
 {"ligne" : {
@@ -9914,6 +9917,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade" ,
 "children" : [
 ]
@@ -10934,6 +10942,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.server.common.MetadataVersionValidator" ,
 "children" : [
 ]
@@ -11855,6 +11868,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.jmh.metadata.MetadataRequestBenchmark" ,
 "children" : [
 ]
 }},

@@ -90,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.consumer.OffsetOutOfRangeException.OffsetOutOfRangeException@POLYN163431 the MagicNumber/String  'Offsets out of range with no configured reset policy for partitions: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.consumer.OffsetOutOfRangeException.OffsetOutOfRangeException@POLYN164471 the MagicNumber/String  'Offsets out of range with no configured reset policy for partitions: ' should be converted to const"
 }} 
 ]
 };

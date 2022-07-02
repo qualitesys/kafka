@@ -76,14 +76,14 @@ var maDataBlocs = {
    "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN161260 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN162300 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN161408 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN162448 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
 }} 
 ]
 };

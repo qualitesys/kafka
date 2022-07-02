@@ -120,7 +120,7 @@ var maDataBlocs = {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN162595 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN163635 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -148,21 +148,21 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.metrics.stats.WindowedSum.combine@POLYN162935 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.metrics.stats.WindowedSum.combine@POLYN163975 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN162595"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN163635"
 }} 
 ,
 { "ligne" : {
    "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#12"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00012] In the recursive method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN162595 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00012] In the recursive method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN163635 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

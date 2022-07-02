@@ -188,49 +188,49 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN172910 the MagicNumber/String  'Total time producer has spent in flush in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN173950 the MagicNumber/String  'Total time producer has spent in flush in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN172910 the MagicNumber/String  'Total time producer has spent in initTransactions in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN173950 the MagicNumber/String  'Total time producer has spent in initTransactions in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN172910 the MagicNumber/String  'Total time producer has spent in beginTransaction in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN173950 the MagicNumber/String  'Total time producer has spent in beginTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN172910 the MagicNumber/String  'Total time producer has spent in sendOffsetsToTransaction in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN173950 the MagicNumber/String  'Total time producer has spent in sendOffsetsToTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN172910 the MagicNumber/String  'Total time producer has spent in commitTransaction in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN173950 the MagicNumber/String  'Total time producer has spent in commitTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN172910 the MagicNumber/String  'Total time producer has spent in abortTransaction in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN173950 the MagicNumber/String  'Total time producer has spent in abortTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN172910 the MagicNumber/String  'Total time producer has spent waiting on topic metadata in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN173950 the MagicNumber/String  'Total time producer has spent waiting on topic metadata in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -293,7 +293,7 @@ var maDataBlocs = {
    "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00106] For method newLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_sensorN175468"
+ , "c3" : "QC-JAV000007[00106] For method newLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_sensorN176508"
 }} 
 ,
 { "ligne" : {

@@ -153,28 +153,28 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN173065 the MagicNumber/String  'RUN: {}. RESULT: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN174105 the MagicNumber/String  'RUN: {}. RESULT: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN173065 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN174105 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN173065 the MagicNumber/String  'RUN: {}. ERROR: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN174105 the MagicNumber/String  'RUN: {}. ERROR: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN173065 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.basic.BasicPlatform.ShellCommandRunner.run@POLYN174105 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -188,28 +188,28 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN173795 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174835 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN173795 the MagicNumber/String  'No node named %s found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174835 the MagicNumber/String  'No node named %s found ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN173795 the MagicNumber/String  'in the cluster!  Cluster nodes are: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174835 the MagicNumber/String  'in the cluster!  Cluster nodes are: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN173795 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174835 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -223,63 +223,63 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  'nodes' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  'nodes' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  'Expected to find a 'nodes' field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  'Expected to find a 'nodes' field ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  'in the root JSON configuration object' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  'in the root JSON configuration object' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  'No node named %s found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  'No node named %s found ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  'in the cluster!  Cluster nodes are: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  'in the cluster!  Cluster nodes are: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN174594 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.trogdor.basic.BasicPlatform.BasicPlatform@POLYN175634 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.trogdor.basic.BasicPlatform.name@POLYN175719 the MagicNumber/String  'BasicPlatform' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.trogdor.basic.BasicPlatform.name@POLYN176759 the MagicNumber/String  'BasicPlatform' should be converted to const"
 }} 
 ,
 { "ligne" : {

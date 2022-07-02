@@ -118,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN165936 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN166976 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN165936 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN166976 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,14 +146,14 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN166342 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN167382 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN166342 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN167382 the MagicNumber/String  1024 should be converted to const"
 }} 
 ]
 };
