@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java 36 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java 28 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.xml" 
  , "fic3"  : "" 
 }
@@ -139,7 +139,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -153,7 +153,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -197,7 +197,7 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.sizeInBytes@POLYN179568 the MagicNumber/String  'Error calculating snapshot size. temp path = %s, snapshotId = %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.sizeInBytes@POLYN181152 the MagicNumber/String  'Error calculating snapshot size. temp path = %s, snapshotId = %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -218,21 +218,21 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN179926 the MagicNumber/String  'Append' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN181510 the MagicNumber/String  'Append' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN179926 the MagicNumber/String  'Error writing file snapshot, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN181510 the MagicNumber/String  'Error writing file snapshot, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN179926 the MagicNumber/String  'temp path = %s, snapshotId = %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN181510 the MagicNumber/String  'temp path = %s, snapshotId = %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -253,77 +253,77 @@ var maDataBlocs = {
    "c1" : "00074"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN180471 the MagicNumber/String  'Append' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN182055 the MagicNumber/String  'Append' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00078"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN180471 the MagicNumber/String  'Error writing file snapshot, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN182055 the MagicNumber/String  'Error writing file snapshot, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN180471 the MagicNumber/String  'temp path = %s, snapshotId = %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.append@POLYN182055 the MagicNumber/String  'temp path = %s, snapshotId = %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String  'Freeze' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN182700 the MagicNumber/String  'Freeze' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN182700 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String  'Unable to set file (%s) as read-only' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN182700 the MagicNumber/String  'Unable to set file (%s) as read-only' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String  'Error freezing file snapshot, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN182700 the MagicNumber/String  'Error freezing file snapshot, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00109"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String  'temp path = %s, snapshotId = %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN182700 the MagicNumber/String  'temp path = %s, snapshotId = %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN182214 the MagicNumber/String  'Error closing snapshot writer, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN183798 the MagicNumber/String  'Error closing snapshot writer, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN182214 the MagicNumber/String  'temp path = %s, snapshotId %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN183798 the MagicNumber/String  'temp path = %s, snapshotId %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.toString@POLYN182690 the MagicNumber/String  'FileRawSnapshotWriter(path=%s, snapshotId=%s, frozen=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.toString@POLYN184274 the MagicNumber/String  'FileRawSnapshotWriter(path=%s, snapshotId=%s, frozen=%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,7 +337,7 @@ var maDataBlocs = {
    "c1" : "00144"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.checkIfFrozen@POLYN182870 the MagicNumber/String  '%s is not supported. Snapshot is already frozen: id = %s; temp path = %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.checkIfFrozen@POLYN184454 the MagicNumber/String  '%s is not supported. Snapshot is already frozen: id = %s; temp path = %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -351,91 +351,35 @@ var maDataBlocs = {
    "c1" : "00154"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method create list of called methods Object monObjet|java.nio.file.Path Snapshots_createTempFileN183481"
+ , "c3" : "QC-JAV000007[00154] For method create list of called methods Object monObjet|java.nio.file.Path Snapshots_createTempFileN185065"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.create@POLYN183313 the MagicNumber/String  'Error creating snapshot writer. path = %s, snapshotId %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.create@POLYN184897 the MagicNumber/String  'Error creating snapshot writer. path = %s, snapshotId %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN182214"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.FileRawSnapshotWriter.create@POLYN183313"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN183798"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN182214 the MagicNumber/String 'Error closing snapshot writer, ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN183798 the MagicNumber/String 'Error closing snapshot writer, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN182214 the MagicNumber/String 'temp path = %s, snapshotId %s.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.create@POLYN183313 the MagicNumber/String 'Error creating snapshot writer. path = %s, snapshotId %s.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00093"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String 'Freeze' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#96"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00099"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#99"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String 'Unable to set file -%s- as read-only' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00108"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String 'Error freezing file snapshot, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00109"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.freeze@POLYN181116 the MagicNumber/String 'temp path = %s, snapshotId = %s.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN183798 the MagicNumber/String 'temp path = %s, snapshotId %s.' MUST BE CONVERTED to const"
 }} 
 ]
 };

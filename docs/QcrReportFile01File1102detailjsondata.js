@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java 33 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java 20 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -181,35 +181,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
-}}
-,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -230,7 +207,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -246,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00412"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.transactionalProducerId@POLYN256211 the MagicNumber/String  'connect-cluster-' should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.transactionalProducerId@POLYN257795 the MagicNumber/String  'connect-cluster-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.connectorOffsetsTopicsPermitted@POLYN256488 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.connectorOffsetsTopicsPermitted@POLYN258072 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -267,21 +244,21 @@ var maDataBlocs = {
    "c1" : "00438"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#438"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN257096 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN258680 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00438"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#438"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN257096 the MagicNumber/String  'connectconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN258680 the MagicNumber/String  'connectconfigs_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.getInternalRequestKeyGenerator@POLYN257365 the MagicNumber/String  'Unable to create key generator with algorithm %s and key size %d: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.getInternalRequestKeyGenerator@POLYN258949 the MagicNumber/String  'Unable to create key generator with algorithm %s and key size %d: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -295,42 +272,49 @@ var maDataBlocs = {
    "c1" : "00456"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#456"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00456] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsWithPrefixN258240"
+ , "c3" : "QC-JAV000007[00456] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsWithPrefixN259824"
 }} 
 ,
 { "ligne" : {
    "c1" : "00459"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String  'Ignoring '{}{}={}' setting, since config topic partitions is always 1' should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  'Ignoring '{}{}={}' setting, since config topic partitions is always 1' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00459"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String  'partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  'partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00462"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#462"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String  'Ignoring '{}cleanup.policy={}' setting, since compaction is always used' should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  'Ignoring '{}cleanup.policy={}' setting, since compaction is always used' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00483"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#483"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00483] For method validateKeyAlgorithmAndVerificationAlgorithms list of called methods Object monObjet|String getStringN261286|java.util.List&lt;String&gt; getListN261393"
 }} 
 ,
 { "ligne" : {
    "c1" : "00490"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateKeyAlgorithmAndVerificationAlgorithms@POLYN259631 the MagicNumber/String  'Key generation algorithm must be present in %s list' should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateKeyAlgorithmAndVerificationAlgorithms@POLYN261215 the MagicNumber/String  'Key generation algorithm must be present in %s list' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -351,7 +335,7 @@ var maDataBlocs = {
    "c1" : "00500"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateSignatureAlgorithms@POLYN260148 the MagicNumber/String  'At least one signature verification algorithm must be provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateSignatureAlgorithms@POLYN261732 the MagicNumber/String  'At least one signature verification algorithm must be provided' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -366,104 +350,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#514"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00514] For method validateKeyAlgorithm arguments String  configName|String  algorithm"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.DistributedConfig@POLYN256696"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateKeyAlgorithmAndVerificationAlgorithms@POLYN259631"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.configStorageTopicSettings@POLYN259214"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.getRebalanceTimeout@POLYN255427"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.groupId@POLYN256590"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.offsetStorageTopicSettings@POLYN259368"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.offsetsTopic@POLYN256357"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.statusStorageTopicSettings@POLYN259522"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00490"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#490"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateKeyAlgorithmAndVerificationAlgorithms@POLYN259631 the MagicNumber/String 'Key generation algorithm must be present in %s list' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00459"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#459"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00459] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String 'Ignoring '{}{}={}' setting, since config topic partitions is always 1' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00459"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#459"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00459] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String 'partitions' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00462"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00463"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#463"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00463] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN258106 the MagicNumber/String 'Ignoring '{}cleanup.policy={}' setting, since compaction is always used' MUST BE CONVERTED to const"
 }} 
 ]
 };

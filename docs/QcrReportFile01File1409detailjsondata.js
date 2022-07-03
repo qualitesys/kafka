@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftConfig.java 65 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftConfig.java 47 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -146,15 +146,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -164,24 +155,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "15"
-}}
-,
-{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -246,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00081"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.InetAddressSpec@POLYN199038 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.InetAddressSpec@POLYN200622 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.InetAddressSpec@POLYN199038 the MagicNumber/String  'Invalid address: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.InetAddressSpec@POLYN200622 the MagicNumber/String  'Invalid address: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -274,21 +251,21 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.equals@POLYN199539 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.equals@POLYN201123 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.equals@POLYN199539 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.equals@POLYN201123 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.equals@POLYN199539 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.equals@POLYN201123 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -316,7 +293,7 @@ var maDataBlocs = {
    "c1" : "00176"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.raft.RaftConfig.parseVoterId@POLYN202193 the MagicNumber/String  'Failed to parse voter ID as an integer from ' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.raft.RaftConfig.parseVoterId@POLYN203777 the MagicNumber/String  'Failed to parse voter ID as an integer from ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -330,7 +307,7 @@ var maDataBlocs = {
    "c1" : "00180"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00180] For method parseVoterConnections list of called methods Object monObjet|java.util.Map&lt;Integer,org.apache.kafka.raft.RaftConfig.AddressSpec&gt; parseVoterIdN203163|String Utils_getHostN203280|Integer Utils_getPortN203646"
+ , "c3" : "QC-JAV000007[00180] For method parseVoterConnections list of called methods Object monObjet|Integer parseVoterIdN204747|String Utils_getHostN204864|Integer Utils_getPortN205230"
 }} 
 ,
 { "ligne" : {
@@ -372,105 +349,105 @@ var maDataBlocs = {
    "c1" : "00183"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  '@' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  '@' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00185"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  'Invalid configuration value for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  'Invalid configuration value for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  '. Each entry should be in the form `{id}@{host}:{port}`.' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  '. Each entry should be in the form `{id}@{host}:{port}`.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00192"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  'Failed to parse host name from entry ' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  'Failed to parse host name from entry ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00193"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  ' for the configuration ' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  ' for the configuration ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00194"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  '. Each entry should be in the form `{id}@{host}:{port}`.' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  '. Each entry should be in the form `{id}@{host}:{port}`.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00199"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  'Failed to parse host port from entry ' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  'Failed to parse host port from entry ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00200"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  ' for the configuration ' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  ' for the configuration ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00201"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String  '. Each entry should be in the form `{id}@{host}:{port}`.' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN204129 the MagicNumber/String  '. Each entry should be in the form `{id}@{host}:{port}`.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -512,28 +489,28 @@ var maDataBlocs = {
    "c1" : "00233"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.ensureValid@POLYN205528 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.ensureValid@POLYN207112 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00234"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.ensureValid@POLYN205528 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.ensureValid@POLYN207112 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00237"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.ensureValid@POLYN205528 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.ensureValid@POLYN207112 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.toString@POLYN206012 the MagicNumber/String  'non-empty list' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.raft.RaftConfig.ControllerQuorumVotersValidator.toString@POLYN207596 the MagicNumber/String  'non-empty list' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -555,132 +532,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#215"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00215] Public method quorumVoterStringsToNodes is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.RaftConfig.quorumVoterIds@POLYN201947"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.RaftConfig.quorumVoterStringsToNodes@POLYN204501"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00183"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#183"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00183] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String '@' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00184"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00185"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#185"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String 'Invalid configuration value for ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00186"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String '. Each entry should be in the form `{id}@{host}:{port}`.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00189"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00190"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00191"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00192"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#192"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String 'Failed to parse host name from entry ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00193"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String ' for the configuration ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00194"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String '. Each entry should be in the form `{id}@{host}:{port}`.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00197"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00198"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#198"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00199"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#199"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String 'Failed to parse host port from entry ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00200"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00200] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String ' for the configuration ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00201"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.raft.RaftConfig.parseVoterConnections@POLYN202545 the MagicNumber/String '. Each entry should be in the form `{id}@{host}:{port}`.' MUST BE CONVERTED to const"
 }} 
 ]
 };

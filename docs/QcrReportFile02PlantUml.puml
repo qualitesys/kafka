@@ -1039,10 +1039,6 @@ class org.apache.kafka.common.config.ConfigResource {
 Nb methods :7
 Complexity :1.29
 }
-class org.apache.kafka.common.config.ConfigTransformer {
-Nb methods :4
-Complexity :4.50
-}
 class org.apache.kafka.common.config.ConfigTransformerResult {
 Nb methods :3
 Complexity :1.00
@@ -8426,6 +8422,10 @@ Complexity :2.50
 class org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec {
 Nb methods :7
 Complexity :1.00
+}
+class org.apache.kafka.trogdor.fault.Kibosh {
+Nb methods :4
+Complexity :1.25
 }
 class org.apache.kafka.trogdor.fault.KiboshFaultController {
 Nb methods :2

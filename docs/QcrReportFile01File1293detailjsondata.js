@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java 19 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java 17 rule violations " 
  , "fic2"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.xml" 
  , "fic3"  : "" 
 }
@@ -90,15 +90,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -111,20 +102,6 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -162,84 +139,84 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN172004 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN173588 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN172004 the MagicNumber/String  0xffffff80 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN173588 the MagicNumber/String  0xffffff80 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN172004 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN173588 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN172004 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN173588 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN172004 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfUnsignedVarintSimple@POLYN173588 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN172589 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN174173 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN172589 the MagicNumber/String  63 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN174173 the MagicNumber/String  63 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN172589 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN174173 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN172589 the MagicNumber/String  0xffffffffffffff80L should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN174173 the MagicNumber/String  0xffffffffffffff80L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN172589 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN174173 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN172589 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN174173 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN172589 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.testSizeOfVarlongSimple@POLYN174173 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,7 +237,7 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.main@POLYN173132 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.util.ByteUtilsBenchmark.main@POLYN174716 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -268,20 +245,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#69"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00069] Public method main is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.util.ByteUtilsBenchmark.main@POLYN173132"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#72"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.jmh.util.ByteUtilsBenchmark.main@POLYN173132 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ]
 };

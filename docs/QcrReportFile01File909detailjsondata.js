@@ -125,21 +125,21 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN165032 the MagicNumber/String  'ProducerIdAndEpoch(producerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN166616 the MagicNumber/String  'ProducerIdAndEpoch(producerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN165032 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN166616 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN165032 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN166616 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -160,42 +160,42 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN165226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN166810 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN165226 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN166810 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN165226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN166810 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN165226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN166810 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.hashCode@POLYN165809 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.hashCode@POLYN167393 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.hashCode@POLYN165809 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.hashCode@POLYN167393 the MagicNumber/String  31 should be converted to const"
 }} 
 ]
 };

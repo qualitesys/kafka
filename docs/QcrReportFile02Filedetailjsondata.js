@@ -2056,7 +2056,6 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.common.config.ConfigData" }, 
   { "child"  : "(1) org.apache.kafka.common.config.ConfigDef" }, 
   { "child"  : "(1) org.apache.kafka.common.config.ConfigResource" }, 
-  { "child"  : "(1) org.apache.kafka.common.config.ConfigTransformer" }, 
   { "child"  : "(1) org.apache.kafka.common.config.ConfigTransformerResult" }, 
   { "child"  : "(1) org.apache.kafka.common.config.ConfigValue" }, 
   { "child"  : "(1) org.apache.kafka.common.config.LogLevelConfig" }, 
@@ -2708,6 +2707,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.trogdor.coordinator.CoordinatorRestResource" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.coordinator.NodeManager" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.coordinator.TaskManager" }, 
+  { "child"  : "(1) org.apache.kafka.trogdor.fault.Kibosh" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.rest.Empty" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.rest.ErrorResponse" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.rest.JsonRestServer" }, 
@@ -6023,6 +6023,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.trogdor.fault.Kibosh" ,
 "children" : [
 ]
 }},
@@ -15013,11 +15018,6 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.KeyValueStoreBuilder" ,
-"children" : [
-]
-}},
-{"ligne" : {
-   "classe"  : "(1) org.apache.kafka.common.config.ConfigTransformer" ,
 "children" : [
 ]
 }},

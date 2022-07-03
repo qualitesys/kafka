@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 42 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 36 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,35 +83,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -190,7 +167,7 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN185334 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN186918 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -211,7 +188,7 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN186548 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN188132 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -253,7 +230,7 @@ var maDataBlocs = {
    "c1" : "00118"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.raft.RequestManager.ConnectionState.isBackingOff@POLYN188977 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.raft.RequestManager.ConnectionState.isBackingOff@POLYN190561 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -267,7 +244,7 @@ var maDataBlocs = {
    "c1" : "00126"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.raft.RequestManager.ConnectionState.hasInflightRequest@POLYN189256 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.raft.RequestManager.ConnectionState.hasInflightRequest@POLYN190840 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,7 +258,7 @@ var maDataBlocs = {
    "c1" : "00136"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingRequestTimeMs@POLYN189535 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingRequestTimeMs@POLYN191119 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -295,7 +272,7 @@ var maDataBlocs = {
    "c1" : "00144"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingBackoffMs@POLYN189819 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingBackoffMs@POLYN191403 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -330,49 +307,49 @@ var maDataBlocs = {
    "c1" : "00185"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN191710 the MagicNumber/String  'ConnectionState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN193294 the MagicNumber/String  'ConnectionState(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN191710 the MagicNumber/String  'id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN193294 the MagicNumber/String  'id=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN191710 the MagicNumber/String  ', state=' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN193294 the MagicNumber/String  ', state=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN191710 the MagicNumber/String  ', lastSendTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN193294 the MagicNumber/String  ', lastSendTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN191710 the MagicNumber/String  ', lastFailTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN193294 the MagicNumber/String  ', lastFailTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN191710 the MagicNumber/String  ', inFlightCorrelationId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN193294 the MagicNumber/String  ', inFlightCorrelationId=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN191710 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN193294 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -394,48 +371,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00075] Public method resetAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.RequestManager.resetAll@POLYN187423"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.RequestManager.RequestManager@POLYN184398"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN186548"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN185334"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#65"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN186548 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#44"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN185334 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

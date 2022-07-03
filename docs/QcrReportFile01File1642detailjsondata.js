@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 137 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 118 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -188,7 +188,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "16"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -202,7 +202,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "7"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -237,7 +237,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -344,7 +344,7 @@ var maDataBlocs = {
    "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.newProcessorName@POLYN255091 the MagicNumber/String  '%010d' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.newProcessorName@POLYN256675 the MagicNumber/String  '%010d' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,7 +358,7 @@ var maDataBlocs = {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.newStoreName@POLYN255321 the MagicNumber/String  '%010d' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.newStoreName@POLYN256905 the MagicNumber/String  '%010d' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -414,14 +414,14 @@ var maDataBlocs = {
    "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN256877 the MagicNumber/String  'parent node can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN258461 the MagicNumber/String  'parent node can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN256877 the MagicNumber/String  'child node can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN258461 the MagicNumber/String  'child node can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -442,21 +442,21 @@ var maDataBlocs = {
    "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN257290 the MagicNumber/String  'parent node can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN258874 the MagicNumber/String  'parent node can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00222"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN257290 the MagicNumber/String  'child node can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN258874 the MagicNumber/String  'child node can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN257290 the MagicNumber/String  'Parent node collection can't be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN258874 the MagicNumber/String  'Parent node collection can't be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -464,6 +464,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#233"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00233] For method maybeAddNodeForOptimizationMetadata arguments GraphNode  node"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00233"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#233"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00233] For method maybeAddNodeForOptimizationMetadata list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode getKeyChangingParentNodeN260320"
 }} 
 ,
 { "ligne" : {
@@ -477,28 +484,28 @@ var maDataBlocs = {
    "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN257905 the MagicNumber/String  'Nodes should not have a null parent node.  Name: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN259489 the MagicNumber/String  'Nodes should not have a null parent node.  Name: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN257905 the MagicNumber/String  ' Type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN259489 the MagicNumber/String  ' Type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN257905 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN259489 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00258"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN259301 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN260885 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -526,28 +533,28 @@ var maDataBlocs = {
    "c1" : "00265"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN259407 the MagicNumber/String  'Optimizing the Kafka Streams graph for repartition nodes' should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN260991 the MagicNumber/String  'Optimizing the Kafka Streams graph for repartition nodes' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00270"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN259407 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN260991 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00278"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN259407 the MagicNumber/String  'Adding nodes to topology {} child nodes {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN260991 the MagicNumber/String  'Adding nodes to topology {} child nodes {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN259407 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN260991 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -610,35 +617,35 @@ var maDataBlocs = {
    "c1" : "00329"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN260865 the MagicNumber/String  'Topic {} was found in  subscription for non-equal source nodes {} and {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN262449 the MagicNumber/String  'Topic {} was found in  subscription for non-equal source nodes {} and {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00332"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN260865 the MagicNumber/String  'Two source nodes are subscribed to overlapping but not equal input topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN262449 the MagicNumber/String  'Two source nodes are subscribed to overlapping but not equal input topics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN263357 the MagicNumber/String  'Marking KTable source nodes to optimize using source topic for changelogs ' should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN264941 the MagicNumber/String  'Marking KTable source nodes to optimize using source topic for changelogs ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00346"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN263357 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN264941 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00349"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#349"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00349] For method maybeOptimizeRepartitionOperations list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.streams.kstream.internals.graph.GraphNode&gt; repartitionNodeToBeReplaced_childrenN265955|java.util.Collection&lt;org.apache.kafka.streams.kstream.internals.graph.GraphNode&gt; repartitionNodeToBeReplaced_parentNodesN266056"
+ , "c3" : "QC-JAV000007[00349] For method maybeOptimizeRepartitionOperations list of called methods Object monObjet|String getFirstRepartitionTopicNameN266193|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN266692|java.util.Collection&lt;org.apache.kafka.streams.kstream.internals.graph.GraphNode&gt; repartitionNodeToBeReplaced_childrenN267539|java.util.Collection&lt;org.apache.kafka.streams.kstream.internals.graph.GraphNode&gt; repartitionNodeToBeReplaced_parentNodesN267640"
 }} 
 ,
 { "ligne" : {
@@ -778,35 +785,42 @@ var maDataBlocs = {
    "c1" : "00378"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN265259 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String  'Found a null keyChangingChild node for %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN265259 the MagicNumber/String  'Found a null keyChangingChild node for %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00382"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String  'Found the child node of the key changer {} from the repartition {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN265259 the MagicNumber/String  'Found the child node of the key changer {} from the repartition {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00388"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String  'Removing {} from {}  children {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN265259 the MagicNumber/String  'Removing {} from {}  children {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00412"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String  'Updated node {} children {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN265259 the MagicNumber/String  'Updated node {} children {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00420"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#420"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00420] For method maybeUpdateKeyChangingRepartitionNodeMap list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN269532"
 }} 
 ,
 { "ligne" : {
@@ -869,7 +883,7 @@ var maDataBlocs = {
    "c1" : "00429"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeUpdateKeyChangingRepartitionNodeMap@POLYN266934 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeUpdateKeyChangingRepartitionNodeMap@POLYN268518 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -890,7 +904,7 @@ var maDataBlocs = {
    "c1" : "00454"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeNodeHasRepartitionChildren@POLYN269341 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeNodeHasRepartitionChildren@POLYN270925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -911,21 +925,21 @@ var maDataBlocs = {
    "c1" : "00481"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#481"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00481] For method getKeyChangingParentNode list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN270546|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN270747"
+ , "c3" : "QC-JAV000007[00481] For method getKeyChangingParentNode list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN272130|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN272331"
 }} 
 ,
 { "ligne" : {
    "c1" : "00485"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#485"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.getKeyChangingParentNode@POLYN270441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.getKeyChangingParentNode@POLYN272025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00488"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.getKeyChangingParentNode@POLYN270441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.getKeyChangingParentNode@POLYN272025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1023,7 +1037,7 @@ var maDataBlocs = {
    "c1" : "00517"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#517"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00517] For method findParentNodeMatching list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN273099"
+ , "c3" : "QC-JAV000007[00517] For method findParentNodeMatching list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN274683"
 }} 
 ,
 { "ligne" : {
@@ -1044,168 +1058,21 @@ var maDataBlocs = {
    "c1" : "00522"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#522"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN272549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN274133 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN260865"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN263357"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeUpdateKeyChangingRepartitionNodeMap@POLYN266934"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN257905"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN272549"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.getKeyChangingParentNode@POLYN270441"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00329"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00329] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN260865 the MagicNumber/String 'Topic {} was found in  subscription for non-equal source nodes {} and {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00332"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00332] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN260865 the MagicNumber/String 'Two source nodes are subscribed to overlapping but not equal input topics' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00345"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#345"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN263357 the MagicNumber/String 'Marking KTable source nodes to optimize using source topic for changelogs ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00346"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN263357 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00429"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeUpdateKeyChangingRepartitionNodeMap@POLYN266934 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00378"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00379"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String 'Found a null keyChangingChild node for %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00382"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#382"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00382] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String 'Found the child node of the key changer {} from the repartition {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00388"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#388"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String 'Removing {} from {}  children {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00412"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#412"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00412] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeOptimizeRepartitionOperations@POLYN263675 the MagicNumber/String 'Updated node {} children {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00238"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN257905 the MagicNumber/String ' Type: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00238"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN257905 the MagicNumber/String 'Nodes should not have a null parent node.  Name: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.maybeAddNodeForOptimizationMetadata@POLYN257905 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN274133"
 }} 
 ,
 { "ligne" : {
    "c1" : "00522"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00522] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN272549 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00485"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#485"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00485] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.getKeyChangingParentNode@POLYN270441 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00488"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#488"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00488] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.getKeyChangingParentNode@POLYN270441 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00522] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN274133 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

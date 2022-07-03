@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 24 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 22 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,15 +111,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -129,23 +120,9 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -197,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.image.AclsDelta.finishSnapshot@POLYN179791 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.image.AclsDelta.finishSnapshot@POLYN181375 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -218,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.authorizer.StandardAclWithId StandardAclWithId_fromRecordN180140"
+ , "c3" : "QC-JAV000007[00047] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.authorizer.StandardAclWithId StandardAclWithId_fromRecordN181724"
 }} 
 ,
 { "ligne" : {
@@ -239,14 +216,14 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.image.AclsDelta.replay@POLYN180696 the MagicNumber/String  'Failed to find existing ACL with ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.image.AclsDelta.replay@POLYN182280 the MagicNumber/String  'Failed to find existing ACL with ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.image.AclsDelta.replay@POLYN180696 the MagicNumber/String  ' in either image or changes' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.image.AclsDelta.replay@POLYN182280 the MagicNumber/String  ' in either image or changes' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,49 +237,49 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.image.AclsDelta.apply@POLYN181388 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.image.AclsDelta.apply@POLYN182972 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.image.AclsDelta.toString@POLYN182928 the MagicNumber/String  'AclsDelta(isSnapshotDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.image.AclsDelta.toString@POLYN184512 the MagicNumber/String  'AclsDelta(isSnapshotDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.image.AclsDelta.toString@POLYN182928 the MagicNumber/String  ', changes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.image.AclsDelta.toString@POLYN184512 the MagicNumber/String  ', changes=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.image.AclsDelta.toString@POLYN182928 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.image.AclsDelta.toString@POLYN184512 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.image.AclsDelta.toString@POLYN182928 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.image.AclsDelta.toString@POLYN184512 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.image.AclsDelta.toString@POLYN182928 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.image.AclsDelta.toString@POLYN184512 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.image.AclsDelta.toString@POLYN182928 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.image.AclsDelta.toString@POLYN184512 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -338,20 +315,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#47"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00047] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.AclsDelta.apply@POLYN181388"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00068"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.image.AclsDelta.apply@POLYN181388 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 135 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 104 rule violations " 
  , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.xml" 
  , "fic3"  : "" 
 }
@@ -335,7 +335,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "32"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -349,7 +349,7 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "15"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -377,7 +377,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "14"
 }}
  ] 
 ,
@@ -393,112 +393,112 @@ var maDataBlocs = {
    "c1" : "00087"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method start list of called methods Object monObjet|org.apache.kafka.clients.admin.AdminClient AdminClient_createN256104|org.apache.kafka.clients.admin.AdminClient AdminClient_createN256217"
+ , "c3" : "QC-JAV000007[00087] For method start list of called methods Object monObjet|org.apache.kafka.clients.admin.AdminClient AdminClient_createN257688|org.apache.kafka.clients.admin.AdminClient AdminClient_createN257801"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'creating upstream offset-syncs topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'creating upstream offset-syncs topic' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'loading initial set of topic-partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'loading initial set of topic-partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'creating downstream topic-partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'creating downstream topic-partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'refreshing known target topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'refreshing known target topics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'syncing topic ACLs' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'syncing topic ACLs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'syncing topic configs' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'syncing topic configs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'refreshing topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'refreshing topics' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00111"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'Started {} with {} topic-partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'Started {} with {} topic-partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String  'Starting {} took {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN256773 the MagicNumber/String  'Starting {} took {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00121"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String  'scheduler' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN259186 the MagicNumber/String  'scheduler' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String  'topic filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN259186 the MagicNumber/String  'topic filter' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String  'config property filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN259186 the MagicNumber/String  'config property filter' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String  'source admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN259186 the MagicNumber/String  'source admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String  'target admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN259186 the MagicNumber/String  'target admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00126"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String  'Stopping {} took {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN259186 the MagicNumber/String  'Stopping {} took {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -512,77 +512,98 @@ var maDataBlocs = {
    "c1" : "00150"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.taskConfigs@POLYN258664 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.taskConfigs@POLYN260248 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.taskConfigs@POLYN258664 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.taskConfigs@POLYN260248 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method findSourceTopicPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; listTopicsN260343"
+ , "c3" : "QC-JAV000007[00175] For method findSourceTopicPartitions list of called methods Object monObjet|java.util.Set&lt;String&gt; listTopicsN261927"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00186] For method findTargetTopicPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; listTopicsN260883"
+ , "c3" : "QC-JAV000007[00186] For method findTargetTopicPartitions list of called methods Object monObjet|java.util.Set&lt;String&gt; listTopicsN262467"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00198"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#198"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00198] For method refreshTopicPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findSourceTopicPartitionsN263223|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findTargetTopicPartitionsN263311"
 }} 
 ,
 { "ligne" : {
    "c1" : "00226"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String  'Found {} new topic-partitions on {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN263109 the MagicNumber/String  'Found {} new topic-partitions on {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00227"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String  'Found {} deleted topic-partitions on {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN263109 the MagicNumber/String  'Found {} deleted topic-partitions on {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00228"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String  'Found {} topic-partitions missing on {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN263109 the MagicNumber/String  'Found {} topic-partitions missing on {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00233"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String  'Found new topic-partitions on {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN263109 the MagicNumber/String  'Found new topic-partitions on {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00234"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String  'Found deleted topic-partitions on {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN263109 the MagicNumber/String  'Found deleted topic-partitions on {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00235"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String  'Found missing topic-partitions on {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN263109 the MagicNumber/String  'Found missing topic-partitions on {}: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00243"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#243"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00243] For method loadTopicPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findSourceTopicPartitionsN265675|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findTargetTopicPartitionsN265741"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00249"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#249"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00249] For method refreshKnownTargetTopics list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findTargetTopicPartitionsN265870"
 }} 
 ,
 { "ligne" : {
    "c1" : "00254"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00254] For method topicsBeingReplicated list of called methods Object monObjet|java.util.Set&lt;String&gt; toTopicsN264448"
+ , "c3" : "QC-JAV000007[00254] For method topicsBeingReplicated list of called methods Object monObjet|java.util.Set&lt;String&gt; toTopicsN266032"
 }} 
 ,
 { "ligne" : {
@@ -600,17 +621,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00269"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#269"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00269] For method syncTopicAcls list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.acl.AclBinding&gt; listTopicAclBindingsN266800"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00281"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#281"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00281] For method syncTopicConfigs list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN267609"
+}} 
+,
+{ "ligne" : {
    "c1" : "00311"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.computeAndCreateTopicPartitions@POLYN266753 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.computeAndCreateTopicPartitions@POLYN268337 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00312"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.computeAndCreateTopicPartitions@POLYN266753 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.computeAndCreateTopicPartitions@POLYN268337 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -618,6 +653,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#336"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00336] For method createNewTopics arguments Set&lt;String &gt;  newSourceTopics|Map&lt;String ,Long &gt;  sourceTopicToPartitionCounts"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00336"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#336"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00336] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN271710|String formatRemoteTopicN271955|java.util.Map&lt;String,String&gt; configToMapN272192"
 }} 
 ,
 { "ligne" : {
@@ -652,21 +694,21 @@ var maDataBlocs = {
    "c1" : "00354"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewTopics@POLYN271106 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewTopics@POLYN272690 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00355"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewTopics@POLYN271106 the MagicNumber/String  'Could not create topic {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewTopics@POLYN272690 the MagicNumber/String  'Could not create topic {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00357"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewTopics@POLYN271106 the MagicNumber/String  'Created remote topic {} with {} partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewTopics@POLYN272690 the MagicNumber/String  'Created remote topic {} with {} partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -687,21 +729,21 @@ var maDataBlocs = {
    "c1" : "00366"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewPartitions@POLYN271894 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewPartitions@POLYN273478 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewPartitions@POLYN271894 the MagicNumber/String  'Could not create topic-partitions for {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewPartitions@POLYN273478 the MagicNumber/String  'Could not create topic-partitions for {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00369"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewPartitions@POLYN271894 the MagicNumber/String  'Increased size of {} to {} partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.createNewPartitions@POLYN273478 the MagicNumber/String  'Increased size of {} to {} partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -764,21 +806,21 @@ var maDataBlocs = {
    "c1" : "00400"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN273765 the MagicNumber/String  'Syncing configs for {} topics.' should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN275349 the MagicNumber/String  'Syncing configs for {} topics.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00402"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN273765 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN275349 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00403"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN273765 the MagicNumber/String  'Could not alter configuration of topic {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN275349 the MagicNumber/String  'Could not alter configuration of topic {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -799,21 +841,21 @@ var maDataBlocs = {
    "c1" : "00409"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicAcls@POLYN274803 the MagicNumber/String  'Syncing {} topic ACL bindings.' should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicAcls@POLYN276387 the MagicNumber/String  'Syncing {} topic ACL bindings.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00411"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicAcls@POLYN274803 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicAcls@POLYN276387 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00412"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicAcls@POLYN274803 the MagicNumber/String  'Could not sync ACL of topic {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicAcls@POLYN276387 the MagicNumber/String  'Could not sync ACL of topic {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -827,7 +869,7 @@ var maDataBlocs = {
    "c1" : "00417"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#417"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00417] For method expandTopicDescription list of called methods Object monObjet|String description_nameN275610"
+ , "c3" : "QC-JAV000007[00417] For method expandTopicDescription list of called methods Object monObjet|String description_nameN277194"
 }} 
 ,
 { "ligne" : {
@@ -862,7 +904,7 @@ var maDataBlocs = {
    "c1" : "00432"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#432"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00432] For method targetConfig list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.admin.ConfigEntry&gt; sourceConfig_entriesN276770"
+ , "c3" : "QC-JAV000007[00432] For method targetConfig list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.admin.ConfigEntry&gt; sourceConfig_entriesN278354"
 }} 
 ,
 { "ligne" : {
@@ -897,7 +939,7 @@ var maDataBlocs = {
    "c1" : "00445"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method targetAclBinding list of called methods Object monObjet|org.apache.kafka.common.acl.AclBinding formatRemoteTopicN277785|org.apache.kafka.common.acl.AclBinding downgradeAllowAllACLN278155|org.apache.kafka.common.acl.AccessControlEntry sourceAclBinding_entryN278279"
+ , "c3" : "QC-JAV000007[00445] For method targetAclBinding list of called methods Object monObjet|String formatRemoteTopicN279369|org.apache.kafka.common.acl.AccessControlEntry downgradeAllowAllACLN279739|org.apache.kafka.common.acl.AccessControlEntry sourceAclBinding_entryN279863"
 }} 
 ,
 { "ligne" : {
@@ -960,35 +1002,35 @@ var maDataBlocs = {
    "c1" : "00472"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#472"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00472] For method isCycle list of called methods Object monObjet|String replicationPolicy_topicSourceN279413|String replicationPolicy_upstreamTopicN279777"
+ , "c3" : "QC-JAV000007[00472] For method isCycle list of called methods Object monObjet|String replicationPolicy_topicSourceN280997|String replicationPolicy_upstreamTopicN281361"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00475"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00477"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00482"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#482"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1002,329 +1044,70 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.findSourceTopicPartitions@POLYN260225"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN275349"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.findTargetTopicPartitions@POLYN260765"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.configToMap@POLYN275040"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.computeAndCreateTopicPartitions@POLYN266753"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.syncTopicConfigs@POLYN265895"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN273765"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.configToMap@POLYN273456"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.downgradeAllowAllACL@POLYN277413"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.targetAclBinding@POLYN277688"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.targetConfig@POLYN276652"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.taskConfigs@POLYN258664"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.topicsBeingReplicated@POLYN264352"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00226"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#226"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00226] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String 'Found {} new topic-partitions on {}. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00227"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#227"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00227] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String 'Found {} deleted topic-partitions on {}. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00228"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#228"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00228] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String 'Found {} topic-partitions missing on {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00233"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#233"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00233] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String 'Found new topic-partitions on {}: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00234"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#234"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String 'Found deleted topic-partitions on {}: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00235"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.refreshTopicPartitions@POLYN261525 the MagicNumber/String 'Found missing topic-partitions on {}: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00311"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#311"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00311] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.computeAndCreateTopicPartitions@POLYN266753 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00312"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#312"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.computeAndCreateTopicPartitions@POLYN266753 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900"
 }} 
 ,
 { "ligne" : {
    "c1" : "00400"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#400"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN273765 the MagicNumber/String 'Syncing configs for {} topics.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN275349 the MagicNumber/String 'Syncing configs for {} topics.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00402"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#402"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN273765 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN275349 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00403"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00403] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN273765 the MagicNumber/String 'Could not alter configuration of topic {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00403] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN275349 the MagicNumber/String 'Could not alter configuration of topic {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00474"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#474"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00474] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00474] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00475"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#475"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00477"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#477"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00477] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00477] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00482"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00482] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN279316 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00102"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'creating upstream offset-syncs topic' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00103"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#103"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'loading initial set of topic-partitions' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00104"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'creating downstream topic-partitions' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'refreshing known target topics' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00106"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'syncing topic ACLs' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00108"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'syncing topic configs' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00110"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'refreshing topics' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00111"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'Started {} with {} topic-partitions.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00112"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.start@POLYN255189 the MagicNumber/String 'Starting {} took {} ms.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00121"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String 'scheduler' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00122"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String 'topic filter' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String 'config property filter' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00124"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String 'source admin client' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String 'target admin client' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00126"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.stop@POLYN257602 the MagicNumber/String 'Stopping {} took {} ms.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00150"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.taskConfigs@POLYN258664 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00153"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#153"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.taskConfigs@POLYN258664 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00482] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN280900 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

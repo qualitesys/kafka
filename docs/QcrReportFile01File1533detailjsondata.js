@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java 67 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java 66 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -90,15 +90,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -112,13 +103,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -519,7 +503,7 @@ var maDataBlocs = {
    "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.StreamsBuilder.addStateStore@POLYN354830 the MagicNumber/String  'builder can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.StreamsBuilder.addStateStore@POLYN356414 the MagicNumber/String  'builder can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -582,7 +566,7 @@ var maDataBlocs = {
    "c1" : "00248"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN359622 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN361206 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -603,7 +587,7 @@ var maDataBlocs = {
    "c1" : "00254"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN359973 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN361557 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -611,13 +595,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#247"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00247] Public method build is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsBuilder.getNewTopology@POLYN333265"
 }} 
 ]
 };

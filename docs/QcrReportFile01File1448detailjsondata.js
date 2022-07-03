@@ -188,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN198142 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN199726 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN198142 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN199726 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
 }} 
 ,
 { "ligne" : {

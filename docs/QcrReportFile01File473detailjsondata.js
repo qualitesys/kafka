@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java 69 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java 38 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,30 +104,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "25"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
-}}
-,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -160,7 +137,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -176,63 +153,63 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  'Must specify at least one metric name' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  'Must specify at least one metric name' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN196538 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,91 +223,91 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  'The maximum value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  'The maximum value ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  ' must be greater than the minimum value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  ' must be greater than the minimum value ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  'Must be at least 1 bucket' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  'Must be at least 1 bucket' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  'More frequencies than buckets' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  'More frequencies than buckets' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  'The frequency centered at '' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  'The frequency centered at '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  '' is not within the range [' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  '' is not within the range [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String  2.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN198169 the MagicNumber/String  2.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method stats list of called methods Object monObjet|double frequency_centerValueN198548"
+ , "c3" : "QC-JAV000007[00061] For method stats list of called methods Object monObjet|double frequency_centerValueN200132"
 }} 
 ,
 { "ligne" : {
@@ -345,13 +322,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#75"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00075] For method frequency arguments MetricConfig  config|long  now|double  centerValue"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method frequency list of called methods Object monObjet|double histN200235"
 }} 
 ,
 { "ligne" : {
@@ -372,35 +342,35 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN200893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN200893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN200893 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN200893 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.metrics.stats.Frequencies.totalCount@POLYN200369 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.metrics.stats.Frequencies.totalCount@POLYN201953 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -428,7 +398,7 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.metrics.stats.Frequencies.HistogramSample.HistogramSample@POLYN201434 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.metrics.stats.Frequencies.HistogramSample.HistogramSample@POLYN203018 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -436,216 +406,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#130"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00130] For method reset arguments long  now"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.Frequencies.combine@POLYN200665"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.Frequencies.newSample@POLYN200870"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#38"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#40"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 'The maximum value ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#41"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String ' must be greater than the minimum value ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#43"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#44"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 'Must be at least 1 bucket' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 'More frequencies than buckets' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 'The frequency centered at '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String '' is not within the range [' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String ',' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String ']' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#56"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#56"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.Frequencies@POLYN196585 the MagicNumber/String 2.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#20"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00020] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#21"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00021] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#23"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00023] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#24"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00024] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#27"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String 'Must specify at least one metric name' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#29"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.forBooleanValues@POLYN194954 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#77"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#82"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String 0.0d MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#85"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.common.metrics.stats.Frequencies.frequency@POLYN199309 the MagicNumber/String 0.0f MUST BE CONVERTED to const"
 }} 
 ]
 };

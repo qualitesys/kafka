@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java 21 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java 19 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,28 +83,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "4"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -239,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN171149 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN172733 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN171149 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN172733 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,7 +244,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN172229|int apiMessage_sizeN172345"
+ , "c3" : "QC-JAV000007[00042] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN173813|int apiMessage_sizeN173929"
 }} 
 ,
 { "ligne" : {
@@ -275,20 +259,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#45"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00045] The argument apiMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.RequestUtils.hasTransactionalRecords@POLYN170815"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.RequestUtils.serialize@POLYN171983"
 }} 
 ]
 };

@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN170723 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN172307 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -139,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN170920 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN172504 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,21 +153,21 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN171464 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN173048 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN171464 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN173048 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN171464 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN173048 the MagicNumber/String  5 should be converted to const"
 }} 
 ]
 };

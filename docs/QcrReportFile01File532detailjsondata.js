@@ -90,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/BoundField.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.protocol.types.BoundField.toString@POLYN161914 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.protocol.types.BoundField.toString@POLYN163498 the MagicNumber/String  ':' should be converted to const"
 }} 
 ]
 };

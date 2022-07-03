@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java 15 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java 13 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.xml" 
  , "fic3"  : "" 
 }
@@ -104,15 +104,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -126,13 +117,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -190,14 +174,14 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN168662 the MagicNumber/String  'PositionBound{position=' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN170246 the MagicNumber/String  'PositionBound{position=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN168662 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN170246 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -218,28 +202,28 @@ var maDataBlocs = {
    "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN168810 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN170394 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN168810 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN170394 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN168810 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN170394 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.query.PositionBound.hashCode@POLYN169377 the MagicNumber/String  'This mutable object is not suitable as a hash key' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.query.PositionBound.hashCode@POLYN170961 the MagicNumber/String  'This mutable object is not suitable as a hash key' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -254,20 +238,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#57"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00057] Public method hashCode is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.query.PositionBound.at@POLYN168204"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.query.PositionBound.unbounded@POLYN168008"
 }} 
 ]
 };

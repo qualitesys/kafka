@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java 28 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java 19 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.xml" 
  , "fic3"  : "" 
 }
@@ -62,35 +62,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
-}}
-,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -148,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#14"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00014] For method downConvert list of called methods Object monObjet|long time_nanosecondsN183929|int batch_sizeInBytesN184499|long batch_baseOffsetN185410|int AbstractRecords_estimateSizeInBytesN185600|java.nio.ByteBuffer Utils_ensureCapacityN186401|org.apache.kafka.common.record.ConvertedRecords&lt;org.apache.kafka.common.record.MemoryRecords&gt; convertRecordBatchN186685|java.nio.ByteBuffer builder_bufferN186814|int builder_uncompressedBytesWrittenN186888|int builder_numRecordsN186962"
+ , "c3" : "QC-JAV000007[00014] For method downConvert list of called methods Object monObjet|long time_nanosecondsN185513|int batch_sizeInBytesN186083|long batch_baseOffsetN186994|int AbstractRecords_estimateSizeInBytesN187184|java.nio.ByteBuffer Utils_ensureCapacityN187985|org.apache.kafka.common.record.MemoryRecordsBuilder convertRecordBatchN188269|java.nio.ByteBuffer builder_bufferN188398|int builder_uncompressedBytesWrittenN188472|int builder_numRecordsN188546"
 }} 
 ,
 { "ligne" : {
@@ -183,56 +160,56 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  'Down-conversion of zstandard-compressed batches ' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  'Down-conversion of zstandard-compressed batches ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  'is not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  'is not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN185152 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,7 +223,7 @@ var maDataBlocs = {
    "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method convertRecordBatch list of called methods Object monObjet|org.apache.kafka.common.record.TimestampType batch_timestampTypeN187736|org.apache.kafka.common.record.MemoryRecordsBuilder MemoryRecords_builderN187968"
+ , "c3" : "QC-JAV000007[00077] For method convertRecordBatch list of called methods Object monObjet|org.apache.kafka.common.record.TimestampType batch_timestampTypeN189320|org.apache.kafka.common.record.MemoryRecordsBuilder MemoryRecords_builderN189552"
 }} 
 ,
 { "ligne" : {
@@ -261,69 +238,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#97"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00097] The class RecordBatchAndRecords contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#18"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00018] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#27"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String 'Down-conversion of zstandard-compressed batches ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#28"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String 'is not supported' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#33"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#33"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#55"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.record.RecordsUtil.downConvert@POLYN183568 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 };

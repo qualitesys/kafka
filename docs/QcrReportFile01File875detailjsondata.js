@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java 20 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java 11 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.xml" 
  , "fic3"  : "" 
 }
@@ -62,35 +62,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "7"
-}}
-,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -141,28 +118,28 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String  'key.deserializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN167079 the MagicNumber/String  'key.deserializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String  'value.deserializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN167079 the MagicNumber/String  'value.deserializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN167079 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String  'deserializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN167079 the MagicNumber/String  'deserializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -176,84 +153,21 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN166187 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN167771 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN166187 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN167771 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN166187 the MagicNumber/String  'Error when deserializing byte[] to string due to unsupported encoding ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN166187"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#16"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00016] In the recursive method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String 'key.deserializer.encoding' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#16"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00016] In the recursive method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String 'value.deserializer.encoding' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#18"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00018] In the recursive method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#19"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00019] In the recursive method org.apache.kafka.common.serialization.StringDeserializer.configure@POLYN165495 the MagicNumber/String 'deserializer.encoding' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#27"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN166187 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#28"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN166187 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#32"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN166187 the MagicNumber/String 'Error when deserializing byte[] to string due to unsupported encoding ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN167771 the MagicNumber/String  'Error when deserializing byte[] to string due to unsupported encoding ' should be converted to const"
 }} 
 ]
 };

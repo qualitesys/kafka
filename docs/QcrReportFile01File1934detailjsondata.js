@@ -111,35 +111,35 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN168494 the MagicNumber/String  'WindowRangeQuery{' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN170078 the MagicNumber/String  'WindowRangeQuery{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN168494 the MagicNumber/String  'key=' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN170078 the MagicNumber/String  'key=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN168494 the MagicNumber/String  ', timeFrom=' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN170078 the MagicNumber/String  ', timeFrom=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN168494 the MagicNumber/String  ', timeTo=' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN170078 the MagicNumber/String  ', timeTo=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN168494 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.query.WindowRangeQuery.toString@POLYN170078 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

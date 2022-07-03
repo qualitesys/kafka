@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java 17 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java 13 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -76,30 +76,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
-}}
-,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -134,49 +111,49 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN174398 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN175982 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN174398 the MagicNumber/String  'validateOnly is not supported in version 0 of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN175982 the MagicNumber/String  'validateOnly is not supported in version 0 of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN174398 the MagicNumber/String  'CreateTopicsRequest' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN175982 the MagicNumber/String  'CreateTopicsRequest' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN174398 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN175982 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN174398 the MagicNumber/String  'Creating topics with default ' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN175982 the MagicNumber/String  'Creating topics with default ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN174398 the MagicNumber/String  'partitions/replication factor are only supported in CreateTopicRequest ' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN175982 the MagicNumber/String  'partitions/replication factor are only supported in CreateTopicRequest ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN174398 the MagicNumber/String  'version 4+. The following topics need values for partitions and replicas: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.requests.CreateTopicsRequest.Builder.build@POLYN175982 the MagicNumber/String  'version 4+. The following topics need values for partitions and replicas: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -197,14 +174,14 @@ var maDataBlocs = {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN176989"
+ , "c3" : "QC-JAV000007[00081] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN178573"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.requests.CreateTopicsRequest.getErrorResponse@POLYN176634 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.requests.CreateTopicsRequest.getErrorResponse@POLYN178218 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -212,34 +189,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#96"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00096] For method parse arguments ByteBuffer  buffer|short  version"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateTopicsRequest.CreateTopicsRequest@POLYN176269"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateTopicsRequest.getErrorResponse@POLYN176634"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateTopicsRequest.parse@POLYN177541"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#83"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.common.requests.CreateTopicsRequest.getErrorResponse@POLYN176634 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ]
 };

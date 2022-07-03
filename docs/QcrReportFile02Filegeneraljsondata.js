@@ -268,7 +268,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.common.config" , "classe":"ConfigDef" , "nbMethodes":"61" , "nbComplexite":"3.82"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config" , "classe":"ConfigException" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config" , "classe":"ConfigResource" , "nbMethodes":"7" , "nbComplexite":"1.29"} ,' + 
-' { "namespace":"org.apache.kafka.common.config" , "classe":"ConfigTransformer" , "nbMethodes":"4" , "nbComplexite":"4.50"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config" , "classe":"ConfigTransformerResult" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config" , "classe":"ConfigValue" , "nbMethodes":"14" , "nbComplexite":"1.15"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config" , "classe":"SaslConfigs" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
@@ -2034,6 +2033,7 @@ var mavar =
 ' { "namespace":"org.apache.kafka.trogdor.fault" , "classe":"DegradedNetworkFaultSpec" , "nbMethodes":"4" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.fault" , "classe":"DegradedNetworkFaultWorker" , "nbMethodes":"10" , "nbComplexite":"2.50"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.fault" , "classe":"FilesUnreadableFaultSpec" , "nbMethodes":"7" , "nbComplexite":"1.00"} ,' + 
+' { "namespace":"org.apache.kafka.trogdor.fault" , "classe":"Kibosh" , "nbMethodes":"4" , "nbComplexite":"1.25"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.fault" , "classe":"KiboshFaultController" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.fault" , "classe":"KiboshFaultWorker" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.fault" , "classe":"NetworkPartitionFaultController" , "nbMethodes":"2" , "nbComplexite":"1.50"} ,' + 

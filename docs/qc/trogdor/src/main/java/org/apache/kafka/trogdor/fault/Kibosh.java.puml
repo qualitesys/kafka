@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.fault.Kibosh
+class org.apache.kafka.trogdor.fault.Kibosh {
++  Kibosh()
++  findProcessObject(String)
++  addFault(String;KiboshFaultSpec)
++  removeFault(String;KiboshFaultSpec)
+} 
+@enduml

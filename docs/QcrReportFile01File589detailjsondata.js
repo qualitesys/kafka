@@ -132,56 +132,56 @@ var maDataBlocs = {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN172186 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN173770 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN172186 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN173770 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN172186 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN173770 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN173035 the MagicNumber/String  'DefaultReplicaView{' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN174619 the MagicNumber/String  'DefaultReplicaView{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN173035 the MagicNumber/String  'endpoint=' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN174619 the MagicNumber/String  'endpoint=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN173035 the MagicNumber/String  ', logEndOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN174619 the MagicNumber/String  ', logEndOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN173035 the MagicNumber/String  ', timeSinceLastCaughtUpMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN174619 the MagicNumber/String  ', timeSinceLastCaughtUpMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN173035 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN174619 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 };

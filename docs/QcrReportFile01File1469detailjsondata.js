@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/GlobComponent.java 92 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/GlobComponent.java 59 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.xml" 
  , "fic3"  : "" 
 }
@@ -97,23 +97,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "31"
-}}
-,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -126,13 +110,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
  , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -176,84 +153,84 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '$' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '$' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00018"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '+' should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '+' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00021"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00022"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00023"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '^' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '^' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00025"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  '|' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  '|' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN177412 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.GlobComponent.isRegularExpressionSpecialCharacter@POLYN178996 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -267,49 +244,49 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN178062 the MagicNumber/String  '*' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN179646 the MagicNumber/String  '*' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN178062 the MagicNumber/String  '?' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN179646 the MagicNumber/String  '?' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN178062 the MagicNumber/String  '\\' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN179646 the MagicNumber/String  '\\' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN178062 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN179646 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN178062 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN179646 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN178062 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN179646 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN178062 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.shell.GlobComponent.isGlobSpecialCharacter@POLYN179646 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -337,224 +314,224 @@ var maDataBlocs = {
    "c1" : "00051"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '^' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '^' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '?' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '?' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '*' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '*' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '.*' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '.*' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '\\' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '\\' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '\\' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '\\' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  'Can't nest glob groups.' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  'Can't nest glob groups.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '(?:(?:' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '(?:(?:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  ')|(?:' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  ')|(?:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '))' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '))' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '\\' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '\\' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00113"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  'Unterminated glob group.' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  'Unterminated glob group.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String  '$' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN180196 the MagicNumber/String  '$' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN181920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN183504 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN181920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN183504 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN181920 the MagicNumber/String  'Invalid glob pattern: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN183504 the MagicNumber/String  'Invalid glob pattern: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.shell.GlobComponent.literal@POLYN182700 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.shell.GlobComponent.literal@POLYN184284 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -568,238 +545,7 @@ var maDataBlocs = {
    "c1" : "00148"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.shell.GlobComponent.matches@POLYN182810 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN181920"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00127"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN181920 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00130"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#130"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN181920 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00134"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.shell.GlobComponent.GlobComponent@POLYN181920 the MagicNumber/String 'Invalid glob pattern: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00051"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#51"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '^' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#55"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00058"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#58"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '?' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00059"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#59"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#60"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#62"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '*' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00063"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#63"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00064"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#64"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '.*' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00066"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#66"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '\\' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00074"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#74"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '\\' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#79"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '{' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00081"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String 'Can't nest glob groups.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00083"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#83"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00084"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#84"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '-?:-?:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#85"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00087"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#87"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String ',' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#89"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#90"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '- MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#95"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00097"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#97"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '--' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00099"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#99"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '\\' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00113"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String 'Unterminated glob group.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00116"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#116"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00118"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.shell.GlobComponent.toRegularExpression@POLYN178612 the MagicNumber/String '$' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.shell.GlobComponent.matches@POLYN184394 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

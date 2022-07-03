@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/UnattachedState.java 17 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/UnattachedState.java 15 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.xml" 
  , "fic3"  : "" 
 }
@@ -125,15 +125,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
@@ -153,13 +144,6 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "2"
 }}
 ,
@@ -211,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.raft.UnattachedState.name@POLYN171611 the MagicNumber/String  'Unattached' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.raft.UnattachedState.name@POLYN173195 the MagicNumber/String  'Unattached' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -239,42 +223,42 @@ var maDataBlocs = {
    "c1" : "00080"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.UnattachedState.canGrantVote@POLYN172318 the MagicNumber/String  'Rejecting vote request from candidate {} since candidate epoch/offset is not up to date with us' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.UnattachedState.canGrantVote@POLYN173902 the MagicNumber/String  'Rejecting vote request from candidate {} since candidate epoch/offset is not up to date with us' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00088"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.UnattachedState.toString@POLYN172621 the MagicNumber/String  'Unattached(' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.UnattachedState.toString@POLYN174205 the MagicNumber/String  'Unattached(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.UnattachedState.toString@POLYN172621 the MagicNumber/String  'epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.UnattachedState.toString@POLYN174205 the MagicNumber/String  'epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.raft.UnattachedState.toString@POLYN172621 the MagicNumber/String  ', voters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.raft.UnattachedState.toString@POLYN174205 the MagicNumber/String  ', voters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.UnattachedState.toString@POLYN172621 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.UnattachedState.toString@POLYN174205 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.raft.UnattachedState.toString@POLYN172621 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.raft.UnattachedState.toString@POLYN174205 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -289,20 +273,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#96"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00096] Void method close is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.UnattachedState.UnattachedState@POLYN170543"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.UnattachedState.election@POLYN171267"
 }} 
 ]
 };

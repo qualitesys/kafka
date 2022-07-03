@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Java.java 15 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Java.java 12 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.xml" 
  , "fic3"  : "" 
 }
@@ -69,30 +69,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -134,28 +111,28 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN165286 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN166870 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN165286 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN166870 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN166140 the MagicNumber/String  'java.vendor' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN167724 the MagicNumber/String  'java.vendor' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN166140 the MagicNumber/String  'IBM' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN167724 the MagicNumber/String  'IBM' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -169,56 +146,35 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN166657 the MagicNumber/String  'Version(majorVersion=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN168241 the MagicNumber/String  'Version(majorVersion=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN166657 the MagicNumber/String  ', minorVersion=' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN168241 the MagicNumber/String  ', minorVersion=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN166657 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN168241 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.Java.Version.isJava9Compatible@POLYN166832 the MagicNumber/String  9 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.Java.Version.isJava9Compatible@POLYN168416 the MagicNumber/String  9 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.Java.Version.isJava11Compatible@POLYN166937 the MagicNumber/String  11 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Java.parseVersion@POLYN165286"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#14"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00014] In the recursive method org.apache.kafka.common.utils.Java.parseVersion@POLYN165286 the MagicNumber/String '.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#20"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00020] In the recursive method org.apache.kafka.common.utils.Java.parseVersion@POLYN165286 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.Java.Version.isJava11Compatible@POLYN168521 the MagicNumber/String  11 should be converted to const"
 }} 
 ]
 };
