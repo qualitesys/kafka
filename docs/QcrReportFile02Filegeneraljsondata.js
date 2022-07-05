@@ -2003,6 +2003,7 @@ var mavar =
 ' { "namespace":"org.apache.kafka.tools" , "classe":"ClientCompatibilityTest" , "nbMethodes":"13" , "nbComplexite":"3.47"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"OAuthCompatibilityTool" , "nbMethodes":"1" , "nbComplexite":"2.00"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"PrintVersionAndExitAction" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
+' { "namespace":"org.apache.kafka.tools" , "classe":"ProducerPerformance" , "nbMethodes":"7" , "nbComplexite":"4.72"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"PushHttpMetricsReporter" , "nbMethodes":"9" , "nbComplexite":"1.23"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"ThroughputThrottler" , "nbMethodes":"4" , "nbComplexite":"2.50"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"ToolsUtils" , "nbMethodes":"1" , "nbComplexite":"6.00"} ,' + 

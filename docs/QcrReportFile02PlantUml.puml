@@ -8292,6 +8292,10 @@ class org.apache.kafka.tools.PrintVersionAndExitAction {
 Nb methods :3
 Complexity :1.00
 }
+class org.apache.kafka.tools.ProducerPerformance {
+Nb methods :7
+Complexity :4.72
+}
 class org.apache.kafka.tools.PushHttpMetricsReporter {
 Nb methods :9
 Complexity :1.23

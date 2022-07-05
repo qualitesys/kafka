@@ -2686,6 +2686,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.streams.TestOutputTopic" }, 
   { "child"  : "(1) org.apache.kafka.tools.ClientCompatibilityTest" }, 
   { "child"  : "(1) org.apache.kafka.tools.OAuthCompatibilityTool" }, 
+  { "child"  : "(1) org.apache.kafka.tools.ProducerPerformance" }, 
   { "child"  : "(1) org.apache.kafka.tools.ThroughputThrottler" }, 
   { "child"  : "(1) org.apache.kafka.tools.ToolsUtils" }, 
   { "child"  : "(1) org.apache.kafka.tools.TransactionalMessageCopier" }, 
@@ -7193,6 +7194,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.errors.ConcurrentTransactionsException" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.tools.ProducerPerformance" ,
 "children" : [
 ]
 }},

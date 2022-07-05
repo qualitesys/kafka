@@ -7135,7 +7135,11 @@
 <occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java</file><nberror>4</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java</file><nberror>2</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-JAV999999</rule><file>tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java</file><nberror>1</nberror></occ>
+<occ><category>CRITICAL</category><rule>QC-JAVCWE476</rule><file>tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java</file><nberror>3</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000001</rule><file>tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java</file><nberror>2</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java</file><nberror>3</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java</file><nberror>155</nberror></occ>
+<occ><category>MINOR</category><rule>QC-JAV000006</rule><file>tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java</file><nberror>10</nberror></occ>
 <occ><category>CRITICAL</category><rule>QC-JAVCWE476</rule><file>tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java</file><nberror>3</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000001</rule><file>tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java</file><nberror>5</nberror></occ>

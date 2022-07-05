@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.tools.ProducerPerformance
+class org.apache.kafka.tools.ProducerPerformance {
++  main(String[])
++  start(String[])
++  createKafkaProducer(Properties)
++  generateRandomPayload(Integer;List<byte[]>;byte[];Random)
++  readProps(List<String>;String;String;boolean)
++  readPayloadFile(String;String)
++  argParser()
+} 
+@enduml
