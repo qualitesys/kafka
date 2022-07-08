@@ -183,7 +183,7 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.mirror.Scheduler.Scheduler@POLYN177175 the MagicNumber/String  'Scheduler for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.mirror.Scheduler.Scheduler@POLYN155943 the MagicNumber/String  'Scheduler for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -204,14 +204,14 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.mirror.Scheduler.scheduleRepeating@POLYN177396 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.mirror.Scheduler.scheduleRepeating@POLYN156164 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.mirror.Scheduler.scheduleRepeating@POLYN177396 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.mirror.Scheduler.scheduleRepeating@POLYN156164 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -232,7 +232,7 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.mirror.Scheduler.scheduleRepeatingDelayed@POLYN177863 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.mirror.Scheduler.scheduleRepeatingDelayed@POLYN156631 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,42 +246,42 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.mirror.Scheduler.execute@POLYN178348 the MagicNumber/String  '{} was interrupted running task: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.mirror.Scheduler.execute@POLYN157116 the MagicNumber/String  '{} was interrupted running task: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.mirror.Scheduler.execute@POLYN178348 the MagicNumber/String  '{} timed out running task: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.mirror.Scheduler.execute@POLYN157116 the MagicNumber/String  '{} timed out running task: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.mirror.Scheduler.execute@POLYN178348 the MagicNumber/String  '{} caught exception in task: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.mirror.Scheduler.execute@POLYN157116 the MagicNumber/String  '{} caught exception in task: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.mirror.Scheduler.close@POLYN179205 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.mirror.Scheduler.close@POLYN157973 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.mirror.Scheduler.close@POLYN179205 the MagicNumber/String  '{} timed out during shutdown of internal scheduler.' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.mirror.Scheduler.close@POLYN157973 the MagicNumber/String  '{} timed out during shutdown of internal scheduler.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.mirror.Scheduler.close@POLYN179205 the MagicNumber/String  '{} was interrupted during shutdown of internal scheduler.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.mirror.Scheduler.close@POLYN157973 the MagicNumber/String  '{} was interrupted during shutdown of internal scheduler.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -309,28 +309,28 @@ var maDataBlocs = {
    "c1" : "00080"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String  '{} took {} ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String  '{} took {} ms' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String  '{} took too long ({} ms) running task: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String  '{} took too long ({} ms) running task: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String  '{} was interrupted running task: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String  '{} was interrupted running task: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String  '{} caught exception in scheduled task: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String  '{} caught exception in scheduled task: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -344,49 +344,49 @@ var maDataBlocs = {
    "c1" : "00092"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.mirror.Scheduler.executeThread@POLYN180925 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.mirror.Scheduler.executeThread@POLYN159693 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.mirror.Scheduler.executeThread@POLYN180925 the MagicNumber/String  '{} skipping task due to shutdown: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.mirror.Scheduler.executeThread@POLYN159693 the MagicNumber/String  '{} skipping task due to shutdown: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String '{} took {} ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String '{} took {} ms' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String '{} took too long -{} ms- running task: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String '{} took too long -{} ms- running task: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String '{} was interrupted running task: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String '{} was interrupted running task: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN179896 the MagicNumber/String '{} caught exception in scheduled task: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.connect.mirror.Scheduler.run@POLYN158664 the MagicNumber/String '{} caught exception in scheduled task: {}' MUST BE CONVERTED to const"
 }} 
 ]
 };

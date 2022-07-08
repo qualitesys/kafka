@@ -503,7 +503,7 @@ var maDataBlocs = {
    "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.StreamsBuilder.addStateStore@POLYN356414 the MagicNumber/String  'builder can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.StreamsBuilder.addStateStore@POLYN335182 the MagicNumber/String  'builder can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -566,7 +566,7 @@ var maDataBlocs = {
    "c1" : "00248"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN361206 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN339974 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -587,7 +587,7 @@ var maDataBlocs = {
    "c1" : "00254"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN361557 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN340325 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

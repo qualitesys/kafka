@@ -183,7 +183,7 @@ var maDataBlocs = {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forReplica@POLYN189941 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forReplica@POLYN168709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -197,28 +197,28 @@ var maDataBlocs = {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN190212 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN168980 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN190212 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN168980 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN190212 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN168980 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN190212 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.ListOffsetsRequest.Builder.forConsumer@POLYN168980 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,7 +281,7 @@ var maDataBlocs = {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method getErrorResponse list of called methods Object monObjet|short versionN192900"
+ , "c3" : "QC-JAV000007[00097] For method getErrorResponse list of called methods Object monObjet|short versionN171668"
 }} 
 ,
 { "ligne" : {
@@ -323,7 +323,7 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.requests.ListOffsetsRequest.getErrorResponse@POLYN192778 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.requests.ListOffsetsRequest.getErrorResponse@POLYN171546 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -372,14 +372,14 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListOffsetsRequest.replicaId@POLYN194616"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListOffsetsRequest.replicaId@POLYN173384"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListOffsetsRequest.topics@POLYN194888"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListOffsetsRequest.topics@POLYN173656"
 }} 
 ]
 };

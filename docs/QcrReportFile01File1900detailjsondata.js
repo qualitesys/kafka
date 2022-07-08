@@ -118,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/DefaultStandbyTaskAssignor.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor.assign@POLYN168169 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.assignment.DefaultStandbyTaskAssignor.assign@POLYN146937 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

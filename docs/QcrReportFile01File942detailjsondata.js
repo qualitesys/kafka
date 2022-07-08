@@ -139,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.data.Decimal.builder@POLYN174591 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.data.Decimal.builder@POLYN153359 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -160,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method fromLogical list of called methods Object monObjet|int scaleN175309"
+ , "c3" : "QC-JAV000007[00027] For method fromLogical list of called methods Object monObjet|int scaleN154077"
 }} 
 ,
 { "ligne" : {
@@ -181,14 +181,14 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN175187 the MagicNumber/String  'Decimal value has mismatching scale for given Decimal schema. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN153955 the MagicNumber/String  'Decimal value has mismatching scale for given Decimal schema. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN175187 the MagicNumber/String  'Schema has scale %d, value has scale %d.' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN153955 the MagicNumber/String  'Schema has scale %d, value has scale %d.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00043"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method scale list of called methods Object monObjet|java.util.Map&lt;String,String&gt; schema_parametersN176097"
+ , "c3" : "QC-JAV000007[00043] For method scale list of called methods Object monObjet|java.util.Map&lt;String,String&gt; schema_parametersN154865"
 }} 
 ,
 { "ligne" : {
@@ -223,21 +223,21 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.data.Decimal.scale@POLYN176000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.data.Decimal.scale@POLYN154768 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Decimal.scale@POLYN176000 the MagicNumber/String  'Invalid Decimal schema: scale parameter not found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Decimal.scale@POLYN154768 the MagicNumber/String  'Invalid Decimal schema: scale parameter not found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.data.Decimal.scale@POLYN176000 the MagicNumber/String  'Invalid scale parameter found in Decimal schema: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.data.Decimal.scale@POLYN154768 the MagicNumber/String  'Invalid scale parameter found in Decimal schema: ' should be converted to const"
 }} 
 ]
 };

@@ -146,21 +146,21 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN180976 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN159744 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN180976 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN159744 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN180976 the MagicNumber/String  'DescribeAclsRequest contains UNKNOWN elements: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN159744 the MagicNumber/String  'DescribeAclsRequest contains UNKNOWN elements: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN182263"
+ , "c3" : "QC-JAV000007[00083] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN161031"
 }} 
 ,
 { "ligne" : {

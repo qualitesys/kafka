@@ -181,28 +181,28 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN183083 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN161851 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN183083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN161851 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN183083 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN161851 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.MetricNameTemplate.toString@POLYN183788 the MagicNumber/String  'name=%s, group=%s, tags=%s' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.MetricNameTemplate.toString@POLYN162556 the MagicNumber/String  'name=%s, group=%s, tags=%s' should be converted to const"
 }} 
 ]
 };

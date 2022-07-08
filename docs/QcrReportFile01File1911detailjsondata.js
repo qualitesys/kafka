@@ -230,14 +230,14 @@ var maDataBlocs = {
    "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist@POLYN206918 the MagicNumber/String  'uninitialized set' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist@POLYN185686 the MagicNumber/String  'uninitialized set' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist@POLYN206918 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist@POLYN185686 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -258,7 +258,7 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.taskIsCaughtUpOnClient@POLYN207954 the MagicNumber/String  'uninitialized set' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.taskIsCaughtUpOnClient@POLYN186722 the MagicNumber/String  'uninitialized set' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -272,7 +272,7 @@ var maDataBlocs = {
    "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method assignActiveTaskMovements list of called methods Object monObjet|boolean tryToSwapStandbyAndActiveOnCaughtUpClientN210483"
+ , "c3" : "QC-JAV000007[00062] For method assignActiveTaskMovements list of called methods Object monObjet|boolean tryToSwapStandbyAndActiveOnCaughtUpClientN189251"
 }} 
 ,
 { "ligne" : {
@@ -314,7 +314,7 @@ var maDataBlocs = {
    "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignActiveTaskMovements@POLYN208393 the MagicNumber/String  'Tried to move task to more caught-up client as scheduled before but none exist' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignActiveTaskMovements@POLYN187161 the MagicNumber/String  'Tried to move task to more caught-up client as scheduled before but none exist' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -328,7 +328,7 @@ var maDataBlocs = {
    "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method assignStandbyTaskMovements list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN213514|java.util.UUID mostCaughtUpEligibleClientN213710"
+ , "c3" : "QC-JAV000007[00110] For method assignStandbyTaskMovements list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN192282|java.util.UUID mostCaughtUpEligibleClientN192478"
 }} 
 ,
 { "ligne" : {
@@ -391,21 +391,21 @@ var maDataBlocs = {
    "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignStandbyTaskMovements@POLYN211065 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignStandbyTaskMovements@POLYN189833 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignStandbyTaskMovements@POLYN211065 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignStandbyTaskMovements@POLYN189833 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignStandbyTaskMovements@POLYN211065 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.assignStandbyTaskMovements@POLYN189833 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -419,7 +419,7 @@ var maDataBlocs = {
    "c1" : "00175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method tryToSwapStandbyAndActiveOnCaughtUpClient list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN214585"
+ , "c3" : "QC-JAV000007[00175] For method tryToSwapStandbyAndActiveOnCaughtUpClient list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN193353"
 }} 
 ,
 { "ligne" : {
@@ -447,21 +447,21 @@ var maDataBlocs = {
    "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToSwapStandbyAndActiveOnCaughtUpClient@POLYN214387 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToSwapStandbyAndActiveOnCaughtUpClient@POLYN193155 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00189"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToSwapStandbyAndActiveOnCaughtUpClient@POLYN214387 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToSwapStandbyAndActiveOnCaughtUpClient@POLYN193155 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToSwapStandbyAndActiveOnCaughtUpClient@POLYN214387 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToSwapStandbyAndActiveOnCaughtUpClient@POLYN193155 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -475,7 +475,7 @@ var maDataBlocs = {
    "c1" : "00194"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00194] For method tryToMoveActiveToCaughtUpClientAndTryToWarmUp list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN215595"
+ , "c3" : "QC-JAV000007[00194] For method tryToMoveActiveToCaughtUpClientAndTryToWarmUp list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN194363"
 }} 
 ,
 { "ligne" : {
@@ -510,21 +510,21 @@ var maDataBlocs = {
    "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToCaughtUpClientAndTryToWarmUp@POLYN215283 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToCaughtUpClientAndTryToWarmUp@POLYN194051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToCaughtUpClientAndTryToWarmUp@POLYN215283 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToCaughtUpClientAndTryToWarmUp@POLYN194051 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToCaughtUpClientAndTryToWarmUp@POLYN215283 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToCaughtUpClientAndTryToWarmUp@POLYN194051 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -538,7 +538,7 @@ var maDataBlocs = {
    "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#214"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00214] For method tryToMoveActiveToMostCaughtUpClient list of called methods Object monObjet|java.util.UUID mostCaughtUpEligibleClientN216725"
+ , "c3" : "QC-JAV000007[00214] For method tryToMoveActiveToMostCaughtUpClient list of called methods Object monObjet|java.util.UUID mostCaughtUpEligibleClientN195493"
 }} 
 ,
 { "ligne" : {
@@ -573,21 +573,21 @@ var maDataBlocs = {
    "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToMostCaughtUpClient@POLYN216327 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToMostCaughtUpClient@POLYN195095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToMostCaughtUpClient@POLYN216327 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToMostCaughtUpClient@POLYN195095 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToMostCaughtUpClient@POLYN216327 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.tryToMoveActiveToMostCaughtUpClient@POLYN195095 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -629,7 +629,7 @@ var maDataBlocs = {
    "c1" : "00250"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.moveActiveAndTryToWarmUp@POLYN217851 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.moveActiveAndTryToWarmUp@POLYN196619 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -664,7 +664,7 @@ var maDataBlocs = {
    "c1" : "00267"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.moveStandbyAndTryToWarmUp@POLYN218525 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.moveStandbyAndTryToWarmUp@POLYN197293 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -699,7 +699,7 @@ var maDataBlocs = {
    "c1" : "00288"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.mostCaughtUpEligibleClient@POLYN219356 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.mostCaughtUpEligibleClient@POLYN198124 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -734,7 +734,7 @@ var maDataBlocs = {
    "c1" : "00302"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.mostCaughtUpEligibleClient@POLYN219711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.streams.processor.internals.assignment.TaskMovement.mostCaughtUpEligibleClient@POLYN198479 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

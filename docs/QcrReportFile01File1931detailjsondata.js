@@ -209,21 +209,21 @@ var maDataBlocs = {
    "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.query.StateQueryRequest.enableExecutionInfo@POLYN188097 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.query.StateQueryRequest.enableExecutionInfo@POLYN166865 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.query.StateQueryRequest.requireActive@POLYN188516 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.query.StateQueryRequest.requireActive@POLYN167284 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.query.StateQueryRequest.getPartitions@POLYN189526 the MagicNumber/String  'Cannot list partitions of an 'all partitions' request' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.query.StateQueryRequest.getPartitions@POLYN168294 the MagicNumber/String  'Cannot list partitions of an 'all partitions' request' should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -111,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionRequest.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.AlterPartitionRequest.Builder.Builder@POLYN172249 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.AlterPartitionRequest.Builder.Builder@POLYN151017 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {

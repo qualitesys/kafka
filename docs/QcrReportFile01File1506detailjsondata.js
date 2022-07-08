@@ -188,21 +188,21 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadata@POLYN186473 the MagicNumber/String  'Adding remote log segment : [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadata@POLYN165241 the MagicNumber/String  'Adding remote log segment : [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadata@POLYN186473 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadata@POLYN165241 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadata@POLYN186473 the MagicNumber/String  'No partition metadata found for : ' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadata@POLYN165241 the MagicNumber/String  'No partition metadata found for : ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -223,7 +223,7 @@ var maDataBlocs = {
    "c1" : "00060"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.partitionLogDirectory@POLYN187149 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.partitionLogDirectory@POLYN165917 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,28 +244,28 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN187449 the MagicNumber/String  'Updating remote log segment: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN166217 the MagicNumber/String  'Updating remote log segment: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN187449 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN166217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN187449 the MagicNumber/String  'Error occurred while updating the remote log segment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN166217 the MagicNumber/String  'Error occurred while updating the remote log segment.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN187449 the MagicNumber/String  'No partition metadata found for : ' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemoteLogSegmentMetadataUpdate@POLYN166217 the MagicNumber/String  'No partition metadata found for : ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -286,7 +286,7 @@ var maDataBlocs = {
    "c1" : "00082"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemotePartitionDeleteMetadata@POLYN188289 the MagicNumber/String  'Received partition delete state with: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.handleRemotePartitionDeleteMetadata@POLYN167057 the MagicNumber/String  'Received partition delete state with: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -300,21 +300,21 @@ var maDataBlocs = {
    "c1" : "00100"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.syncLogMetadataSnapshot@POLYN188873 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.syncLogMetadataSnapshot@POLYN167641 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.syncLogMetadataSnapshot@POLYN188873 the MagicNumber/String  'Skipping syncing of metadata snapshot as remote partition [{}] is with state: [{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.syncLogMetadataSnapshot@POLYN167641 the MagicNumber/String  'Skipping syncing of metadata snapshot as remote partition [{}] is with state: [{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.syncLogMetadataSnapshot@POLYN188873 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.syncLogMetadataSnapshot@POLYN167641 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -335,7 +335,7 @@ var maDataBlocs = {
    "c1" : "00118"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.listRemoteLogSegments@POLYN189744 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.listRemoteLogSegments@POLYN168512 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -349,7 +349,7 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.listRemoteLogSegments@POLYN190031 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.listRemoteLogSegments@POLYN168799 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -363,14 +363,14 @@ var maDataBlocs = {
    "c1" : "00133"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.getRemoteLogMetadataCache@POLYN190341 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.getRemoteLogMetadataCache@POLYN169109 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.getRemoteLogMetadataCache@POLYN190341 the MagicNumber/String  'No resource found for partition: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.getRemoteLogMetadataCache@POLYN169109 the MagicNumber/String  'No resource found for partition: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -384,7 +384,7 @@ var maDataBlocs = {
    "c1" : "00144"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.remoteLogSegmentMetadata@POLYN190747 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.remoteLogSegmentMetadata@POLYN169515 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -398,14 +398,14 @@ var maDataBlocs = {
    "c1" : "00151"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.highestLogOffset@POLYN191125 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.highestLogOffset@POLYN169893 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00158"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.close@POLYN191441 the MagicNumber/String  'Clearing the entries from the store.' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore.close@POLYN170209 the MagicNumber/String  'Clearing the entries from the store.' should be converted to const"
 }} 
 ,
 { "ligne" : {

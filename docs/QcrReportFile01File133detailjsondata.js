@@ -111,35 +111,35 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN168585 the MagicNumber/String  'ReplicaInfo(' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147353 the MagicNumber/String  'ReplicaInfo(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN168585 the MagicNumber/String  'size=' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147353 the MagicNumber/String  'size=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN168585 the MagicNumber/String  ', offsetLag=' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147353 the MagicNumber/String  ', offsetLag=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN168585 the MagicNumber/String  ', isFuture=' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147353 the MagicNumber/String  ', isFuture=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN168585 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147353 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

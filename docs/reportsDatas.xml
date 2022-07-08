@@ -7518,7 +7518,6 @@
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java</file><nberror>1</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000007</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java</file><nberror>1</nberror></occ>
 <occ><category>INFO</category><rule>QC-JAV000019</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java</file><nberror>1</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-JAV999999</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-JAV999993</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java</file><nberror>23</nberror></occ>
 <occ><category>CRITICAL</category><rule>QC-JAV999994</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000001</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java</file><nberror>13</nberror></occ>
@@ -7569,7 +7568,6 @@
 <occ><category>INFO</category><rule>QC-JAV000019</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000001</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java</file><nberror>3</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java</file><nberror>1</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-JAV999999</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/TransactionGenerator.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000008</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-JAV000010</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java</file><nberror>10</nberror></occ>
 <occ><category>MINOR</category><rule>QC-JAV000006</rule><file>trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java</file><nberror>1</nberror></occ>

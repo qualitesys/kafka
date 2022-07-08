@@ -148,28 +148,28 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.AddOffsetsToTxnResponse.shouldClientThrottle@POLYN170328 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.AddOffsetsToTxnResponse.shouldClientThrottle@POLYN149096 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnResponse.errorCounts@POLYN169524"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnResponse.errorCounts@POLYN148292"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnResponse.throttleTimeMs@POLYN169714"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnResponse.throttleTimeMs@POLYN148482"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnResponse.toString@POLYN170208"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnResponse.toString@POLYN148976"
 }} 
 ]
 };

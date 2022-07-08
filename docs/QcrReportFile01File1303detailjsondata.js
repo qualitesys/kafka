@@ -309,14 +309,14 @@ var maDataBlocs = {
    "c1" : "00103"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.ConfigurationControlManager.Builder.build@POLYN247041 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.ConfigurationControlManager.Builder.build@POLYN225809 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.controller.ConfigurationControlManager.Builder.build@POLYN247041 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.controller.ConfigurationControlManager.Builder.build@POLYN225809 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -330,7 +330,7 @@ var maDataBlocs = {
    "c1" : "00131"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.controller.ConfigurationControlManager.ConfigurationControlManager@POLYN247592 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.controller.ConfigurationControlManager.ConfigurationControlManager@POLYN226360 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,7 +358,7 @@ var maDataBlocs = {
    "c1" : "00157"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00157] For method incrementalAlterConfigResource list of called methods Object monObjet|java.util.List&lt;String&gt; getPartsN252351|org.apache.kafka.common.requests.ApiError validateAlterConfigN253697"
+ , "c3" : "QC-JAV000007[00157] For method incrementalAlterConfigResource list of called methods Object monObjet|java.util.List&lt;String&gt; getPartsN231119|org.apache.kafka.common.requests.ApiError validateAlterConfigN232465"
 }} 
 ,
 { "ligne" : {
@@ -463,70 +463,70 @@ var maDataBlocs = {
    "c1" : "00165"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00167"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00179"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00185"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  'Can't ' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  'Can't ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00185"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  ' to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  'key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  'key ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  ' because its type is not LIST.' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  ' because its type is not LIST.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00197"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00201"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN250235 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229003 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -554,14 +554,14 @@ var maDataBlocs = {
    "c1" : "00226"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.ConfigurationControlManager.validateAlterConfig@POLYN254156 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.ConfigurationControlManager.validateAlterConfig@POLYN232924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00229"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.controller.ConfigurationControlManager.validateAlterConfig@POLYN254156 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.controller.ConfigurationControlManager.validateAlterConfig@POLYN232924 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -589,7 +589,7 @@ var maDataBlocs = {
    "c1" : "00269"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#269"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00269] For method legacyAlterConfigResource list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateAlterConfigN259281"
+ , "c3" : "QC-JAV000007[00269] For method legacyAlterConfigResource list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateAlterConfigN238049"
 }} 
 ,
 { "ligne" : {
@@ -645,14 +645,14 @@ var maDataBlocs = {
    "c1" : "00276"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.controller.ConfigurationControlManager.legacyAlterConfigResource@POLYN257136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.controller.ConfigurationControlManager.legacyAlterConfigResource@POLYN235904 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00297"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.ConfigurationControlManager.legacyAlterConfigResource@POLYN257136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.ConfigurationControlManager.legacyAlterConfigResource@POLYN235904 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -666,7 +666,7 @@ var maDataBlocs = {
    "c1" : "00309"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#309"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00309] For method getParts list of called methods Object monObjet|String configSchema_getDefaultN259980"
+ , "c3" : "QC-JAV000007[00309] For method getParts list of called methods Object monObjet|String configSchema_getDefaultN238748"
 }} 
 ,
 { "ligne" : {
@@ -680,21 +680,21 @@ var maDataBlocs = {
    "c1" : "00310"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN259761 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN238529 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00314"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN259761 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN238529 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00317"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN259761 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.controller.ConfigurationControlManager.getParts@POLYN238529 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -715,28 +715,28 @@ var maDataBlocs = {
    "c1" : "00331"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00332"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00335"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00343"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String  '{}: set configuration {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String  '{}: set configuration {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -750,7 +750,7 @@ var maDataBlocs = {
    "c1" : "00349"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.controller.ConfigurationControlManager.getConfigs@POLYN262189 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.controller.ConfigurationControlManager.getConfigs@POLYN240957 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -848,14 +848,14 @@ var maDataBlocs = {
    "c1" : "00370"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.controller.ConfigurationControlManager.describeConfigs@POLYN262758 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.controller.ConfigurationControlManager.describeConfigs@POLYN241526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00382"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.controller.ConfigurationControlManager.describeConfigs@POLYN262758 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.controller.ConfigurationControlManager.describeConfigs@POLYN241526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -876,7 +876,7 @@ var maDataBlocs = {
    "c1" : "00398"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.controller.ConfigurationControlManager.uncleanLeaderElectionEnabledForTopic@POLYN265412 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.controller.ConfigurationControlManager.uncleanLeaderElectionEnabledForTopic@POLYN244180 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -890,14 +890,14 @@ var maDataBlocs = {
    "c1" : "00408"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#408"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.controller.ConfigurationControlManager.clusterConfig@POLYN265860 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.controller.ConfigurationControlManager.clusterConfig@POLYN244628 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00413"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.ConfigurationControlManager.currentControllerConfig@POLYN266219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.ConfigurationControlManager.currentControllerConfig@POLYN244987 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -918,35 +918,35 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518"
 }} 
 ,
 { "ligne" : {
    "c1" : "00331"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00331] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00331] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00332"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#332"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00332] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00332] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00335"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#335"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00343"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN260750 the MagicNumber/String '{}: set configuration {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239518 the MagicNumber/String '{}: set configuration {} to {}' MUST BE CONVERTED to const"
 }} 
 ]
 };

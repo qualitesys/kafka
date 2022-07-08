@@ -176,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.IncrementalAlterConfigsResponse.shouldClientThrottle@POLYN176366 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.IncrementalAlterConfigsResponse.shouldClientThrottle@POLYN155134 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -190,7 +190,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.IncrementalAlterConfigsResponse.throttleTimeMs@POLYN176512"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.IncrementalAlterConfigsResponse.throttleTimeMs@POLYN155280"
 }} 
 ]
 };

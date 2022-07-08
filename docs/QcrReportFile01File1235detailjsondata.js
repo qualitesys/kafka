@@ -342,98 +342,98 @@ var maDataBlocs = {
    "c1" : "00132"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  'you must set logDirs' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  'you must set logDirs' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  'you must set configRepository' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  'you must set configRepository' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  'you must set initialDefaultConfig' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  'you must set initialDefaultConfig' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  'you must set cleanerConfig' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  'you must set cleanerConfig' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  'you must set scheduler' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  'you must set scheduler' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00137"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  'you must set brokerTopicStats' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  'you must set brokerTopicStats' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00138"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.LogManagerBuilder.build@POLYN184179 the MagicNumber/String  'you must set logDirFailureChannel' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.LogManagerBuilder.build@POLYN162947 the MagicNumber/String  'you must set logDirFailureChannel' should be converted to const"
 }} 
 ]
 };

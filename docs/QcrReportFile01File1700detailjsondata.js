@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener.apply@POLYN168419 the MagicNumber/String  'rawtypes' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener.apply@POLYN147187 the MagicNumber/String  'rawtypes' should be converted to const"
 }} 
 ]
 };

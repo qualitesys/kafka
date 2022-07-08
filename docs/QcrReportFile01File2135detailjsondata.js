@@ -160,21 +160,21 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.coordinator.NodeManager.ManagedWorker.tryCreate@POLYN220631 the MagicNumber/String  '{}: error creating worker {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.coordinator.NodeManager.ManagedWorker.tryCreate@POLYN199399 the MagicNumber/String  '{}: error creating worker {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.coordinator.NodeManager.ManagedWorker.tryStop@POLYN221045 the MagicNumber/String  '{}: error stopping worker {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.coordinator.NodeManager.ManagedWorker.tryStop@POLYN199813 the MagicNumber/String  '{}: error stopping worker {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00073"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.trogdor.coordinator.NodeManager.ManagedWorker.toString@POLYN221442 the MagicNumber/String  '%s_%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.trogdor.coordinator.NodeManager.ManagedWorker.toString@POLYN200210 the MagicNumber/String  '%s_%d' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -188,28 +188,28 @@ var maDataBlocs = {
    "c1" : "00102"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN222267 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN201035 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN222267 the MagicNumber/String  'NodeManager(' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN201035 the MagicNumber/String  'NodeManager(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00107"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN222267 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN201035 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00108"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN222267 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeManager@POLYN201035 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -223,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00115"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.coordinator.NodeManager.rescheduleNextHeartbeat@POLYN223305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.coordinator.NodeManager.rescheduleNextHeartbeat@POLYN202073 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00116"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.coordinator.NodeManager.rescheduleNextHeartbeat@POLYN223305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.coordinator.NodeManager.rescheduleNextHeartbeat@POLYN202073 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -258,35 +258,35 @@ var maDataBlocs = {
    "c1" : "00128"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN223811 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN202579 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN223811 the MagicNumber/String  '{}: failed to get agent status: ConnectException {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN202579 the MagicNumber/String  '{}: failed to get agent status: ConnectException {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN223811 the MagicNumber/String  '{}: failed to get agent status' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN202579 the MagicNumber/String  '{}: failed to get agent status' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00141"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN223811 the MagicNumber/String  '{}: got heartbeat status {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN202579 the MagicNumber/String  '{}: got heartbeat status {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN223811 the MagicNumber/String  '{}: Unhandled exception in NodeHeartbeatRunnable' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.run@POLYN202579 the MagicNumber/String  '{}: Unhandled exception in NodeHeartbeatRunnable' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -377,42 +377,42 @@ var maDataBlocs = {
    "c1" : "00168"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN225710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN204478 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN225710 the MagicNumber/String  '{}: scheduling unknown worker with ID {} for stopping.' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN204478 the MagicNumber/String  '{}: scheduling unknown worker with ID {} for stopping.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN225710 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN204478 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00183"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN225710 the MagicNumber/String  '{}: worker state is still {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN204478 the MagicNumber/String  '{}: worker state is still {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00185"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN225710 the MagicNumber/String  '{}: worker state changed from {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN204478 the MagicNumber/String  '{}: worker state changed from {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00187"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN225710 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.coordinator.NodeManager.NodeHeartbeat.handlePresentWorkers@POLYN204478 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -433,49 +433,49 @@ var maDataBlocs = {
    "c1" : "00216"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN228649 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN207417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00217"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN228649 the MagicNumber/String  '{}: there is already a worker {} with ID {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN207417 the MagicNumber/String  '{}: there is already a worker {} with ID {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00219"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN228649 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN207417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN228649 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN207417 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00222"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN228649 the MagicNumber/String  '{}: scheduling worker {} to start.' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN207417 the MagicNumber/String  '{}: scheduling worker {} to start.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00224"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN228649 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN207417 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00225"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN228649 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker.call@POLYN207417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -496,63 +496,63 @@ var maDataBlocs = {
    "c1" : "00245"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  '{}: unable to locate worker to stop with ID {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  '{}: unable to locate worker to stop with ID {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00247"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00250"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  '{}: Worker {} is already scheduled to stop.' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  '{}: Worker {} is already scheduled to stop.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00252"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00254"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  '{}: scheduling worker {} to stop.' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  '{}: scheduling worker {} to stop.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00255"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00256"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00257"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN230174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker.call@POLYN208942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -573,35 +573,35 @@ var maDataBlocs = {
    "c1" : "00277"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN231647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN210415 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00278"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN231647 the MagicNumber/String  '{}: unable to locate worker to destroy with ID {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN210415 the MagicNumber/String  '{}: unable to locate worker to destroy with ID {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00279"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN231647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN210415 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00281"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN231647 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN210415 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00282"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN231647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.trogdor.coordinator.NodeManager.DestroyWorker.call@POLYN210415 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -615,14 +615,14 @@ var maDataBlocs = {
    "c1" : "00292"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.trogdor.coordinator.NodeManager.beginShutdown@POLYN232149 the MagicNumber/String  '{}: Failed to send shutdown request' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.trogdor.coordinator.NodeManager.beginShutdown@POLYN210917 the MagicNumber/String  '{}: Failed to send shutdown request' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00298"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.trogdor.coordinator.NodeManager.waitForShutdown@POLYN232573 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.trogdor.coordinator.NodeManager.waitForShutdown@POLYN211341 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

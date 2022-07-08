@@ -603,14 +603,14 @@ var maDataBlocs = {
    "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRebalanceStart@POLYN365221 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRebalanceStart@POLYN343989 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRebalanceComplete@POLYN365496 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRebalanceComplete@POLYN344264 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -638,42 +638,42 @@ var maDataBlocs = {
    "c1" : "00168"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String  'Some additional tasks were found corrupted while trying to commit, these will be added to the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String  'Some additional tasks were found corrupted while trying to commit, these will be added to the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String  'tasks to clean and revive: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String  'tasks to clean and revive: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String  'Hit TimeoutException when committing all non-corrupted tasks, these will be closed and revived' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String  'Hit TimeoutException when committing all non-corrupted tasks, these will be closed and revived' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -687,7 +687,7 @@ var maDataBlocs = {
    "c1" : "00195"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method closeDirtyAndRevive list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN368375"
+ , "c3" : "QC-JAV000007[00195] For method closeDirtyAndRevive list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN347143"
 }} 
 ,
 { "ligne" : {
@@ -736,35 +736,35 @@ var maDataBlocs = {
    "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String  'Error flushing cache for corrupted task {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String  'Error flushing cache for corrupted task {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String  'Error suspending corrupted task {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String  'Error suspending corrupted task {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String  'Expected the current consumer assignment {} to contain the input partitions {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String  'Expected the current consumer assignment {} to contain the input partitions {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String  'Will proceed to recover.' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String  'Will proceed to recover.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -834,77 +834,77 @@ var maDataBlocs = {
    "c1" : "00251"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  'Handle new assignment with:\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  'Handle new assignment with:\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  '\tNew active tasks: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  '\tNew active tasks: {}\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00253"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  '\tNew standby tasks: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  '\tNew standby tasks: {}\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00254"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  '\tExisting active tasks: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  '\tExisting active tasks: {}\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00255"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  '\tExisting standby tasks: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  '\tExisting standby tasks: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00298"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  'Hit exceptions while closing / recycling tasks: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  'Hit exceptions while closing / recycling tasks: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00311"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  'Unexpected failure to close ' should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  'Unexpected failure to close ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00312"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  ' task(s) [' should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  ' task(s) [' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00312"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  ']. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  ']. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00313"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  'First unexpected exception (for task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  'First unexpected exception (for task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00313"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN370172 the MagicNumber/String  ') follows.' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.TaskManager.handleAssignment@POLYN348940 the MagicNumber/String  ') follows.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1037,49 +1037,49 @@ var maDataBlocs = {
    "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN375048 the MagicNumber/String  'Tasks to close-dirty should be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN353816 the MagicNumber/String  'Tasks to close-dirty should be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN375048 the MagicNumber/String  'Task {} should have been committed when it was suspended, but it reports non-empty ' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN353816 the MagicNumber/String  'Task {} should have been committed when it was suspended, but it reports non-empty ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN375048 the MagicNumber/String  'offsets {} to commit; this means it failed during last commit and hence should be closed dirty' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN353816 the MagicNumber/String  'offsets {} to commit; this means it failed during last commit and hence should be closed dirty' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00363"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN375048 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN353816 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00367"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN375048 the MagicNumber/String  'Failed to checkpoint task %s. Attempting to close remaining tasks before re-throwing:' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN353816 the MagicNumber/String  'Failed to checkpoint task %s. Attempting to close remaining tasks before re-throwing:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00386"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#386"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN375048 the MagicNumber/String  'Failed to close task %s cleanly. Attempting to close remaining tasks before re-throwing:' should be converted to const"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN353816 the MagicNumber/String  'Failed to close task %s cleanly. Attempting to close remaining tasks before re-throwing:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00405"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN375048 the MagicNumber/String  'Failed to recycle task %s cleanly. Attempting to close remaining tasks before re-throwing:' should be converted to const"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN353816 the MagicNumber/String  'Failed to recycle task %s cleanly. Attempting to close remaining tasks before re-throwing:' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1093,7 +1093,7 @@ var maDataBlocs = {
    "c1" : "00420"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#420"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00420] For method tryToCompleteRestoration list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; changelogReader_completedChangelogsN380973"
+ , "c3" : "QC-JAV000007[00420] For method tryToCompleteRestoration list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; changelogReader_completedChangelogsN359741"
 }} 
 ,
 { "ligne" : {
@@ -1121,49 +1121,49 @@ var maDataBlocs = {
    "c1" : "00421"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00432"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String  'Could not initialize task {} since: {}; will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String  'Could not initialize task {} since: {}; will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00433"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#433"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00436"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00457"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String  'Could not complete restoration for %s due to the following exception; will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String  'Could not complete restoration for %s due to the following exception; will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00462"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#462"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00467"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#467"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1198,112 +1198,112 @@ var maDataBlocs = {
    "c1" : "00487"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'The following revoked partitions {} are missing from the current task partitions. It could ' should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'The following revoked partitions {} are missing from the current task partitions. It could ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00502"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'potentially be due to race condition of consumer detecting the heartbeat failure, or the tasks ' should be converted to const"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'potentially be due to race condition of consumer detecting the heartbeat failure, or the tasks ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00503"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'have been cleaned up by the handleAssignment callback.' should be converted to const"
+ , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'have been cleaned up by the handleAssignment callback.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00524"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'Some tasks were corrupted when trying to commit offsets, these will be cleaned and revived: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'Some tasks were corrupted when trying to commit offsets, these will be cleaned and revived: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00529"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00531"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'Timed out while trying to commit all tasks during revocation, these will be cleaned and revived' should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'Timed out while trying to commit all tasks during revocation, these will be cleaned and revived' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00537"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'Exception caught while committing those revoked tasks ' should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'Exception caught while committing those revoked tasks ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00538"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00547"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00549"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'Exception caught while post-committing task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'Exception caught while post-committing task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00562"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#562"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00564"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#564"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'Exception caught while post-committing task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'Exception caught while post-committing task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00575"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#575"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  'Caught the following exception while trying to suspend revoked task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  'Caught the following exception while trying to suspend revoked task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00580"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1345,14 +1345,14 @@ var maDataBlocs = {
    "c1" : "00604"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#604"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00604] In method org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN388361 the MagicNumber/String  'Closing lost active tasks as zombies.' should be converted to const"
+ , "c3" : "QC-JAV000010[00604] In method org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN367129 the MagicNumber/String  'Closing lost active tasks as zombies.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00623"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#623"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00623] For method getTaskOffsetSums list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,Long&gt; task_changelogOffsetsN390183|java.io.File stateDirectory_checkpointFileForN390614"
+ , "c3" : "QC-JAV000007[00623] For method getTaskOffsetSums list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,Long&gt; task_changelogOffsetsN368951|java.io.File stateDirectory_checkpointFileForN369382"
 }} 
 ,
 { "ligne" : {
@@ -1394,28 +1394,28 @@ var maDataBlocs = {
    "c1" : "00630"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#630"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN389337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN368105 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00632"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#632"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00632] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN389337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00632] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN368105 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00635"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#635"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN389337 the MagicNumber/String  'Skipping to encode apparently stateless (or non-logged) offset sum for task {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN368105 the MagicNumber/String  'Skipping to encode apparently stateless (or non-logged) offset sum for task {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00646"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#646"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00646] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN389337 the MagicNumber/String  'Exception caught while trying to read checkpoint for task %s:' should be converted to const"
+ , "c3" : "QC-JAV000010[00646] In method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN368105 the MagicNumber/String  'Exception caught while trying to read checkpoint for task %s:' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1457,7 +1457,7 @@ var maDataBlocs = {
    "c1" : "00668"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#668"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToLockAllNonEmptyTaskDirectories@POLYN391501 the MagicNumber/String  'Temporarily locked unassigned task {} for the upcoming rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.streams.processor.internals.TaskManager.tryToLockAllNonEmptyTaskDirectories@POLYN370269 the MagicNumber/String  'Temporarily locked unassigned task {} for the upcoming rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1506,35 +1506,35 @@ var maDataBlocs = {
    "c1" : "00702"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#702"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00713"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#713"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00713] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00713] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00715"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String  'Expected not to get a sentinel offset, but got: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String  'Expected not to get a sentinel offset, but got: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00719"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00720"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String  'Sum of changelog offsets for task {} overflowed, pinning to Long.MAX_VALUE' should be converted to const"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String  'Sum of changelog offsets for task {} overflowed, pinning to Long.MAX_VALUE' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1555,14 +1555,14 @@ var maDataBlocs = {
    "c1" : "00735"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#735"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN394893 the MagicNumber/String  'Error flushing caches of dirty task {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN373661 the MagicNumber/String  'Error flushing caches of dirty task {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00741"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#741"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN394893 the MagicNumber/String  'Error suspending dirty task {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN373661 the MagicNumber/String  'Error suspending dirty task {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1590,63 +1590,63 @@ var maDataBlocs = {
    "c1" : "00753"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#753"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00753] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00762"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#762"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00762] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00762] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00763"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#763"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  'Ignoring an exception while unlocking remaining task directories.' should be converted to const"
+ , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  'Ignoring an exception while unlocking remaining task directories.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00769"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#769"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00769] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00769] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00770"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#770"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00770] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  'Ignoring an exception while closing thread producer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00770] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  'Ignoring an exception while closing thread producer.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00780"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#780"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00780] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00780] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00781"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#781"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  'Ignoring an exception while unlocking remaining task directories.' should be converted to const"
+ , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  'Ignoring an exception while unlocking remaining task directories.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00785"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00786"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#786"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN395826 the MagicNumber/String  'Unexpected exception while closing task' should be converted to const"
+ , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.streams.processor.internals.TaskManager.shutdown@POLYN374594 the MagicNumber/String  'Unexpected exception while closing task' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1660,35 +1660,35 @@ var maDataBlocs = {
    "c1" : "00792"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#792"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN397714 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN376482 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00807"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#807"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN397714 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN376482 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00808"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#808"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN397714 the MagicNumber/String  'Ignoring an exception while closing task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN376482 the MagicNumber/String  'Ignoring an exception while closing task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00808"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#808"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN397714 the MagicNumber/String  ' producer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN376482 the MagicNumber/String  ' producer.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00813"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#813"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00813] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN397714 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00813] In method org.apache.kafka.streams.processor.internals.TaskManager.closeAndCleanUpTasks@POLYN376482 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1758,84 +1758,84 @@ var maDataBlocs = {
    "c1" : "00845"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00845] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00848"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#848"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00848] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00848] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00863"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#863"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00863] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00863] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00865"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#865"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00865] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  'Exception caught while post-committing task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00865] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  'Exception caught while post-committing task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00872"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#872"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00872] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00872] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00877"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#877"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00888"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#888"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00888] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  'Exception caught while committing tasks during shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00888] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  'Exception caught while committing tasks during shutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00889"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#889"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00889] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00889] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00902"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#902"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00902] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  'Exception caught while clean-closing task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00902] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  'Exception caught while clean-closing task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00904"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#904"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00904] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00904] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00907"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#907"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00907] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  'Exception caught while clean-closing task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00907] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  'Exception caught while clean-closing task ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00908"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#908"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00908] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN399293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00908] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN378061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1863,7 +1863,7 @@ var maDataBlocs = {
    "c1" : "00929"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#929"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00929] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanStandbyTasks@POLYN405003 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00929] In method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanStandbyTasks@POLYN383771 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1891,28 +1891,28 @@ var maDataBlocs = {
    "c1" : "01000"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1000"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN408631 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN387399 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1001"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01001] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN408631 the MagicNumber/String  'Unable to locate active task for received-record partition {}. Current tasks: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01001] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN387399 the MagicNumber/String  'Unable to locate active task for received-record partition {}. Current tasks: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01002"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1002"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01002] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN408631 the MagicNumber/String  '&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01002] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN387399 the MagicNumber/String  '&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01003"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1003"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN408631 the MagicNumber/String  'Task was unexpectedly missing for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.streams.processor.internals.TaskManager.addRecordsToTasks@POLYN387399 the MagicNumber/String  'Task was unexpectedly missing for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1933,21 +1933,21 @@ var maDataBlocs = {
    "c1" : "01021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1021"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01021] In method org.apache.kafka.streams.processor.internals.TaskManager.commit@POLYN410147 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01021] In method org.apache.kafka.streams.processor.internals.TaskManager.commit@POLYN388915 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1038"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCommitActiveTasksPerUserRequested@POLYN410962 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCommitActiveTasksPerUserRequested@POLYN389730 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1045"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01045] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCommitActiveTasksPerUserRequested@POLYN410962 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01045] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCommitActiveTasksPerUserRequested@POLYN389730 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1961,7 +1961,7 @@ var maDataBlocs = {
    "c1" : "01052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1052"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.streams.processor.internals.TaskManager.commitTasksAndMaybeUpdateCommittableOffsets@POLYN411447 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.streams.processor.internals.TaskManager.commitTasksAndMaybeUpdateCommittableOffsets@POLYN390215 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1989,7 +1989,7 @@ var maDataBlocs = {
    "c1" : "01076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1076"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01076] In method org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN412482 the MagicNumber/String  'Proactively unsubscribing from all topics due to empty topology' should be converted to const"
+ , "c3" : "QC-JAV000010[01076] In method org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN391250 the MagicNumber/String  'Proactively unsubscribing from all topics due to empty topology' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2010,14 +2010,14 @@ var maDataBlocs = {
    "c1" : "01099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1099"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01099] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN412880 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01099] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN391648 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01106"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN412880 the MagicNumber/String  'Caught the following exception while closing tasks from a removed topology:' should be converted to const"
+ , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN391648 the MagicNumber/String  'Caught the following exception while closing tasks from a removed topology:' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2031,7 +2031,7 @@ var maDataBlocs = {
    "c1" : "01111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01111] In method org.apache.kafka.streams.processor.internals.TaskManager.getInputBufferSizeInBytes@POLYN414380 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[01111] In method org.apache.kafka.streams.processor.internals.TaskManager.getInputBufferSizeInBytes@POLYN393148 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2052,7 +2052,7 @@ var maDataBlocs = {
    "c1" : "01134"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01134] For method maybePurgeCommittedRecords list of called methods Object monObjet|org.apache.kafka.clients.admin.DeleteRecordsResult adminClient_deleteRecordsN416535"
+ , "c3" : "QC-JAV000007[01134] For method maybePurgeCommittedRecords list of called methods Object monObjet|org.apache.kafka.clients.admin.DeleteRecordsResult adminClient_deleteRecordsN395303"
 }} 
 ,
 { "ligne" : {
@@ -2066,35 +2066,35 @@ var maDataBlocs = {
    "c1" : "01138"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN415444 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN394212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01140"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01140] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN415444 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01140] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN394212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN415444 the MagicNumber/String  'Previous delete-records request has failed: {}. Try sending the new request now' should be converted to const"
+ , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN394212 the MagicNumber/String  'Previous delete-records request has failed: {}. Try sending the new request now' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01153] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN415444 the MagicNumber/String  'Sent delete-records request: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01153] In method org.apache.kafka.streams.processor.internals.TaskManager.maybePurgeCommittedRecords@POLYN394212 the MagicNumber/String  'Sent delete-records request: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01161"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01161] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416844 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[01161] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395612 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2108,70 +2108,70 @@ var maDataBlocs = {
    "c1" : "01166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01166] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  'TaskManager\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01166] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  'TaskManager\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01167] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  '\tMetadataState:\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01167] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  '\tMetadataState:\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01168"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01168] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  '\tTasks:\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01168] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  '\tTasks:\n' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01171] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  '\t\t' should be converted to const"
+ , "c3" : "QC-JAV000010[01171] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  '\t\t' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01175] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[01175] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  'active' should be converted to const"
+ , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  'active' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  'standby' should be converted to const"
+ , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  'standby' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN416963 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[01177] In method org.apache.kafka.streams.processor.internals.TaskManager.toString@POLYN395731 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2192,14 +2192,14 @@ var maDataBlocs = {
    "c1" : "01199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01199] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeWrapAndSetFirstException@POLYN418621 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01199] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeWrapAndSetFirstException@POLYN397389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeWrapAndSetFirstException@POLYN418621 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.streams.processor.internals.TaskManager.maybeWrapAndSetFirstException@POLYN397389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2255,7 +2255,7 @@ var maDataBlocs = {
    "c1" : "01230"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01230] In method org.apache.kafka.streams.processor.internals.TaskManager.executeAndMaybeSwallow@POLYN419799 the MagicNumber/String  'Ignoring error in unclean {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01230] In method org.apache.kafka.streams.processor.internals.TaskManager.executeAndMaybeSwallow@POLYN398567 the MagicNumber/String  'Ignoring error in unclean {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -2283,392 +2283,392 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN388361"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN367129"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN394893"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN373661"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.tryToLockAllNonEmptyTaskDirectories@POLYN391501"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.tryToLockAllNonEmptyTaskDirectories@POLYN370269"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN412482"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN391250"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.producerClientIds@POLYN418382"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.producerClientIds@POLYN397150"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.producerMetrics@POLYN418260"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.producerMetrics@POLYN397028"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.totalProducerBlockedTime@POLYN364875"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.totalProducerBlockedTime@POLYN343643"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428"
 }} 
 ,
 { "ligne" : {
    "c1" : "00487"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'The following revoked partitions {} are missing from the current task partitions. It could ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'The following revoked partitions {} are missing from the current task partitions. It could ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00502"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#502"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00502] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'potentially be due to race condition of consumer detecting the heartbeat failure, or the tasks ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00502] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'potentially be due to race condition of consumer detecting the heartbeat failure, or the tasks ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00503"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#503"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00503] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'have been cleaned up by the handleAssignment callback.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00503] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'have been cleaned up by the handleAssignment callback.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00524"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'Some tasks were corrupted when trying to commit offsets, these will be cleaned and revived: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'Some tasks were corrupted when trying to commit offsets, these will be cleaned and revived: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00529"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00531"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'Timed out while trying to commit all tasks during revocation, these will be cleaned and revived' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'Timed out while trying to commit all tasks during revocation, these will be cleaned and revived' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#535"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00535] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00535] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00537"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#537"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'Exception caught while committing those revoked tasks ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'Exception caught while committing those revoked tasks ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00538"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#538"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00538] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00538] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00547"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00547] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00547] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00549"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'Exception caught while post-committing task ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'Exception caught while post-committing task ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00562"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#562"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00562] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00562] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00564"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'Exception caught while post-committing task ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'Exception caught while post-committing task ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00575"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00575] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String 'Caught the following exception while trying to suspend revoked task ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00575] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String 'Caught the following exception while trying to suspend revoked task ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00580"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00580] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN382396 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00580] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN361164 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String 'Error flushing cache for corrupted task {} ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String 'Error flushing cache for corrupted task {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String 'Error suspending corrupted task {} ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String 'Error suspending corrupted task {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String 'Expected the current consumer assignment {} to contain the input partitions {}. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String 'Expected the current consumer assignment {} to contain the input partitions {}. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN368127 the MagicNumber/String 'Will proceed to recover.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN346895 the MagicNumber/String 'Will proceed to recover.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#180"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String 'Some additional tasks were found corrupted while trying to commit, these will be added to the ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String 'Some additional tasks were found corrupted while trying to commit, these will be added to the ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#181"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String 'tasks to clean and revive: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String 'tasks to clean and revive: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String 'Hit TimeoutException when committing all non-corrupted tasks, these will be closed and revived' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String 'Hit TimeoutException when committing all non-corrupted tasks, these will be closed and revived' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00191"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN365760 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN344528 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00604"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#604"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN388361 the MagicNumber/String 'Closing lost active tasks as zombies.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN367129 the MagicNumber/String 'Closing lost active tasks as zombies.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00735"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#735"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00735] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN394893 the MagicNumber/String 'Error flushing caches of dirty task {} ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00735] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN373661 the MagicNumber/String 'Error flushing caches of dirty task {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00741"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#741"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00741] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN394893 the MagicNumber/String 'Error suspending dirty task {} ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00741] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN373661 the MagicNumber/String 'Error suspending dirty task {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00668"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00668] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToLockAllNonEmptyTaskDirectories@POLYN391501 the MagicNumber/String 'Temporarily locked unassigned task {} for the upcoming rebalance' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00668] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToLockAllNonEmptyTaskDirectories@POLYN370269 the MagicNumber/String 'Temporarily locked unassigned task {} for the upcoming rebalance' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1076"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01076] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN412482 the MagicNumber/String 'Proactively unsubscribing from all topics due to empty topology' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01076] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN391250 the MagicNumber/String 'Proactively unsubscribing from all topics due to empty topology' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00702"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00702] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String 0L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00702] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00713"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00713] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00713] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00715"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#715"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00715] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String 'Expected not to get a sentinel offset, but got: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00715] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String 'Expected not to get a sentinel offset, but got: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00719"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#719"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00719] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00719] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00720"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#720"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00720] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN393744 the MagicNumber/String 'Sum of changelog offsets for task {} overflowed, pinning to Long.MAX_VALUE' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00720] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN372512 the MagicNumber/String 'Sum of changelog offsets for task {} overflowed, pinning to Long.MAX_VALUE' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00421"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#421"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00432"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#432"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String 'Could not initialize task {} since: {}; will retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String 'Could not initialize task {} since: {}; will retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00433"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#433"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00433] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00433] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00436"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#436"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00457"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String 'Could not complete restoration for %s due to the following exception; will retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String 'Could not complete restoration for %s due to the following exception; will retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00462"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00467"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#467"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00467] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN379660 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00467] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN358428 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 };

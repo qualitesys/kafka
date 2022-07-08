@@ -176,21 +176,21 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshFaultSpec.equals@POLYN187138 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshFaultSpec.equals@POLYN165916 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshFaultSpec.equals@POLYN187138 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshFaultSpec.equals@POLYN165916 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshFaultSpec.equals@POLYN187138 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshFaultSpec.equals@POLYN165916 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -204,7 +204,7 @@ var maDataBlocs = {
    "c1" : "00079"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.KiboshProcess@POLYN188604 the MagicNumber/String  'Can't find file ' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.KiboshProcess@POLYN167382 the MagicNumber/String  'Can't find file ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -239,28 +239,28 @@ var maDataBlocs = {
    "c1" : "00093"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN189480 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN168258 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN189480 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN168258 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN189480 the MagicNumber/String  'Failed to find fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN168258 the MagicNumber/String  'Failed to find fault ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN189480 the MagicNumber/String  '. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN168258 the MagicNumber/String  '. ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -281,7 +281,7 @@ var maDataBlocs = {
    "c1" : "00121"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.KiboshControlFile@POLYN190989 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.KiboshControlFile@POLYN169767 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -309,21 +309,21 @@ var maDataBlocs = {
    "c1" : "00135"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.equals@POLYN191640 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.equals@POLYN170418 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.equals@POLYN191640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.equals@POLYN170418 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00136"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.equals@POLYN191640 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshControlFile.equals@POLYN170418 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -379,7 +379,7 @@ var maDataBlocs = {
    "c1" : "00160"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.fault.Kibosh.findProcessObject@POLYN192629 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.fault.Kibosh.findProcessObject@POLYN171407 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -393,7 +393,7 @@ var maDataBlocs = {
    "c1" : "00168"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#168"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00168] For method addFault list of called methods Object monObjet|org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess findProcessObjectN193381"
+ , "c3" : "QC-JAV000007[00168] For method addFault list of called methods Object monObjet|org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess findProcessObjectN172159"
 }} 
 ,
 { "ligne" : {
@@ -407,21 +407,21 @@ var maDataBlocs = {
    "c1" : "00174"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00174] For method removeFault list of called methods Object monObjet|org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess findProcessObjectN193668"
+ , "c3" : "QC-JAV000007[00174] For method removeFault list of called methods Object monObjet|org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess findProcessObjectN172446"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.Kibosh.addFault@POLYN193251"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.Kibosh.addFault@POLYN172029"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.Kibosh.removeFault@POLYN193538"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.Kibosh.removeFault@POLYN172316"
 }} 
 ]
 };

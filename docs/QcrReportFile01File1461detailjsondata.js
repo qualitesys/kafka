@@ -118,14 +118,14 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN176101 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN154869 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN176101 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN154869 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,7 +153,7 @@ var maDataBlocs = {
    "c1" : "00082"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.util.TranslatedValueMapView.get@POLYN178730 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.util.TranslatedValueMapView.get@POLYN157498 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

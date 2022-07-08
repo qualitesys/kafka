@@ -223,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00412"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.transactionalProducerId@POLYN257795 the MagicNumber/String  'connect-cluster-' should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.transactionalProducerId@POLYN236563 the MagicNumber/String  'connect-cluster-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.connectorOffsetsTopicsPermitted@POLYN258072 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.connectorOffsetsTopicsPermitted@POLYN236840 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,21 +244,21 @@ var maDataBlocs = {
    "c1" : "00438"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#438"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN258680 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN237448 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00438"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#438"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN258680 the MagicNumber/String  'connectconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.main@POLYN237448 the MagicNumber/String  'connectconfigs_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00448"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.getInternalRequestKeyGenerator@POLYN258949 the MagicNumber/String  'Unable to create key generator with algorithm %s and key size %d: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.getInternalRequestKeyGenerator@POLYN237717 the MagicNumber/String  'Unable to create key generator with algorithm %s and key size %d: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -272,49 +272,49 @@ var maDataBlocs = {
    "c1" : "00456"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#456"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00456] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsWithPrefixN259824"
+ , "c3" : "QC-JAV000007[00456] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsWithPrefixN238592"
 }} 
 ,
 { "ligne" : {
    "c1" : "00459"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  'Ignoring '{}{}={}' setting, since config topic partitions is always 1' should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN238458 the MagicNumber/String  'Ignoring '{}{}={}' setting, since config topic partitions is always 1' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00459"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  'partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN238458 the MagicNumber/String  'partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00462"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#462"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN238458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00463"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN259690 the MagicNumber/String  'Ignoring '{}cleanup.policy={}' setting, since compaction is always used' should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN238458 the MagicNumber/String  'Ignoring '{}cleanup.policy={}' setting, since compaction is always used' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00483"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00483] For method validateKeyAlgorithmAndVerificationAlgorithms list of called methods Object monObjet|String getStringN261286|java.util.List&lt;String&gt; getListN261393"
+ , "c3" : "QC-JAV000007[00483] For method validateKeyAlgorithmAndVerificationAlgorithms list of called methods Object monObjet|String getStringN240054|java.util.List&lt;String&gt; getListN240161"
 }} 
 ,
 { "ligne" : {
    "c1" : "00490"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateKeyAlgorithmAndVerificationAlgorithms@POLYN261215 the MagicNumber/String  'Key generation algorithm must be present in %s list' should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateKeyAlgorithmAndVerificationAlgorithms@POLYN239983 the MagicNumber/String  'Key generation algorithm must be present in %s list' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -335,7 +335,7 @@ var maDataBlocs = {
    "c1" : "00500"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateSignatureAlgorithms@POLYN261732 the MagicNumber/String  'At least one signature verification algorithm must be provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.validateSignatureAlgorithms@POLYN240500 the MagicNumber/String  'At least one signature verification algorithm must be provided' should be converted to const"
 }} 
 ,
 { "ligne" : {

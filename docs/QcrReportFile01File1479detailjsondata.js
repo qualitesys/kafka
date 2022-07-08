@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.shell.NoOpCommandHandler.hashCode@POLYN163342 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.shell.NoOpCommandHandler.hashCode@POLYN142110 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -139,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.NoOpCommandHandler.equals@POLYN163444 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.NoOpCommandHandler.equals@POLYN142212 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.NoOpCommandHandler.equals@POLYN163444 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.NoOpCommandHandler.equals@POLYN142212 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {

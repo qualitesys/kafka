@@ -2105,6 +2105,7 @@ var mavar =
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"ProduceBenchWorker" , "nbMethodes":"3" , "nbComplexite":"1.67"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"RandomComponent" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"RandomComponentPayloadGenerator" , "nbMethodes":"4" , "nbComplexite":"2.50"} ,' + 
+' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"RecordProcessor" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"RoundTripWorker" , "nbMethodes":"3" , "nbComplexite":"1.67"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"RoundTripWorkloadSpec" , "nbMethodes":"13" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"SequentialPayloadGenerator" , "nbMethodes":"4" , "nbComplexite":"1.00"} ,' + 
@@ -2117,6 +2118,7 @@ var mavar =
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"TimestampRandomPayloadGenerator" , "nbMethodes":"4" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"TimestampRecordProcessor" , "nbMethodes":"7" , "nbComplexite":"1.15"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"TopicsSpec" , "nbMethodes":"6" , "nbComplexite":"1.34"} ,' + 
+' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"TransactionGenerator" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"UniformRandomPayloadGenerator" , "nbMethodes":"5" , "nbComplexite":"1.61"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.workload" , "classe":"UniformTransactionsGenerator" , "nbMethodes":"3" , "nbComplexite":"2.00"} ,' + 
 ' { } ' +

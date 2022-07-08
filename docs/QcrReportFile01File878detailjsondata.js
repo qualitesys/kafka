@@ -141,28 +141,28 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN167597 the MagicNumber/String  'key.serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146365 the MagicNumber/String  'key.serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN167597 the MagicNumber/String  'value.serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146365 the MagicNumber/String  'value.serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN167597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146365 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN167597 the MagicNumber/String  'serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146365 the MagicNumber/String  'serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -176,49 +176,49 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN168295 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147063 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN168295 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147063 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN168295 the MagicNumber/String  'Error when serializing UUID to byte[] due to unsupported encoding ' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147063 the MagicNumber/String  'Error when serializing UUID to byte[] due to unsupported encoding ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN168295"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147063"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN168295 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147063 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#29"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN168295 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147063 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#33"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN168295 the MagicNumber/String 'Error when serializing UUID to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147063 the MagicNumber/String 'Error when serializing UUID to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
 }} 
 ]
 };

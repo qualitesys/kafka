@@ -97,133 +97,133 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN175312 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN154080 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN175312 the MagicNumber/String  0xffffffff should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN154080 the MagicNumber/String  0xffffffff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN175312 the MagicNumber/String  2862933555777941757L should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN154080 the MagicNumber/String  2862933555777941757L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN175312 the MagicNumber/String  3037000493L should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInHashMap@POLYN154080 the MagicNumber/String  3037000493L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN176097 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN154865 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN176097 the MagicNumber/String  0xffffffff should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN154865 the MagicNumber/String  0xffffffff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN176097 the MagicNumber/String  2862933555777941757L should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN154865 the MagicNumber/String  2862933555777941757L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN176097 the MagicNumber/String  3037000493L should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesInTimelineMap@POLYN154865 the MagicNumber/String  3037000493L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  0xffffffff should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  0xffffffff should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  2862933555777941757L should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  2862933555777941757L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  3037000493L should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  3037000493L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00066"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN177016 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark.testAddEntriesWithSnapshots@POLYN155784 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

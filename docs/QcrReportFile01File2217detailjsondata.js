@@ -118,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.SequentialPayloadGenerator@POLYN167897 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.SequentialPayloadGenerator@POLYN146665 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -139,14 +139,14 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN168630 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN147398 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN168630 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN147398 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

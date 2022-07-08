@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.trogdor.workload.RecordProcessor
+class org.apache.kafka.trogdor.workload.RecordProcessor {
++  processRecords(ConsumerRecords<byte[],byte[]>)
++  processorStatus()
+} 
+@enduml

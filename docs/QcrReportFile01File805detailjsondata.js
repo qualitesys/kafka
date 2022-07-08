@@ -125,7 +125,7 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN170793 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN149561 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN171543 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN150311 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -160,35 +160,35 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00036] For method create list of called methods Object monObjet|Integer cu_validateIntegerN172474|String cu_validateStringN172592|String cu_validateStringN172710|String cu_validateStringN172804"
+ , "c3" : "QC-JAV000007[00036] For method create list of called methods Object monObjet|Integer cu_validateIntegerN151242|String cu_validateStringN151360|String cu_validateStringN151478|String cu_validateStringN151572"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN171789 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN150557 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN171789 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN150557 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN171789 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN150557 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN171789 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory.create@POLYN150557 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

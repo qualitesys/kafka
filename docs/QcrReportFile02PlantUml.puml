@@ -8717,6 +8717,10 @@ class org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator {
 Nb methods :4
 Complexity :2.50
 }
+class org.apache.kafka.trogdor.workload.RecordProcessor {
+Nb methods :2
+Complexity :1.00
+}
 class org.apache.kafka.trogdor.workload.RoundTripWorker {
 Nb methods :3
 Complexity :1.67
@@ -8764,6 +8768,10 @@ Complexity :1.15
 class org.apache.kafka.trogdor.workload.TopicsSpec {
 Nb methods :6
 Complexity :1.34
+}
+class org.apache.kafka.trogdor.workload.TransactionGenerator {
+Nb methods :1
+Complexity :1.00
 }
 class org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator {
 Nb methods :5

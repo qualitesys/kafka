@@ -2722,8 +2722,10 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.trogdor.workload.Histogram" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.workload.PayloadGenerator" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.workload.RandomComponent" }, 
+  { "child"  : "(1) org.apache.kafka.trogdor.workload.RecordProcessor" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.workload.Throttle" }, 
   { "child"  : "(1) org.apache.kafka.trogdor.workload.ThroughputGenerator" }, 
+  { "child"  : "(1) org.apache.kafka.trogdor.workload.TransactionGenerator" }, 
 ]
 }},
 {"ligne" : {
@@ -12228,6 +12230,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) org.apache.kafka.trogdor.workload.RecordProcessor" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.consumer.internals.NoOpConsumerRebalanceListener" ,
 "children" : [
 ]
@@ -12324,6 +12331,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.processor.internals.metrics.TopicMetrics" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.trogdor.workload.TransactionGenerator" ,
 "children" : [
 ]
 }},

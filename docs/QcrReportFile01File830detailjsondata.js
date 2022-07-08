@@ -76,28 +76,28 @@ var maDataBlocs = {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServerProvider.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN163751 the MagicNumber/String  'Simple SASL/PLAIN Server Provider' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN142519 the MagicNumber/String  'Simple SASL/PLAIN Server Provider' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServerProvider.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN163751 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN142519 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServerProvider.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN163751 the MagicNumber/String  'Simple SASL/PLAIN Server Provider for Kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN142519 the MagicNumber/String  'Simple SASL/PLAIN Server Provider for Kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServerProvider.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN163751 the MagicNumber/String  'SaslServerFactory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN142519 the MagicNumber/String  'SaslServerFactory.' should be converted to const"
 }} 
 ]
 };

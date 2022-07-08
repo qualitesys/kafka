@@ -148,14 +148,14 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00034] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,Integer&gt; errorCountsN171900"
+ , "c3" : "QC-JAV000007[00034] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,Integer&gt; errorCountsN150668"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.requests.StopReplicaResponse.errorCounts@POLYN171514 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.requests.StopReplicaResponse.errorCounts@POLYN150282 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -169,14 +169,14 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.partitionErrors@POLYN171212"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.partitionErrors@POLYN149980"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.toString@POLYN172793"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.toString@POLYN151561"
 }} 
 ]
 };

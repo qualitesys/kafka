@@ -190,21 +190,21 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.cancel@POLYN176931 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.cancel@POLYN155699 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isCancelled@POLYN177055 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isCancelled@POLYN155823 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN177157 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN155925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -225,21 +225,21 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN177464 the MagicNumber/String  'Timeout after waiting for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN156232 the MagicNumber/String  'Timeout after waiting for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN177464 the MagicNumber/String  ' ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN156232 the MagicNumber/String  ' ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN177464 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.get@POLYN156232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -253,70 +253,70 @@ var maDataBlocs = {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.chain@POLYN178650 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.chain@POLYN157418 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.valueOrError@POLYN178900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.valueOrError@POLYN157668 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.value@POLYN179239 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.value@POLYN158007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isDone@POLYN179860 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isDone@POLYN158628 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.FutureRecordMetadata.value@POLYN179239"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.FutureRecordMetadata.value@POLYN158007"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.FutureRecordMetadata.chain@POLYN178650"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.FutureRecordMetadata.chain@POLYN157418"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isDone@POLYN179860"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isDone@POLYN158628"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.value@POLYN179239 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.value@POLYN158007 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.chain@POLYN178650 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.chain@POLYN157418 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isDone@POLYN179860 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.clients.producer.internals.FutureRecordMetadata.isDone@POLYN158628 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -44,7 +44,7 @@ function genererBloc00() {
       leEntry.push('Files')
       lsStr+='<h3><a name="files">Files</a></h3><br />';
       lsStr+='<a href="'+calculerUrl('link',maDataBlocs.data00.fic1)+'">'+maDataBlocs.data00.texte+'</a>';
-      lsStr+='<br /><a href="'+calculerUrl('link',maDataBlocs.data00.fic2)+'">'+'Link to XML File 1470kb'+'</a>';
+      lsStr+='<br /><a href="'+calculerUrl('link',maDataBlocs.data00.fic2)+'">'+'Link to XML File 1166kb'+'</a>';
       lsStr+='';
       var theDivBloc00 = document.getElementById("theDivBloc00");  
 

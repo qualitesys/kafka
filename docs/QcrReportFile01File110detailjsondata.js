@@ -111,28 +111,28 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.admin.ListOffsetsResult.partitionResult@POLYN174541 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.admin.ListOffsetsResult.partitionResult@POLYN153309 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.ListOffsetsResult.partitionResult@POLYN174541 the MagicNumber/String  'List Offsets for partition \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.ListOffsetsResult.partitionResult@POLYN153309 the MagicNumber/String  'List Offsets for partition \'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.ListOffsetsResult.partitionResult@POLYN174541 the MagicNumber/String  '\' was not attempted' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.ListOffsetsResult.partitionResult@POLYN153309 the MagicNumber/String  '\' was not attempted' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.ListOffsetsResult.all@POLYN175097 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.ListOffsetsResult.all@POLYN153865 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,28 +146,28 @@ var maDataBlocs = {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN177058 the MagicNumber/String  'ListOffsetsResultInfo(offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN155826 the MagicNumber/String  'ListOffsetsResultInfo(offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN177058 the MagicNumber/String  ', timestamp=' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN155826 the MagicNumber/String  ', timestamp=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN177058 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN155826 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN177058 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo.toString@POLYN155826 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };
