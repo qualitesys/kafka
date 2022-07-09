@@ -2,7 +2,6 @@
 !pragma layout smetana
 KStreamAggProcessorSupplier<KIn,VIn,Windowed<KIn>,VAgg> <|-- org.apache.kafka.streams.kstream.internals.KStreamWindowAggregate
 class org.apache.kafka.streams.kstream.internals.KStreamWindowAggregate {
-+  KStreamWindowAggregate(Windows<W>;String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)
 +  KStreamWindowAggregate(Windows<W>;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)
 +  get()
 +  windows()

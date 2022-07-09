@@ -1,53 +1,39 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html" 
- , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java 0 rule violation " 
- , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.xml" 
+   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java.html" 
+ , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java 0 rule violation " 
+ , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "Configurable"
- , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteStorageManager"
+   "c1" : "Exception"
+ , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteStorageManager" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "copyLogSegmentData(RemoteLogSegmentMetadata;LogSegmentData)"
+   "c1" : "RemoteStorageException"
+ , "c2" : "RemoteStorageException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "InputStream"
- , "c2" : "fetchLogSegment(RemoteLogSegmentMetadata;int)"
+   "c1" : "RemoteStorageException"
+ , "c2" : "RemoteStorageException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "InputStream"
- , "c2" : "fetchLogSegment(RemoteLogSegmentMetadata;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "InputStream"
- , "c2" : "fetchIndex(RemoteLogSegmentMetadata;IndexType)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "deleteLogSegmentData(RemoteLogSegmentMetadata)"
+   "c1" : "RemoteStorageException"
+ , "c2" : "RemoteStorageException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,9 +42,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.png" 
+   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java.png" 
 
- , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.svg" }
+ , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java.svg" }
 
 ] 
 , 

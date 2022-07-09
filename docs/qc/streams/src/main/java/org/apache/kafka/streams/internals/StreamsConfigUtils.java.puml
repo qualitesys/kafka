@@ -6,6 +6,5 @@ class org.apache.kafka.streams.internals.StreamsConfigUtils {
 +  processingModeString(ProcessingMode)
 +  eosEnabled(StreamsConfig)
 +  eosEnabled(ProcessingMode)
-+  getTotalCacheSize(StreamsConfig)
 } 
 @enduml

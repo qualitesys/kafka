@@ -3,6 +3,8 @@
 AbstractOptions<ListConsumerGroupOffsetsOptions> <|-- org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions
 class org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions {
 +  topicPartitions(List<TopicPartition>)
++  requireStable(boolean)
 +  topicPartitions()
++  requireStable()
 } 
 @enduml

@@ -129,80 +129,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#12"
+   "c1" : "00011"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class DefaultPartitioner contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00011] The class DefaultPartitioner contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#16"
+   "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00015] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#19"
+   "c1" : "00018"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#18"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster"
+ , "c3" : "QC-JAV000006[00018] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#19"
+   "c1" : "00018"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#18"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00019] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00018] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#24"
+   "c1" : "00023"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#23"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster|int  numPartitions"
+ , "c3" : "QC-JAV000006[00023] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster|int  numPartitions"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#26"
+   "c1" : "00025"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.producer.internals.DefaultPartitioner.partition@POLYN156242 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.producer.internals.DefaultPartitioner.partition@POLYN155751 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#37"
+   "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method onNewBatch arguments String  topic|Cluster  cluster|int  prevPartition"
+ , "c3" : "QC-JAV000006[00035] For method onNewBatch arguments String  topic|Cluster  cluster|int  prevPartition"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#16"
+   "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00016] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00015] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#16"
+   "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00016] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00015] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#33"
+   "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00033] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00031] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {
-   "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#33"
+   "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00033] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00031] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 };

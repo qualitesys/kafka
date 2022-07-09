@@ -1,83 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java 13 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/UnattachedState.java 15 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.raft.ValidOffsetAndEpoch"
+   "c1" : "EpochState"
+ , "c2" : "org.apache.kafka.raft.UnattachedState"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.ValidOffsetAndEpoch" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.UnattachedState" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "ValidOffsetAndEpoch"
- , "c2" : "ValidOffsetAndEpoch(Kind;OffsetAndEpoch)"
+   "c1" : "UnattachedState"
+ , "c2" : "UnattachedState(Time;int;Set<Integer>;Optional<LogOffsetMetadata>;long;LogContext)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ElectionState"
+ , "c2" : "election()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "epoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "electionTimeoutMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "remainingElectionTimeMs(long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Kind"
- , "c2" : "kind()"
+   "c1" : "boolean"
+ , "c2" : "hasElectionTimeoutExpired(long)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : {
-   "c1" : "OffsetAndEpoch"
- , "c2" : "offsetAndEpoch()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ValidOffsetAndEpoch"
- , "c2" : "diverging(OffsetAndEpoch)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ValidOffsetAndEpoch"
- , "c2" : "snapshot(OffsetAndEpoch)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ValidOffsetAndEpoch"
- , "c2" : "valid(OffsetAndEpoch)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ValidOffsetAndEpoch"
- , "c2" : "valid()"
+   "c1" : "Optional<LogOffsetMetadata>"
+ , "c2" : "highWatermark()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "canGrantVote(int;boolean)"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : {
@@ -86,14 +86,21 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.svg" }
 
 ] 
 , 
@@ -121,9 +128,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
  , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -137,114 +158,121 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00006"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#6"
+   "c1" : "00014"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class ValidOffsetAndEpoch contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class UnattachedState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00027"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27"
+   "c1" : "00023"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#23"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00023] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00028"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#28"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00028] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.raft.UnattachedState.name@POLYN152107 the MagicNumber/String  'Unattached' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00062"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method diverging arguments OffsetAndEpoch  offsetAndEpoch"
+ , "c3" : "QC-JAV000006[00062] For method remainingElectionTimeMs arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00031"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31"
+   "c1" : "00067"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method snapshot arguments OffsetAndEpoch  offsetAndEpoch"
+ , "c3" : "QC-JAV000006[00067] For method hasElectionTimeoutExpired arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35"
+   "c1" : "00078"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method valid arguments OffsetAndEpoch  offsetAndEpoch"
+ , "c3" : "QC-JAV000006[00078] For method canGrantVote arguments int  candidateId|boolean  isLogUpToDate"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#40"
+   "c1" : "00080"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147435 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.UnattachedState.canGrantVote@POLYN152814 the MagicNumber/String  'Rejecting vote request from candidate {} since candidate epoch/offset is not up to date with us' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#40"
+   "c1" : "00088"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147435 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.UnattachedState.toString@POLYN153117 the MagicNumber/String  'Unattached(' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00044"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method equals arguments Object  obj"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
+   "c1" : "00089"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00046] The same method call obj.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.raft.UnattachedState.toString@POLYN153117 the MagicNumber/String  'epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00045"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#45"
+   "c1" : "00090"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.raft.UnattachedState.toString@POLYN153117 the MagicNumber/String  ', voters=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
+   "c1" : "00091"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.UnattachedState.toString@POLYN153117 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
+   "c1" : "00092"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.raft.UnattachedState.toString@POLYN153117 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00060"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ValidOffsetAndEpoch.toString@POLYN148362 the MagicNumber/String  'ValidOffsetAndEpoch(kind=%s, offsetAndEpoch=%s)' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00039"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39"
+   "c1" : "00096"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#96"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00039] Public method valid is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000005[00096] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00096"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#96"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00096] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 };

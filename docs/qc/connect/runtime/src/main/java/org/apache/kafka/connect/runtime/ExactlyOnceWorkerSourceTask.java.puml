@@ -15,6 +15,7 @@ class org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask {
 +  recordSent(SourceRecord;ProducerRecord<byte[],byte[]>;RecordMetadata)
 +  producerSendFailed(boolean;ProducerRecord<byte[],byte[]>;SourceRecord;Exception)
 +  finalOffsetCommit(boolean)
++  removeMetrics()
 +  onPause()
 +  maybeBeginTransaction()
 +  commitTransaction()

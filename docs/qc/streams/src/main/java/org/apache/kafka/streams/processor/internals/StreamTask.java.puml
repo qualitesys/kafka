@@ -21,7 +21,7 @@ class org.apache.kafka.streams.processor.internals.StreamTask {
 +  closeDirty()
 +  updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)
 +  closeCleanAndRecycleState()
-+  maybeWriteCheckpoint(boolean)
++  maybeCheckpoint(boolean)
 +  validateClean()
 +  removeAllSensors()
 +  close(boolean)
@@ -59,8 +59,6 @@ class org.apache.kafka.streams.processor.internals.StreamTask {
 +  updateEndOffsets(TopicPartition;Long)
 +  hasRecordsQueued()
 +  recordCollector()
-+  getNonEmptyTopicPartitions()
-+  totalBytesBuffered()
 +  numBuffered()
 +  streamTime()
 } 

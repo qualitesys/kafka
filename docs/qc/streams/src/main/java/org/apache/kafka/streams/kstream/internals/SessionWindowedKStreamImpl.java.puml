@@ -7,6 +7,7 @@ class org.apache.kafka.streams.kstream.internals.SessionWindowedKStreamImpl {
 +  count(Named)
 +  count(Materialized<K,Long,SessionStore<Bytes,byte[]>>)
 +  count(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)
++  emitStrategy(EmitStrategy)
 +  doCount(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)
 +  reduce(Reducer<V>)
 +  reduce(Reducer<V>;Named)

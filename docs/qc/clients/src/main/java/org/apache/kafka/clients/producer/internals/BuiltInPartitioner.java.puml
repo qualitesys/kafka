@@ -9,5 +9,6 @@ class org.apache.kafka.clients.producer.internals.BuiltInPartitioner {
 +  isPartitionChanged(StickyPartitionInfo)
 +  updatePartitionInfo(StickyPartitionInfo;int;Cluster)
 +  updatePartitionLoadStats(int[];int[];int)
++  partitionForKey(byte[];int)
 } 
 @enduml

@@ -4,8 +4,8 @@ AbstractResponse <|-- org.apache.kafka.common.requests.CreateDelegationTokenResp
 class org.apache.kafka.common.requests.CreateDelegationTokenResponse {
 +  CreateDelegationTokenResponse(CreateDelegationTokenResponseData)
 +  parse(ByteBuffer;short)
-+  prepareResponse(int;Errors;KafkaPrincipal;long;long;long;String;ByteBuffer)
-+  prepareResponse(int;Errors;KafkaPrincipal)
++  prepareResponse(int;int;Errors;KafkaPrincipal;KafkaPrincipal;long;long;long;String;ByteBuffer)
++  prepareResponse(int;int;Errors;KafkaPrincipal;KafkaPrincipal)
 +  data()
 +  errorCounts()
 +  throttleTimeMs()

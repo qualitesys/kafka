@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.resources.ConnectResource
+class org.apache.kafka.connect.runtime.rest.resources.ConnectResource {
++  requestTimeout(long)
+} 
+@enduml

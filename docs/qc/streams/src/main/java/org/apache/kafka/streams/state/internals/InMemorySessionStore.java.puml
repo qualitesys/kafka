@@ -10,6 +10,7 @@ class org.apache.kafka.streams.state.internals.InMemorySessionStore {
 +  put(Windowed<Bytes>;byte[])
 +  remove(Windowed<Bytes>)
 +  fetchSession(Bytes;long;long)
++  findSessions(long;long)
 +  findSessions(Bytes;long;long)
 +  backwardFindSessions(Bytes;long;long)
 +  findSessions(Bytes;Bytes;long;long)

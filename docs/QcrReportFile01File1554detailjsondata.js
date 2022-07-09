@@ -1,32 +1,32 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreNotAvailableException.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/StateStoreNotAvailableException.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreNotAvailableException.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "InvalidStateStoreException"
- , "c2" : "org.apache.kafka.streams.errors.StateStoreNotAvailableException"
+ , "c2" : "org.apache.kafka.streams.errors.StateStoreMigratedException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.StateStoreNotAvailableException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.StateStoreMigratedException" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "StateStoreNotAvailableException"
- , "c2" : "StateStoreNotAvailableException(String)"
+   "c1" : "StateStoreMigratedException"
+ , "c2" : "StateStoreMigratedException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "StateStoreNotAvailableException"
- , "c2" : "StateStoreNotAvailableException(String;Throwable)"
+   "c1" : "StateStoreMigratedException"
+ , "c2" : "StateStoreMigratedException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -35,9 +35,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreNotAvailableException.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreNotAvailableException.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.svg" }
 
 ] 
 , 

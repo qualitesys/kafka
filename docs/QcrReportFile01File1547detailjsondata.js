@@ -1,39 +1,32 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/LockException.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "StreamsException"
- , "c2" : "org.apache.kafka.streams.errors.LockException"
+   "c1" : "InvalidStateStoreException"
+ , "c2" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.LockException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "LockException"
- , "c2" : "LockException(String)"
+   "c1" : "InvalidStateStorePartitionException"
+ , "c2" : "InvalidStateStorePartitionException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "LockException"
- , "c2" : "LockException(String;Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "LockException"
- , "c2" : "LockException(Throwable)"
+   "c1" : "InvalidStateStorePartitionException"
+ , "c2" : "InvalidStateStorePartitionException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -42,9 +35,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.svg" }
 
 ] 
 , 

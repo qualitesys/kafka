@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java 2 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java 3 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.xml" 
  , "fic3"  : "" 
 }
@@ -27,6 +27,20 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "List<KafkaPrincipal>"
  , "c2" : "renewers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "CreateDelegationTokenOptions"
+ , "c2" : "owner(KafkaPrincipal)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Optional<KafkaPrincipal>"
+ , "c2" : "owner()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -81,23 +95,30 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#17"
+   "c1" : "00019"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#19"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method renewers arguments List&lt;KafkaPrincipal &gt;  renewers"
+ , "c3" : "QC-JAV000006[00019] For method renewers arguments List&lt;KafkaPrincipal &gt;  renewers"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#26"
+   "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method maxlifeTimeMs arguments long  maxLifeTimeMs"
+ , "c3" : "QC-JAV000006[00028] For method owner arguments KafkaPrincipal  owner"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#37"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00037] For method maxlifeTimeMs arguments long  maxLifeTimeMs"
 }} 
 ]
 };

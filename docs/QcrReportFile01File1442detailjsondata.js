@@ -1,41 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java 11 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java 6 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "SnapshotWriter<T>"
- , "c2" : "org.apache.kafka.snapshot.RecordsSnapshotWriter"
+   "c1" : "SnapshotReader<T>"
+ , "c2" : "org.apache.kafka.snapshot.RecordsSnapshotReader"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.snapshot.RecordsSnapshotWriter" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.snapshot.RecordsSnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "RecordsSnapshotWriter"
- , "c2" : "RecordsSnapshotWriter(RawSnapshotWriter;int;MemoryPool;Time;long;CompressionType;RecordSerde<T>)"
+   "c1" : "RecordsSnapshotReader"
+ , "c2" : "RecordsSnapshotReader(OffsetAndEpoch;RecordsIterator<T>)"
  , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "initializeSnapshotWithHeader()"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "finalizeSnapshotWithFooter()"
- , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : {
@@ -60,23 +46,23 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "boolean"
- , "c2" : "isFrozen()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "append(List<T>)"
- , "c3" : "3"
+   "c1" : "long"
+ , "c2" : "lastContainedLogTimestamp()"
+ , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "freeze()"
- , "c3" : "1"
+   "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Batch<T>"
+ , "c2" : "next()"
+ , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
@@ -84,23 +70,23 @@ var maDataBlocs = {
    "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "appendBatches(List<CompletedBatch<T>>)"
- , "c3" : "2"
- , "c4" : "2"
+   "c1" : "Optional<Batch<T>>"
+ , "c2" : "nextBatch()"
+ , "c3" : "4"
+ , "c4" : "4"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.svg" }
 
 ] 
 , 
@@ -130,7 +116,14 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "3"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -144,93 +137,51 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
-}}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00020"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#20"
+   "c1" : "00015"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00020] The class RecordsSnapshotWriter contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class RecordsSnapshotReader contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00027"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#27"
+   "c1" : "00037"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN153832 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00051"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN154072 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN154849 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00089"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#89"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00089] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00041"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#41"
+   "c1" : "00103"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.RecordsSnapshotWriter@POLYN163898 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN164718 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN164718 the MagicNumber/String  'Initializing writer with a non-empty snapshot: id = '%s'.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#78"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00078] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00108"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.lastContainedLogOffset@POLYN167133 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00122"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method append arguments List&lt;T &gt;  records"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN167533 the MagicNumber/String  'Append not supported. Snapshot is already frozen: id = '%s'.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00153"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method appendBatches arguments List&lt;CompletedBatch&lt;T &gt; &gt;  batches"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00153"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#153"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00153] The argument batches is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
 };

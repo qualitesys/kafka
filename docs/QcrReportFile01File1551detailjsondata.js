@@ -1,39 +1,25 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/ProcessorStateException.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/ProcessorStateException.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/ProcessorStateException.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "StreamsException"
- , "c2" : "org.apache.kafka.streams.errors.ProcessorStateException"
+ , "c2" : "org.apache.kafka.streams.errors.MissingSourceTopicException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.ProcessorStateException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.MissingSourceTopicException" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "ProcessorStateException"
- , "c2" : "ProcessorStateException(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ProcessorStateException"
- , "c2" : "ProcessorStateException(String;Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ProcessorStateException"
- , "c2" : "ProcessorStateException(Throwable)"
+   "c1" : "MissingSourceTopicException"
+ , "c2" : "MissingSourceTopicException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -42,9 +28,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/ProcessorStateException.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/ProcessorStateException.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.svg" }
 
 ] 
 , 

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.SessionTupleForwarder
-class org.apache.kafka.streams.kstream.internals.SessionTupleForwarder {
-+  SessionTupleForwarder(StateStore;ProcessorContext<Windowed<K>,Change<V>>;CacheFlushListener<Windowed<K>,V>;boolean)
-+  maybeForward(Record<Windowed<K>,Change<V>>)
-} 
-@enduml

@@ -4,6 +4,8 @@ AbstractOptions<CreateDelegationTokenOptions> <|-- org.apache.kafka.clients.admi
 class org.apache.kafka.clients.admin.CreateDelegationTokenOptions {
 +  renewers(List<KafkaPrincipal>)
 +  renewers()
++  owner(KafkaPrincipal)
++  owner()
 +  maxlifeTimeMs(long)
 +  maxlifeTimeMs()
 } 

@@ -53,10 +53,10 @@
 <a name="53">53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;final&nbsp;Logger&nbsp;log&nbsp;=&nbsp;LoggerFactory.getLogger(WorkerTask.class);</a><br/>
 <a name="54">54&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;final&nbsp;String&nbsp;THREAD_NAME_PREFIX&nbsp;=&nbsp;"task-thread-";</a><br/>
 <a name="55">55&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="56">56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;protected&nbsp;final&nbsp;ConnectorTaskId&nbsp;id;</a><br/>
-<a name="57">57&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;final&nbsp;TaskStatus.Listener&nbsp;statusListener;</a><br/>
-<a name="58">58&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;protected&nbsp;final&nbsp;ClassLoader&nbsp;loader;</a><br/>
-<a name="59">59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;final&nbsp;StatusBackingStore&nbsp;statusBackingStore;</a><br/>
+<a name="56">56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;final&nbsp;TaskStatus.Listener&nbsp;statusListener;</a><br/>
+<a name="57">57&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;final&nbsp;StatusBackingStore&nbsp;statusBackingStore;</a><br/>
+<a name="58">58&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;protected&nbsp;final&nbsp;ConnectorTaskId&nbsp;id;</a><br/>
+<a name="59">59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;protected&nbsp;final&nbsp;ClassLoader&nbsp;loader;</a><br/>
 <a name="60">60&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;protected&nbsp;final&nbsp;Time&nbsp;time;</a><br/>
 <a name="61">61&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;final&nbsp;CountDownLatch&nbsp;shutdownLatch&nbsp;=&nbsp;new&nbsp;CountDownLatch(1);</a><br/>
 <a name="62">62&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;final&nbsp;TaskMetricsGroup&nbsp;taskMetricsGroup;</a><br/>

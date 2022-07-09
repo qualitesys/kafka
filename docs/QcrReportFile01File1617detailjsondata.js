@@ -1,25 +1,25 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapperWithKey.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapperWithKey.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapperWithKey.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapper.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapper.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapper.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.kstream.ValueMapperWithKey"
+ , "c2" : "org.apache.kafka.streams.kstream.ValueMapper"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.ValueMapperWithKey" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.ValueMapper" , "link" : "" , "methodes" : [ 
 { "ligne" : {
    "c1" : "VR"
- , "c2" : "apply(K;V)"
+ , "c2" : "apply(V)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -28,9 +28,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapperWithKey.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapper.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapperWithKey.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapper.java.svg" }
 
 ] 
 , 

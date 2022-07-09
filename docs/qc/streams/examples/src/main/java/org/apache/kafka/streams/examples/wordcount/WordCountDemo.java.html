@@ -61,7 +61,7 @@
 <a name="61">61&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="62">62&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.putIfAbsent(StreamsConfig.APPLICATION_ID_CONFIG,&nbsp;"streams-wordcount");</a><br/>
 <a name="63">63&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.putIfAbsent(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG,&nbsp;"localhost:9092");</a><br/>
-<a name="64">64&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.putIfAbsent(StreamsConfig.STATESTORE_CACHE_MAX_BYTES_CONFIG,&nbsp;0);</a><br/>
+<a name="64">64&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.putIfAbsent(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG,&nbsp;0);</a><br/>
 <a name="65">65&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.putIfAbsent(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG,&nbsp;Serdes.String().getClass().getName());</a><br/>
 <a name="66">66&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.putIfAbsent(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG,&nbsp;Serdes.String().getClass().getName());</a><br/>
 <a name="67">67&nbsp;&nbsp;&nbsp;</a><br/>

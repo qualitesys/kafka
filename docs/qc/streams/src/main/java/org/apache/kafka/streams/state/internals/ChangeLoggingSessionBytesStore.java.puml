@@ -12,6 +12,7 @@ class org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore {
 +  remove(Windowed<Bytes>)
 +  put(Windowed<Bytes>;byte[])
 +  fetchSession(Bytes;long;long)
++  findSessions(long;long)
 +  backwardFetch(Bytes)
 +  fetch(Bytes)
 +  backwardFetch(Bytes;Bytes)

@@ -4,6 +4,7 @@ AbstractRocksDBTimeOrderedSegmentedBytesStore <|-- org.apache.kafka.streams.stat
 class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore {
 +  RocksDBTimeOrderedSessionSegmentedBytesStore(String;String;long;long;boolean)
 +  fetchSession(Bytes;long;long)
++  fetchSessions(long;long)
 +  remove(Windowed<Bytes>)
 +  put(Windowed<Bytes>;byte[])
 +  getIndexKeyValue(Bytes;byte[])

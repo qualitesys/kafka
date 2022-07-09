@@ -1,95 +1,39 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftClient.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java 0 rule violation " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "AutoCloseable"
- , "c2" : "org.apache.kafka.raft.RaftClient"
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.raft.QuorumStateStore"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.RaftClient" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.QuorumStateStore" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "initialize()"
+   "c1" : "ElectionState"
+ , "c2" : "readElectionState()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : "void"
- , "c2" : "register(Listener<T>)"
+ , "c2" : "writeElectionState(ElectionState)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : "void"
- , "c2" : "unregister(Listener<T>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OptionalLong"
- , "c2" : "highWatermark()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "LeaderAndEpoch"
- , "c2" : "leaderAndEpoch()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OptionalInt"
- , "c2" : "nodeId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "long"
- , "c2" : "scheduleAppend(int;List<T>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "long"
- , "c2" : "scheduleAtomicAppend(int;List<T>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "CompletableFuture<Void>"
- , "c2" : "shutdown(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "resign(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Optional<SnapshotWriter<T>>"
- , "c2" : "createSnapshot(long;int;long)"
+ , "c2" : "clear()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -98,9 +42,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.svg" }
 
 ] 
 , 

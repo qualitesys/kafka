@@ -489,7 +489,7 @@ var maDataBlocs = {
    "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry.FetcherMetricsRegistry@POLYN161709 the MagicNumber/String  'The maximum lag in terms of number of records for any partition in this window' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry.FetcherMetricsRegistry@POLYN161709 the MagicNumber/String  'The maximum lag in terms of number of records for any partition in this window. NOTE: This is based on current offset and not committed offset' should be converted to const"
 }} 
 ,
 { "ligne" : {

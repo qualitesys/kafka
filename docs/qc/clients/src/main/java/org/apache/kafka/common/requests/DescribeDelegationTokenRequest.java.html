@@ -71,7 +71,7 @@
 <a name="71">71&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="72">72&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override</a><br/>
 <a name="73">73&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;AbstractResponse&nbsp;getErrorResponse(int&nbsp;throttleTimeMs,&nbsp;Throwable&nbsp;e)&nbsp;{</a><br/>
-<a name="74">74&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;DescribeDelegationTokenResponse(throttleTimeMs,&nbsp;Errors.forException(e));</a><br/>
+<a name="74">74&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;DescribeDelegationTokenResponse(version(),&nbsp;throttleTimeMs,&nbsp;Errors.forException(e));</a><br/>
 <a name="75">75&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="76">76&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="77">77&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;DescribeDelegationTokenRequest&nbsp;parse(ByteBuffer&nbsp;buffer,&nbsp;short&nbsp;version)&nbsp;{</a><br/>

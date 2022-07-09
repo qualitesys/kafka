@@ -19,6 +19,7 @@ class org.apache.kafka.streams.state.internals.MeteredSessionStore {
 +  findSessions(K;long;long)
 +  backwardFindSessions(K;long;long)
 +  findSessions(K;K;long;long)
++  findSessions(long;long)
 +  backwardFindSessions(K;K;long;long)
 +  flush()
 +  close()

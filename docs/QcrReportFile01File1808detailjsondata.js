@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java 25 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java 26 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.xml" 
  , "fic3"  : "" 
 }
@@ -88,7 +88,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "25"
+ , "c4" : "26"
 }}
  ] 
 ,
@@ -237,35 +237,42 @@ var maDataBlocs = {
    "c1" : "00248"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00248] For method remove arguments Windowed&lt;K &gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00248] For method findSessions arguments long  earliestSessionEndTime|long  latestSessionEndTime"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#253"
+   "c1" : "00254"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00253] For method put arguments Windowed&lt;K &gt;  sessionKey|AGG  aggregate"
+ , "c3" : "QC-JAV000006[00254] For method remove arguments Windowed&lt;K &gt;  sessionKey"
 }} 
 ,
 { "ligne" : {
    "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00259] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+ , "c3" : "QC-JAV000006[00259] For method put arguments Windowed&lt;K &gt;  sessionKey|AGG  aggregate"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00266"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#266"
+   "c1" : "00265"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#265"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00266] For method fetch arguments K  key"
+ , "c3" : "QC-JAV000006[00265] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00271"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#271"
+   "c1" : "00272"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#272"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00271] For method fetch arguments K  keyFrom|K  keyTo"
+ , "c3" : "QC-JAV000006[00272] For method fetch arguments K  key"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00277"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#277"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00277] For method fetch arguments K  keyFrom|K  keyTo"
 }} 
 ]
 };

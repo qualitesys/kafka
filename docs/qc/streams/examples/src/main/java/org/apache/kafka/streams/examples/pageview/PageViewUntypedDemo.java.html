@@ -60,7 +60,7 @@
 <a name="60">60&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.put(StreamsConfig.APPLICATION_ID_CONFIG,&nbsp;"streams-pageview-untyped");</a><br/>
 <a name="61">61&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG,&nbsp;"localhost:9092");</a><br/>
 <a name="62">62&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.put(StreamsConfig.DEFAULT_TIMESTAMP_EXTRACTOR_CLASS_CONFIG,&nbsp;JsonTimestampExtractor.class);</a><br/>
-<a name="63">63&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.put(StreamsConfig.STATESTORE_CACHE_MAX_BYTES_CONFIG,&nbsp;0);</a><br/>
+<a name="63">63&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.put(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG,&nbsp;0);</a><br/>
 <a name="64">64&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="65">65&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;setting&nbsp;offset&nbsp;reset&nbsp;to&nbsp;earliest&nbsp;so&nbsp;that&nbsp;we&nbsp;can&nbsp;re-run&nbsp;the&nbsp;demo&nbsp;code&nbsp;with&nbsp;the&nbsp;same&nbsp;pre-loaded&nbsp;data</a><br/>
 <a name="66">66&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,&nbsp;"earliest");</a><br/>

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java 14 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java 15 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -89,6 +89,13 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "findSessions(long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "backwardFetch(Bytes)"
  , "c3" : "1"
  , "c4" : "1"
@@ -158,7 +165,7 @@ var maDataBlocs = {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "13"
+ , "c4" : "14"
 }}
  ] 
 ,
@@ -216,7 +223,7 @@ var maDataBlocs = {
    "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore.remove@POLYN161502 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore.remove@POLYN162473 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -237,28 +244,35 @@ var maDataBlocs = {
    "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method backwardFetch arguments Bytes  key"
+ , "c3" : "QC-JAV000006[00081] For method findSessions arguments long  earliestSessionEndTime|long  latestSessionEndTime"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#86"
+   "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method fetch arguments Bytes  key"
+ , "c3" : "QC-JAV000006[00087] For method backwardFetch arguments Bytes  key"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#91"
+   "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo"
+ , "c3" : "QC-JAV000006[00092] For method fetch arguments Bytes  key"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#96"
+   "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method fetch arguments Bytes  keyFrom|Bytes  keyTo"
+ , "c3" : "QC-JAV000006[00097] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStore.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method fetch arguments Bytes  keyFrom|Bytes  keyTo"
 }} 
 ]
 };

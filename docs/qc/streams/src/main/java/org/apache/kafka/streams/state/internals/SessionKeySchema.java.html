@@ -35,7 +35,7 @@
 <a name="35">35&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;final&nbsp;byte[]&nbsp;MIN_SUFFIX&nbsp;=&nbsp;new&nbsp;byte[SUFFIX_SIZE];</a><br/>
 <a name="36">36&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="37">37&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;int&nbsp;keyByteLength(final&nbsp;Bytes&nbsp;key)&nbsp;{</a><br/>
-<a name="38">38&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;key.get().length&nbsp;+&nbsp;2&nbsp;*&nbsp;TIMESTAMP_SIZE;</a><br/>
+<a name="38">38&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(key&nbsp;==&nbsp;null&nbsp;?&nbsp;0&nbsp;:&nbsp;key.get().length)&nbsp;+&nbsp;2&nbsp;*&nbsp;TIMESTAMP_SIZE;</a><br/>
 <a name="39">39&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="40">40&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="41">41&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override</a><br/>

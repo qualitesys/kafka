@@ -4,9 +4,8 @@ AutoCloseable <|-- org.apache.kafka.connect.util.TopicAdmin
 class org.apache.kafka.connect.util.TopicAdmin {
 +  defineTopic(String)
 +  TopicAdmin(Map<String,Object>)
-+  TopicAdmin(Map<String,Object>;Admin)
-+  TopicAdmin(Map<String,Object>;Admin;boolean)
-+  admin()
++  TopicAdmin(Object;Admin)
++  TopicAdmin(Object;Admin;boolean)
 +  createTopic(NewTopic)
 +  createTopics(NewTopic...)
 +  createOrFindTopic(NewTopic)
@@ -20,6 +19,5 @@ class org.apache.kafka.connect.util.TopicAdmin {
 +  retryEndOffsets(Set<TopicPartition>;Duration;long)
 +  close()
 +  close(Duration)
-+  bootstrapServers()
 } 
 @enduml

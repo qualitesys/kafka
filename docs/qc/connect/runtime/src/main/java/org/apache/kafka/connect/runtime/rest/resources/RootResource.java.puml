@@ -1,8 +1,9 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.resources.RootResource
+ConnectResource <|-- org.apache.kafka.connect.runtime.rest.resources.RootResource
 class org.apache.kafka.connect.runtime.rest.resources.RootResource {
 +  RootResource(Herder)
++  requestTimeout(long)
 +  serverInfo()
 } 
 @enduml

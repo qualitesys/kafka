@@ -1,67 +1,60 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.TaskMetadata"
+ , "c2" : "org.apache.kafka.streams.StreamsMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.TaskMetadata" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.StreamsMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "TaskId"
- , "c2" : "taskId()"
+   "c1" : "Map<MetricName,?extendsMetric>"
+ , "c2" : "metrics()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Set<TopicPartition>"
- , "c2" : "topicPartitions()"
+   "c1" : "Sensor"
+ , "c2" : "addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
- , "c2" : "committedOffsets()"
+   "c1" : "Sensor"
+ , "c2" : "addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
- , "c2" : "endOffsets()"
+   "c1" : "Sensor"
+ , "c2" : "addSensor(String;Sensor.RecordingLevel)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Optional<Long>"
- , "c2" : "timeCurrentIdlingStarted()"
+   "c1" : "Sensor"
+ , "c2" : "addSensor(String;Sensor.RecordingLevel;Sensor...)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "int"
- , "c2" : "hashCode()"
+   "c1" : "void"
+ , "c2" : "removeSensor(Sensor)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -70,9 +63,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.svg" }
 
 ] 
 , 

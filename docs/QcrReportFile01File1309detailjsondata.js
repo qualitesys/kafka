@@ -1,74 +1,60 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java 9 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java 5 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.controller.ControllerResult"
+ , "c2" : "org.apache.kafka.controller.ControllerRequestContext"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.controller.ControllerResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.controller.ControllerRequestContext" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "ControllerResult"
- , "c2" : "ControllerResult(List<ApiMessageAndVersion>;T;boolean)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : "List<ApiMessageAndVersion>"
- , "c2" : "records()"
+   "c1" : "OptionalLong"
+ , "c2" : "requestTimeoutMsToDeadlineNs(Time;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "T"
- , "c2" : "response()"
+   "c1" : "ControllerRequestContext"
+ , "c2" : "ControllerRequestContext(RequestHeaderData;KafkaPrincipal;OptionalLong)"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "boolean"
- , "c2" : "isAtomic()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : {
-   "c1" : "int"
- , "c2" : "hashCode()"
+   "c1" : "ControllerRequestContext"
+ , "c2" : "ControllerRequestContext(AuthorizableRequestContext;OptionalLong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "String"
- , "c2" : "toString()"
+   "c1" : "RequestHeaderData"
+ , "c2" : "requestHeader()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "ControllerResult<T>"
- , "c2" : "withoutRecords()"
+   "c1" : "KafkaPrincipal"
+ , "c2" : "principal()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OptionalLong"
+ , "c2" : "deadlineNs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -77,9 +63,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.svg" }
 
 ] 
 , 
@@ -106,17 +92,24 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
 }}
 ,
 { "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -129,66 +122,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00013"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#13"
+   "c1" : "00017"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class ControllerResult contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00017] The class ControllerRequestContext contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00038"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#38"
+   "c1" : "00019"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#19"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00019] For method requestTimeoutMsToDeadlineNs arguments Time  time|int  millisecondsOffset"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00039"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.controller.ControllerResult.equals@POLYN150388 the MagicNumber/String  null should be converted to const"
+   "c1" : "00020"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#20"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00020] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.controller.ControllerResult.equals@POLYN150388 the MagicNumber/String  false should be converted to const"
+   "c1" : "00041"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#41"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00041] The argument requestContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.controller.ControllerResult.toString@POLYN151231 the MagicNumber/String  'ControllerResult(records=%s, response=%s, isAtomic=%s)' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.ControllerResult.toString@POLYN151231 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00064"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.controller.ControllerResult.withoutRecords@POLYN151638 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00068"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.controller.ControllerResult the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00072"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.ControllerResult the MagicNumber/String  false should be converted to const"
+   "c1" : "00019"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#19"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00019] Public method requestTimeoutMsToDeadlineNs is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

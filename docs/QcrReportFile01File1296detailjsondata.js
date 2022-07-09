@@ -1,99 +1,106 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java 41 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java 52 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.controller.BootstrapMetadata"
+ , "c2" : "org.apache.kafka.controller.AclControlManager"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.controller.BootstrapMetadata" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.controller.AclControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "BootstrapMetadata"
- , "c2" : "BootstrapMetadata(MetadataVersion;List<ApiMessageAndVersion>)"
+   "c1" : "AclControlManager"
+ , "c2" : "AclControlManager(SnapshotRegistry;Optional<ClusterMetadataAuthorizer>)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : {
-   "c1" : "MetadataVersion"
- , "c2" : "metadataVersion()"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : "ControllerResult<List<AclCreateResult>>"
+ , "c2" : "createAcls(List<AclBinding>)"
+ , "c3" : "3"
+ , "c4" : "12"
 }} 
 ,
 { "ligne" : {
-   "c1" : "List<ApiMessageAndVersion>"
- , "c2" : "records()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "boolean"
- , "c2" : "equals(Object)"
+   "c1" : "Uuid"
+ , "c2" : "newAclId()"
  , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : {
-   "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "BootstrapMetadata"
- , "c2" : "create(MetadataVersion)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "BootstrapMetadata"
- , "c2" : "create(MetadataVersion;List<ApiMessageAndVersion>)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "BootstrapMetadata"
- , "c2" : "load(Path;Supplier<MetadataVersion>)"
+   "c1" : "void"
+ , "c2" : "validateNewAcl(AclBinding)"
  , "c3" : "9"
- , "c4" : "17"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ControllerResult<List<AclDeleteResult>>"
+ , "c2" : "deleteAcls(List<AclBindingFilter>)"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AclDeleteResult"
+ , "c2" : "deleteAclsForFilter(AclBindingFilter;Set<ApiMessageAndVersion>)"
+ , "c3" : "3"
+ , "c4" : "7"
 }} 
 ,
 { "ligne" : {
    "c1" : "void"
- , "c2" : "write(BootstrapMetadata;Path)"
+ , "c2" : "validateFilter(AclBindingFilter)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(AccessControlEntryRecord;Optional<OffsetAndEpoch>)"
  , "c3" : "2"
- , "c4" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "replay(RemoveAccessControlEntryRecord;Optional<OffsetAndEpoch>)"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Map<Uuid,StandardAcl>"
+ , "c2" : "idToAcl()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "Iterator<List<ApiMessageAndVersion>>"
+ , "c2" : "iterator(long)"
+ , "c3" : "1"
+ , "c4" : "5"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.svg" }
 
 ] 
 , 
@@ -118,23 +125,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
-}}
-,
 { "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -143,334 +134,404 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "3"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "14"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "7"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#32"
+   "c1" : "00040"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00032] The class BootstrapMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00040] The class AclControlManager contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#55"
+   "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.controller.AclControlManager.AclControlManager@POLYN182364 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.controller.AclControlManager.AclControlManager@POLYN182364 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00052] For method createAcls arguments List&lt;AclBinding &gt;  acls"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00057] The same method call o.getClass() is used several times, should be optimized "
+   "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#52"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00052] For method createAcls list of called methods Object monObjet|org.apache.kafka.metadata.authorizer.StandardAcl StandardAcl_fromAclBindingN183806"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN172683 the MagicNumber/String  true should be converted to const"
+   "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#52"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00052] The argument acls is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#57"
+   "c1" : "00058"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN172683 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#57"
+   "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.BootstrapMetadata.equals@POLYN172683 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#69"
+   "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN173306 the MagicNumber/String  'BootstrapMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00070"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#70"
+   "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN173306 the MagicNumber/String  'metadataVersion=' should be converted to const"
+ , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#71"
+   "c1" : "00064"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.BootstrapMetadata.toString@POLYN173306 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000001[00064] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00066"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00060"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.controller.AclControlManager.createAcls@POLYN182854 the MagicNumber/String  'Unknown error while trying to create ACL' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.controller.AclControlManager.createAcls@POLYN182854 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.AclControlManager.createAcls@POLYN182854 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00075] The class BootstrapListener contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#79"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion &gt;  reader"
+ , "c3" : "QC-JAV000007[00075] For method newAclId list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN184710"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00079"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#79"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00079] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00082] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#91"
+   "c1" : "00083"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion &gt;  reader"
+ , "c3" : "QC-JAV000006[00083] For method validateNewAcl arguments AclBinding  binding"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#91"
+   "c1" : "00083"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#83"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00091] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00083] The argument binding is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00094"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#94"
+   "c1" : "00087"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00094] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.AclControlManager.validateNewAcl@POLYN184863 the MagicNumber/String  'Invalid resourceType ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#95"
+   "c1" : "00097"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00095] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.controller.AclControlManager.validateNewAcl@POLYN184863 the MagicNumber/String  'Invalid patternType ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#105"
+   "c1" : "00103"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.AclControlManager.validateNewAcl@POLYN184863 the MagicNumber/String  'Invalid operation ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.controller.AclControlManager.validateNewAcl@POLYN184863 the MagicNumber/String  'Invalid permissionType ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method create arguments MetadataVersion  metadataVersion"
+ , "c3" : "QC-JAV000006[00118] For method deleteAcls arguments List&lt;AclBindingFilter &gt;  filters"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00109"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#109"
+   "c1" : "00124"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00124] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00126"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00126] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00133"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method create arguments MetadataVersion  metadataVersion|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[00133] For method deleteAclsForFilter arguments AclBindingFilter  filter|Set&lt;ApiMessageAndVersion &gt;  records"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00109"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#109"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00109] The argument metadataVersion is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00109"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#109"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00109] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00112"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.controller.BootstrapMetadata.create@POLYN174916 the MagicNumber/String  'Cannot create BootstrapMetadata with a non-KRaft metadata version %s. Minimum version is %s' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#125"
+   "c1" : "00133"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method load arguments Path  bootstrapDir|Supplier&lt;MetadataVersion &gt;  fallbackVersionSupplier"
+ , "c3" : "QC-JAV000007[00133] For method deleteAclsForFilter list of called methods Object monObjet|org.apache.kafka.server.authorizer.AclDeleteResult acl_toBindingN187805"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#125"
+   "c1" : "00133"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#133"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00125] The argument bootstrapDir is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00133] The argument filter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#125"
+   "c1" : "00134"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#134"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00125] The argument fallbackVersionSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00134] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#132"
+   "c1" : "00137"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String  'Missing bootstrap file, this appears to be a KRaft cluster older than 3.3. Setting metadata.version to {}.' should be converted to const"
+ , "c3" : "QC-JAV000001[00137] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00136"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#136"
+   "c1" : "00138"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String  'Could not set fallback bootstrap metadata with non-KRaft metadata version of %s' should be converted to const"
+ , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00145"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#145"
+   "c1" : "00139"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String  'Failed to load snapshot' should be converted to const"
+ , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
+   "c1" : "00143"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String  'Expected a metadata.version to exist in the snapshot ' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.controller.AclControlManager.deleteAclsForFilter@POLYN187276 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
+   "c1" : "00149"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#149"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00149] For method validateFilter arguments AclBindingFilter  filter"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00149"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#149"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00149] The argument filter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00151"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String  ', but none was found' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.controller.AclControlManager.validateFilter@POLYN188334 the MagicNumber/String  'Unknown patternFilter.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00154"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.controller.AclControlManager.validateFilter@POLYN188334 the MagicNumber/String  'Unknown entryFilter.' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00158"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#158"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00158] For method replay arguments AccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch &gt;  snapshotId"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00158"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#158"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00158] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.authorizer.StandardAclWithId StandardAclWithId_fromRecordN188866"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00159"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#159"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00159] The argument snapshotId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00170"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#170"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00170] For method replay arguments RemoveAccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch &gt;  snapshotId"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00170"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#170"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00170] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#171"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method write arguments BootstrapMetadata  metadata|Path  bootstrapDir"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#171"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00171] The argument snapshotId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#171"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00171] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00171"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#171"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00171] The argument bootstrapDir is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00173"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00174"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#174"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.controller.BootstrapMetadata.write@POLYN178578 the MagicNumber/String  'Cannot write metadata bootstrap file ' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  'Unable to replay ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00174"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  ': no acl with ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00175"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#175"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.BootstrapMetadata.write@POLYN178578 the MagicNumber/String  '. File already already exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  'that ID found.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871"
+   "c1" : "00178"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  'Unable to replay ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00132"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#132"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String 'Missing bootstrap file, this appears to be a KRaft cluster older than 3.3. Setting metadata.version to {}.' MUST BE CONVERTED to const"
+   "c1" : "00178"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  ' for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00136"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#136"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String 'Could not set fallback bootstrap metadata with non-KRaft metadata version of %s' MUST BE CONVERTED to const"
+   "c1" : "00179"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  ': acl not found ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00145"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String 'Failed to load snapshot' MUST BE CONVERTED to const"
+   "c1" : "00179"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.controller.AclControlManager.replay@POLYN189456 the MagicNumber/String  'in existingAcls.' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String ', but none was found' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00166"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String 'Expected a metadata.version to exist in the snapshot ' MUST BE CONVERTED to const"
+   "c1" : "00192"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00192] For method iterator arguments long  epoch"
 }} 
 ]
 };

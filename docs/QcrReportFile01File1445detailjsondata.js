@@ -1,22 +1,22 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java 0 rule violation " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "AutoCloseable"
- , "c2" : "org.apache.kafka.snapshot.SnapshotWriter"
+ , "c2" : "org.apache.kafka.snapshot.SnapshotReader"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.snapshot.SnapshotWriter" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.snapshot.SnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : {
    "c1" : "OffsetAndEpoch"
  , "c2" : "snapshotId()"
@@ -39,22 +39,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "boolean"
- , "c2" : "isFrozen()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "append(List<T>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "freeze()"
+   "c1" : "long"
+ , "c2" : "lastContainedLogTimestamp()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -70,9 +56,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.svg" }
 
 ] 
 , 

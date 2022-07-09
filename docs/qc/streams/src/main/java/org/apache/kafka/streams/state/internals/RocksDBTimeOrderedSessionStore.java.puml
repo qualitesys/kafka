@@ -4,6 +4,7 @@ WrappedStateStore<RocksDBTimeOrderedSessionSegmentedBytesStore,Object,Object>Ses
 class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore {
 +  RocksDBTimeOrderedSessionStore(RocksDBTimeOrderedSessionSegmentedBytesStore)
 +  init(StateStoreContext;StateStore)
++  findSessions(long;long)
 +  findSessions(Bytes;long;long)
 +  backwardFindSessions(Bytes;long;long)
 +  findSessions(Bytes;Bytes;long;long)

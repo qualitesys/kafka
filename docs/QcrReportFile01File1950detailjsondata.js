@@ -19,6 +19,13 @@ var maDataBlocs = {
  { "nomclasse" : "org.apache.kafka.streams.state.SessionStore" , "link" : "" , "methodes" : [ 
 { "ligne" : {
    "c1" : "KeyValueIterator<Windowed<K>,AGG>"
+ , "c2" : "findSessions(long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "KeyValueIterator<Windowed<K>,AGG>"
  , "c2" : "findSessions(K;Instant;Instant)"
  , "c3" : "1"
  , "c4" : "1"

@@ -3,7 +3,7 @@
 Task <|-- org.apache.kafka.streams.processor.internals.AbstractTask
 class org.apache.kafka.streams.processor.internals.AbstractTask {
 +  AbstractTask(TaskId;ProcessorTopology;StateDirectory;ProcessorStateManager;Set<TopicPartition>;long;String;Class<?extendsAbstractTask>)
-+  maybeWriteCheckpoint(boolean)
++  maybeCheckpoint(boolean)
 +  id()
 +  inputPartitions()
 +  changelogPartitions()

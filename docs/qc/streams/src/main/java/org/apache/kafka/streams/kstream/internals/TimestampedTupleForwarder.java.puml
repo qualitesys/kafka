@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder
 class org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder {
-+  TimestampedTupleForwarder(StateStore;ProcessorContext<K,Change<V>>;TimestampedCacheFlushListener<K,V>;boolean)
++  TimestampedTupleForwarder(StateStore;ProcessorContext<K,Change<V>>;CacheFlushListener<K,?>;boolean)
 +  TimestampedTupleForwarder(ProcessorContext<K,Change<V>>;boolean)
 +  maybeForward(Record<K,Change<V>>)
 } 

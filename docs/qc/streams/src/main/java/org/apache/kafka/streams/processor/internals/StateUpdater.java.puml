@@ -2,11 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateUpdater
 class org.apache.kafka.streams.processor.internals.StateUpdater {
++  start()
++  shutdown(Duration)
 +  add(Task)
 +  remove(TaskId)
 +  drainRestoredActiveTasks(Duration)
 +  drainRemovedTasks()
 +  drainExceptionsAndFailedTasks()
-+  shutdown(Duration)
++  getTasks()
++  getActiveTasks()
++  getStandbyTasks()
 } 
 @enduml

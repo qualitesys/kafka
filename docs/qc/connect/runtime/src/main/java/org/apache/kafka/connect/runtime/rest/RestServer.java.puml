@@ -12,6 +12,7 @@ class org.apache.kafka.connect.runtime.rest.RestServer {
 +  stop()
 +  advertisedUrl()
 +  adminUrl()
++  requestTimeout(long)
 +  determineAdvertisedProtocol()
 +  findConnector(String)
 +  registerRestExtensions(Herder;ResourceConfig)

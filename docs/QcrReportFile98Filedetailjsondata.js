@@ -8096,6 +8096,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectResource.java" 
+  , "Fic1"  : "qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectResource.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectResource.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java" 
   , "Fic1"  : "qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -11901,13 +11908,6 @@ var maDataBlocs = {
   , "Fic1"  : "qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.xml.nonreg.html" 
-  , "OKKO2"  : "" 
-}},
- { "ligne" : {
-  "fic"  : "streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionTupleForwarder.java" 
-  , "Fic1"  : "qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionTupleForwarder.java.qre.nonreg.html" 
-  , "OKKO1"  : "" 
-  , "Fic2"  : "qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionTupleForwarder.java.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {

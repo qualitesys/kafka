@@ -1,46 +1,32 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftMessage.java 0 rule violation " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.raft.RaftMessageQueue"
+ , "c2" : "org.apache.kafka.raft.RaftMessage"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.RaftMessageQueue" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.RaftMessage" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "RaftMessage"
- , "c2" : "poll(long)"
+   "c1" : "int"
+ , "c2" : "correlationId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "add(RaftMessage)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "boolean"
- , "c2" : "isEmpty()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "wakeup()"
+   "c1" : "ApiMessage"
+ , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -49,9 +35,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.svg" }
 
 ] 
 , 

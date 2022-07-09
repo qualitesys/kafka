@@ -1,10 +1,9 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource
+ConnectResource <|-- org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource
 class org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource {
 +  ConnectorsResource(Herder;WorkerConfig)
-+  setRequestTimeout(long)
-+  resetRequestTimeout()
++  requestTimeout(long)
 +  listConnectors(UriInfo;HttpHeaders)
 +  createConnector(Boolean;HttpHeaders;CreateConnectorRequest)
 +  getConnector(String;HttpHeaders;Boolean)

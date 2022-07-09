@@ -2277,10 +2277,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.entities.PluginInfo" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.entities.ServerInfo" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.entities.TaskInfo" }, 
-  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource" }, 
-  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource" }, 
-  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.LoggingResource" }, 
-  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.RootResource" }, 
+  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.ConnectResource" }, 
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.util.SSLUtils" }, 
   { "child"  : "(1) org.apache.kafka.connect.storage.ClusterConfigState" }, 
   { "child"  : "(1) org.apache.kafka.connect.storage.ConfigBackingStore" }, 
@@ -2525,7 +2522,6 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamImplJoin" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableValueGetter" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier" }, 
-  { "child"  : "(1) org.apache.kafka.streams.kstream.internals.SessionTupleForwarder" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.WrappingNullableUtils" }, 
@@ -4489,6 +4485,15 @@ var maDataBlocs = {
    "classe"  : "(2) NamedOperation&lt;TableJoined&lt;K, KO&gt;&gt;" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.TableJoined" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) ConnectResource" ,
+"children" : [
+  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource" }, 
+  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource" }, 
+  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.LoggingResource" }, 
+  { "child"  : "(1) org.apache.kafka.connect.runtime.rest.resources.RootResource" }, 
 ]
 }},
 {"ligne" : {
@@ -6756,6 +6761,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.SegmentedBytesStore" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.apache.kafka.connect.runtime.rest.resources.ConnectResource" ,
 "children" : [
 ]
 }},
@@ -14001,11 +14011,6 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.kstream.internals.KTableKTableOuterJoin" ,
-"children" : [
-]
-}},
-{"ligne" : {
-   "classe"  : "(1) org.apache.kafka.streams.kstream.internals.SessionTupleForwarder" ,
 "children" : [
 ]
 }},

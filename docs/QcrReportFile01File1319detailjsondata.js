@@ -1,53 +1,193 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java 23 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java 28 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.controller.QuorumFeatures"
+   "c1" : "ControllerMetrics"
+ , "c2" : "org.apache.kafka.controller.QuorumControllerMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.controller.QuorumFeatures" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.controller.QuorumControllerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "QuorumFeatures"
- , "c2" : "QuorumFeatures(int;ApiVersions;Map<String,VersionRange>;List<Integer>)"
+   "c1" : "QuorumControllerMetrics"
+ , "c2" : "QuorumControllerMetrics(MetricsRegistry;Time)"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "32"
 }} 
 ,
 { "ligne" : {
-   "c1" : "QuorumFeatures"
- , "c2" : "create(int;ApiVersions;Map<String,VersionRange>;Collection<Node>)"
+   "c1" : "void"
+ , "c2" : "setActive(boolean)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Map<String,VersionRange>"
- , "c2" : "defaultFeatureMap()"
+   "c1" : "boolean"
+ , "c2" : "active()"
  , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Optional<String>"
- , "c2" : "reasonNotSupported(String;short)"
- , "c3" : "11"
- , "c4" : "14"
+   "c1" : "void"
+ , "c2" : "updateEventQueueTime(long)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "VersionRange"
- , "c2" : "localSupportedFeature(String)"
+   "c1" : "void"
+ , "c2" : "updateEventQueueProcessingTime(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setFencedBrokerCount(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "fencedBrokerCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setActiveBrokerCount(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "activeBrokerCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setGlobalTopicsCount(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "globalTopicsCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setGlobalPartitionCount(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "globalPartitionCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setOfflinePartitionCount(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "offlinePartitionCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setPreferredReplicaImbalanceCount(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "preferredReplicaImbalanceCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setLastAppliedRecordOffset(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "lastAppliedRecordOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setLastCommittedRecordOffset(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "lastCommittedRecordOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setLastAppliedRecordTimestamp(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "lastAppliedRecordTimestamp()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "MetricName"
+ , "c2" : "getMetricName(String;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,9 +196,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.svg" }
 
 ] 
 , 
@@ -85,24 +225,10 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -116,184 +242,212 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "13"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#24"
+   "c1" : "00016"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00024] The class QuorumFeatures contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00016] The class QuorumControllerMetrics contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method create arguments int  nodeId|ApiVersions  apiVersions|Map&lt;String ,VersionRange &gt;  localSupportedFeatures|Collection&lt;Node &gt;  quorumNodes"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#50"
+   "c1" : "00070"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#70"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00050] The argument quorumNodes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00070] The argument registry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00057"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#57"
+   "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#71"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00071] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00074"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.QuorumFeatures.defaultFeatureMap@POLYN161282 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method reasonNotSupported arguments String  featureName|short  level"
+   "c1" : "00075"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00065"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method reasonNotSupported list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions apiVersions_getN162947|java.util.Map&lt;String,org.apache.kafka.common.feature.SupportedVersionRange&gt; nodeVersions_supportedFeaturesN163280"
+   "c1" : "00076"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00077"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00078"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#79"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00084"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00084] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  'Local controller ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  ' does not support this feature.' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  'Local controller ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  ' only supports versions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#80"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00085"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#85"
+   "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#89"
+   "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  'Controller ' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00089"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#89"
+   "c1" : "00087"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  ' does not support this feature.' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#91"
+   "c1" : "00088"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  'Controller ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00091"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  ' only supports versions ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  'Unable to get feature level information for controller(s): ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.QuorumFeatures.reasonNotSupported@POLYN161970 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00101"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#101"
+   "c1" : "00152"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method localSupportedFeature arguments String  featureName"
+ , "c3" : "QC-JAV000006[00152] For method setActive arguments boolean  active"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00056"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#56"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00056] Public method defaultFeatureMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
+   "c1" : "00162"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#162"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00162] For method updateEventQueueTime arguments long  durationMs"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00167"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#167"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00167] For method updateEventQueueProcessingTime arguments long  durationMs"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00172"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#172"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00172] For method setFencedBrokerCount arguments int  brokerCount"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#181"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00181] For method setActiveBrokerCount arguments int  brokerCount"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00191"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#191"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00191] For method setGlobalTopicsCount arguments int  topicCount"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00201"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#201"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00201] For method setGlobalPartitionCount arguments int  partitionCount"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00211] For method setOfflinePartitionCount arguments int  offlinePartitions"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#221"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00221] For method setPreferredReplicaImbalanceCount arguments int  replicaImbalances"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00231"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#231"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00231] For method setLastAppliedRecordOffset arguments long  offset"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00241"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#241"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00241] For method setLastCommittedRecordOffset arguments long  offset"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00251"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#251"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00251] For method setLastAppliedRecordTimestamp arguments long  timestamp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00277"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#277"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00277] For method getMetricName arguments String  type|String  name"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00278"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN184136 the MagicNumber/String  'kafka.controller' should be converted to const"
 }} 
 ]
 };

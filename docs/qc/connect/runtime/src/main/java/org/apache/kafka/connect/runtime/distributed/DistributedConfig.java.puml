@@ -2,6 +2,9 @@
 !pragma layout smetana
 WorkerConfig <|-- org.apache.kafka.connect.runtime.distributed.DistributedConfig
 class org.apache.kafka.connect.runtime.distributed.DistributedConfig {
++  defaultKeyGenerationAlgorithm()
++  defaultSignatureAlgorithm()
++  defaultVerificationAlgorithms()
 +  getRebalanceTimeout()
 +  exactlyOnceSourceEnabled()
 +  transactionalLeaderEnabled()
@@ -17,9 +20,12 @@ class org.apache.kafka.connect.runtime.distributed.DistributedConfig {
 +  configStorageTopicSettings()
 +  offsetStorageTopicSettings()
 +  statusStorageTopicSettings()
-+  validateKeyAlgorithmAndVerificationAlgorithms()
-+  validateSignatureAlgorithms(String;List<String>)
++  validateInterWorkerKeyConfigs()
++  ensureVerificationAlgorithmsIncludeSignatureAlgorithm()
++  validateVerificationAlgorithms(String;List<String>)
 +  validateSignatureAlgorithm(String;String)
 +  validateKeyAlgorithm(String;String)
++  unsupportedAlgorithmException(String;Object;String)
++  supportedAlgorithms(String)
 } 
 @enduml

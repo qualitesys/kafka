@@ -19,6 +19,7 @@ class org.apache.kafka.controller.ClusterControlManager {
 +  updateMetrics(BrokerRegistration;BrokerRegistration)
 +  usableBrokers()
 +  unfenced(int)
++  registration(int)
 +  inControlledShutdown(int)
 +  active(int)
 +  heartbeatManager()

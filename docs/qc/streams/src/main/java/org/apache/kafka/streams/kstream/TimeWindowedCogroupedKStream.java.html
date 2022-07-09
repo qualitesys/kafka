@@ -75,7 +75,7 @@
 <a name="75">75&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;window&nbsp;and&nbsp;key.</a><br/>
 <a name="76">76&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="77">77&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="78">78&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="78">78&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="79">79&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="80">80&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="81">81&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;For&nbsp;failure&nbsp;and&nbsp;recovery&nbsp;the&nbsp;store&nbsp;(which&nbsp;always&nbsp;will&nbsp;be&nbsp;of&nbsp;type&nbsp;{@link&nbsp;TimestampedWindowStore})&nbsp;will&nbsp;be&nbsp;backed&nbsp;by</a><br/>
@@ -115,7 +115,7 @@
 <a name="115">115&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;window&nbsp;and&nbsp;key.</a><br/>
 <a name="116">116&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct</a><br/>
 <a name="117">117&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}</a><br/>
-<a name="118">118&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parameters&nbsp;for&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="118">118&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parameters&nbsp;for&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="119">119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="120">120&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="121">121&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;For&nbsp;failure&nbsp;and&nbsp;recovery&nbsp;the&nbsp;store&nbsp;(which&nbsp;always&nbsp;will&nbsp;be&nbsp;of&nbsp;type&nbsp;{@link&nbsp;TimestampedWindowStore})&nbsp;will&nbsp;be&nbsp;backed&nbsp;by</a><br/>
@@ -156,7 +156,7 @@
 <a name="156">156&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;window&nbsp;and&nbsp;key&nbsp;if&nbsp;caching&nbsp;is&nbsp;enabled&nbsp;on&nbsp;the&nbsp;{@link&nbsp;Materialized}&nbsp;instance.</a><br/>
 <a name="157">157&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;When&nbsp;caching&nbsp;is&nbsp;enabled&nbsp;the&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct</a><br/>
 <a name="158">158&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}</a><br/>
-<a name="159">159&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parameters&nbsp;for&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="159">159&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parameters&nbsp;for&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="160">160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="161">161&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="162">162&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyWindowStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>
@@ -213,7 +213,7 @@
 <a name="213">213&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;to&nbsp;the&nbsp;same&nbsp;window&nbsp;and&nbsp;key&nbsp;if&nbsp;caching&nbsp;is&nbsp;enabled&nbsp;on&nbsp;the&nbsp;{@link&nbsp;Materialized}&nbsp;instance.</a><br/>
 <a name="214">214&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;When&nbsp;caching&nbsp;is&nbsp;enabled&nbsp;the&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct</a><br/>
 <a name="215">215&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}</a><br/>
-<a name="216">216&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parameters&nbsp;for&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="216">216&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parameters&nbsp;for&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="217">217&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="218">218&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="219">219&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyWindowStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>

@@ -1,39 +1,39 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/RaftException.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/errors/RaftException.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/RaftException.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java 0 rule violation " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "KafkaException"
- , "c2" : "org.apache.kafka.raft.errors.RaftException"
+   "c1" : "RaftException"
+ , "c2" : "org.apache.kafka.raft.errors.NotLeaderException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.errors.RaftException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.errors.NotLeaderException" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "RaftException"
- , "c2" : "RaftException(String)"
+   "c1" : "NotLeaderException"
+ , "c2" : "NotLeaderException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "RaftException"
- , "c2" : "RaftException(String;Throwable)"
+   "c1" : "NotLeaderException"
+ , "c2" : "NotLeaderException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "RaftException"
- , "c2" : "RaftException(Throwable)"
+   "c1" : "NotLeaderException"
+ , "c2" : "NotLeaderException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -42,9 +42,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/RaftException.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/RaftException.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.svg" }
 
 ] 
 , 

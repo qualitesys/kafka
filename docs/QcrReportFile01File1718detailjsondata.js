@@ -80,17 +80,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00010"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#10"
+   "c1" : "00008"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class WindowedStreamPartitioner contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class WindowedStreamPartitioner contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#20"
+   "c1" : "00018"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#18"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method partition arguments String  topic|Windowed&lt;K &gt;  windowedKey|V  value|int  numPartitions"
+ , "c3" : "QC-JAV000006[00018] For method partition arguments String  topic|Windowed&lt;K &gt;  windowedKey|V  value|int  numPartitions"
 }} 
 ]
 };

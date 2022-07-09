@@ -1,183 +1,113 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java 60 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java 91 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "SnapshottableHashTable<TimelineHashMap.TimelineHashMapEntry<K,V>>Map<K,V>"
- , "c2" : "org.apache.kafka.timeline.TimelineHashMap"
+   "c1" : "BaseHashTable<T>Revertable"
+ , "c2" : "org.apache.kafka.timeline.SnapshottableHashTable"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.timeline.TimelineHashMap" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.timeline.SnapshottableHashTable" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "TimelineHashMap"
- , "c2" : "TimelineHashMap(SnapshotRegistry;int)"
+   "c1" : "SnapshottableHashTable"
+ , "c2" : "SnapshottableHashTable(SnapshotRegistry;int)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : {
    "c1" : "int"
- , "c2" : "size()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "snapshottableSize(long)"
+ , "c3" : "5"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : {
-   "c1" : "int"
- , "c2" : "size(long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "boolean"
- , "c2" : "isEmpty()"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : "T"
+ , "c2" : "snapshottableGet(Object;long)"
+ , "c3" : "8"
+ , "c4" : "10"
 }} 
 ,
 { "ligne" : {
    "c1" : "boolean"
- , "c2" : "isEmpty(long)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "snapshottableAddUnlessPresent(T)"
+ , "c3" : "2"
+ , "c4" : "7"
 }} 
 ,
 { "ligne" : {
-   "c1" : "boolean"
- , "c2" : "containsKey(Object)"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : "T"
+ , "c2" : "snapshottableAddOrReplace(T)"
+ , "c3" : "3"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : {
-   "c1" : "boolean"
- , "c2" : "containsKey(Object;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "boolean"
- , "c2" : "containsValue(Object)"
+   "c1" : "T"
+ , "c2" : "snapshottableRemove(Object)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : {
-   "c1" : "V"
- , "c2" : "get(Object)"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : "void"
+ , "c2" : "updateTierData(int)"
+ , "c3" : "3"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : {
-   "c1" : "V"
- , "c2" : "get(Object;long)"
- , "c3" : "2"
- , "c4" : "3"
+   "c1" : "void"
+ , "c2" : "updateTierData(T;int)"
+ , "c3" : "5"
+ , "c4" : "7"
 }} 
 ,
 { "ligne" : {
-   "c1" : "V"
- , "c2" : "put(K;V)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : "V"
- , "c2" : "remove(Object)"
- , "c3" : "1"
+   "c1" : "Iterator<T>"
+ , "c2" : "snapshottableIterator(long)"
+ , "c3" : "3"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "putAll(Map<?extendsK,?extendsV>)"
- , "c3" : "2"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "clear()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Set<K>"
- , "c2" : "keySet()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Set<K>"
- , "c2" : "keySet(long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Collection<V>"
- , "c2" : "values()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Collection<V>"
- , "c2" : "values(long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Set<Entry<K,V>>"
- , "c2" : "entrySet()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Set<Entry<K,V>>"
- , "c2" : "entrySet(long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : "boolean"
- , "c2" : "equals(Object)"
+   "c1" : "String"
+ , "c2" : "snapshottableToDebugString()"
  , "c3" : "6"
- , "c4" : "9"
+ , "c4" : "22"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "executeRevert(long;Delta)"
+ , "c3" : "6"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "reset()"
+ , "c3" : "2"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.svg" }
 
 ] 
 , 
@@ -207,457 +137,674 @@ var maDataBlocs = {
    "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "2"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "30"
+ , "c4" : "55"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "22"
+ , "c4" : "10"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00017"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#17"
+   "c1" : "00023"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00017] The class TimelineHashMapEntry contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00023] The class HashTier contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#33"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00033] For method mergeFrom arguments long  epoch|Delta  source"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00042"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00042] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00037"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.timeline.SnapshottableHashTable.HashTier.mergeFrom@POLYN221440 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method setValue arguments V  value"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method setStartEpoch arguments long  startEpoch"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00061"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#62"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.timeline.TimelineHashMap.TimelineHashMapEntry.equals@POLYN189688 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.timeline.SnapshottableHashTable.HashTier.mergeFrom@POLYN221440 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method size arguments long  epoch"
+   "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00055] The class CurrentIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00064"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.CurrentIterator@POLYN222863 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.CurrentIterator@POLYN222863 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.hasNext@POLYN223243 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00077"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.hasNext@POLYN223243 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.next@POLYN223686 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#91"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method isEmpty arguments long  epoch"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.remove@POLYN224040 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#92"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.timeline.TimelineHashMap.isEmpty@POLYN190815 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.remove@POLYN224040 the MagicNumber/String  'remove' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00096"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method containsKey arguments Object  key"
+   "c1" : "00095"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.SnapshottableHashTable.CurrentIterator.remove@POLYN224040 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#100"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method containsKey arguments Object  key|long  epoch"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00101"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#101"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.timeline.TimelineHashMap.containsKey@POLYN191161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00100] The class HistoricalIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00101"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#101"
+   "c1" : "00112"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.timeline.TimelineHashMap.containsKey@POLYN191161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.timeline.SnapshottableHashTable.HistoricalIterator.HistoricalIterator@POLYN224838 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method containsValue arguments Object  value"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00105"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#105"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00108"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#108"
+   "c1" : "00122"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00108] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00122] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00110"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#110"
+   "c1" : "00130"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.timeline.TimelineHashMap.containsValue@POLYN191457 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000001[00130] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00113"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#113"
+   "c1" : "00132"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.timeline.TimelineHashMap.containsValue@POLYN191457 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00117"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#117"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method get arguments Object  key"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00121"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#121"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method get arguments Object  key|long  epoch"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00123"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#123"
+   "c1" : "00133"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00133] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00124"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#124"
+   "c1" : "00135"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00135] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00125"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#125"
+   "c1" : "00140"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00131"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method put arguments K  key|V  value"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00136"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#136"
+   "c1" : "00132"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.timeline.TimelineHashMap.put@POLYN192720 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00137"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#137"
+   "c1" : "00133"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.timeline.TimelineHashMap.put@POLYN192720 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00133] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00143"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method remove arguments Object  key"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00145"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#145"
+   "c1" : "00135"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193425 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00135] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00146"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#146"
+   "c1" : "00140"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193425 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00146"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#146"
+   "c1" : "00119"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193425 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.timeline.SnapshottableHashTable.HistoricalIterator.hasNext@POLYN225334 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00134"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.timeline.SnapshottableHashTable.HistoricalIterator.hasNext@POLYN225334 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00134"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.timeline.SnapshottableHashTable.HistoricalIterator.hasNext@POLYN225334 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00150"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  map"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.timeline.SnapshottableHashTable.HistoricalIterator.hasNext@POLYN225334 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00150"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#150"
+   "c1" : "00158"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.timeline.SnapshottableHashTable.HistoricalIterator.next@POLYN228578 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00164"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#164"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00150] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00164] The argument snapshotRegistry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00174"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.clear@POLYN194676 the MagicNumber/String  'can't modify snapshot' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00183"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#183"
+   "c1" : "00170"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method contains arguments Object  o"
+ , "c3" : "QC-JAV000006[00170] For method snapshottableSize arguments long  epoch"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00187"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#187"
+   "c1" : "00176"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00176] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00177"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00177] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00178"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableSize@POLYN229189 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00187] For method remove arguments Object  o"
+ , "c3" : "QC-JAV000006[00186] For method snapshottableGet arguments Object  key|long  epoch"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00189"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#189"
+   "c1" : "00196"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.remove@POLYN195281 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+ , "c3" : "QC-JAV000001[00196] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#191"
+   "c1" : "00197"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.remove@POLYN195281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00197] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#195"
+   "c1" : "00188"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00195] The class KeyIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableGet@POLYN229946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00192"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableGet@POLYN229946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00198"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableGet@POLYN229946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00198"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableGet@POLYN229946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00200"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableGet@POLYN229946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00204"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableGet@POLYN229946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00209"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableGet@POLYN229946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#212"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00212] For method snapshottableAddUnlessPresent arguments T  object"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#212"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00212] The argument object is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00214"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableAddUnlessPresent@POLYN231319 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00215"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableAddUnlessPresent@POLYN231319 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00217"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableAddUnlessPresent@POLYN231319 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableAddUnlessPresent@POLYN231319 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00224"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#224"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#224"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00224] For method keySet arguments long  epoch"
+ , "c3" : "QC-JAV000006[00224] For method snapshottableAddOrReplace arguments T  object"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00224"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#224"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00224] The argument object is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00225"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableAddOrReplace@POLYN231929 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00228"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableAddOrReplace@POLYN231929 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00236"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#236"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00236] For method snapshottableRemove arguments Object  object"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00238"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#238"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableRemove@POLYN232543 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00239"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#239"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableRemove@POLYN232543 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00241"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#241"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.timeline.TimelineHashMap.Values.clear@POLYN197095 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableRemove@POLYN232543 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00250"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#250"
+   "c1" : "00246"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00250] For method contains arguments Object  o"
+ , "c3" : "QC-JAV000006[00246] For method updateTierData arguments int  prevSize"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00255"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#255"
+   "c1" : "00251"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00255] The class ValueIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.timeline.SnapshottableHashTable.updateTierData@POLYN232980 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00284"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#284"
+   "c1" : "00258"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#258"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00284] For method values arguments long  epoch"
+ , "c3" : "QC-JAV000006[00258] For method updateTierData arguments T  prev|int  prevSize"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00258"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#258"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00258] The argument prev is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00266"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.timeline.SnapshottableHashTable.updateTierData@POLYN233692 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00270"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#270"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.timeline.SnapshottableHashTable.updateTierData@POLYN233692 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00271"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.timeline.SnapshottableHashTable.updateTierData@POLYN233692 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00278"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#278"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00278] For method snapshottableIterator arguments long  epoch"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00294"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00294] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00297"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#297"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00297] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00288"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#288"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  'SnapshottableHashTable{%n' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00289"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  'top tier: ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00291"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#291"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  ',%nsnapshot tiers: [%n' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00292"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#292"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00296"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  'epoch ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00296"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  ': ' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00298"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00299"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00301"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#301"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.clear@POLYN199218 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  'HashTier{' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00310"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#310"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00310] For method contains arguments Object  o"
+   "c1" : "00302"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  'size=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00303"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  ', deltaTable=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00304"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00305"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#305"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  'null' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00309"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#309"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00311"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#311"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.contains@POLYN199684 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00314"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#314"
+   "c1" : "00313"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#313"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.timeline.SnapshottableHashTable.snapshottableToDebugString@POLYN235232 the MagicNumber/String  ']}%n' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00319"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#319"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00314] For method remove arguments Object  o"
+ , "c3" : "QC-JAV000006[00319] For method executeRevert arguments long  targetEpoch|Delta  delta"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00316"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#316"
+   "c1" : "00323"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN199874 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+ , "c3" : "QC-JAV000001[00323] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00318"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#318"
+   "c1" : "00333"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN199874 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00333] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00318"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#318"
+   "c1" : "00329"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN199874 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.timeline.SnapshottableHashTable.executeRevert@POLYN237529 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00322"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#322"
+   "c1" : "00331"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00322] The class EntryIterator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00350"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#350"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00350] For method entrySet arguments long  epoch"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00356"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#356"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.timeline.TimelineHashMap.hashCode@POLYN201442 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00365"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#365"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00365] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00376"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#376"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00376] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00367"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#367"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00369"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#369"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00372"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#372"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00378"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#378"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00382"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#382"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00384"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.timeline.SnapshottableHashTable.executeRevert@POLYN237529 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

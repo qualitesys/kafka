@@ -3,7 +3,9 @@
 java.lang.Object <|-- org.apache.kafka.common.security.token.delegation.TokenInformation
 class org.apache.kafka.common.security.token.delegation.TokenInformation {
 +  TokenInformation(String;KafkaPrincipal;Collection<KafkaPrincipal>;long;long;long)
++  TokenInformation(String;KafkaPrincipal;KafkaPrincipal;Collection<KafkaPrincipal>;long;long;long)
 +  owner()
++  tokenRequester()
 +  ownerAsString()
 +  renewers()
 +  renewersAsString()

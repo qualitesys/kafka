@@ -2,7 +2,6 @@
 !pragma layout smetana
 ChangelogReader <|-- org.apache.kafka.streams.processor.internals.StoreChangelogReader
 class org.apache.kafka.streams.processor.internals.StoreChangelogReader {
-+  setMainConsumer(Consumer<byte[],byte[]>)
 +  StoreChangelogReader(Time;StreamsConfig;LogContext;Admin;Consumer<byte[],byte[]>;StateRestoreListener)
 +  recordEndOffset(Long)
 +  hasRestoredToEnd(ChangelogMetadata)

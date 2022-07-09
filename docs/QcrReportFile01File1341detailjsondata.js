@@ -1,67 +1,116 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java 8 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/MetadataImage.java 13 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.image.ProducerIdsDelta"
+ , "c2" : "org.apache.kafka.image.MetadataImage"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.image.ProducerIdsDelta" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.image.MetadataImage" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "ProducerIdsDelta"
- , "c2" : "ProducerIdsDelta(ProducerIdsImage)"
+   "c1" : "MetadataImage"
+ , "c2" : "MetadataImage(OffsetAndEpoch;FeaturesImage;ClusterImage;TopicsImage;ConfigurationsImage;ClientQuotasImage;ProducerIdsImage;AclsImage)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "isEmpty()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "setNextProducerId(long)"
+   "c1" : "OffsetAndEpoch"
+ , "c2" : "highestOffsetAndEpoch()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "long"
- , "c2" : "nextProducerId()"
+   "c1" : "FeaturesImage"
+ , "c2" : "features()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "finishSnapshot()"
+   "c1" : "ClusterImage"
+ , "c2" : "cluster()"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "handleMetadataVersionChange(MetadataVersion)"
+   "c1" : "TopicsImage"
+ , "c2" : "topics()"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "replay(ProducerIdsRecord)"
+   "c1" : "ConfigurationsImage"
+ , "c2" : "configs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ClientQuotasImage"
+ , "c2" : "clientQuotas()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : "ProducerIdsImage"
- , "c2" : "apply()"
+ , "c2" : "producerIds()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "AclsImage"
+ , "c2" : "acls()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -70,9 +119,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.svg" }
 
 ] 
 , 
@@ -99,20 +148,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -120,68 +155,110 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00009"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#9"
+   "c1" : "00015"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class ProducerIdsDelta contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class MetadataImage contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00012"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#12"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00012] The argument image is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00016"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#16"
+   "c1" : "00104"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method setNextProducerId arguments long  highestSeenProducerId"
+ , "c3" : "QC-JAV000006[00104] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#28"
+   "c1" : "00118"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method handleMetadataVersionChange arguments MetadataVersion  newVersion"
+ , "c3" : "QC-JAV000006[00118] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method replay arguments ProducerIdsRecord  record"
+   "c1" : "00119"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.image.MetadataImage.equals@POLYN159237 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#32"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00145"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  'MetadataImage(highestOffsetAndEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#24"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00024] Public method finishSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
+   "c1" : "00146"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ', features=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#28"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00028] Public method handleMetadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"
+   "c1" : "00147"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ', cluster=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00148"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ', topics=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00149"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ', configs=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00150"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ', clientQuotas=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00151"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ', producerIdsImage=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00152"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ', acls=' should be converted to const"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00153"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#153"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

@@ -10,6 +10,7 @@ class org.apache.kafka.streams.processor.internals.Task {
 +  closeDirty()
 +  closeClean()
 +  updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)
++  maybeCheckpoint(boolean)
 +  markChangelogAsCorrupted(Collection<TopicPartition>)
 +  revive()
 +  closeCleanAndRecycleState()

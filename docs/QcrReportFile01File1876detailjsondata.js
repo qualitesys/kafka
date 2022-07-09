@@ -75,6 +75,13 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "void"
+ , "c2" : "maybeCheckpoint(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
  , "c2" : "markChangelogAsCorrupted(Collection<TopicPartition>)"
  , "c3" : "1"
  , "c4" : "1"

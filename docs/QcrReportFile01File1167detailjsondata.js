@@ -1,78 +1,134 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java 10 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java 0 rule violation " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "OffsetBackingStore"
- , "c2" : "org.apache.kafka.connect.storage.ConnectorOffsetBackingStore"
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.storage.ConfigBackingStore"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.storage.ConnectorOffsetBackingStore" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ConnectorOffsetBackingStore"
- , "c2" : "ConnectorOffsetBackingStore(OffsetBackingStore;String)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "String"
- , "c2" : "primaryOffsetsTopic()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
+ { "nomclasse" : "org.apache.kafka.connect.storage.ConfigBackingStore" , "link" : "" , "methodes" : [ 
 { "ligne" : {
    "c1" : "void"
  , "c2" : "start()"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
- , "c2" : "get(Collection<ByteBuffer>)"
+   "c1" : "ClusterConfigState"
+ , "c2" : "snapshot()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Future<Void>"
- , "c2" : "set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)"
+   "c1" : "boolean"
+ , "c2" : "contains(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : "void"
- , "c2" : "configure(WorkerConfig)"
+ , "c2" : "putConnectorConfig(String;Map<String,String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "removeConnectorConfig(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putTaskConfigs(String;List<Map<String,String>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "removeTaskConfigs(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "refresh(long;TimeUnit)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putTargetState(String;TargetState)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putSessionKey(SessionKey)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putRestartRequest(RestartRequest)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "putTaskCountRecord(String;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "claimWritePrivileges()"
  , "c3" : "1"
  , "c4" : "0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "void"
+ , "c2" : "setUpdateListener(UpdateListener)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.png" 
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.png" 
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.svg" }
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.svg" }
 
 ] 
 , 
@@ -97,106 +153,5 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class ConnectorOffsetBackingStore contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00040"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method get arguments Collection&lt;ByteBuffer &gt;  keys"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00046"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method set arguments Map&lt;ByteBuffer ,ByteBuffer &gt;  values|Callback&lt;Void &gt;  callback"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method configure arguments WorkerConfig  config"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00030] Void method start is empty or contains only a return."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00030] Void method start is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#35"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00035] Void method stop is empty or contains only a return."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#35"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00035] Void method stop is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00052] Void method configure is empty or contains only a return."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00052"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00052] Void method configure is empty or contains only a return. Interface segregation"
-}} 
-]
 };
 console.log('leListeStr 99 main end');

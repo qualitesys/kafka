@@ -10,5 +10,6 @@ class org.apache.kafka.streams.kstream.SessionWindowedKStream {
 +  reduce(Reducer<V>;Named)
 +  reduce(Reducer<V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)
 +  reduce(Reducer<V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)
++  emitStrategy(EmitStrategy)
 } 
 @enduml

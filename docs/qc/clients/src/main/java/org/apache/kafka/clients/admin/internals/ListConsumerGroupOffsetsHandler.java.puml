@@ -3,6 +3,7 @@
 AdminApiHandler.Batched<CoordinatorKey,Map<TopicPartition,OffsetAndMetadata>> <|-- org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler
 class org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler {
 +  ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;LogContext)
++  ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;boolean;LogContext)
 +  newFuture(String)
 +  apiName()
 +  lookupStrategy()

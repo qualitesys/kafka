@@ -1,8 +1,9 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource
+ConnectResource <|-- org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource
 class org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource {
 +  ConnectorPluginsResource(Herder)
++  requestTimeout(long)
 +  validateConfigs(String;Map<String,String>)
 +  listConnectorPlugins(boolean)
 +  getConnectorConfigDef(String)

@@ -2,10 +2,14 @@
 !pragma layout smetana
 OffsetBackingStore <|-- org.apache.kafka.connect.storage.KafkaOffsetBackingStore
 class org.apache.kafka.connect.storage.KafkaOffsetBackingStore {
++  forTask(String;Producer<byte[],byte[]>;Consumer<byte[],byte[]>;TopicAdmin)
++  forConnector(String;Consumer<byte[],byte[]>;TopicAdmin)
 +  KafkaOffsetBackingStore()
 +  KafkaOffsetBackingStore(Supplier<TopicAdmin>)
 +  configure(WorkerConfig)
 +  createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<byte[],byte[]>>;NewTopic;Supplier<TopicAdmin>)
++  newTopicDescription(String;WorkerConfig)
++  initialize(String;NewTopic)
 +  start()
 +  stop()
 +  get(Collection<ByteBuffer>)

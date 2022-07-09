@@ -2,12 +2,19 @@
 !pragma layout smetana
 OffsetBackingStore <|-- org.apache.kafka.connect.storage.ConnectorOffsetBackingStore
 class org.apache.kafka.connect.storage.ConnectorOffsetBackingStore {
-+  ConnectorOffsetBackingStore(OffsetBackingStore;String)
++  withConnectorAndWorkerStores(Supplier<LoggingContext>;OffsetBackingStore;KafkaOffsetBackingStore;String;TopicAdmin)
++  withOnlyWorkerStore(Supplier<LoggingContext>;OffsetBackingStore;String)
++  withOnlyConnectorStore(Supplier<LoggingContext>;KafkaOffsetBackingStore;String;TopicAdmin)
++  ConnectorOffsetBackingStore(Time;Supplier<LoggingContext>;String;OffsetBackingStore;KafkaOffsetBackingStore;TopicAdmin)
 +  primaryOffsetsTopic()
 +  start()
 +  stop()
 +  get(Collection<ByteBuffer>)
 +  set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)
 +  configure(WorkerConfig)
++  hasConnectorSpecificStore()
++  hasWorkerGlobalStore()
++  loggingContext()
++  getFromStore(Optional<?extendsOffsetBackingStore>;Collection<ByteBuffer>)
 } 
 @enduml

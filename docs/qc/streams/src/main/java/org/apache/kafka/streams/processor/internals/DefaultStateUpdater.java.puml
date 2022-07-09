@@ -2,7 +2,9 @@
 !pragma layout smetana
 StateUpdater <|-- org.apache.kafka.streams.processor.internals.DefaultStateUpdater
 class org.apache.kafka.streams.processor.internals.DefaultStateUpdater {
-+  DefaultStateUpdater(ChangelogReader;Consumer<Set<TopicPartition>>;Time)
++  DefaultStateUpdater(StreamsConfig;ChangelogReader;Time)
++  start()
++  shutdown(Duration)
 +  add(Task)
 +  verifyStateFor(Task)
 +  remove(TaskId)
@@ -14,6 +16,9 @@ class org.apache.kafka.streams.processor.internals.DefaultStateUpdater {
 +  getRestoredActiveTasks()
 +  getExceptionsAndFailedTasks()
 +  getRemovedTasks()
-+  shutdown(Duration)
++  getTasks()
++  getActiveTasks()
++  getStandbyTasks()
++  getStreamOfTasks()
 } 
 @enduml

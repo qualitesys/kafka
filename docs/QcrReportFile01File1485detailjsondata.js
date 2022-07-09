@@ -1,81 +1,46 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html" 
- , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java 0 rule violation " 
- , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.xml" 
+   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html" 
+ , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java 2 rule violations " 
+ , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
-   "c1" : "Configurable"
- , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager"
+   "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadata"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "CompletableFuture<Void>"
- , "c2" : "addRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)"
+   "c1" : "RemoteLogMetadata"
+ , "c2" : "RemoteLogMetadata(int;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "long"
+ , "c2" : "eventTimestampMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "CompletableFuture<Void>"
- , "c2" : "updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate)"
+   "c1" : "int"
+ , "c2" : "brokerId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "Optional<RemoteLogSegmentMetadata>"
- , "c2" : "remoteLogSegmentMetadata(TopicIdPartition;int;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Optional<Long>"
- , "c2" : "highestOffsetForEpoch(TopicIdPartition;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "CompletableFuture<Void>"
- , "c2" : "putRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Iterator<RemoteLogSegmentMetadata>"
- , "c2" : "listRemoteLogSegments(TopicIdPartition)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "Iterator<RemoteLogSegmentMetadata>"
- , "c2" : "listRemoteLogSegments(TopicIdPartition;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "onPartitionLeadershipChanges(Set<TopicIdPartition>;Set<TopicIdPartition>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "void"
- , "c2" : "onStopPartitions(Set<TopicIdPartition>)"
+   "c1" : "TopicIdPartition"
+ , "c2" : "topicIdPartition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,9 +49,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.png" 
+   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.png" 
 
- , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.svg" }
+ , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.svg" }
 
 ] 
 , 
@@ -111,5 +76,36 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "00009"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#9"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00009] The class RemoteLogMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00033"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#33"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00033] Public method topicIdPartition is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+]
 };
 console.log('leListeStr 99 main end');

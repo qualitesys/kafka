@@ -52,7 +52,7 @@
 <a name="52">52&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="53">53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="54">54&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="55">55&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="55">55&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="56">56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="57">57&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="58">58&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyKeyValueStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>
@@ -95,7 +95,7 @@
 <a name="95">95&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="96">96&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="97">97&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="98">98&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="98">98&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="99">99&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="100">100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="101">101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyKeyValueStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>
@@ -138,7 +138,7 @@
 <a name="138">138&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="139">139&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="140">140&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="141">141&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="141">141&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="142">142&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="143">143&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="144">144&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;For&nbsp;failure&nbsp;and&nbsp;recovery&nbsp;the&nbsp;store&nbsp;will&nbsp;be&nbsp;backed&nbsp;by&nbsp;an&nbsp;internal&nbsp;changelog&nbsp;topic&nbsp;that&nbsp;will&nbsp;be&nbsp;created&nbsp;in&nbsp;Kafka.</a><br/>
@@ -167,7 +167,7 @@
 <a name="167">167&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="168">168&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="169">169&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="170">170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="170">170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="171">171&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="172">172&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="173">173&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;For&nbsp;failure&nbsp;and&nbsp;recovery&nbsp;the&nbsp;store&nbsp;will&nbsp;be&nbsp;backed&nbsp;by&nbsp;an&nbsp;internal&nbsp;changelog&nbsp;topic&nbsp;that&nbsp;will&nbsp;be&nbsp;created&nbsp;in&nbsp;Kafka.</a><br/>
@@ -223,7 +223,7 @@
 <a name="223">223&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="224">224&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="225">225&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="226">226&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="226">226&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="227">227&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="228">228&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="229">229&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyKeyValueStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>
@@ -296,7 +296,7 @@
 <a name="296">296&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="297">297&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="298">298&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="299">299&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="299">299&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="300">300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="301">301&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="302">302&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyKeyValueStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>
@@ -368,7 +368,7 @@
 <a name="368">368&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="369">369&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="370">370&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="371">371&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="371">371&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="372">372&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="373">373&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="374">374&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;For&nbsp;failure&nbsp;and&nbsp;recovery&nbsp;the&nbsp;store&nbsp;will&nbsp;be&nbsp;backed&nbsp;by&nbsp;an&nbsp;internal&nbsp;changelog&nbsp;topic&nbsp;that&nbsp;will&nbsp;be&nbsp;created&nbsp;in&nbsp;Kafka.</a><br/>
@@ -434,7 +434,7 @@
 <a name="434">434&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="435">435&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="436">436&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="437">437&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="437">437&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="438">438&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="439">439&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="440">440&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyKeyValueStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>
@@ -518,7 +518,7 @@
 <a name="518">518&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="519">519&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="520">520&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="521">521&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="521">521&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="522">522&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="523">523&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&lt;p&gt;</a><br/>
 <a name="524">524&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;To&nbsp;query&nbsp;the&nbsp;local&nbsp;{@link&nbsp;ReadOnlyKeyValueStore}&nbsp;it&nbsp;must&nbsp;be&nbsp;obtained&nbsp;via</a><br/>
@@ -604,7 +604,7 @@
 <a name="604">604&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="605">605&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="606">606&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="607">607&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="607">607&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="608">608&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="609">609&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;For&nbsp;failure&nbsp;and&nbsp;recovery&nbsp;the&nbsp;store&nbsp;will&nbsp;be&nbsp;backed&nbsp;by&nbsp;an&nbsp;internal&nbsp;changelog&nbsp;topic&nbsp;that&nbsp;will&nbsp;be&nbsp;created&nbsp;in&nbsp;Kafka.</a><br/>
 <a name="610">610&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;changelog&nbsp;topic&nbsp;will&nbsp;be&nbsp;named&nbsp;"${applicationId}-${internalStoreName}-changelog",&nbsp;where&nbsp;"applicationId"&nbsp;is</a><br/>
@@ -674,7 +674,7 @@
 <a name="674">674&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;the&nbsp;same&nbsp;key.</a><br/>
 <a name="675">675&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rate&nbsp;of&nbsp;propagated&nbsp;updates&nbsp;depends&nbsp;on&nbsp;your&nbsp;input&nbsp;data&nbsp;rate,&nbsp;the&nbsp;number&nbsp;of&nbsp;distinct&nbsp;keys,&nbsp;the&nbsp;number&nbsp;of</a><br/>
 <a name="676">676&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;parallel&nbsp;running&nbsp;Kafka&nbsp;Streams&nbsp;instances,&nbsp;and&nbsp;the&nbsp;{@link&nbsp;StreamsConfig&nbsp;configuration}&nbsp;parameters&nbsp;for</a><br/>
-<a name="677">677&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#STATESTORE_CACHE_MAX_BYTES_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
+<a name="677">677&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#CACHE_MAX_BYTES_BUFFERING_CONFIG&nbsp;cache&nbsp;size},&nbsp;and</a><br/>
 <a name="678">678&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;{@link&nbsp;StreamsConfig#COMMIT_INTERVAL_MS_CONFIG&nbsp;commit&nbsp;interval}.</a><br/>
 <a name="679">679&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;For&nbsp;failure&nbsp;and&nbsp;recovery&nbsp;the&nbsp;store&nbsp;will&nbsp;be&nbsp;backed&nbsp;by&nbsp;an&nbsp;internal&nbsp;changelog&nbsp;topic&nbsp;that&nbsp;will&nbsp;be&nbsp;created&nbsp;in&nbsp;Kafka.</a><br/>
 <a name="680">680&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;changelog&nbsp;topic&nbsp;will&nbsp;be&nbsp;named&nbsp;"${applicationId}-${internalStoreName}-changelog",&nbsp;where&nbsp;"applicationId"&nbsp;is</a><br/>

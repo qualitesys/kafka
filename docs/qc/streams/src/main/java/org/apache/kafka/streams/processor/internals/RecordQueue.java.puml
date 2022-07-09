@@ -16,6 +16,5 @@ class org.apache.kafka.streams.processor.internals.RecordQueue {
 +  close()
 +  updateHead()
 +  partitionTime()
-+  getTotalBytesBuffered()
 } 
 @enduml

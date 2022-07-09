@@ -1,25 +1,39 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachAction.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/ForeachAction.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachAction.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.kstream.ForeachAction"
+ , "c2" : "org.apache.kafka.streams.kstream.EmitStrategy"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.ForeachAction" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.EmitStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "void"
- , "c2" : "apply(K;V)"
+   "c1" : "StrategyType"
+ , "c2" : "type()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "EmitStrategy"
+ , "c2" : "onWindowClose()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "EmitStrategy"
+ , "c2" : "onWindowUpdate()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -28,9 +42,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachAction.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachAction.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.svg" }
 
 ] 
 , 

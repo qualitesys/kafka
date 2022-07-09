@@ -6,8 +6,6 @@ class org.apache.kafka.streams.processor.internals.metrics.TaskMetrics {
 +  processLatencySensor(String;String;StreamsMetricsImpl)
 +  activeProcessRatioSensor(String;String;StreamsMetricsImpl)
 +  activeBufferedRecordsSensor(String;String;StreamsMetricsImpl)
-+  totalInputBufferBytesSensor(String;String;StreamsMetricsImpl)
-+  totalCacheSizeBytesSensor(String;String;StreamsMetricsImpl)
 +  punctuateSensor(String;String;StreamsMetricsImpl)
 +  commitSensor(String;String;StreamsMetricsImpl;Sensor...)
 +  enforcedProcessingSensor(String;String;StreamsMetricsImpl;Sensor...)

@@ -58,5 +58,12 @@ class org.apache.kafka.connect.runtime.Worker {
 +  executeStateTransition(Runnable;ClassLoader)
 +  connectorStatusMetricsGroup()
 +  workerMetricsGroup()
++  offsetStoreForRegularSourceConnector(SourceConnectorConfig;String;Connector)
++  offsetStoreForExactlyOnceSourceConnector(SourceConnectorConfig;String;Connector)
++  offsetStoreForRegularSourceTask(ConnectorTaskId;SourceConnectorConfig;Class<?extendsConnector>;Producer<byte[],byte[]>;Map<String,Object>;TopicAdmin)
++  offsetStoreForExactlyOnceSourceTask(ConnectorTaskId;SourceConnectorConfig;Class<?extendsConnector>;Producer<byte[],byte[]>;Map<String,Object>;TopicAdmin)
++  sameOffsetTopicAsWorker(String;Map<String,Object>)
++  regularSourceTaskUsesConnectorSpecificOffsetsStore(SourceConnectorConfig)
++  sourceConnectorTopicCreationEnabled(SourceConnectorConfig)
 } 
 @enduml

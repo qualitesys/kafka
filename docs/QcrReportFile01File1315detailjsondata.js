@@ -1,46 +1,53 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java 15 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java 11 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : {
    "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.controller.PartitionReassignmentRevert"
+ , "c2" : "org.apache.kafka.controller.PartitionReassignmentReplicas"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.controller.PartitionReassignmentRevert" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.controller.PartitionReassignmentReplicas" , "link" : "" , "methodes" : [ 
 { "ligne" : {
-   "c1" : "PartitionReassignmentRevert"
- , "c2" : "PartitionReassignmentRevert(PartitionRegistration)"
- , "c3" : "8"
- , "c4" : "12"
+   "c1" : "Set<Integer>"
+ , "c2" : "calculateDifference(List<Integer>;List<Integer>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PartitionReassignmentReplicas"
+ , "c2" : "PartitionReassignmentReplicas(List<Integer>;List<Integer>)"
+ , "c3" : "1"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : {
    "c1" : "List<Integer>"
- , "c2" : "replicas()"
+ , "c2" : "removing()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : "List<Integer>"
- , "c2" : "isr()"
+ , "c2" : "adding()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "boolean"
- , "c2" : "unclean()"
+   "c1" : "List<Integer>"
+ , "c2" : "merged()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -70,9 +77,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.svg" }
 
 ] 
 , 
@@ -99,13 +106,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -116,121 +116,93 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "12"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
    "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00015"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#15"
+   "c1" : "00012"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class PartitionReassignmentRevert contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00012] The class PartitionReassignmentReplicas contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00020"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument registration is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+   "c1" : "00017"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#17"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00017] For method calculateDifference arguments List&lt;Integer &gt;  a|List&lt;Integer &gt;  b"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.controller.PartitionReassignmentRevert.PartitionReassignmentRevert@POLYN150313 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00049"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.controller.PartitionReassignmentRevert.PartitionReassignmentRevert@POLYN150313 the MagicNumber/String  'Invalid replica ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.controller.PartitionReassignmentRevert.PartitionReassignmentRevert@POLYN150313 the MagicNumber/String  'assignment: addingReplicas contains all replicas.' should be converted to const"
+   "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#51"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00051] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#52"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.controller.PartitionReassignmentRevert.PartitionReassignmentRevert@POLYN150313 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.controller.PartitionReassignmentReplicas.equals@POLYN150234 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#53"
+   "c1" : "00061"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.controller.PartitionReassignmentRevert.PartitionReassignmentRevert@POLYN150313 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.controller.PartitionReassignmentReplicas.toString@POLYN150731 the MagicNumber/String  'PartitionReassignmentReplicas(' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00055"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#55"
+   "c1" : "00062"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.PartitionReassignmentRevert.PartitionReassignmentRevert@POLYN150313 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.controller.PartitionReassignmentReplicas.toString@POLYN150731 the MagicNumber/String  'removing=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method equals arguments Object  o"
+   "c1" : "00062"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.controller.PartitionReassignmentReplicas.toString@POLYN150731 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00078"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#78"
+   "c1" : "00063"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.controller.PartitionReassignmentRevert.equals@POLYN152456 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.controller.PartitionReassignmentReplicas.toString@POLYN150731 the MagicNumber/String  'adding=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00086"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#86"
+   "c1" : "00063"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.controller.PartitionReassignmentRevert.toString@POLYN152884 the MagicNumber/String  'PartitionReassignmentRevert(' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.controller.PartitionReassignmentReplicas.toString@POLYN150731 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#87"
+   "c1" : "00064"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.PartitionReassignmentRevert.toString@POLYN152884 the MagicNumber/String  'replicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.controller.PartitionReassignmentReplicas.toString@POLYN150731 the MagicNumber/String  'merged=' should be converted to const"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#87"
+   "c1" : "00064"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.PartitionReassignmentRevert.toString@POLYN152884 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.PartitionReassignmentRevert.toString@POLYN152884 the MagicNumber/String  'isr=' should be converted to const"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00088"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.PartitionReassignmentRevert.toString@POLYN152884 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.controller.PartitionReassignmentReplicas.toString@POLYN150731 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 };

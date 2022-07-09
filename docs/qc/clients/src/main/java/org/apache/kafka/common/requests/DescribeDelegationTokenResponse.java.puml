@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.DescribeDelegationTokenResponse
 class org.apache.kafka.common.requests.DescribeDelegationTokenResponse {
-+  DescribeDelegationTokenResponse(int;Errors;List<DelegationToken>)
-+  DescribeDelegationTokenResponse(int;Errors)
++  DescribeDelegationTokenResponse(int;int;Errors;List<DelegationToken>)
++  DescribeDelegationTokenResponse(int;int;Errors)
 +  DescribeDelegationTokenResponse(DescribeDelegationTokenResponseData)
 +  parse(ByteBuffer;short)
 +  errorCounts()
