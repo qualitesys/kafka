@@ -155,21 +155,21 @@ var maDataBlocs = {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151593 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151593 the MagicNumber/String  'could not find group ' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String  'could not find group ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151593 the MagicNumber/String  ' in the delete group response' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String  ' in the delete group response' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -190,42 +190,42 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.DeleteGroupsResponse.shouldClientThrottle@POLYN152976 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.DeleteGroupsResponse.shouldClientThrottle@POLYN153120 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151593"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteGroupsResponse.throttleTimeMs@POLYN152856"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteGroupsResponse.throttleTimeMs@POLYN153000"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#39"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151593 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151593 the MagicNumber/String ' in the delete group response' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String ' in the delete group response' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151593 the MagicNumber/String 'could not find group ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String 'could not find group ' MUST BE CONVERTED to const"
 }} 
 ]
 };

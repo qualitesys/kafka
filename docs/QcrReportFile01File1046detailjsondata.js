@@ -160,7 +160,7 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00020] For method validate list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; connectorClientConfigRequest_clientPropsN145743"
+ , "c3" : "QC-JAV000007[00020] For method validate list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; connectorClientConfigRequest_clientPropsN145887"
 }} 
 ,
 { "ligne" : {
@@ -202,21 +202,21 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146440 the MagicNumber/String  'The '' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146584 the MagicNumber/String  'The '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146440 the MagicNumber/String  '' policy does not allow '' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146584 the MagicNumber/String  '' policy does not allow '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146440 the MagicNumber/String  '' to be overridden in the connector configuration.' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146584 the MagicNumber/String  '' to be overridden in the connector configuration.' should be converted to const"
 }} 
 ,
 { "ligne" : {

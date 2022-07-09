@@ -111,14 +111,14 @@ var maDataBlocs = {
    "c1" : "00016"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.ConstantPayloadGenerator@POLYN145128 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.ConstantPayloadGenerator@POLYN145272 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00016"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.ConstantPayloadGenerator@POLYN145128 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.ConstantPayloadGenerator@POLYN145272 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -132,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.generate@POLYN145854 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.generate@POLYN145998 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.generate@POLYN145854 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.generate@POLYN145998 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

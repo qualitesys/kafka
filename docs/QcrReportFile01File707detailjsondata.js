@@ -134,7 +134,7 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.forConsumer@POLYN158694 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.forConsumer@POLYN158838 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -155,14 +155,14 @@ var maDataBlocs = {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159624 the MagicNumber/String  'Cannot build ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159768 the MagicNumber/String  'Cannot build ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159624 the MagicNumber/String  ' with version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159768 the MagicNumber/String  ' with version ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -190,14 +190,14 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.supportsTopicPermission@POLYN162096 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.supportsTopicPermission@POLYN162240 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.replicaId@POLYN160518"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.replicaId@POLYN160662"
 }} 
 ]
 };

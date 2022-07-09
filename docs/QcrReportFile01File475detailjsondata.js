@@ -139,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.metrics.stats.Histogram.Histogram@POLYN171482 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.metrics.stats.Histogram.Histogram@POLYN171626 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -153,14 +153,14 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.metrics.stats.Histogram.record@POLYN171795 the MagicNumber/String  1.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.metrics.stats.Histogram.record@POLYN171939 the MagicNumber/String  1.0f should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.stats.Histogram.record@POLYN171795 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.stats.Histogram.record@POLYN171939 the MagicNumber/String  1.0d should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,140 +174,140 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172066 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172210 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172066 the MagicNumber/String  1.00d should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172210 the MagicNumber/String  1.00d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172066 the MagicNumber/String  0.00d should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172210 the MagicNumber/String  0.00d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172066 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172210 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172066 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172210 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172066 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172210 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172066 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.stats.Histogram.value@POLYN172210 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.stats.Histogram.clear@POLYN173234 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.stats.Histogram.clear@POLYN173378 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.metrics.stats.Histogram.clear@POLYN173234 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.metrics.stats.Histogram.clear@POLYN173378 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  '%.10f' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  '%.10f' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  '%.0f' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  '%.0f' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  '%.0f' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  '%.0f' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173468 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.stats.Histogram.toString@POLYN173612 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -321,21 +321,21 @@ var maDataBlocs = {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme.ConstantBinScheme@POLYN176273 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme.ConstantBinScheme@POLYN176417 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme.ConstantBinScheme@POLYN176273 the MagicNumber/String  'Must have at least 2 bins.' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme.ConstantBinScheme@POLYN176417 the MagicNumber/String  'Must have at least 2 bins.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme.ConstantBinScheme@POLYN176273 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme.ConstantBinScheme@POLYN176417 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -363,28 +363,28 @@ var maDataBlocs = {
    "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178459 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178603 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178459 the MagicNumber/String  'Must have at least 2 bins.' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178603 the MagicNumber/String  'Must have at least 2 bins.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178459 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178603 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178459 the MagicNumber/String  2.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.LinearBinScheme@POLYN178603 the MagicNumber/String  2.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -398,28 +398,28 @@ var maDataBlocs = {
    "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179143 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179287 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179143 the MagicNumber/String  0.0000d should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179287 the MagicNumber/String  0.0000d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179143 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179287 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179143 the MagicNumber/String  2.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.fromBin@POLYN179287 the MagicNumber/String  2.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -433,49 +433,49 @@ var maDataBlocs = {
    "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179679 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179679 the MagicNumber/String  'Values less than 0.0 not accepted.' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  'Values less than 0.0 not accepted.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179679 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179679 the MagicNumber/String  0.5 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  0.5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179679 the MagicNumber/String  0.5 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  0.5 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179679 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179679 the MagicNumber/String  8.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  8.0 should be converted to const"
 }} 
 ]
 };

@@ -169,14 +169,14 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.GlobalProcessorContextImpl@POLYN163514 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.GlobalProcessorContextImpl@POLYN163658 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.GlobalProcessorContextImpl@POLYN163514 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.GlobalProcessorContextImpl@POLYN163658 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -218,7 +218,7 @@ var maDataBlocs = {
    "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.currentStreamTimeMs@POLYN167341 the MagicNumber/String  'There is no concept of stream-time for a global processor.' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.currentStreamTimeMs@POLYN167485 the MagicNumber/String  'There is no concept of stream-time for a global processor.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -232,7 +232,7 @@ var maDataBlocs = {
    "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.schedule@POLYN167519 the MagicNumber/String  'this should not happen: schedule() not supported in global processor context.' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.schedule@POLYN167663 the MagicNumber/String  'this should not happen: schedule() not supported in global processor context.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -246,7 +246,7 @@ var maDataBlocs = {
    "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.logChange@POLYN167732 the MagicNumber/String  'this should not happen: logChange() not supported in global processor context.' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.logChange@POLYN167876 the MagicNumber/String  'this should not happen: logChange() not supported in global processor context.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -260,7 +260,7 @@ var maDataBlocs = {
    "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.transitionToActive@POLYN168003 the MagicNumber/String  'this should not happen: transitionToActive() not supported in global processor context.' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.transitionToActive@POLYN168147 the MagicNumber/String  'this should not happen: transitionToActive() not supported in global processor context.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -274,7 +274,7 @@ var maDataBlocs = {
    "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.transitionToStandby@POLYN168212 the MagicNumber/String  'this should not happen: transitionToStandby() not supported in global processor context.' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.transitionToStandby@POLYN168356 the MagicNumber/String  'this should not happen: transitionToStandby() not supported in global processor context.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -288,7 +288,7 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.currentSystemTimeMs@POLYN167221"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl.currentSystemTimeMs@POLYN167365"
 }} 
 ]
 };

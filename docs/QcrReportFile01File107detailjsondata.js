@@ -90,7 +90,7 @@ var maDataBlocs = {
    "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.html#20"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.ListConsumerGroupsOptions.inStates@POLYN145831 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.admin.ListConsumerGroupsOptions.inStates@POLYN145975 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

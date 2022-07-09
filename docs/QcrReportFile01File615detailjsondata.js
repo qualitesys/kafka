@@ -146,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.BeginQuorumEpochRequest.singletonRequest@POLYN151583 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.BeginQuorumEpochRequest.singletonRequest@POLYN151727 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

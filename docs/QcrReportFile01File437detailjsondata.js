@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.feature.Features.Features@POLYN162476 the MagicNumber/String  'Provided features can not be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.feature.Features.Features@POLYN162620 the MagicNumber/String  'Provided features can not be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -195,21 +195,21 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.feature.Features.toString@POLYN163732 the MagicNumber/String  'Features{%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.feature.Features.toString@POLYN163876 the MagicNumber/String  'Features{%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.feature.Features.toString@POLYN163732 the MagicNumber/String  '(%s -&amp;gt; %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.feature.Features.toString@POLYN163876 the MagicNumber/String  '(%s -&amp;gt; %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.feature.Features.toString@POLYN163732 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.feature.Features.toString@POLYN163876 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,14 +244,14 @@ var maDataBlocs = {
    "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.feature.Features.equals@POLYN166132 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.feature.Features.equals@POLYN166276 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.feature.Features.equals@POLYN166132 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.feature.Features.equals@POLYN166276 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -125,35 +125,35 @@ var maDataBlocs = {
    "c1" : "00025"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#25"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00025] For method start list of called methods Object monObjet|String config_sourceClusterAliasN149474|String config_targetClusterAliasN149548|String config_heartbeatsTopicN149622|java.time.Duration config_emitHeartbeatsIntervalN149696"
+ , "c3" : "QC-JAV000007[00025] For method start list of called methods Object monObjet|String config_sourceClusterAliasN149618|String config_targetClusterAliasN149692|String config_heartbeatsTopicN149766|java.time.Duration config_emitHeartbeatsIntervalN149840"
 }} 
 ,
 { "ligne" : {
    "c1" : "00026"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.start@POLYN149158 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.start@POLYN149302 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150229 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150085 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150229 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150085 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150229 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {

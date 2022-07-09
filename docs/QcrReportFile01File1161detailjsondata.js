@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00022"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00022] For method createServerSideSslContextFactory list of called methods Object monObjet|SslContextFactory config_valuesWithPrefixAllOrNothingN166182"
+ , "c3" : "QC-JAV000007[00022] For method createServerSideSslContextFactory list of called methods Object monObjet|SslContextFactory config_valuesWithPrefixAllOrNothingN166326"
 }} 
 ,
 { "ligne" : {
@@ -195,7 +195,7 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.createServerSideSslContextFactory@POLYN166771 the MagicNumber/String  'listeners.https.' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.createServerSideSslContextFactory@POLYN166915 the MagicNumber/String  'listeners.https.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -209,7 +209,7 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method createClientSideSslContextFactory list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; config_valuesWithPrefixAllOrNothingN167117"
+ , "c3" : "QC-JAV000007[00041] For method createClientSideSslContextFactory list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; config_valuesWithPrefixAllOrNothingN167261"
 }} 
 ,
 { "ligne" : {
@@ -223,7 +223,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.createClientSideSslContextFactory@POLYN166983 the MagicNumber/String  'listeners.https.' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.createClientSideSslContextFactory@POLYN167127 the MagicNumber/String  'listeners.https.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -251,21 +251,21 @@ var maDataBlocs = {
    "c1" : "00059"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryKeyStore@POLYN167694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryKeyStore@POLYN167838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryKeyStore@POLYN167694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryKeyStore@POLYN167838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryKeyStore@POLYN167694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryKeyStore@POLYN167838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -307,14 +307,14 @@ var maDataBlocs = {
    "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryTrustStore@POLYN169178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryTrustStore@POLYN169322 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryTrustStore@POLYN169178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryTrustStore@POLYN169322 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -342,35 +342,35 @@ var maDataBlocs = {
    "c1" : "00095"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170104 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170248 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170248 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170248 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00105"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170104 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170248 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAlgorithms@POLYN170248 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -398,7 +398,7 @@ var maDataBlocs = {
    "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryEndpointIdentification@POLYN172129 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryEndpointIdentification@POLYN172273 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -426,49 +426,49 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172547 the MagicNumber/String  'none' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172691 the MagicNumber/String  'none' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172547 the MagicNumber/String  'requested' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172691 the MagicNumber/String  'requested' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00128"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172547 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172691 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172547 the MagicNumber/String  'required' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172691 the MagicNumber/String  'required' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172547 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172691 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172547 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172691 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00135"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172547 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.runtime.rest.util.SSLUtils.configureSslContextFactoryAuthentication@POLYN172691 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

@@ -181,21 +181,21 @@ var maDataBlocs = {
    "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159824 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159824 the MagicNumber/String  'Attempt to complete future for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159968 the MagicNumber/String  'Attempt to complete future for ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159824 the MagicNumber/String  ', which was not requested' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159968 the MagicNumber/String  ', which was not requested' should be converted to const"
 }} 
 ,
 { "ligne" : {

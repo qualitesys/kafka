@@ -118,7 +118,7 @@ var maDataBlocs = {
    "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.admin.AdminClientConfig.AdminClientConfig@POLYN184102 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.admin.AdminClientConfig.AdminClientConfig@POLYN184246 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -132,14 +132,14 @@ var maDataBlocs = {
    "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184752 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184896 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184752 the MagicNumber/String  'adminclientconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184896 the MagicNumber/String  'adminclientconfigs_' should be converted to const"
 }} 
 ]
 };

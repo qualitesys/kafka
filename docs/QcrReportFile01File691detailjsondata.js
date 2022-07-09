@@ -104,28 +104,28 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149834 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149834 the MagicNumber/String  'The broker only supports ListGroups ' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  'The broker only supports ListGroups ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149834 the MagicNumber/String  'v' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  'v' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149834 the MagicNumber/String  ', but we need v4 or newer to request groups by states.' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  ', but we need v4 or newer to request groups by states.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -139,7 +139,7 @@ var maDataBlocs = {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.ListGroupsRequest.getErrorResponse@POLYN150714 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.ListGroupsRequest.getErrorResponse@POLYN150858 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {

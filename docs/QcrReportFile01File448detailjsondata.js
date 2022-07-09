@@ -146,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.internals.Topic.validate@POLYN157186 the MagicNumber/String  'Topic name' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.internals.Topic.validate@POLYN157330 the MagicNumber/String  'Topic name' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,70 +174,70 @@ var maDataBlocs = {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  ' is illegal, it can't be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' is illegal, it can't be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  '..' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  '..' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  ' cannot be \'.\' or \'..\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' cannot be \'.\' or \'..\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  ' is illegal, it can't be longer than ' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' is illegal, it can't be longer than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  ' characters, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' characters, ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  ' \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' \'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  '\' is illegal, it contains a character other than ' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  '\' is illegal, it contains a character other than ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.internals.Topic.validate@POLYN157451 the MagicNumber/String  'ASCII alphanumerics, '.', '_' and '-'' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  'ASCII alphanumerics, '.', '_' and '-'' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -265,14 +265,14 @@ var maDataBlocs = {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN158895 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN159039 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN158895 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN159039 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -293,14 +293,14 @@ var maDataBlocs = {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159294 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159438 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159294 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159438 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -328,84 +328,84 @@ var maDataBlocs = {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  'a' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'a' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  'z' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'z' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  '0' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '0' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  '9' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '9' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  'A' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'A' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  'Z' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'Z' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN159962 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 };

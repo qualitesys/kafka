@@ -155,21 +155,21 @@ var maDataBlocs = {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectedMemoryPool@POLYN160477 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectedMemoryPool@POLYN160621 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectedMemoryPool@POLYN160477 the MagicNumber/String  'memory pool GC listener' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectedMemoryPool@POLYN160621 the MagicNumber/String  'memory pool GC listener' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectedMemoryPool@POLYN160477 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectedMemoryPool@POLYN160621 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -190,28 +190,28 @@ var maDataBlocs = {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String  'allocated buffer identity ' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String  'allocated buffer identity ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String  ' already registered as in use?!' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String  ' already registered as in use?!' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String  'allocated buffer of size {} and identity {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String  'allocated buffer of size {} and identity {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -232,56 +232,56 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String  'returned buffer ' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String  'returned buffer ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String  ' was never allocated by this pool' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String  ' was never allocated by this pool' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String  'buffer ' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String  'buffer ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String  ' has capacity ' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String  ' has capacity ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String  ' but recorded as ' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String  ' but recorded as ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String  'released buffer of size {} and identity {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String  'released buffer of size {} and identity {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.close@POLYN162676 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.close@POLYN162820 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -323,28 +323,28 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN162885 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN163029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN162885 the MagicNumber/String  'Reclaimed buffer of size {} and identity {} that was not properly release()ed. This is a bug.' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN163029 the MagicNumber/String  'Reclaimed buffer of size {} and identity {} that was not properly release()ed. This is a bug.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN162885 the MagicNumber/String  'interrupted' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN163029 the MagicNumber/String  'interrupted' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN162885 the MagicNumber/String  'GC listener shutting down' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN163029 the MagicNumber/String  'GC listener shutting down' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,7 +358,7 @@ var maDataBlocs = {
    "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.BufferReference@POLYN164090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.BufferReference@POLYN164234 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -379,161 +379,161 @@ var maDataBlocs = {
    "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164544 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164688 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164544 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164688 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164544 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164688 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164544 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164688 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164544 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164688 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164544 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferReference.equals@POLYN164688 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165529 the MagicNumber/String  'GarbageCollectedMemoryPool{' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165673 the MagicNumber/String  'GarbageCollectedMemoryPool{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165529 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165673 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165529 the MagicNumber/String  ' used in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165673 the MagicNumber/String  ' used in ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165529 the MagicNumber/String  ' buffers}' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN165673 the MagicNumber/String  ' buffers}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String ' was never allocated by this pool' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String ' was never allocated by this pool' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String 'returned buffer ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String 'returned buffer ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String ' but recorded as ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String ' but recorded as ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String ' has capacity ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String ' has capacity ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String 'buffer ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String 'buffer ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161769 the MagicNumber/String 'released buffer of size {} and identity {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN161913 the MagicNumber/String 'released buffer of size {} and identity {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#40"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String ' already registered as in use?!' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String ' already registered as in use?!' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#40"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String 'allocated buffer identity ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String 'allocated buffer identity ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161093 the MagicNumber/String 'allocated buffer of size {} and identity {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String 'allocated buffer of size {} and identity {}' MUST BE CONVERTED to const"
 }} 
 ]
 };

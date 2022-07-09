@@ -174,49 +174,49 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158448 the MagicNumber/String  'total-record-failures' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-record-failures' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158448 the MagicNumber/String  'total-record-errors' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-record-errors' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158448 the MagicNumber/String  'total-records-skipped' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-records-skipped' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158448 the MagicNumber/String  'total-retries' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-retries' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158448 the MagicNumber/String  'total-errors-logged' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-errors-logged' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158448 the MagicNumber/String  'deadletterqueue-produce-requests' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'deadletterqueue-produce-requests' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158448 the MagicNumber/String  'deadletterqueue-produce-failures' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'deadletterqueue-produce-failures' should be converted to const"
 }} 
 ,
 { "ligne" : {

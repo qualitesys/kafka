@@ -97,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN141262 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN141406 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 };

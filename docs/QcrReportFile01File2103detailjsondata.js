@@ -344,7 +344,7 @@ var maDataBlocs = {
    "c1" : "00158"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN400015 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN400159 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -358,63 +358,63 @@ var maDataBlocs = {
    "c1" : "00174"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN400694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN400838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00184"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  'dummy-bootstrap-host:0' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  'dummy-bootstrap-host:0' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00186"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  'dummy-topology-test-driver-app-id-' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  'dummy-topology-test-driver-app-id-' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00190"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  'topology-test-driver ' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  'topology-test-driver ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00199"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00205"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00208"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00208"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00208"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401273 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.TopologyTestDriver.TopologyTestDriver@POLYN401417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -428,7 +428,7 @@ var maDataBlocs = {
    "c1" : "00242"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00242] For method logIfTaskIdleEnabled list of called methods Object monObjet|Long streamsConfig_getLongN404889"
+ , "c3" : "QC-JAV000007[00242] For method logIfTaskIdleEnabled list of called methods Object monObjet|Long streamsConfig_getLongN405033"
 }} 
 ,
 { "ligne" : {
@@ -442,42 +442,42 @@ var maDataBlocs = {
    "c1" : "00244"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404788 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404932 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404788 the MagicNumber/String  'Detected {} config in use with TopologyTestDriver (set to {}ms).' should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404932 the MagicNumber/String  'Detected {} config in use with TopologyTestDriver (set to {}ms).' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404788 the MagicNumber/String  ' This means you might need to use TopologyTestDriver#advanceWallClockTime()' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404932 the MagicNumber/String  ' This means you might need to use TopologyTestDriver#advanceWallClockTime()' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00247"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404788 the MagicNumber/String  ' or enqueue records on all partitions to allow Steams to make progress.' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404932 the MagicNumber/String  ' or enqueue records on all partitions to allow Steams to make progress.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00248"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404788 the MagicNumber/String  ' TopologyTestDriver will log a message each time it cannot process enqueued' should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404932 the MagicNumber/String  ' TopologyTestDriver will log a message each time it cannot process enqueued' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00249"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404788 the MagicNumber/String  ' records due to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.TopologyTestDriver.logIfTaskIdleEnabled@POLYN404932 the MagicNumber/String  ' records due to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -498,7 +498,7 @@ var maDataBlocs = {
    "c1" : "00267"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.TopologyTestDriver.setupMetrics@POLYN405296 the MagicNumber/String  'test-client' should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.TopologyTestDriver.setupMetrics@POLYN405440 the MagicNumber/String  'test-client' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -519,7 +519,7 @@ var maDataBlocs = {
    "c1" : "00290"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.TopologyTestDriver.setupTopology@POLYN406375 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.TopologyTestDriver.setupTopology@POLYN406519 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -540,77 +540,77 @@ var maDataBlocs = {
    "c1" : "00297"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00300"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00304"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00304"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00304"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00304"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00305"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00306"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00331"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00333"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00334"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407347 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.TopologyTestDriver.setupGlobalTask@POLYN407491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -631,21 +631,21 @@ var maDataBlocs = {
    "c1" : "00347"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409680 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409824 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00394"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409824 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00397"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409824 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -659,42 +659,42 @@ var maDataBlocs = {
    "c1" : "00406"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#406"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00406] For method pipeRecord list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN412517"
+ , "c3" : "QC-JAV000007[00406] For method pipeRecord list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN412661"
 }} 
 ,
 { "ligne" : {
    "c1" : "00414"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412436 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00414"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412436 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00415"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412292 the MagicNumber/String  'Unknown topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412436 the MagicNumber/String  'Unknown topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00418"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412436 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00423"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.streams.TopologyTestDriver.pipeRecord@POLYN412436 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -715,63 +715,63 @@ var maDataBlocs = {
    "c1" : "00434"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN413409 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN413553 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00441"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN413409 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN413553 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00442"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN413409 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.streams.TopologyTestDriver.enqueueTaskRecord@POLYN413553 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00460"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414386 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414530 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00466"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#466"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414386 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414530 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00470"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#470"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414386 the MagicNumber/String  'Due to the {} configuration, there are currently some records' should be converted to const"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414530 the MagicNumber/String  'Due to the {} configuration, there are currently some records' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00471"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414386 the MagicNumber/String  ' that cannot be processed. Advancing wall-clock time or' should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414530 the MagicNumber/String  ' that cannot be processed. Advancing wall-clock time or' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00472"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414386 the MagicNumber/String  ' enqueuing records on the empty topics will allow' should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414530 the MagicNumber/String  ' enqueuing records on the empty topics will allow' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00473"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414386 the MagicNumber/String  ' Streams to process more.' should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.streams.TopologyTestDriver.completeAllProcessableWork@POLYN414530 the MagicNumber/String  ' Streams to process more.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -785,7 +785,7 @@ var maDataBlocs = {
    "c1" : "00481"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.streams.TopologyTestDriver.commit@POLYN415290 the MagicNumber/String  'dummy-app-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.streams.TopologyTestDriver.commit@POLYN415434 the MagicNumber/String  'dummy-app-id' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -806,21 +806,21 @@ var maDataBlocs = {
    "c1" : "00495"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN415734 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN415878 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00498"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN415734 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN415878 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00499"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN415734 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.streams.TopologyTestDriver.processGlobalRecord@POLYN415878 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -834,21 +834,21 @@ var maDataBlocs = {
    "c1" : "00511"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN416634 the MagicNumber/String  'Topology add source of type String for topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN416778 the MagicNumber/String  'Topology add source of type String for topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00512"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN416634 the MagicNumber/String  ' cannot contain regex pattern for input record topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN416778 the MagicNumber/String  ' cannot contain regex pattern for input record topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00513"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN416634 the MagicNumber/String  ' and hence cannot process the message.' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.TopologyTestDriver.validateSourceTopicNameRegexPattern@POLYN416778 the MagicNumber/String  ' and hence cannot process the message.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -862,14 +862,14 @@ var maDataBlocs = {
    "c1" : "00524"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.streams.TopologyTestDriver.getInputTopicOrPatternPartition@POLYN417193 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.streams.TopologyTestDriver.getInputTopicOrPatternPartition@POLYN417337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00534"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#534"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00534] For method captureOutputsAndReEnqueueInternalResults list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN418694"
+ , "c3" : "QC-JAV000007[00534] For method captureOutputsAndReEnqueueInternalResults list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN418838"
 }} 
 ,
 { "ligne" : {
@@ -897,14 +897,14 @@ var maDataBlocs = {
    "c1" : "00548"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418003 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418147 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00559"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#559"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418003 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418147 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -925,21 +925,21 @@ var maDataBlocs = {
    "c1" : "00573"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#573"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN419685 the MagicNumber/String  'advance cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN419829 the MagicNumber/String  'advance cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00575"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#575"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN419685 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN419829 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00578"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN419685 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.streams.TopologyTestDriver.advanceWallClockTime@POLYN419829 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -953,28 +953,28 @@ var maDataBlocs = {
    "c1" : "00585"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#585"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00585] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00585] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00586"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#586"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420343 the MagicNumber/String  'Unrecognized topic: {}, this can occur if dynamic routing is used and no output has been ' should be converted to const"
+ , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420487 the MagicNumber/String  'Unrecognized topic: {}, this can occur if dynamic routing is used and no output has been ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00587"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420343 the MagicNumber/String  'sent to this topic yet. If not using a TopicNameExtractor, check that the output topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420487 the MagicNumber/String  'sent to this topic yet. If not using a TopicNameExtractor, check that the output topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00588"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#588"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420343 the MagicNumber/String  'is correct.' should be converted to const"
+ , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.streams.TopologyTestDriver.getRecordsQueue@POLYN420487 the MagicNumber/String  'is correct.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -988,21 +988,21 @@ var maDataBlocs = {
    "c1" : "00621"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#621"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00621] For method readRecord list of called methods Object monObjet|Queue&lt;ProducerRecord&lt;byte[],byte[]&gt;&gt; getRecordsQueueN423947"
+ , "c3" : "QC-JAV000007[00621] For method readRecord list of called methods Object monObjet|Queue&lt;ProducerRecord&lt;byte[],byte[]&gt;&gt; getRecordsQueueN424091"
 }} 
 ,
 { "ligne" : {
    "c1" : "00623"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#623"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.streams.TopologyTestDriver.readRecord@POLYN423766 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.streams.TopologyTestDriver.readRecord@POLYN423910 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00624"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#624"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.streams.TopologyTestDriver.readRecord@POLYN423766 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.streams.TopologyTestDriver.readRecord@POLYN423910 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1100,21 +1100,21 @@ var maDataBlocs = {
    "c1" : "00664"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#664"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00664] For method getQueueSize list of called methods Object monObjet|Queue&lt;ProducerRecord&lt;byte[],byte[]&gt;&gt; getRecordsQueueN427089"
+ , "c3" : "QC-JAV000007[00664] For method getQueueSize list of called methods Object monObjet|Queue&lt;ProducerRecord&lt;byte[],byte[]&gt;&gt; getRecordsQueueN427233"
 }} 
 ,
 { "ligne" : {
    "c1" : "00666"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#666"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN426914 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN427058 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00668"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#668"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN426914 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN427058 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1128,14 +1128,14 @@ var maDataBlocs = {
    "c1" : "00674"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#674"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.streams.TopologyTestDriver.isEmpty@POLYN427317 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.streams.TopologyTestDriver.isEmpty@POLYN427461 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00681"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#681"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.TopologyTestDriver.getAllStateStores@POLYN428248 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.TopologyTestDriver.getAllStateStores@POLYN428392 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1149,7 +1149,7 @@ var maDataBlocs = {
    "c1" : "00688"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#688"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429439 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429583 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1163,42 +1163,42 @@ var maDataBlocs = {
    "c1" : "00691"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#691"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00691] For method getStateStore list of called methods Object monObjet|org.apache.kafka.streams.processor.StateStore globalStateManager_getStoreN430303"
+ , "c3" : "QC-JAV000007[00691] For method getStateStore list of called methods Object monObjet|org.apache.kafka.streams.processor.StateStore globalStateManager_getStoreN430447"
 }} 
 ,
 { "ligne" : {
    "c1" : "00693"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#693"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429617 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00695"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#695"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429617 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00703"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429617 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00705"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#705"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429617 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00714"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#714"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429617 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.streams.TopologyTestDriver.getStateStore@POLYN429761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1219,70 +1219,70 @@ var maDataBlocs = {
    "c1" : "00719"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  'Store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  'Store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00720"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  ' is a timestamped key-value store and should be accessed via `getTimestampedKeyValueStore()`' should be converted to const"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  ' is a timestamped key-value store and should be accessed via `getTimestampedKeyValueStore()`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00723"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#723"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00723] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  'Store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00723] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  'Store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00724"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#724"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  ' is a key-value store and should be accessed via `getKeyValueStore()`' should be converted to const"
+ , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  ' is a key-value store and should be accessed via `getKeyValueStore()`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00727"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#727"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  'Store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  'Store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00728"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#728"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  ' is a timestamped window store and should be accessed via `getTimestampedWindowStore()`' should be converted to const"
+ , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  ' is a timestamped window store and should be accessed via `getTimestampedWindowStore()`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00731"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#731"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00731] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  'Store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00731] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  'Store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00732"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#732"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  ' is a window store and should be accessed via `getWindowStore()`' should be converted to const"
+ , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  ' is a window store and should be accessed via `getWindowStore()`' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00735"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#735"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  'Store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  'Store ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00736"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#736"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00736] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430629 the MagicNumber/String  ' is a session store and should be accessed via `getSessionStore()`' should be converted to const"
+ , "c3" : "QC-JAV000010[00736] In method org.apache.kafka.streams.TopologyTestDriver.throwIfBuiltInStore@POLYN430773 the MagicNumber/String  ' is a session store and should be accessed via `getSessionStore()`' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1380,49 +1380,49 @@ var maDataBlocs = {
    "c1" : "00785"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#785"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00785] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00788"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#788"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00791"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#791"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00793"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#793"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00799"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#799"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00800"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#800"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00800] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String  'Found some records that cannot be processed due to the' should be converted to const"
+ , "c3" : "QC-JAV000010[00800] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String  'Found some records that cannot be processed due to the' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00801"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#801"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String  ' {} configuration during TopologyTestDriver#close().' should be converted to const"
+ , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String  ' {} configuration during TopologyTestDriver#close().' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1457,14 +1457,14 @@ var maDataBlocs = {
    "c1" : "00830"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#830"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.MockTime@POLYN439403 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.MockTime@POLYN439547 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00830"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#830"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.MockTime@POLYN439403 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.MockTime@POLYN439547 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1478,14 +1478,14 @@ var maDataBlocs = {
    "c1" : "00850"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.sleep@POLYN440134 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.sleep@POLYN440278 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00851"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#851"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00851] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.sleep@POLYN440134 the MagicNumber/String  'Sleep ms cannot be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00851] In method org.apache.kafka.streams.TopologyTestDriver.MockTime.sleep@POLYN440278 the MagicNumber/String  'Sleep ms cannot be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1604,21 +1604,21 @@ var maDataBlocs = {
    "c1" : "01041"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1041"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN447468 the MagicNumber/String  'TopologyTestDriver-StreamThread-1' should be converted to const"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN447612 the MagicNumber/String  'TopologyTestDriver-StreamThread-1' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01041"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1041"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN447468 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN447612 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "01041"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1041"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN447468 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.TestDriverProducer@POLYN447612 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -1632,140 +1632,140 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418003"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418147"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.commit@POLYN415290"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.commit@POLYN415434"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN426914"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN427058"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409680"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409824"
 }} 
 ,
 { "ligne" : {
    "c1" : "00785"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00785] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00785] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00788"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#788"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00788] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00788] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00791"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00791] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00791] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00793"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00793] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00793] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00799"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00799] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00799] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00800"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#800"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00800] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String 'Found some records that cannot be processed due to the' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00800] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String 'Found some records that cannot be processed due to the' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00801"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#801"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00801] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437721 the MagicNumber/String ' {} configuration during TopologyTestDriver#close--.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00801] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN437865 the MagicNumber/String ' {} configuration during TopologyTestDriver#close--.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00548"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418003 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418147 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00559"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00559] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418003 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00559] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN418147 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00481"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.streams.TopologyTestDriver.commit@POLYN415290 the MagicNumber/String 'dummy-app-id' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.streams.TopologyTestDriver.commit@POLYN415434 the MagicNumber/String 'dummy-app-id' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00666"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#666"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00666] In the recursive method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN426914 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00666] In the recursive method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN427058 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00668"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00668] In the recursive method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN426914 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00668] In the recursive method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN427058 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00347"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409680 the MagicNumber/String 0L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409824 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00394"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409680 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409824 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00397"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409680 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409824 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

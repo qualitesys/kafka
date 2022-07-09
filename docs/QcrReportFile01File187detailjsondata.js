@@ -83,14 +83,14 @@ var maDataBlocs = {
    "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#19"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.consumer.NoOffsetForPartitionException.NoOffsetForPartitionException@POLYN144547 the MagicNumber/String  'Undefined offset with no reset policy for partition: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.consumer.NoOffsetForPartitionException.NoOffsetForPartitionException@POLYN144691 the MagicNumber/String  'Undefined offset with no reset policy for partition: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.clients.consumer.NoOffsetForPartitionException.NoOffsetForPartitionException@POLYN144795 the MagicNumber/String  'Undefined offset with no reset policy for partitions: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.clients.consumer.NoOffsetForPartitionException.NoOffsetForPartitionException@POLYN144939 the MagicNumber/String  'Undefined offset with no reset policy for partitions: ' should be converted to const"
 }} 
 ]
 };

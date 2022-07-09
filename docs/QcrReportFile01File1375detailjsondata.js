@@ -167,56 +167,56 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.metadata.util.SnapshotFileReader.SnapshotFileReader@POLYN168780 the MagicNumber/String  '[snapshotReaderQueue] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.metadata.util.SnapshotFileReader.SnapshotFileReader@POLYN168924 the MagicNumber/String  '[snapshotReaderQueue] ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.metadata.util.SnapshotFileReader.SnapshotFileReader@POLYN168780 the MagicNumber/String  'snapshotReaderQueue_' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.metadata.util.SnapshotFileReader.SnapshotFileReader@POLYN168924 the MagicNumber/String  'snapshotReaderQueue_' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.metadata.util.SnapshotFileReader.startup@POLYN169314 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.metadata.util.SnapshotFileReader.startup@POLYN169458 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00061"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.metadata.util.SnapshotFileReader.startup@POLYN169314 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.metadata.util.SnapshotFileReader.startup@POLYN169458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.metadata.util.SnapshotFileReader.startup@POLYN169314 the MagicNumber/String  'startup error' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.metadata.util.SnapshotFileReader.startup@POLYN169458 the MagicNumber/String  'startup error' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleNextBatch@POLYN170278 the MagicNumber/String  'done' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleNextBatch@POLYN170422 the MagicNumber/String  'done' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.metadata.util.SnapshotFileReader.scheduleHandleNextBatch@POLYN170815 the MagicNumber/String  'Unexpected error while handling a batch of events' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.metadata.util.SnapshotFileReader.scheduleHandleNextBatch@POLYN170959 the MagicNumber/String  'Unexpected error while handling a batch of events' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.metadata.util.SnapshotFileReader.scheduleHandleNextBatch@POLYN170815 the MagicNumber/String  'handleBatch error' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.metadata.util.SnapshotFileReader.scheduleHandleNextBatch@POLYN170959 the MagicNumber/String  'handleBatch error' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -272,21 +272,21 @@ var maDataBlocs = {
    "c1" : "00111"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN171300 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN171444 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN171300 the MagicNumber/String  'Ignoring control record with type {} at offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN171444 the MagicNumber/String  'Ignoring control record with type {} at offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN171300 the MagicNumber/String  'unable to read control record at offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN171444 the MagicNumber/String  'unable to read control record at offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -328,7 +328,7 @@ var maDataBlocs = {
    "c1" : "00135"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleMetadataBatch@POLYN172744 the MagicNumber/String  'unable to read metadata record at offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.metadata.util.SnapshotFileReader.handleMetadataBatch@POLYN172888 the MagicNumber/String  'unable to read metadata record at offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -349,49 +349,49 @@ var maDataBlocs = {
    "c1" : "00155"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN173921 the MagicNumber/String  'done' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN174065 the MagicNumber/String  'done' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00156"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN173921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN174065 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00164"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN173921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN174065 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00166"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN173921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN174065 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00168"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN173921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN174065 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00173"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN173921 the MagicNumber/String  'shutdown error' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.metadata.util.SnapshotFileReader.beginShutdown@POLYN174065 the MagicNumber/String  'shutdown error' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00180"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.metadata.util.SnapshotFileReader.close@POLYN174953 the MagicNumber/String  'closing' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.metadata.util.SnapshotFileReader.close@POLYN175097 the MagicNumber/String  'closing' should be converted to const"
 }} 
 ]
 };

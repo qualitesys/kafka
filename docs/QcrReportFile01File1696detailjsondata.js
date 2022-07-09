@@ -111,7 +111,7 @@ var maDataBlocs = {
    "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN149383 the MagicNumber/String  '[%s]: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN149527 the MagicNumber/String  '[%s]: %s' should be converted to const"
 }} 
 ]
 };

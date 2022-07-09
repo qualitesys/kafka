@@ -176,35 +176,35 @@ var maDataBlocs = {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.record.MultiRecordsSend.MultiRecordsSend@POLYN155846 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.record.MultiRecordsSend.MultiRecordsSend@POLYN155990 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.MultiRecordsSend.completed@POLYN156772 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.MultiRecordsSend.completed@POLYN156916 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.record.MultiRecordsSend.numResidentSends@POLYN156877 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.record.MultiRecordsSend.numResidentSends@POLYN157021 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.record.MultiRecordsSend.numResidentSends@POLYN156877 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.record.MultiRecordsSend.numResidentSends@POLYN157021 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.record.MultiRecordsSend.numResidentSends@POLYN156877 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.record.MultiRecordsSend.numResidentSends@POLYN157021 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -218,63 +218,63 @@ var maDataBlocs = {
    "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method writeTo list of called methods Object monObjet|long current_writeToN157558|boolean current_completedN157705"
+ , "c3" : "QC-JAV000007[00066] For method writeTo list of called methods Object monObjet|long current_writeToN157702|boolean current_completedN157849"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String  'This operation cannot be invoked on a complete request.' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String  'This operation cannot be invoked on a complete request.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String  'mismatch in sending bytes over socket; expected: {} actual: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String  'mismatch in sending bytes over socket; expected: {} actual: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String  'Bytes written as part of multi-send call: {}, total bytes written so far: {}, expected bytes to write: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String  'Bytes written as part of multi-send call: {}, total bytes written so far: {}, expected bytes to write: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158718 the MagicNumber/String  'MultiRecordsSend(' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158862 the MagicNumber/String  'MultiRecordsSend(' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158718 the MagicNumber/String  'size=' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158862 the MagicNumber/String  'size=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158718 the MagicNumber/String  ', totalWritten=' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158862 the MagicNumber/String  ', totalWritten=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158718 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.record.MultiRecordsSend.toString@POLYN158862 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -288,42 +288,42 @@ var maDataBlocs = {
    "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.record.MultiRecordsSend.updateRecordConversionStats@POLYN158914 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.record.MultiRecordsSend.updateRecordConversionStats@POLYN159058 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366"
 }} 
 ,
 { "ligne" : {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String 'This operation cannot be invoked on a complete request.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String 'This operation cannot be invoked on a complete request.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String 'mismatch in sending bytes over socket; expected: {} actual: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String 'mismatch in sending bytes over socket; expected: {} actual: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157222 the MagicNumber/String 'Bytes written as part of multi-send call: {}, total bytes written so far: {}, expected bytes to write: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.common.record.MultiRecordsSend.writeTo@POLYN157366 the MagicNumber/String 'Bytes written as part of multi-send call: {}, total bytes written so far: {}, expected bytes to write: {}' MUST BE CONVERTED to const"
 }} 
 ]
 };

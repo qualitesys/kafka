@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN209615|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN209709|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V0_readN209866|Long struct_getLongN209960|String struct_getStringN210054"
+ , "c3" : "QC-JAV000007[00087] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN209759|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN209853|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V0_readN210010|Long struct_getLongN210104|String struct_getStringN210198"
 }} 
 ,
 { "ligne" : {
@@ -216,7 +216,7 @@ var maDataBlocs = {
    "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00122] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN212648|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN212742|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V0_readN212899|Short struct_getShortN212993|String struct_getStringN213087|String struct_getStringN213181|Long struct_getLongN213275|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN213766"
+ , "c3" : "QC-JAV000007[00122] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN212792|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN212886|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V0_readN213043|Short struct_getShortN213137|String struct_getStringN213231|String struct_getStringN213325|Long struct_getLongN213419|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN213910"
 }} 
 ,
 { "ligne" : {
@@ -286,35 +286,35 @@ var maDataBlocs = {
    "c1" : "00168"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215157 the MagicNumber/String  'WorkerState{' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215301 the MagicNumber/String  'WorkerState{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215157 the MagicNumber/String  'url='' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215301 the MagicNumber/String  'url='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00169"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215157 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215301 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215157 the MagicNumber/String  ', offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215301 the MagicNumber/String  ', offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00171"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215157 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState.toString@POLYN215301 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -328,84 +328,84 @@ var maDataBlocs = {
    "c1" : "00197"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.Assignment@POLYN216390 the MagicNumber/String  'Assigned connector IDs may be empty but not null' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.Assignment@POLYN216534 the MagicNumber/String  'Assigned connector IDs may be empty but not null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00199"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.Assignment@POLYN216390 the MagicNumber/String  'Assigned task IDs may be empty but not null' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.Assignment@POLYN216534 the MagicNumber/String  'Assigned task IDs may be empty but not null' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00239"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  'Assignment{' should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  'Assignment{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00240"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  'error=' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  'error=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00241"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  ', leader='' should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  ', leader='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00241"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00242"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  ', leaderUrl='' should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  ', leaderUrl='' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00242"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00243"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  ', offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  ', offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00244"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  ', connectorIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  ', connectorIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00245"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  ', taskIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  ', taskIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00246"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218438 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN218582 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -426,7 +426,7 @@ var maDataBlocs = {
    "c1" : "00266"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.checkVersionCompatibility@POLYN219831 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.checkVersionCompatibility@POLYN219975 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
 }} 
 ]
 };

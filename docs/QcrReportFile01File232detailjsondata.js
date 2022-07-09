@@ -216,84 +216,84 @@ var maDataBlocs = {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'bufferpool-wait-ratio' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'bufferpool-wait-ratio' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'The fraction of time an appender waits for space allocation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'The fraction of time an appender waits for space allocation.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'bufferpool-wait-time-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'bufferpool-wait-time-total' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  '*Deprecated* The total time an appender waits for space allocation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  '*Deprecated* The total time an appender waits for space allocation.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'bufferpool-wait-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'bufferpool-wait-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'The total time in nanoseconds an appender waits for space allocation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'The total time in nanoseconds an appender waits for space allocation.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'buffer-exhausted-records' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'buffer-exhausted-records' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'buffer-exhausted-rate' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'buffer-exhausted-rate' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'The average per-second number of record sends that are dropped due to buffer exhaustion' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'The average per-second number of record sends that are dropped due to buffer exhaustion' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'buffer-exhausted-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'buffer-exhausted-total' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  'The total number of record sends that are dropped due to buffer exhaustion' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  'The total number of record sends that are dropped due to buffer exhaustion' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191362 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.BufferPool.BufferPool@POLYN191506 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -307,133 +307,133 @@ var maDataBlocs = {
    "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  'Attempt to allocate ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  'Attempt to allocate ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  ' bytes, but there is a hard limit of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  ' bytes, but there is a hard limit of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  ' on memory allocations.' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  ' on memory allocations.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  'Producer closed while allocating memory' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  'Producer closed while allocating memory' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  'Producer closed while allocating memory' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  'Producer closed while allocating memory' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  'buffer-exhausted-records' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  'buffer-exhausted-records' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  'Failed to allocate ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  'Failed to allocate ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  ' bytes within the configured max blocking time ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  ' bytes within the configured max blocking time ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  ' ms. Total memory: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  ' ms. Total memory: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  ' bytes. Available memory: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  ' bytes. Available memory: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  ' bytes. Poolable size: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  ' bytes. Poolable size: ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  ' bytes' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  ' bytes' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN193918 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.producer.internals.BufferPool.allocate@POLYN194062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -454,14 +454,14 @@ var maDataBlocs = {
    "c1" : "00178"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.clients.producer.internals.BufferPool.safeAllocateByteBuffer@POLYN198606 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.clients.producer.internals.BufferPool.safeAllocateByteBuffer@POLYN198750 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.producer.internals.BufferPool.safeAllocateByteBuffer@POLYN198606 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.producer.internals.BufferPool.safeAllocateByteBuffer@POLYN198750 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -496,7 +496,7 @@ var maDataBlocs = {
    "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.internals.BufferPool.deallocate@POLYN200184 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.internals.BufferPool.deallocate@POLYN200328 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -510,14 +510,14 @@ var maDataBlocs = {
    "c1" : "00227"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.clients.producer.internals.BufferPool.deallocate@POLYN200971 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.clients.producer.internals.BufferPool.deallocate@POLYN201115 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.clients.producer.internals.BufferPool.close@POLYN202802 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.clients.producer.internals.BufferPool.close@POLYN202946 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -104,7 +104,7 @@ var maDataBlocs = {
    "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.metricsScope@POLYN143126 the MagicNumber/String  'in-memory' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.metricsScope@POLYN143270 the MagicNumber/String  'in-memory' should be converted to const"
 }} 
 ]
 };

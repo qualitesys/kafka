@@ -97,112 +97,112 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  'default:' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  'default:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  'default:' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  'default:' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148205 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN148349 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN148948 the MagicNumber/String  'Checking login config for Zookeeper JAAS context {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN149092 the MagicNumber/String  'Checking login config for Zookeeper JAAS context {}' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN148948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN149092 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN148948 the MagicNumber/String  'Exception while loading Zookeeper JAAS login context ' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN149092 the MagicNumber/String  'Exception while loading Zookeeper JAAS login context ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN148948 the MagicNumber/String  'JAAS configuration is present, but system property ' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN149092 the MagicNumber/String  'JAAS configuration is present, but system property ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN148948 the MagicNumber/String  ' is set to false, which disables ' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN149092 the MagicNumber/String  ' is set to false, which disables ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN148948 the MagicNumber/String  'SASL in the ZooKeeper client' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN149092 the MagicNumber/String  'SASL in the ZooKeeper client' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN148948 the MagicNumber/String  'Exception while determining if ZooKeeper is secure ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.JaasUtils.isZkSaslEnabled@POLYN149092 the MagicNumber/String  'Exception while determining if ZooKeeper is secure ' should be converted to const"
 }} 
 ]
 };

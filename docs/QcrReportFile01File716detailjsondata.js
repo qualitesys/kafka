@@ -223,14 +223,14 @@ var maDataBlocs = {
    "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151501 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151645 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151501 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151645 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -244,7 +244,7 @@ var maDataBlocs = {
    "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN152581|int apiMessage_sizeN152697"
+ , "c3" : "QC-JAV000007[00042] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN152725|int apiMessage_sizeN152841"
 }} 
 ,
 { "ligne" : {

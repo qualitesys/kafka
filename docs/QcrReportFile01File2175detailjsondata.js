@@ -76,7 +76,7 @@ var maDataBlocs = {
    "c1" : "00021"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerReceiving.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.rest.WorkerReceiving.status@POLYN143816 the MagicNumber/String  'receiving' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.rest.WorkerReceiving.status@POLYN143960 the MagicNumber/String  'receiving' should be converted to const"
 }} 
 ]
 };

@@ -176,7 +176,7 @@ var maDataBlocs = {
    "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#18"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00018] For method update list of called methods Object monObjet|byte computeMaxUsableProduceMagicN148523"
+ , "c3" : "QC-JAV000007[00018] For method update list of called methods Object monObjet|byte computeMaxUsableProduceMagicN148667"
 }} 
 ,
 { "ligne" : {
@@ -204,7 +204,7 @@ var maDataBlocs = {
    "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#23"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00023] For method remove list of called methods Object monObjet|byte computeMaxUsableProduceMagicN148748"
+ , "c3" : "QC-JAV000007[00023] For method remove list of called methods Object monObjet|byte computeMaxUsableProduceMagicN148892"
 }} 
 ,
 { "ligne" : {
@@ -225,7 +225,7 @@ var maDataBlocs = {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.ApiVersions.computeMaxUsableProduceMagic@POLYN148955 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.ApiVersions.computeMaxUsableProduceMagic@POLYN149099 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -239,14 +239,14 @@ var maDataBlocs = {
    "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ApiVersions.computeMaxUsableProduceMagic@POLYN148955"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ApiVersions.computeMaxUsableProduceMagic@POLYN149099"
 }} 
 ,
 { "ligne" : {
    "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#36"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.clients.ApiVersions.computeMaxUsableProduceMagic@POLYN148955 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.clients.ApiVersions.computeMaxUsableProduceMagic@POLYN149099 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 };

@@ -139,21 +139,21 @@ var maDataBlocs = {
    "c1" : "00049"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.internals.RecordsBatchReader.next@POLYN154406 the MagicNumber/String  'Records batch reader doesn't have any more elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.internals.RecordsBatchReader.next@POLYN154550 the MagicNumber/String  'Records batch reader doesn't have any more elements' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00075"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.raft.internals.RecordsBatchReader.close@POLYN155237 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.raft.internals.RecordsBatchReader.close@POLYN155381 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.internals.RecordsBatchReader.ensureOpen@POLYN156059 the MagicNumber/String  'Records batch reader was closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.internals.RecordsBatchReader.ensureOpen@POLYN156203 the MagicNumber/String  'Records batch reader was closed' should be converted to const"
 }} 
 ,
 { "ligne" : {

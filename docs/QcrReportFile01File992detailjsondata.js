@@ -146,35 +146,35 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151990 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151846 the MagicNumber/String  'Failed to deserialize value for header '' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151990 the MagicNumber/String  'Failed to deserialize value for header '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151846 the MagicNumber/String  '' on topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151990 the MagicNumber/String  '' on topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151846 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151990 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00050"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151846 the MagicNumber/String  'Failed to deserialize value for header '{}' on topic '{}', so using byte array' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN151990 the MagicNumber/String  'Failed to deserialize value for header '{}' on topic '{}', so using byte array' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -188,14 +188,14 @@ var maDataBlocs = {
    "c1" : "00057"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN153004 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN153148 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00058"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN153004 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN153148 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

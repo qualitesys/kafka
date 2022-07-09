@@ -97,91 +97,91 @@ var maDataBlocs = {
    "c1" : "00041"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  '----------- ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  '----------- ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00043"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  ' ----------- ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  ' ----------- ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00054"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  'Counts' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  'Counts' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00059"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  '\\W+' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  '\\W+' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00064"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00065"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00067"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00071"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.get@POLYN172896 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00082"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.stores@POLYN175142 the MagicNumber/String  'Counts' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyTransformerSupplier.stores@POLYN175286 the MagicNumber/String  'Counts' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -195,105 +195,105 @@ var maDataBlocs = {
    "c1" : "00091"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00095"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00096"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  'Warning: Some command line arguments were ignored. This demo only accepts an optional configuration file.' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  'Warning: Some command line arguments were ignored. This demo only accepts an optional configuration file.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00099"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  'streams-wordcount-transformer' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  'streams-wordcount-transformer' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  'localhost:9092' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  'localhost:9092' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00106"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  'earliest' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  'earliest' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00110"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  'streams-plaintext-input' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  'streams-plaintext-input' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00112"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  'streams-wordcount-processor-output' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  'streams-wordcount-processor-output' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00118"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  'streams-wordcount-shutdown-hook' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  'streams-wordcount-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00130"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00132"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175476 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.main@POLYN175620 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

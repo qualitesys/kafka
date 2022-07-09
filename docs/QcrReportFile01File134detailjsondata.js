@@ -132,28 +132,28 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147351 the MagicNumber/String  'ScramCredentialInfo{' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  'ScramCredentialInfo{' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147351 the MagicNumber/String  'mechanism=' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  'mechanism=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147351 the MagicNumber/String  ', iterations=' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  ', iterations=' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147351 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -174,21 +174,21 @@ var maDataBlocs = {
    "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147569 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147713 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147569 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147713 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147569 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147713 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

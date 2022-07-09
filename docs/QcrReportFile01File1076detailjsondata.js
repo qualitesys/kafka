@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00072"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method validate list of called methods Object monObjet|java.util.List&lt;String&gt; parseTopicsListN173217"
+ , "c3" : "QC-JAV000007[00072] For method validate list of called methods Object monObjet|java.util.List&lt;String&gt; parseTopicsListN173361"
 }} 
 ,
 { "ligne" : {
@@ -188,56 +188,56 @@ var maDataBlocs = {
    "c1" : "00078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  ' and ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  ' and ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00079"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  ' are mutually exclusive options, but both are set.' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  ' are mutually exclusive options, but both are set.' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  'Must configure one of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'Must configure one of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00084"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  ' or ' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  ' or ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  'The DLQ topic '%s' may not be included in the list of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'The DLQ topic '%s' may not be included in the list of ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00093"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  'topics ('%s=%s') consumed by the connector' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'topics ('%s=%s') consumed by the connector' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  'The DLQ topic '%s' may not be included in the regex matching the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'The DLQ topic '%s' may not be included in the regex matching the ' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172101 the MagicNumber/String  'topics ('%s=%s') consumed by the connector' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'topics ('%s=%s') consumed by the connector' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -300,14 +300,14 @@ var maDataBlocs = {
    "c1" : "00125"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.parseTopicsList@POLYN175104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.parseTopicsList@POLYN175248 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00147"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method enableErrantRecordReporter list of called methods Object monObjet|String dlqTopicNameN176243"
+ , "c3" : "QC-JAV000007[00147] For method enableErrantRecordReporter list of called methods Object monObjet|String dlqTopicNameN176387"
 }} 
 ,
 { "ligne" : {
@@ -321,14 +321,14 @@ var maDataBlocs = {
    "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.main@POLYN176381 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.main@POLYN176525 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.main@POLYN176381 the MagicNumber/String  'sinkconnectorconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.main@POLYN176525 the MagicNumber/String  'sinkconnectorconfigs_' should be converted to const"
 }} 
 ]
 };

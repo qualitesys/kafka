@@ -97,7 +97,7 @@ var maDataBlocs = {
    "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterUserScramCredentialsResult.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.AlterUserScramCredentialsResult.all@POLYN147819 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.AlterUserScramCredentialsResult.all@POLYN147963 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 };

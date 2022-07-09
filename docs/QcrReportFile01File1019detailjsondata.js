@@ -132,7 +132,7 @@ var maDataBlocs = {
    "c1" : "00024"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.mirror.SourceAndTarget.toString@POLYN143141 the MagicNumber/String  '-&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.mirror.SourceAndTarget.toString@POLYN143285 the MagicNumber/String  '-&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,7 +146,7 @@ var maDataBlocs = {
    "c1" : "00034"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.mirror.SourceAndTarget.equals@POLYN143419 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.mirror.SourceAndTarget.equals@POLYN143563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

@@ -111,28 +111,28 @@ var maDataBlocs = {
    "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN179907 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN180051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN179907 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN180051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN179907 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN180051 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN179907 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.ValidatorAccessTokenValidator@POLYN180051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -146,42 +146,42 @@ var maDataBlocs = {
    "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method validate list of called methods Object monObjet|java.util.Set&lt;String&gt; ClaimValidationUtils_validateScopesN183039|long ClaimValidationUtils_validateExpirationN183155|String ClaimValidationUtils_validateSubjectN183369|Long ClaimValidationUtils_validateIssuedAtN183485"
+ , "c3" : "QC-JAV000007[00068] For method validate list of called methods Object monObjet|java.util.Set&lt;String&gt; ClaimValidationUtils_validateScopesN183183|long ClaimValidationUtils_validateExpirationN183299|String ClaimValidationUtils_validateSubjectN183513|Long ClaimValidationUtils_validateIssuedAtN183629"
 }} 
 ,
 { "ligne" : {
    "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181319 the MagicNumber/String  'Could not validate the access token: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181463 the MagicNumber/String  'Could not validate the access token: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181319 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181463 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181319 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181463 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181319 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181463 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {
    "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181319 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator.validate@POLYN181463 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {

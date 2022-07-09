@@ -174,7 +174,7 @@ var maDataBlocs = {
    "c1" : "00026"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.ConnectRestConfigurable@POLYN154894 the MagicNumber/String  'ResourceConfig can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.ConnectRestConfigurable@POLYN155038 the MagicNumber/String  'ResourceConfig can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -251,7 +251,7 @@ var maDataBlocs = {
    "c1" : "00107"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158142 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158286 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
 }} 
 ,
 { "ligne" : {
@@ -265,7 +265,7 @@ var maDataBlocs = {
    "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158469 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158613 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
 }} 
 ]
 };
