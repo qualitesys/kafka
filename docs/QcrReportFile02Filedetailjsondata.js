@@ -20,13 +20,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;AlterConfigsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<AlterConfigsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.AlterConfigsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) KeyValueStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.InMemoryKeyValueStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter" }, 
@@ -42,7 +42,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Long&gt;" ,
+   "classe"  : "(2) Deserializer<Long>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.LongDeserializer" }, 
 ]
@@ -70,13 +70,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ReadOnlySessionStore&lt;K, V&gt;" ,
+   "classe"  : "(2) ReadOnlySessionStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStoreBuilder&lt;K, ValueAndTimestamp&lt;V&gt;, TimestampedKeyValueStore&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) AbstractStoreBuilder<K, ValueAndTimestamp<V>, TimestampedKeyValueStore<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder" }, 
 ]
@@ -91,7 +91,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;AlterUserScramCredentialsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<AlterUserScramCredentialsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.AlterUserScramCredentialsOptions" }, 
 ]
@@ -109,7 +109,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KStreamAggProcessorSupplier&lt;KIn, VIn, Windowed&lt;KIn&gt;, VAgg&gt;" ,
+   "classe"  : "(2) KStreamAggProcessorSupplier<KIn, VIn, Windowed<KIn>, VAgg>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamSessionWindowAggregate" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate" }, 
@@ -138,13 +138,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;SessionWindowedKStream&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>SessionWindowedKStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.SessionWindowedKStreamImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeUserScramCredentialsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeUserScramCredentialsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions" }, 
 ]
@@ -163,13 +163,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;StreamJoined&lt;K, V1, V2&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<StreamJoined<K, V1, V2>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.StreamJoined" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RemoteLogMetadataTransform&lt;RemoteLogSegmentMetadataSnapshot&gt;" ,
+   "classe"  : "(2) RemoteLogMetadataTransform<RemoteLogSegmentMetadataSnapshot>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataSnapshotTransform" }, 
 ]
@@ -192,7 +192,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) SessionStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) SessionStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.InMemorySessionStore" }, 
 ]
@@ -204,7 +204,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KafkaFuture&lt;T&gt;" ,
+   "classe"  : "(2) KafkaFuture<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.internals.KafkaFutureImpl" }, 
 ]
@@ -222,13 +222,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NumberConverter&lt;Long&gt;" ,
+   "classe"  : "(2) NumberConverter<Long>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.converters.LongConverter" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStatus&lt;String&gt;" ,
+   "classe"  : "(2) AbstractStatus<String>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.ConnectorStatus" }, 
 ]
@@ -266,7 +266,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ContextualProcessor&lt;K1, V1, K1, VOut&gt;" ,
+   "classe"  : "(2) ContextualProcessor<K1, V1, K1, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamKTableJoinProcessor" }, 
 ]
@@ -280,7 +280,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) CacheFlushListener&lt;KOut, ValueAndTimestamp&lt;VOut&gt;&gt;" ,
+   "classe"  : "(2) CacheFlushListener<KOut, ValueAndTimestamp<VOut>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener" }, 
 ]
@@ -298,7 +298,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableSerializer&lt;TimestampedKeyAndJoinSide&lt;K&gt;, K, Void&gt;" ,
+   "classe"  : "(2) WrappingNullableSerializer<TimestampedKeyAndJoinSide<K>, K, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerializer" }, 
 ]
@@ -310,19 +310,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ExpireDelegationTokenOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ExpireDelegationTokenOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ExpireDelegationTokenOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;K1, V1, K1, VOut&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<K1, V1, K1, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BatchReader&lt;T&gt;" ,
+   "classe"  : "(2) BatchReader<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.internals.MemoryBatchReader" }, 
   { "child"  : "(1) org.apache.kafka.raft.internals.RecordsBatchReader" }, 
@@ -357,20 +357,20 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Cache&lt;K, V&gt;" ,
+   "classe"  : "(2) Cache<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.cache.LRUCache" }, 
   { "child"  : "(1) org.apache.kafka.common.cache.SynchronizedCache" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) FuturePurgatory&lt;T&gt;" ,
+   "classe"  : "(2) FuturePurgatory<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.internals.ThresholdPurgatory" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;K, V, K, V&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<K, V, K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamBranch" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamJoinWindow" }, 
@@ -378,7 +378,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;OffsetAndEpoch&gt;" ,
+   "classe"  : "(2) Comparable<OffsetAndEpoch>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.OffsetAndEpoch" }, 
 ]
@@ -392,7 +392,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) FixedKeyProcessor&lt;KIn, VIn, VOut&gt;" ,
+   "classe"  : "(2) FixedKeyProcessor<KIn, VIn, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor" }, 
 ]
@@ -413,37 +413,37 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractIterator&lt;T&gt;" ,
+   "classe"  : "(2) AbstractIterator<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.record.RecordBatchIterator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueIterator&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) KeyValueIterator<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.SegmentIterator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterable&lt;T&gt;" ,
+   "classe"  : "(2) Iterable<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.Batch" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Query&lt;WindowStoreIterator&lt;V&gt;&gt;" ,
+   "classe"  : "(2) Query<WindowStoreIterator<V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.query.WindowKeyQuery" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractProcessorContext&lt;Object, Object&gt;RecordCollector.Supplier" ,
+   "classe"  : "(2) AbstractProcessorContext<Object, Object>RecordCollector.Supplier" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.ProcessorContextImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;KIn, VIn, KIn, VOut&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<KIn, VIn, KIn, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamFlatTransformValues" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamTransformValues" }, 
@@ -456,13 +456,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;Uuid&gt;" ,
+   "classe"  : "(2) Comparable<Uuid>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.Uuid" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StreamJoined&lt;K, V1, V2&gt;" ,
+   "classe"  : "(2) StreamJoined<K, V1, V2>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.StreamJoinedInternal" }, 
 ]
@@ -474,31 +474,31 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiLookupStrategy&lt;TopicPartition&gt;" ,
+   "classe"  : "(2) AdminApiLookupStrategy<TopicPartition>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Windows&lt;TimeWindow&gt;" ,
+   "classe"  : "(2) Windows<TimeWindow>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.TimeWindows" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterable&lt;Record&gt;" ,
+   "classe"  : "(2) Iterable<Record>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.record.RecordBatch" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorContext&lt;KForward, VForward&gt;" ,
+   "classe"  : "(2) ProcessorContext<KForward, VForward>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.api.MockProcessorContext" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ConnectRecord&lt;SinkRecord&gt;" ,
+   "classe"  : "(2) ConnectRecord<SinkRecord>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.sink.SinkRecord" }, 
 ]
@@ -544,7 +544,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableProcessorSupplier&lt;KIn, VIn, KIn, VOut&gt;" ,
+   "classe"  : "(2) KTableProcessorSupplier<KIn, VIn, KIn, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableMapValues" }, 
 ]
@@ -557,38 +557,38 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterable&lt;Header&gt;" ,
+   "classe"  : "(2) Iterable<Header>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.header.Headers" }, 
   { "child"  : "(1) org.apache.kafka.connect.header.Headers" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;FenceProducersOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<FenceProducersOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.FenceProducersOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractIterator&lt;I&gt;" ,
+   "classe"  : "(2) AbstractIterator<I>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.utils.FlattenedIterator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StoreBuilder&lt;T&gt;" ,
+   "classe"  : "(2) StoreBuilder<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.AbstractStoreBuilder" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KStreamAggProcessorSupplier&lt;K, V, K, V&gt;" ,
+   "classe"  : "(2) KStreamAggProcessorSupplier<K, V, K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamReduce" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serde&lt;T&gt;" ,
+   "classe"  : "(2) Serde<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.WrappingNullableSerde" }, 
 ]
@@ -602,7 +602,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Change&lt;T&gt;&gt;" ,
+   "classe"  : "(2) Deserializer<Change<T>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.ChangedDeserializer" }, 
 ]
@@ -618,7 +618,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Consumed&lt;K, V&gt;" ,
+   "classe"  : "(2) Consumed<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.ConsumedInternal" }, 
 ]
@@ -647,13 +647,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableRepartitionMapSupplier&lt;K, V, KeyValue&lt;K1, V1&gt;, K1, V1&gt;" ,
+   "classe"  : "(2) KTableRepartitionMapSupplier<K, V, KeyValue<K1, V1>, K1, V1>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableRepartitionMap" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueIterator&lt;K, V&gt;" ,
+   "classe"  : "(2) KeyValueIterator<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.CompositeKeyValueIterator" }, 
@@ -663,50 +663,50 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;UUID&gt;" ,
+   "classe"  : "(2) Deserializer<UUID>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.UUIDDeserializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Joined&lt;K, V, VO&gt;" ,
+   "classe"  : "(2) Joined<K, V, VO>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.JoinedInternal" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;StandardAcl&gt;" ,
+   "classe"  : "(2) Comparable<StandardAcl>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.metadata.authorizer.StandardAcl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RemoteLogMetadataTransform&lt;RemoteLogSegmentMetadata&gt;" ,
+   "classe"  : "(2) RemoteLogMetadataTransform<RemoteLogSegmentMetadata>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataTransform" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;TimeWindowedKStream&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>TimeWindowedKStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.SlidingWindowedKStreamImpl" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TimeWindowedKStreamImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;SessionWindowedCogroupedKStream&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>SessionWindowedCogroupedKStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.SessionWindowedCogroupedKStreamImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Produced&lt;K, V&gt;" ,
+   "classe"  : "(2) Produced<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.ProducedInternal" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Windowed&lt;T&gt;&gt;" ,
+   "classe"  : "(2) Serializer<Windowed<T>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.WindowedSerializer" }, 
 ]
@@ -728,7 +728,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Consumed&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Consumed<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Consumed" }, 
 ]
@@ -740,32 +740,32 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Consumer&lt;K, V&gt;" ,
+   "classe"  : "(2) Consumer<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.consumer.KafkaConsumer" }, 
   { "child"  : "(1) org.apache.kafka.clients.consumer.MockConsumer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeTransactionsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeTransactionsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeTransactionsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DeleteRecordsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DeleteRecordsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DeleteRecordsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Void&gt;" ,
+   "classe"  : "(2) Serializer<Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.VoidSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterator&lt;T&gt;" ,
+   "classe"  : "(2) Iterator<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.utils.AbstractIterator" }, 
   { "child"  : "(1) org.apache.kafka.common.utils.CircularIterator" }, 
@@ -790,7 +790,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableKTableAbstractJoin&lt;K, V1, V2, VOut&gt;" ,
+   "classe"  : "(2) KTableKTableAbstractJoin<K, V1, V2, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableKTableInnerJoin" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableKTableLeftJoin" }, 
@@ -799,7 +799,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KStreamAggProcessorSupplier&lt;KIn, VIn, KIn, VAgg&gt;" ,
+   "classe"  : "(2) KStreamAggProcessorSupplier<KIn, VIn, KIn, VAgg>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamAggregate" }, 
 ]
@@ -824,7 +824,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractQueryResult&lt;R&gt;QueryResult&lt;R&gt;" ,
+   "classe"  : "(2) AbstractQueryResult<R>QueryResult<R>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.query.internals.FailedQueryResult" }, 
   { "child"  : "(1) org.apache.kafka.streams.query.internals.SucceededQueryResult" }, 
@@ -839,13 +839,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableValueGetterSupplier&lt;K, R&gt;" ,
+   "classe"  : "(2) KTableValueGetterSupplier<K, R>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;TimeWindowedCogroupedKStream&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>TimeWindowedCogroupedKStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.SlidingWindowedCogroupedKStreamImpl" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl" }, 
@@ -858,20 +858,20 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableSerde&lt;LeftOrRightValue&lt;V1, V2&gt;, Void, Object&gt;" ,
+   "classe"  : "(2) WrappingNullableSerde<LeftOrRightValue<V1, V2>, Void, Object>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.LeftOrRightValueSerde" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Producer&lt;K, V&gt;" ,
+   "classe"  : "(2) Producer<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.producer.KafkaProducer" }, 
   { "child"  : "(1) org.apache.kafka.clients.producer.MockProducer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;AlterPartitionReassignmentsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<AlterPartitionReassignmentsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions" }, 
 ]
@@ -889,7 +889,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WindowedSerializer&lt;T&gt;" ,
+   "classe"  : "(2) WindowedSerializer<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.SessionWindowedSerializer" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.TimeWindowedSerializer" }, 
@@ -947,7 +947,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Callback&lt;U&gt;" ,
+   "classe"  : "(2) Callback<U>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.util.ConvertingFutureCallback" }, 
 ]
@@ -959,13 +959,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BaseJoinProcessorNode&lt;K, V1, V2, VR&gt;" ,
+   "classe"  : "(2) BaseJoinProcessorNode<K, V1, V2, VR>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;AbortTransactionOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<AbortTransactionOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.AbortTransactionOptions" }, 
 ]
@@ -977,13 +977,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeProducersOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeProducersOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeProducersOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;AllBrokersStrategy.BrokerKey, Collection&lt;TransactionListing&gt;&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<AllBrokersStrategy.BrokerKey, Collection<TransactionListing>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.ListTransactionsHandler" }, 
 ]
@@ -995,7 +995,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;KO, Change&lt;VO&gt;, K, SubscriptionResponseWrapper&lt;VO&gt;&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<KO, Change<VO>, K, SubscriptionResponseWrapper<VO>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionProcessorSupplier" }, 
 ]
@@ -1007,7 +1007,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RaftClient&lt;T&gt;" ,
+   "classe"  : "(2) RaftClient<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.KafkaRaftClient" }, 
 ]
@@ -1019,26 +1019,26 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableValueGetterSupplier&lt;K, V&gt;" ,
+   "classe"  : "(2) KTableValueGetterSupplier<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableMaterializedValueGetterSupplier" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableSourceValueGetterSupplier" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractRocksDBSegmentedBytesStore&lt;TimestampedSegment&gt;" ,
+   "classe"  : "(2) AbstractRocksDBSegmentedBytesStore<TimestampedSegment>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Grouped&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Grouped<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Grouped" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) LinkedHashMap&lt;K, V&gt;" ,
+   "classe"  : "(2) LinkedHashMap<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.utils.FixedOrderMap" }, 
 ]
@@ -1073,7 +1073,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;PluginDesc&lt;T&gt;&gt;" ,
+   "classe"  : "(2) Comparable<PluginDesc<T>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.isolation.PluginDesc" }, 
 ]
@@ -1093,7 +1093,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) FixedKeyProcessorSupplier&lt;KIn, VIn, VOut&gt;" ,
+   "classe"  : "(2) FixedKeyProcessorSupplier<KIn, VIn, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamFlatMapValues" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamMapValues" }, 
@@ -1171,7 +1171,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DeleteAclsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DeleteAclsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DeleteAclsOptions" }, 
 ]
@@ -1189,31 +1189,31 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeClusterOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeClusterOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeClusterOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;ByteBuffer&gt;" ,
+   "classe"  : "(2) Serializer<ByteBuffer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ByteBufferSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NumberConverter&lt;Double&gt;" ,
+   "classe"  : "(2) NumberConverter<Double>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.converters.DoubleConverter" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;CombinedKey&lt;KO, K&gt;, Change&lt;ValueAndTimestamp&lt;SubscriptionWrapper&lt;K&gt;&gt;&gt;, K, SubscriptionResponseWrapper&lt;VO&gt;&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<CombinedKey<KO, K>, Change<ValueAndTimestamp<SubscriptionWrapper<K>>>, K, SubscriptionResponseWrapper<VO>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionJoinForeignProcessorSupplier" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NumberConverter&lt;Short&gt;" ,
+   "classe"  : "(2) NumberConverter<Short>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.converters.ShortConverter" }, 
 ]
@@ -1239,43 +1239,43 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Produced&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Produced<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Produced" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;CreateAclsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<CreateAclsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.CreateAclsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ListTopicsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ListTopicsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ListTopicsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeAclsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeAclsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeAclsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StoreSupplier&lt;SessionStore&lt;Bytes, byte[]&gt;&gt;" ,
+   "classe"  : "(2) StoreSupplier<SessionStore<Bytes, byte[]>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.SessionBytesStoreSupplier" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Double&gt;" ,
+   "classe"  : "(2) Serializer<Double>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.DoubleSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractSegments&lt;TimestampedSegment&gt;" ,
+   "classe"  : "(2) AbstractSegments<TimestampedSegment>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.TimestampedSegments" }, 
 ]
@@ -1311,7 +1311,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;UpdateFeaturesOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<UpdateFeaturesOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.UnregisterBrokerOptions" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.UpdateFeaturesOptions" }, 
@@ -1324,38 +1324,38 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;AlterClientQuotasOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<AlterClientQuotasOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.AlterClientQuotasOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableSerializer&lt;ValueAndTimestamp&lt;V&gt;, Void, V&gt;" ,
+   "classe"  : "(2) WrappingNullableSerializer<ValueAndTimestamp<V>, Void, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ReadOnlyKeyValueStore&lt;K, V&gt;" ,
+   "classe"  : "(2) ReadOnlyKeyValueStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;CoordinatorKey, Void&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<CoordinatorKey, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ListConsumerGroupOffsetsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ListConsumerGroupOffsetsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RecordsSend&lt;T&gt;" ,
+   "classe"  : "(2) RecordsSend<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.record.DefaultRecordsSend" }, 
 ]
@@ -1402,7 +1402,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Query&lt;KeyValueIterator&lt;Windowed&lt;K&gt;, V&gt;&gt;" ,
+   "classe"  : "(2) Query<KeyValueIterator<Windowed<K>, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.query.WindowRangeQuery" }, 
 ]
@@ -1414,7 +1414,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) FixedKeyProcessorSupplier&lt;K, V, V&gt;" ,
+   "classe"  : "(2) FixedKeyProcessorSupplier<K, V, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamFilter" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamPeek" }, 
@@ -1427,7 +1427,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, VOut&gt;CogroupedKStream&lt;K, VOut&gt;" ,
+   "classe"  : "(2) AbstractStream<K, VOut>CogroupedKStream<K, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl" }, 
 ]
@@ -1455,26 +1455,26 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Processor&lt;K, V&gt;" ,
+   "classe"  : "(2) Processor<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.AbstractProcessor" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;K, V1, K, VOut&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<K, V1, K, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamKStreamJoin" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamKTableJoin" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;CoordinatorKey, TransactionDescription&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<CoordinatorKey, TransactionDescription>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;Bytes&gt;" ,
+   "classe"  : "(2) Comparable<Bytes>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.utils.Bytes" }, 
 ]
@@ -1503,7 +1503,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StreamPartitioner&lt;Windowed&lt;K&gt;, V&gt;" ,
+   "classe"  : "(2) StreamPartitioner<Windowed<K>, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner" }, 
 ]
@@ -1522,13 +1522,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) SnapshotReader&lt;T&gt;" ,
+   "classe"  : "(2) SnapshotReader<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.snapshot.RecordsSnapshotReader" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorGraphNode&lt;K, V&gt;" ,
+   "classe"  : "(2) ProcessorGraphNode<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode" }, 
 ]
@@ -1548,37 +1548,37 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RocksDBStoreComparable&lt;KeyValueSegment&gt;" ,
+   "classe"  : "(2) RocksDBStoreComparable<KeyValueSegment>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.KeyValueSegment" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeConfigsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeConfigsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeConfigsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractMap&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractMap<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.server.util.TranslatedValueMapView" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) CompletableFuture&lt;T&gt;" ,
+   "classe"  : "(2) CompletableFuture<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.internals.KafkaCompletableFuture" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;List&lt;Inner&gt;&gt;" ,
+   "classe"  : "(2) Serializer<List<Inner>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ListSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;byte[]&gt;" ,
+   "classe"  : "(2) Serializer<byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ByteArraySerializer" }, 
 ]
@@ -1598,7 +1598,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serdes.WrapperSerde&lt;Windowed&lt;T&gt;&gt;" ,
+   "classe"  : "(2) Serdes.WrapperSerde<Windowed<T>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde" }, 
 ]
@@ -1616,7 +1616,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;KIn, VIn, KAgg, Change&lt;VAgg&gt;&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<KIn, VIn, KAgg, Change<VAgg>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamAggProcessorSupplier" }, 
 ]
@@ -1634,7 +1634,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;WindowStore&lt;Bytes, byte[]&gt;, byte[], byte[]&gt;WindowStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<WindowStore<Bytes, byte[]>, byte[], byte[]>WindowStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.CachingWindowStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore" }, 
@@ -1642,19 +1642,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) TransformerSupplier&lt;KIn, VIn, Iterable&lt;KeyValue&lt;KOut, VOut&gt;&gt;&gt;" ,
+   "classe"  : "(2) TransformerSupplier<KIn, VIn, Iterable<KeyValue<KOut, VOut>>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) LogInputStream&lt;MutableRecordBatch&gt;" ,
+   "classe"  : "(2) LogInputStream<MutableRecordBatch>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.record.ByteBufferLogInputStream" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BaseRepartitionNode&lt;K, V&gt;" ,
+   "classe"  : "(2) BaseRepartitionNode<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.OptimizableRepartitionNode" }, 
@@ -1662,7 +1662,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractDualSchemaRocksDBSegmentedBytesStore&lt;KeyValueSegment&gt;" ,
+   "classe"  : "(2) AbstractDualSchemaRocksDBSegmentedBytesStore<KeyValueSegment>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore" }, 
 ]
@@ -1674,13 +1674,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Repartitioned&lt;K, V&gt;" ,
+   "classe"  : "(2) Repartitioned<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.RepartitionedInternal" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Stamped&lt;ProcessorNode&gt;" ,
+   "classe"  : "(2) Stamped<ProcessorNode>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.PunctuationSchedule" }, 
 ]
@@ -1699,13 +1699,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RemoteLogMetadataTransform&lt;RemoteLogSegmentMetadataUpdate&gt;" ,
+   "classe"  : "(2) RemoteLogMetadataTransform<RemoteLogSegmentMetadataUpdate>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataUpdateTransform" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiLookupStrategy&lt;AllBrokersStrategy.BrokerKey&gt;" ,
+   "classe"  : "(2) AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.AllBrokersStrategy" }, 
 ]
@@ -1717,7 +1717,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ListTransactionsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ListTransactionsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ListTransactionsOptions" }, 
 ]
@@ -1744,7 +1744,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Repartitioned&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Repartitioned<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Repartitioned" }, 
 ]
@@ -1756,7 +1756,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ElectLeadersOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ElectLeadersOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ElectLeadersOptions" }, 
 ]
@@ -1782,7 +1782,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;CoordinatorKey, Map&lt;TopicPartition, Errors&gt;&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<CoordinatorKey, Map<TopicPartition, Errors>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler" }, 
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler" }, 
@@ -1795,7 +1795,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueIterator&lt;Long, V&gt;" ,
+   "classe"  : "(2) KeyValueIterator<Long, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.WindowStoreIterator" }, 
 ]
@@ -1808,19 +1808,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Printed&lt;K, V&gt;" ,
+   "classe"  : "(2) Printed<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.PrintedInternal" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BaseHashTable&lt;T&gt;Revertable" ,
+   "classe"  : "(2) BaseHashTable<T>Revertable" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.timeline.SnapshottableHashTable" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;KStream&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>KStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamImpl" }, 
 ]
@@ -1847,19 +1847,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;CreatePartitionsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<CreatePartitionsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.CreatePartitionsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorNode&lt;KIn, VIn, Void, Void&gt;" ,
+   "classe"  : "(2) ProcessorNode<KIn, VIn, Void, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.SinkNode" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ReadOnlyWindowStore&lt;K, V&gt;" ,
+   "classe"  : "(2) ReadOnlyWindowStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade" }, 
@@ -1878,19 +1878,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableProcessorSupplier&lt;KIn, VIn, KIn, VAgg&gt;" ,
+   "classe"  : "(2) KTableProcessorSupplier<KIn, VIn, KIn, VAgg>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableAggregate" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;AlterReplicaLogDirsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<AlterReplicaLogDirsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStoreBuilder&lt;K, V, KeyValueStore&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) AbstractStoreBuilder<K, V, KeyValueStore<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.KeyValueStoreBuilder" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ListValueStoreBuilder" }, 
@@ -2725,7 +2725,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ControllerResult&lt;T&gt;" ,
+   "classe"  : "(2) ControllerResult<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.controller.ControllerResultAndOffset" }, 
 ]
@@ -2750,25 +2750,25 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;RenewDelegationTokenOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<RenewDelegationTokenOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.RenewDelegationTokenOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableSerializer&lt;LeftOrRightValue&lt;V1, V2&gt;, Void, Object&gt;" ,
+   "classe"  : "(2) WrappingNullableSerializer<LeftOrRightValue<V1, V2>, Void, Object>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractProcessorContext&lt;Object, Object&gt;" ,
+   "classe"  : "(2) AbstractProcessorContext<Object, Object>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeClientQuotasOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeClientQuotasOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeClientQuotasOptions" }, 
 ]
@@ -2780,13 +2780,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Float&gt;" ,
+   "classe"  : "(2) Serializer<Float>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.FloatSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Bytes&gt;" ,
+   "classe"  : "(2) Deserializer<Bytes>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.BytesDeserializer" }, 
 ]
@@ -2800,7 +2800,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Future&lt;RecordMetadata&gt;" ,
+   "classe"  : "(2) Future<RecordMetadata>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.producer.internals.FutureRecordMetadata" }, 
 ]
@@ -2813,14 +2813,14 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;T, K, V&gt;" ,
+   "classe"  : "(2) WrappedStateStore<T, K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator" }, 
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.AbstractReadWriteDecorator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ExceptionMapper&lt;Throwable&gt;" ,
+   "classe"  : "(2) ExceptionMapper<Throwable>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.trogdor.rest.RestExceptionMapper" }, 
 ]
@@ -2832,13 +2832,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StreamPartitioner&lt;K, V&gt;" ,
+   "classe"  : "(2) StreamPartitioner<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;KIn, VIn, KIn, Change&lt;VIn&gt;&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<KIn, VIn, KIn, Change<VIn>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableSource" }, 
 ]
@@ -2850,13 +2850,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) MeteredKeyValueStore&lt;K, ValueAndTimestamp&lt;V&gt;&gt;TimestampedKeyValueStore&lt;K, V&gt;" ,
+   "classe"  : "(2) MeteredKeyValueStore<K, ValueAndTimestamp<V>>TimestampedKeyValueStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractRocksDBSegmentedBytesStore&lt;KeyValueSegment&gt;" ,
+   "classe"  : "(2) AbstractRocksDBSegmentedBytesStore<KeyValueSegment>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore" }, 
 ]
@@ -2868,19 +2868,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableProcessorSupplier&lt;K, V1, K, VOut&gt;" ,
+   "classe"  : "(2) KTableProcessorSupplier<K, V1, K, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Grouped&lt;K, V&gt;" ,
+   "classe"  : "(2) Grouped<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.GroupedInternal" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;RemoveMembersFromConsumerGroupOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<RemoveMembersFromConsumerGroupOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions" }, 
 ]
@@ -2896,7 +2896,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) QueryResult&lt;R&gt;" ,
+   "classe"  : "(2) QueryResult<R>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.query.internals.AbstractQueryResult" }, 
 ]
@@ -2914,13 +2914,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableSerde&lt;ValueAndTimestamp&lt;V&gt;, Void, V&gt;" ,
+   "classe"  : "(2) WrappingNullableSerde<ValueAndTimestamp<V>, Void, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ValueAndTimestampSerde" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NumberConverter&lt;Integer&gt;" ,
+   "classe"  : "(2) NumberConverter<Integer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.converters.IntegerConverter" }, 
 ]
@@ -2937,7 +2937,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Callable&lt;V&gt;" ,
+   "classe"  : "(2) Callable<V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.errors.Operation" }, 
 ]
@@ -2963,7 +2963,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractMergedSortedCacheStoreIterator&lt;Windowed&lt;Bytes&gt;, Windowed&lt;Bytes&gt;, byte[], byte[]&gt;" ,
+   "classe"  : "(2) AbstractMergedSortedCacheStoreIterator<Windowed<Bytes>, Windowed<Bytes>, byte[], byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator" }, 
@@ -3003,7 +3003,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterable&lt;ConsumerRecord&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) Iterable<ConsumerRecord<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.consumer.ConsumerRecords" }, 
 ]
@@ -3031,7 +3031,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Configurable&lt;ResourceConfig&gt;" ,
+   "classe"  : "(2) Configurable<ResourceConfig>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable" }, 
 ]
@@ -3046,7 +3046,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterator&lt;KeyValue&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) Iterator<KeyValue<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.KeyValueIterator" }, 
 ]
@@ -3062,7 +3062,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Integer&gt;" ,
+   "classe"  : "(2) Serializer<Integer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.IntegerSerializer" }, 
 ]
@@ -3074,7 +3074,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Void&gt;" ,
+   "classe"  : "(2) Deserializer<Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.VoidDeserializer" }, 
 ]
@@ -3092,7 +3092,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableProcessorSupplier&lt;KIn, VIn, KIn, VIn&gt;" ,
+   "classe"  : "(2) KTableProcessorSupplier<KIn, VIn, KIn, VIn>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableFilter" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTablePassThrough" }, 
@@ -3112,19 +3112,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WindowStore&lt;K, ValueAndTimestamp&lt;V&gt;&gt;" ,
+   "classe"  : "(2) WindowStore<K, ValueAndTimestamp<V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.TimestampedWindowStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Suppressed.BufferConfig&lt;BC&gt;" ,
+   "classe"  : "(2) Suppressed.BufferConfig<BC>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.suppress.BufferConfigInternal" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) MetricValueProvider&lt;Double&gt;" ,
+   "classe"  : "(2) MetricValueProvider<Double>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.metrics.Measurable" }, 
 ]
@@ -3136,26 +3136,26 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) PeekingKeyValueIterator&lt;Bytes, LRUCacheEntry&gt;" ,
+   "classe"  : "(2) PeekingKeyValueIterator<Bytes, LRUCacheEntry>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.FilteredCacheIterator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Windowed&lt;T&gt;&gt;" ,
+   "classe"  : "(2) Deserializer<Windowed<T>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.SessionWindowedDeserializer" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.TimeWindowedDeserializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BufferConfigInternal&lt;Suppressed.EagerBufferConfig&gt;Suppressed.EagerBufferConfig" ,
+   "classe"  : "(2) BufferConfigInternal<Suppressed.EagerBufferConfig>Suppressed.EagerBufferConfig" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiLookupStrategy&lt;K&gt;" ,
+   "classe"  : "(2) AdminApiLookupStrategy<K>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.StaticBrokerStrategy" }, 
 ]
@@ -3168,7 +3168,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ConvertingFutureCallback&lt;T, T&gt;" ,
+   "classe"  : "(2) ConvertingFutureCallback<T, T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.util.FutureCallback" }, 
 ]
@@ -3189,7 +3189,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StoreSupplier&lt;WindowStore&lt;Bytes, byte[]&gt;&gt;" ,
+   "classe"  : "(2) StoreSupplier<WindowStore<Bytes, byte[]>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.WindowBytesStoreSupplier" }, 
 ]
@@ -3207,7 +3207,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BranchedKStream&lt;K, V&gt;" ,
+   "classe"  : "(2) BranchedKStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl" }, 
 ]
@@ -3226,7 +3226,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueIterator&lt;Windowed&lt;Bytes&gt;, byte[]&gt;" ,
+   "classe"  : "(2) KeyValueIterator<Windowed<Bytes>, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator" }, 
 ]
@@ -3244,31 +3244,31 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RaftClient.Listener&lt;Integer&gt;" ,
+   "classe"  : "(2) RaftClient.Listener<Integer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.ReplicatedCounter" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueIterator&lt;K, byte[]&gt;" ,
+   "classe"  : "(2) KeyValueIterator<K, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueIteratorAdapter" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStoreBuilder&lt;K, ValueAndTimestamp&lt;V&gt;, TimestampedWindowStore&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) AbstractStoreBuilder<K, ValueAndTimestamp<V>, TimestampedWindowStore<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;RocksDBTimeOrderedWindowSegmentedBytesStore, Object, Object&gt;WindowStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<RocksDBTimeOrderedWindowSegmentedBytesStore, Object, Object>WindowStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;K, Change&lt;V&gt;, KO, SubscriptionWrapper&lt;K&gt;&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<K, Change<V>, KO, SubscriptionWrapper<K>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionSendProcessorSupplier" }, 
 ]
@@ -3281,19 +3281,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;KeyValueStore&lt;Bytes, byte[]&gt;, K, V&gt;KeyValueStore&lt;K, V&gt;" ,
+   "classe"  : "(2) WrappedStateStore<KeyValueStore<Bytes, byte[]>, K, V>KeyValueStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MeteredKeyValueStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeReplicaLogDirsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeReplicaLogDirsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeReplicaLogDirsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableProcessorSupplier&lt;K, V, K, VOut&gt;" ,
+   "classe"  : "(2) KTableProcessorSupplier<K, V, K, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableTransformValues" }, 
 ]
@@ -3305,7 +3305,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorNode&lt;KIn, VIn, KIn, VIn&gt;" ,
+   "classe"  : "(2) ProcessorNode<KIn, VIn, KIn, VIn>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.SourceNode" }, 
 ]
@@ -3317,7 +3317,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Printed&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Printed<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Printed" }, 
 ]
@@ -3346,19 +3346,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NumberConverter&lt;Float&gt;" ,
+   "classe"  : "(2) NumberConverter<Float>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.converters.FloatConverter" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;CreateTopicsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<CreateTopicsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.CreateTopicsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;KGroupedStream&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>KGroupedStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl" }, 
 ]
@@ -3376,13 +3376,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractMergedSortedCacheStoreIterator&lt;Long, Long, byte[], byte[]&gt;WindowStoreIterator&lt;byte[]&gt;" ,
+   "classe"  : "(2) AbstractMergedSortedCacheStoreIterator<Long, Long, byte[], byte[]>WindowStoreIterator<byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Query&lt;KeyValueIterator&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) Query<KeyValueIterator<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.query.RangeQuery" }, 
 ]
@@ -3394,7 +3394,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractIterator&lt;KeyValue&lt;Bytes, byte[]&gt;&gt;KeyValueIterator&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) AbstractIterator<KeyValue<Bytes, byte[]>>KeyValueIterator<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDbIterator" }, 
 ]
@@ -3412,31 +3412,31 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeFeaturesOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeFeaturesOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeFeaturesOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Future&lt;T&gt;" ,
+   "classe"  : "(2) Future<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.KafkaFuture" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Bytes&gt;" ,
+   "classe"  : "(2) Serializer<Bytes>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.BytesSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractSegments&lt;KeyValueSegment&gt;" ,
+   "classe"  : "(2) AbstractSegments<KeyValueSegment>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.KeyValueSegments" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Float&gt;" ,
+   "classe"  : "(2) Deserializer<Float>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.FloatDeserializer" }, 
 ]
@@ -3462,13 +3462,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;KeyValueStore&lt;Bytes, byte[]&gt;, Bytes, byte[]&gt;KeyValueStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<KeyValueStore<Bytes, byte[]>, Bytes, byte[]>KeyValueStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ListValueStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractCollection&lt;E&gt;" ,
+   "classe"  : "(2) AbstractCollection<E>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.utils.ImplicitLinkedHashCollection" }, 
 ]
@@ -3485,7 +3485,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) InternalProcessorContext&lt;KOut, VOut&gt;" ,
+   "classe"  : "(2) InternalProcessorContext<KOut, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.AbstractProcessorContext" }, 
 ]
@@ -3499,7 +3499,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStoreBuilder&lt;K, V, SessionStore&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) AbstractStoreBuilder<K, V, SessionStore<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.SessionStoreBuilder" }, 
 ]
@@ -3513,13 +3513,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RecordSerde&lt;String&gt;" ,
+   "classe"  : "(2) RecordSerde<String>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.internals.StringSerde" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;RocksDBTimeOrderedSessionSegmentedBytesStore, Object, Object&gt;SessionStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<RocksDBTimeOrderedSessionSegmentedBytesStore, Object, Object>SessionStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore" }, 
 ]
@@ -3539,7 +3539,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;String&gt;" ,
+   "classe"  : "(2) Deserializer<String>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.StringDeserializer" }, 
 ]
@@ -3552,31 +3552,31 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;KTable&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>KTable<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Consumer&lt;MetadataNodeManager.Data&gt;" ,
+   "classe"  : "(2) Consumer<MetadataNodeManager.Data>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.shell.GlobVisitor" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeConsumerGroupsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeConsumerGroupsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Windows&lt;Window&gt;" ,
+   "classe"  : "(2) Windows<Window>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.JoinWindows" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;SessionStore&lt;Bytes, byte[]&gt;, byte[], byte[]&gt;SessionStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<SessionStore<Bytes, byte[]>, byte[], byte[]>SessionStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.CachingSessionStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore" }, 
@@ -3606,19 +3606,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Integer&gt;" ,
+   "classe"  : "(2) Deserializer<Integer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.IntegerDeserializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ConcurrentMap&lt;K, V&gt;" ,
+   "classe"  : "(2) ConcurrentMap<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.utils.CopyOnWriteMap" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterator&lt;List&lt;ApiMessageAndVersion&gt;&gt;" ,
+   "classe"  : "(2) Iterator<List<ApiMessageAndVersion>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.metadata.authorizer.StandardAclRecordIterator" }, 
 ]
@@ -3643,7 +3643,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) SnapshottableHashTable&lt;TimelineHashSet.TimelineHashSetEntry&lt;T&gt;&gt;Set&lt;T&gt;" ,
+   "classe"  : "(2) SnapshottableHashTable<TimelineHashSet.TimelineHashSetEntry<T>>Set<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.timeline.TimelineHashSet" }, 
 ]
@@ -3655,25 +3655,25 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) TableJoined&lt;K, KO&gt;" ,
+   "classe"  : "(2) TableJoined<K, KO>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TableJoinedInternal" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DeleteTopicsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DeleteTopicsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DeleteTopicsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableSerde&lt;SubscriptionWrapper&lt;K&gt;, K, Void&gt;" ,
+   "classe"  : "(2) WrappingNullableSerde<SubscriptionWrapper<K>, K, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) SnapshottableHashTable&lt;TimelineHashMap.TimelineHashMapEntry&lt;K, V&gt;&gt;Map&lt;K, V&gt;" ,
+   "classe"  : "(2) SnapshottableHashTable<TimelineHashMap.TimelineHashMapEntry<K, V>>Map<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.timeline.TimelineHashMap" }, 
 ]
@@ -3685,13 +3685,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiLookupStrategy&lt;CoordinatorKey&gt;" ,
+   "classe"  : "(2) AdminApiLookupStrategy<CoordinatorKey>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.CoordinatorStrategy" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Branched&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Branched<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Branched" }, 
 ]
@@ -3722,7 +3722,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterator&lt;byte[]&gt;" ,
+   "classe"  : "(2) Iterator<byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.trogdor.workload.PayloadIterator" }, 
 ]
@@ -3734,25 +3734,25 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeLogDirsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeLogDirsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeLogDirsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueStore&lt;K, ValueAndTimestamp&lt;V&gt;&gt;" ,
+   "classe"  : "(2) KeyValueStore<K, ValueAndTimestamp<V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.TimestampedKeyValueStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;K, SubscriptionResponseWrapper&lt;VO&gt;, K, VR&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<K, SubscriptionResponseWrapper<VO>, K, VR>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;TopicPartition, PartitionProducerState&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<TopicPartition, PartitionProducerState>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.DescribeProducersHandler" }, 
 ]
@@ -3790,13 +3790,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractMergedSortedCacheStoreIterator&lt;Bytes, Bytes, byte[], byte[]&gt;" ,
+   "classe"  : "(2) AbstractMergedSortedCacheStoreIterator<Bytes, Bytes, byte[], byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MergedSortedCacheKeyValueBytesStoreIterator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;BufferKey&gt;" ,
+   "classe"  : "(2) Comparable<BufferKey>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.BufferKey" }, 
 ]
@@ -3808,7 +3808,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ConnectRecord&lt;SourceRecord&gt;" ,
+   "classe"  : "(2) ConnectRecord<SourceRecord>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.source.SourceRecord" }, 
 ]
@@ -3829,13 +3829,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;CoordinatorKey, Map&lt;MemberIdentity, Errors&gt;&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<CoordinatorKey, Map<MemberIdentity, Errors>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;SegmentedBytesStore, Object, Object&gt;WindowStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<SegmentedBytesStore, Object, Object>WindowStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDBWindowStore" }, 
 ]
@@ -3848,13 +3848,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ListConsumerGroupsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ListConsumerGroupsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ListConsumerGroupsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;SessionStore&lt;Bytes, byte[]&gt;, Windowed&lt;K&gt;, V&gt;SessionStore&lt;K, V&gt;" ,
+   "classe"  : "(2) WrappedStateStore<SessionStore<Bytes, byte[]>, Windowed<K>, V>SessionStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MeteredSessionStore" }, 
 ]
@@ -3867,13 +3867,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStream&lt;K, V&gt;KGroupedTable&lt;K, V&gt;" ,
+   "classe"  : "(2) AbstractStream<K, V>KGroupedTable<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KGroupedTableImpl" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Suppressed&lt;K&gt;" ,
+   "classe"  : "(2) Suppressed<K>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.suppress.NamedSuppressed" }, 
@@ -3881,13 +3881,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ListOffsetsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ListOffsetsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ListOffsetsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Branched&lt;K, V&gt;" ,
+   "classe"  : "(2) Branched<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.BranchedInternal" }, 
 ]
@@ -3899,7 +3899,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;TopicPartition, Void&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<TopicPartition, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.AbortTransactionHandler" }, 
 ]
@@ -3912,7 +3912,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WindowStoreIterator&lt;V&gt;" ,
+   "classe"  : "(2) WindowStoreIterator<V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator" }, 
 ]
@@ -3926,7 +3926,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;ListPartitionReassignmentsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<ListPartitionReassignmentsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions" }, 
 ]
@@ -3950,13 +3950,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparator&lt;Optional&lt;String&gt;&gt;" ,
+   "classe"  : "(2) Comparator<Optional<String>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.metadata.OptionalStringComparator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Long&gt;" ,
+   "classe"  : "(2) Serializer<Long>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.LongSerializer" }, 
 ]
@@ -3970,19 +3970,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Change&lt;T&gt;&gt;" ,
+   "classe"  : "(2) Serializer<Change<T>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.ChangedSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ExceptionMapper&lt;Exception&gt;" ,
+   "classe"  : "(2) ExceptionMapper<Exception>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableSerde&lt;TimestampedKeyAndJoinSide&lt;K&gt;, K, Void&gt;" ,
+   "classe"  : "(2) WrappingNullableSerde<TimestampedKeyAndJoinSide<K>, K, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde" }, 
 ]
@@ -4010,25 +4010,25 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;CreateDelegationTokenOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<CreateDelegationTokenOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.CreateDelegationTokenOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;AlterConsumerGroupOffsetsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<AlterConsumerGroupOffsetsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;CoordinatorKey, ConsumerGroupDescription&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<CoordinatorKey, ConsumerGroupDescription>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Predicate&lt;R&gt;" ,
+   "classe"  : "(2) Predicate<R>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.transforms.predicates.HasHeaderKey" }, 
   { "child"  : "(1) org.apache.kafka.connect.transforms.predicates.RecordIsTombstone" }, 
@@ -4036,31 +4036,31 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StoreQueryParameters&lt;T&gt;" ,
+   "classe"  : "(2) StoreQueryParameters<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StateStoreNode&lt;S&gt;" ,
+   "classe"  : "(2) StateStoreNode<S>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStoreBuilder&lt;K, V, WindowStore&lt;K, V&gt;&gt;" ,
+   "classe"  : "(2) AbstractStoreBuilder<K, V, WindowStore<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.WindowStoreBuilder" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeMetadataQuorumOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeMetadataQuorumOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;UUID&gt;" ,
+   "classe"  : "(2) Serializer<UUID>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.UUIDSerializer" }, 
 ]
@@ -4078,7 +4078,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KTableProcessorSupplier&lt;K, V, K, V&gt;" ,
+   "classe"  : "(2) KTableProcessorSupplier<K, V, K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableReduce" }, 
@@ -4086,7 +4086,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) LogInputStream&lt;FileLogInputStream.FileChannelRecordBatch&gt;" ,
+   "classe"  : "(2) LogInputStream<FileLogInputStream.FileChannelRecordBatch>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.record.FileLogInputStream" }, 
 ]
@@ -4100,7 +4100,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Joined&lt;K, V, VO&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Joined<K, V, VO>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Joined" }, 
 ]
@@ -4126,19 +4126,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Query&lt;V&gt;" ,
+   "classe"  : "(2) Query<V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.query.KeyQuery" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableDeserializer&lt;LeftOrRightValue&lt;V1, V2&gt;, Void, Object&gt;" ,
+   "classe"  : "(2) WrappingNullableDeserializer<LeftOrRightValue<V1, V2>, Void, Object>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;KIn, Change&lt;VIn&gt;, KOut, Change&lt;VOut&gt;&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<KIn, Change<VIn>, KOut, Change<VOut>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableProcessorSupplier" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KTableRepartitionMapSupplier" }, 
@@ -4152,7 +4152,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BufferConfigInternal&lt;Suppressed.StrictBufferConfig&gt;Suppressed.StrictBufferConfig" ,
+   "classe"  : "(2) BufferConfigInternal<Suppressed.StrictBufferConfig>Suppressed.StrictBufferConfig" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl" }, 
 ]
@@ -4170,7 +4170,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;WindowStore&lt;Bytes, byte[]&gt;, Windowed&lt;K&gt;, V&gt;WindowStore&lt;K, V&gt;" ,
+   "classe"  : "(2) WrappedStateStore<WindowStore<Bytes, byte[]>, Windowed<K>, V>WindowStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MeteredWindowStore" }, 
 ]
@@ -4183,13 +4183,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractStatus&lt;ConnectorTaskId&gt;" ,
+   "classe"  : "(2) AbstractStatus<ConnectorTaskId>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.TaskStatus" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Windows&lt;UnlimitedWindow&gt;" ,
+   "classe"  : "(2) Windows<UnlimitedWindow>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.UnlimitedWindows" }, 
 ]
@@ -4207,20 +4207,20 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Unbatched&lt;CoordinatorKey, ProducerIdAndEpoch&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Unbatched<CoordinatorKey, ProducerIdAndEpoch>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.FenceProducersHandler" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;KeyValueStore&lt;Bytes, byte[]&gt;, byte[], byte[]&gt;KeyValueStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<KeyValueStore<Bytes, byte[]>, byte[], byte[]>KeyValueStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.CachingKeyValueStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) StoreSupplier&lt;KeyValueStore&lt;Bytes, byte[]&gt;&gt;" ,
+   "classe"  : "(2) StoreSupplier<KeyValueStore<Bytes, byte[]>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.KeyValueBytesStoreSupplier" }, 
 ]
@@ -4234,13 +4234,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeDelegationTokenOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeDelegationTokenOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeDelegationTokenOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Double&gt;" ,
+   "classe"  : "(2) Deserializer<Double>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.DoubleDeserializer" }, 
 ]
@@ -4258,7 +4258,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;RestartRequest&gt;" ,
+   "classe"  : "(2) Comparable<RestartRequest>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.RestartRequest" }, 
 ]
@@ -4271,7 +4271,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;byte[]&gt;" ,
+   "classe"  : "(2) Deserializer<byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ByteArrayDeserializer" }, 
 ]
@@ -4284,13 +4284,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Stamped&lt;ConsumerRecord&lt;?, ?&gt;&gt;" ,
+   "classe"  : "(2) Stamped<ConsumerRecord<?, ?>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.StampedRecord" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableDeserializer&lt;TimestampedKeyAndJoinSide&lt;K&gt;, K, Void&gt;" ,
+   "classe"  : "(2) WrappingNullableDeserializer<TimestampedKeyAndJoinSide<K>, K, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer" }, 
 ]
@@ -4302,7 +4302,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Named&gt;" ,
+   "classe"  : "(2) NamedOperation<Named>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Named" }, 
 ]
@@ -4322,13 +4322,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serde&lt;SubscriptionResponseWrapper&lt;V&gt;&gt;" ,
+   "classe"  : "(2) Serde<SubscriptionResponseWrapper<V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RecordsSend&lt;LazyDownConversionRecords&gt;" ,
+   "classe"  : "(2) RecordsSend<LazyDownConversionRecords>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.record.LazyDownConversionRecordsSend" }, 
 ]
@@ -4340,32 +4340,32 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WindowStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WindowStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.InMemoryWindowStore" }, 
   { "child"  : "(1) org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ImplicitLinkedHashCollection&lt;E&gt;" ,
+   "classe"  : "(2) ImplicitLinkedHashCollection<E>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollection" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ForeachAction&lt;K, V&gt;" ,
+   "classe"  : "(2) ForeachAction<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.PrintForeachAction" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;JsonNode&gt;" ,
+   "classe"  : "(2) Serializer<JsonNode>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.json.JsonSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Segments&lt;S&gt;" ,
+   "classe"  : "(2) Segments<S>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.AbstractSegments" }, 
 ]
@@ -4482,7 +4482,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;TableJoined&lt;K, KO&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<TableJoined<K, KO>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.TableJoined" }, 
 ]
@@ -4497,7 +4497,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappingNullableDeserializer&lt;ValueAndTimestamp&lt;V&gt;, Void, V&gt;" ,
+   "classe"  : "(2) WrappingNullableDeserializer<ValueAndTimestamp<V>, Void, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer" }, 
 ]
@@ -4510,7 +4510,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Materialized&lt;K, V, S&gt;" ,
+   "classe"  : "(2) Materialized<K, V, S>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.MaterializedInternal" }, 
 ]
@@ -4534,13 +4534,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RocksDBTimestampedStoreComparable&lt;TimestampedSegment&gt;" ,
+   "classe"  : "(2) RocksDBTimestampedStoreComparable<TimestampedSegment>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.TimestampedSegment" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) BaseJoinProcessorNode&lt;K, Change&lt;V1&gt;, Change&lt;V2&gt;, Change&lt;VR&gt;&gt;" ,
+   "classe"  : "(2) BaseJoinProcessorNode<K, Change<V1>, Change<V2>, Change<VR>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode" }, 
 ]
@@ -4566,13 +4566,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AsyncClient&lt;Map&lt;TopicPartition, SubscriptionState.FetchPosition&gt;, OffsetsForLeaderEpochRequest, OffsetsForLeaderEpochResponse, OffsetsForLeaderEpochClient.OffsetForEpochResult&gt;" ,
+   "classe"  : "(2) AsyncClient<Map<TopicPartition, SubscriptionState.FetchPosition>, OffsetsForLeaderEpochRequest, OffsetsForLeaderEpochResponse, OffsetsForLeaderEpochClient.OffsetForEpochResult>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Short&gt;" ,
+   "classe"  : "(2) Deserializer<Short>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ShortDeserializer" }, 
 ]
@@ -4592,13 +4592,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;ByteBuffer&gt;" ,
+   "classe"  : "(2) Deserializer<ByteBuffer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ByteBufferDeserializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Outer&gt;" ,
+   "classe"  : "(2) Serializer<Outer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer" }, 
 ]
@@ -4625,7 +4625,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) CacheFlushListener&lt;Windowed&lt;KOut&gt;, VOut&gt;" ,
+   "classe"  : "(2) CacheFlushListener<Windowed<KOut>, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener" }, 
 ]
@@ -4645,7 +4645,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RemoteLogMetadataTransform&lt;RemotePartitionDeleteMetadata&gt;" ,
+   "classe"  : "(2) RemoteLogMetadataTransform<RemotePartitionDeleteMetadata>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform" }, 
 ]
@@ -4658,7 +4658,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;KIn, VIn, KOut, VOut&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<KIn, VIn, KOut, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamFlatMap" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamFlatTransform" }, 
@@ -4672,13 +4672,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) NamedOperation&lt;Suppressed&lt;K&gt;&gt;" ,
+   "classe"  : "(2) NamedOperation<Suppressed<K>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.Suppressed" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;KO, SubscriptionWrapper&lt;K&gt;, CombinedKey&lt;KO, K&gt;, Change&lt;ValueAndTimestamp&lt;SubscriptionWrapper&lt;K&gt;&gt;&gt;&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<KO, SubscriptionWrapper<K>, CombinedKey<KO, K>, Change<ValueAndTimestamp<SubscriptionWrapper<K>>>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionStoreReceiveProcessorSupplier" }, 
 ]
@@ -4793,13 +4793,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) KeyValueIterator&lt;Windowed&lt;K&gt;, V&gt;" ,
+   "classe"  : "(2) KeyValueIterator<Windowed<K>, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) TopicNameExtractor&lt;K, V&gt;" ,
+   "classe"  : "(2) TopicNameExtractor<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor" }, 
 ]
@@ -4811,7 +4811,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;String&gt;" ,
+   "classe"  : "(2) Serializer<String>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.StringSerializer" }, 
 ]
@@ -4831,13 +4831,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) MetricValueProvider&lt;T&gt;" ,
+   "classe"  : "(2) MetricValueProvider<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.metrics.Gauge" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Iterator&lt;Batch&lt;T&gt;&gt;" ,
+   "classe"  : "(2) Iterator<Batch<T>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.BatchReader" }, 
   { "child"  : "(1) org.apache.kafka.raft.internals.RecordsIterator" }, 
@@ -4874,13 +4874,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Processor&lt;K, V, Void, Void&gt;" ,
+   "classe"  : "(2) Processor<K, V, Void, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.ForeachProcessor" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) SnapshotWriter&lt;T&gt;" ,
+   "classe"  : "(2) SnapshotWriter<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.snapshot.RecordsSnapshotWriter" }, 
 ]
@@ -4892,7 +4892,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Processor&lt;KIn, VIn, KOut, VOut&gt;" ,
+   "classe"  : "(2) Processor<KIn, VIn, KOut, VOut>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.api.ContextualProcessor" }, 
   { "child"  : "(1) org.apache.kafka.streams.processor.internals.ProcessorAdapter" }, 
@@ -4937,13 +4937,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;JsonNode&gt;" ,
+   "classe"  : "(2) Deserializer<JsonNode>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.json.JsonDeserializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) TimeOrderedKeyValueBuffer&lt;K, V&gt;" ,
+   "classe"  : "(2) TimeOrderedKeyValueBuffer<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer" }, 
 ]
@@ -4955,7 +4955,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) RecordSerde&lt;ApiMessageAndVersion&gt;" ,
+   "classe"  : "(2) RecordSerde<ApiMessageAndVersion>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.server.common.serialization.AbstractApiMessageSerde" }, 
 ]
@@ -4967,7 +4967,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;Outer&gt;" ,
+   "classe"  : "(2) Deserializer<Outer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.WrappingNullableDeserializer" }, 
 ]
@@ -4980,19 +4980,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AdminApiHandler.Batched&lt;CoordinatorKey, Map&lt;TopicPartition, OffsetAndMetadata&gt;&gt;" ,
+   "classe"  : "(2) AdminApiHandler.Batched<CoordinatorKey, Map<TopicPartition, OffsetAndMetadata>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DeleteConsumerGroupOffsetsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DeleteConsumerGroupOffsetsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Comparable&lt;TaskId&gt;" ,
+   "classe"  : "(2) Comparable<TaskId>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.processor.TaskId" }, 
 ]
@@ -5004,7 +5004,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DescribeTopicsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DescribeTopicsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeTopicsOptions" }, 
 ]
@@ -5028,7 +5028,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Transformation&lt;R&gt;" ,
+   "classe"  : "(2) Transformation<R>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.PredicatedTransformation" }, 
   { "child"  : "(1) org.apache.kafka.connect.transforms.Cast" }, 
@@ -5050,14 +5050,14 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) SourceGraphNode&lt;K, V&gt;" ,
+   "classe"  : "(2) SourceGraphNode<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.StreamSourceNode" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.graph.TableSourceNode" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) AbstractOptions&lt;DeleteConsumerGroupsOptions&gt;" ,
+   "classe"  : "(2) AbstractOptions<DeleteConsumerGroupsOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions" }, 
 ]
@@ -5069,7 +5069,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) WrappedStateStore&lt;SegmentedBytesStore, Object, Object&gt;SessionStore&lt;Bytes, byte[]&gt;" ,
+   "classe"  : "(2) WrappedStateStore<SegmentedBytesStore, Object, Object>SessionStore<Bytes, byte[]>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.RocksDBSessionStore" }, 
 ]
@@ -5081,13 +5081,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Deserializer&lt;List&lt;Inner&gt;&gt;" ,
+   "classe"  : "(2) Deserializer<List<Inner>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ListDeserializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ContextualProcessor&lt;KIn, VIn, Windowed&lt;KIn&gt;, Change&lt;VAgg&gt;&gt;" ,
+   "classe"  : "(2) ContextualProcessor<KIn, VIn, Windowed<KIn>, Change<VAgg>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor" }, 
 ]
@@ -5107,7 +5107,7 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) GlobalKTable&lt;K, V&gt;" ,
+   "classe"  : "(2) GlobalKTable<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.GlobalKTableImpl" }, 
 ]
@@ -5125,19 +5125,19 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) Serializer&lt;Short&gt;" ,
+   "classe"  : "(2) Serializer<Short>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ShortSerializer" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) ProcessorSupplier&lt;K, V, Void, Void&gt;" ,
+   "classe"  : "(2) ProcessorSupplier<K, V, Void, Void>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamPrint" }, 
 ]
 }},
 {"ligne" : {
-   "classe"  : "(2) MeteredWindowStore&lt;K, ValueAndTimestamp&lt;V&gt;&gt;TimestampedWindowStore&lt;K, V&gt;" ,
+   "classe"  : "(2) MeteredWindowStore<K, ValueAndTimestamp<V>>TimestampedWindowStore<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore" }, 
 ]

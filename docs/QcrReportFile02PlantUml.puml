@@ -1,5 +1,4 @@
 @startuml
-!pragma layout smetana
 package org {
 package org.apache {
 package org.apache.kafka {
