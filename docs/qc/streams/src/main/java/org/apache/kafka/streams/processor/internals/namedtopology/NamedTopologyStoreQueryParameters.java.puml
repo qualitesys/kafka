@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StoreQueryParameters<T> <|-- org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters
+StoreQueryParameters_T_ <|-- org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters
 class org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters {
 +  NamedTopologyStoreQueryParameters(String;String;QueryableStoreType<T>;Integer;boolean)
 +  withPartition(Integer)

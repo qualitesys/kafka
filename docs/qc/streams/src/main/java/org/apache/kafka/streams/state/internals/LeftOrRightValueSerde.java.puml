@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappingNullableSerde<LeftOrRightValue<V1,V2>,Void,Object> <|-- org.apache.kafka.streams.state.internals.LeftOrRightValueSerde
+WrappingNullableSerde_LeftOrRightValue_V1,V2_,Void,Object_ <|-- org.apache.kafka.streams.state.internals.LeftOrRightValueSerde
 class org.apache.kafka.streams.state.internals.LeftOrRightValueSerde {
 +  LeftOrRightValueSerde(Serde<V1>;Serde<V2>)
 } 

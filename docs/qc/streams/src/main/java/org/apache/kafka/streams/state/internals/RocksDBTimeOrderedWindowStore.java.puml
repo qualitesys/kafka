@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore<RocksDBTimeOrderedWindowSegmentedBytesStore,Object,Object>WindowStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore
+WrappedStateStore_RocksDBTimeOrderedWindowSegmentedBytesStore,Object,Object_WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore
 class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore {
 +  RocksDBTimeOrderedWindowStore(RocksDBTimeOrderedWindowSegmentedBytesStore;boolean;long)
 +  init(StateStoreContext;StateStore)

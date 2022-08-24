@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReadOnlyKeyValueStore<K,V> <|-- org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore
+ReadOnlyKeyValueStore_K,V_ <|-- org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore
 class org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore {
 +  CompositeReadOnlyKeyValueStore(StateStoreProvider;QueryableStoreType<ReadOnlyKeyValueStore<K,V>>;String)
 +  get(K)

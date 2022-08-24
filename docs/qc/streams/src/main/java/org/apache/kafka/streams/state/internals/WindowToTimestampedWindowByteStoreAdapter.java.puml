@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter
+WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter
 class org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter {
 +  WindowToTimestampedWindowByteStoreAdapter(WindowStore<Bytes,byte[]>)
 +  put(Bytes;byte[];long)

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation<TableJoined<K,KO>> <|-- org.apache.kafka.streams.kstream.TableJoined
+NamedOperation_TableJoined_K,KO__ <|-- org.apache.kafka.streams.kstream.TableJoined
 class org.apache.kafka.streams.kstream.TableJoined {
 +  TableJoined(StreamPartitioner<K,Void>;StreamPartitioner<KO,Void>;String)
 +  TableJoined(TableJoined<K,KO>)

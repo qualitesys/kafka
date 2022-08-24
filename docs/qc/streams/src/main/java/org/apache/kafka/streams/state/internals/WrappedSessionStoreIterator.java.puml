@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueIterator<Windowed<Bytes>,byte[]> <|-- org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator
+KeyValueIterator_Windowed_Bytes_,byte[]_ <|-- org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator
 class org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator {
 +  WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>)
 +  WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>;Function<Bytes,Windowed<Bytes>>)

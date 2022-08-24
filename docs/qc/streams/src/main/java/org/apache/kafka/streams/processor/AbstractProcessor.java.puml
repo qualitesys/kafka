@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Processor<K,V> <|-- org.apache.kafka.streams.processor.AbstractProcessor
+Processor_K,V_ <|-- org.apache.kafka.streams.processor.AbstractProcessor
 class org.apache.kafka.streams.processor.AbstractProcessor {
 +  AbstractProcessor()
 +  init(ProcessorContext)

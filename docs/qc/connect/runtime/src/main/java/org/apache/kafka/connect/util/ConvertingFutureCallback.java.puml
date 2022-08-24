@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Callback<U> <|-- org.apache.kafka.connect.util.ConvertingFutureCallback
+Callback_U_ <|-- org.apache.kafka.connect.util.ConvertingFutureCallback
 class org.apache.kafka.connect.util.ConvertingFutureCallback {
 +  ConvertingFutureCallback()
 +  ConvertingFutureCallback(Callback<T>)

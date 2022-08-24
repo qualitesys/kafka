@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<DescribeLogDirsOptions> <|-- org.apache.kafka.clients.admin.DescribeLogDirsOptions
+AbstractOptions_DescribeLogDirsOptions_ <|-- org.apache.kafka.clients.admin.DescribeLogDirsOptions
 class org.apache.kafka.clients.admin.DescribeLogDirsOptions {
 } 
 @enduml

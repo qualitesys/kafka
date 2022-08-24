@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BufferConfigInternal<Suppressed.StrictBufferConfig>Suppressed.StrictBufferConfig <|-- org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl
+BufferConfigInternal_Suppressed.StrictBufferConfig_Suppressed.StrictBufferConfig <|-- org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl
 class org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl {
 +  StrictBufferConfigImpl(long;long;BufferFullStrategy;Map<String,String>)
 +  StrictBufferConfigImpl()

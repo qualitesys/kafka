@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RaftClient<T> <|-- org.apache.kafka.raft.KafkaRaftClient
+RaftClient_T_ <|-- org.apache.kafka.raft.KafkaRaftClient
 class org.apache.kafka.raft.KafkaRaftClient {
 +  KafkaRaftClient(RecordSerde<T>;NetworkChannel;ReplicatedLog;QuorumStateStore;Time;Metrics;ExpirationService;LogContext;String;OptionalInt;RaftConfig)
 +  KafkaRaftClient(RecordSerde<T>;NetworkChannel;RaftMessageQueue;ReplicatedLog;QuorumStateStore;MemoryPool;Time;Metrics;ExpirationService;int;String;OptionalInt;LogContext;Random;RaftConfig)

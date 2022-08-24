@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectRecord<SinkRecord> <|-- org.apache.kafka.connect.sink.SinkRecord
+ConnectRecord_SinkRecord_ <|-- org.apache.kafka.connect.sink.SinkRecord
 class org.apache.kafka.connect.sink.SinkRecord {
 +  SinkRecord(String;int;Schema;Object;Schema;Object;long)
 +  SinkRecord(String;int;Schema;Object;Schema;Object;long;Long;TimestampType)

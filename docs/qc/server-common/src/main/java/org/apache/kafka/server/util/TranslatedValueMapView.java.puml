@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractMap<K,V> <|-- org.apache.kafka.server.util.TranslatedValueMapView
+AbstractMap_K,V_ <|-- org.apache.kafka.server.util.TranslatedValueMapView
 class org.apache.kafka.server.util.TranslatedValueMapView {
 +  TranslatedValueMapView(Map<K,B>;Function<B,V>)
 +  containsKey(Object)

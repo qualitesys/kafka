@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer<ByteBuffer> <|-- org.apache.kafka.common.serialization.ByteBufferSerializer
+Serializer_ByteBuffer_ <|-- org.apache.kafka.common.serialization.ByteBufferSerializer
 class org.apache.kafka.common.serialization.ByteBufferSerializer {
 +  serialize(String;ByteBuffer)
 } 

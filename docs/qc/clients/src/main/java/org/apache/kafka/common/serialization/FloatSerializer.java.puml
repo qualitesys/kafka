@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer<Float> <|-- org.apache.kafka.common.serialization.FloatSerializer
+Serializer_Float_ <|-- org.apache.kafka.common.serialization.FloatSerializer
 class org.apache.kafka.common.serialization.FloatSerializer {
 +  serialize(String;Float)
 } 

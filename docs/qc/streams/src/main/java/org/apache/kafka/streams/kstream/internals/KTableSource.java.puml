@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorSupplier<KIn,VIn,KIn,Change<VIn>> <|-- org.apache.kafka.streams.kstream.internals.KTableSource
+ProcessorSupplier_KIn,VIn,KIn,Change_VIn__ <|-- org.apache.kafka.streams.kstream.internals.KTableSource
 class org.apache.kafka.streams.kstream.internals.KTableSource {
 +  KTableSource(String;String)
 +  queryableName()

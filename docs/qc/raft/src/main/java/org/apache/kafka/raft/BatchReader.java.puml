@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterator<Batch<T>> <|-- org.apache.kafka.raft.BatchReader
+Iterator_Batch_T__ <|-- org.apache.kafka.raft.BatchReader
 class org.apache.kafka.raft.BatchReader {
 +  baseOffset()
 +  lastOffset()

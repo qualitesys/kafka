@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractSegments<TimestampedSegment> <|-- org.apache.kafka.streams.state.internals.TimestampedSegments
+AbstractSegments_TimestampedSegment_ <|-- org.apache.kafka.streams.state.internals.TimestampedSegments
 class org.apache.kafka.streams.state.internals.TimestampedSegments {
 +  TimestampedSegments(String;String;long;long)
 +  getOrCreateSegment(long;ProcessorContext)

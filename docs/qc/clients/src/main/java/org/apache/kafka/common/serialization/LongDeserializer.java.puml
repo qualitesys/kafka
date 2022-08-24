@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer<Long> <|-- org.apache.kafka.common.serialization.LongDeserializer
+Deserializer_Long_ <|-- org.apache.kafka.common.serialization.LongDeserializer
 class org.apache.kafka.common.serialization.LongDeserializer {
 +  deserialize(String;byte[])
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RocksDBStoreComparable<KeyValueSegment> <|-- org.apache.kafka.streams.state.internals.KeyValueSegment
+RocksDBStoreComparable_KeyValueSegment_ <|-- org.apache.kafka.streams.state.internals.KeyValueSegment
 class org.apache.kafka.streams.state.internals.KeyValueSegment {
 +  KeyValueSegment(String;String;long;RocksDBMetricsRecorder)
 +  destroy()

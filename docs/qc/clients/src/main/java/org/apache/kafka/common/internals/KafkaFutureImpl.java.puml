@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaFuture<T> <|-- org.apache.kafka.common.internals.KafkaFutureImpl
+KafkaFuture_T_ <|-- org.apache.kafka.common.internals.KafkaFutureImpl
 class org.apache.kafka.common.internals.KafkaFutureImpl {
 +  KafkaFutureImpl()
 +  KafkaFutureImpl(boolean;KafkaCompletableFuture<T>)

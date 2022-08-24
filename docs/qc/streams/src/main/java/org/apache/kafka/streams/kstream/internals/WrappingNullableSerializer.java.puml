@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer<Outer> <|-- org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer
+Serializer_Outer_ <|-- org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer
 class org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer {
 +  setIfUnset(SerdeGetter)
 } 

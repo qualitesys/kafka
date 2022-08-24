@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueIterator<Long,V> <|-- org.apache.kafka.streams.state.WindowStoreIterator
+KeyValueIterator_Long,V_ <|-- org.apache.kafka.streams.state.WindowStoreIterator
 class org.apache.kafka.streams.state.WindowStoreIterator {
 +  close()
 } 

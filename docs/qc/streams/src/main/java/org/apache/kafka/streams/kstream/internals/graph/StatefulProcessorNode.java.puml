@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorGraphNode<K,V> <|-- org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode
+ProcessorGraphNode_K,V_ <|-- org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode
 class org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode {
 +  StatefulProcessorNode(ProcessorParameters<K,V,?,?>;Set<StoreBuilder<?>>;Set<KTableValueGetterSupplier<?,?>>)
 +  StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;String[])

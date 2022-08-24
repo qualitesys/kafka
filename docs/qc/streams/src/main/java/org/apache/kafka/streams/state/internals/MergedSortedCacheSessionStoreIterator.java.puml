@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractMergedSortedCacheStoreIterator<Windowed<Bytes>,Windowed<Bytes>,byte[],byte[]> <|-- org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator
+AbstractMergedSortedCacheStoreIterator_Windowed_Bytes_,Windowed_Bytes_,byte[],byte[]_ <|-- org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator
 class org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator {
 +  MergedSortedCacheSessionStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;SegmentedCacheFunction;boolean)
 +  deserializeStorePair(KeyValue<Windowed<Bytes>,byte[]>)

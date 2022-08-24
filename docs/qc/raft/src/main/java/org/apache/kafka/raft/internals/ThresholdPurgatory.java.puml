@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-FuturePurgatory<T> <|-- org.apache.kafka.raft.internals.ThresholdPurgatory
+FuturePurgatory_T_ <|-- org.apache.kafka.raft.internals.ThresholdPurgatory
 class org.apache.kafka.raft.internals.ThresholdPurgatory {
 +  ThresholdPurgatory(ExpirationService)
 +  await(T;long)

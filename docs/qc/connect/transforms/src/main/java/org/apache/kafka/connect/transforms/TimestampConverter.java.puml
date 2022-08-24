@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation<R> <|-- org.apache.kafka.connect.transforms.TimestampConverter
+Transformation_R_ <|-- org.apache.kafka.connect.transforms.TimestampConverter
 class org.apache.kafka.connect.transforms.TimestampConverter {
 +  configure(Map<String,?>)
 +  apply(R)

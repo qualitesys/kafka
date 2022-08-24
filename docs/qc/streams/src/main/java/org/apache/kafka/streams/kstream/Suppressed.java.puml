@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation<Suppressed<K>> <|-- org.apache.kafka.streams.kstream.Suppressed
+NamedOperation_Suppressed_K__ <|-- org.apache.kafka.streams.kstream.Suppressed
 class org.apache.kafka.streams.kstream.Suppressed {
 +  untilWindowCloses(StrictBufferConfig)
 +  withName(String)

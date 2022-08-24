@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableKTableAbstractJoin<K,V1,V2,VOut> <|-- org.apache.kafka.streams.kstream.internals.KTableKTableRightJoin
+KTableKTableAbstractJoin_K,V1,V2,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KTableKTableRightJoin
 class org.apache.kafka.streams.kstream.internals.KTableKTableRightJoin {
 +  KTableKTableRightJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>)
 +  get()

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Callable<V> <|-- org.apache.kafka.connect.runtime.errors.Operation
+Callable_V_ <|-- org.apache.kafka.connect.runtime.errors.Operation
 class org.apache.kafka.connect.runtime.errors.Operation {
 } 
 @enduml

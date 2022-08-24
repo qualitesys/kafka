@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SnapshotWriter<T> <|-- org.apache.kafka.snapshot.RecordsSnapshotWriter
+SnapshotWriter_T_ <|-- org.apache.kafka.snapshot.RecordsSnapshotWriter
 class org.apache.kafka.snapshot.RecordsSnapshotWriter {
 +  RecordsSnapshotWriter(RawSnapshotWriter;int;MemoryPool;Time;long;CompressionType;RecordSerde<T>)
 +  initializeSnapshotWithHeader()

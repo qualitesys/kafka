@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ImplicitLinkedHashCollection<E> <|-- org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollection
+ImplicitLinkedHashCollection_E_ <|-- org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollection
 class org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollection {
 +  ImplicitLinkedHashMultiCollection()
 +  ImplicitLinkedHashMultiCollection(int)

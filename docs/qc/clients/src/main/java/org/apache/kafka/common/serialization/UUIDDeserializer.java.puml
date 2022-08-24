@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer<UUID> <|-- org.apache.kafka.common.serialization.UUIDDeserializer
+Deserializer_UUID_ <|-- org.apache.kafka.common.serialization.UUIDDeserializer
 class org.apache.kafka.common.serialization.UUIDDeserializer {
 +  configure(Map<String,?>;boolean)
 +  deserialize(String;byte[])

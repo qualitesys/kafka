@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer<Short> <|-- org.apache.kafka.common.serialization.ShortSerializer
+Serializer_Short_ <|-- org.apache.kafka.common.serialization.ShortSerializer
 class org.apache.kafka.common.serialization.ShortSerializer {
 +  serialize(String;Short)
 } 

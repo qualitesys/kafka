@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Cache<K,V> <|-- org.apache.kafka.common.cache.LRUCache
+Cache_K,V_ <|-- org.apache.kafka.common.cache.LRUCache
 class org.apache.kafka.common.cache.LRUCache {
 +  LRUCache(int)
 +  get(K)

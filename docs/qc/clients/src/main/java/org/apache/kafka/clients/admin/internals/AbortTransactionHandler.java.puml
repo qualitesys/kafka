@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched<TopicPartition,Void> <|-- org.apache.kafka.clients.admin.internals.AbortTransactionHandler
+AdminApiHandler.Batched_TopicPartition,Void_ <|-- org.apache.kafka.clients.admin.internals.AbortTransactionHandler
 class org.apache.kafka.clients.admin.internals.AbortTransactionHandler {
 +  AbortTransactionHandler(AbortTransactionSpec;LogContext)
 +  newFuture(Set<TopicPartition>)

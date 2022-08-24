@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Query<KeyValueIterator<Windowed<K>,V>> <|-- org.apache.kafka.streams.query.WindowRangeQuery
+Query_KeyValueIterator_Windowed_K_,V__ <|-- org.apache.kafka.streams.query.WindowRangeQuery
 class org.apache.kafka.streams.query.WindowRangeQuery {
 +  WindowRangeQuery(Optional<K>;Optional<Instant>;Optional<Instant>)
 +  getKey()

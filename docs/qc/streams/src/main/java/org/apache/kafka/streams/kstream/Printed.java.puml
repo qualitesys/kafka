@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation<Printed<K,V>> <|-- org.apache.kafka.streams.kstream.Printed
+NamedOperation_Printed_K,V__ <|-- org.apache.kafka.streams.kstream.Printed
 class org.apache.kafka.streams.kstream.Printed {
 +  Printed(OutputStream)
 +  Printed(Printed<K,V>)

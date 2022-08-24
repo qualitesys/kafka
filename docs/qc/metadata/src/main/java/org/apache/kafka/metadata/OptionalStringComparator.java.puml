@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparator<Optional<String>> <|-- org.apache.kafka.metadata.OptionalStringComparator
+Comparator_Optional_String__ <|-- org.apache.kafka.metadata.OptionalStringComparator
 class org.apache.kafka.metadata.OptionalStringComparator {
 +  compare(Optional<String>;Optional<String>)
 } 

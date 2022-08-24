@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SessionStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.InMemorySessionStore
+SessionStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.InMemorySessionStore
 class org.apache.kafka.streams.state.internals.InMemorySessionStore {
 +  InMemorySessionStore(String;long;String)
 +  name()

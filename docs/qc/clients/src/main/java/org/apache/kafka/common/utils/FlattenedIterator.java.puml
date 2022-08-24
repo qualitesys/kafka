@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractIterator<I> <|-- org.apache.kafka.common.utils.FlattenedIterator
+AbstractIterator_I_ <|-- org.apache.kafka.common.utils.FlattenedIterator
 class org.apache.kafka.common.utils.FlattenedIterator {
 +  FlattenedIterator(Iterator<O>;Function<O,Iterator<I>>)
 +  makeNext()

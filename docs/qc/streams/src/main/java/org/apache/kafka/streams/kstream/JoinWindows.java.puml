@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Windows<Window> <|-- org.apache.kafka.streams.kstream.JoinWindows
+Windows_Window_ <|-- org.apache.kafka.streams.kstream.JoinWindows
 class org.apache.kafka.streams.kstream.JoinWindows {
 +  JoinWindows(JoinWindows)
 +  JoinWindows(long;long;long;boolean)

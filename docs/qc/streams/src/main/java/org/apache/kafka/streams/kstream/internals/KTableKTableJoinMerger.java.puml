@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier<K,V,K,V> <|-- org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger
+KTableProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger
 class org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger {
 +  KTableKTableJoinMerger(KTableProcessorSupplier<K,?,K,V>;KTableProcessorSupplier<K,?,K,V>;String)
 +  getQueryableName()

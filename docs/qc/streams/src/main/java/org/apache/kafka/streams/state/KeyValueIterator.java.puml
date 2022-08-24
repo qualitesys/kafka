@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterator<KeyValue<K,V>> <|-- org.apache.kafka.streams.state.KeyValueIterator
+Iterator_KeyValue_K,V__ <|-- org.apache.kafka.streams.state.KeyValueIterator
 class org.apache.kafka.streams.state.KeyValueIterator {
 +  close()
 +  peekNextKey()

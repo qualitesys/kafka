@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReadOnlyWindowStore<K,V> <|-- org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade
+ReadOnlyWindowStore_K,V_ <|-- org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade
 class org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade {
 +  ReadOnlyWindowStoreFacade(TimestampedWindowStore<K,V>)
 +  fetch(K;long)

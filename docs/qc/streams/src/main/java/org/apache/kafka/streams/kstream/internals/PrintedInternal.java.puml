@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Printed<K,V> <|-- org.apache.kafka.streams.kstream.internals.PrintedInternal
+Printed_K,V_ <|-- org.apache.kafka.streams.kstream.internals.PrintedInternal
 class org.apache.kafka.streams.kstream.internals.PrintedInternal {
 +  PrintedInternal(Printed<K,V>)
 +  build(String)

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStream<K,V>TimeWindowedCogroupedKStream<K,V> <|-- org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl
+AbstractStream_K,V_TimeWindowedCogroupedKStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl
 class org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl {
 +  TimeWindowedCogroupedKStreamImpl(Windows<W>;InternalStreamsBuilder;Set<String>;String;CogroupedStreamAggregateBuilder<K,V>;GraphNode;Map<KGroupedStreamImpl<K,?>,Aggregator<?superK,?superObject,V>>)
 +  aggregate(Initializer<V>)

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<ExpireDelegationTokenOptions> <|-- org.apache.kafka.clients.admin.ExpireDelegationTokenOptions
+AbstractOptions_ExpireDelegationTokenOptions_ <|-- org.apache.kafka.clients.admin.ExpireDelegationTokenOptions
 class org.apache.kafka.clients.admin.ExpireDelegationTokenOptions {
 +  expiryTimePeriodMs(long)
 +  expiryTimePeriodMs()

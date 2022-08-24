@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<FenceProducersOptions> <|-- org.apache.kafka.clients.admin.FenceProducersOptions
+AbstractOptions_FenceProducersOptions_ <|-- org.apache.kafka.clients.admin.FenceProducersOptions
 class org.apache.kafka.clients.admin.FenceProducersOptions {
 +  toString()
 } 

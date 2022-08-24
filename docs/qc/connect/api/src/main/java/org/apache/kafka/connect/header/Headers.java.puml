@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterable<Header> <|-- org.apache.kafka.connect.header.Headers
+Iterable_Header_ <|-- org.apache.kafka.connect.header.Headers
 class org.apache.kafka.connect.header.Headers {
 +  size()
 +  isEmpty()

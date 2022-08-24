@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterable<Header> <|-- org.apache.kafka.common.header.Headers
+Iterable_Header_ <|-- org.apache.kafka.common.header.Headers
 class org.apache.kafka.common.header.Headers {
 +  add(Header)
 +  add(String;byte[])

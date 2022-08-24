@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched<AllBrokersStrategy.BrokerKey,Collection<TransactionListing>> <|-- org.apache.kafka.clients.admin.internals.ListTransactionsHandler
+AdminApiHandler.Batched_AllBrokersStrategy.BrokerKey,Collection_TransactionListing__ <|-- org.apache.kafka.clients.admin.internals.ListTransactionsHandler
 class org.apache.kafka.clients.admin.internals.ListTransactionsHandler {
 +  ListTransactionsHandler(ListTransactionsOptions;LogContext)
 +  newFuture()

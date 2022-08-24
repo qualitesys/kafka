@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TableJoined<K,KO> <|-- org.apache.kafka.streams.kstream.internals.TableJoinedInternal
+TableJoined_K,KO_ <|-- org.apache.kafka.streams.kstream.internals.TableJoinedInternal
 class org.apache.kafka.streams.kstream.internals.TableJoinedInternal {
 +  TableJoinedInternal(TableJoined<K,KO>)
 +  partitioner()

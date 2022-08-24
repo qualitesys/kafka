@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation<Grouped<K,V>> <|-- org.apache.kafka.streams.kstream.Grouped
+NamedOperation_Grouped_K,V__ <|-- org.apache.kafka.streams.kstream.Grouped
 class org.apache.kafka.streams.kstream.Grouped {
 +  Grouped(String;Serde<K>;Serde<V>)
 +  Grouped(Grouped<K,V>)

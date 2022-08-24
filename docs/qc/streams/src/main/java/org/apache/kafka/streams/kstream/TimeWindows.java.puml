@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Windows<TimeWindow> <|-- org.apache.kafka.streams.kstream.TimeWindows
+Windows_TimeWindow_ <|-- org.apache.kafka.streams.kstream.TimeWindows
 class org.apache.kafka.streams.kstream.TimeWindows {
 +  TimeWindows(long;long;long;boolean)
 +  ofSizeWithNoGrace(Duration)

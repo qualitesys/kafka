@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterator<List<ApiMessageAndVersion>> <|-- org.apache.kafka.metadata.authorizer.StandardAclRecordIterator
+Iterator_List_ApiMessageAndVersion__ <|-- org.apache.kafka.metadata.authorizer.StandardAclRecordIterator
 class org.apache.kafka.metadata.authorizer.StandardAclRecordIterator {
 +  StandardAclRecordIterator(Iterator<StandardAclWithId>)
 +  StandardAclRecordIterator(Iterator<StandardAclWithId>;int)

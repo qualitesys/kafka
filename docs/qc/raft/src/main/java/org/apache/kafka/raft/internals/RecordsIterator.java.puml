@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterator<Batch<T>> <|-- org.apache.kafka.raft.internals.RecordsIterator
+Iterator_Batch_T__ <|-- org.apache.kafka.raft.internals.RecordsIterator
 class org.apache.kafka.raft.internals.RecordsIterator {
 +  RecordsIterator(Records;RecordSerde<T>;BufferSupplier;int)
 +  hasNext()

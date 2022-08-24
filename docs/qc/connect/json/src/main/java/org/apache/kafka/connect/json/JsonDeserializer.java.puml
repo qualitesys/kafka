@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer<JsonNode> <|-- org.apache.kafka.connect.json.JsonDeserializer
+Deserializer_JsonNode_ <|-- org.apache.kafka.connect.json.JsonDeserializer
 class org.apache.kafka.connect.json.JsonDeserializer {
 +  JsonDeserializer()
 +  JsonDeserializer(Set<DeserializationFeature>;JsonNodeFactory)

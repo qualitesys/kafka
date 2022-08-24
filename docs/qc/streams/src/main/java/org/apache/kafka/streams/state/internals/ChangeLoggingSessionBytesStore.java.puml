@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore<SessionStore<Bytes,byte[]>,byte[],byte[]>SessionStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore
+WrappedStateStore_SessionStore_Bytes,byte[]_,byte[],byte[]_SessionStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore
 class org.apache.kafka.streams.state.internals.ChangeLoggingSessionBytesStore {
 +  ChangeLoggingSessionBytesStore(SessionStore<Bytes,byte[]>)
 +  init(ProcessorContext;StateStore)

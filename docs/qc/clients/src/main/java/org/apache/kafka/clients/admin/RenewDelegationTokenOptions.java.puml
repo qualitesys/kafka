@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<RenewDelegationTokenOptions> <|-- org.apache.kafka.clients.admin.RenewDelegationTokenOptions
+AbstractOptions_RenewDelegationTokenOptions_ <|-- org.apache.kafka.clients.admin.RenewDelegationTokenOptions
 class org.apache.kafka.clients.admin.RenewDelegationTokenOptions {
 +  renewTimePeriodMs(long)
 +  renewTimePeriodMs()

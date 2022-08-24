@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-FixedKeyProcessorSupplier<K,V,V> <|-- org.apache.kafka.streams.kstream.internals.KStreamFilter
+FixedKeyProcessorSupplier_K,V,V_ <|-- org.apache.kafka.streams.kstream.internals.KStreamFilter
 class org.apache.kafka.streams.kstream.internals.KStreamFilter {
 +  KStreamFilter(Predicate<K,V>;boolean)
 +  get()

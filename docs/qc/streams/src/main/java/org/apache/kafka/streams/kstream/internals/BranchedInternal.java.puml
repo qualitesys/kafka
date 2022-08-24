@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Branched<K,V> <|-- org.apache.kafka.streams.kstream.internals.BranchedInternal
+Branched_K,V_ <|-- org.apache.kafka.streams.kstream.internals.BranchedInternal
 class org.apache.kafka.streams.kstream.internals.BranchedInternal {
 +  BranchedInternal(Branched<K,V>)
 +  BranchedInternal()

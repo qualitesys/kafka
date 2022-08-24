@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorSupplier<KIn,VIn,KIn,VOut> <|-- org.apache.kafka.streams.kstream.internals.KStreamFlatTransformValues
+ProcessorSupplier_KIn,VIn,KIn,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KStreamFlatTransformValues
 class org.apache.kafka.streams.kstream.internals.KStreamFlatTransformValues {
 +  KStreamFlatTransformValues(ValueTransformerWithKeySupplier<KIn,VIn,Iterable<VOut>>)
 +  get()

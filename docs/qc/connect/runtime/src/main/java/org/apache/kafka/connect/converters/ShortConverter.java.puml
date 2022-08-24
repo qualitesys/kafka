@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NumberConverter<Short> <|-- org.apache.kafka.connect.converters.ShortConverter
+NumberConverter_Short_ <|-- org.apache.kafka.connect.converters.ShortConverter
 class org.apache.kafka.connect.converters.ShortConverter {
 +  ShortConverter()
 } 

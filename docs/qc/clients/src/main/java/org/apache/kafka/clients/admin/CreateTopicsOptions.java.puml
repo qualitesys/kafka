@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<CreateTopicsOptions> <|-- org.apache.kafka.clients.admin.CreateTopicsOptions
+AbstractOptions_CreateTopicsOptions_ <|-- org.apache.kafka.clients.admin.CreateTopicsOptions
 class org.apache.kafka.clients.admin.CreateTopicsOptions {
 +  timeoutMs(Integer)
 +  validateOnly(boolean)

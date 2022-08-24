@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<DescribeConsumerGroupsOptions> <|-- org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions
+AbstractOptions_DescribeConsumerGroupsOptions_ <|-- org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions
 class org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions {
 +  includeAuthorizedOperations(boolean)
 +  includeAuthorizedOperations()

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RocksDBTimestampedStoreComparable<TimestampedSegment> <|-- org.apache.kafka.streams.state.internals.TimestampedSegment
+RocksDBTimestampedStoreComparable_TimestampedSegment_ <|-- org.apache.kafka.streams.state.internals.TimestampedSegment
 class org.apache.kafka.streams.state.internals.TimestampedSegment {
 +  TimestampedSegment(String;String;long;RocksDBMetricsRecorder)
 +  destroy()

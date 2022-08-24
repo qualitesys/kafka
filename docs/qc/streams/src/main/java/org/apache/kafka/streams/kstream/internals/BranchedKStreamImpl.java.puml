@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BranchedKStream<K,V> <|-- org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl
+BranchedKStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl
 class org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl {
 +  BranchedKStreamImpl(KStreamImpl<K,V>;boolean;NamedInternal)
 +  branch(Predicate<?superK,?superV>)

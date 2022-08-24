@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer<List<Inner>> <|-- org.apache.kafka.common.serialization.ListSerializer
+Serializer_List_Inner__ <|-- org.apache.kafka.common.serialization.ListSerializer
 class org.apache.kafka.common.serialization.ListSerializer {
 +  ListSerializer()
 +  ListSerializer(Serializer<Inner>)

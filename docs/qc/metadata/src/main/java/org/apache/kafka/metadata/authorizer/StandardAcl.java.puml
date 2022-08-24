@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparable<StandardAcl> <|-- org.apache.kafka.metadata.authorizer.StandardAcl
+Comparable_StandardAcl_ <|-- org.apache.kafka.metadata.authorizer.StandardAcl
 class org.apache.kafka.metadata.authorizer.StandardAcl {
 +  fromRecord(AccessControlEntryRecord)
 +  fromAclBinding(AclBinding)

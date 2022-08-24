@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer<Float> <|-- org.apache.kafka.common.serialization.FloatDeserializer
+Deserializer_Float_ <|-- org.apache.kafka.common.serialization.FloatDeserializer
 class org.apache.kafka.common.serialization.FloatDeserializer {
 +  deserialize(String;byte[])
 } 

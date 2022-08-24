@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceGraphNode<K,V> <|-- org.apache.kafka.streams.kstream.internals.graph.TableSourceNode
+SourceGraphNode_K,V_ <|-- org.apache.kafka.streams.kstream.internals.graph.TableSourceNode
 class org.apache.kafka.streams.kstream.internals.graph.TableSourceNode {
 +  TableSourceNode(String;String;String;ConsumedInternal<K,V>;MaterializedInternal<K,V,?>;ProcessorParameters<K,V,?,?>;boolean)
 +  reuseSourceTopicForChangeLog(boolean)

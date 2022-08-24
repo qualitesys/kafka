@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MetricValueProvider<Double> <|-- org.apache.kafka.common.metrics.Measurable
+MetricValueProvider_Double_ <|-- org.apache.kafka.common.metrics.Measurable
 class org.apache.kafka.common.metrics.Measurable {
 +  measure(MetricConfig;long)
 } 

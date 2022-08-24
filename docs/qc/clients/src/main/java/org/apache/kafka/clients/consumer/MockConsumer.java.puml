@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Consumer<K,V> <|-- org.apache.kafka.clients.consumer.MockConsumer
+Consumer_K,V_ <|-- org.apache.kafka.clients.consumer.MockConsumer
 class org.apache.kafka.clients.consumer.MockConsumer {
 +  MockConsumer(OffsetResetStrategy)
 +  assignment()

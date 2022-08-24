@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier<K,V,K,V> <|-- org.apache.kafka.streams.kstream.internals.KTableReduce
+KTableProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.KTableReduce
 class org.apache.kafka.streams.kstream.internals.KTableReduce {
 +  KTableReduce(String;Reducer<V>;Reducer<V>)
 +  enableSendingOldValues(boolean)

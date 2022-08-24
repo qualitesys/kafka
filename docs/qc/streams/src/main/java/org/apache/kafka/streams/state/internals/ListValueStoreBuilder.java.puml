@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStoreBuilder<K,V,KeyValueStore<K,V>> <|-- org.apache.kafka.streams.state.internals.ListValueStoreBuilder
+AbstractStoreBuilder_K,V,KeyValueStore_K,V__ <|-- org.apache.kafka.streams.state.internals.ListValueStoreBuilder
 class org.apache.kafka.streams.state.internals.ListValueStoreBuilder {
 +  ListValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time)
 +  build()

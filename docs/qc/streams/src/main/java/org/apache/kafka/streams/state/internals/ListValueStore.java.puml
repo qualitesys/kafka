@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore<KeyValueStore<Bytes,byte[]>,Bytes,byte[]>KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.ListValueStore
+WrappedStateStore_KeyValueStore_Bytes,byte[]_,Bytes,byte[]_KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.ListValueStore
 class org.apache.kafka.streams.state.internals.ListValueStore {
 +  ListValueStore(KeyValueStore<Bytes,byte[]>)
 +  put(Bytes;byte[])

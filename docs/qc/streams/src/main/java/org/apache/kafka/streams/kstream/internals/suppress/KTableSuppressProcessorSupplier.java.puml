@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier<K,V,K,V> <|-- org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier
+KTableProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier
 class org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier {
 +  KTableSuppressProcessorSupplier(SuppressedInternal<K>;String;KTableImpl<K,?,V>)
 +  get()

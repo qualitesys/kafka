@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BaseHashTable<T>Revertable <|-- org.apache.kafka.timeline.SnapshottableHashTable
+BaseHashTable_T_Revertable <|-- org.apache.kafka.timeline.SnapshottableHashTable
 class org.apache.kafka.timeline.SnapshottableHashTable {
 +  SnapshottableHashTable(SnapshotRegistry;int)
 +  snapshottableSize(long)

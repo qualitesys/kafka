@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation<R> <|-- org.apache.kafka.connect.transforms.RegexRouter
+Transformation_R_ <|-- org.apache.kafka.connect.transforms.RegexRouter
 class org.apache.kafka.connect.transforms.RegexRouter {
 +  configure(Map<String,?>)
 +  apply(R)

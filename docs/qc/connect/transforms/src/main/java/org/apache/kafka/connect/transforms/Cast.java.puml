@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation<R> <|-- org.apache.kafka.connect.transforms.Cast
+Transformation_R_ <|-- org.apache.kafka.connect.transforms.Cast
 class org.apache.kafka.connect.transforms.Cast {
 +  configure(Map<String,?>)
 +  apply(R)

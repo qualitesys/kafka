@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterator<T> <|-- org.apache.kafka.common.utils.CloseableIterator
+Iterator_T_ <|-- org.apache.kafka.common.utils.CloseableIterator
 class org.apache.kafka.common.utils.CloseableIterator {
 +  close()
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Processor<KIn,VIn,KOut,VOut> <|-- org.apache.kafka.streams.processor.internals.ProcessorAdapter
+Processor_KIn,VIn,KOut,VOut_ <|-- org.apache.kafka.streams.processor.internals.ProcessorAdapter
 class org.apache.kafka.streams.processor.internals.ProcessorAdapter {
 +  ProcessorAdapter(org.apache.kafka.streams.processor.Processor<KIn,VIn>)
 +  init(ProcessorContext<KOut,VOut>)

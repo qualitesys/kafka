@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Predicate<R> <|-- org.apache.kafka.connect.transforms.predicates.TopicNameMatches
+Predicate_R_ <|-- org.apache.kafka.connect.transforms.predicates.TopicNameMatches
 class org.apache.kafka.connect.transforms.predicates.TopicNameMatches {
 +  config()
 +  test(R)

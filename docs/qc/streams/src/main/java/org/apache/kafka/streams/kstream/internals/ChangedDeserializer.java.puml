@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer<Change<T>> <|-- org.apache.kafka.streams.kstream.internals.ChangedDeserializer
+Deserializer_Change_T__ <|-- org.apache.kafka.streams.kstream.internals.ChangedDeserializer
 class org.apache.kafka.streams.kstream.internals.ChangedDeserializer {
 +  ChangedDeserializer(Deserializer<T>)
 +  inner()

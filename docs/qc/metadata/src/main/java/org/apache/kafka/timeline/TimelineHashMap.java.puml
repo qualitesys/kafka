@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SnapshottableHashTable<TimelineHashMap.TimelineHashMapEntry<K,V>>Map<K,V> <|-- org.apache.kafka.timeline.TimelineHashMap
+SnapshottableHashTable_TimelineHashMap.TimelineHashMapEntry_K,V__Map_K,V_ <|-- org.apache.kafka.timeline.TimelineHashMap
 class org.apache.kafka.timeline.TimelineHashMap {
 +  TimelineHashMap(SnapshotRegistry;int)
 +  size()

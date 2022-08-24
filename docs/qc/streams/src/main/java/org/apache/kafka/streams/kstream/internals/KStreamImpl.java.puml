@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStream<K,V>KStream<K,V> <|-- org.apache.kafka.streams.kstream.internals.KStreamImpl
+AbstractStream_K,V_KStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.KStreamImpl
 class org.apache.kafka.streams.kstream.internals.KStreamImpl {
 +  KStreamImpl(String;Serde<K>;Serde<V>;Set<String>;boolean;GraphNode;InternalStreamsBuilder)
 +  filter(Predicate<?superK,?superV>)

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReadOnlyKeyValueStore<K,V> <|-- org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade
+ReadOnlyKeyValueStore_K,V_ <|-- org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade
 class org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade {
 +  ReadOnlyKeyValueStoreFacade(TimestampedKeyValueStore<K,V>)
 +  get(K)

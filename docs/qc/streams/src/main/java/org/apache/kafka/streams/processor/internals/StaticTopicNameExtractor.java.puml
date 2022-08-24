@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TopicNameExtractor<K,V> <|-- org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor
+TopicNameExtractor_K,V_ <|-- org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor
 class org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor {
 +  StaticTopicNameExtractor(String)
 +  extract(K;V;RecordContext)

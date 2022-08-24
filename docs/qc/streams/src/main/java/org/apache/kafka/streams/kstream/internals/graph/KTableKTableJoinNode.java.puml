@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BaseJoinProcessorNode<K,Change<V1>,Change<V2>,Change<VR>> <|-- org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode
+BaseJoinProcessorNode_K,Change_V1_,Change_V2_,Change_VR__ <|-- org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode
 class org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode {
 +  KTableKTableJoinNode(String;ProcessorParameters<K,Change<V1>,?,?>;ProcessorParameters<K,Change<V2>,?,?>;ProcessorParameters<K,Change<VR>,?,?>;String;String;Serde<K>;Serde<VR>;String[];String[];StoreBuilder<TimestampedKeyValueStore<K,VR>>)
 +  keySerde()

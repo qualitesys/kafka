@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer<Void> <|-- org.apache.kafka.common.serialization.VoidSerializer
+Serializer_Void_ <|-- org.apache.kafka.common.serialization.VoidSerializer
 class org.apache.kafka.common.serialization.VoidSerializer {
 +  serialize(String;Void)
 } 

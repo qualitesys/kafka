@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serdes.WrapperSerde<Windowed<T>> <|-- org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde
+Serdes.WrapperSerde_Windowed_T__ <|-- org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde
 class org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde {
 +  FullTimeWindowedSerde(Serde<T>;long)
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<CreateAclsOptions> <|-- org.apache.kafka.clients.admin.CreateAclsOptions
+AbstractOptions_CreateAclsOptions_ <|-- org.apache.kafka.clients.admin.CreateAclsOptions
 class org.apache.kafka.clients.admin.CreateAclsOptions {
 +  timeoutMs(Integer)
 } 

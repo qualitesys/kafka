@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BatchReader<T> <|-- org.apache.kafka.raft.internals.MemoryBatchReader
+BatchReader_T_ <|-- org.apache.kafka.raft.internals.MemoryBatchReader
 class org.apache.kafka.raft.internals.MemoryBatchReader {
 +  MemoryBatchReader(long;long;Iterator<Batch<T>>;CloseListener<BatchReader<T>>)
 +  hasNext()

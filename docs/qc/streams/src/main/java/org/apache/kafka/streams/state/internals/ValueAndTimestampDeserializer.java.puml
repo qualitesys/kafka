@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappingNullableDeserializer<ValueAndTimestamp<V>,Void,V> <|-- org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer
+WrappingNullableDeserializer_ValueAndTimestamp_V_,Void,V_ <|-- org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer
 class org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer {
 +  ValueAndTimestampDeserializer(Deserializer<V>)
 +  configure(Map<String,?>;boolean)

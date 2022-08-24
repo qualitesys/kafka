@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractDualSchemaRocksDBSegmentedBytesStore<KeyValueSegment> <|-- org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore
+AbstractDualSchemaRocksDBSegmentedBytesStore_KeyValueSegment_ <|-- org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore
 class org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore {
 +  AbstractRocksDBTimeOrderedSegmentedBytesStore(String;String;long;long;KeySchema;Optional<KeySchema>)
 +  fetch(Bytes;long;long)

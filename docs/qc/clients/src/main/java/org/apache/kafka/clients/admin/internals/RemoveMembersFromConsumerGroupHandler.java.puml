@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched<CoordinatorKey,Map<MemberIdentity,Errors>> <|-- org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler
+AdminApiHandler.Batched_CoordinatorKey,Map_MemberIdentity,Errors__ <|-- org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler
 class org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler {
 +  RemoveMembersFromConsumerGroupHandler(String;List<MemberIdentity>;LogContext)
 +  apiName()

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<CreateDelegationTokenOptions> <|-- org.apache.kafka.clients.admin.CreateDelegationTokenOptions
+AbstractOptions_CreateDelegationTokenOptions_ <|-- org.apache.kafka.clients.admin.CreateDelegationTokenOptions
 class org.apache.kafka.clients.admin.CreateDelegationTokenOptions {
 +  renewers(List<KafkaPrincipal>)
 +  renewers()

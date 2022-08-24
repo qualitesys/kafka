@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer<Integer> <|-- org.apache.kafka.common.serialization.IntegerSerializer
+Serializer_Integer_ <|-- org.apache.kafka.common.serialization.IntegerSerializer
 class org.apache.kafka.common.serialization.IntegerSerializer {
 +  serialize(String;Integer)
 } 

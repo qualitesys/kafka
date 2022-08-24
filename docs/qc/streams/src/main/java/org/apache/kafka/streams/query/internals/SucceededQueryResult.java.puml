@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractQueryResult<R>QueryResult<R> <|-- org.apache.kafka.streams.query.internals.SucceededQueryResult
+AbstractQueryResult_R_QueryResult_R_ <|-- org.apache.kafka.streams.query.internals.SucceededQueryResult
 class org.apache.kafka.streams.query.internals.SucceededQueryResult {
 +  SucceededQueryResult(R)
 +  SucceededQueryResult(R;List<String>;Position)

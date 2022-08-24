@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparable<OffsetAndEpoch> <|-- org.apache.kafka.raft.OffsetAndEpoch
+Comparable_OffsetAndEpoch_ <|-- org.apache.kafka.raft.OffsetAndEpoch
 class org.apache.kafka.raft.OffsetAndEpoch {
 +  OffsetAndEpoch(long;int)
 +  equals(Object)

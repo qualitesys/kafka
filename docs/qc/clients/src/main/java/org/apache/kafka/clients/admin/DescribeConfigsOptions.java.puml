@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<DescribeConfigsOptions> <|-- org.apache.kafka.clients.admin.DescribeConfigsOptions
+AbstractOptions_DescribeConfigsOptions_ <|-- org.apache.kafka.clients.admin.DescribeConfigsOptions
 class org.apache.kafka.clients.admin.DescribeConfigsOptions {
 +  timeoutMs(Integer)
 +  includeSynonyms()

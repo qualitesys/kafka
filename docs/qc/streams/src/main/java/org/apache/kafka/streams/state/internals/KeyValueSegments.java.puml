@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractSegments<KeyValueSegment> <|-- org.apache.kafka.streams.state.internals.KeyValueSegments
+AbstractSegments_KeyValueSegment_ <|-- org.apache.kafka.streams.state.internals.KeyValueSegments
 class org.apache.kafka.streams.state.internals.KeyValueSegments {
 +  KeyValueSegments(String;String;long;long)
 +  getOrCreateSegment(long;ProcessorContext)

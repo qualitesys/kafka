@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<ListConsumerGroupOffsetsOptions> <|-- org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions
+AbstractOptions_ListConsumerGroupOffsetsOptions_ <|-- org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions
 class org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions {
 +  topicPartitions(List<TopicPartition>)
 +  requireStable(boolean)

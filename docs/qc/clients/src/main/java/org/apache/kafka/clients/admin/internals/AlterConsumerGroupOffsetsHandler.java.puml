@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched<CoordinatorKey,Map<TopicPartition,Errors>> <|-- org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler
+AdminApiHandler.Batched_CoordinatorKey,Map_TopicPartition,Errors__ <|-- org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler
 class org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler {
 +  AlterConsumerGroupOffsetsHandler(String;Map<TopicPartition,OffsetAndMetadata>;LogContext)
 +  apiName()

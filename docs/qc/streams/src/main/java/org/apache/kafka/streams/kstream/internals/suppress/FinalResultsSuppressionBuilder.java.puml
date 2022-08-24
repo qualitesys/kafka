@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Suppressed<K> <|-- org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder
+Suppressed_K_ <|-- org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder
 class org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder {
 +  FinalResultsSuppressionBuilder(String;Suppressed.StrictBufferConfig)
 +  buildFinalResultsSuppression(Duration)

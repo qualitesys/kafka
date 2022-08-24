@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RemoteLogMetadataTransform<RemotePartitionDeleteMetadata> <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform
+RemoteLogMetadataTransform_RemotePartitionDeleteMetadata_ <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform
 class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform {
 +  toApiMessageAndVersion(RemotePartitionDeleteMetadata)
 +  createTopicIdPartitionEntry(TopicIdPartition)

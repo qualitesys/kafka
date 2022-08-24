@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Stamped<ProcessorNode> <|-- org.apache.kafka.streams.processor.internals.PunctuationSchedule
+Stamped_ProcessorNode_ <|-- org.apache.kafka.streams.processor.internals.PunctuationSchedule
 class org.apache.kafka.streams.processor.internals.PunctuationSchedule {
 +  PunctuationSchedule(ProcessorNode;long;long;Punctuator)
 +  PunctuationSchedule(ProcessorNode;long;long;Punctuator;RepointableCancellable)

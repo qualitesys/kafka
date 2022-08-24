@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStream<K,V>KTable<K,V> <|-- org.apache.kafka.streams.kstream.internals.KTableImpl
+AbstractStream_K,V_KTable_K,V_ <|-- org.apache.kafka.streams.kstream.internals.KTableImpl
 class org.apache.kafka.streams.kstream.internals.KTableImpl {
 +  KTableImpl(String;Serde<K>;Serde<V>;Set<String>;String;org.apache.kafka.streams.processor.ProcessorSupplier<?,?>;GraphNode;InternalStreamsBuilder)
 +  KTableImpl(String;Serde<K>;Serde<V>;Set<String>;String;org.apache.kafka.streams.processor.api.ProcessorSupplier<?,?,?,?>;GraphNode;InternalStreamsBuilder)

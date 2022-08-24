@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GlobalKTable<K,V> <|-- org.apache.kafka.streams.kstream.internals.GlobalKTableImpl
+GlobalKTable_K,V_ <|-- org.apache.kafka.streams.kstream.internals.GlobalKTableImpl
 class org.apache.kafka.streams.kstream.internals.GlobalKTableImpl {
 +  GlobalKTableImpl(KTableValueGetterSupplier<K,V>;String)
 +  valueGetterSupplier()

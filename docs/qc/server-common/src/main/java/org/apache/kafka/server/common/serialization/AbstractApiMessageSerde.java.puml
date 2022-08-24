@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RecordSerde<ApiMessageAndVersion> <|-- org.apache.kafka.server.common.serialization.AbstractApiMessageSerde
+RecordSerde_ApiMessageAndVersion_ <|-- org.apache.kafka.server.common.serialization.AbstractApiMessageSerde
 class org.apache.kafka.server.common.serialization.AbstractApiMessageSerde {
 +  unsignedIntToShort(Readable;String)
 +  recordSize(ApiMessageAndVersion;ObjectSerializationCache)

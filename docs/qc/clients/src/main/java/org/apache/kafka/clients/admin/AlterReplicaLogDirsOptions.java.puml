@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<AlterReplicaLogDirsOptions> <|-- org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions
+AbstractOptions_AlterReplicaLogDirsOptions_ <|-- org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions
 class org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions {
 } 
 @enduml

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions<RemoveMembersFromConsumerGroupOptions> <|-- org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions
+AbstractOptions_RemoveMembersFromConsumerGroupOptions_ <|-- org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions
 class org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions {
 +  RemoveMembersFromConsumerGroupOptions(Collection<MemberToRemove>)
 +  RemoveMembersFromConsumerGroupOptions()

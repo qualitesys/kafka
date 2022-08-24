@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-LogInputStream<FileLogInputStream.FileChannelRecordBatch> <|-- org.apache.kafka.common.record.FileLogInputStream
+LogInputStream_FileLogInputStream.FileChannelRecordBatch_ <|-- org.apache.kafka.common.record.FileLogInputStream
 class org.apache.kafka.common.record.FileLogInputStream {
 +  FileLogInputStream(FileRecords;int;int)
 +  nextBatch()

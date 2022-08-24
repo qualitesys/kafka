@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStream<K,VOut>CogroupedKStream<K,VOut> <|-- org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl
+AbstractStream_K,VOut_CogroupedKStream_K,VOut_ <|-- org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl
 class org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl {
 +  CogroupedKStreamImpl(String;Set<String>;GraphNode;InternalStreamsBuilder)
 +  aggregate(Initializer<VOut>;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)

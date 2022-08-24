@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Materialized<K,V,S> <|-- org.apache.kafka.streams.kstream.internals.MaterializedInternal
+Materialized_K,V,S_ <|-- org.apache.kafka.streams.kstream.internals.MaterializedInternal
 class org.apache.kafka.streams.kstream.internals.MaterializedInternal {
 +  MaterializedInternal(Materialized<K,V,S>)
 +  MaterializedInternal(Materialized<K,V,S>;InternalNameProvider;String)

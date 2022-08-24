@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NumberConverter<Float> <|-- org.apache.kafka.connect.converters.FloatConverter
+NumberConverter_Float_ <|-- org.apache.kafka.connect.converters.FloatConverter
 class org.apache.kafka.connect.converters.FloatConverter {
 +  FloatConverter()
 } 

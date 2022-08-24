@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation<R> <|-- org.apache.kafka.connect.transforms.SetSchemaMetadata
+Transformation_R_ <|-- org.apache.kafka.connect.transforms.SetSchemaMetadata
 class org.apache.kafka.connect.transforms.SetSchemaMetadata {
 +  configure(Map<String,?>)
 +  apply(R)

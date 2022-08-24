@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StreamJoined<K,V1,V2> <|-- org.apache.kafka.streams.kstream.internals.StreamJoinedInternal
+StreamJoined_K,V1,V2_ <|-- org.apache.kafka.streams.kstream.internals.StreamJoinedInternal
 class org.apache.kafka.streams.kstream.internals.StreamJoinedInternal {
 +  StreamJoinedInternal(StreamJoined<K,V1,V2>)
 +  keySerde()

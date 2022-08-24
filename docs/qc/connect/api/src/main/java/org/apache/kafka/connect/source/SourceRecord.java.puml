@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectRecord<SourceRecord> <|-- org.apache.kafka.connect.source.SourceRecord
+ConnectRecord_SourceRecord_ <|-- org.apache.kafka.connect.source.SourceRecord
 class org.apache.kafka.connect.source.SourceRecord {
 +  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object)
 +  SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object)

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation<Produced<K,V>> <|-- org.apache.kafka.streams.kstream.Produced
+NamedOperation_Produced_K,V__ <|-- org.apache.kafka.streams.kstream.Produced
 class org.apache.kafka.streams.kstream.Produced {
 +  Produced(Serde<K>;Serde<V>;StreamPartitioner<?superK,?superV>;String)
 +  Produced(Produced<K,V>)

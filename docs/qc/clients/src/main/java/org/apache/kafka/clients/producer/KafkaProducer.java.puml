@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Producer<K,V> <|-- org.apache.kafka.clients.producer.KafkaProducer
+Producer_K,V_ <|-- org.apache.kafka.clients.producer.KafkaProducer
 class org.apache.kafka.clients.producer.KafkaProducer {
 +  KafkaProducer(Map<String,Object>)
 +  KafkaProducer(Map<String,Object>;Serializer<K>;Serializer<V>)

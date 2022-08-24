@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Repartitioned<K,V> <|-- org.apache.kafka.streams.kstream.internals.RepartitionedInternal
+Repartitioned_K,V_ <|-- org.apache.kafka.streams.kstream.internals.RepartitionedInternal
 class org.apache.kafka.streams.kstream.internals.RepartitionedInternal {
 +  RepartitionedInternal(Repartitioned<K,V>)
 +  toInternalTopicProperties()

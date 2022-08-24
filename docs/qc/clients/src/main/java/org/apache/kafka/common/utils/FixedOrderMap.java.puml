@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-LinkedHashMap<K,V> <|-- org.apache.kafka.common.utils.FixedOrderMap
+LinkedHashMap_K,V_ <|-- org.apache.kafka.common.utils.FixedOrderMap
 class org.apache.kafka.common.utils.FixedOrderMap {
 +  removeEldestEntry(Map.Entry<K,V>)
 +  remove(Object)

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RecordsSend<LazyDownConversionRecords> <|-- org.apache.kafka.common.record.LazyDownConversionRecordsSend
+RecordsSend_LazyDownConversionRecords_ <|-- org.apache.kafka.common.record.LazyDownConversionRecordsSend
 class org.apache.kafka.common.record.LazyDownConversionRecordsSend {
 +  LazyDownConversionRecordsSend(LazyDownConversionRecords)
 +  buildOverflowBatch(int)

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReadOnlyWindowStore<K,V> <|-- org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore
+ReadOnlyWindowStore_K,V_ <|-- org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore
 class org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore {
 +  CompositeReadOnlyWindowStore(StateStoreProvider;QueryableStoreType<ReadOnlyWindowStore<K,V>>;String)
 +  fetch(K;long)

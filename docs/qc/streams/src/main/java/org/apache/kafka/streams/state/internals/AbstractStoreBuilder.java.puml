@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StoreBuilder<T> <|-- org.apache.kafka.streams.state.internals.AbstractStoreBuilder
+StoreBuilder_T_ <|-- org.apache.kafka.streams.state.internals.AbstractStoreBuilder
 class org.apache.kafka.streams.state.internals.AbstractStoreBuilder {
 +  AbstractStoreBuilder(String;Serde<K>;Serde<V>;Time)
 +  withCachingEnabled()

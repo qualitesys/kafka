@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparable<Uuid> <|-- org.apache.kafka.common.Uuid
+Comparable_Uuid_ <|-- org.apache.kafka.common.Uuid
 class org.apache.kafka.common.Uuid {
 +  Uuid(long;long)
 +  unsafeRandomUuid()

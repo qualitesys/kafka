@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueIterator<K,V> <|-- org.apache.kafka.streams.state.internals.KeyValueIteratorFacade
+KeyValueIterator_K,V_ <|-- org.apache.kafka.streams.state.internals.KeyValueIteratorFacade
 class org.apache.kafka.streams.state.internals.KeyValueIteratorFacade {
 +  KeyValueIteratorFacade(KeyValueIterator<K,ValueAndTimestamp<V>>)
 +  hasNext()

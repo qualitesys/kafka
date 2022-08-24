@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueStore<Bytes,byte[]> <|-- org.apache.kafka.streams.state.internals.RocksDBStore
+KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.RocksDBStore
 class org.apache.kafka.streams.state.internals.RocksDBStore {
 +  RocksDBStore(String;String)
 +  RocksDBStore(String;String;RocksDBMetricsRecorder)
