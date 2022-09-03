@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.HeartbeatRequest"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.HeartbeatRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "HeartbeatRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "HeartbeatRequest"
  , "c2" : "HeartbeatRequest(HeartbeatRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "HeartbeatRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "HeartbeatRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "HeartbeatRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "HeartbeatRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "5"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -93,57 +93,57 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#25"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#25"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#26"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  'The broker heartbeat protocol version ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00027"
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#27"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00046"
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#46"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00046] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00049"
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#49"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.HeartbeatRequest.getErrorResponse@POLYN149466 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00055"
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#55"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00055] For method parse arguments ByteBuffer  buffer|short  version"

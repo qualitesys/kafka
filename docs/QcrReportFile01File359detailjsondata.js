@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.InvalidMetadataException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.InvalidMetadataException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "InvalidMetadataException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "InvalidMetadataException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "InvalidMetadataException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "InvalidMetadataException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

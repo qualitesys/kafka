@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.utils.Crc32C"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.Crc32C" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Crc32C"
+{ "ligne" : { "" : ""
+ , "c1" : "Crc32C"
  , "c2" : "Crc32C()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "compute(byte[];int;int)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "compute(ByteBuffer;int;int)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Checksum"
+{ "ligne" : { "" : ""
+ , "c1" : "Checksum"
  , "c2" : "create()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,29 +77,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
  , "c4" : "2"
@@ -107,64 +107,64 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class Crc32C contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00026] For method compute arguments byte[]  bytes|int  offset|int  size"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00026] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN154865"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00033"
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00033] For method compute arguments ByteBuffer  buffer|int  offset|int  size"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00033"
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00033] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN155457"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00047"
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#47"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00047] The class Java9ChecksumFactory contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00071"
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#71"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00071] The class PureJavaChecksumFactory contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00026] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00033"
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00033] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"

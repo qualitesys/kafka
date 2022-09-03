@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.AbstractOptions"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AbstractOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "T"
+{ "ligne" : { "" : ""
+ , "c1" : "T"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Integer"
+{ "ligne" : { "" : ""
+ , "c1" : "Integer"
  , "c2" : "timeoutMs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbstractOptions.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class AbstractOptions contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbstractOptions.java.html#13"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00013] For method timeoutMs arguments Integer  timeoutMs"

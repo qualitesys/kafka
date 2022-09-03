@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "KafkaException"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaException"
  , "c2" : "org.apache.kafka.common.errors.WakeupException"
 }} 
 ]

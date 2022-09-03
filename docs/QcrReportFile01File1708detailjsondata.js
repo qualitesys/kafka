@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TableJoined<K,KO>"
+{ "ligne" : { "" : ""
+ , "c1" : "TableJoined<K,KO>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.TableJoinedInternal"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TableJoinedInternal" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TableJoinedInternal"
+{ "ligne" : { "" : ""
+ , "c1" : "TableJoinedInternal"
  , "c2" : "TableJoinedInternal(TableJoined<K,KO>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "StreamPartitioner<K,Void>"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamPartitioner<K,Void>"
  , "c2" : "partitioner()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "StreamPartitioner<KO,Void>"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamPartitioner<KO,Void>"
  , "c2" : "otherPartitioner()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"

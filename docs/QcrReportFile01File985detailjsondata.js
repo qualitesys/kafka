@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.connect.source.SourceTaskContext"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.source.SourceTaskContext" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "configs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetStorageReader"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetStorageReader"
  , "c2" : "offsetStorageReader()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TransactionContext"
+{ "ligne" : { "" : ""
+ , "c1" : "TransactionContext"
  , "c2" : "transactionContext()"
  , "c3" : "1"
  , "c4" : "1"

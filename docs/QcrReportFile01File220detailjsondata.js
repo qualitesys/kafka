@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TimeoutException"
+{ "ligne" : { "" : ""
+ , "c1" : "TimeoutException"
  , "c2" : "org.apache.kafka.clients.producer.BufferExhaustedException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.BufferExhaustedException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "BufferExhaustedException"
+{ "ligne" : { "" : ""
+ , "c1" : "BufferExhaustedException"
  , "c2" : "BufferExhaustedException(String)"
  , "c3" : "1"
  , "c4" : "1"

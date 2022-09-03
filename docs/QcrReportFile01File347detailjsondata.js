@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthenticationException"
  , "c2" : "org.apache.kafka.common.errors.IllegalSaslStateException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.IllegalSaslStateException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "IllegalSaslStateException"
+{ "ligne" : { "" : ""
+ , "c1" : "IllegalSaslStateException"
  , "c2" : "IllegalSaslStateException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "IllegalSaslStateException"
+{ "ligne" : { "" : ""
+ , "c1" : "IllegalSaslStateException"
  , "c2" : "IllegalSaslStateException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.snapshot.SnapshotPath"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.SnapshotPath" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SnapshotPath"
+{ "ligne" : { "" : ""
+ , "c1" : "SnapshotPath"
  , "c2" : "SnapshotPath(Path;OffsetAndEpoch;boolean;boolean)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class SnapshotPath contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#22"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.snapshot.SnapshotPath.toString@POLYN143100 the MagicNumber/String  'SnapshotPath(path=%s, snapshotId=%s, partial=%s)' should be converted to const"

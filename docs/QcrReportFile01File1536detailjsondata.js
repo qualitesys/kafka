@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.StreamsMetadata"
 }} 
 ]
@@ -17,64 +17,64 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.StreamsMetadata" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "HostInfo"
+{ "ligne" : { "" : ""
+ , "c1" : "HostInfo"
  , "c2" : "hostInfo()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<String>"
  , "c2" : "stateStoreNames()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<TopicPartition>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<TopicPartition>"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<TopicPartition>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<TopicPartition>"
  , "c2" : "standbyTopicPartitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<String>"
  , "c2" : "standbyStateStoreNames()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "host()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "port()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.connect.sink.ErrantRecordReporter"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.sink.ErrantRecordReporter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Future<Void>"
+{ "ligne" : { "" : ""
+ , "c1" : "Future<Void>"
  , "c2" : "report(SinkRecord;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

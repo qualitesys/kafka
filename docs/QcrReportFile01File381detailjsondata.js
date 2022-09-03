@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.NewLeaderElectedException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NewLeaderElectedException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NewLeaderElectedException"
+{ "ligne" : { "" : ""
+ , "c1" : "NewLeaderElectedException"
  , "c2" : "NewLeaderElectedException(String)"
  , "c3" : "1"
  , "c4" : "1"

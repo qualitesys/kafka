@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "JmxReporter"
+{ "ligne" : { "" : ""
+ , "c1" : "JmxReporter"
  , "c2" : "org.apache.kafka.server.metrics.FilteringJmxReporter"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.metrics.FilteringJmxReporter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FilteringJmxReporter"
+{ "ligne" : { "" : ""
+ , "c1" : "FilteringJmxReporter"
  , "c2" : "FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "onMetricAdded(MetricName;Metric)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "updatePredicate(Predicate<MetricName>)"
  , "c3" : "3"
  , "c4" : "4"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00022] For method onMetricAdded arguments MetricName  name|Metric  metric"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#28"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00028] For method updatePredicate arguments Predicate&lt;MetricName &gt;  predicate"

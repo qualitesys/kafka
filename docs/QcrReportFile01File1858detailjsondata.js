@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Stamped<ConsumerRecord<?,?>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Stamped<ConsumerRecord<?,?>>"
  , "c2" : "org.apache.kafka.streams.processor.internals.StampedRecord"
 }} 
 ]
@@ -17,57 +17,57 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StampedRecord" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StampedRecord"
+{ "ligne" : { "" : ""
+ , "c1" : "StampedRecord"
  , "c2" : "StampedRecord(ConsumerRecord<?,?>;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "topic()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "partition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Object"
+{ "ligne" : { "" : ""
+ , "c1" : "Object"
  , "c2" : "key()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Object"
+{ "ligne" : { "" : ""
+ , "c1" : "Object"
  , "c2" : "value()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Headers"
+{ "ligne" : { "" : ""
+ , "c1" : "Headers"
  , "c2" : "headers()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -114,15 +114,15 @@ var maDataBlocs = {
 ]
 ,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "5"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -130,43 +130,43 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00039"
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#39"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.processor.internals.StampedRecord.toString@POLYN145059 the MagicNumber/String  ', timestamp = ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StampedRecord.headers@POLYN144939"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StampedRecord.key@POLYN144621"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StampedRecord.offset@POLYN144833"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StampedRecord.topic@POLYN144409"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StampedRecord.value@POLYN144727"

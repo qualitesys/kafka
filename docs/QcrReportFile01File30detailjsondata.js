@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractConfig"
  , "c2" : "org.apache.kafka.clients.admin.AdminClientConfig"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AdminClientConfig" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Map<String,Object>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,Object>"
  , "c2" : "postProcessParsedConfig(Map<String,Object>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AdminClientConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "AdminClientConfig"
  , "c2" : "AdminClientConfig(Map<?,?>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AdminClientConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "AdminClientConfig"
  , "c2" : "AdminClientConfig(Map<?,?>;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<String>"
  , "c2" : "configNames()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConfigDef"
+{ "ligne" : { "" : ""
+ , "c1" : "ConfigDef"
  , "c2" : "configDef()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,15 +91,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -107,36 +107,36 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00196"
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#196"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00196] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00202"
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#202"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.admin.AdminClientConfig.AdminClientConfig@POLYN184246 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00217"
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#217"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00217] For method main arguments String[]  args"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00218"
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#218"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184896 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00218"
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#218"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184896 the MagicNumber/String  'adminclientconfigs_' should be converted to const"

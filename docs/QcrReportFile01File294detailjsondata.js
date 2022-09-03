@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.config.ConfigData"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.ConfigData" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ConfigData"
+{ "ligne" : { "" : ""
+ , "c1" : "ConfigData"
  , "c2" : "ConfigData(Map<String,String>;Long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConfigData"
+{ "ligne" : { "" : ""
+ , "c1" : "ConfigData"
  , "c2" : "ConfigData(Map<String,String>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Long"
+{ "ligne" : { "" : ""
+ , "c1" : "Long"
  , "c2" : "ttl()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -93,15 +93,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00009] The class ConfigData contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#22"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.config.ConfigData.ConfigData@POLYN147494 the MagicNumber/String  null should be converted to const"

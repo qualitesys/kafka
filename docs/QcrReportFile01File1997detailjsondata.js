@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "SessionBytesStoreSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "SessionBytesStoreSupplier"
  , "c2" : "org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InMemorySessionBytesStoreSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "InMemorySessionBytesStoreSupplier"
  , "c2" : "InMemorySessionBytesStoreSupplier(String;long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SessionStore<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "SessionStore<Bytes,byte[]>"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "metricsScope()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "segmentIntervalMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "retentionPeriod()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,15 +91,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
@@ -107,22 +107,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class InMemorySessionBytesStoreSupplier contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#30"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier.metricsScope@POLYN144609 the MagicNumber/String  'in-memory-session' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00036"
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#36"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier.segmentIntervalMs@POLYN144711 the MagicNumber/String  1 should be converted to const"

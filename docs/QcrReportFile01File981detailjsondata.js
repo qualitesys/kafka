@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Connector"
+{ "ligne" : { "" : ""
+ , "c1" : "Connector"
  , "c2" : "org.apache.kafka.connect.source.SourceConnector"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.source.SourceConnector" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SourceConnectorContext"
+{ "ligne" : { "" : ""
+ , "c1" : "SourceConnectorContext"
  , "c2" : "context()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ExactlyOnceSupport"
+{ "ligne" : { "" : ""
+ , "c1" : "ExactlyOnceSupport"
  , "c2" : "exactlyOnceSupport(Map<String,String>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConnectorTransactionBoundaries"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectorTransactionBoundaries"
  , "c2" : "canDefineTransactionBoundaries(Map<String,String>)"
  , "c3" : "1"
  , "c4" : "1"
@@ -79,22 +79,22 @@ var maDataBlocs = {
 ]
 ,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -102,29 +102,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00017"
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#17"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00017] For method exactlyOnceSupport arguments Map&lt;String ,String &gt;  connectorConfig"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#18"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.connect.source.SourceConnector.exactlyOnceSupport@POLYN153833 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00022] For method canDefineTransactionBoundaries arguments Map&lt;String ,String &gt;  connectorConfig"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.source.SourceConnector.context@POLYN152940"

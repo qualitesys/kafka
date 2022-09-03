@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.processor.StreamPartitioner"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.StreamPartitioner" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Integer"
+{ "ligne" : { "" : ""
+ , "c1" : "Integer"
  , "c2" : "partition(String;K;V;int)"
  , "c3" : "1"
  , "c4" : "1"

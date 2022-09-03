@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.UnsupportedVersionException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnsupportedVersionException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UnsupportedVersionException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnsupportedVersionException"
  , "c2" : "UnsupportedVersionException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnsupportedVersionException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnsupportedVersionException"
  , "c2" : "UnsupportedVersionException(String)"
  , "c3" : "1"
  , "c4" : "1"

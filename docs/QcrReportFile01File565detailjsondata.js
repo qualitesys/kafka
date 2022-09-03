@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.record.LogInputStream"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.LogInputStream" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "T"
+{ "ligne" : { "" : ""
+ , "c1" : "T"
  , "c2" : "nextBatch()"
  , "c3" : "1"
  , "c4" : "1"

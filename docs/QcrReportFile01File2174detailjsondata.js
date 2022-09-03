@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "WorkerState"
+{ "ligne" : { "" : ""
+ , "c1" : "WorkerState"
  , "c2" : "org.apache.kafka.trogdor.rest.WorkerDone"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerDone" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "WorkerDone"
+{ "ligne" : { "" : ""
+ , "c1" : "WorkerDone"
  , "c2" : "WorkerDone(String;TaskSpec;long;long;JsonNode;String)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "startedMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "doneMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "JsonNode"
+{ "ligne" : { "" : ""
+ , "c1" : "JsonNode"
  , "c2" : "status()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "error()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "done()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,8 +91,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "4"
@@ -100,29 +100,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00035"
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerDone.java.html#35"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.rest.WorkerDone.WorkerDone@POLYN149224 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00036"
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerDone.java.html#36"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.WorkerDone.WorkerDone@POLYN149224 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00036"
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerDone.java.html#36"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.WorkerDone.WorkerDone@POLYN149224 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00063"
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerDone.java.html#63"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.trogdor.rest.WorkerDone.done@POLYN150656 the MagicNumber/String  true should be converted to const"

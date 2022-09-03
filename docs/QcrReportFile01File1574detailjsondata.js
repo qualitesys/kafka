@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.kstream.CogroupedKStream"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.CogroupedKStream" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KTable<K,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KTable<K,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>;Named)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KTable<K,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KTable<K,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>;Named;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TimeWindowedCogroupedKStream<K,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "TimeWindowedCogroupedKStream<K,VOut>"
  , "c2" : "windowedBy(SlidingWindows)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SessionWindowedCogroupedKStream<K,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "SessionWindowedCogroupedKStream<K,VOut>"
  , "c2" : "windowedBy(SessionWindows)"
  , "c3" : "1"
  , "c4" : "1"

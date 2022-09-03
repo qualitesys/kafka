@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<CreatePartitionsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<CreatePartitionsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.CreatePartitionsOptions"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.CreatePartitionsOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CreatePartitionsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "CreatePartitionsOptions"
  , "c2" : "CreatePartitionsOptions()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "validateOnly()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CreatePartitionsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "CreatePartitionsOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CreatePartitionsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "CreatePartitionsOptions"
  , "c2" : "retryOnQuotaViolation(boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "shouldRetryOnQuotaViolation()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,8 +84,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -93,15 +93,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#25"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00025] For method validateOnly arguments boolean  validateOnly"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00031"
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#31"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00031] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"

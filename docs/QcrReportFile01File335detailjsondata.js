@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "EligibleLeadersNotAvailableException"
+{ "ligne" : { "" : ""
+ , "c1" : "EligibleLeadersNotAvailableException"
  , "c2" : "EligibleLeadersNotAvailableException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "EligibleLeadersNotAvailableException"
+{ "ligne" : { "" : ""
+ , "c1" : "EligibleLeadersNotAvailableException"
  , "c2" : "EligibleLeadersNotAvailableException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

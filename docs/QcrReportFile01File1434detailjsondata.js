@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "BatchReader<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "BatchReader<T>"
  , "c2" : "org.apache.kafka.raft.internals.RecordsBatchReader"
 }} 
 ]
@@ -17,57 +17,57 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.RecordsBatchReader" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RecordsBatchReader"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordsBatchReader"
  , "c2" : "RecordsBatchReader(long;RecordsIterator<T>;CloseListener<BatchReader<T>>)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Batch<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "Batch<T>"
  , "c2" : "next()"
  , "c3" : "2"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "baseOffset()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OptionalLong"
+{ "ligne" : { "" : ""
+ , "c1" : "OptionalLong"
  , "c2" : "lastOffset()"
  , "c3" : "3"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "ensureOpen()"
  , "c3" : "2"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<Batch<T>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<Batch<T>>"
  , "c2" : "nextBatch()"
  , "c3" : "4"
  , "c4" : "4"
@@ -105,22 +105,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
@@ -128,36 +128,36 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00014] The class RecordsBatchReader contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00049"
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#49"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.internals.RecordsBatchReader.next@POLYN154550 the MagicNumber/String  'Records batch reader doesn't have any more elements' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00075"
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#75"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.raft.internals.RecordsBatchReader.close@POLYN155381 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00099"
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#99"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.internals.RecordsBatchReader.ensureOpen@POLYN156203 the MagicNumber/String  'Records batch reader was closed' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00105"
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#105"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00105] Avoid declaring class instance within loop, performance impact"

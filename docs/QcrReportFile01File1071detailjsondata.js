@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "SinkRecord"
+{ "ligne" : { "" : ""
+ , "c1" : "SinkRecord"
  , "c2" : "org.apache.kafka.connect.runtime.InternalSinkRecord"
 }} 
 ]
@@ -17,50 +17,50 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.InternalSinkRecord" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InternalSinkRecord"
+{ "ligne" : { "" : ""
+ , "c1" : "InternalSinkRecord"
  , "c2" : "InternalSinkRecord(ConsumerRecord<byte[],byte[]>;SinkRecord)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InternalSinkRecord"
+{ "ligne" : { "" : ""
+ , "c1" : "InternalSinkRecord"
  , "c2" : "InternalSinkRecord(ConsumerRecord<byte[],byte[]>;String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SinkRecord"
+{ "ligne" : { "" : ""
+ , "c1" : "SinkRecord"
  , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConsumerRecord<byte[],byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "ConsumerRecord<byte[],byte[]>"
  , "c2" : "originalRecord()"
  , "c3" : "1"
  , "c4" : "1"
@@ -98,15 +98,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -114,22 +114,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#16"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00016] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#32"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00032] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp|Iterable&lt;Header &gt;  headers"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00040"
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#40"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00040] For method equals arguments Object  o"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<AlterClientQuotasOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<AlterClientQuotasOptions>"
  , "c2" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "validateOnly()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AlterClientQuotasOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "AlterClientQuotasOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
  , "c4" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#19"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00019] For method validateOnly arguments boolean  validateOnly"

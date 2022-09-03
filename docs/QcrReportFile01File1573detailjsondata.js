@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.kstream.BranchedKStream"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.BranchedKStream" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "BranchedKStream<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "BranchedKStream<K,V>"
  , "c2" : "branch(Predicate<?superK,?superV>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "BranchedKStream<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "BranchedKStream<K,V>"
  , "c2" : "branch(Predicate<?superK,?superV>;Branched<K,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,KStream<K,V>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,KStream<K,V>>"
  , "c2" : "defaultBranch()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,KStream<K,V>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,KStream<K,V>>"
  , "c2" : "defaultBranch(Branched<K,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,KStream<K,V>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,KStream<K,V>>"
  , "c2" : "noDefaultBranch()"
  , "c3" : "1"
  , "c4" : "1"

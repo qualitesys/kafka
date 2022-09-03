@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.SyncGroupRequest"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.SyncGroupRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SyncGroupRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "SyncGroupRequest"
  , "c2" : "SyncGroupRequest(SyncGroupRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,ByteBuffer>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,ByteBuffer>"
  , "c2" : "groupAssignments()"
  , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "areMandatoryProtocolTypeAndNamePresent()"
  , "c3" : "3"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SyncGroupRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "SyncGroupRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SyncGroupRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "SyncGroupRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,15 +91,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "9"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -107,85 +107,85 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00027"
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#27"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00027] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#28"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.SyncGroupRequest.Builder.build@POLYN152261 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#28"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.SyncGroupRequest.Builder.build@POLYN152261 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#29"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.SyncGroupRequest.Builder.build@POLYN152261 the MagicNumber/String  'The broker sync group protocol version ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#30"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.SyncGroupRequest.Builder.build@POLYN152261 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00049"
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#49"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00049] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00052"
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#52"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.SyncGroupRequest.getErrorResponse@POLYN153112 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00066"
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#66"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.SyncGroupRequest.areMandatoryProtocolTypeAndNamePresent@POLYN154150 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00067"
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#67"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.SyncGroupRequest.areMandatoryProtocolTypeAndNamePresent@POLYN154150 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00067"
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#67"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.SyncGroupRequest.areMandatoryProtocolTypeAndNamePresent@POLYN154150 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00069"
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#69"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.requests.SyncGroupRequest.areMandatoryProtocolTypeAndNamePresent@POLYN154150 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00072"
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#72"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00072] For method parse arguments ByteBuffer  buffer|short  version"

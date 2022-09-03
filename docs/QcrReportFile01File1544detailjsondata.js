@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ProductionExceptionHandler"
+{ "ligne" : { "" : ""
+ , "c1" : "ProductionExceptionHandler"
  , "c2" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ProductionExceptionHandlerResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "ProductionExceptionHandlerResponse"
  , "c2" : "handle(ProducerRecord<byte[],byte[]>;Exception)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
  , "c4" : "0"
@@ -63,29 +63,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
  , "c3" : "You must segregate your interface"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -93,36 +93,36 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class DefaultProductionExceptionHandler contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#10"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00010] For method handle arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record|Exception  exception"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#16"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00016] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#16"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000005[00016] Void method configure is empty or contains only a return."
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#16"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00016] Void method configure is empty or contains only a return. Interface segregation"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectException"
  , "c2" : "org.apache.kafka.connect.runtime.distributed.RebalanceNeededException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.RebalanceNeededException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RebalanceNeededException"
+{ "ligne" : { "" : ""
+ , "c1" : "RebalanceNeededException"
  , "c2" : "RebalanceNeededException(String)"
  , "c3" : "1"
  , "c4" : "1"

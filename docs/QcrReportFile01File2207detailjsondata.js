@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.trogdor.workload.PayloadGenerator"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.PayloadGenerator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "1"
  , "c4" : "1"

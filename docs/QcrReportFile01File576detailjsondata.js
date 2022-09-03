@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TransferableRecords"
+{ "ligne" : { "" : ""
+ , "c1" : "TransferableRecords"
  , "c2" : "org.apache.kafka.common.record.Records"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.Records" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Iterable<?extendsRecordBatch>"
+{ "ligne" : { "" : ""
+ , "c1" : "Iterable<?extendsRecordBatch>"
  , "c2" : "batches()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractIterator<?extendsRecordBatch>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractIterator<?extendsRecordBatch>"
  , "c2" : "batchIterator()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasMatchingMagic(byte)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConvertedRecords<?extendsRecords>"
+{ "ligne" : { "" : ""
+ , "c1" : "ConvertedRecords<?extendsRecords>"
  , "c2" : "downConvert(byte;long;Time)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Iterable<Record>"
+{ "ligne" : { "" : ""
+ , "c1" : "Iterable<Record>"
  , "c2" : "records()"
  , "c3" : "1"
  , "c4" : "1"

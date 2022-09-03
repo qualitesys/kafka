@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TimestampedKeyValueStoreMaterializer"
+{ "ligne" : { "" : ""
+ , "c1" : "TimestampedKeyValueStoreMaterializer"
  , "c2" : "TimestampedKeyValueStoreMaterializer(MaterializedInternal<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "StoreBuilder<TimestampedKeyValueStore<K,V>>"
+{ "ligne" : { "" : ""
+ , "c1" : "StoreBuilder<TimestampedKeyValueStore<K,V>>"
  , "c2" : "materialize()"
  , "c3" : "7"
  , "c4" : "11"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
@@ -79,22 +79,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00011] The class TimestampedKeyValueStoreMaterializer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00021"
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer.materialize@POLYN148536 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.html#30"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer.materialize@POLYN148536 the MagicNumber/String  'Unknown store type: ' should be converted to const"

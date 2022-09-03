@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<ListConsumerGroupOffsetsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<ListConsumerGroupOffsetsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ListConsumerGroupOffsetsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "ListConsumerGroupOffsetsOptions"
  , "c2" : "topicPartitions(List<TopicPartition>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ListConsumerGroupOffsetsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "ListConsumerGroupOffsetsOptions"
  , "c2" : "requireStable(boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<TopicPartition>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<TopicPartition>"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "requireStable()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#18"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00018] For method topicPartitions arguments List&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method requireStable arguments boolean  requireStable"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthorizationException"
  , "c2" : "org.apache.kafka.common.errors.TransactionalIdAuthorizationException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.TransactionalIdAuthorizationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TransactionalIdAuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "TransactionalIdAuthorizationException"
  , "c2" : "TransactionalIdAuthorizationException(String)"
  , "c3" : "1"
  , "c4" : "1"

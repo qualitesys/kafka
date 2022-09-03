@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.CorruptRecordException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.CorruptRecordException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CorruptRecordException"
+{ "ligne" : { "" : ""
+ , "c1" : "CorruptRecordException"
  , "c2" : "CorruptRecordException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CorruptRecordException"
+{ "ligne" : { "" : ""
+ , "c1" : "CorruptRecordException"
  , "c2" : "CorruptRecordException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CorruptRecordException"
+{ "ligne" : { "" : ""
+ , "c1" : "CorruptRecordException"
  , "c2" : "CorruptRecordException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CorruptRecordException"
+{ "ligne" : { "" : ""
+ , "c1" : "CorruptRecordException"
  , "c2" : "CorruptRecordException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.errors.CorruptRecordException.CorruptRecordException@POLYN142349 the MagicNumber/String  'This message has failed its CRC checksum, exceeds the valid size, has a null key for a compacted topic, or is otherwise corrupt.' should be converted to const"

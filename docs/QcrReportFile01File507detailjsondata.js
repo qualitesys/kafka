@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.network.ReauthenticationContext"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.ReauthenticationContext" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ReauthenticationContext"
+{ "ligne" : { "" : ""
+ , "c1" : "ReauthenticationContext"
  , "c2" : "ReauthenticationContext(Authenticator;NetworkReceive;long)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NetworkReceive"
+{ "ligne" : { "" : ""
+ , "c1" : "NetworkReceive"
  , "c2" : "networkReceive()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Authenticator"
+{ "ligne" : { "" : ""
+ , "c1" : "Authenticator"
  , "c2" : "previousAuthenticator()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "reauthenticationBeginNanos()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class ReauthenticationContext contains no field, constructor, finalize. Must contain only static methods, check it"

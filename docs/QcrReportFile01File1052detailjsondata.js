@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "NumberConverter<Float>"
+{ "ligne" : { "" : ""
+ , "c1" : "NumberConverter<Float>"
  , "c2" : "org.apache.kafka.connect.converters.FloatConverter"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.FloatConverter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FloatConverter"
+{ "ligne" : { "" : ""
+ , "c1" : "FloatConverter"
  , "c2" : "FloatConverter()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.FloatConverter.FloatConverter@POLYN144597 the MagicNumber/String  'float' should be converted to const"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RuntimeException"
+{ "ligne" : { "" : ""
+ , "c1" : "RuntimeException"
  , "c2" : "org.apache.kafka.shell.NotDirectoryException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.NotDirectoryException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotDirectoryException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotDirectoryException"
  , "c2" : "NotDirectoryException()"
  , "c3" : "1"
  , "c4" : "1"

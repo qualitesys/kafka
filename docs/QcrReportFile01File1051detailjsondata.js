@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "NumberConverter<Double>"
+{ "ligne" : { "" : ""
+ , "c1" : "NumberConverter<Double>"
  , "c2" : "org.apache.kafka.connect.converters.DoubleConverter"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.DoubleConverter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DoubleConverter"
+{ "ligne" : { "" : ""
+ , "c1" : "DoubleConverter"
  , "c2" : "DoubleConverter()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/DoubleConverter.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.DoubleConverter.DoubleConverter@POLYN144597 the MagicNumber/String  'double' should be converted to const"

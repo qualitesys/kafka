@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectRestExtensionContext"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectRestExtensionContext"
  , "c2" : "org.apache.kafka.connect.runtime.rest.ConnectRestExtensionContextImpl"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.rest.ConnectRestExtensionContextImpl" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ConnectRestExtensionContextImpl"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectRestExtensionContextImpl"
  , "c2" : "ConnectRestExtensionContextImpl(Configurable<?extendsConfigurable<?>>;ConnectClusterState)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Configurable<?extendsConfigurable<?>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable<?extendsConfigurable<?>>"
  , "c2" : "configurable()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConnectClusterState"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectClusterState"
  , "c2" : "clusterState()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class ConnectRestExtensionContextImpl contains no field, constructor, finalize. Must contain only static methods, check it"

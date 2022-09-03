@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignorFactory"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignorFactory" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StandbyTaskAssignorFactory"
+{ "ligne" : { "" : ""
+ , "c1" : "StandbyTaskAssignorFactory"
  , "c2" : "StandbyTaskAssignorFactory()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "StandbyTaskAssignor"
+{ "ligne" : { "" : ""
+ , "c1" : "StandbyTaskAssignor"
  , "c2" : "create(AssignorConfiguration.AssignmentConfigs)"
  , "c3" : "3"
  , "c4" : "2"
@@ -63,22 +63,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -86,22 +86,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00004"
+{ "ligne" : {"" : ""
+ , "c1" : "00004"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignorFactory.java.html#4"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00004] The class StandbyTaskAssignorFactory contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignorFactory.java.html#7"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00007] For method create arguments AssignorConfiguration.AssignmentConfigs  configs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignorFactory.java.html#7"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00007] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<DescribeClusterOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<DescribeClusterOptions>"
  , "c2" : "org.apache.kafka.clients.admin.DescribeClusterOptions"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeClusterOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeClusterOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeClusterOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeClusterOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeClusterOptions"
  , "c2" : "includeAuthorizedOperations(boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "includeAuthorizedOperations()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#15"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00015] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00020"
+{ "ligne" : {"" : ""
+ , "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#20"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00020] For method includeAuthorizedOperations arguments boolean  includeAuthorizedOperations"

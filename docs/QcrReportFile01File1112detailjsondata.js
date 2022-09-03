@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectException"
  , "c2" : "org.apache.kafka.connect.runtime.distributed.RequestTargetException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.RequestTargetException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RequestTargetException"
+{ "ligne" : { "" : ""
+ , "c1" : "RequestTargetException"
  , "c2" : "RequestTargetException(String;String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RequestTargetException"
+{ "ligne" : { "" : ""
+ , "c1" : "RequestTargetException"
  , "c2" : "RequestTargetException(String;Throwable;String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RequestTargetException"
+{ "ligne" : { "" : ""
+ , "c1" : "RequestTargetException"
  , "c2" : "RequestTargetException(Throwable;String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "forwardUrl()"
  , "c3" : "1"
  , "c4" : "1"

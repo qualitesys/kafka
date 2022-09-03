@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "DataException"
+{ "ligne" : { "" : ""
+ , "c1" : "DataException"
  , "c2" : "org.apache.kafka.connect.errors.SchemaBuilderException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.errors.SchemaBuilderException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SchemaBuilderException"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaBuilderException"
  , "c2" : "SchemaBuilderException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SchemaBuilderException"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaBuilderException"
  , "c2" : "SchemaBuilderException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SchemaBuilderException"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaBuilderException"
  , "c2" : "SchemaBuilderException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

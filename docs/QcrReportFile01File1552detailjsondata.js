@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "StreamsException"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamsException"
  , "c2" : "org.apache.kafka.streams.errors.ProcessorStateException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.ProcessorStateException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ProcessorStateException"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorStateException"
  , "c2" : "ProcessorStateException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ProcessorStateException"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorStateException"
  , "c2" : "ProcessorStateException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ProcessorStateException"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorStateException"
  , "c2" : "ProcessorStateException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

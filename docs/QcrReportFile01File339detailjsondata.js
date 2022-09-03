@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FetchSessionIdNotFoundException"
+{ "ligne" : { "" : ""
+ , "c1" : "FetchSessionIdNotFoundException"
  , "c2" : "FetchSessionIdNotFoundException()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "FetchSessionIdNotFoundException"
+{ "ligne" : { "" : ""
+ , "c1" : "FetchSessionIdNotFoundException"
  , "c2" : "FetchSessionIdNotFoundException(String)"
  , "c3" : "1"
  , "c4" : "1"

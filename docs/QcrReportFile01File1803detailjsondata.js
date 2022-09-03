@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectedStoreProvider"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectedStoreProvider"
  , "c2" : "org.apache.kafka.streams.processor.api.ProcessorSupplier"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.api.ProcessorSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Processor<KIn,VIn,KOut,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "Processor<KIn,VIn,KOut,VOut>"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"

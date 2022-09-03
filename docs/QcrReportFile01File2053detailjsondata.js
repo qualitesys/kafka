@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRocksDBSegmentedBytesStore<TimestampedSegment>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRocksDBSegmentedBytesStore<TimestampedSegment>"
  , "c2" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RocksDBTimestampedSegmentedBytesStore"
+{ "ligne" : { "" : ""
+ , "c1" : "RocksDBTimestampedSegmentedBytesStore"
  , "c2" : "RocksDBTimestampedSegmentedBytesStore(String;String;long;long;KeySchema)"
  , "c3" : "1"
  , "c4" : "1"

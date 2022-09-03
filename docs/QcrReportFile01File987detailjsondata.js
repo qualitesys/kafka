@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.connect.storage.Converter"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.Converter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "fromConnectData(String;Schema;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "fromConnectData(String;Headers;Schema;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SchemaAndValue"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaAndValue"
  , "c2" : "toConnectData(String;byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SchemaAndValue"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaAndValue"
  , "c2" : "toConnectData(String;Headers;byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConfigDef"
+{ "ligne" : { "" : ""
+ , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
  , "c4" : "1"

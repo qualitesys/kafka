@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Printed<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "Printed<K,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.PrintedInternal"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.PrintedInternal" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "PrintedInternal"
+{ "ligne" : { "" : ""
+ , "c1" : "PrintedInternal"
  , "c2" : "PrintedInternal(Printed<K,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ProcessorSupplier<K,V,Void,Void>"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorSupplier<K,V,Void,Void>"
  , "c2" : "build(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,15 +70,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#12"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00012] For method build arguments String  processorName"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#13"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.kstream.internals.PrintedInternal.build@POLYN143120 the MagicNumber/String  null should be converted to const"

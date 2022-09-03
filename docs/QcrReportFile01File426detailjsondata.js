@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.UnknownServerException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnknownServerException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UnknownServerException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownServerException"
  , "c2" : "UnknownServerException()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnknownServerException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownServerException"
  , "c2" : "UnknownServerException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnknownServerException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownServerException"
  , "c2" : "UnknownServerException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnknownServerException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownServerException"
  , "c2" : "UnknownServerException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.utils.PrimitiveRef"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.PrimitiveRef" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "IntRef"
+{ "ligne" : { "" : ""
+ , "c1" : "IntRef"
  , "c2" : "ofInt(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,22 +56,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAVCWE493"
  , "c3" : "Critical public variable without final modifier"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -79,29 +79,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00005"
+{ "ligne" : {"" : ""
+ , "c1" : "00005"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#5"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00005] The class PrimitiveRef contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00006"
+{ "ligne" : {"" : ""
+ , "c1" : "00006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00006] For method ofInt arguments int  value"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class IntRef contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAVCWE493[00011] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"

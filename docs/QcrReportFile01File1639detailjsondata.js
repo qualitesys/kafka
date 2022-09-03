@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "GlobalKTable<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "GlobalKTable<K,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.GlobalKTableImpl"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.GlobalKTableImpl" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "GlobalKTableImpl"
+{ "ligne" : { "" : ""
+ , "c1" : "GlobalKTableImpl"
  , "c2" : "GlobalKTableImpl(KTableValueGetterSupplier<K,V>;String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KTableValueGetterSupplier<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTableValueGetterSupplier<K,V>"
  , "c2" : "valueGetterSupplier()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "queryableStoreName()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00006"
+{ "ligne" : {"" : ""
+ , "c1" : "00006"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.html#6"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00006] The class GlobalKTableImpl contains no field, constructor, finalize. Must contain only static methods, check it"

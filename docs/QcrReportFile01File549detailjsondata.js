@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.record.BaseRecords"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.BaseRecords" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "sizeInBytes()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RecordsSend<?extendsBaseRecords>"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordsSend<?extendsBaseRecords>"
  , "c2" : "toSend()"
  , "c3" : "1"
  , "c4" : "1"

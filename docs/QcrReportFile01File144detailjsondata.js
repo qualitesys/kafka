@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<UpdateFeaturesOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<UpdateFeaturesOptions>"
  , "c2" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "dryRun()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "validateOnly()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UpdateFeaturesOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "UpdateFeaturesOptions"
  , "c2" : "dryRun(boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UpdateFeaturesOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "UpdateFeaturesOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
  , "c4" : "2"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00022] For method dryRun arguments boolean  dryRun"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#26"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00026] For method validateOnly arguments boolean  validateOnly"

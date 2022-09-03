@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "org.apache.kafka.common.errors.InconsistentTopicIdException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.InconsistentTopicIdException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InconsistentTopicIdException"
+{ "ligne" : { "" : ""
+ , "c1" : "InconsistentTopicIdException"
  , "c2" : "InconsistentTopicIdException(String)"
  , "c3" : "1"
  , "c4" : "1"

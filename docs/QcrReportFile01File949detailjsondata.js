@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.connect.data.Time"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Time" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SchemaBuilder"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaBuilder"
  , "c2" : "builder()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "fromLogical(Schema;java.util.Date)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "java.util.Date"
+{ "ligne" : { "" : ""
+ , "c1" : "java.util.Date"
  , "c2" : "toLogical(Schema;int)"
  , "c3" : "3"
  , "c4" : "3"
@@ -79,43 +79,43 @@ var maDataBlocs = {
 ]
 ,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "7"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -123,113 +123,113 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class Time contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00021"
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.connect.data.Time.builder@POLYN151466 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00027"
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#27"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00027] For method fromLogical arguments Schema  schema|java.util.Date  value"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00027"
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#27"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00027] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#29"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.data.Time.fromLogical@POLYN151878 the MagicNumber/String  'Requested conversion of Time object but the schema does not match.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00033"
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#33"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.connect.data.Time.fromLogical@POLYN151878 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00034"
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#34"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.data.Time.fromLogical@POLYN151878 the MagicNumber/String  'Kafka Connect Time type should not have any date fields set to non-zero values.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00039"
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#39"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00039] For method toLogical arguments Schema  schema|int  value"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00039"
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#39"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00039] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00041"
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#41"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.data.Time.toLogical@POLYN152697 the MagicNumber/String  'Requested conversion of Date object but the schema does not match.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00042"
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#42"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.data.Time.toLogical@POLYN152697 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00043"
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#43"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.data.Time.toLogical@POLYN152697 the MagicNumber/String  'Time values must use number of milliseconds greater than 0 and less than 86400000' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Time.fromLogical@POLYN151878"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#29"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.connect.data.Time.fromLogical@POLYN151878 the MagicNumber/String 'Requested conversion of Time object but the schema does not match.' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00033"
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#33"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.connect.data.Time.fromLogical@POLYN151878 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00034"
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#34"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.connect.data.Time.fromLogical@POLYN151878 the MagicNumber/String 'Kafka Connect Time type should not have any date fields set to non-zero values.' MUST BE CONVERTED to const"

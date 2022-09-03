@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractTaskProcessorNodePunctuator"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractTaskProcessorNodePunctuator"
  , "c2" : "org.apache.kafka.streams.processor.internals.StreamTask"
 }} 
 ]
@@ -17,414 +17,414 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StreamTask" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StreamTask"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamTask"
  , "c2" : "StreamTask(TaskId;Set<TopicPartition>;ProcessorTopology;Consumer<byte[],byte[]>;TaskConfig;StreamsMetricsImpl;StateDirectory;ThreadCache;Time;ProcessorStateManager;RecordCollector;InternalProcessorContext;LogContext)"
  , "c3" : "4"
  , "c4" : "35"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,RecordQueue>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,RecordQueue>"
  , "c2" : "createPartitionQueues()"
  , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isActive()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "initializeIfNeeded()"
  , "c3" : "2"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "addPartitionsForOffsetReset(Set<TopicPartition>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "completeRestoration(java.util.function.Consumer<Set<TopicPartition>>)"
  , "c3" : "6"
  , "c4" : "9"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "suspend()"
  , "c3" : "6"
  , "c4" : "13"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "closeTopology()"
  , "c3" : "3"
  , "c4" : "7"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "resume()"
  , "c3" : "6"
  , "c4" : "11"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "prepareCommit()"
  , "c3" : "8"
  , "c4" : "9"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Long"
+{ "ligne" : { "" : ""
+ , "c1" : "Long"
  , "c2" : "findOffset(TopicPartition)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "committableOffsetsAndMetadata()"
  , "c3" : "7"
  , "c4" : "13"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "postCommit(boolean)"
  , "c3" : "7"
  , "c4" : "11"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "clearCommitStatuses()"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "extractPartitionTimes()"
  , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "closeClean()"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "closeDirty()"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "closeCleanAndRecycleState()"
  , "c3" : "6"
  , "c4" : "12"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "maybeCheckpoint(boolean)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "validateClean()"
  , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "removeAllSensors()"
  , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close(boolean)"
  , "c3" : "6"
  , "c4" : "11"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isProcessable(long)"
  , "c3" : "6"
  , "c4" : "7"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "process(long)"
  , "c3" : "8"
  , "c4" : "19"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "doProcess(long)"
  , "c3" : "1"
  , "c4" : "8"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "recordProcessBatchTime(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "recordProcessTimeRatioAndBufferSize(long;long)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "getStacktraceString(RuntimeException)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "punctuate(ProcessorNode<?,?,?,?>;long;PunctuationType;Punctuator)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "updateProcessorContext(ProcessorNode<?,?,?,?>;long;ProcessorRecordContext)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "checkpointableOffsets()"
  , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "resetOffsetsIfNeededAndInitializeMetadata(java.util.function.Consumer<Set<TopicPartition>>)"
  , "c3" : "4"
  , "c4" : "10"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "initializeTaskTimeAndProcessorMetadata(Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "5"
  , "c4" : "14"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "purgeableOffsets()"
  , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "initializeTopology()"
  , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "addRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Cancellable"
+{ "ligne" : { "" : ""
+ , "c1" : "Cancellable"
  , "c2" : "schedule(long;PunctuationType;Punctuator)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Cancellable"
+{ "ligne" : { "" : ""
+ , "c1" : "Cancellable"
  , "c2" : "schedule(long;long;PunctuationType;Punctuator)"
  , "c3" : "4"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "maybePunctuateStreamTime()"
  , "c3" : "4"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "maybePunctuateSystemTime()"
  , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "maybeRecordE2ELatency(long;long;String)"
  , "c3" : "4"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "requestCommit()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "commitRequested()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InternalProcessorContext"
+{ "ligne" : { "" : ""
+ , "c1" : "InternalProcessorContext"
  , "c2" : "processorContext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString(String)"
  , "c3" : "4"
  , "c4" : "12"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "commitNeeded()"
  , "c3" : "5"
  , "c4" : "8"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "changelogOffsets()"
  , "c3" : "3"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "committedOffsets()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "highWaterMark()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "transitToSuspend()"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<Long>"
  , "c2" : "timeCurrentIdlingStarted()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "updateCommittedOffsets(TopicPartition;Long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "updateEndOffsets(TopicPartition;Long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasRecordsQueued()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RecordCollector"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordCollector"
  , "c2" : "recordCollector()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "numBuffered()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "streamTime()"
  , "c3" : "1"
  , "c4" : "1"
@@ -471,57 +471,57 @@ var maDataBlocs = {
 ]
 ,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "93"
 }}
 ,
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "9"
 }}
 ,
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "22"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "12"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "149"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "25"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
  , "c4" : "9"
@@ -529,2241 +529,2241 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00094"
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#94"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00094] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00096"
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#96"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00096] The argument topology is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00098"
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#98"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00098] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00103"
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#103"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00103] The argument stateMgr is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00105"
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#105"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00105] The argument processorContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00143"
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#143"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00143] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00114"
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#114"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.StreamTask.StreamTask@POLYN307973 the MagicNumber/String  'task' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00178"
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#178"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.processor.internals.StreamTask.StreamTask@POLYN307973 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00179"
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#179"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.StreamTask.StreamTask@POLYN307973 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00196"
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#196"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.StreamTask.isActive@POLYN313028 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00214"
+{ "ligne" : {"" : ""
+ , "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#214"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeIfNeeded@POLYN313259 the MagicNumber/String  'Initialized' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00218"
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method addPartitionsForOffsetReset arguments Set&lt;TopicPartition &gt;  partitionsForOffsetReset"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00225"
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#225"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00225] For method completeRestoration arguments java.util.function.Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00237"
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#237"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String  'Restored and ready to run' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00244"
+{ "ligne" : {"" : ""
+ , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#244"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00244"
+{ "ligne" : {"" : ""
+ , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#244"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String  ' while completing restoration for active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00247"
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#247"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00247"
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#247"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String  ' while completing restoration for active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00272"
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#272"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String  'Suspended running' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00278"
+{ "ligne" : {"" : ""
+ , "c1" : "00278"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#278"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String  'Skip suspending since state is {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00283"
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#283"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00283"
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#283"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String  ' while suspending active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00286"
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#286"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00286"
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#286"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String  ' while suspending active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00301"
+{ "ligne" : {"" : ""
+ , "c1" : "00301"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#301"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00301] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00292"
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#292"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String  'Closing processor topology' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00296"
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#296"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00304"
+{ "ligne" : {"" : ""
+ , "c1" : "00304"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#304"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00308"
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#308"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00321"
+{ "ligne" : {"" : ""
+ , "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#321"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  'Skip resuming since state is {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00331"
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#331"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  'Deleted check point file upon resuming with EOS enabled' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00333"
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#333"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  'Encountered error while deleting the checkpoint file due to this exception' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00337"
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#337"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  'Resumed to restoring state' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00342"
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#342"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00342"
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#342"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  ' while resuming active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00345"
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#345"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00345"
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#345"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String  ' while resuming active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00370"
+{ "ligne" : {"" : ""
+ , "c1" : "00370"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#370"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  'Prepared {} task for committing' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00373"
+{ "ligne" : {"" : ""
+ , "c1" : "00373"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#373"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  'Skipped preparing {} task for commit since there is nothing to commit' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00378"
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00378"
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  ' while preparing active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00378"
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  ' for committing' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00381"
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00381"
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  ' while preparing active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00381"
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String  ' for committing' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00385"
+{ "ligne" : {"" : ""
+ , "c1" : "00385"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#385"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00385] For method findOffset arguments TopicPartition  partition"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00385"
+{ "ligne" : {"" : ""
+ , "c1" : "00385"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#385"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00385] For method findOffset list of called methods Object monObjet|Long partitionGroup_headRecordOffsetN319871"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00387"
+{ "ligne" : {"" : ""
+ , "c1" : "00387"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#387"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.streams.processor.internals.StreamTask.findOffset@POLYN319771 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00404"
+{ "ligne" : {"" : ""
+ , "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#404"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00404] For method committableOffsetsAndMetadata list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Long&gt; extractPartitionTimesN320912|Long findOffsetN321380"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00425"
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#425"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00425] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00433"
+{ "ligne" : {"" : ""
+ , "c1" : "00433"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#433"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.streams.processor.internals.StreamTask.committableOffsetsAndMetadata@POLYN320441 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00433"
+{ "ligne" : {"" : ""
+ , "c1" : "00433"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#433"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.streams.processor.internals.StreamTask.committableOffsetsAndMetadata@POLYN320441 the MagicNumber/String  ' while getting committable offsets for active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00436"
+{ "ligne" : {"" : ""
+ , "c1" : "00436"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#436"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.streams.processor.internals.StreamTask.committableOffsetsAndMetadata@POLYN320441 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00436"
+{ "ligne" : {"" : ""
+ , "c1" : "00436"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#436"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.streams.processor.internals.StreamTask.committableOffsetsAndMetadata@POLYN320441 the MagicNumber/String  ' while post committing active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00443"
+{ "ligne" : {"" : ""
+ , "c1" : "00443"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#443"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00443] For method postCommit arguments boolean  enforceCheckpoint"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00448"
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#448"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String  'Skipped writing checkpoint for {} task' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00455"
+{ "ligne" : {"" : ""
+ , "c1" : "00455"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#455"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String  'Finalized commit for {} task with enforce checkpoint {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00463"
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#463"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String  'Finalized commit for {} task with eos {} enforce checkpoint {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00468"
+{ "ligne" : {"" : ""
+ , "c1" : "00468"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#468"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00468"
+{ "ligne" : {"" : ""
+ , "c1" : "00468"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#468"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String  ' while post committing active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00471"
+{ "ligne" : {"" : ""
+ , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#471"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00471"
+{ "ligne" : {"" : ""
+ , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#471"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String  ' while post committing active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00478"
+{ "ligne" : {"" : ""
+ , "c1" : "00478"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#478"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.streams.processor.internals.StreamTask.clearCommitStatuses@POLYN323511 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00479"
+{ "ligne" : {"" : ""
+ , "c1" : "00479"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#479"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.streams.processor.internals.StreamTask.clearCommitStatuses@POLYN323511 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00480"
+{ "ligne" : {"" : ""
+ , "c1" : "00480"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#480"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.streams.processor.internals.StreamTask.clearCommitStatuses@POLYN323511 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00481"
+{ "ligne" : {"" : ""
+ , "c1" : "00481"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#481"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.streams.processor.internals.StreamTask.clearCommitStatuses@POLYN323511 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00497"
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#497"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.streams.processor.internals.StreamTask.closeClean@POLYN324308 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00498"
+{ "ligne" : {"" : ""
+ , "c1" : "00498"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#498"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.streams.processor.internals.StreamTask.closeClean@POLYN324308 the MagicNumber/String  'Closed clean' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00505"
+{ "ligne" : {"" : ""
+ , "c1" : "00505"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#505"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00505] In method org.apache.kafka.streams.processor.internals.StreamTask.closeDirty@POLYN324633 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00506"
+{ "ligne" : {"" : ""
+ , "c1" : "00506"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#506"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.streams.processor.internals.StreamTask.closeDirty@POLYN324633 the MagicNumber/String  'Closed dirty' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00510"
+{ "ligne" : {"" : ""
+ , "c1" : "00510"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#510"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00510] For method updateInputPartitions arguments Set&lt;TopicPartition &gt;  topicPartitions|Map&lt;String ,List&lt;String &gt; &gt;  allTopologyNodesToSourceTopics"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00513"
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#513"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.processor.internals.StreamTask.updateInputPartitions@POLYN324914 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00533"
+{ "ligne" : {"" : ""
+ , "c1" : "00533"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#533"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00533"
+{ "ligne" : {"" : ""
+ , "c1" : "00533"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#533"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String  ' while recycling active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00535"
+{ "ligne" : {"" : ""
+ , "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#535"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00535"
+{ "ligne" : {"" : ""
+ , "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#535"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String  ' while recycling active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00542"
+{ "ligne" : {"" : ""
+ , "c1" : "00542"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#542"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String  'Closed clean and recycled state' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00547"
+{ "ligne" : {"" : ""
+ , "c1" : "00547"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#547"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00547] For method maybeCheckpoint arguments boolean  enforceCheckpoint"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00561"
+{ "ligne" : {"" : ""
+ , "c1" : "00561"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#561"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.streams.processor.internals.StreamTask.validateClean@POLYN327012 the MagicNumber/String  'Tried to close clean but there was pending uncommitted data, this means we failed to' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00562"
+{ "ligne" : {"" : ""
+ , "c1" : "00562"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#562"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.streams.processor.internals.StreamTask.validateClean@POLYN327012 the MagicNumber/String  ' commit and should close as dirty instead' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00563"
+{ "ligne" : {"" : ""
+ , "c1" : "00563"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#563"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.streams.processor.internals.StreamTask.validateClean@POLYN327012 the MagicNumber/String  'Tried to close dirty task as clean' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00575"
+{ "ligne" : {"" : ""
+ , "c1" : "00575"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#575"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00575] For method close arguments boolean  clean"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00581"
+{ "ligne" : {"" : ""
+ , "c1" : "00581"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#581"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00581] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  'partition group close' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00598"
+{ "ligne" : {"" : ""
+ , "c1" : "00598"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#598"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00598] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  'state manager close' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00604"
+{ "ligne" : {"" : ""
+ , "c1" : "00604"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#604"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00604] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  'record collector close' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00611"
+{ "ligne" : {"" : ""
+ , "c1" : "00611"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#611"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00611] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  'Skip closing since state is {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00617"
+{ "ligne" : {"" : ""
+ , "c1" : "00617"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#617"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00617"
+{ "ligne" : {"" : ""
+ , "c1" : "00617"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#617"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  ' while closing active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00620"
+{ "ligne" : {"" : ""
+ , "c1" : "00620"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#620"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00620"
+{ "ligne" : {"" : ""
+ , "c1" : "00620"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#620"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  ' while closing active task ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00623"
+{ "ligne" : {"" : ""
+ , "c1" : "00623"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#623"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00630"
+{ "ligne" : {"" : ""
+ , "c1" : "00630"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#630"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00630] For method isProcessable arguments long  wallClockTime"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00630"
+{ "ligne" : {"" : ""
+ , "c1" : "00630"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#630"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00630] For method isProcessable list of called methods Object monObjet|boolean partitionGroup_readyToProcessN330042"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00635"
+{ "ligne" : {"" : ""
+ , "c1" : "00635"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#635"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.streams.processor.internals.StreamTask.isProcessable@POLYN329580 the MagicNumber/String  'Stream task {} is already in {} state, skip processing it.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00637"
+{ "ligne" : {"" : ""
+ , "c1" : "00637"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#637"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.streams.processor.internals.StreamTask.isProcessable@POLYN329580 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00643"
+{ "ligne" : {"" : ""
+ , "c1" : "00643"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#643"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00643] In method org.apache.kafka.streams.processor.internals.StreamTask.isProcessable@POLYN329580 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00658"
+{ "ligne" : {"" : ""
+ , "c1" : "00658"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#658"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00658] For method process arguments long  wallClockTime"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00658"
+{ "ligne" : {"" : ""
+ , "c1" : "00658"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#658"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00658] For method process list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.StampedRecord partitionGroup_nextRecordN330965"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00659"
+{ "ligne" : {"" : ""
+ , "c1" : "00659"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#659"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00659] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00661"
+{ "ligne" : {"" : ""
+ , "c1" : "00661"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#661"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00668"
+{ "ligne" : {"" : ""
+ , "c1" : "00668"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#668"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00668] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00669"
+{ "ligne" : {"" : ""
+ , "c1" : "00669"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#669"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00682"
+{ "ligne" : {"" : ""
+ , "c1" : "00682"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#682"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00690"
+{ "ligne" : {"" : ""
+ , "c1" : "00690"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#690"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00690] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00695"
+{ "ligne" : {"" : ""
+ , "c1" : "00695"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#695"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00699"
+{ "ligne" : {"" : ""
+ , "c1" : "00699"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#699"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00704"
+{ "ligne" : {"" : ""
+ , "c1" : "00704"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#704"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00704] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  'Exception caught in process. taskId=%s, processor=%s, topic=%s, partition=%d, offset=%d, stacktrace=%s' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00714"
+{ "ligne" : {"" : ""
+ , "c1" : "00714"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#714"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00718"
+{ "ligne" : {"" : ""
+ , "c1" : "00718"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#718"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00721"
+{ "ligne" : {"" : ""
+ , "c1" : "00721"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#721"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00725"
+{ "ligne" : {"" : ""
+ , "c1" : "00725"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#725"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00725] For method doProcess arguments long  wallClockTime"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00728"
+{ "ligne" : {"" : ""
+ , "c1" : "00728"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#728"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.streams.processor.internals.StreamTask.doProcess@POLYN333070 the MagicNumber/String  'Start processing one record [{}]' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00748"
+{ "ligne" : {"" : ""
+ , "c1" : "00748"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#748"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.streams.processor.internals.StreamTask.doProcess@POLYN333070 the MagicNumber/String  'Completed processing one record [{}]' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00752"
+{ "ligne" : {"" : ""
+ , "c1" : "00752"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#752"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00752] For method recordProcessBatchTime arguments long  processBatchTime"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00757"
+{ "ligne" : {"" : ""
+ , "c1" : "00757"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#757"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00757] For method recordProcessTimeRatioAndBufferSize arguments long  allTaskProcessMs|long  now"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00760"
+{ "ligne" : {"" : ""
+ , "c1" : "00760"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#760"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00760] In method org.apache.kafka.streams.processor.internals.StreamTask.recordProcessTimeRatioAndBufferSize@POLYN334693 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00763"
+{ "ligne" : {"" : ""
+ , "c1" : "00763"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#763"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00763] For method getStacktraceString arguments RuntimeException  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00764"
+{ "ligne" : {"" : ""
+ , "c1" : "00764"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#764"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.streams.processor.internals.StreamTask.getStacktraceString@POLYN335076 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00770"
+{ "ligne" : {"" : ""
+ , "c1" : "00770"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#770"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00770] In method org.apache.kafka.streams.processor.internals.StreamTask.getStacktraceString@POLYN335076 the MagicNumber/String  'Encountered error extracting stacktrace from this exception' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00778"
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#778"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00778] For method punctuate arguments ProcessorNode&lt;? ,? ,? ,? &gt;  node|long  timestamp|PunctuationType  type|Punctuator  punctuator"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00778"
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#778"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00778] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00782"
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#782"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00782] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00783"
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#783"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  '%sCurrent node is not null' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00790"
+{ "ligne" : {"" : ""
+ , "c1" : "00790"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#790"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00790] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00791"
+{ "ligne" : {"" : ""
+ , "c1" : "00791"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#791"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00791] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00792"
+{ "ligne" : {"" : ""
+ , "c1" : "00792"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#792"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00798"
+{ "ligne" : {"" : ""
+ , "c1" : "00798"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#798"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  'Punctuating processor {} with timestamp {} and punctuation type {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00806"
+{ "ligne" : {"" : ""
+ , "c1" : "00806"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#806"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00806] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  '%sException caught while punctuating processor '%s'' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00808"
+{ "ligne" : {"" : ""
+ , "c1" : "00808"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#808"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00813"
+{ "ligne" : {"" : ""
+ , "c1" : "00813"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#813"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00813] For method updateProcessorContext arguments ProcessorNode&lt;? ,? ,? ,? &gt;  currNode|long  wallClockTime|ProcessorRecordContext  recordContext"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00828"
+{ "ligne" : {"" : ""
+ , "c1" : "00828"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#828"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00828] In method org.apache.kafka.streams.processor.internals.StreamTask.checkpointableOffsets@POLYN338087 the MagicNumber/String  'Checkpointable offsets {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00833"
+{ "ligne" : {"" : ""
+ , "c1" : "00833"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#833"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00833] For method resetOffsetsIfNeededAndInitializeMetadata arguments java.util.function.Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00833"
+{ "ligne" : {"" : ""
+ , "c1" : "00833"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#833"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00833] The argument offsetResetter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00839"
+{ "ligne" : {"" : ""
+ , "c1" : "00839"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#839"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00839] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00840"
+{ "ligne" : {"" : ""
+ , "c1" : "00840"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#840"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00840] In method org.apache.kafka.streams.processor.internals.StreamTask.resetOffsetsIfNeededAndInitializeMetadata@POLYN338703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00851"
+{ "ligne" : {"" : ""
+ , "c1" : "00851"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#851"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00851] In method org.apache.kafka.streams.processor.internals.StreamTask.resetOffsetsIfNeededAndInitializeMetadata@POLYN338703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00856"
+{ "ligne" : {"" : ""
+ , "c1" : "00856"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#856"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00856] In method org.apache.kafka.streams.processor.internals.StreamTask.resetOffsetsIfNeededAndInitializeMetadata@POLYN338703 the MagicNumber/String  'Encountered {} while trying to fetch committed offsets, will retry initializing the metadata in the next loop.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00857"
+{ "ligne" : {"" : ""
+ , "c1" : "00857"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#857"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00857] In method org.apache.kafka.streams.processor.internals.StreamTask.resetOffsetsIfNeededAndInitializeMetadata@POLYN338703 the MagicNumber/String  '\nConsider overwriting consumer config {} to a larger value to avoid timeout errors' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00864"
+{ "ligne" : {"" : ""
+ , "c1" : "00864"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#864"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00864] In method org.apache.kafka.streams.processor.internals.StreamTask.resetOffsetsIfNeededAndInitializeMetadata@POLYN338703 the MagicNumber/String  'task [%s] Failed to initialize offsets for %s' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00868"
+{ "ligne" : {"" : ""
+ , "c1" : "00868"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#868"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00868] For method initializeTaskTimeAndProcessorMetadata arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsetsAndMetadata"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00868"
+{ "ligne" : {"" : ""
+ , "c1" : "00868"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#868"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00868] For method initializeTaskTimeAndProcessorMetadata list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.TopicPartitionMetadata TopicPartitionMetadata_decodeN341175|long committedTimestampAndMeta_partitionTimeN341294|org.apache.kafka.streams.processor.internals.ProcessorMetadata committedTimestampAndMeta_processorMetadataN341630"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00868"
+{ "ligne" : {"" : ""
+ , "c1" : "00868"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#868"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00868] The argument offsetsAndMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00871"
+{ "ligne" : {"" : ""
+ , "c1" : "00871"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#871"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00871] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00872"
+{ "ligne" : {"" : ""
+ , "c1" : "00872"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#872"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00872] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00875"
+{ "ligne" : {"" : ""
+ , "c1" : "00875"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#875"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00875] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00881"
+{ "ligne" : {"" : ""
+ , "c1" : "00881"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#881"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00881] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00874"
+{ "ligne" : {"" : ""
+ , "c1" : "00874"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#874"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00874] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00878"
+{ "ligne" : {"" : ""
+ , "c1" : "00878"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#878"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00878] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String  'A committed timestamp was detected: setting the partition time of partition {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00879"
+{ "ligne" : {"" : ""
+ , "c1" : "00879"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#879"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00879] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String  ' to {} in stream task {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00884"
+{ "ligne" : {"" : ""
+ , "c1" : "00884"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#884"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00884] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String  'No committed timestamp was found in metadata for partition {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00892"
+{ "ligne" : {"" : ""
+ , "c1" : "00892"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#892"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00892] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String  'No committed offset for partition {}, therefore no timestamp can be found for this partition' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00900"
+{ "ligne" : {"" : ""
+ , "c1" : "00900"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#900"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00900] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00902"
+{ "ligne" : {"" : ""
+ , "c1" : "00902"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#902"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00902] In method org.apache.kafka.streams.processor.internals.StreamTask.purgeableOffsets@POLYN342403 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00912"
+{ "ligne" : {"" : ""
+ , "c1" : "00912"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#912"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00912] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeTopology@POLYN343125 the MagicNumber/String  'Initializing processor nodes of the topology' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00918"
+{ "ligne" : {"" : ""
+ , "c1" : "00918"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#918"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00918] In method org.apache.kafka.streams.processor.internals.StreamTask.initializeTopology@POLYN343125 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00925"
+{ "ligne" : {"" : ""
+ , "c1" : "00925"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#925"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00925] For method addRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00925"
+{ "ligne" : {"" : ""
+ , "c1" : "00925"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#925"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00925] For method addRecords list of called methods Object monObjet|int partitionGroup_addRawRecordsN344021"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00929"
+{ "ligne" : {"" : ""
+ , "c1" : "00929"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#929"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00929] In method org.apache.kafka.streams.processor.internals.StreamTask.addRecords@POLYN343822 the MagicNumber/String  'Added records into the buffered queue of partition {}, new queue size is {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00940"
+{ "ligne" : {"" : ""
+ , "c1" : "00940"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#940"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00940] For method schedule arguments long  interval|PunctuationType  type|Punctuator  punctuator"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00944"
+{ "ligne" : {"" : ""
+ , "c1" : "00944"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#944"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00944] In method org.apache.kafka.streams.processor.internals.StreamTask.schedule@POLYN344611 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00949"
+{ "ligne" : {"" : ""
+ , "c1" : "00949"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#949"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00949] In method org.apache.kafka.streams.processor.internals.StreamTask.schedule@POLYN344611 the MagicNumber/String  'Unrecognized PunctuationType: ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00954"
+{ "ligne" : {"" : ""
+ , "c1" : "00954"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#954"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00954] For method schedule arguments long  startTime|long  interval|PunctuationType  type|Punctuator  punctuator"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00955"
+{ "ligne" : {"" : ""
+ , "c1" : "00955"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#955"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00955] In method org.apache.kafka.streams.processor.internals.StreamTask.schedule@POLYN345435 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00956"
+{ "ligne" : {"" : ""
+ , "c1" : "00956"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#956"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.streams.processor.internals.StreamTask.schedule@POLYN345435 the MagicNumber/String  '%sCurrent node is null' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00970"
+{ "ligne" : {"" : ""
+ , "c1" : "00970"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#970"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00970] In method org.apache.kafka.streams.processor.internals.StreamTask.schedule@POLYN345435 the MagicNumber/String  'Unrecognized PunctuationType: ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00975"
+{ "ligne" : {"" : ""
+ , "c1" : "00975"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#975"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00975] For method maybePunctuateStreamTime list of called methods Object monObjet|long partitionGroup_streamTimeN346633|boolean streamTimePunctuationQueue_mayPunctuateN346846"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00981"
+{ "ligne" : {"" : ""
+ , "c1" : "00981"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#981"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00981] In method org.apache.kafka.streams.processor.internals.StreamTask.maybePunctuateStreamTime@POLYN346553 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00986"
+{ "ligne" : {"" : ""
+ , "c1" : "00986"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#986"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00986] In method org.apache.kafka.streams.processor.internals.StreamTask.maybePunctuateStreamTime@POLYN346553 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00994"
+{ "ligne" : {"" : ""
+ , "c1" : "00994"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#994"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00994] For method maybePunctuateSystemTime list of called methods Object monObjet|boolean systemTimePunctuationQueue_mayPunctuateN347442"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01000"
+{ "ligne" : {"" : ""
+ , "c1" : "01000"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1000"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.streams.processor.internals.StreamTask.maybePunctuateSystemTime@POLYN347282 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01006"
+{ "ligne" : {"" : ""
+ , "c1" : "01006"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1006"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01006] For method maybeRecordE2ELatency arguments long  recordTimestamp|long  now|String  nodeName"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01008"
+{ "ligne" : {"" : ""
+ , "c1" : "01008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1008"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.streams.processor.internals.StreamTask.maybeRecordE2ELatency@POLYN347692 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01009"
+{ "ligne" : {"" : ""
+ , "c1" : "01009"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1009"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01009] In method org.apache.kafka.streams.processor.internals.StreamTask.maybeRecordE2ELatency@POLYN347692 the MagicNumber/String  'Requested to record e2e latency but could not find sensor for node ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01017"
+{ "ligne" : {"" : ""
+ , "c1" : "01017"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1017"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.streams.processor.internals.StreamTask.requestCommit@POLYN348346 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01034"
+{ "ligne" : {"" : ""
+ , "c1" : "01034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1034"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN348877 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01038"
+{ "ligne" : {"" : ""
+ , "c1" : "01038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1038"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01038] For method toString arguments String  indent"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01041"
+{ "ligne" : {"" : ""
+ , "c1" : "01041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1041"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  'TaskId: ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01043"
+{ "ligne" : {"" : ""
+ , "c1" : "01043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1043"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01043] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01046"
+{ "ligne" : {"" : ""
+ , "c1" : "01046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1046"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01046] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01047"
+{ "ligne" : {"" : ""
+ , "c1" : "01047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1047"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  '\t' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01052"
+{ "ligne" : {"" : ""
+ , "c1" : "01052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1052"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01053"
+{ "ligne" : {"" : ""
+ , "c1" : "01053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1053"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01053] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  'Partitions [' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01055"
+{ "ligne" : {"" : ""
+ , "c1" : "01055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1055"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01055] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01057"
+{ "ligne" : {"" : ""
+ , "c1" : "01057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1057"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01057] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01058"
+{ "ligne" : {"" : ""
+ , "c1" : "01058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1058"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.streams.processor.internals.StreamTask.toString@POLYN349133 the MagicNumber/String  ']\n' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01072"
+{ "ligne" : {"" : ""
+ , "c1" : "01072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1072"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[01072] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01083"
+{ "ligne" : {"" : ""
+ , "c1" : "01083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1083"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[01083] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01090"
+{ "ligne" : {"" : ""
+ , "c1" : "01090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1090"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[01090] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01069"
+{ "ligne" : {"" : ""
+ , "c1" : "01069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1069"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01069] In method org.apache.kafka.streams.processor.internals.StreamTask.commitNeeded@POLYN350606 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01079"
+{ "ligne" : {"" : ""
+ , "c1" : "01079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1079"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01079] In method org.apache.kafka.streams.processor.internals.StreamTask.commitNeeded@POLYN350606 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01080"
+{ "ligne" : {"" : ""
+ , "c1" : "01080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1080"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01080] In method org.apache.kafka.streams.processor.internals.StreamTask.commitNeeded@POLYN350606 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01081"
+{ "ligne" : {"" : ""
+ , "c1" : "01081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1081"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01081] In method org.apache.kafka.streams.processor.internals.StreamTask.commitNeeded@POLYN350606 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01122"
+{ "ligne" : {"" : ""
+ , "c1" : "01122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1122"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01122] In method org.apache.kafka.streams.processor.internals.StreamTask.transitToSuspend@POLYN352522 the MagicNumber/String  'Suspended {}' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01132"
+{ "ligne" : {"" : ""
+ , "c1" : "01132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01132] For method updateCommittedOffsets arguments TopicPartition  topicPartition|Long  offset"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01136"
+{ "ligne" : {"" : ""
+ , "c1" : "01136"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1136"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01136] For method updateEndOffsets arguments TopicPartition  topicPartition|Long  offset"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01141"
+{ "ligne" : {"" : ""
+ , "c1" : "01141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1141"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.streams.processor.internals.StreamTask.hasRecordsQueued@POLYN353357 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01157"
+{ "ligne" : {"" : ""
+ , "c1" : "01157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1157"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[01157] The class RecordQueueCreator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01170"
+{ "ligne" : {"" : ""
+ , "c1" : "01170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1170"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01170] For method createQueue arguments TopicPartition  partition"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01170"
+{ "ligne" : {"" : ""
+ , "c1" : "01170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1170"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[01170] For method createQueue list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.SourceNode&lt;?,?&gt; topology_sourceN354370|long source_getTimestampExtractorN354686"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01170"
+{ "ligne" : {"" : ""
+ , "c1" : "01170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1170"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01170] The argument partition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01172"
+{ "ligne" : {"" : ""
+ , "c1" : "01172"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1172"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN354240 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01174"
+{ "ligne" : {"" : ""
+ , "c1" : "01174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1174"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN354240 the MagicNumber/String  'Topic is unknown to the topology. ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01175"
+{ "ligne" : {"" : ""
+ , "c1" : "01175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1175"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01175] In method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN354240 the MagicNumber/String  'This may happen if different KafkaStreams instances of the same application execute different Topologies. ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01176"
+{ "ligne" : {"" : ""
+ , "c1" : "01176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1176"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01176] In method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN354240 the MagicNumber/String  'Note that Topologies are only identical if all operators are added in the same order.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01181"
+{ "ligne" : {"" : ""
+ , "c1" : "01181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1181"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN354240 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.doProcess@POLYN333070"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.closeClean@POLYN324308"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.closeDirty@POLYN324633"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.transitToSuspend@POLYN352522"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.maybeCheckpoint@POLYN326720"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.initializeTopology@POLYN343125"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.addRecords@POLYN343822"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.checkpointableOffsets@POLYN338087"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.initializeIfNeeded@POLYN313259"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.isProcessable@POLYN329580"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.updateInputPartitions@POLYN324914"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00659"
+{ "ligne" : {"" : ""
+ , "c1" : "00659"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#659"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00659] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00661"
+{ "ligne" : {"" : ""
+ , "c1" : "00661"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#661"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00661] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00668"
+{ "ligne" : {"" : ""
+ , "c1" : "00668"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#668"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00668] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00669"
+{ "ligne" : {"" : ""
+ , "c1" : "00669"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#669"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00669] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00682"
+{ "ligne" : {"" : ""
+ , "c1" : "00682"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#682"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00682] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00690"
+{ "ligne" : {"" : ""
+ , "c1" : "00690"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#690"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00690] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00695"
+{ "ligne" : {"" : ""
+ , "c1" : "00695"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#695"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00695] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00699"
+{ "ligne" : {"" : ""
+ , "c1" : "00699"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#699"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00699] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00704"
+{ "ligne" : {"" : ""
+ , "c1" : "00704"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#704"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00704] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String 'Exception caught in process. taskId=%s, processor=%s, topic=%s, partition=%d, offset=%d, stacktrace=%s' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00714"
+{ "ligne" : {"" : ""
+ , "c1" : "00714"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#714"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00714] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00718"
+{ "ligne" : {"" : ""
+ , "c1" : "00718"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#718"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00718] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00721"
+{ "ligne" : {"" : ""
+ , "c1" : "00721"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#721"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00721] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.process@POLYN330666 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00728"
+{ "ligne" : {"" : ""
+ , "c1" : "00728"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#728"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00728] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.doProcess@POLYN333070 the MagicNumber/String 'Start processing one record [{}]' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00748"
+{ "ligne" : {"" : ""
+ , "c1" : "00748"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#748"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00748] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.doProcess@POLYN333070 the MagicNumber/String 'Completed processing one record [{}]' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00581"
+{ "ligne" : {"" : ""
+ , "c1" : "00581"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#581"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00581] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String 'partition group close' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00598"
+{ "ligne" : {"" : ""
+ , "c1" : "00598"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#598"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00598] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String 'state manager close' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00604"
+{ "ligne" : {"" : ""
+ , "c1" : "00604"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#604"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String 'record collector close' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00611"
+{ "ligne" : {"" : ""
+ , "c1" : "00611"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#611"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00611] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String 'Skip closing since state is {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00617"
+{ "ligne" : {"" : ""
+ , "c1" : "00617"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#617"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00617] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String ' while closing active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00617"
+{ "ligne" : {"" : ""
+ , "c1" : "00617"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#617"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00617] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00620"
+{ "ligne" : {"" : ""
+ , "c1" : "00620"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#620"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00620] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String ' while closing active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00620"
+{ "ligne" : {"" : ""
+ , "c1" : "00620"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#620"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00620] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00623"
+{ "ligne" : {"" : ""
+ , "c1" : "00623"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#623"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00623] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.close@POLYN327824 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00497"
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#497"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00497] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeClean@POLYN324308 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00498"
+{ "ligne" : {"" : ""
+ , "c1" : "00498"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#498"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00498] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeClean@POLYN324308 the MagicNumber/String 'Closed clean' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00505"
+{ "ligne" : {"" : ""
+ , "c1" : "00505"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#505"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00505] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeDirty@POLYN324633 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00506"
+{ "ligne" : {"" : ""
+ , "c1" : "00506"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#506"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00506] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeDirty@POLYN324633 the MagicNumber/String 'Closed dirty' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00370"
+{ "ligne" : {"" : ""
+ , "c1" : "00370"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#370"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00370] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Prepared {} task for committing' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00373"
+{ "ligne" : {"" : ""
+ , "c1" : "00373"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#373"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Skipped preparing {} task for commit since there is nothing to commit' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00378"
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' for committing' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00378"
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' while preparing active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00378"
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00381"
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' for committing' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00381"
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' while preparing active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00381"
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01122"
+{ "ligne" : {"" : ""
+ , "c1" : "01122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1122"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01122] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.transitToSuspend@POLYN352522 the MagicNumber/String 'Suspended {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00292"
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#292"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00292] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String 'Closing processor topology' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00296"
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#296"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00304"
+{ "ligne" : {"" : ""
+ , "c1" : "00304"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#304"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00308"
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#308"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeTopology@POLYN316304 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00272"
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#272"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String 'Suspended running' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00278"
+{ "ligne" : {"" : ""
+ , "c1" : "00278"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#278"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00278] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String 'Skip suspending since state is {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00283"
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#283"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String ' while suspending active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00283"
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#283"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00286"
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#286"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String ' while suspending active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00286"
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#286"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN315165 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00533"
+{ "ligne" : {"" : ""
+ , "c1" : "00533"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#533"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String ' while recycling active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00533"
+{ "ligne" : {"" : ""
+ , "c1" : "00533"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#533"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00535"
+{ "ligne" : {"" : ""
+ , "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#535"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00535] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String ' while recycling active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00535"
+{ "ligne" : {"" : ""
+ , "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#535"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00535] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00542"
+{ "ligne" : {"" : ""
+ , "c1" : "00542"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#542"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00542] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN325390 the MagicNumber/String 'Closed clean and recycled state' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00448"
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#448"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00448] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String 'Skipped writing checkpoint for {} task' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00455"
+{ "ligne" : {"" : ""
+ , "c1" : "00455"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#455"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00455] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String 'Finalized commit for {} task with enforce checkpoint {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00463"
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#463"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00463] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String 'Finalized commit for {} task with eos {} enforce checkpoint {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00468"
+{ "ligne" : {"" : ""
+ , "c1" : "00468"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#468"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00468] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String ' while post committing active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00468"
+{ "ligne" : {"" : ""
+ , "c1" : "00468"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#468"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00468] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00471"
+{ "ligne" : {"" : ""
+ , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#471"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00471] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String ' while post committing active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00471"
+{ "ligne" : {"" : ""
+ , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#471"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00471] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.postCommit@POLYN322210 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00782"
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#782"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00782] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00783"
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#783"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00783] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String '%sCurrent node is not null' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00790"
+{ "ligne" : {"" : ""
+ , "c1" : "00790"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#790"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00790] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String 1L MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00791"
+{ "ligne" : {"" : ""
+ , "c1" : "00791"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00791] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00792"
+{ "ligne" : {"" : ""
+ , "c1" : "00792"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#792"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00792] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00798"
+{ "ligne" : {"" : ""
+ , "c1" : "00798"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#798"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00798] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String 'Punctuating processor {} with timestamp {} and punctuation type {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00806"
+{ "ligne" : {"" : ""
+ , "c1" : "00806"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#806"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00806] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String '%sException caught while punctuating processor '%s'' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00808"
+{ "ligne" : {"" : ""
+ , "c1" : "00808"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#808"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00808] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN335873 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00912"
+{ "ligne" : {"" : ""
+ , "c1" : "00912"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#912"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00912] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeTopology@POLYN343125 the MagicNumber/String 'Initializing processor nodes of the topology' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00918"
+{ "ligne" : {"" : ""
+ , "c1" : "00918"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#918"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00918] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeTopology@POLYN343125 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00237"
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#237"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String 'Restored and ready to run' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00244"
+{ "ligne" : {"" : ""
+ , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#244"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String ' while completing restoration for active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00244"
+{ "ligne" : {"" : ""
+ , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#244"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00247"
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#247"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String ' while completing restoration for active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00247"
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#247"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.completeRestoration@POLYN314135 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00929"
+{ "ligne" : {"" : ""
+ , "c1" : "00929"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#929"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00929] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.addRecords@POLYN343822 the MagicNumber/String 'Added records into the buffered queue of partition {}, new queue size is {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00828"
+{ "ligne" : {"" : ""
+ , "c1" : "00828"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#828"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00828] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.checkpointableOffsets@POLYN338087 the MagicNumber/String 'Checkpointable offsets {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00214"
+{ "ligne" : {"" : ""
+ , "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#214"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00214] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeIfNeeded@POLYN313259 the MagicNumber/String 'Initialized' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00874"
+{ "ligne" : {"" : ""
+ , "c1" : "00874"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#874"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00874] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00878"
+{ "ligne" : {"" : ""
+ , "c1" : "00878"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#878"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00878] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String 'A committed timestamp was detected: setting the partition time of partition {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00879"
+{ "ligne" : {"" : ""
+ , "c1" : "00879"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#879"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00879] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String ' to {} in stream task {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00884"
+{ "ligne" : {"" : ""
+ , "c1" : "00884"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#884"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00884] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String 'No committed timestamp was found in metadata for partition {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00892"
+{ "ligne" : {"" : ""
+ , "c1" : "00892"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#892"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00892] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.initializeTaskTimeAndProcessorMetadata@POLYN340583 the MagicNumber/String 'No committed offset for partition {}, therefore no timestamp can be found for this partition' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00635"
+{ "ligne" : {"" : ""
+ , "c1" : "00635"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#635"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00635] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.isProcessable@POLYN329580 the MagicNumber/String 'Stream task {} is already in {} state, skip processing it.' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00637"
+{ "ligne" : {"" : ""
+ , "c1" : "00637"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#637"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00637] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.isProcessable@POLYN329580 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00643"
+{ "ligne" : {"" : ""
+ , "c1" : "00643"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#643"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00643] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.isProcessable@POLYN329580 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00321"
+{ "ligne" : {"" : ""
+ , "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#321"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String 'Skip resuming since state is {}' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00331"
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#331"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00331] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String 'Deleted check point file upon resuming with EOS enabled' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00333"
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#333"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String 'Encountered error while deleting the checkpoint file due to this exception' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00337"
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#337"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00337] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String 'Resumed to restoring state' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00342"
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#342"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00342] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String ' while resuming active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00342"
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#342"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00342] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00345"
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#345"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String ' while resuming active task ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00345"
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#345"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00513"
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#513"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00513] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.updateInputPartitions@POLYN324914 the MagicNumber/String true MUST BE CONVERTED to const"

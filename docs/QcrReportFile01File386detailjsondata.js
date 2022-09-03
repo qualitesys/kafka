@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.NotEnoughReplicasException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NotEnoughReplicasException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotEnoughReplicasException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotEnoughReplicasException"
  , "c2" : "NotEnoughReplicasException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotEnoughReplicasException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotEnoughReplicasException"
  , "c2" : "NotEnoughReplicasException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotEnoughReplicasException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotEnoughReplicasException"
  , "c2" : "NotEnoughReplicasException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotEnoughReplicasException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotEnoughReplicasException"
  , "c2" : "NotEnoughReplicasException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

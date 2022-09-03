@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TaskState"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskState"
  , "c2" : "org.apache.kafka.trogdor.rest.TaskDone"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskDone" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TaskDone"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskDone"
  , "c2" : "TaskDone(TaskSpec;long;long;String;boolean;JsonNode)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "startedMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "doneMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "error()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "cancelled()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskStateType"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskStateType"
  , "c2" : "stateType()"
  , "c3" : "1"
  , "c4" : "1"

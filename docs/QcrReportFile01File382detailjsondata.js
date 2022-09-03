@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.NoReassignmentInProgressException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NoReassignmentInProgressException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NoReassignmentInProgressException"
+{ "ligne" : { "" : ""
+ , "c1" : "NoReassignmentInProgressException"
  , "c2" : "NoReassignmentInProgressException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NoReassignmentInProgressException"
+{ "ligne" : { "" : ""
+ , "c1" : "NoReassignmentInProgressException"
  , "c2" : "NoReassignmentInProgressException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

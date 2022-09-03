@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<DescribeConfigsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<DescribeConfigsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.DescribeConfigsOptions"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConfigsOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeConfigsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeConfigsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "includeSynonyms()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "includeDocumentation()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeConfigsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeConfigsOptions"
  , "c2" : "includeSynonyms(boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeConfigsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeConfigsOptions"
  , "c2" : "includeDocumentation(boolean)"
  , "c3" : "1"
  , "c4" : "2"
@@ -84,8 +84,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -93,22 +93,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#18"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00018] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00034"
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#34"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00034] For method includeSynonyms arguments boolean  includeSynonyms"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00040"
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#40"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00040] For method includeDocumentation arguments boolean  includeDocumentation"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.AuthorizationException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.AuthorizationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthorizationException"
  , "c2" : "AuthorizationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthorizationException"
  , "c2" : "AuthorizationException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

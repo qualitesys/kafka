@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidStateStoreException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidStateStoreException"
  , "c2" : "org.apache.kafka.streams.errors.StreamsRebalancingException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.StreamsRebalancingException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StreamsRebalancingException"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamsRebalancingException"
  , "c2" : "StreamsRebalancingException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "StreamsRebalancingException"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamsRebalancingException"
  , "c2" : "StreamsRebalancingException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

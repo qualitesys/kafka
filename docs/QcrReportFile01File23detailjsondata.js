@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "org.apache.kafka.clients.StaleMetadataException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.StaleMetadataException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StaleMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "StaleMetadataException"
  , "c2" : "StaleMetadataException()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "StaleMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "StaleMetadataException"
  , "c2" : "StaleMetadataException(String)"
  , "c3" : "1"
  , "c4" : "1"

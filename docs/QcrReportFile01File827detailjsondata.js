@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Callback"
+{ "ligne" : { "" : ""
+ , "c1" : "Callback"
  , "c2" : "org.apache.kafka.common.security.plain.PlainAuthenticateCallback"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.plain.PlainAuthenticateCallback" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "PlainAuthenticateCallback"
+{ "ligne" : { "" : ""
+ , "c1" : "PlainAuthenticateCallback"
  , "c2" : "PlainAuthenticateCallback(char[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "char[]"
+{ "ligne" : { "" : ""
+ , "c1" : "char[]"
  , "c2" : "password()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "authenticated()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "authenticated(boolean)"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -93,15 +93,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainAuthenticateCallback.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class PlainAuthenticateCallback contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainAuthenticateCallback.java.html#28"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00028] For method authenticated arguments boolean  authenticated"

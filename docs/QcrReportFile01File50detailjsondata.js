@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<CreateDelegationTokenOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<CreateDelegationTokenOptions>"
  , "c2" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CreateDelegationTokenOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "renewers(List<KafkaPrincipal>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<KafkaPrincipal>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<KafkaPrincipal>"
  , "c2" : "renewers()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CreateDelegationTokenOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "owner(KafkaPrincipal)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<KafkaPrincipal>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<KafkaPrincipal>"
  , "c2" : "owner()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CreateDelegationTokenOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "maxlifeTimeMs(long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "maxlifeTimeMs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,8 +91,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -100,22 +100,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#19"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00019] For method renewers arguments List&lt;KafkaPrincipal &gt;  renewers"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#28"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00028] For method owner arguments KafkaPrincipal  owner"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00037"
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#37"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00037] For method maxlifeTimeMs arguments long  maxLifeTimeMs"

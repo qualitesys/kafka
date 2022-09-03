@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotEnoughReplicasAfterAppendException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotEnoughReplicasAfterAppendException"
  , "c2" : "NotEnoughReplicasAfterAppendException(String)"
  , "c3" : "1"
  , "c4" : "1"

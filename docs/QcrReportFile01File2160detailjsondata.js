@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RuntimeException"
+{ "ligne" : { "" : ""
+ , "c1" : "RuntimeException"
  , "c2" : "org.apache.kafka.trogdor.rest.RequestConflictException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.RequestConflictException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RequestConflictException"
+{ "ligne" : { "" : ""
+ , "c1" : "RequestConflictException"
  , "c2" : "RequestConflictException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RequestConflictException"
+{ "ligne" : { "" : ""
+ , "c1" : "RequestConflictException"
  , "c2" : "RequestConflictException()"
  , "c3" : "1"
  , "c4" : "1"

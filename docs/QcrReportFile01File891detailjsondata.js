@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Iterator<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "Iterator<T>"
  , "c2" : "org.apache.kafka.common.utils.CloseableIterator"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.CloseableIterator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"

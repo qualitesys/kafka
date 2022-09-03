@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "PayloadGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "PayloadGenerator"
  , "c2" : "org.apache.kafka.trogdor.workload.NullPayloadGenerator"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.NullPayloadGenerator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NullPayloadGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "NullPayloadGenerator"
  , "c2" : "NullPayloadGenerator()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,22 +63,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -86,22 +86,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class NullPayloadGenerator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#13"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00013] For method generate arguments long  position"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.workload.NullPayloadGenerator.generate@POLYN141348 the MagicNumber/String  null should be converted to const"

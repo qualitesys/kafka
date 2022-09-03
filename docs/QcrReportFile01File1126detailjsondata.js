@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectClusterDetails"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectClusterDetails"
  , "c2" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ConnectClusterDetailsImpl"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectClusterDetailsImpl"
  , "c2" : "ConnectClusterDetailsImpl(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "kafkaClusterId()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterDetailsImpl.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class ConnectClusterDetailsImpl contains no field, constructor, finalize. Must contain only static methods, check it"

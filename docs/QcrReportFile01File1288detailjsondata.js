@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "BaseRecordBatchBenchmark"
+{ "ligne" : { "" : ""
+ , "c1" : "BaseRecordBatchBenchmark"
  , "c2" : "org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CompressionType"
+{ "ligne" : { "" : ""
+ , "c1" : "CompressionType"
  , "c2" : "compressionType()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "measureValidateMessagesAndAssignOffsetsCompressed(Blackhole)"
  , "c3" : "1"
  , "c4" : "2"
@@ -63,22 +63,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "4"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
  , "c4" : "1"
@@ -86,43 +86,43 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00038"
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#38"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00038] For method measureValidateMessagesAndAssignOffsetsCompressed arguments Blackhole  bh"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00038"
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#38"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00038] For method measureValidateMessagesAndAssignOffsetsCompressed list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords MemoryRecords_readableRecordsN150235"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00040"
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#40"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150142 the MagicNumber/String  'a' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00040"
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#40"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150142 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00044"
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#44"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150142 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00044"
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#44"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150142 the MagicNumber/String  0 should be converted to const"

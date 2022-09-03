@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.protocol.MessageSizeAccumulator"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.MessageSizeAccumulator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "totalSize()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "sizeExcludingZeroCopy()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "zeroCopySize()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "addZeroCopyBytes(int)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "addBytes(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "add(MessageSizeAccumulator)"
  , "c3" : "1"
  , "c4" : "2"
@@ -91,22 +91,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -114,36 +114,36 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00005"
+{ "ligne" : {"" : ""
+ , "c1" : "00005"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#5"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00005] The class MessageSizeAccumulator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method addZeroCopyBytes arguments int  size"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#29"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00029] For method addBytes arguments int  size"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00033"
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#33"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00033] For method add arguments MessageSizeAccumulator  size"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00033"
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#33"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00033] The argument size is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

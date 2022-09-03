@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.state.ReadOnlyWindowStore"
 }} 
 ]
@@ -17,64 +17,64 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.ReadOnlyWindowStore" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "V"
+{ "ligne" : { "" : ""
+ , "c1" : "V"
  , "c2" : "fetch(K;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "WindowStoreIterator<V>"
+{ "ligne" : { "" : ""
+ , "c1" : "WindowStoreIterator<V>"
  , "c2" : "fetch(K;Instant;Instant)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "WindowStoreIterator<V>"
+{ "ligne" : { "" : ""
+ , "c1" : "WindowStoreIterator<V>"
  , "c2" : "backwardFetch(K;Instant;Instant)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetch(K;K;Instant;Instant)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetch(K;K;Instant;Instant)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "all()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardAll()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetchAll(Instant;Instant)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetchAll(Instant;Instant)"
  , "c3" : "1"
  , "c4" : "1"

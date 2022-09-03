@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "PayloadGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "PayloadGenerator"
  , "c2" : "org.apache.kafka.trogdor.workload.SequentialPayloadGenerator"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.SequentialPayloadGenerator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SequentialPayloadGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "SequentialPayloadGenerator"
  , "c2" : "SequentialPayloadGenerator(int;long)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "startOffset()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "1"
  , "c4" : "5"
@@ -77,29 +77,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "INFO"
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
  , "c4" : "1"
@@ -107,43 +107,43 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00011] The class SequentialPayloadGenerator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00021"
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.SequentialPayloadGenerator@POLYN146809 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00038"
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#38"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00038] Lock statement on synchronized method generate"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00038"
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#38"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00038] For method generate arguments long  position"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00042"
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#42"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN147542 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00042"
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#42"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN147542 the MagicNumber/String  0 should be converted to const"

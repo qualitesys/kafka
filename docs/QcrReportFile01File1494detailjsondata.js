@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Exception"
+{ "ligne" : { "" : ""
+ , "c1" : "Exception"
  , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RemoteStorageException"
+{ "ligne" : { "" : ""
+ , "c1" : "RemoteStorageException"
  , "c2" : "RemoteStorageException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RemoteStorageException"
+{ "ligne" : { "" : ""
+ , "c1" : "RemoteStorageException"
  , "c2" : "RemoteStorageException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RemoteStorageException"
+{ "ligne" : { "" : ""
+ , "c1" : "RemoteStorageException"
  , "c2" : "RemoteStorageException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

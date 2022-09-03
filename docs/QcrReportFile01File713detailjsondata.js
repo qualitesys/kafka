@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.requests.RequestAndSize"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.RequestAndSize" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RequestAndSize"
+{ "ligne" : { "" : ""
+ , "c1" : "RequestAndSize"
  , "c2" : "RequestAndSize(AbstractRequest;int)"
  , "c3" : "1"
  , "c4" : "2"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00004"
+{ "ligne" : {"" : ""
+ , "c1" : "00004"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestAndSize.java.html#4"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00004] The class RequestAndSize contains no field, constructor, finalize. Must contain only static methods, check it"

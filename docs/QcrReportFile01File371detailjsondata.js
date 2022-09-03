@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.InvalidTopicException"
 }} 
 ]
@@ -17,50 +17,50 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.InvalidTopicException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InvalidTopicException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException()"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidTopicException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidTopicException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidTopicException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(Throwable)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidTopicException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(Set<String>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidTopicException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(String;Set<String>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<String>"
  , "c2" : "invalidTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -98,8 +98,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -107,8 +107,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00035"
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#35"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.errors.InvalidTopicException.InvalidTopicException@POLYN147069 the MagicNumber/String  'Invalid topics: ' should be converted to const"

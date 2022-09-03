@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectorContext"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectorContext"
  , "c2" : "org.apache.kafka.connect.sink.SinkConnectorContext"
 }} 
 ]

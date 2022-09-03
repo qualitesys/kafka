@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "OffsetOutOfRangeException"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetOutOfRangeException"
  , "c2" : "org.apache.kafka.clients.consumer.LogTruncationException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.LogTruncationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "LogTruncationException"
+{ "ligne" : { "" : ""
+ , "c1" : "LogTruncationException"
  , "c2" : "LogTruncationException(String;Map<TopicPartition,Long>;Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "divergentOffsets()"
  , "c3" : "1"
  , "c4" : "1"

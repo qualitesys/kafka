@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.RenewDelegationTokenResult"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.RenewDelegationTokenResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RenewDelegationTokenResult"
+{ "ligne" : { "" : ""
+ , "c1" : "RenewDelegationTokenResult"
  , "c2" : "RenewDelegationTokenResult(KafkaFuture<Long>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Long>"
  , "c2" : "expiryTimestamp()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class RenewDelegationTokenResult contains no field, constructor, finalize. Must contain only static methods, check it"

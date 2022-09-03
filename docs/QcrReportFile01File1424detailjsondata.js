@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RaftException"
+{ "ligne" : { "" : ""
+ , "c1" : "RaftException"
  , "c2" : "org.apache.kafka.raft.errors.NotLeaderException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.errors.NotLeaderException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotLeaderException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderException"
  , "c2" : "NotLeaderException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderException"
  , "c2" : "NotLeaderException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderException"
  , "c2" : "NotLeaderException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

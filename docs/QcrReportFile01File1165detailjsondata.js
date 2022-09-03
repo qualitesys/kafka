@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Closeable"
+{ "ligne" : { "" : ""
+ , "c1" : "Closeable"
  , "c2" : "org.apache.kafka.connect.storage.CloseableOffsetStorageReader"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.CloseableOffsetStorageReader" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"

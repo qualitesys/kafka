@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthenticationException"
  , "c2" : "org.apache.kafka.common.network.DelayedResponseAuthenticationException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.DelayedResponseAuthenticationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DelayedResponseAuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "DelayedResponseAuthenticationException"
  , "c2" : "DelayedResponseAuthenticationException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

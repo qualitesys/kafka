@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.TransactionCoordinatorFencedException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.TransactionCoordinatorFencedException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TransactionCoordinatorFencedException"
+{ "ligne" : { "" : ""
+ , "c1" : "TransactionCoordinatorFencedException"
  , "c2" : "TransactionCoordinatorFencedException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TransactionCoordinatorFencedException"
+{ "ligne" : { "" : ""
+ , "c1" : "TransactionCoordinatorFencedException"
  , "c2" : "TransactionCoordinatorFencedException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Connector"
+{ "ligne" : { "" : ""
+ , "c1" : "Connector"
  , "c2" : "org.apache.kafka.connect.sink.SinkConnector"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.sink.SinkConnector" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SinkConnectorContext"
+{ "ligne" : { "" : ""
+ , "c1" : "SinkConnectorContext"
  , "c2" : "context()"
  , "c3" : "1"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
 ]
 ,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
@@ -74,8 +74,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkConnector.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.sink.SinkConnector.context@POLYN143610"

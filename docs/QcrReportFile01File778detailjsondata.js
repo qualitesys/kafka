@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "IOException"
+{ "ligne" : { "" : ""
+ , "c1" : "IOException"
  , "c2" : "org.apache.kafka.common.security.kerberos.NoMatchingRule"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.kerberos.NoMatchingRule" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NoMatchingRule"
+{ "ligne" : { "" : ""
+ , "c1" : "NoMatchingRule"
  , "c2" : "NoMatchingRule(String)"
  , "c3" : "1"
  , "c4" : "1"

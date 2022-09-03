@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.AbortTransactionResult"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AbortTransactionResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AbortTransactionResult"
+{ "ligne" : { "" : ""
+ , "c1" : "AbortTransactionResult"
  , "c2" : "AbortTransactionResult(Map<TopicPartition,KafkaFuture<Void>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Void>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class AbortTransactionResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00021"
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.admin.AbortTransactionResult.all@POLYN145871 the MagicNumber/String  0 should be converted to const"

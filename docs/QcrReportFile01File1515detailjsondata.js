@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RemoteLogMetadataTransform<RemotePartitionDeleteMetadata>"
+{ "ligne" : { "" : ""
+ , "c1" : "RemoteLogMetadataTransform<RemotePartitionDeleteMetadata>"
  , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ApiMessageAndVersion"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiMessageAndVersion"
  , "c2" : "toApiMessageAndVersion(RemotePartitionDeleteMetadata)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RemotePartitionDeleteMetadataRecord.TopicIdPartitionEntry"
+{ "ligne" : { "" : ""
+ , "c1" : "RemotePartitionDeleteMetadataRecord.TopicIdPartitionEntry"
  , "c2" : "createTopicIdPartitionEntry(TopicIdPartition)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RemotePartitionDeleteMetadata"
+{ "ligne" : { "" : ""
+ , "c1" : "RemotePartitionDeleteMetadata"
  , "c2" : "fromApiMessageAndVersion(ApiMessageAndVersion)"
  , "c3" : "1"
  , "c4" : "3"
@@ -70,22 +70,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -93,50 +93,50 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00011] The class RemotePartitionDeleteMetadataTransform contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#14"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00014] For method toApiMessageAndVersion arguments RemotePartitionDeleteMetadata  partitionDeleteMetadata"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#14"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00014] The argument partitionDeleteMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#23"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00023] For method createTopicIdPartitionEntry arguments TopicIdPartition  topicIdPartition"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#23"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00023] The argument topicIdPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#30"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00030] For method fromApiMessageAndVersion arguments ApiMessageAndVersion  apiMessageAndVersion"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#30"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00030] The argument apiMessageAndVersion is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

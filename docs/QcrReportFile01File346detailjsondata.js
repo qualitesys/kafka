@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.IllegalGenerationException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.IllegalGenerationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "IllegalGenerationException"
+{ "ligne" : { "" : ""
+ , "c1" : "IllegalGenerationException"
  , "c2" : "IllegalGenerationException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "IllegalGenerationException"
+{ "ligne" : { "" : ""
+ , "c1" : "IllegalGenerationException"
  , "c2" : "IllegalGenerationException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "IllegalGenerationException"
+{ "ligne" : { "" : ""
+ , "c1" : "IllegalGenerationException"
  , "c2" : "IllegalGenerationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "IllegalGenerationException"
+{ "ligne" : { "" : ""
+ , "c1" : "IllegalGenerationException"
  , "c2" : "IllegalGenerationException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

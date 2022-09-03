@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<DescribeLogDirsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<DescribeLogDirsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.DescribeLogDirsOptions"
 }} 
 ]

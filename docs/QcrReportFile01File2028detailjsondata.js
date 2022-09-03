@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "WindowStoreIterator<V>"
+{ "ligne" : { "" : ""
+ , "c1" : "WindowStoreIterator<V>"
  , "c2" : "org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "MeteredWindowStoreIterator"
+{ "ligne" : { "" : ""
+ , "c1" : "MeteredWindowStoreIterator"
  , "c2" : "MeteredWindowStoreIterator(WindowStoreIterator<byte[]>;Sensor;StreamsMetrics;Function<byte[],V>;Time)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValue<Long,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValue<Long,V>"
  , "c2" : "next()"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Long"
+{ "ligne" : { "" : ""
+ , "c1" : "Long"
  , "c2" : "peekNextKey()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,15 +84,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -100,15 +100,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreIterator.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class MeteredWindowStoreIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreIterator.java.html#25"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00025] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

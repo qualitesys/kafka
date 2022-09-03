@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Suppressed.BufferConfig<BC>"
+{ "ligne" : { "" : ""
+ , "c1" : "Suppressed.BufferConfig<BC>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.suppress.BufferConfigInternal"
 }} 
 ]
@@ -17,57 +17,57 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.BufferConfigInternal" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "maxRecords()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "maxBytes()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "BufferFullStrategy"
+{ "ligne" : { "" : ""
+ , "c1" : "BufferFullStrategy"
  , "c2" : "bufferFullStrategy()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Suppressed.StrictBufferConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "Suppressed.StrictBufferConfig"
  , "c2" : "withNoBound()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Suppressed.StrictBufferConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "Suppressed.StrictBufferConfig"
  , "c2" : "shutDownWhenFull()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Suppressed.EagerBufferConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "Suppressed.EagerBufferConfig"
  , "c2" : "emitEarlyWhenFull()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isLoggingEnabled()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "getLogConfig()"
  , "c3" : "1"
  , "c4" : "1"
@@ -105,8 +105,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -114,8 +114,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/BufferConfigInternal.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class BufferConfigInternal contains no field, constructor, finalize. Must contain only static methods, check it"

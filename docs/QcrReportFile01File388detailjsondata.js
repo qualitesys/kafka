@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "NotLeaderForPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderForPartitionException"
  , "c2" : "org.apache.kafka.common.errors.NotLeaderOrFollowerException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NotLeaderOrFollowerException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotLeaderOrFollowerException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderOrFollowerException"
  , "c2" : "NotLeaderOrFollowerException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderOrFollowerException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderOrFollowerException"
  , "c2" : "NotLeaderOrFollowerException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderOrFollowerException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderOrFollowerException"
  , "c2" : "NotLeaderOrFollowerException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderOrFollowerException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderOrFollowerException"
  , "c2" : "NotLeaderOrFollowerException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

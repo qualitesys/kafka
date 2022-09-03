@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "KeyValueIterator<K,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<K,byte[]>"
  , "c2" : "org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueIteratorAdapter"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueIteratorAdapter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KeyValueToTimestampedKeyValueIteratorAdapter"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueToTimestampedKeyValueIteratorAdapter"
  , "c2" : "KeyValueToTimestampedKeyValueIteratorAdapter(KeyValueIterator<K,byte[]>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "K"
+{ "ligne" : { "" : ""
+ , "c1" : "K"
  , "c2" : "peekNextKey()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValue<K,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValue<K,byte[]>"
  , "c2" : "next()"
  , "c3" : "1"
  , "c4" : "2"
@@ -84,8 +84,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -93,8 +93,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueIteratorAdapter.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class KeyValueToTimestampedKeyValueIteratorAdapter contains no field, constructor, finalize. Must contain only static methods, check it"

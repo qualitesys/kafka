@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.query.QueryConfig"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.QueryConfig" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "QueryConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "QueryConfig"
  , "c2" : "QueryConfig(boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isCollectExecutionInfo()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class QueryConfig contains no field, constructor, finalize. Must contain only static methods, check it"

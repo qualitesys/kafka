@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ProcessorSupplier<KIn,VIn,KAgg,Change<VAgg>>"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorSupplier<KIn,VIn,KAgg,Change<VAgg>>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamAggProcessorSupplier"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamAggProcessorSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KTableValueGetterSupplier<KAgg,VAgg>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTableValueGetterSupplier<KAgg,VAgg>"
  , "c2" : "view()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "enableSendingOldValues()"
  , "c3" : "1"
  , "c4" : "1"

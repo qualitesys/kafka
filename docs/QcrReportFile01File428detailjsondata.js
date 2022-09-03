@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "org.apache.kafka.common.errors.UnknownTopicOrPartitionException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnknownTopicOrPartitionException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UnknownTopicOrPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownTopicOrPartitionException"
  , "c2" : "UnknownTopicOrPartitionException()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnknownTopicOrPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownTopicOrPartitionException"
  , "c2" : "UnknownTopicOrPartitionException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnknownTopicOrPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownTopicOrPartitionException"
  , "c2" : "UnknownTopicOrPartitionException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnknownTopicOrPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownTopicOrPartitionException"
  , "c2" : "UnknownTopicOrPartitionException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

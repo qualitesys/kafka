@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.DescribeConfigsRequest"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeConfigsRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeConfigsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeConfigsRequest"
  , "c2" : "DescribeConfigsRequest(DescribeConfigsRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeConfigsRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeConfigsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeConfigsResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeConfigsResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeConfigsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeConfigsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -86,22 +86,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00042"
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#42"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00042] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00055"
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#55"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00055] For method parse arguments ByteBuffer  buffer|short  version"

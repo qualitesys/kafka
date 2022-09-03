@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.InvalidOffsetException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.InvalidOffsetException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InvalidOffsetException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidOffsetException"
  , "c2" : "InvalidOffsetException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidOffsetException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidOffsetException"
  , "c2" : "InvalidOffsetException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Thread"
+{ "ligne" : { "" : ""
+ , "c1" : "Thread"
  , "c2" : "org.apache.kafka.common.utils.KafkaThread"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.KafkaThread" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KafkaThread"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaThread"
  , "c2" : "daemon(String;Runnable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaThread"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaThread"
  , "c2" : "nonDaemon(String;Runnable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaThread"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaThread"
  , "c2" : "KafkaThread(String;boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaThread"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaThread"
  , "c2" : "KafkaThread(String;Runnable;boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "configureThread(String;boolean)"
  , "c3" : "1"
  , "c4" : "2"
@@ -84,15 +84,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -100,43 +100,43 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#12"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00012] For method daemon arguments String  name|Runnable  runnable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#13"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.utils.KafkaThread.daemon@POLYN144708 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#16"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00016] For method nonDaemon arguments String  name|Runnable  runnable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00017"
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#17"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN144933 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#30"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00030] For method configureThread arguments String  name|boolean  daemon"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#32"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN145660 the MagicNumber/String  'Uncaught exception in thread '{}':' should be converted to const"

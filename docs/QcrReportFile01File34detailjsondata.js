@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<AlterConfigsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<AlterConfigsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.AlterConfigsOptions"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AlterConfigsOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AlterConfigsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "AlterConfigsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "shouldValidateOnly()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AlterConfigsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "AlterConfigsOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
  , "c4" : "2"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00017"
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#17"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00017] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#28"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00028] For method validateOnly arguments boolean  validateOnly"

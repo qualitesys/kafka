@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "BaseRecords"
+{ "ligne" : { "" : ""
+ , "c1" : "BaseRecords"
  , "c2" : "org.apache.kafka.common.record.TransferableRecords"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.TransferableRecords" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel;long;int)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Callback"
+{ "ligne" : { "" : ""
+ , "c1" : "Callback"
  , "c2" : "org.apache.kafka.common.security.scram.ScramExtensionsCallback"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.scram.ScramExtensionsCallback" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "extensions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "extensions(Map<String,String>)"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class ScramExtensionsCallback contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html#19"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00019] For method extensions arguments Map&lt;String ,String &gt;  extensions"

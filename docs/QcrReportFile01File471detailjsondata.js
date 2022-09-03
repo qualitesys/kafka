@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "CumulativeSum"
+{ "ligne" : { "" : ""
+ , "c1" : "CumulativeSum"
  , "c2" : "org.apache.kafka.common.metrics.stats.CumulativeCount"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.CumulativeCount" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "record(MetricConfig;double;long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,15 +56,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -72,15 +72,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#9"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00009] For method record arguments MetricConfig  config|double  value|long  timeMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.metrics.stats.CumulativeCount.record@POLYN143513 the MagicNumber/String  1 should be converted to const"

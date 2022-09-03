@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthenticationContext"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthenticationContext"
  , "c2" : "org.apache.kafka.common.security.auth.SslAuthenticationContext"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.auth.SslAuthenticationContext" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SslAuthenticationContext"
+{ "ligne" : { "" : ""
+ , "c1" : "SslAuthenticationContext"
  , "c2" : "SslAuthenticationContext(SSLSession;InetAddress;String)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SSLSession"
+{ "ligne" : { "" : ""
+ , "c1" : "SSLSession"
  , "c2" : "session()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SecurityProtocol"
+{ "ligne" : { "" : ""
+ , "c1" : "SecurityProtocol"
  , "c2" : "securityProtocol()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InetAddress"
+{ "ligne" : { "" : ""
+ , "c1" : "InetAddress"
  , "c2" : "clientAddress()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "listenerName()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,8 +84,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -93,8 +93,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class SslAuthenticationContext contains no field, constructor, finalize. Must contain only static methods, check it"

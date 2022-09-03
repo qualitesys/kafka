@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
  , "c2" : "org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ContextualFixedKeyProcessor"
+{ "ligne" : { "" : ""
+ , "c1" : "ContextualFixedKeyProcessor"
  , "c2" : "ContextualFixedKeyProcessor()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "init(FixedKeyProcessorContext<KIn,VOut>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "FixedKeyProcessorContext<KIn,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "FixedKeyProcessorContext<KIn,VOut>"
  , "c2" : "context()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,15 +70,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00005"
+{ "ligne" : {"" : ""
+ , "c1" : "00005"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#5"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00005] The class ContextualFixedKeyProcessor contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#12"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00012] For method init arguments FixedKeyProcessorContext&lt;KIn ,VOut &gt;  context"

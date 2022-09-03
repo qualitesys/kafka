@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.network.ChannelState"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.ChannelState" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ChannelState"
+{ "ligne" : { "" : ""
+ , "c1" : "ChannelState"
  , "c2" : "ChannelState(State)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ChannelState"
+{ "ligne" : { "" : ""
+ , "c1" : "ChannelState"
  , "c2" : "ChannelState(State;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ChannelState"
+{ "ligne" : { "" : ""
+ , "c1" : "ChannelState"
  , "c2" : "ChannelState(State;AuthenticationException;String)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "State"
+{ "ligne" : { "" : ""
+ , "c1" : "State"
  , "c2" : "state()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthenticationException"
  , "c2" : "exception()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "remoteAddress()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,15 +91,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
@@ -107,29 +107,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class ChannelState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#32"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.network.ChannelState.ChannelState@POLYN160501 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#32"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.network.ChannelState.ChannelState@POLYN160501 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00036"
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#36"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.network.ChannelState.ChannelState@POLYN160666 the MagicNumber/String  null should be converted to const"

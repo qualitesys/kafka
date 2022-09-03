@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.TopicDescription"
 }} 
 ]
@@ -17,78 +17,78 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.TopicDescription" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicDescription"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicDescription"
  , "c2" : "TopicDescription(String;boolean;List<TopicPartitionInfo>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicDescription"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicDescription"
  , "c2" : "TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicDescription"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicDescription"
  , "c2" : "TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>;Uuid)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isInternal()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Uuid"
+{ "ligne" : { "" : ""
+ , "c1" : "Uuid"
  , "c2" : "topicId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<TopicPartitionInfo>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<TopicPartitionInfo>"
  , "c2" : "partitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<AclOperation>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<AclOperation>"
  , "c2" : "authorizedOperations()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -126,29 +126,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "9"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000021"
  , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -156,85 +156,85 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#16"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00016] The class TopicDescription contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method equals arguments Object  o"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#26"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000021[00026] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#25"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.TopicDescription.equals@POLYN159990 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#26"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.admin.TopicDescription.equals@POLYN159990 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#26"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.admin.TopicDescription.equals@POLYN159990 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00086"
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#86"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.TopicDescription.toString@POLYN163595 the MagicNumber/String  '(name=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00086"
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#86"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.TopicDescription.toString@POLYN163595 the MagicNumber/String  ', internal=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00086"
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#86"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.TopicDescription.toString@POLYN163595 the MagicNumber/String  ', partitions=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00087"
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#87"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.TopicDescription.toString@POLYN163595 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00087"
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#87"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.TopicDescription.toString@POLYN163595 the MagicNumber/String  ', authorizedOperations=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00087"
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#87"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.TopicDescription.toString@POLYN163595 the MagicNumber/String  ')' should be converted to const"

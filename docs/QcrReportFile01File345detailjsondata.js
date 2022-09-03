@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.GroupSubscribedToTopicException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.GroupSubscribedToTopicException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "GroupSubscribedToTopicException"
+{ "ligne" : { "" : ""
+ , "c1" : "GroupSubscribedToTopicException"
  , "c2" : "GroupSubscribedToTopicException(String)"
  , "c3" : "1"
  , "c4" : "1"

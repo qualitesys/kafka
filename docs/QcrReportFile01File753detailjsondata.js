@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthenticationContext"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthenticationContext"
  , "c2" : "org.apache.kafka.common.security.auth.PlaintextAuthenticationContext"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.auth.PlaintextAuthenticationContext" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "PlaintextAuthenticationContext"
+{ "ligne" : { "" : ""
+ , "c1" : "PlaintextAuthenticationContext"
  , "c2" : "PlaintextAuthenticationContext(InetAddress;String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SecurityProtocol"
+{ "ligne" : { "" : ""
+ , "c1" : "SecurityProtocol"
  , "c2" : "securityProtocol()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InetAddress"
+{ "ligne" : { "" : ""
+ , "c1" : "InetAddress"
  , "c2" : "clientAddress()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "listenerName()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00006"
+{ "ligne" : {"" : ""
+ , "c1" : "00006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/PlaintextAuthenticationContext.java.html#6"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00006] The class PlaintextAuthenticationContext contains no field, constructor, finalize. Must contain only static methods, check it"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.ListTopicsResult"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListTopicsResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ListTopicsResult"
+{ "ligne" : { "" : ""
+ , "c1" : "ListTopicsResult"
  , "c2" : "ListTopicsResult(KafkaFuture<Map<String,TopicListing>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Map<String,TopicListing>>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Map<String,TopicListing>>"
  , "c2" : "namesToListings()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Collection<TopicListing>>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Collection<TopicListing>>"
  , "c2" : "listings()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Set<String>>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Set<String>>"
  , "c2" : "names()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00014] The class ListTopicsResult contains no field, constructor, finalize. Must contain only static methods, check it"

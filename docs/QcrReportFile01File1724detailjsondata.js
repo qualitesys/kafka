@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "EmitStrategy"
+{ "ligne" : { "" : ""
+ , "c1" : "EmitStrategy"
  , "c2" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StrategyType"
+{ "ligne" : { "" : ""
+ , "c1" : "StrategyType"
  , "c2" : "type()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class WindowUpdateStrategy contains no field, constructor, finalize. Must contain only static methods, check it"

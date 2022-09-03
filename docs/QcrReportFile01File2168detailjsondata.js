@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.rest.TaskState"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskState" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TaskState"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskState"
  , "c2" : "TaskState(TaskSpec;JsonNode)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskSpec"
  , "c2" : "spec()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "JsonNode"
+{ "ligne" : { "" : ""
+ , "c1" : "JsonNode"
  , "c2" : "status()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskStateType"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskStateType"
  , "c2" : "stateType()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#29"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.rest.TaskState.TaskState@POLYN147677 the MagicNumber/String  null should be converted to const"

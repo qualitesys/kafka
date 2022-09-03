@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.OffsetSpec"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.OffsetSpec" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OffsetSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetSpec"
  , "c2" : "latest()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetSpec"
  , "c2" : "earliest()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetSpec"
  , "c2" : "forTimestamp(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetSpec"
  , "c2" : "maxTimestamp()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -93,15 +93,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#7"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00007] The class OffsetSpec contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00035"
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#35"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00035] For method forTimestamp arguments long  timestamp"

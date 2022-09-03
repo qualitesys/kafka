@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.OutOfOrderSequenceException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.OutOfOrderSequenceException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OutOfOrderSequenceException"
+{ "ligne" : { "" : ""
+ , "c1" : "OutOfOrderSequenceException"
  , "c2" : "OutOfOrderSequenceException(String)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthenticationException"
  , "c2" : "org.apache.kafka.common.errors.SslAuthenticationException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.SslAuthenticationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SslAuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "SslAuthenticationException"
  , "c2" : "SslAuthenticationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SslAuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "SslAuthenticationException"
  , "c2" : "SslAuthenticationException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

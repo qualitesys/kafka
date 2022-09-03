@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.trogdor.workload.RandomComponent"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.RandomComponent" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RandomComponent"
+{ "ligne" : { "" : ""
+ , "c1" : "RandomComponent"
  , "c2" : "RandomComponent(int;PayloadGenerator)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "percent()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "PayloadGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "PayloadGenerator"
  , "c2" : "component()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponent.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00009] The class RandomComponent contains no field, constructor, finalize. Must contain only static methods, check it"

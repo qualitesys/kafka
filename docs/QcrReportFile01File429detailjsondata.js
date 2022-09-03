@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.UnstableOffsetCommitException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnstableOffsetCommitException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UnstableOffsetCommitException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnstableOffsetCommitException"
  , "c2" : "UnstableOffsetCommitException(String)"
  , "c3" : "1"
  , "c4" : "1"

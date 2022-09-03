@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "KeyValueIterator<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "org.apache.kafka.streams.state.internals.KeyValueIteratorFacade"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.KeyValueIteratorFacade" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KeyValueIteratorFacade"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIteratorFacade"
  , "c2" : "KeyValueIteratorFacade(KeyValueIterator<K,ValueAndTimestamp<V>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "K"
+{ "ligne" : { "" : ""
+ , "c1" : "K"
  , "c2" : "peekNextKey()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValue<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValue<K,V>"
  , "c2" : "next()"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,8 +84,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -93,8 +93,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class KeyValueIteratorFacade contains no field, constructor, finalize. Must contain only static methods, check it"

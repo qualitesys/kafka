@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.DelegationTokenDisabledException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.DelegationTokenDisabledException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DelegationTokenDisabledException"
+{ "ligne" : { "" : ""
+ , "c1" : "DelegationTokenDisabledException"
  , "c2" : "DelegationTokenDisabledException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DelegationTokenDisabledException"
+{ "ligne" : { "" : ""
+ , "c1" : "DelegationTokenDisabledException"
  , "c2" : "DelegationTokenDisabledException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AlterPartitionReassignmentsResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AlterPartitionReassignmentsResponse"
  , "c2" : "AlterPartitionReassignmentsResponse(AlterPartitionReassignmentsResponseData)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AlterPartitionReassignmentsResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AlterPartitionReassignmentsResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AlterPartitionReassignmentsResponseData"
+{ "ligne" : { "" : ""
+ , "c1" : "AlterPartitionReassignmentsResponseData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<Errors,Integer>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "4"
@@ -100,22 +100,22 @@ var maDataBlocs = {
 ]
 ,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -123,29 +123,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html#23"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00023] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00034"
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html#34"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00034] For method shouldClientThrottle arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00035"
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html#35"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse.shouldClientThrottle@POLYN147249 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsResponse.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse.throttleTimeMs@POLYN147373"

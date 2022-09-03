@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Configurable"
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable"
  , "c2" : "org.apache.kafka.streams.errors.DeserializationExceptionHandler"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.DeserializationExceptionHandler" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DeserializationHandlerResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "DeserializationHandlerResponse"
  , "c2" : "handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception)"
  , "c3" : "1"
  , "c4" : "1"

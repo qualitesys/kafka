@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.acl.AclBinding"
 }} 
 ]
@@ -17,57 +17,57 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.acl.AclBinding" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AclBinding"
+{ "ligne" : { "" : ""
+ , "c1" : "AclBinding"
  , "c2" : "AclBinding(ResourcePattern;AccessControlEntry)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isUnknown()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ResourcePattern"
+{ "ligne" : { "" : ""
+ , "c1" : "ResourcePattern"
  , "c2" : "pattern()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AccessControlEntry"
+{ "ligne" : { "" : ""
+ , "c1" : "AccessControlEntry"
  , "c2" : "entry()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AclBindingFilter"
+{ "ligne" : { "" : ""
+ , "c1" : "AclBindingFilter"
  , "c2" : "toFilter()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
@@ -105,29 +105,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "8"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000021"
  , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -135,78 +135,78 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class AclBinding contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#18"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.acl.AclBinding.AclBinding@POLYN150292 the MagicNumber/String  'pattern' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#19"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.acl.AclBinding.AclBinding@POLYN150292 the MagicNumber/String  'entry' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00044"
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#44"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN151364 the MagicNumber/String  '(pattern=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00044"
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#44"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN151364 the MagicNumber/String  ', entry=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00044"
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#44"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.acl.AclBinding.toString@POLYN151364 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00048"
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#48"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00048] For method equals arguments Object  o"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00050"
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#50"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000021[00050] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00049"
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#49"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN151558 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00050"
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#50"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN151558 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00050"
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#50"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.acl.AclBinding.equals@POLYN151558 the MagicNumber/String  false should be converted to const"

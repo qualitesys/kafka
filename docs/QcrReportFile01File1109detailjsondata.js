@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RequestTargetException"
+{ "ligne" : { "" : ""
+ , "c1" : "RequestTargetException"
  , "c2" : "org.apache.kafka.connect.runtime.distributed.NotAssignedException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.NotAssignedException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotAssignedException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotAssignedException"
  , "c2" : "NotAssignedException(String;String)"
  , "c3" : "1"
  , "c4" : "1"

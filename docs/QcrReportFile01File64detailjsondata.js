@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<DeleteTopicsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<DeleteTopicsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.DeleteTopicsOptions"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DeleteTopicsOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DeleteTopicsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DeleteTopicsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DeleteTopicsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DeleteTopicsOptions"
  , "c2" : "retryOnQuotaViolation(boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "shouldRetryOnQuotaViolation()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00017"
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#17"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00017] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#23"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00023] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"

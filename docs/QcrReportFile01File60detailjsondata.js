@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<DeleteConsumerGroupsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<DeleteConsumerGroupsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions"
 }} 
 ]

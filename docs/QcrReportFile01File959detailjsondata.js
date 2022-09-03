@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "DataException"
+{ "ligne" : { "" : ""
+ , "c1" : "DataException"
  , "c2" : "org.apache.kafka.connect.errors.SchemaProjectorException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.errors.SchemaProjectorException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SchemaProjectorException"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaProjectorException"
  , "c2" : "SchemaProjectorException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SchemaProjectorException"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaProjectorException"
  , "c2" : "SchemaProjectorException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SchemaProjectorException"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaProjectorException"
  , "c2" : "SchemaProjectorException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

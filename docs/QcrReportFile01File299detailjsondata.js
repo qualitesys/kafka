@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.config.ConfigTransformerResult"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.ConfigTransformerResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ConfigTransformerResult"
+{ "ligne" : { "" : ""
+ , "c1" : "ConfigTransformerResult"
  , "c2" : "ConfigTransformerResult(Map<String,String>;Map<String,Long>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,Long>"
  , "c2" : "ttls()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00009] The class ConfigTransformerResult contains no field, constructor, finalize. Must contain only static methods, check it"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.rest.StopWorkerRequest"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.StopWorkerRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StopWorkerRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "StopWorkerRequest"
  , "c2" : "StopWorkerRequest(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "workerId()"
  , "c3" : "1"
  , "c4" : "1"

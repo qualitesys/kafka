@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.FetchSessionTopicIdException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.FetchSessionTopicIdException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FetchSessionTopicIdException"
+{ "ligne" : { "" : ""
+ , "c1" : "FetchSessionTopicIdException"
  , "c2" : "FetchSessionTopicIdException(String)"
  , "c3" : "1"
  , "c4" : "1"

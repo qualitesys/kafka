@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.connect.data.Schema"
 }} 
 ]
@@ -17,85 +17,85 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Schema" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Type"
+{ "ligne" : { "" : ""
+ , "c1" : "Type"
  , "c2" : "type()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isOptional()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Object"
+{ "ligne" : { "" : ""
+ , "c1" : "Object"
  , "c2" : "defaultValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Integer"
+{ "ligne" : { "" : ""
+ , "c1" : "Integer"
  , "c2" : "version()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "doc()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "parameters()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Schema"
+{ "ligne" : { "" : ""
+ , "c1" : "Schema"
  , "c2" : "keySchema()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Schema"
+{ "ligne" : { "" : ""
+ , "c1" : "Schema"
  , "c2" : "valueSchema()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<Field>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<Field>"
  , "c2" : "fields()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Field"
+{ "ligne" : { "" : ""
+ , "c1" : "Field"
  , "c2" : "field(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Schema"
+{ "ligne" : { "" : ""
+ , "c1" : "Schema"
  , "c2" : "schema()"
  , "c3" : "1"
  , "c4" : "1"

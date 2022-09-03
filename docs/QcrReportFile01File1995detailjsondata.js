@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "KeyValueBytesStoreSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueBytesStoreSupplier"
  , "c2" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InMemoryKeyValueBytesStoreSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "InMemoryKeyValueBytesStoreSupplier"
  , "c2" : "InMemoryKeyValueBytesStoreSupplier(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueStore<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueStore<Bytes,byte[]>"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "metricsScope()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -93,15 +93,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class InMemoryKeyValueBytesStoreSupplier contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#28"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.metricsScope@POLYN143270 the MagicNumber/String  'in-memory' should be converted to const"

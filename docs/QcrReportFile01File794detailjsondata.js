@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "KafkaException"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaException"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OAuthBearerConfigException"
+{ "ligne" : { "" : ""
+ , "c1" : "OAuthBearerConfigException"
  , "c2" : "OAuthBearerConfigException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OAuthBearerConfigException"
+{ "ligne" : { "" : ""
+ , "c1" : "OAuthBearerConfigException"
  , "c2" : "OAuthBearerConfigException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectRestException"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectRestException"
  , "c2" : "org.apache.kafka.connect.runtime.rest.errors.BadRequestException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.rest.errors.BadRequestException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "BadRequestException"
+{ "ligne" : { "" : ""
+ , "c1" : "BadRequestException"
  , "c2" : "BadRequestException(String)"
  , "c3" : "1"
  , "c4" : "1"

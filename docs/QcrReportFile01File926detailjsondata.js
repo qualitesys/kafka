@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Configurable"
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable"
  , "c2" : "org.apache.kafka.server.authorizer.Authorizer"
 }} 
 ]
@@ -17,50 +17,50 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.authorizer.Authorizer" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Map<Endpoint,?extendsCompletionStage<Void>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<Endpoint,?extendsCompletionStage<Void>>"
  , "c2" : "start(AuthorizerServerInfo)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<AuthorizationResult>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<AuthorizationResult>"
  , "c2" : "authorize(AuthorizableRequestContext;List<Action>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
  , "c2" : "createAcls(AuthorizableRequestContext;List<AclBinding>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
  , "c2" : "deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Iterable<AclBinding>"
+{ "ligne" : { "" : ""
+ , "c1" : "Iterable<AclBinding>"
  , "c2" : "acls(AclBindingFilter)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "aclCount()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AuthorizationResult"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthorizationResult"
  , "c2" : "authorizeByResourceType(AuthorizableRequestContext;AclOperation;ResourceType)"
  , "c3" : "21"
  , "c4" : "38"
@@ -98,8 +98,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
@@ -107,8 +107,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#54"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00054] The argument requestContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

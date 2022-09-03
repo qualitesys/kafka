@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.ThrottlingQuotaExceededException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.ThrottlingQuotaExceededException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ThrottlingQuotaExceededException"
+{ "ligne" : { "" : ""
+ , "c1" : "ThrottlingQuotaExceededException"
  , "c2" : "ThrottlingQuotaExceededException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ThrottlingQuotaExceededException"
+{ "ligne" : { "" : ""
+ , "c1" : "ThrottlingQuotaExceededException"
  , "c2" : "ThrottlingQuotaExceededException(int;String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
  , "c4" : "1"

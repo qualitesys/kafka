@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<DescribeDelegationTokenOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<DescribeDelegationTokenOptions>"
  , "c2" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeDelegationTokenOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeDelegationTokenOptions"
  , "c2" : "owners(List<KafkaPrincipal>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<KafkaPrincipal>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<KafkaPrincipal>"
  , "c2" : "owners()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#16"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00016] For method owners arguments List&lt;KafkaPrincipal &gt;  owners"

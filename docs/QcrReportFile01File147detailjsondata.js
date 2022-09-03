@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "UserScramCredentialAlteration"
+{ "ligne" : { "" : ""
+ , "c1" : "UserScramCredentialAlteration"
  , "c2" : "org.apache.kafka.clients.admin.UserScramCredentialDeletion"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.UserScramCredentialDeletion" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UserScramCredentialDeletion"
+{ "ligne" : { "" : ""
+ , "c1" : "UserScramCredentialDeletion"
  , "c2" : "UserScramCredentialDeletion(String;ScramMechanism)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ScramMechanism"
+{ "ligne" : { "" : ""
+ , "c1" : "ScramMechanism"
  , "c2" : "mechanism()"
  , "c3" : "1"
  , "c4" : "1"

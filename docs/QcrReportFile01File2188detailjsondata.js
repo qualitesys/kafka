@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TaskSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskSpec"
  , "c2" : "org.apache.kafka.trogdor.workload.ConfigurableProducerSpec"
 }} 
 ]
@@ -17,99 +17,99 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.ConfigurableProducerSpec" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ConfigurableProducerSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "ConfigurableProducerSpec"
  , "c2" : "ConfigurableProducerSpec(long;long;String;String;Optional<FlushGenerator>;ThroughputGenerator;PayloadGenerator;PayloadGenerator;Map<String,String>;Map<String,String>;Map<String,String>;TopicsSpec;int)"
  , "c3" : "1"
  , "c4" : "12"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "producerNode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "bootstrapServers()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<FlushGenerator>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<FlushGenerator>"
  , "c2" : "flushGenerator()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "PayloadGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "PayloadGenerator"
  , "c2" : "keyGenerator()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "PayloadGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "PayloadGenerator"
  , "c2" : "valueGenerator()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ThroughputGenerator"
+{ "ligne" : { "" : ""
+ , "c1" : "ThroughputGenerator"
  , "c2" : "throughputGenerator()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "producerConf()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "commonClientConf()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "adminClientConf()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicsSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicsSpec"
  , "c2" : "activeTopic()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "activePartition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskController"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskController"
  , "c2" : "newController(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskWorker"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskWorker"
  , "c2" : "newTaskWorker(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -147,22 +147,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "4"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -170,50 +170,50 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00122"
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00122] The argument activeTopic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00122"
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN174664 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00122"
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN174664 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00122"
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN174664 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00122"
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#122"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConfigurableProducerSpec.ConfigurableProducerSpec@POLYN174664 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method newController arguments String  id"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerSpec.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method newTaskWorker arguments String  id"

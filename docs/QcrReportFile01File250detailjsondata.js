@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TxnPartitionEntry"
+{ "ligne" : { "" : ""
+ , "c1" : "TxnPartitionEntry"
  , "c2" : "TxnPartitionEntry()"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "resetSequenceNumbers(Consumer<ProducerBatch>)"
  , "c3" : "2"
  , "c4" : "4"
@@ -63,29 +63,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -93,29 +93,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class TxnPartitionEntry contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00045"
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#45"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.producer.internals.TxnPartitionEntry.TxnPartitionEntry@POLYN145691 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00051"
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#51"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00051] For method resetSequenceNumbers arguments Consumer&lt;ProducerBatch &gt;  resetSequence"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00051"
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#51"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00051] The argument resetSequence is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

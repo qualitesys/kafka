@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "WorkerState"
+{ "ligne" : { "" : ""
+ , "c1" : "WorkerState"
  , "c2" : "org.apache.kafka.trogdor.rest.WorkerRunning"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerRunning" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "WorkerRunning"
+{ "ligne" : { "" : ""
+ , "c1" : "WorkerRunning"
  , "c2" : "WorkerRunning(String;TaskSpec;long;JsonNode)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "startedMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "JsonNode"
+{ "ligne" : { "" : ""
+ , "c1" : "JsonNode"
  , "c2" : "status()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "running()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#26"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.rest.WorkerRunning.WorkerRunning@POLYN146340 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00043"
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#43"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.rest.WorkerRunning.running@POLYN147195 the MagicNumber/String  true should be converted to const"

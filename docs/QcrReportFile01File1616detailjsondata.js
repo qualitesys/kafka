@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.kstream.ValueJoinerWithKey"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.ValueJoinerWithKey" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "VR"
+{ "ligne" : { "" : ""
+ , "c1" : "VR"
  , "c2" : "apply(K1;V1;V2)"
  , "c3" : "1"
  , "c4" : "1"

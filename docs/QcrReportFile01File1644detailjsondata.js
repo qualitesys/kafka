@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "JoinWindows"
+{ "ligne" : { "" : ""
+ , "c1" : "JoinWindows"
  , "c2" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "JoinWindowsInternal"
+{ "ligne" : { "" : ""
+ , "c1" : "JoinWindowsInternal"
  , "c2" : "JoinWindowsInternal(JoinWindows)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "spuriousResultFixEnabled()"
  , "c3" : "1"
  , "c4" : "1"

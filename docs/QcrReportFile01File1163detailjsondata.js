@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "WorkerConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "WorkerConfig"
  , "c2" : "org.apache.kafka.connect.runtime.standalone.StandaloneConfig"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.standalone.StandaloneConfig" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StandaloneConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "StandaloneConfig"
  , "c2" : "StandaloneConfig(Map<String,String>)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.common.protocol.ApiMessage"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.ApiMessage" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "short"
+{ "ligne" : { "" : ""
+ , "c1" : "short"
  , "c2" : "apiKey()"
  , "c3" : "1"
  , "c4" : "1"

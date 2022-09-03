@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "FuturePurgatory<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "FuturePurgatory<T>"
  , "c2" : "org.apache.kafka.raft.internals.ThresholdPurgatory"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.ThresholdPurgatory" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ThresholdPurgatory"
+{ "ligne" : { "" : ""
+ , "c1" : "ThresholdPurgatory"
  , "c2" : "ThresholdPurgatory(ExpirationService)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CompletableFuture<Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "CompletableFuture<Long>"
  , "c2" : "await(T;long)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "maybeComplete(T;long)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "completeAll(long)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "completeAllExceptionally(Throwable)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "numWaiting()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,22 +91,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "5"
@@ -114,57 +114,57 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class ThresholdPurgatory contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#23"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00023] For method await arguments T  threshold|long  maxWaitTimeMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#32"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00032] For method maybeComplete arguments T  value|long  currentTimeMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00041"
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#41"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00041] For method completeAll arguments long  currentTimeMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00048"
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#48"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00048] For method completeAllExceptionally arguments Throwable  exception"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00059"
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#59"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00059] The class ThresholdKey contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00069"
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#69"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00069] For method compareTo arguments ThresholdKey&lt;T &gt;  o"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00071"
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#71"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.raft.internals.ThresholdPurgatory.ThresholdKey.compareTo@POLYN154790 the MagicNumber/String  0 should be converted to const"

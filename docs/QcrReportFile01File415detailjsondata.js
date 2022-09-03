@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthorizationException"
  , "c2" : "org.apache.kafka.common.errors.TopicAuthorizationException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.TopicAuthorizationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TopicAuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicAuthorizationException"
  , "c2" : "TopicAuthorizationException(String;Set<String>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicAuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicAuthorizationException"
  , "c2" : "TopicAuthorizationException(Set<String>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicAuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicAuthorizationException"
  , "c2" : "TopicAuthorizationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<String>"
  , "c2" : "unauthorizedTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#16"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.errors.TopicAuthorizationException.TopicAuthorizationException@POLYN143878 the MagicNumber/String  'Not authorized to access topics: ' should be converted to const"

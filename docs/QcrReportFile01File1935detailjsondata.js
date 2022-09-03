@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "QueryResult<R>"
+{ "ligne" : { "" : ""
+ , "c1" : "QueryResult<R>"
  , "c2" : "org.apache.kafka.streams.query.internals.AbstractQueryResult"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.internals.AbstractQueryResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AbstractQueryResult"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractQueryResult"
  , "c2" : "AbstractQueryResult()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractQueryResult"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractQueryResult"
  , "c2" : "AbstractQueryResult(List<String>;Position)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "addExecutionInfo(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setPosition(Position)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<String>"
  , "c2" : "getExecutionInfo()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Position"
+{ "ligne" : { "" : ""
+ , "c1" : "Position"
  , "c2" : "getPosition()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,15 +91,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -107,22 +107,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00014] The class AbstractQueryResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#29"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00029] For method addExecutionInfo arguments String  message"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00034"
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#34"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00034] For method setPosition arguments Position  position"

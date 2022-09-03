@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.EndTxnRequest"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.EndTxnRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "EndTxnRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "EndTxnRequest"
  , "c2" : "EndTxnRequest(EndTxnRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TransactionResult"
+{ "ligne" : { "" : ""
+ , "c1" : "TransactionResult"
  , "c2" : "result()"
  , "c3" : "3"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "EndTxnRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "EndTxnRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "EndTxnResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "EndTxnResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "EndTxnRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "EndTxnRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,8 +84,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -93,22 +93,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnRequest.java.html#25"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00025] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00053"
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnRequest.java.html#53"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00053] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00060"
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndTxnRequest.java.html#60"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00060] For method parse arguments ByteBuffer  buffer|short  version"

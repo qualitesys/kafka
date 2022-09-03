@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.rest.UptimeResponse"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.UptimeResponse" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UptimeResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "UptimeResponse"
  , "c2" : "UptimeResponse(long;long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "serverStartMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "nowMs()"
  , "c3" : "1"
  , "c4" : "1"

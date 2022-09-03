@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.UnsupportedByAuthenticationException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnsupportedByAuthenticationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UnsupportedByAuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnsupportedByAuthenticationException"
  , "c2" : "UnsupportedByAuthenticationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnsupportedByAuthenticationException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnsupportedByAuthenticationException"
  , "c2" : "UnsupportedByAuthenticationException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

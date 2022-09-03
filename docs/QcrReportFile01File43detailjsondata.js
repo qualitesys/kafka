@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsResult"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AlterUserScramCredentialsResult"
+{ "ligne" : { "" : ""
+ , "c1" : "AlterUserScramCredentialsResult"
  , "c2" : "AlterUserScramCredentialsResult(Map<String,KafkaFuture<Void>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,KafkaFuture<Void>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,KafkaFuture<Void>>"
  , "c2" : "values()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Void>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,15 +70,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterUserScramCredentialsResult.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00015] The class AlterUserScramCredentialsResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterUserScramCredentialsResult.java.html#30"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.AlterUserScramCredentialsResult.all@POLYN147963 the MagicNumber/String  0 should be converted to const"

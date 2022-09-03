@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "PeekingKeyValueIterator<Bytes,LRUCacheEntry>"
+{ "ligne" : { "" : ""
+ , "c1" : "PeekingKeyValueIterator<Bytes,LRUCacheEntry>"
  , "c2" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FilteredCacheIterator"
+{ "ligne" : { "" : ""
+ , "c1" : "FilteredCacheIterator"
  , "c2" : "FilteredCacheIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;HasNextCondition;CacheFunction)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Bytes"
+{ "ligne" : { "" : ""
+ , "c1" : "Bytes"
  , "c2" : "peekNextKey()"
  , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValue<Bytes,LRUCacheEntry>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValue<Bytes,LRUCacheEntry>"
  , "c2" : "next()"
  , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValue<Bytes,LRUCacheEntry>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValue<Bytes,LRUCacheEntry>"
  , "c2" : "peekNext()"
  , "c3" : "2"
  , "c4" : "2"
@@ -91,29 +91,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
  , "c3" : "You must segregate your interface"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -121,36 +121,36 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00009] The class FilteredCacheIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#14"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00014] The argument cacheIterator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#16"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00016] The argument cacheFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00053"
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#53"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000005[00053] Void method close is empty or contains only a return."
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00053"
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#53"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00053] Void method close is empty or contains only a return. Interface segregation"

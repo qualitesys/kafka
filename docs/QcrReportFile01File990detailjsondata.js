@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Configurable"
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable"
  , "c2" : "org.apache.kafka.connect.storage.HeaderConverter"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.HeaderConverter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SchemaAndValue"
+{ "ligne" : { "" : ""
+ , "c1" : "SchemaAndValue"
  , "c2" : "toConnectHeader(String;String;byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "fromConnectHeader(String;String;Schema;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConfigDef"
+{ "ligne" : { "" : ""
+ , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
  , "c4" : "1"

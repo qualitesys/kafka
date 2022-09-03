@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.DescribeDelegationTokenRequest"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeDelegationTokenRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeDelegationTokenRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeDelegationTokenRequest"
  , "c2" : "DescribeDelegationTokenRequest(DescribeDelegationTokenRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeDelegationTokenRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeDelegationTokenRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "ownersListEmpty()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeDelegationTokenRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeDelegationTokenRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,22 +84,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000021"
  , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -107,50 +107,50 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#22"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.Builder.Builder@POLYN149294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#22"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.Builder.Builder@POLYN149294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00031"
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#31"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00031] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#54"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000021[00054] The same method call data.owners() is used several times, should be optimized "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#54"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.requests.DescribeDelegationTokenRequest.ownersListEmpty@POLYN150626 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00058"
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#58"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00058] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00062"
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#62"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00062] For method parse arguments ByteBuffer  buffer|short  version"

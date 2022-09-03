@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Query<KeyValueIterator<K,V>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Query<KeyValueIterator<K,V>>"
  , "c2" : "org.apache.kafka.streams.query.RangeQuery"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.RangeQuery" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RangeQuery"
+{ "ligne" : { "" : ""
+ , "c1" : "RangeQuery"
  , "c2" : "RangeQuery(Optional<K>;Optional<K>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<K>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<K>"
  , "c2" : "getLowerBound()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<K>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<K>"
  , "c2" : "getUpperBound()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00015] The class RangeQuery contains no field, constructor, finalize. Must contain only static methods, check it"

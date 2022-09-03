@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "org.apache.kafka.common.errors.ElectionNotNeededException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.ElectionNotNeededException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ElectionNotNeededException"
+{ "ligne" : { "" : ""
+ , "c1" : "ElectionNotNeededException"
  , "c2" : "ElectionNotNeededException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ElectionNotNeededException"
+{ "ligne" : { "" : ""
+ , "c1" : "ElectionNotNeededException"
  , "c2" : "ElectionNotNeededException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.image.ProducerIdsDelta"
 }} 
 ]
@@ -17,50 +17,50 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ProducerIdsDelta" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ProducerIdsDelta"
+{ "ligne" : { "" : ""
+ , "c1" : "ProducerIdsDelta"
  , "c2" : "ProducerIdsDelta(ProducerIdsImage)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setNextProducerId(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "nextProducerId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "handleMetadataVersionChange(MetadataVersion)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "replay(ProducerIdsRecord)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ProducerIdsImage"
+{ "ligne" : { "" : ""
+ , "c1" : "ProducerIdsImage"
  , "c2" : "apply()"
  , "c3" : "1"
  , "c4" : "1"
@@ -98,29 +98,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -128,57 +128,57 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00009] The class ProducerIdsDelta contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#12"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00012] The argument image is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#16"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00016] For method setNextProducerId arguments long  highestSeenProducerId"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#28"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00028] For method handleMetadataVersionChange arguments MetadataVersion  newVersion"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#32"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00032] For method replay arguments ProducerIdsRecord  record"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#32"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00032] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#24"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00024] Public method finishSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#28"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00028] Public method handleMetadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"

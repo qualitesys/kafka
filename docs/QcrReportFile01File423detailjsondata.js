@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.UnknownLeaderEpochException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnknownLeaderEpochException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UnknownLeaderEpochException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownLeaderEpochException"
  , "c2" : "UnknownLeaderEpochException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "UnknownLeaderEpochException"
+{ "ligne" : { "" : ""
+ , "c1" : "UnknownLeaderEpochException"
  , "c2" : "UnknownLeaderEpochException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

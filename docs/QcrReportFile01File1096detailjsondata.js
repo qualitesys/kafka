@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "SourceTaskContext"
+{ "ligne" : { "" : ""
+ , "c1" : "SourceTaskContext"
  , "c2" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "WorkerSourceTaskContext"
+{ "ligne" : { "" : ""
+ , "c1" : "WorkerSourceTaskContext"
  , "c2" : "WorkerSourceTaskContext(OffsetStorageReader;ConnectorTaskId;ClusterConfigState;WorkerTransactionContext)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "configs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetStorageReader"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetStorageReader"
  , "c2" : "offsetStorageReader()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "WorkerTransactionContext"
+{ "ligne" : { "" : ""
+ , "c1" : "WorkerTransactionContext"
  , "c2" : "transactionContext()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00011] The class WorkerSourceTaskContext contains no field, constructor, finalize. Must contain only static methods, check it"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthorizationException"
  , "c2" : "org.apache.kafka.common.errors.ClusterAuthorizationException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.ClusterAuthorizationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ClusterAuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "ClusterAuthorizationException"
  , "c2" : "ClusterAuthorizationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ClusterAuthorizationException"
+{ "ligne" : { "" : ""
+ , "c1" : "ClusterAuthorizationException"
  , "c2" : "ClusterAuthorizationException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

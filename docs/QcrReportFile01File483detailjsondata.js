@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Rate"
+{ "ligne" : { "" : ""
+ , "c1" : "Rate"
  , "c2" : "org.apache.kafka.common.metrics.stats.SimpleRate"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.SimpleRate" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "windowSize(MetricConfig;long)"
  , "c3" : "1"
  , "c4" : "3"
@@ -56,15 +56,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -72,15 +72,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SimpleRate.java.html#10"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00010] For method windowSize arguments MetricConfig  config|long  now"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SimpleRate.java.html#10"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00010] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

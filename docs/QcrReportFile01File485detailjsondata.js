@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "MeasurableStat"
+{ "ligne" : { "" : ""
+ , "c1" : "MeasurableStat"
  , "c2" : "org.apache.kafka.common.metrics.stats.Value"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.Value" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "double"
+{ "ligne" : { "" : ""
+ , "c1" : "double"
  , "c2" : "measure(MetricConfig;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "record(MetricConfig;double;long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -79,22 +79,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class Value contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#12"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00012] For method measure arguments MetricConfig  config|long  now"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00017"
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#17"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00017] For method record arguments MetricConfig  config|double  value|long  timeMs"

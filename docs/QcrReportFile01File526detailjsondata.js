@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.protocol.ObjectSerializationCache"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.ObjectSerializationCache" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ObjectSerializationCache"
+{ "ligne" : { "" : ""
+ , "c1" : "ObjectSerializationCache"
  , "c2" : "ObjectSerializationCache()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setArraySizeInBytes(Object;Integer)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Integer"
+{ "ligne" : { "" : ""
+ , "c1" : "Integer"
  , "c2" : "getArraySizeInBytes(Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "cacheSerializedValue(Object;byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "getSerializedValue(Object)"
  , "c3" : "1"
  , "c4" : "2"
@@ -93,22 +93,22 @@ var maDataBlocs = {
 ]
 ,
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "4"
@@ -116,50 +116,50 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class ObjectSerializationCache contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#15"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00015] For method setArraySizeInBytes arguments Object  o|Integer  size"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#19"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00019] For method getArraySizeInBytes arguments Object  o"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#23"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00023] For method cacheSerializedValue arguments Object  o|byte[]  val"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00027"
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#27"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00027] For method getSerializedValue arguments Object  o"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.ObjectSerializationCache.getArraySizeInBytes@POLYN145887"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00001"
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.ObjectSerializationCache.getSerializedValue@POLYN146246"

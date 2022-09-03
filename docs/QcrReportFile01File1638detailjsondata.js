@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Serdes.WrapperSerde<Windowed<T>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Serdes.WrapperSerde<Windowed<T>>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FullTimeWindowedSerde"
+{ "ligne" : { "" : ""
+ , "c1" : "FullTimeWindowedSerde"
  , "c2" : "FullTimeWindowedSerde(Serde<T>;long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullTimeWindowedSerde.java.html#11"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00011] The argument inner is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

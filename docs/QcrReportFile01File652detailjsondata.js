@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.DescribeLogDirsRequest"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeLogDirsRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeLogDirsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeLogDirsRequest"
  , "c2" : "DescribeLogDirsRequest(DescribeLogDirsRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeLogDirsRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeLogDirsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isAllTopicPartitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeLogDirsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeLogDirsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,15 +84,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -100,29 +100,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#26"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00026] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00047"
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#47"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00047] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#54"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.requests.DescribeLogDirsRequest.isAllTopicPartitions@POLYN148565 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00057"
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#57"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00057] For method parse arguments ByteBuffer  buffer|short  version"

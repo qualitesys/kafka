@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.TopicCollection"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.TopicCollection" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TopicCollection"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicCollection"
  , "c2" : "TopicCollection()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicIdCollection"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicIdCollection"
  , "c2" : "ofTopicIds(Collection<Uuid>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicNameCollection"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicNameCollection"
  , "c2" : "ofTopicNames(Collection<String>)"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,15 +70,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -86,22 +86,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00009] The class TopicCollection contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#14"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00014] For method ofTopicIds arguments Collection&lt;Uuid &gt;  topics"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#19"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00019] For method ofTopicNames arguments Collection&lt;String &gt;  topics"

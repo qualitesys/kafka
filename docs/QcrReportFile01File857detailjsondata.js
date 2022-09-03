@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Deserializer<Bytes>"
+{ "ligne" : { "" : ""
+ , "c1" : "Deserializer<Bytes>"
  , "c2" : "org.apache.kafka.common.serialization.BytesDeserializer"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.BytesDeserializer" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Bytes"
+{ "ligne" : { "" : ""
+ , "c1" : "Bytes"
  , "c2" : "deserialize(String;byte[])"
  , "c3" : "2"
  , "c4" : "2"
@@ -56,22 +56,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -79,29 +79,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00006"
+{ "ligne" : {"" : ""
+ , "c1" : "00006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/BytesDeserializer.java.html#6"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00006] The class BytesDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00007"
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/BytesDeserializer.java.html#7"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00007] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/BytesDeserializer.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.BytesDeserializer.deserialize@POLYN141144 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/BytesDeserializer.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.common.serialization.BytesDeserializer.deserialize@POLYN141144 the MagicNumber/String  null should be converted to const"

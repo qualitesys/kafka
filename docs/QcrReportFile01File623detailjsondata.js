@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "IllegalStateException"
+{ "ligne" : { "" : ""
+ , "c1" : "IllegalStateException"
  , "c2" : "org.apache.kafka.common.requests.CorrelationIdMismatchException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.CorrelationIdMismatchException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CorrelationIdMismatchException"
+{ "ligne" : { "" : ""
+ , "c1" : "CorrelationIdMismatchException"
  , "c2" : "CorrelationIdMismatchException(String;int;int)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "requestCorrelationId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "responseCorrelationId()"
  , "c3" : "1"
  , "c4" : "1"

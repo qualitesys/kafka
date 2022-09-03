@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Iterator<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "Iterator<T>"
  , "c2" : "org.apache.kafka.common.utils.MappedIterator"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.MappedIterator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "MappedIterator"
+{ "ligne" : { "" : ""
+ , "c1" : "MappedIterator"
  , "c2" : "MappedIterator(Iterator<?extendsF>;Function<F,T>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "T"
+{ "ligne" : { "" : ""
+ , "c1" : "T"
  , "c2" : "next()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class MappedIterator contains no field, constructor, finalize. Must contain only static methods, check it"

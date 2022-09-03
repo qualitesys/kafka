@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TaskController"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskController"
  , "c2" : "org.apache.kafka.trogdor.fault.KiboshFaultController"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.fault.KiboshFaultController" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KiboshFaultController"
+{ "ligne" : { "" : ""
+ , "c1" : "KiboshFaultController"
  , "c2" : "KiboshFaultController(Set<String>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<String>"
  , "c2" : "targetNodes(Topology)"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultController.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class KiboshFaultController contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultController.java.html#18"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00018] For method targetNodes arguments Topology  topology"

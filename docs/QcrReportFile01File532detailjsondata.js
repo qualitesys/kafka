@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.protocol.types.BoundField"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.BoundField" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "BoundField"
+{ "ligne" : { "" : ""
+ , "c1" : "BoundField"
  , "c2" : "BoundField(Field;Schema;int)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -79,15 +79,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00005"
+{ "ligne" : {"" : ""
+ , "c1" : "00005"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/BoundField.java.html#5"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00005] The class BoundField contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/BoundField.java.html#18"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.protocol.types.BoundField.toString@POLYN142410 the MagicNumber/String  ':' should be converted to const"

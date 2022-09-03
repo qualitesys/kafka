@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AccessTokenRetriever"
+{ "ligne" : { "" : ""
+ , "c1" : "AccessTokenRetriever"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FileTokenRetriever"
+{ "ligne" : { "" : ""
+ , "c1" : "FileTokenRetriever"
  , "c2" : "FileTokenRetriever(Path)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "init()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "retrieve()"
  , "c3" : "2"
  , "c4" : "2"
@@ -70,22 +70,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
  , "c4" : "1"
@@ -93,29 +93,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00011] The class FileTokenRetriever contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00022] For method init list of called methods Object monObjet|String Utils_readFileAsStringN144496"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#28"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever.retrieve@POLYN144622 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#29"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever.retrieve@POLYN144622 the MagicNumber/String  'Access token is null; please call init() first' should be converted to const"

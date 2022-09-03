@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "org.apache.kafka.common.errors.NotLeaderForPartitionException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NotLeaderForPartitionException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotLeaderForPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderForPartitionException"
  , "c2" : "NotLeaderForPartitionException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderForPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderForPartitionException"
  , "c2" : "NotLeaderForPartitionException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderForPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderForPartitionException"
  , "c2" : "NotLeaderForPartitionException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotLeaderForPartitionException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotLeaderForPartitionException"
  , "c2" : "NotLeaderForPartitionException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "SourceTask"
+{ "ligne" : { "" : ""
+ , "c1" : "SourceTask"
  , "c2" : "org.apache.kafka.connect.mirror.MirrorHeartbeatTask"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.MirrorHeartbeatTask" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "commit()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<SourceRecord>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<SourceRecord>"
  , "c2" : "poll()"
  , "c3" : "2"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "commitRecord(SourceRecord;RecordMetadata)"
  , "c3" : "1"
  , "c4" : "0"
@@ -91,22 +91,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "4"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
  , "c4" : "1"
@@ -114,50 +114,50 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#25"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00025] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#25"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00025] For method start list of called methods Object monObjet|String config_sourceClusterAliasN149618|String config_targetClusterAliasN149692|String config_heartbeatsTopicN149766|java.time.Duration config_emitHeartbeatsIntervalN149840"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#26"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.start@POLYN149302 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#54"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150229 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00059"
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#59"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150229 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00060"
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#60"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.MirrorHeartbeatTask.poll@POLYN150229 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00068"
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#68"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00068] For method commitRecord arguments SourceRecord  record|RecordMetadata  metadata"

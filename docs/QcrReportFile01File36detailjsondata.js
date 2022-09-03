@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<AlterConsumerGroupOffsetsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<AlterConsumerGroupOffsetsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions"
 }} 
 ]

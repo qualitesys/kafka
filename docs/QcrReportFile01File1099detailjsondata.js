@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.connect.runtime.distributed.ConnectAssignor"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.ConnectAssignor" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Map<String,ByteBuffer>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,ByteBuffer>"
  , "c2" : "performAssignment(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;WorkerCoordinator)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "MetricValueProvider<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "MetricValueProvider<T>"
  , "c2" : "org.apache.kafka.common.metrics.Gauge"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.Gauge" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "T"
+{ "ligne" : { "" : ""
+ , "c1" : "T"
  , "c2" : "value(MetricConfig;long)"
  , "c3" : "1"
  , "c4" : "1"

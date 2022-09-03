@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectedStoreProvider"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectedStoreProvider"
  , "c2" : "org.apache.kafka.streams.processor.api.FixedKeyProcessorSupplier"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.api.FixedKeyProcessorSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"

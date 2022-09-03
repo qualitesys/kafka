@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.OffsetDeleteRequest"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.OffsetDeleteRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OffsetDeleteRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetDeleteRequest"
  , "c2" : "OffsetDeleteRequest(OffsetDeleteRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Errors)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetDeleteRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetDeleteRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetDeleteRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetDeleteRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,15 +84,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "4"
@@ -100,36 +100,36 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00041"
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#41"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00041] For method getErrorResponse arguments int  throttleTimeMs|Errors  error"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00041"
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#41"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00041] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00050"
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#50"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00050] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#54"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00054] For method parse arguments ByteBuffer  buffer|short  version"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.DisconnectException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.DisconnectException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DisconnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "DisconnectException"
  , "c2" : "DisconnectException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DisconnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "DisconnectException"
  , "c2" : "DisconnectException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DisconnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "DisconnectException"
  , "c2" : "DisconnectException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DisconnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "DisconnectException"
  , "c2" : "DisconnectException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<RenewDelegationTokenOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<RenewDelegationTokenOptions>"
  , "c2" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RenewDelegationTokenOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "RenewDelegationTokenOptions"
  , "c2" : "renewTimePeriodMs(long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "renewTimePeriodMs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#12"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00012] For method renewTimePeriodMs arguments long  renewTimePeriodMs"

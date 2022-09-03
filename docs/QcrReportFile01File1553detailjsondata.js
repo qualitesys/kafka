@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Configurable"
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable"
  , "c2" : "org.apache.kafka.streams.errors.ProductionExceptionHandler"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.ProductionExceptionHandler" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ProductionExceptionHandlerResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "ProductionExceptionHandlerResponse"
  , "c2" : "handle(ProducerRecord<byte[],byte[]>;Exception)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.AuthorizerNotReadyException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.AuthorizerNotReadyException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AuthorizerNotReadyException"
+{ "ligne" : { "" : ""
+ , "c1" : "AuthorizerNotReadyException"
  , "c2" : "AuthorizerNotReadyException()"
  , "c3" : "1"
  , "c4" : "1"

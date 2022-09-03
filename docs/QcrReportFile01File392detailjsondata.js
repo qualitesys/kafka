@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.OperationNotAttemptedException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.OperationNotAttemptedException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OperationNotAttemptedException"
+{ "ligne" : { "" : ""
+ , "c1" : "OperationNotAttemptedException"
  , "c2" : "OperationNotAttemptedException(String)"
  , "c3" : "1"
  , "c4" : "1"

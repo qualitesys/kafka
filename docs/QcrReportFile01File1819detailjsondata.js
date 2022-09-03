@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "StreamPartitioner<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamPartitioner<K,V>"
  , "c2" : "org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DefaultStreamPartitioner"
+{ "ligne" : { "" : ""
+ , "c1" : "DefaultStreamPartitioner"
  , "c2" : "DefaultStreamPartitioner(Serializer<K>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Integer"
+{ "ligne" : { "" : ""
+ , "c1" : "Integer"
  , "c2" : "partition(String;K;V;int)"
  , "c3" : "3"
  , "c4" : "3"
@@ -63,22 +63,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -86,29 +86,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class DefaultStreamPartitioner contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00017"
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#17"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00017] For method partition arguments String  topic|K  key|V  value|int  numPartitions"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#23"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN143905 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#24"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN143905 the MagicNumber/String  null should be converted to const"

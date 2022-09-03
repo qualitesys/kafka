@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Grouped<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "Grouped<K,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.GroupedInternal"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.GroupedInternal" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "GroupedInternal"
+{ "ligne" : { "" : ""
+ , "c1" : "GroupedInternal"
  , "c2" : "GroupedInternal(Grouped<K,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Serde<K>"
+{ "ligne" : { "" : ""
+ , "c1" : "Serde<K>"
  , "c2" : "keySerde()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Serde<V>"
+{ "ligne" : { "" : ""
+ , "c1" : "Serde<V>"
  , "c2" : "valueSerde()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"

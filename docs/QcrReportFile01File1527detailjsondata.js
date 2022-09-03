@@ -42,8 +42,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999999"
  , "c3" : "Syntax analysis failure on the source code"
  , "c4" : "1"
@@ -51,8 +51,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00002"
+{ "ligne" : {"" : ""
+ , "c1" : "00002"
  , "c1link" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html#2"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "

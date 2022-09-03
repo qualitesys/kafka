@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.GroupNotEmptyException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.GroupNotEmptyException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "GroupNotEmptyException"
+{ "ligne" : { "" : ""
+ , "c1" : "GroupNotEmptyException"
  , "c2" : "GroupNotEmptyException(String)"
  , "c3" : "1"
  , "c4" : "1"

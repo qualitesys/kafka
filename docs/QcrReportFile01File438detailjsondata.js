@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "BaseVersionRange"
+{ "ligne" : { "" : ""
+ , "c1" : "BaseVersionRange"
  , "c2" : "org.apache.kafka.common.feature.SupportedVersionRange"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.feature.SupportedVersionRange" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SupportedVersionRange"
+{ "ligne" : { "" : ""
+ , "c1" : "SupportedVersionRange"
  , "c2" : "SupportedVersionRange(short;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SupportedVersionRange"
+{ "ligne" : { "" : ""
+ , "c1" : "SupportedVersionRange"
  , "c2" : "SupportedVersionRange(short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "SupportedVersionRange"
+{ "ligne" : { "" : ""
+ , "c1" : "SupportedVersionRange"
  , "c2" : "fromMap(Map<String,Short>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "isIncompatibleWith(short)"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -93,22 +93,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#19"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.feature.SupportedVersionRange.SupportedVersionRange@POLYN145470 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00022] For method fromMap arguments Map&lt;String ,Short &gt;  versionRangeMap"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#29"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00029] For method isIncompatibleWith arguments short  version"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.kstream.EmitStrategy"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.EmitStrategy" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StrategyType"
+{ "ligne" : { "" : ""
+ , "c1" : "StrategyType"
  , "c2" : "type()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "EmitStrategy"
+{ "ligne" : { "" : ""
+ , "c1" : "EmitStrategy"
  , "c2" : "onWindowClose()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "EmitStrategy"
+{ "ligne" : { "" : ""
+ , "c1" : "EmitStrategy"
  , "c2" : "onWindowUpdate()"
  , "c3" : "1"
  , "c4" : "1"

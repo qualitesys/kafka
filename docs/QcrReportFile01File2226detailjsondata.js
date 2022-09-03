@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.workload.TopicsSpec"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TopicsSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicsSpec"
  , "c2" : "TopicsSpec()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicsSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicsSpec"
  , "c2" : "TopicsSpec(Map<String,PartitionsSpec>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,PartitionsSpec>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,PartitionsSpec>"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "set(String;PartitionsSpec)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicsSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicsSpec"
  , "c2" : "immutableCopy()"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,PartitionsSpec>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,PartitionsSpec>"
  , "c2" : "materialize()"
  , "c3" : "3"
  , "c4" : "5"
@@ -91,15 +91,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -107,29 +107,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00036"
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#36"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00036] For method set arguments String  name|PartitionsSpec  value"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00050"
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#50"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00050] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00051"
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#51"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00051] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00052"
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#52"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"

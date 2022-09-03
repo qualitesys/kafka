@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "MetricValueProvider<Double>"
+{ "ligne" : { "" : ""
+ , "c1" : "MetricValueProvider<Double>"
  , "c2" : "org.apache.kafka.common.metrics.Measurable"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.Measurable" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "double"
+{ "ligne" : { "" : ""
+ , "c1" : "double"
  , "c2" : "measure(MetricConfig;long)"
  , "c3" : "1"
  , "c4" : "1"

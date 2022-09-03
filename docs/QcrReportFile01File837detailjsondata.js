@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "SaslExtensions"
+{ "ligne" : { "" : ""
+ , "c1" : "SaslExtensions"
  , "c2" : "org.apache.kafka.common.security.scram.internals.ScramExtensions"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.scram.internals.ScramExtensions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ScramExtensions"
+{ "ligne" : { "" : ""
+ , "c1" : "ScramExtensions"
  , "c2" : "ScramExtensions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ScramExtensions"
+{ "ligne" : { "" : ""
+ , "c1" : "ScramExtensions"
  , "c2" : "ScramExtensions(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ScramExtensions"
+{ "ligne" : { "" : ""
+ , "c1" : "ScramExtensions"
  , "c2" : "ScramExtensions(Map<String,String>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "tokenAuthenticated()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#18"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.security.scram.internals.ScramExtensions.ScramExtensions@POLYN143743 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#18"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.security.scram.internals.ScramExtensions.ScramExtensions@POLYN143743 the MagicNumber/String  ',' should be converted to const"

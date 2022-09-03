@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.config.Config"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.Config" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Config"
+{ "ligne" : { "" : ""
+ , "c1" : "Config"
  , "c2" : "Config(List<ConfigValue>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<ConfigValue>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<ConfigValue>"
  , "c2" : "configValues()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00006"
+{ "ligne" : {"" : ""
+ , "c1" : "00006"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/Config.java.html#6"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00006] The class Config contains no field, constructor, finalize. Must contain only static methods, check it"

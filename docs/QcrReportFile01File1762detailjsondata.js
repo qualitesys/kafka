@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Suppressed<K>"
+{ "ligne" : { "" : ""
+ , "c1" : "Suppressed<K>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.suppress.NamedSuppressed"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.NamedSuppressed" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"

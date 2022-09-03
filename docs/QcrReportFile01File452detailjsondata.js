@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Stat"
+{ "ligne" : { "" : ""
+ , "c1" : "Stat"
  , "c2" : "org.apache.kafka.common.metrics.CompoundStat"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.CompoundStat" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "List<NamedMeasurable>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<NamedMeasurable>"
  , "c2" : "stats()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/CompoundStat.java.html#13"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00013] The class NamedMeasurable contains no field, constructor, finalize. Must contain only static methods, check it"

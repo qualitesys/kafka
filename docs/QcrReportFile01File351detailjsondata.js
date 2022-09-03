@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.InconsistentVoterSetException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.InconsistentVoterSetException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InconsistentVoterSetException"
+{ "ligne" : { "" : ""
+ , "c1" : "InconsistentVoterSetException"
  , "c2" : "InconsistentVoterSetException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InconsistentVoterSetException"
+{ "ligne" : { "" : ""
+ , "c1" : "InconsistentVoterSetException"
  , "c2" : "InconsistentVoterSetException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

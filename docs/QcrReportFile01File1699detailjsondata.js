@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Produced<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "Produced<K,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.ProducedInternal"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.ProducedInternal" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ProducedInternal"
+{ "ligne" : { "" : ""
+ , "c1" : "ProducedInternal"
  , "c2" : "ProducedInternal(Produced<K,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Serde<K>"
+{ "ligne" : { "" : ""
+ , "c1" : "Serde<K>"
  , "c2" : "keySerde()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Serde<V>"
+{ "ligne" : { "" : ""
+ , "c1" : "Serde<V>"
  , "c2" : "valueSerde()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "StreamPartitioner<?superK,?superV>"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamPartitioner<?superK,?superV>"
  , "c2" : "streamPartitioner()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"

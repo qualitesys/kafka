@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.rest.AgentStatusResponse"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.AgentStatusResponse" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "AgentStatusResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AgentStatusResponse"
  , "c2" : "AgentStatusResponse(long;TreeMap<Long,WorkerState>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "serverStartMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TreeMap<Long,WorkerState>"
+{ "ligne" : { "" : ""
+ , "c1" : "TreeMap<Long,WorkerState>"
  , "c2" : "workers()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00019"
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/AgentStatusResponse.java.html#19"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.trogdor.rest.AgentStatusResponse.AgentStatusResponse@POLYN143860 the MagicNumber/String  null should be converted to const"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "IOException"
+{ "ligne" : { "" : ""
+ , "c1" : "IOException"
  , "c2" : "org.apache.kafka.common.security.kerberos.BadFormatString"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.kerberos.BadFormatString" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "BadFormatString"
+{ "ligne" : { "" : ""
+ , "c1" : "BadFormatString"
  , "c2" : "BadFormatString(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "BadFormatString"
+{ "ligne" : { "" : ""
+ , "c1" : "BadFormatString"
  , "c2" : "BadFormatString(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.NewPartitions"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.NewPartitions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NewPartitions"
+{ "ligne" : { "" : ""
+ , "c1" : "NewPartitions"
  , "c2" : "NewPartitions(int;List<List<Integer>>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NewPartitions"
+{ "ligne" : { "" : ""
+ , "c1" : "NewPartitions"
  , "c2" : "increaseTo(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NewPartitions"
+{ "ligne" : { "" : ""
+ , "c1" : "NewPartitions"
  , "c2" : "increaseTo(int;List<List<Integer>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "totalCount()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "List<List<Integer>>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<List<Integer>>"
  , "c2" : "assignments()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,22 +91,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "4"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -114,50 +114,50 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class NewPartitions contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00024"
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#24"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00024] For method increaseTo arguments int  totalCount"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#25"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.NewPartitions.increaseTo@POLYN155812 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00029"
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#29"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00029] For method increaseTo arguments int  totalCount|List&lt;List&lt;Integer &gt; &gt;  newAssignments"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00045"
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#45"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN157497 the MagicNumber/String  '(totalCount=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00045"
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#45"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN157497 the MagicNumber/String  ', newAssignments=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00045"
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#45"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.NewPartitions.toString@POLYN157497 the MagicNumber/String  ')' should be converted to const"

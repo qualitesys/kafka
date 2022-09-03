@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "SerializationException"
+{ "ligne" : { "" : ""
+ , "c1" : "SerializationException"
  , "c2" : "org.apache.kafka.common.errors.RecordDeserializationException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.RecordDeserializationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RecordDeserializationException"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordDeserializationException"
  , "c2" : "RecordDeserializationException(TopicPartition;long;String;Throwable)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicPartition"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicPartition"
  , "c2" : "topicPartition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
  , "c4" : "1"

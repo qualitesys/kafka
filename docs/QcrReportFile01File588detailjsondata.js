@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Configurable"
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable"
  , "c2" : "org.apache.kafka.common.replica.ReplicaSelector"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.replica.ReplicaSelector" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Optional<ReplicaView>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<ReplicaView>"
  , "c2" : "select(TopicPartition;ClientMetadata;PartitionView)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
  , "c4" : "0"

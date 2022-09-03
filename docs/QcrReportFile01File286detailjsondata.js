@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Cache<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "Cache<K,V>"
  , "c2" : "org.apache.kafka.common.cache.SynchronizedCache"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.cache.SynchronizedCache" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SynchronizedCache"
+{ "ligne" : { "" : ""
+ , "c1" : "SynchronizedCache"
  , "c2" : "SynchronizedCache(Cache<K,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "V"
+{ "ligne" : { "" : ""
+ , "c1" : "V"
  , "c2" : "get(K)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "put(K;V)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "remove(K)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,22 +84,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "INFO"
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
  , "c4" : "4"
@@ -107,57 +107,57 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00005"
+{ "ligne" : {"" : ""
+ , "c1" : "00005"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#5"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00005] The class SynchronizedCache contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#13"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00013] Lock statement on synchronized method get"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#13"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00013] For method get arguments K  key"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#18"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00018] Lock statement on synchronized method put"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#18"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00018] For method put arguments K  key|V  value"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#23"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00023] Lock statement on synchronized method remove"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00023"
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#23"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00023] For method remove arguments K  key"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00028"
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#28"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00028] Lock statement on synchronized method size"

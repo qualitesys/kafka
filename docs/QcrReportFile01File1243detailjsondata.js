@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "kafka.examples.KafkaProperties"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "kafka.examples.KafkaProperties" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KafkaProperties"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaProperties"
  , "c2" : "KafkaProperties()"
  , "c3" : "1"
  , "c4" : "0"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -65,8 +65,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00004"
+{ "ligne" : {"" : ""
+ , "c1" : "00004"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaProperties.java.html#4"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00004] The class KafkaProperties contains no field, constructor, finalize. Must contain only static methods, check it"

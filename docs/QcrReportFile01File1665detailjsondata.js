@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "FixedKeyProcessorSupplier<K,V,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "FixedKeyProcessorSupplier<K,V,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamPeek"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamPeek" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KStreamPeek"
+{ "ligne" : { "" : ""
+ , "c1" : "KStreamPeek"
  , "c2" : "KStreamPeek(ForeachAction<K,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "FixedKeyProcessor<K,V,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "FixedKeyProcessor<K,V,V>"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,22 +63,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -86,22 +86,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00010"
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPeek.java.html#10"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00010] The class KStreamPeek contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPeek.java.html#25"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00025] For method process arguments FixedKeyRecord&lt;K ,V &gt;  record"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00025"
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPeek.java.html#25"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00025] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"

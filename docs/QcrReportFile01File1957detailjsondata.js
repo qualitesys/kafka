@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "KeyValueStore<K,ValueAndTimestamp<V>>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueStore<K,ValueAndTimestamp<V>>"
  , "c2" : "org.apache.kafka.streams.state.TimestampedKeyValueStore"
 }} 
 ]

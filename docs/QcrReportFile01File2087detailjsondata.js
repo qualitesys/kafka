@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "WrappingNullableSerde<ValueAndTimestamp<V>,Void,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "WrappingNullableSerde<ValueAndTimestamp<V>,Void,V>"
  , "c2" : "org.apache.kafka.streams.state.internals.ValueAndTimestampSerde"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ValueAndTimestampSerde" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ValueAndTimestampSerde"
+{ "ligne" : { "" : ""
+ , "c1" : "ValueAndTimestampSerde"
  , "c2" : "ValueAndTimestampSerde(Serde<V>)"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
@@ -65,15 +65,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.html#13"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerde.ValueAndTimestampSerde@POLYN143041 the MagicNumber/String  'valueSerde was null' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerde.ValueAndTimestampSerde@POLYN143041 the MagicNumber/String  'valueSerde was null' should be converted to const"

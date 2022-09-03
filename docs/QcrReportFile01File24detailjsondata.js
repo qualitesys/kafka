@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<AbortTransactionOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<AbortTransactionOptions>"
  , "c2" : "org.apache.kafka.clients.admin.AbortTransactionOptions"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AbortTransactionOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
@@ -65,22 +65,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionOptions.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.clients.admin.AbortTransactionOptions.toString@POLYN141000 the MagicNumber/String  'AbortTransactionOptions(' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionOptions.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.clients.admin.AbortTransactionOptions.toString@POLYN141000 the MagicNumber/String  'timeoutMs=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00013"
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionOptions.java.html#13"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.clients.admin.AbortTransactionOptions.toString@POLYN141000 the MagicNumber/String  ')' should be converted to const"

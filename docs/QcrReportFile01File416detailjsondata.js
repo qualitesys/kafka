@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.TopicDeletionDisabledException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.TopicDeletionDisabledException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TopicDeletionDisabledException"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicDeletionDisabledException"
  , "c2" : "TopicDeletionDisabledException()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TopicDeletionDisabledException"
+{ "ligne" : { "" : ""
+ , "c1" : "TopicDeletionDisabledException"
  , "c2" : "TopicDeletionDisabledException(String)"
  , "c3" : "1"
  , "c4" : "1"

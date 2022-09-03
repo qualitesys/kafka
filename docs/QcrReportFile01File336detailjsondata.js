@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.FeatureUpdateFailedException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.FeatureUpdateFailedException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FeatureUpdateFailedException"
+{ "ligne" : { "" : ""
+ , "c1" : "FeatureUpdateFailedException"
  , "c2" : "FeatureUpdateFailedException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "FeatureUpdateFailedException"
+{ "ligne" : { "" : ""
+ , "c1" : "FeatureUpdateFailedException"
  , "c2" : "FeatureUpdateFailedException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.rest.CreateWorkerRequest"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.CreateWorkerRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CreateWorkerRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "CreateWorkerRequest"
  , "c2" : "CreateWorkerRequest(long;String;TaskSpec)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "workerId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "taskId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskSpec"
  , "c2" : "spec()"
  , "c3" : "1"
  , "c4" : "1"

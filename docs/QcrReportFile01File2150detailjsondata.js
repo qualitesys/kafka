@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.rest.CoordinatorShutdownRequest"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.CoordinatorShutdownRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CoordinatorShutdownRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "CoordinatorShutdownRequest"
  , "c2" : "CoordinatorShutdownRequest(boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "stopAgents()"
  , "c3" : "1"
  , "c4" : "1"

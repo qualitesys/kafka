@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.server.quota.ClientQuotaEntity"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.quota.ClientQuotaEntity" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "List<ConfigEntity>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<ConfigEntity>"
  , "c2" : "configEntities()"
  , "c3" : "1"
  , "c4" : "1"

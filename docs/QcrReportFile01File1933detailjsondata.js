@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Query<WindowStoreIterator<V>>"
+{ "ligne" : { "" : ""
+ , "c1" : "Query<WindowStoreIterator<V>>"
  , "c2" : "org.apache.kafka.streams.query.WindowKeyQuery"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.WindowKeyQuery" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "WindowKeyQuery"
+{ "ligne" : { "" : ""
+ , "c1" : "WindowKeyQuery"
  , "c2" : "WindowKeyQuery(K;Optional<Instant>;Optional<Instant>)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "K"
+{ "ligne" : { "" : ""
+ , "c1" : "K"
  , "c2" : "getKey()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<Instant>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<Instant>"
  , "c2" : "getTimeFrom()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Optional<Instant>"
+{ "ligne" : { "" : ""
+ , "c1" : "Optional<Instant>"
  , "c2" : "getTimeTo()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,15 +84,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "5"
@@ -100,43 +100,43 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class WindowKeyQuery contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00046"
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#46"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN147197 the MagicNumber/String  'WindowKeyQuery{' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00047"
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#47"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN147197 the MagicNumber/String  'key=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00048"
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#48"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN147197 the MagicNumber/String  ', timeFrom=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00049"
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#49"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN147197 the MagicNumber/String  ', timeTo=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00050"
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#50"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN147197 the MagicNumber/String  '}' should be converted to const"

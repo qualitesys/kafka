@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.connect.health.ConnectClusterState"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.health.ConnectClusterState" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Collection<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Collection<String>"
  , "c2" : "connectors()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConnectorHealth"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectorHealth"
  , "c2" : "connectorHealth(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "connectorConfig(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ConnectClusterDetails"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectClusterDetails"
  , "c2" : "clusterDetails()"
  , "c3" : "1"
  , "c4" : "1"

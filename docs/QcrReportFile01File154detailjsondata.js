@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ApiRequestScope"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiRequestScope"
  , "c2" : "lookupScope(T)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractRequest.Builder<?>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest.Builder<?>"
  , "c2" : "buildRequest(Set<T>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "LookupResult<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "LookupResult<T>"
  , "c2" : "handleResponse(Set<T>;AbstractResponse)"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -79,8 +79,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#26"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00026] The class LookupResult contains no field, constructor, finalize. Must contain only static methods, check it"

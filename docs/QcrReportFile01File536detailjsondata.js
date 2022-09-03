@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.common.protocol.types.RawTaggedFieldWriter"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.RawTaggedFieldWriter" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RawTaggedFieldWriter"
+{ "ligne" : { "" : ""
+ , "c1" : "RawTaggedFieldWriter"
  , "c2" : "forFields(List<RawTaggedField>)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RawTaggedFieldWriter"
+{ "ligne" : { "" : ""
+ , "c1" : "RawTaggedFieldWriter"
  , "c2" : "RawTaggedFieldWriter(List<RawTaggedField>)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "numFields()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "writeRawTags(Writable;int)"
  , "c3" : "5"
  , "c4" : "10"
@@ -77,43 +77,43 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "8"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
  , "c4" : "1"
@@ -121,106 +121,106 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00012"
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#12"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00012] The class RawTaggedFieldWriter contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00020"
+{ "ligne" : {"" : ""
+ , "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#20"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00020] For method forFields arguments List&lt;RawTaggedField &gt;  fields"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00021"
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.forFields@POLYN148312 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00027"
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#27"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00027] The argument fields is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#30"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.RawTaggedFieldWriter@POLYN148577 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00037"
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#37"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00037] For method writeRawTags arguments Writable  writable|int  nextDefinedTag"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00037"
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#37"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00037] For method writeRawTags list of called methods Object monObjet|int field_tagN149262"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00037"
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#37"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00037] The argument writable is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00039"
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#39"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00044"
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#44"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN149000 the MagicNumber/String  'Attempted to use tag ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00044"
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#44"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN149000 the MagicNumber/String  ' as an ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00045"
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#45"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN149000 the MagicNumber/String  'undefined tag.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00053"
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#53"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN149000 the MagicNumber/String  'Invalid raw tag field list: tag ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#54"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN149000 the MagicNumber/String  ' comes after tag ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00054"
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#54"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.types.RawTaggedFieldWriter.writeRawTags@POLYN149000 the MagicNumber/String  ', but is not higher than it.' should be converted to const"

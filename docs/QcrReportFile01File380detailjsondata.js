@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidMetadataException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidMetadataException"
  , "c2" : "org.apache.kafka.common.errors.NetworkException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NetworkException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NetworkException"
+{ "ligne" : { "" : ""
+ , "c1" : "NetworkException"
  , "c2" : "NetworkException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NetworkException"
+{ "ligne" : { "" : ""
+ , "c1" : "NetworkException"
  , "c2" : "NetworkException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NetworkException"
+{ "ligne" : { "" : ""
+ , "c1" : "NetworkException"
  , "c2" : "NetworkException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NetworkException"
+{ "ligne" : { "" : ""
+ , "c1" : "NetworkException"
  , "c2" : "NetworkException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

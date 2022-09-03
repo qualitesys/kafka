@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Message"
+{ "ligne" : { "" : ""
+ , "c1" : "Message"
  , "c2" : "org.apache.kafka.trogdor.rest.DestroyTaskRequest"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.DestroyTaskRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DestroyTaskRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DestroyTaskRequest"
  , "c2" : "DestroyTaskRequest(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "id()"
  , "c3" : "1"
  , "c4" : "1"

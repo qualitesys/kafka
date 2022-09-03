@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RaftException"
+{ "ligne" : { "" : ""
+ , "c1" : "RaftException"
  , "c2" : "org.apache.kafka.raft.errors.BufferAllocationException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.errors.BufferAllocationException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "BufferAllocationException"
+{ "ligne" : { "" : ""
+ , "c1" : "BufferAllocationException"
  , "c2" : "BufferAllocationException(String)"
  , "c3" : "1"
  , "c4" : "1"

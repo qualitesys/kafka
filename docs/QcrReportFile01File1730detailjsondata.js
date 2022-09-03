@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ProcessorSupplier<K,SubscriptionResponseWrapper<VO>,K,VR>"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorSupplier<K,SubscriptionResponseWrapper<VO>,K,VR>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "SubscriptionResolverJoinProcessorSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "SubscriptionResolverJoinProcessorSupplier"
  , "c2" : "SubscriptionResolverJoinProcessorSupplier(KTableValueGetterSupplier<K,V>;Serializer<V>;Supplier<String>;ValueJoiner<V,VO,VR>;boolean)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Processor<K,SubscriptionResponseWrapper<VO>,K,VR>"
+{ "ligne" : { "" : ""
+ , "c1" : "Processor<K,SubscriptionResponseWrapper<VO>,K,VR>"
  , "c2" : "get()"
  , "c3" : "6"
  , "c4" : "17"
@@ -63,15 +63,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "10"
@@ -79,78 +79,78 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00021"
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00021] The class SubscriptionResolverJoinProcessorSupplier contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00048"
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#48"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00055"
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#55"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00066"
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#66"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  'SubscriptionResponseWrapper is of an incompatible version.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00070"
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#70"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00071"
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#71"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00080"
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#80"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00080"
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#80"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00081"
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#81"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00083"
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#83"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00083"
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#83"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier.get@POLYN161527 the MagicNumber/String  null should be converted to const"

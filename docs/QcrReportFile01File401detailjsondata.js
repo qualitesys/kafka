@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ApiException"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiException"
  , "c2" : "org.apache.kafka.common.errors.RecordBatchTooLargeException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.RecordBatchTooLargeException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RecordBatchTooLargeException"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordBatchTooLargeException"
  , "c2" : "RecordBatchTooLargeException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RecordBatchTooLargeException"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordBatchTooLargeException"
  , "c2" : "RecordBatchTooLargeException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RecordBatchTooLargeException"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordBatchTooLargeException"
  , "c2" : "RecordBatchTooLargeException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RecordBatchTooLargeException"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordBatchTooLargeException"
  , "c2" : "RecordBatchTooLargeException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

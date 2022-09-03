@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<AlterUserScramCredentialsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<AlterUserScramCredentialsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsOptions"
 }} 
 ]

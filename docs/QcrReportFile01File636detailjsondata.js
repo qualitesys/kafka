@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.DeleteRecordsRequest"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DeleteRecordsRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DeleteRecordsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DeleteRecordsRequest"
  , "c2" : "DeleteRecordsRequest(DeleteRecordsRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DeleteRecordsRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "DeleteRecordsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DeleteRecordsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DeleteRecordsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "2"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
@@ -93,36 +93,36 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#30"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00030] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00051"
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#51"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00051] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00055"
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#55"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00055] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00057"
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#57"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00067"
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#67"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00067] For method parse arguments ByteBuffer  buffer|short  version"

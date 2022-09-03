@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ApiMessageAndVersion"
+{ "ligne" : { "" : ""
+ , "c1" : "ApiMessageAndVersion"
  , "c2" : "toApiMessageAndVersion(T)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "T"
+{ "ligne" : { "" : ""
+ , "c1" : "T"
  , "c2" : "fromApiMessageAndVersion(ApiMessageAndVersion)"
  , "c3" : "1"
  , "c4" : "1"

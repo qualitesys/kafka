@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "StreamsException"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamsException"
  , "c2" : "org.apache.kafka.streams.errors.TaskIdFormatException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.TaskIdFormatException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TaskIdFormatException"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskIdFormatException"
  , "c2" : "TaskIdFormatException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskIdFormatException"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskIdFormatException"
  , "c2" : "TaskIdFormatException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskIdFormatException"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskIdFormatException"
  , "c2" : "TaskIdFormatException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "8"
@@ -79,57 +79,57 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144152 the MagicNumber/String  'Task id cannot be parsed correctly' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144152 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144152 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144152 the MagicNumber/String  ' from ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144494 the MagicNumber/String  'Task id cannot be parsed correctly' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144494 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskIdFormatException.TaskIdFormatException@POLYN144494 the MagicNumber/String  ' from ' should be converted to const"

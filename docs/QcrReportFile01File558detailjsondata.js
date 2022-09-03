@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RecordsSend<T>"
+{ "ligne" : { "" : ""
+ , "c1" : "RecordsSend<T>"
  , "c2" : "org.apache.kafka.common.record.DefaultRecordsSend"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.DefaultRecordsSend" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DefaultRecordsSend"
+{ "ligne" : { "" : ""
+ , "c1" : "DefaultRecordsSend"
  , "c2" : "DefaultRecordsSend(T)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DefaultRecordsSend"
+{ "ligne" : { "" : ""
+ , "c1" : "DefaultRecordsSend"
  , "c2" : "DefaultRecordsSend(T;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel;long;int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,15 +70,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "CRITICAL"
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
@@ -86,15 +86,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#9"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00009] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#18"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00018] For method writeTo arguments TransferableChannel  channel|long  previouslyWritten|int  remaining"

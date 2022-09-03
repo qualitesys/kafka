@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.clients.admin.DescribeClusterResult"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeClusterResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeClusterResult"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeClusterResult"
  , "c2" : "DescribeClusterResult(KafkaFuture<Collection<Node>>;KafkaFuture<Node>;KafkaFuture<String>;KafkaFuture<Set<AclOperation>>)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Collection<Node>>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Collection<Node>>"
  , "c2" : "nodes()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Node>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Node>"
  , "c2" : "controller()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<String>"
  , "c2" : "clusterId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KafkaFuture<Set<AclOperation>>"
+{ "ligne" : { "" : ""
+ , "c1" : "KafkaFuture<Set<AclOperation>>"
  , "c2" : "authorizedOperations()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,8 +84,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -93,8 +93,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00015] The class DescribeClusterResult contains no field, constructor, finalize. Must contain only static methods, check it"

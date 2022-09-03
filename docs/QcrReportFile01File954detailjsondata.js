@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectException"
  , "c2" : "org.apache.kafka.connect.errors.DataException"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.errors.DataException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DataException"
+{ "ligne" : { "" : ""
+ , "c1" : "DataException"
  , "c2" : "DataException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DataException"
+{ "ligne" : { "" : ""
+ , "c1" : "DataException"
  , "c2" : "DataException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DataException"
+{ "ligne" : { "" : ""
+ , "c1" : "DataException"
  , "c2" : "DataException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"

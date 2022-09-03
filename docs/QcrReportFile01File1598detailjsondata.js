@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.streams.kstream.SessionWindowedCogroupedKStream"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.SessionWindowedCogroupedKStream" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KTable<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KTable<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>;Named)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KTable<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KTable<Windowed<K>,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Iterator<byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "Iterator<byte[]>"
  , "c2" : "org.apache.kafka.trogdor.workload.PayloadIterator"
 }} 
 ]
@@ -17,43 +17,43 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.PayloadIterator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "PayloadIterator"
+{ "ligne" : { "" : ""
+ , "c1" : "PayloadIterator"
  , "c2" : "PayloadIterator(PayloadGenerator)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "next()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "remove()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "seek(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "position()"
  , "c3" : "1"
  , "c4" : "1"
@@ -91,29 +91,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "INFO"
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
  , "c4" : "3"
@@ -121,43 +121,43 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class PayloadIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00018"
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#18"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.trogdor.workload.PayloadIterator.hasNext@POLYN143505 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#22"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00022] Lock statement on synchronized method next"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00031"
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#31"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00031] Lock statement on synchronized method seek"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00031"
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#31"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00031] For method seek arguments long  position"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00035"
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#35"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00035] Lock statement on synchronized method position"

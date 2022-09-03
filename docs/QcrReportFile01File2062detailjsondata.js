@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "WindowBytesStoreSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "WindowBytesStoreSupplier"
  , "c2" : "org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier"
 }} 
 ]
@@ -17,71 +17,71 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "RocksDbWindowBytesStoreSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "RocksDbWindowBytesStoreSupplier"
  , "c2" : "RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "RocksDbWindowBytesStoreSupplier"
+{ "ligne" : { "" : ""
+ , "c1" : "RocksDbWindowBytesStoreSupplier"
  , "c2" : "RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;WindowStoreTypes)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "WindowStore<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "WindowStore<Bytes,byte[]>"
  , "c2" : "get()"
  , "c3" : "3"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "metricsScope()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "segmentIntervalMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "windowSize()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "retainDuplicates()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "retentionPeriod()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -119,15 +119,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "11"
@@ -135,85 +135,85 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00008"
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#8"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00008] The class RocksDbWindowBytesStoreSupplier contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00076"
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#76"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.get@POLYN151859 the MagicNumber/String  'invalid window store type: ' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00082"
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#82"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.metricsScope@POLYN152695 the MagicNumber/String  'rocksdb-window' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00107"
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#107"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  'RocksDbWindowBytesStoreSupplier{' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00108"
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#108"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00108"
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#108"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00109"
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#109"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  ', retentionPeriod=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00110"
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#110"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  ', segmentInterval=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00111"
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#111"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  ', windowSize=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00112"
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#112"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  ', retainDuplicates=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00113"
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#113"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  ', windowStoreType=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00114"
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#114"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.toString@POLYN153197 the MagicNumber/String  '}' should be converted to const"

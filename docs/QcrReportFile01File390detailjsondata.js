@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.OffsetNotAvailableException"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.OffsetNotAvailableException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OffsetNotAvailableException"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetNotAvailableException"
  , "c2" : "OffsetNotAvailableException(String)"
  , "c3" : "1"
  , "c4" : "1"

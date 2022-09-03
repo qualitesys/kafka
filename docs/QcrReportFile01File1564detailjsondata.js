@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "StreamsException"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamsException"
  , "c2" : "org.apache.kafka.streams.errors.TaskMigratedException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.TaskMigratedException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TaskMigratedException"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskMigratedException"
  , "c2" : "TaskMigratedException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskMigratedException"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskMigratedException"
  , "c2" : "TaskMigratedException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
@@ -72,15 +72,15 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00011"
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#11"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN142796 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN142944 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractOptions<ListOffsetsOptions>"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractOptions<ListOffsetsOptions>"
  , "c2" : "org.apache.kafka.clients.admin.ListOffsetsOptions"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListOffsetsOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "ListOffsetsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "ListOffsetsOptions"
  , "c2" : "ListOffsetsOptions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ListOffsetsOptions"
+{ "ligne" : { "" : ""
+ , "c1" : "ListOffsetsOptions"
  , "c2" : "ListOffsetsOptions(IsolationLevel)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "IsolationLevel"
+{ "ligne" : { "" : ""
+ , "c1" : "IsolationLevel"
  , "c2" : "isolationLevel()"
  , "c3" : "1"
  , "c4" : "1"

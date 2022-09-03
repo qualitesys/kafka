@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidOffsetException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidOffsetException"
  , "c2" : "org.apache.kafka.clients.consumer.OffsetOutOfRangeException"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.OffsetOutOfRangeException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OffsetOutOfRangeException"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetOutOfRangeException"
  , "c2" : "OffsetOutOfRangeException(Map<TopicPartition,Long>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetOutOfRangeException"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetOutOfRangeException"
  , "c2" : "OffsetOutOfRangeException(String;Map<TopicPartition,Long>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<TopicPartition,Long>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "offsetOutOfRangePartitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<TopicPartition>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<TopicPartition>"
  , "c2" : "partitions()"
  , "c3" : "1"
  , "c4" : "1"
@@ -77,8 +77,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -86,8 +86,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00016"
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#16"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.consumer.OffsetOutOfRangeException.OffsetOutOfRangeException@POLYN144967 the MagicNumber/String  'Offsets out of range with no configured reset policy for partitions: ' should be converted to const"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Error"
+{ "ligne" : { "" : ""
+ , "c1" : "Error"
  , "c2" : "org.apache.kafka.common.internals.FatalExitError"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.FatalExitError" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FatalExitError"
+{ "ligne" : { "" : ""
+ , "c1" : "FatalExitError"
  , "c2" : "FatalExitError(int)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "FatalExitError"
+{ "ligne" : { "" : ""
+ , "c1" : "FatalExitError"
  , "c2" : "FatalExitError()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "statusCode()"
  , "c3" : "1"
  , "c4" : "1"
@@ -70,8 +70,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
@@ -79,22 +79,22 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00014"
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/FatalExitError.java.html#14"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN144256 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00015"
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/FatalExitError.java.html#15"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN144256 the MagicNumber/String  'statusCode must not be 0' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00020"
+{ "ligne" : {"" : ""
+ , "c1" : "00020"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/FatalExitError.java.html#20"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN144511 the MagicNumber/String  1 should be converted to const"

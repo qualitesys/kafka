@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ProcessorContext"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorContext"
  , "c2" : "org.apache.kafka.streams.processor.internals.InternalProcessorContext"
 }} 
 ]
@@ -17,134 +17,134 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.InternalProcessorContext" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "StreamsMetricsImpl"
+{ "ligne" : { "" : ""
+ , "c1" : "StreamsMetricsImpl"
  , "c2" : "metrics()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setSystemTimeMs(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ProcessorRecordContext"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorRecordContext"
  , "c2" : "recordContext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setRecordContext(ProcessorRecordContext)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setCurrentNode(ProcessorNode<?,?,?,?>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ProcessorNode<?,?,?,?>"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorNode<?,?,?,?>"
  , "c2" : "currentNode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ThreadCache"
+{ "ligne" : { "" : ""
+ , "c1" : "ThreadCache"
  , "c2" : "cache()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "initialize()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "uninitialize()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskType"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskType"
  , "c2" : "taskType()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "transitionToActive(StreamTask;RecordCollector;ThreadCache)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "transitionToStandby(ThreadCache)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "registerCacheFlushListener(String;DirtyEntryFlushListener)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "logChange(String;Bytes;byte[];long;Position)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "changelogFor(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "addProcessorMetadataKeyValue(String;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Long"
+{ "ligne" : { "" : ""
+ , "c1" : "Long"
  , "c2" : "processorMetadataForKey(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setProcessorMetadata(ProcessorMetadata)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "ProcessorMetadata"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorMetadata"
  , "c2" : "getProcessorMetadata()"
  , "c3" : "1"
  , "c4" : "1"

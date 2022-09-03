@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "KeyValueIterator<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "org.apache.kafka.streams.state.internals.PeekingKeyValueIterator"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.PeekingKeyValueIterator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KeyValue<K,V>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValue<K,V>"
  , "c2" : "peekNext()"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Serializer<Outer>"
+{ "ligne" : { "" : ""
+ , "c1" : "Serializer<Outer>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "setIfUnset(SerdeGetter)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InternalTopicConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "InternalTopicConfig"
  , "c2" : "org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig"
 }} 
 ]
@@ -17,36 +17,36 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "UnwindowedChangelogTopicConfig"
+{ "ligne" : { "" : ""
+ , "c1" : "UnwindowedChangelogTopicConfig"
  , "c2" : "UnwindowedChangelogTopicConfig(String;Map<String,String>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Map<String,String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Map<String,String>"
  , "c2" : "getProperties(Map<String,String>;long)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "boolean"
+{ "ligne" : { "" : ""
+ , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,22 +84,22 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "8"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000021"
  , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -107,78 +107,78 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00026"
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#26"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00026] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00038"
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#38"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00038] For method equals arguments Object  o"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00042"
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#42"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000021[00042] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00040"
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#40"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.equals@POLYN151552 the MagicNumber/String  true should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00042"
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#42"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.equals@POLYN151552 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00043"
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#43"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.equals@POLYN151552 the MagicNumber/String  false should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00058"
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#58"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.toString@POLYN152484 the MagicNumber/String  'UnwindowedChangelogTopicConfig(' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00059"
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#59"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.toString@POLYN152484 the MagicNumber/String  'name=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00060"
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#60"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.toString@POLYN152484 the MagicNumber/String  ', topicConfigs=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00061"
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#61"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.toString@POLYN152484 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00062"
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#62"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig.toString@POLYN152484 the MagicNumber/String  ')' should be converted to const"

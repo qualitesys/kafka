@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ConnectException"
+{ "ligne" : { "" : ""
+ , "c1" : "ConnectException"
  , "c2" : "org.apache.kafka.connect.storage.PrivilegedWriteException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.PrivilegedWriteException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "PrivilegedWriteException"
+{ "ligne" : { "" : ""
+ , "c1" : "PrivilegedWriteException"
  , "c2" : "PrivilegedWriteException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "PrivilegedWriteException"
+{ "ligne" : { "" : ""
+ , "c1" : "PrivilegedWriteException"
  , "c2" : "PrivilegedWriteException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

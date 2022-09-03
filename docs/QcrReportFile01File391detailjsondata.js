@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "InvalidOffsetException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidOffsetException"
  , "c2" : "org.apache.kafka.common.errors.OffsetOutOfRangeException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.OffsetOutOfRangeException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "OffsetOutOfRangeException"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetOutOfRangeException"
  , "c2" : "OffsetOutOfRangeException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "OffsetOutOfRangeException"
+{ "ligne" : { "" : ""
+ , "c1" : "OffsetOutOfRangeException"
  , "c2" : "OffsetOutOfRangeException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

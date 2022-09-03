@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TaskSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskSpec"
  , "c2" : "org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec"
 }} 
 ]
@@ -17,50 +17,50 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "FilesUnreadableFaultSpec"
+{ "ligne" : { "" : ""
+ , "c1" : "FilesUnreadableFaultSpec"
  , "c2" : "FilesUnreadableFaultSpec(long;long;Set<String>;String;String;int)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Set<String>"
+{ "ligne" : { "" : ""
+ , "c1" : "Set<String>"
  , "c2" : "nodeNames()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "mountPath()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "String"
+{ "ligne" : { "" : ""
+ , "c1" : "String"
  , "c2" : "prefix()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "int"
+{ "ligne" : { "" : ""
+ , "c1" : "int"
  , "c2" : "errorCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskController"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskController"
  , "c2" : "newController(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskWorker"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskWorker"
  , "c2" : "newTaskWorker(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -98,15 +98,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "5"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "2"
@@ -114,50 +114,50 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00030"
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#30"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00031"
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#31"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00031"
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#31"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#32"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00032"
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#32"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00057"
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#57"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00057] For method newController arguments String  id"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00062"
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#62"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00062] For method newTaskWorker arguments String  id"

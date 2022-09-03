@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "StateStore"
+{ "ligne" : { "" : ""
+ , "c1" : "StateStore"
  , "c2" : "org.apache.kafka.streams.state.internals.SegmentedBytesStore"
 }} 
 ]
@@ -17,85 +17,85 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.SegmentedBytesStore" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetch(Bytes;long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;Bytes;long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetch(Bytes;Bytes;long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "all()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardAll()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetchAll(long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "KeyValueIterator<Bytes,byte[]>"
+{ "ligne" : { "" : ""
+ , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetchAll(long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "remove(Bytes)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "remove(Bytes;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "void"
+{ "ligne" : { "" : ""
+ , "c1" : "void"
  , "c2" : "put(Bytes;byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "byte[]"
+{ "ligne" : { "" : ""
+ , "c1" : "byte[]"
  , "c2" : "get(Bytes)"
  , "c3" : "1"
  , "c4" : "1"

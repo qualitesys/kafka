@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "Configurable"
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable"
  , "c2" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "List<ConfigValue>"
+{ "ligne" : { "" : ""
+ , "c1" : "List<ConfigValue>"
  , "c2" : "validate(ConnectorClientConfigRequest)"
  , "c3" : "1"
  , "c4" : "1"

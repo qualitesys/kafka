@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.metadata.authorizer.AclMutator"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.authorizer.AclMutator" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "CompletableFuture<List<AclCreateResult>>"
+{ "ligne" : { "" : ""
+ , "c1" : "CompletableFuture<List<AclCreateResult>>"
  , "c2" : "createAcls(ControllerRequestContext;List<AclBinding>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "CompletableFuture<List<AclDeleteResult>>"
+{ "ligne" : { "" : ""
+ , "c1" : "CompletableFuture<List<AclDeleteResult>>"
  , "c2" : "deleteAcls(ControllerRequestContext;List<AclBindingFilter>)"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.InvalidFetchSessionEpochException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.InvalidFetchSessionEpochException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "InvalidFetchSessionEpochException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidFetchSessionEpochException"
  , "c2" : "InvalidFetchSessionEpochException()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "InvalidFetchSessionEpochException"
+{ "ligne" : { "" : ""
+ , "c1" : "InvalidFetchSessionEpochException"
  , "c2" : "InvalidFetchSessionEpochException(String)"
  , "c3" : "1"
  , "c4" : "1"

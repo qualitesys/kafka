@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "TaskState"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskState"
  , "c2" : "org.apache.kafka.trogdor.rest.TaskStopping"
 }} 
 ]
@@ -17,22 +17,22 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskStopping" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "TaskStopping"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskStopping"
  , "c2" : "TaskStopping(TaskSpec;long;JsonNode)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "long"
+{ "ligne" : { "" : ""
+ , "c1" : "long"
  , "c2" : "startedMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "TaskStateType"
+{ "ligne" : { "" : ""
+ , "c1" : "TaskStateType"
  , "c2" : "stateType()"
  , "c3" : "1"
  , "c4" : "1"

@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "ProcessorSupplier<K1,V1,K1,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "ProcessorSupplier<K1,V1,K1,VOut>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "KStreamGlobalKTableJoin"
+{ "ligne" : { "" : ""
+ , "c1" : "KStreamGlobalKTableJoin"
  , "c2" : "KStreamGlobalKTableJoin(KTableValueGetterSupplier<K2,V2>;ValueJoinerWithKey<?superK1,?superV1,?superV2,?extendsVOut>;KeyValueMapper<?superK1,?superV1,?extendsK2>;boolean)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "Processor<K1,V1,K1,VOut>"
+{ "ligne" : { "" : ""
+ , "c1" : "Processor<K1,V1,K1,VOut>"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00009"
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.html#9"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00009] The class KStreamGlobalKTableJoin contains no field, constructor, finalize. Must contain only static methods, check it"

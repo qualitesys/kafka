@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "AbstractRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractRequest"
  , "c2" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest"
 }} 
 ]
@@ -17,29 +17,29 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "DescribeUserScramCredentialsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeUserScramCredentialsRequest"
  , "c2" : "DescribeUserScramCredentialsRequest(DescribeUserScramCredentialsRequestData;short)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeUserScramCredentialsRequest"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeUserScramCredentialsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "DescribeUserScramCredentialsRequestData"
+{ "ligne" : { "" : ""
+ , "c1" : "DescribeUserScramCredentialsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "AbstractResponse"
+{ "ligne" : { "" : ""
+ , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
  , "c4" : "4"
@@ -77,15 +77,15 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MINOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
  , "c4" : "1"
@@ -93,29 +93,29 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00022"
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00022] For method build arguments short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00041"
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#41"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00041] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00052"
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#52"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00052] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00052"
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#52"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00052] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN150146"

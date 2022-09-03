@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "java.lang.Object"
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
  , "c2" : "org.apache.kafka.metadata.placement.ClusterDescriber"
 }} 
 ]
@@ -17,8 +17,8 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.placement.ClusterDescriber" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "Iterator<UsableBroker>"
+{ "ligne" : { "" : ""
+ , "c1" : "Iterator<UsableBroker>"
  , "c2" : "usableBrokers()"
  , "c3" : "1"
  , "c4" : "1"

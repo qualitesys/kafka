@@ -8,8 +8,8 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : "RetriableException"
+{ "ligne" : { "" : ""
+ , "c1" : "RetriableException"
  , "c2" : "org.apache.kafka.common.errors.NotControllerException"
 }} 
 ]
@@ -17,15 +17,15 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NotControllerException" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : "NotControllerException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotControllerException"
  , "c2" : "NotControllerException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "NotControllerException"
+{ "ligne" : { "" : ""
+ , "c1" : "NotControllerException"
  , "c2" : "NotControllerException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
